@@ -4,7 +4,7 @@
     <name>Zauber</name>
     <description>Zauber aus dem Spielerhandbuch.</description>
     <author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <file name="zauber.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/zauber.xml" />
     </update>
   </info>
@@ -4877,7 +4877,7 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="SAGENKUNDE" type="Spell" source="Spielerhandbuch" id="ID_PHB_SPELL_LEGEND_LORE">
+  <element name="Sagenkunde" type="Spell" source="Spielerhandbuch" id="ID_PHB_SPELL_LEGEND_LORE">
     <supports>Bard, Cleric, Wizard</supports>
     <description>
       <p>Benenne oder beschreibe eine Person, einen Ort oder einen Gegenstand. Der Zauber erfüllt deinen Verstand mit einer kurzen Zusammenfassung des bedeutenden Wissens über die ausgewählte Sache. Die Kunde könnte aus aktuellen Geschichten, vergessenen Erzählungen oder sogar geheimem Wissen bestehen, das niemals allgemein bekannt war. Wenn die Sache, die du ausgewählt hast, nicht von legendärer Bedeutung ist, erhältst du keine Informationen. Je mehr Informationen du bereits über die Sache zur Verfügung hast, umso präziser und detaillierter ist das Wissen, das du erhältst.</p>
