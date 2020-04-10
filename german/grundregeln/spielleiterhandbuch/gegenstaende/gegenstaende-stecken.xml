@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Zauberstecken</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="gegenstaende-stecken.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielleiterhandbuch/gegenstaende/gegenstaende-stecken.xml" />
+		</update>
+	</info>
+	<element name="Zauberstecken der Heilung" type="Magic Item" source="Spielleiterhandbuch" id="ID_WOTC_DMG_MAGIC_ITEM_STAFF_OF_HEALING">
+		<description>
+			<p>Dieser Zauberstecken hat 10 Ladungen. Während du ihn hälst, kannst du eine Aktion verwenden, um 1 oder mehrere seiner Ladungen zu verbrauchen und mit ihm einen der folgenden Zauber wirken, der deinen Zauberrettungswurf-SG und deinen Zaubermodifikator benutzt: <em>Wunden heilen</em> (1 Ladung pro Grad, bis zu Grad 4), <em>Schwache Genesung</em> (2 Ladungen) oder <em>Massen-Wundenheilen</em> (5 Ladungen).</p>
+			<p class="indent">Der Zauberstecken erhält zu jeder Morgendämmerung 1W6 + 4 verbrauchte Ladungen zurück. Wenn du die letzte Ladung verbrauchst, wirf einen W20. Bei einer 1 verschwindet der Zauberstecken in einem hellen Lichtblitz und ist für immer verloren.</p>
+		</description>
+		<setters>
+			<set name="keywords">bard, cleric, druid</set>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement" addition="by a bard, cleric, or druid">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">10</set>
+		</setters>
+	</element>
+</elements>

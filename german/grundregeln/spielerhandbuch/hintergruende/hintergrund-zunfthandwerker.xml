@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Zunfthandwerker</name>
+		<description>Der Hintergrund Zunfthandwerker aus dem Spielerhandbuch</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.6">
+			<file name="hintergrund-zunfthandwerker.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-zunfthandwerker.xml" />
+		</update>
+	</info>
+
+	<element name="Zunfthandwerker" type="Background" source="Spielerhandbuch" id="ID_BACKGROUND_GUILD_ARTISAN">
+		<description>
+			<p>Als Angehöriger einer Handwerkszunft bist du in einem bestimmten handwerklichen Gebiet sehr begabt und arbeitest eng mit anderen Mitgliedern deines Berufsstandes zusammen. Du bist ein gut etablierter Teil der gewerblichen Welt und besitzt einen festen Platz in der feudalen Gesellschaftsordnung. Deine Fähigkeiten hast du als Lehrling bei einem Meister deines Handwerks gelernt und sie anschließend verbessert, bis du durch die Unterstützung deiner Zunft selbst den Grad eines Meisters erlangtest.</p>
+			<ul class="unstyled">
+				<li><strong>Geübt in folgenden Fertigkeiten:</strong> Motiv erkennen, Überzeugen</li>
+				<li><strong>Geübt im Umgang mit folgenden Werkzeugen:</strong> ein Handwerkszeug deiner Wahl</li>
+				<li><strong>Sprachen:</strong> eine Sprache deiner Wahl</li>
+				<li><strong>Ausrüstung:</strong> ein beliebiger Satz Handwerkszeug, ein Empfehlungsschreiben deiner Gilde, ein Satz Reisekleidung, eine Börse mit 15 GM</li>
+			</ul>
+			<h5>BERUFSSTAND</h5>
+			<p>Zünfte findet man im Allgemeinen in Städten, die groß genug sind, um einige Handwerker zu unterhalten, die dem gleichen Geschäft nachgehen. Deine Zunft könnte aber auch ein loses Netzwerk von Handwerkern sein, die alle in unterschiedlichen Dörfern in einem großen Reich verteilt arbeiten. Lege gemeinsam mit deinem SL die Art deiner Zunft fest. Suche dir auch den Berufsstand deiner Zunft aus oder bestimme ihn mit Hilfe der Tabelle unten zufällig.</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">W20</td><td>Berufsstand</td></tr>
+				</thead>
+				<tr><td>1</td><td>Alchemisten und Apotheker</td></tr>
+				<tr><td>2</td><td>Waffenschmiede, Schlosser und Goldschmiede</td></tr>
+				<tr><td>3</td><td>Brauer, Brenner und Winzer</td></tr>
+				<tr><td>4</td><td>Kalligraphen, Schreiber und Amtsschreiber</td></tr>
+				<tr><td>5</td><td>Zimmermänner, Dachdecker und Pflasterer</td></tr>
+				<tr><td>6</td><td>Kartographen und Landvermesser</td></tr>
+				<tr><td>7</td><td>Schuster und Schuhmacher</td></tr>
+				<tr><td>8</td><td>Köche und Bäcker</td></tr>
+				<tr><td>9</td><td>Glasbläser und Glaser</td></tr>
+				<tr><td>10</td><td>Juweliere und Edelsteinschleifer</td></tr>
+				<tr><td>11</td><td>Lederer, Gerber und Kürschner</td></tr>
+				<tr><td>12</td><td>Maurer und Steinmetze</td></tr>
+				<tr><td>13</td><td>Maler, Schildmacher und Graveure</td></tr>
+				<tr><td>14</td><td>Töpfer und Fliesenmacher</td></tr>
+				<tr><td>15</td><td>Schiffsbauer und Segelmacher</td></tr>
+				<tr><td>16</td><td>Schmiede und Metallgießer</td></tr>
+				<tr><td>17</td><td>Gießer, Zinnmacher und Kesselflicker</td></tr>
+				<tr><td>18</td><td>Wagenmacher und Wagner</td></tr>
+				<tr><td>19</td><td>Weber und Färber</td></tr>
+				<tr><td>20</td><td>Bildhauer, Bogenbauer und Böttcher</td></tr>
+			</table>
+			<p>Als Mitglied einer Zunft beherrschst du alle notwendigen Fähigkeiten, um aus Rohmaterialien fertige Produkte zu erstellen (dies entspricht deiner Übung in bestimmten Werkzeugen). Außerdem bist du vertraut mit den Prinzipien des Handels und mit vorteilhaften Geschäftspraktiken. Die Frage, die sich nun stellt, ist, ob du dein Handwerk zugunsten eines Lebens als Abenteurer aufgegeben hast oder du den zusätzlichen Aufwand in Kauf nimmst, um beidem zugleich nachgehen zu können.</p>
+			<div element="ID_BACKGROUND_FEATURE_GUILD_MEMBERSHIP" />
+			<h5>EMPFOHLENE CHARAKTERISTIKA</h5>
+			<p>Zunfthandwerker zählen zu den gewöhnlichsten Leuten der Welt — bis sie ihre Werkzeuge an den Nagel hängen und ein Leben als Abenteurer beginnen. Sie kennen den Wert von harter Arbeit und die Bedeutung von Gemeinschaft, doch sie sind anfällig für die Sünden der Habgier und des Neids.</p>
+			<h4>VARIANTE DES ZUNFTHANDWERKERS: GILDENKAUFMANN</h4>
+			<p>Anstatt einer Handwerkszunft anzugehören, könntest du auch das Mitglied einer Gilde von Händlern, Karawanenmeistern oder Ladenbesitzern sein. Du stellst Gegenstände nicht selbst her, sondern verdienst deinen Lebensunterhalt damit, dass du die Produkte anderer kaufst und verkaufst (oder die Rohmaterialien, die Handwerker benötigen, um ihrem Gewerbe nachzugehen). Deine Gilde könnte ein großes Kaufmannskonsortium sein (oder eine Familie), dessen Betriebe über eine bestimmte Region verteilt sind. Vielleicht hast du Güter per Schiff. Karren oder mit einer Karawane von Ort zu Ort transportiert oder sie in deinem eigenen kleinen Geschäft verkauft. Das Leben eines fahrenden Händlers führt viel eher zu dem eines Abenteurers als das eines Handwerkers. Anstatt mit einem Handwerkszeug umgehen zu können, bist du vielleicht geübt mit Navigationswerkzeugen oder beherrscht eine weitere Sprache. Optional kannst du auch einen Esel und einen Karren statt eines Handwerkszeugs besitzen.</p>
+		</description>
+		<setters>
+			<set name="short">Motiv erkennen, Überzeugen, Handwerkszeug, Sprache</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<select type="Proficiency" name="Tool Proficiency (Zunfthandwerker)" supports="Artisan tools" requirements="!ID_BACKGROUND_VARIANT_GUILD_MERCHANT"/>
+			<select type="Language" name="Sprache (Zunfthandwerker)" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_GUILD_MEMBERSHIP" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variante des Zunfthandwerkers" supports="Variant Guild Artisan" optional="true" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select name="Berufsstand" type="List" optional="true">
+				<item id="1">Alchemisten und Apotheker</item>
+				<item id="2">Waffenschmiede, Schlosser und Goldschmiede</item>
+				<item id="3">Brauer, Brenner und Winzer</item>
+				<item id="4">Kalligraphen, Schreiber und Amtsschreiber</item>
+				<item id="5">Zimmermänner, Dachdecker und Pflasterer</item>
+				<item id="6">Kartographen und Landvermesser</item>
+				<item id="7">Schuster und Schuhmacher</item>
+				<item id="8">Köche und Bäcker</item>
+				<item id="9">Glasbläser und Glaser</item>
+				<item id="10">Juweliere und Edelsteinschleifer</item>
+				<item id="11">Lederer, Gerber und Kürschner</item>
+				<item id="12">Maurer und Steinmetze</item>
+				<item id="13">Maler, Schildmacher und Graveure</item>
+				<item id="14">Töpfer und Fliesenmacher</item>
+				<item id="15">Schiffsbauer und Segelmacher</item>
+				<item id="16">Schmiede und Metallgießer</item>
+				<item id="17">Gießer, Zinnmacher und Kesselflicker</item>
+				<item id="18">Wagenmacher und Wagner</item>
+				<item id="19">Weber und Färber</item>
+				<item id="20">Bildhauer, Bogenbauer und Böttcher</item>
+			</select>
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">Ich bin ein Perfektionist und glaube daran, dass man alles, was man tut, ordentlich machen sollte.</item>
+				<item id="2">Ich blicke auf jene herab, die gute Handwerkskunst nicht zu schätzen wissen.</item>
+				<item id="3">Ich bin neugierig und will stets herausfinden, wie die Dinge funktionieren und was die Leute motiviert.</item>
+				<item id="4">Ich kenne unzählige schlaue Aphorismen und zu jeder Situation ein passendes Sprichwort.</item>
+				<item id="5">Ich behandle diejenigen schlecht, die meine Hingabe an harte Arbeit und soziales Verhalten nicht teilen.</item>
+				<item id="6">Ich liebe es, ausgiebig über meinen Beruf zu reden.</item>
+				<item id="7">Ich trenne mich nicht gern von meinem Geld und feilsche unermüdlich, um den bestmöglichen Preis zu erzielen.</item>
+				<item id="8">Ich bin weithin für meine gute Arbeit bekannt und es ist mir wichtig, dass jeder sie wertschätzt. Es trifft mich hart, wenn jemand noch nie von mir gehört hat.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Gemeinschaft. Es ist die Pflicht der zivilisierten Bevölkerung, die Bande der Gemeinschaft zu stärken und die Sicherheit der Gesellschaft zu gewährleisten. (rechtschaffen)</item>
+				<item id="2">Großzügigkeit. Meine Talente wurden mir zuteil, um der Welt von Nutzen zu sein. (gut)</item>
+				<item id="3">Freiheit. Jeder sollte die Freiheit besitzen, seiner eigenen Lebensart nachzugehen. (chaotisch)</item>
+				<item id="4">Gier. Ich mache alles nur des Geldes wegen. (böse)</item>
+				<item id="5">Freundschaft. Ich bin denjenigen gegenüber verpflichtet, die mir wichtig sind, nicht moralischen Maßstäben. (neutral)</item>
+				<item id="6">Ehrgeiz. Ich arbeite hart, um der Beste in meiner Zunft zu werden. (jede)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">Die Werkstatt, in der ich mein Gewerbe erlernt habe, ist für mich der wichtigste Ort auf der Welt.</item>
+				<item id="2">Ich habe für jemanden ein großartiges Werk vollendet, nur um dann herauszufinden, dass die Person es nicht wert war. Ich suche noch immer nach jemand Geeignetem.</item>
+				<item id="3">Ich schulde der Zunft sehr viel dafür, dass sie mich zu dem gemacht hat, der ich heute bin</item>
+				<item id="4">Ich strebe nach Reichtum, um mir die Liebe von jemandem zu sichern.</item>
+				<item id="5">Eines Tages werde ich in meine Zunft zurückkehren und ihr beweisen, dass ich der beste Handwerker bin.</item>
+				<item id="6">Ich werde mich an den bösen Mächten rächen, die mein Geschäft zerstört haben und meine Art zu leben ruinierten.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">Ich würde alles tun, um etwas in meine Hände zu bekommen, das äußerst selten oder unbezahlbar ist.</item>
+				<item id="2">Ich bin schnell davon überzeugt, dass mich jemand über den Tisch ziehen will.</item>
+				<item id="3">Niemand darf jemals erfahren, dass ich mit Geld aus der Zunftkasse verschwunden bin.</item>
+				<item id="4">Ich bin nie zufrieden mit dem, was ich habe. Ich will immer mehr.</item>
+				<item id="5">Ich würde töten, um einen Adelstitel zu erlangen.</item>
+				<item id="6">Ich bin schrecklich neidisch auf jeden, der mich in meinem Handwerk übertreffen kann. Wo ich auch hinkomme, bin ich von Rivalen umgeben.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Merkmal: Gilden- oder Zunftmitgliedschaft" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_GUILD_MEMBERSHIP">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Als etabliertes und respektiertes Mitglied einer Gilde (von Kaufleuten) oder einer Zunft (von Handwerkern) kommst du in den Genuss bestimmter Vorzüge. Die anderen Mitglieder deiner Organisation werden dir Kost und Logis gewähren, wenn es nötig ist, und auch deine Beerdigung übernehmen, falls es dazu kommt. In manchen Städten und Dörfern bietet dir eine Gilden-halle oder ein Zunfthaus die Möglichkeit, dich mit anderen Angehörigen deines Berufsstandes zu treffen. Dort können sich auch potenzielle Schutzherren, Verbündete oder Mietlinge aufhalte.</p>
+			<p class="indent">Gilden und Zünfte besitzen oft großen politischen Einfluss. Wenn du eines Verbrechens angeklagt wirst, wird deine Organisation dich unterstützen und versuchen, deine Unschuld zu beweisen. Deine Gilde oder Zunft kann dir auch den Kontakt zu mächtigen politischen Persönlichkeiten ermöglichen, falls du ein Mitglied von gutem Ansehen bist. Solche Kontakte könnten eine Geldspende oder die Schenkung von magischen Gegenständen erfordern. Generell musst du jeden Monat einen Beitrag von 5 GM an die Gilde oder Zunft zahlen. Wenn du Zahlungen auslässt, musst du alle ausstehenden Beträge begleichen, um weiterhin das Wohlwollen deiner Organisation zu genießen</p>
+		</description>
+		<sheet alt="Gilden- oder Zunftmitgliedschaft" />
+	</element>
+
+	<element name="Varinate des Zunfthandwerkers: Gildenkaufmann" type="Background Variant" source="Spielerhandbuch" id="ID_BACKGROUND_VARIANT_GUILD_MERCHANT">
+		<supports>Variant Guild Artisan</supports>
+		<description>
+			<p>Anstatt einer Handwerkszunft anzugehören, könntest du auch das Mitglied einer Gilde von Händlern, Karawanenmeistern oder Ladenbesitzern sein. Du stellst Gegenstände nicht selbst her, sondern verdienst deinen Lebensunterhalt damit, dass du die Produkte anderer kaufst und verkaufst (oder die Rohmaterialien, die Handwerker benötigen, um ihrem Gewerbe nachzugehen). Deine Gilde könnte ein großes Kaufmannskonsortium sein (oder eine Familie), dessen Betriebe über eine bestimmte Region verteilt sind. Vielleicht hast du Güter per Schiff. Karren oder mit einer Karawane von Ort zu Ort transportiert oder sie in deinem eigenen kleinen Geschäft verkauft. Das Leben eines fahrenden Händlers führt viel eher zu dem eines Abenteurers als das eines Handwerkers. Anstatt mit einem Handwerkszeug umgehen zu können, bist du vielleicht geübt mit Navigationswerkzeugen oder beherrscht eine weitere Sprache. Optional kannst du auch einen Esel und einen Karren statt eines Handwerkszeugs besitzen.</p>
+		</description>
+		<sheet alt="Gildenkaufmann" />
+		<rules>
+			<select type="Background Feature" name="Gildenkaufmann Option" supports="Guild Merchant Option" />
+		</rules>
+	</element>
+	<element name="Navigationswerkzeug" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_GUILD_MERCHANT_OPTION_A">
+		<supports>Guild Merchant Option</supports>
+		<description>
+			<p>Anstatt mit einem Handwerkszeug umgehen zu können, bist du vielleicht geübt mit Navigationswerkzeugen oder beherrscht eine weitere Sprache.</p>
+		</description>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS" />
+		</rules>
+	</element>
+	<element name="Zusätzliche Sprache" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_GUILD_MERCHANT_OPTION_B">
+		<supports>Guild Merchant Option</supports>
+		<description>
+			<p>Anstatt mit einem Handwerkszeug umgehen zu können, bist du vielleicht geübt mit Navigationswerkzeugen oder beherrscht eine weitere Sprache.</p>
+		</description>
+		<rules>
+			<select type="Language" name="Sprache (Gildenkaufmann)" supports="Standard||Exotic" />
+		</rules>
+	</element>
+</elements>

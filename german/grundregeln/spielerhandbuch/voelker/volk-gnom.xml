@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Gnom</name>
+		<description></description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.1">
+			<file name="volk-gnom.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-gnom.xml" />
+		</update>
+	</info>
+
+  <element name="Gnom" type="Race" source="Spielerhandbuch" id="ID_RACE_GNOME">
+    <description>
+      <p class="flavor">Wo Gnome ihre eng verbundenen Gemeinschaften bilden, erfüllt ein konstantes Brummen von geschäftiger Aktivität die Nachbarschaft. Laute Geräusche durchbrechen das Summen: das Rattern von schleifenden Zahnrädern hier, eine kleine Explosion dort, ein Schrei der Überraschung oder des Erfolgs, untermalt mit schallendem Gelächter. Gnome genießen das Leben in vollen Zügen und erfreuen sich an jedem Moment, den sie mit Erfindung, Entdeckung, Forschung, kreativer Arbeit oder Spiel verbringen.</p>
+      <h4>LEBHAFTER AUSDRUCK</h4>
+      <p>Die Hingabe und die Begeisterung eines Gnoms für das Leben spricht aus jeder Faser seines winzigen Körpers. Gnome sind im Durchschnitt etwa 90 cm groß und wiegen 40-45 Pfund. Ihre eher dunkelhäutigen Gesichter sind für gewöhnlich mit einem breiten Lächeln geschmückt (das auch von ihren gewaltigen Nasen nicht verdeckt wird) und ihre hellen Augen strahlen vor Lebensfreude. Das blonde Haar der Gnome neigt dazu. in alle Richtungen abzustehen, als ob es das unersättliche Interesse seines Besitzers an allem. was ihn umgibt. zum Ausdruck bringen wollte.</p>
+      <p class="indent">Bereits an der Erscheinung lässt sich die Persönlichkeit eines Gnoms erkennen. Der Bart eines männlichen Gnoms ist im Kontrast zu seinem wilden Haar sorgfältig gestutzt, doch oft auch in seltsame Gabelungen oder zu kleinen Spitzen geformt. Die Kleidung, die für gewöhnlich in Erdtönen gehalten ist, wird hingebungsvoll mit Stickereien, Handarbeiten und glitzernden Edelsteinen verziert.</p>
+      <h4>VERGNÜGTE HINGABE</h4>
+      <p>Soweit es Gnome betrifft, gibt es nichts Wundervolleres, als am Leben zu sein. Aus den drei- bis fünfhundert Jahren, die ihnen gegeben sind, quetschen sie noch das letzte Quäntchen Glück. Menschen mögen sich wundern, wie man es schafft, sich über die Dauer eines so langen Lebens nicht zu langweilen. Elfen wiederum kosten in aller Ruhe die Schönheit der Welt aus. Gnome jedoch scheinen sich trotz all der Zeit, über die sie verfügen, nur darum zu sorgen, dass sie nicht genug sehen und erleben könnten.</p>
+      <p class="indent">Sie sprechen, als ob sie die Gedanken nicht schnell genug aus dem Kopf bekommen könnten. Selbst wenn sie ihre Meinungen und Ideen mehrfach darlegen, schaffen sie es jedes Mal, dem Gegenüber genau zuzuhören und die angemessenen Ausdrücke der Überraschung oder der Anerkennung anzubringen.</p>
+			<p class="indent">Obwohl Gnome Scherze jeder Art lieben, besonders Streiche und Wortspiele, sind sie ebenso engagiert bei ernsteren Vorhaben. Viele Gnome sind fähige Ingenieure, Alchemisten, Tüftler und Erfinder. Sie scheuen sich nicht. Fehler zu machen, und können über diese und sich selbst lachen. Auch gehen sie gewagte (manchmal törichte) Risiken ein und träumen von großen Zielen.</p>
+			<h4>HELLE BAUTEN</h4>
+      <p>Gnome richten sich ihre Heime in hügeligen, waldbewachsenen Gegenden ein. Sie leben unterirdisch, erfreuen sich jedoch an der natürlichen, lebendigen Welt der Oberfläche, wann immer sie können. Ihre Behausungen sind entweder durch deren schlaue Konstruktion oder durch geschickte Illusion verborgen. Gäste werden schnell in die hellen Bauten hineingeführt. Besucher, die nicht willkommen sind, finden diese oft erst gar nicht.</p>
+      <p class="indent">Gnome, die sich in Siedlungen der Menschen niedergelassen haben, arbeiten meist als Edelsteinschleifer, Ingenieure oder Tüftler. Manche Menschenfamilien unterhalten gnomisehe Lehrmeister, die sicherstellen, dass ihre Schüler sowohl etwas lernen als auch Spaß dabei haben. Mitunter kommt es vor, dass ein Gnom im Laufe seines langen Lebens mehrere Generationen einer einzelnen Menschenfamilie unterrichtet.</p>
+			<h4>DIE WELT ENTDECKEN</h4>
+      <p>Neugierige und impulsive Gnome könnten Abenteuer als Weg erachten, die Welt zu entdecken oder ihre Liebe zum Erkunden auszuleben. Als Bewunderer schöner Edelsteine und anderer wertvoller Gegenstände halten manche Gnome das Abenteurerleben für einen schnellen, wenn auch gefährlichen Weg, Reichtum zu erlangen. Gleichgültig, was sie dazu treibt, auf Abenteuer auszuziehen, so versuchen Gnome, die sich für diesen Lebensstil entscheiden, auch daraus so viel Freude wie möglich zu gewinnen. Manchmal macht sie das zu einer großen Belastung für ihre Kameraden.</p>
+      <p class="indent">Gnome, die sich in Siedlungen der Menschen niedergelassen haben, arbeiten meist als Edelsteinschleifer, Ingenieure oder Tüftler. Manche Menschenfamilien unterhalten gnomisehe Lehrmeister, die sicherstellen, dass ihre Schüler sowohl etwas lernen als auch Spaß dabei haben. Mitunter kommt es vor, dass ein Gnom im Laufe seines langen Lebens mehrere Generationen einer einzelnen Menschenfamilie unterrichtet.</p>
+      <h4>NAMEN DER GNOME</h4>
+      <p>Gnome lieben Namen, und die meisten besitzen davon etwa ein halbes Dutzend. Die Mutter, der Vater, die Klanältesten, Onkel und Tanten, jeder gibt dem Neugeborenen einen Namen. Dazu kommen unzählige Spitznamen, die beibehalten werden — oder eben nicht. Gnomische Namen sind typischer-weise Abwandlungen von Namen der Vorfahren oder entfernten Verwandten, auch wenn einige völlige Neuschöpfungen sind. Falls Gnome mit Menschen oder anderen zu tun haben, die "erbsenzählerisch" in Bezug auf Namen sind, verwenden sie nicht mehr als drei: den Vornamen, den Klannamen und einen Spitznamen. von denen sie sich jeweils denjenigen aussuchen, dessen Aussprache am lustigsten ist.</p>
+      <p>
+        <span class="emphasis">Männliche Vornamen:</span>Alston, Alvyn, Boddynock, Brocc, Burgell, Dimble, Eldon, Erky, Fonkin, Frug, Gerbo, Gimble, Glim, Jebeddo, Kellen, Namfoodle, Orryn, Roondar, Seebo, Sindri, Warryn, Zock<br/>
+        <span class="emphasis">Weibliche Vornamen:</span>Bimpnottin, Breena, Caramip, Carlin, Donella, Duvamil, Ella, Ellyjobell, Ellywick, Lilli, Loopmottin, Lorilla, Mardnab, Nissa, Nyx, Oda, Orla, Roywyn, Shamil, Tana, Waywocket, Zanna<br/>
+        <span class="emphasis">Klannamen:</span>Beren, Daergel, Folkor, Garrick, Nackle, Murnig, Ningel, Raulnor, Scheppen, Timbers, Turen<br/>
+        <span class="emphasis">Spitznamen:</span>Bierschwap, Aschenherz, Dachs, Mantel, Doppelschloss, Schuftenschläger, Fnipper, Ku, Nim, Einschuh, Pock, Glitterstein, Entenstolperer<br/>
+      </p>
+      <h4>MERKMALE DER GNOME</h4>
+      <p>Dein gnomischer Charakter teilt einige Eigenschaften mit allen anderen Gnomen.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Intelligenzwert wird um 2 Punkte erhöht.<br />
+        <span class="feature">Alter:</span>Gnome sind genauso schnell entwickelt wie Menschen und erreichen mit ungefähr 40 Jahren das Erwachsenenalter. Sie werden zwischen 350 und fast 500 Jahren alt.<br />
+        <span class="feature">Gesinnung:</span>Gnome sind meist guter Gesinnung. Diejenigen, die eher rechtschaffen sind, werden Weise, Ingenieure, Forscher, Lehrmeister, Ermittler oder Erfinder. Diejenigen, die zum Chaos neigen, leben oft als Minnesänger, Trickdiebe, Wanderer oder fantasievolle Juweliere. Gnome sind gutherzig, und sogar die Trickdiebe unter ihnen sind eher verspielt als böswillig.<br />
+        <span class="feature">Größe:</span>Gnome werden zwischen 90 cm und 120 cm groß bei einem Gewicht von etwa 40 Pfund. Deine Größenkategorie ist klein.<br />
+        <span class="feature">Bewegungsrate:</span>Deine Grundbewegungsrate beträgt 7,50 m.<br />
+        <span class="feature">Dunkelsicht:</span>Das Leben unter der Erde hat dazu geführt, dass Gnome selbst bei schlechten Lichtverhältnissen hervorragend sehen können. Behandle im Umkreis von 18 m dämmriges Licht wie helles Licht und Dunkelheit wie dämmriges Licht. Allerdings kannst du im Dunkeln keine Farben erkennen, nur Graustufen.<br />
+        <span class="feature">Gnomische Gerissenheit:</span>Du bist im Vorteil bei, allen Rettungswürfen gegen Magie, wenn sie auf Intelligenz, Weisheit oder Charisma basieren.<br />
+        <span class="feature">Sprachen:</span>Du kannst sowohl Gnomisch als auch die Gemeinsprache lesen, schreiben und sprechen. Die gnomische Sprache bedient sich der zwergischen Schrift. Gnomische Literatur.<br />
+        <span class="feature">Volksunterarten:</span>Es gibt zwei Volksunterarten der Gnome in den Welten von DUNGEONS &amp; DRAGONS: Felsengnome und Waldgnome. Wähle eine dieser beiden Unterarten.<br />
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Alston, Alvyn, Boddynock, Brocc, Burgell, Dimble, Eldon, Erky, Fonkin, Frug, Gerbo, Gimble, Glim, Jebeddo, Kellen, Namfoodle, Orryn, Roondar, Seebo, Sindri, Warryn, Wrenn, Zook</set>
+      <set name="names" type="female">Bimpnottin, Breena, Caramip, Carlin, Donella, Duvamil, Ella, Ellyjobell, Ellywick, Lilli, Loopmottin, Lorilla, Mardnab, Nissa, Nyx, Oda, Orla, Roywyn, Shamil, Tana, Waywocket, Zanna</set>
+      <set name="names" type="clan">Beren, Daergel, Folkor, Garrick, Nackle, Murnig, Ningel, Raulnor, Scheppen, Timbers, Turen</set>
+      <set name="names" type="nickname">Bierschwap, Aschenherz, Dachs, Mantel, Doppelschloss, Schuftenschläger, Fnipper, Ku, Nim, Einschuh, Pock, Glitterstein, Entenstolperer</set>
+      <set name="names-format">{{name}} '{{nickname}}' {{clan}}</set>
+      <set name="height" modifier="2d4">2'11"</set>
+      <set name="weight" modifier="1">35 lb.</set>
+    </setters>
+    <rules>
+      <stat name="intelligence" value="2" />
+      <stat name="innate speed" value="25" bonus="base" />
+      <grant type="Size" id="ID_SIZE_SMALL" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_GNOME_CUNNING" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_GNOMISH" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_GNOME_SUBRACE" />
+    </rules>
+  </element>
+
+  <element name="Gnomische Gerissenheit" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_GNOME_CUNNING">
+    <description>
+      <p>Du bist im Vorteil bei, allen Rettungswürfen gegen Magie, wenn sie auf Intelligenz, Weisheit oder Charisma basieren.</p>
+    </description>
+    <sheet>
+      <description>Du bist im Vorteil bei, allen Rettungswürfen gegen Magie, wenn sie auf Intelligenz, Weisheit oder Charisma basieren.</description>
+    </sheet>
+  </element>
+  <element name="Gnomische Volksunterart" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_GNOME_SUBRACE">
+    <description>
+      <p>Es gibt zwei Volksunterarten der Gnome in den Welten von DUNGEONS &amp; DRAGONS: Felsengnome und Waldgnome. Wähle eine dieser beiden Unterarten.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Sub Race" name="Gnomische Volksunterart" supports="Gnome" />
+    </rules>
+  </element>
+
+  <element name="Waldgnom" type="Sub Race" source="Spielerhandbuch" id="ID_SUB_RACE_FOREST_GNOME">
+    <supports>Gnome</supports>
+    <description>
+      <p>Als Waldgnom verfügst du über eine natürliche Begabung für Illusionen, außerdem wohnt dir eine gewisse Schnelligkeit und Heimlichkeit inne. In der Welt von DUNGEONS &amp; DRAGONS sind Waldgnome selten und von einem gewissen Mysterium umgeben. Sie leben in versteckten Gemeinschaften in dunklen Wäldern und nutzen Illusion und Täuschung, um sich vor Bedrohungen zu schützen oder ihre Flucht zu verschleiern, falls sie entdeckt werden. Waldgnome begegnen anderen gutgesinnten Waldbewohnern freundlich, Elfen und gute Feenwesen sehen sie als ihre wichtigsten Verbündeten an. Oft freunden sich diese Gnome mit kleinen Waldtieren an und verlassen sich auf deren Hilfe, um Gefahren frühzeitig zu erkennen, die über ihr Land hereinbrechen könnten.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Geschicklichkeitswert wird um 1 Punkt erhöht.<br />
+        <span class="feature">Geborene Illusionisten:</span>Du beherrschst den Zaubertrick <i>Einfache Illusion</i>. Das Attribut, mit dem du diesen wirkst, ist Intelligenz.<br />
+        <span class="feature">Tierflüsterer:</span>Durch Laute und Gesten kannst du einfache Gedanken mit kleinen oder winzigen Tieren austauschen. Waldgnome lieben Tiere und halten sich oft Eichhörnchen, Dachse, Hasen, Maulwürfe, Spechte oder andere Kreaturen des Waldes als loyale Haustiere.<br />
+      </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="dexterity" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURAL_ILLUSIONIST" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS" />
+    </rules>
+  </element>
+
+  <element name="Geborener Illusionist" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_NATURAL_ILLUSIONIST">
+    <description>
+      <p>Du beherrschst den Zaubertrick <i>Einfache Illusion</i>. Das Attribut, mit dem du diesen wirkst, ist Intelligenz.</p>
+    </description>
+    <sheet>
+      <description>Du beherrschst den Zaubertrick <i>Einfache Illusion</i>. Das Attribut, mit dem du diesen wirkst, ist Intelligenz.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />
+    </rules>
+  </element>
+  <element name="Tierflüsterer" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS">
+    <description>
+      <p>Durch Laute und Gesten kannst du einfache Gedanken mit kleinen oder winzigen Tieren austauschen. Waldgnome lieben Tiere und halten sich oft Eichhörnchen, Dachse, Hasen, Maulwürfe, Spechte oder andere Kreaturen des Waldes als loyale Haustiere.</p>
+    </description>
+    <sheet>
+      <description>Durch Laute und Gesten kannst du einfache Gedanken mit kleinen oder winzigen Tieren austauschen. Waldgnome lieben Tiere und halten sich oft Eichhörnchen, Dachse, Hasen, Maulwürfe, Spechte oder andere Kreaturen des Waldes als loyale Haustiere.</description>
+    </sheet>
+  </element>
+
+  <element name="Felsgnom" type="Sub Race" source="Spielerhandbuch" id="ID_SUB_RACE_ROCK_GNOME">
+    <supports>Gnome</supports>
+    <description>
+      <p>Als Felsengnom besitzt du einen natürlichen Einfallsreichtum und eine Zähigkeit, die über die der anderen Gnome hinausgeht. Felsengnome machen den Großteil der gnomischen Bevölkerung aus. Dazu gehören etwa auch die Tüftlergnome in der Welt der Drachenlanze.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Konstitutionswert wird um 1 Punkt erhöht.<br />
+        <span class="feature">Artefaktkunde:</span>Immer wenn du einen Wurf auf Intelligenz (Geschichte) ablegst, der mit magischen Gegenständen, alchemistischen Objekten oder technischen Gerätschaften zu tun hat, darfst du deinen doppelten Übungsbonus anstatt des einfachen zum Wurf addieren.<br />
+        <span class="feature">Tüftler:</span>Du bist geübt im Umgang mit Handwerkszeug (Tüftlerwerkzeug). Wendest du sowohl 1 Stunde Zeit als auch 10 GM an Material auf, kannst du mit diesem Werkzeug ein winziges aufziehbares Gerät konstruieren (RK 5, TP 1). Dieses wird nach 24 Stunden aufhören zu funktionieren (außer du wendest 1 Stunde Arbeitszeit auf, um es funktionstüchtig zu halten). Alternativ kannt du eine Aktion nutzen, um es zu demontieren. Beim Demontieren gewinnst du die Materialien zurück, die zur Herstellung nötig waren. Du kannst bis zu drei aktive Geräte gleichzeitig besitzen.<br />
+      </p>
+      <p>Wähle bei der Herstellung aus folgenden Möglichkeiten:</p>
+      <p style="margin-left:20px;">
+        <span style="font-style:italic;padding-right:5px;padding-left:-20px;">Aufziehspielzeug:</span>Dein aufziehbares Spielzeug kann ein Tier, Monster oder eine Person darstellen, wie etwa einen Frosch, eine Maus, einen Vogel, einen Drachen oder einen Soldaten. Wird es auf den Boden gesetzt, bewegt sich das Spielzeug in jedem deiner Züge 1,50 m in eine zufällige Richtung. Dabei macht es passende Geräusche zu der Kreatur, die es darstellt.<br />
+        <span style="font-style:italic;padding-right:5px;padding-left:-20px;">Anzünder:</span>Das Gerät erzeugt eine kleine Flamme, mit der man eine Kerze, eine Fackel oder ein Lagerfeuer entzünden kann. Das Gerät zu verwenden, kostet dich eine Aktion.<br />
+        <span style="font-style:italic;padding-right:5px;padding-left:-20px;">Spieluhr:</span>Wird die Spieluhr geöffnet, ertönt ein Lied in moderater Lautstärke. Die Musik endet mit dem Lied oder wenn man das Gerät wieder schließt.<br />
+      </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="constitution" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ARTIFICERS_LORE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_TINKER" />
+    </rules>
+  </element>
+
+  <element name="Artefaktkunde" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_ARTIFICERS_LORE">
+    <description>
+      <p>Immer wenn du einen Wurf auf Intelligenz (Geschichte) ablegst, der mit magischen Gegenständen, alchemistischen Objekten oder technischen Gerätschaften zu tun hat, darfst du deinen doppelten Übungsbonus anstatt des einfachen zum Wurf addieren.</p>
+    </description>
+    <sheet>
+      <description>Immer wenn du einen Wurf auf Intelligenz (Geschichte) ablegst, der mit magischen Gegenständen, alchemistischen Objekten oder technischen Gerätschaften zu tun hat, darfst du deinen doppelten Übungsbonus anstatt des einfachen zum Wurf addieren.</description>
+    </sheet>
+  </element>
+  <element name="Tüftler" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_TINKER">
+    <description>
+      <p>Du bist geübt im Umgang mit Handwerkszeug (Tüftlerwerkzeug). Wendest du sowohl 1 Stunde Zeit als auch 10 GM an Material auf, kannst du mit diesem Werkzeug ein winziges aufziehbares Gerät konstruieren (RK 5, TP 1). Dieses wird nach 24 Stunden aufhören zu funktionieren (außer du wendest 1 Stunde Arbeitszeit auf, um es funktionstüchtig zu halten). Alternativ kannt du eine Aktion nutzen, um es zu demontieren. Beim Demontieren gewinnst du die Materialien zurück, die zur Herstellung nötig waren. Du kannst bis zu drei aktive Geräte gleichzeitig besitzen.</p>
+    </description>
+    <sheet>
+      <description>Du bist geübt im Umgang mit Handwerkszeug (Tüftlerwerkzeug). Du kannst mit diesem Werkzeug ein winziges aufziehbares Gerät konstruieren. Du kannst bis zu drei aktive Geräte gleichzeitig besitzen.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
+    </rules>
+  </element>
+</elements>

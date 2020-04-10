@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Tiefling</name>
+		<description></description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.1">
+			<file name="volk-tiefling.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-tiefling.xml" />
+		</update>
+	</info>
+
+  <element name="Tiefling" type="Race" source="Spielerhandbuch" id="ID_RACE_TIEFLING">
+    <description>
+      <p class="flavor">Durch Getuschel und Blicke begrüßt zu werden, Beleidigungen und Gewalt in der Öffentlichkeit ausgesetzt zu sein, das Misstrauen und die Angst in jedermanns Augen zu sehen, das ist das Los der Tieflinge. Schlimmer ist noch, dass die Tieflinge wissen, was der Grund für diese Angst ist: ein Pakt, der vor Generationen geschlossen wurde und bei dem die Essenz von Asmodeus, dem Erzteufel der Neun Höllen, in ihre Blutlinie geflossen ist. Sie tragen keine Schuld an ihrem Erscheinungsbild und ihrer Natur, beides ist die Folge einer uralten Sünde, für die sie, ihre Kinder und ihre Kindeskinder auf ewig in Rechenschaft gezogen werden.</p>
+      <h4>INFERNALISCHE BLUTLINIE</h4>
+      <p>Die Tieflinge entsprangen einst einer menschlichen Blutlinie und sehen im weitesten Sinne noch wie Menschen aus. Ihr infernalisches Erbe jedoch hat einen deutlichen Einfluss auf ihre Erscheinung. Tieflinge besitzen lange Hörner, die eine Vielzahl von Formen aufweisen können: Manche sind gedreht wie die eines Widders, andere gerade und spitz wie die einer Gazelle, wieder andere spiralförmig wie die einer Antilope. Auffällig sind auch die dicken Schwänze, an die 120 cm bis 150 cm lang, die sich um ihre Beine wickeln, wenn sie nervös oder aufgeregt werden. Ihre Eckzähne sind spitz zulaufend und ihre Augen einfarbig schwarz, rot, weiß, silber oder goldfarben ohne erkennbare Sklera oder Pupille. Die Hautfarbe eines Tieflings bewegt sich im gesamten Spektrum menschlicher Tönungen, beinhaltet aber auch verschiedene Schattierungen von Rot. Ihr hinter den Hörnern wachsendes Haar ist in der Regel dunkel, von schwarz über braun bis zu dunkelrot, blau oder purpurfarben.</p>
+      <h4>SELBSTBEWUSST UND ARGWÖHNISCH</h4>
+      <p>Tieflinge leben in kleinen Gemeinschaften zusammen, die am ehesten in den Städten und Dörfern der Menschen zu finden sind, und dort meist in den rauesten Gegenden, in denen sie als Schwindler, Diebe und Verbrecherkönige aufwachsen. Manchmal lassen sie sich in den Enklaven anderer Minderheiten nieder, wo sie mit mehr Respekt behandelt werden. Da ihnen ein sichere Heimat fehlt, müssen sich Tieflinge ihren eigenen Weg in der Welt erkämpfen und stark sein, um zu überleben. Sie fassen nicht leicht Vertrauen zu jemandem, auch wenn dieser behauptet, ihr Freund zu sein. Merkt ein Tiefling allerdings dass seine Begleiter zu ihm halten, lernt er, ihnen ebenfalls Vertrauen entgegenzubringen. Hat er erst einmal eine Verbindung zu jemandem aufgebaut, ist er ein verlässlicher Freund oder Verbündeter ein Leben lang.</p>
+      <h4>NAMEN DER TIEFLINGE</h4>
+      <p>Meist tragen Tieflinge Namen, die dem Kulturkreis des Volkes angepasst sind, bei dem sie geboren wurden. Manche Tiefling-Eltern geben ihren Kindern auch Namen, die aus dem Infernalischen stammen und die seit Generationen weitergereicht wurden, um deren teuflische Abstammung zu betonen. Einige jüngere Tieflinge, die ihren Platz in der Welt noch nicht gefunden haben, nehmen einen Namen an, der eine ihrer Tugenden oder andere Konzepte beschreibt, die sie zu verkörpern versuchen. Manchen ist der gewählte Name eine edle Aufgabe, anderen eine düstere Bestimmung.</p>
+      <p>
+        <span class="emphasis">Männliche infernalische Namen:</span>Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai<br/>
+        <span class="emphasis">Weibliche infernalische Namen:</span>Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta<br/>
+        <span class="emphasis">„Tugend"-Namen:</span>Aas, Aufgabe, Bedauern, Exzellenz, Frechheit, Furcht, Gebet, Hoffnung, Hoffnungslos, Kredo, Kunst, Müde, Musik, Nirgendwo, Offen, Poesie, Qual, Ruhm, Verehrung, Vorbild, Zufall<br/>
+      </p>
+      <h4>MERKMALE DER TIEFLINGE</h4>
+      <p>Als Folge ihrer infernalischen Abstammung teilen sich alle Tieflinge bestimmte Volksmerkmale.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Intelligenzwert wird um 1 Punkt erhöht, dein Charismawert um 2 Punkte.<br/>
+        <span class="feature">Alter:</span>Tieflinge werden genauso schnell erwachsen wie Menschen, leben jedoch einige wenige Jahre länger.<br/>
+        <span class="feature">Gesinnung:</span>Tieflinge besitzen zwar keine angeborene Tendenz zum Bösen, doch viele von ihnen enden bei einer solchen Lebensanschauung. Böse oder nicht, ihre unabhängige Natur lässt sie oft eine chaotische Gesinnung annehmen.<br/>
+        <span class="feature">Größe:</span>Tieflinge sind etwa so groß wie Menschen und ähnlich gebaut. Deine Größenkategorie ist mittelgroß.<br/>
+        <span class="feature">Bewegungsrate:</span>Deine Grundbewegungsrate beträgt 9 m.<br/>
+        <span class="feature">Dunkelsicht:</span>Dank deines infernalischen Erbes besitzt du eine überlegene Sicht in dunklen und dämmrigen Lichtverhältnissen. Behandle im Umkreis von 18 m dämmriges Licht wie helles Licht und Dunkelheit wie dämmriges Licht. Allerdings kannst du im Dunkeln keine Farben erkennen, nur Graustufen.<br/>
+        <span class="feature">Höllische Resistenz:</span>Du besitzt eine Resistenz gegen Feuerschaden.<br/>
+        <span class="feature">Infernalisches Erbe:</span>Du beherrscht den Zaubertrick <i>Thaumaturgie</i>. Ab der 3. Stufe kannst du dank dieses Merkmals den Spruch <i>Höllischer Tadel</i> des 2. Grades einmal wirken. Du musst eine lange Rast beenden, bevor du dies erneut kannst. Mit Erreichen der 5. Stufe bist du in der Lage, den Zauber <i>Dunkelheit</i> auf die gleiche Weise einzusetzen. Das Attribut, mit dem du diese Zauber wirkst, ist Charisma.<br/>
+        <span class="feature">Sprachen:</span>Du kannst Infernalisch und die Gemeinsprache lesen, schreiben und sprechen.<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</set>
+      <set name="names" type="female">Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</set>
+      <set name="names" type="virtue">Aas, Aufgabe, Bedauern, Exzellenz, Frechheit, Furcht, Gebet, Hoffnung, Hoffnungslos, Kredo, Kunst, Müde, Musik, Nirgendwo, Offen, Poesie, Qual, Ruhm, Verehrung, Vorbild, Zufall</set>
+      <set name="names-format">{{name}} “{{virtue}}”</set>
+      <set name="height" modifier="2d8">4'9"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="intelligence" value="1" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
+      <stat name="charisma" value="2" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_INFERNAL" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE"/>
+      <select type="Sub Race" name="Tiefling Subrace" supports="Tiefling" optional="true" />
+
+      <!--<select type="Race Variant" name="Tiefling Variant" supports="Tiefling" optional="true"/>-->
+    </rules>
+  </element>
+
+  <element name="Höllische Resistenz" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE">
+    <description>
+      <p>Du besitzt eine Resistenz gegen Feuerschaden.</p>
+    </description>
+    <sheet>
+      <description>Du besitzt eine Resistenz gegen Feuerschaden.</description>
+    </sheet>
+    <rules>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+    </rules>
+  </element>
+  <element name="Infernalisches Erbe" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY">
+    <description>
+      <p>Du beherrscht den Zaubertrick <i>Thaumaturgie</i>. Ab der 3. Stufe kannst du dank dieses Merkmals den Spruch <i>Höllischer Tadel</i> des 2. Grades einmal wirken. Du musst eine lange Rast beenden, bevor du dies erneut kannst. Mit Erreichen der 5. Stufe bist du in der Lage, den Zauber <i>Dunkelheit</i> auf die gleiche Weise einzusetzen. Das Attribut, mit dem du diese Zauber wirkst, ist Charisma.</p>
+    </description>
+    <sheet usage="je 1/Lange Rast">
+      <description>Du beherrscht den Zaubertrick <i>Thaumaturgie</i>. Das Attribut, mit dem du diese Zauber wirkst, ist Charisma.</description>
+			<description level="3">Du beherrscht den Zaubertrick <i>Thaumaturgie</i> und den Zauber des 2. Grades <i>Höllischer Tadel</i>. Das Attribut, mit dem du diese Zauber wirkst, ist Charisma.</description>
+			<description level="5">Du beherrscht den Zaubertrick <i>Thaumaturgie</i> und die Zauber des 2. Grades <i>Höllischer Tadel</i> und <i>Dunkelheit</i>. Das Attribut, mit dem du diese Zauber wirkst, ist Charisma.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+      <grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="3"/>
+      <grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5"/>
+    </rules>
+  </element>
+
+  <!-- an element that you should grant in a subrace so that you can override stats/infernal legacy -->
+  <element name="Tiefling Subrace" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
+
+</elements>

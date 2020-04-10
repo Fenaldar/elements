@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Rüstungen</name>
+		<description></description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.3">
+			<file name="gegenstaende-ruestungen.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gegenstaende/gegenstaende-ruestungen.xml" />
+		</update>
+	</info>
+
+	<!-- light armor -->
+	<element name="gefütterte Rüstung" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_LIGHT_PADDED">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p>Gefütterte beziehungsweise wattierte Rüstungen bestehen aus verwobenen Schichten von Stoff und Futtermaterial.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="8">8 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">11 + Dex modifier</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="11" />
+		</rules>
+	</element>
+	<element name="Lederrüstung" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p>Brust- und Schulterschutz dieser Rüstung sind aus Leder gemacht, das versteift wurde, bevor man es in Öl gekocht hat. Die übrigen Teile der Rüstung sind aus weichem und flexiblen Materialien gefertigt.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">11 + Dex modifier</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="11" />
+		</rules>
+	</element>
+	<element name="beschlagene Lederrüstung" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p>Diese Rüstung wurde aus strapazierfähigem oder flexiblem Leder hergestellt und mit eng aneinanderliegenden Nieten oder Stacheln verstärkt.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">45</set>
+			<set name="weight" lb="13">13 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">12 + Dex modifier</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="12" />
+		</rules>
+	</element>
+
+	<!-- medium armor -->
+	<element name="Fellrüstung" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_MEDIUM_HIDE_ARMOR">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>Diese primitive Rüstung besteht aus dicken Pelzen und Tierhäuten. Sie wird für gewöhnlich von Barbarenstämmen, bösen Humanoiden und anderen Individuen getragen, die keinen Zugang zu Werkzeugen und Materialien für die Herstellung von besserer Rüstung besitzen.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="12">12 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Medium</set>
+			<set name="armorClass">12 + Dex modifier (max 2)</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="12" />
+		</rules>
+	</element>
+	<element name="Kettenhemd" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_MEDIUM_CHAIN_SHIRT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>Aus ineinandergreifenden Metallringen gearbeitet, wird das Kettenhemd über Schichten aus Stoff oder Leder getragen. Diese Rüstung bietet dem Oberkörper des Trägers wirksam Schutz und dämpft durch äußere Schichten das Geräusch der aneinanderschlagenden Ringe.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="20">20 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Medium</set>
+			<set name="armorClass">13 + Dex modifier (max 2)</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="13" />
+		</rules>
+	</element>
+	<element name="Schuppenpanzer" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>Ein Schuppenpanzer setzt sich aus einem Mantel und Hosenbeinen (oder einem separaten Rock) aus Leder zusammen, die mit sich überlappenden Metallsegmenten bedeckt sind, ganz wie die Schuppen eines Fisches. Zur Rüstung gehören Handschuhe.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="45">45 lb.</set>
+			<set name="armor">Medium</set>
+			<set name="slot">body</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">14 + Dex modifier (max 2)</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="14" />
+		</rules>
+	</element>
+	<element name="Brustplatte" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_MEDIUM_BREASTPLATE">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>Diese Rüstung besteht aus einem maßgefertigten Brustteil aus Metall, das mit weichem Leder zusammen getragen wird. Obwohl sie die Arme und Beine relativ ungeschützt lässt, bietet diese Rüstung guten Schutz für die lebenswichtigen Organe des Trägers, während sie ihn in seiner Bewegung nur wenig einschränkt.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">400</set>
+			<set name="weight" lb="20">20 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Medium</set>
+			<set name="armorClass">14 + Dex modifier (max 2)</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="14" />
+		</rules>
+	</element>
+	<element name="Plattenpanzer" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_MEDIUM_HALF_PLATE">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>Ein Plattenpanzer besteht aus geformten Metallplatten, die den Großteil des Körpers bedecken. Als Beinschutz verfügt er nur über einfache Schienen, die mit Lederriemen befestigt sind.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">750</set>
+			<set name="weight" lb="40">40 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Medium</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">15 + Dex modifier (max 2)</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="15" />
+		</rules>
+	</element>
+
+	<!-- heavy armor -->
+	<element name="Ringpanzer" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_HEAVY_RING_MAIL">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p>In diese Lederrüstung wurden massive Ringe aus Metall eingenäht, welche die Rüstung gegen Hiebe von Schwertern und Äxten verstärken. Ringpanzer sind von minderer Qualität als Kettenpanzer und werden meist nur von denjenigen getragen, die sich keine bessere Rüstung leisten können.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">30</set>
+			<set name="weight" lb="40">40 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Heavy</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">14</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_RING_MAIL</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="14" />
+		</rules>
+	</element>
+	<element name="Kettenpanzer" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p>Diese Rüstung besteht aus ineinandergreifenden Metallringen mit darunterliegenden Lagen gefütterten Materials. um Prellungen und Schürfwunden durch die Wucht der Schläge zu reduzieren. Dieser Rüstung liegen Handschuhe bei.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="weight" lb="55">55 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Heavy</set>
+			<set name="strength">13</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">16</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_MAIL</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="16" />
+			<stat name="speed" value="-10" bonus="armor" requirements="![str:13]" />
+		</rules>
+	</element>
+	<element name="Schienenpanzer" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_HEAVY_SPLINT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p>Ein Schienenpanzer setzt sich aus schmalen vertikalen Metallstreifen zusammen, die auf einen Träger aus Leder genietet sind, der über einer Lage wattierter Kleidung getragen wird. Flexible Kettenpanzerstücke bedecken die Gelenke.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">200</set>
+			<set name="weight" lb="60">60 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Heavy</set>
+			<set name="strength">15</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">17</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SPLINT</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="17" />
+			<stat name="speed" value="-10" bonus="armor" requirements="![str:15]" />
+		</rules>
+	</element>
+	<element name="Ritterrüstung" type="Armor" source="Spielerhandbuch" id="ID_WOTC_ARMOR_HEAVY_PLATE">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p>Die Ritterrüstung besteht aus geformten, ineinandergreifenden Metallplatten, die den gesamten Körper bedecken. Zu diesem Harnisch gehören Handschuhe, schwere Lederstiefel, ein Helm mit Visier und dicke Lagen von Polsterung unter der Rüstung. Schnallen und Riemen verteilen das Gewicht über den Körper.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">1500</set>
+			<set name="weight" lb="65">65 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Heavy</set>
+			<set name="strength">15</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">18</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_PLATE</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="18" />
+			<stat name="speed" value="-10" bonus="armor" requirements="![str:15]" />
+		</rules>
+	</element>
+
+	<!--shield-->
+	<element name="Schild" type="Armor" source="Spielerhandbuch" id="ID_WOTC_GEAR_SHIELD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>Ein Schild ist aus Holz oder Metall gefertigt und wird in einer Hand getragen. Einen Schild zu führen, erhöht die Rüstungsklasse um 2. Du kannst immer nur von einem Schild gleichzeitig profitieren.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+2</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="2" bonus="shield" />
+		</rules>
+	</element>
+</elements>

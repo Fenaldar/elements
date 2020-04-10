@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Schwur der Läuterung</name>
+		<description>Der Schwur der Läuterung aus Xanathars Ratgeber für alles</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathars Ratgeber für alles</author>
+		<update version="0.0.7">
+			<file name="paladin-laeuterung.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/zubehoer/xanathars-ratgeber-fuer-alles/paladin-laeuterung.xml" />
+		</update>
+	</info>
+	<element name="Schwur der Läuterung" type="Archetype" source="Xanathars Ratgeber für alles" id="ID_WOTC_XGTE_ARCHETYPE_OATH_OF_REDEMPTION">
+		<supports>Heiliger Schwur</supports>
+		<description>
+			<p>Mit dem Schwur der Läuterung schlagen Paladine einen mühsamen Weg ein, der erfordert, dass ein heiliger Krieger nur als letztes Mittel zur Gewalt greift. Die Paladine, die sich diesem Schwur verschreiben, glauben, dass jede Person errettet werden kann und dass ein jeder den Pfad der Güte und der Gerechtigkeit beschreiten kann. Diese Paladine stellen sich bösen Kreaturen, in der Hoffnung ihre Gegner auf die Seite des Lichts zu bringen. Sie erschlagen ihre Feinde nur, wenn eine solche Tat auf jeden Fall das Leben anderer retten wird. Paladine, die diesem Pfad folgen, sind als Läuterer bekannt.</p>
+			<p class="indent">Auch wenn die Läuterer Idealisten sein mögen, sind sie dennoch keine Narren. Sie sind sich bewusst, dass Untote, Dämonen, Teufel und andere übernatürliche Bedrohungen von Natur aus böse sein können. Dementsprechend lassen Paladine, die diesen Eid ablegen, solche Gegner den vollen Zorn ihrer Waffen und Zauber spüren. Doch die Läuterer beten trotz allem, dass eines Tages selbst solch niederträchtige Kreaturen von sich aus nach Läuterung suchen.</p>
+			<h5>LEHREN DER LÄUTERUNG</h5>
+			<p>Die Lehren des Schwurs der Läuterung setzen voraus, dass Paladine sich vollends in den Dienst von Frieden und Gerechtigkeit stellen.</p>
+			<p class="indent"><strong><em>Friede:</em></strong> Gewalt wird nur als letztes Mittel angewandt. Diplomatie und Verständnis sind der Weg zu dauerhaftem Frieden.</p>
+			<p class="indent"><strong><em>Unschuld:</em></strong> Alle Leute sind am Anfang ihres Lebens unschuldig, und durch ihre Umgebung oder den Einfluss der dunklen Mächte werden sie zum Bösen getrieben. Indem du als leuchtendes Beispiel vorangehst und dich bemühst, die Wunden einer mit Makeln behafteten Welt zu heilen, kannst du jeden sicher auf den rechten Weg führen.</p>
+			<p class="indent"><strong><em>Geduld:</em></strong> Wandel braucht Zeit. Jene, die auf dem Weg der Sünder gewandelt sind, brauchen regelmäßige Erinnerungen damit sie ehrlich und aufrichtig bleiben. Wenn du einer Kreatur die Saat der Rechtschaffenheit einpflanzt, musst du dich tagtäglich darum kümmern, damit diese Saat auch wächst und gedeiht.</p>
+			<p class="indent"><strong><em>Weisheit:</em></strong> Du musst ein reines Herz und einen klaren Kopf bewahren, denn es ist unvermeidlich, dass du eines Tages scheitern wirst. Auch wenn jede Kreatur geläutert werden kann, sind einige bereits soweit auf dem Weg des Bösen fortgeschritten, dass dir keine andere Wahl bleibt, als ihrem Leben zum Wohl aller ein Ende zu setzen. Eine solche Tat muss sorgfältig abgewogen und all ihre Folgen bedacht werden, aber wenn du deine Entscheidung einmal gefällt hast, bleibe ihr treu, in dem Wissen, dass dein Pfad der rechte ist.</p>
+			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_OATH_SPELLS" />
+			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_CHANNEL_DIVINITY" />
+			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_AURA_OF_THE_GUARDIAN" />
+			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_PROTECTIVE_SPIRIT" />
+			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_EMISSARY_OF_REDEMPTION" />
+		</description>
+    <sheet display="false">
+			<description>Mit dem Schwur der Läuterung schlagen Paladine einen mühsamen Weg ein, der erfordert, dass ein heiliger Krieger nur als letztes Mittel zur Gewalt greift.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_OATH_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_CHANNEL_DIVINITY" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_AURA_OF_THE_GUARDIAN" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_PROTECTIVE_SPIRIT" level="15" />
+			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_EMISSARY_OF_REDEMPTION" level="20" />
+		</rules>
+	</element>
+
+  <element name="Schwurzauber" type="Archetype Feature" source="Xanathars Ratgeber für alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_OATH_SPELLS">
+    <description>
+			<p>Auf den angegebenen Paladinstufen erhältst du die folgenden Schwurzauber.</p>
+			<h5>SCHUWRZAUBER DER LÄUTERUNG</h5>
+			<table>
+				<thead>
+					<tr><td>Paladinstufe</td><td>Zauber</td></tr>
+				</thead>
+				<tr><td>3</td><td><em>Heiligtum, Schlaf</em></td></tr>
+				<tr><td>5</td><td><em>Gefühle besänftigen, Person festhalten</em></td></tr>
+				<tr><td>9</td><td><em>Gegenzauber, Hypnotisches Muster</em></td></tr>
+				<tr><td>13</td><td><em>Otilukes Unverwüstliche Sphäre, Steinhaut</em></td></tr>
+				<tr><td>17</td><td><em>Monster festhalten, Energiewand</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+      <description>Auf den angegebenen Paladinstufen erhältst du die folgenden Schwurzauber.</description>
+    </sheet>
+    <rules>
+		<grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="3" spellcasting="Paladin" prepared="true" />
+		<grant type="Spell" id="ID_PHB_SPELL_SLEEP" level="3" spellcasting="Paladin" prepared="true" />
+		<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="5" spellcasting="Paladin" prepared="true" />
+		<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5" spellcasting="Paladin" prepared="true" />
+		<grant type="Spell" id="ID_PHB_SPELL_COUNTERSPELL" level="9" spellcasting="Paladin" prepared="true" />
+		<grant type="Spell" id="ID_PHB_SPELL_HYPNOTIC_PATTERN" level="9" spellcasting="Paladin" prepared="true" />
+		<grant type="Spell" id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE" level="13" spellcasting="Paladin" prepared="true" />
+		<grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="13" spellcasting="Paladin" prepared="true" />
+		<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="17" spellcasting="Paladin" prepared="true" />
+		<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" level="17" spellcasting="Paladin" prepared="true" />
+	</rules>
+  </element>
+  <element name="Göttliche Macht fokussieren" type="Archetype Feature" source="Xanathars Ratgeber für alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_CHANNEL_DIVINITY">
+    <description>
+	  <p>Wenn du auf der 3.Stufe diesen Schwur ablegst, erlernst du die folgenden zwei Wege, Göttliche Macht zu fokussieren.</p>
+      <p class="indent"><strong><em>Gesandter des Friedens:</em></strong> Du kannst deine Göttliche Macht fokussieren, um deine Ausstrahlung mit göttlicher Macht zu verstärken. Als eine Bonusaktion kannst du dir selbst für die nächsten 10 Minuten einen Bonus von +5 auf deine Würfe auf Charisma (Überzeugen) geben.</p>
+      <p class="indent"><strong><em>Gewalt bestrafen:</em></strong> Du kannst deine Göttliche Macht fokussieren, um jene zu bestrafen, die Gewalt anwenden. Sofort nachdem ein Angreifer innerhalb von 9 m um dich herum jemand anderem als dir mit einem Angriff Schaden zufügt, kannst du deine Reaktion nutzen, um den Angreifer einen Weisheitsrettungswurf ablegen zu lassen. Bei einem gescheiterten Wurf erleidet der Angreifer gleißenden Schaden in Höhe des Schadens, den er gerade zugefügt hat. Bei einem erfolgreichen Wurf erleidet er die Hälfte dieses Schadens.</p>
+    </description>
+		<sheet usage="1/Kurze Rast">
+      <description></description>
+    </sheet>
+	<rules>
+		<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_CHANNEL_DIVINITY_EMISSARY_OF_PEACE" />
+		<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_CHANNEL_DIVINITY_REBUKE_THE_VIOLENT" />
+	</rules>
+  </element>
+  <element name="Göttliche Macht fokussieren: Gesandter des Friedens" type="Archetype Feature" source="Xanathars Ratgeber für alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_CHANNEL_DIVINITY_EMISSARY_OF_PEACE">
+    <description>
+      <p>Du kannst deine Göttliche Macht fokussieren, um deine Ausstrahlung mit göttlicher Macht zu verstärken. Als eine Bonusaktion kannst du dir selbst für die nächsten 10 Minuten einen Bonus von +5 auf deine Würfe auf Charisma (Überzeugen) geben.</p>
+    </description>
+    <sheet alt="Gesandter des Friedens" action="Bonusaktion" usage="Göttliche Macht fokussieren">
+      <description>Du kannst dir selbst für die nächsten 10 Minuten einen Bonus von +5 auf deine Würfe auf Charisma (Überzeugen) geben.</description>
+    </sheet>
+  </element>
+  <element name="Göttliche Macht fokussieren: Gewalt bestrafen" type="Archetype Feature" source="Xanathars Ratgeber für alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_CHANNEL_DIVINITY_REBUKE_THE_VIOLENT">
+    <description>
+      <p>Du kannst deine Göttliche Macht fokussieren, um jene zu bestrafen, die Gewalt anwenden. Sofort nachdem ein Angreifer innerhalb von 9 m um dich herum jemand anderem als dir mit einem Angriff Schaden zufügt, kannst du deine Reaktion nutzen, um den Angreifer einen Weisheitsrettungswurf ablegen zu lassen. Bei einem gescheiterten Wurf erleidet der Angreifer gleißenden Schaden in Höhe des Schadens, den er gerade zugefügt hat. Bei einem erfolgreichen Wurf erleidet er die Hälfte dieses Schadens.</p>
+    </description>
+    <sheet alt="Gewalt bestrafen" action="Reaktion" usage="Göttliche Macht fokussieren">
+      <description>Sofort nachdem ein Angreifer innerhalb von 9 m um dich herum jemand anderem als dir mit einem Angriff Schaden zufügt, kannst du den Angreifer einen Weisheitsrettungswurf ablegen lassen. Bei einem gescheiterten Wurf erleidet der Angreifer gleißenden Schaden in Höhe des Schadens, den er gerade zugefügt hat. Bei einem erfolgreichen Wurf erleidet er die Hälfte dieses Schadens.</description>
+    </sheet>
+  </element>
+  <element name="Aura des Wächster" type="Archetype Feature" source="Xanathars Ratgeber für alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_AURA_OF_THE_GUARDIAN">
+    <description>
+      <p>Beginnend mit der 7. Stufe bist du fähig, andere auf Kosten deiner eigenen Gesundheit vor Schaden zu bewahren. Wenn eine Kreatur innerhalb von 3 m um dich herum Schaden erleidet, kannst du deine Reaktion nutzen, um diesen Schaden auf magische Weise anstelle der Kreatur zu erleiden. Dieses Merkmal überträgt andere Effekte, die mit dem Schaden einhergehen, nicht, und dieser Schaden kann nicht reduziert werden.</p>
+      <p class="indent">Auf der 18. Stufe vergrößert sich die Reichweite der Aura auf 9 m.</p>
+    </description>
+    <sheet action="Reaktion">
+      <description>Wenn eine Kreatur innerhalb von {{aura of the guardian:aura}} m um dich herum Schaden erleidet, kannst du diesen Schaden auf magische Weise anstelle der Kreatur erleiden. Dieses Merkmal überträgt andere Effekte, die mit dem Schaden einhergehen, nicht, und dieser Schaden kann nicht reduziert werden.</description>
+    </sheet>
+    <rules>
+		<stat name="aura of the guardian:aura" value="3" bonus="aura of the guardian" />
+		<stat name="aura of the guardian:aura" value="9" bonus="aura of the guardian" level="18" />
+	</rules>
+  </element>
+  <element name="Schützender Geist" type="Archetype Feature" source="Xanathars Ratgeber für alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_PROTECTIVE_SPIRIT">
+    <description>
+      <p>Ab der 15. Stufe heilt eine heilige Entität deine Wunden im Kampf. Du erhältst Trefferpunkte in Höhe von 1W6 + deiner halben Paladinstufe zurück, wenn du deinen Zug im Kampf mit weniger als der Hälfte deiner Trefferpunkte beendest und nicht kampfunfähig bist.</p>
+      <p class="indent"></p>
+    </description>
+    <sheet>
+      <description>Du erhältst 1W6+{{level:paladin:half}} Trefferpunkte zurück, wenn du deinen Zug im Kampf mit weniger als der Hälfte deiner Trefferpunkte beendest und nicht kampfunfähig bist.</description>
+    </sheet>
+  </element>
+  <element name="Gesandter der Läuterung" type="Archetype Feature" source="Xanathars Ratgeber für alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_REDEMPTION_EMISSARY_OF_REDEMPTION">
+    <description>
+      <p>Auf der 20. Stufe wirst du zur lebenden Verkörperung des Friedens, wodurch dir zwei Vorzüge gewährt werden:</p>
+	  <ul>
+	  	<li>Du erhältst Resistenz gegen jedweden Schaden, den andere Kreaturen verursachen (ihre Angriffe, Zauber und andere Effekte).</li>
+	  	<li>Immer, wenn eine Kreatur dich mit einem Angriff trifft, erleidet sie gleißenden Schaden in Höhe des halben Schadens, den du durch den Angriff erleidest.</li>
+	  </ul>
+      <p>Wenn du eine Kreatur angreifst, einen Zauber auf sie wirkst oder ihr Schaden aus einer anderen Quelle als diesem Merkmal zufügst, kannst du diese Vorzüge erst wieder gegen diese Kreatur einsetzen, nachdem du eine lange Rast beendet hast.</p>
+    </description>
+    <sheet>
+      <description>Du erhältst Resistenz gegen jedweden Schaden, den andere Kreaturen verursachen. Immer, wenn eine Kreatur dich mit einem Angriff trifft, erleidet sie gleißenden Schaden in Höhe des halben Schadens, den du durch den Angriff erleidest.
+			Wenn du eine Kreatur angreifst, einen Zauber auf sie wirkst oder ihr Schaden aus einer anderen Quelle als diesem Merkmal zufügst, kannst du diese Vorzüge erst wieder gegen diese Kreatur einsetzen, nachdem du eine lange Rast beendet hast.</description>
+    </sheet>
+  </element>
+</elements>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Halbelf</name>
+		<description></description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.2">
+			<file name="volk-halbelf.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-halbelf.xml" />
+		</update>
+	</info>
+
+  <element name="Halbelf" type="Race" source="Spielerhandbuch" id="ID_RACE_HALFELF">
+    <description>
+      <p class="flavor">Sie leben in zwei Welten und gehören doch keiner der beiden wirklich an. Halbelfen vereinen die besten Eigenschaften ihrer elfischen und menschlichen Eltern: Neugier, Erfindungsgeist und Ambitioniertheit der Menschen gemischt mit den scharfen Sinnen, der Liebe zur Natur und dem künstlerischen Geschmack der Elfen. Manche Halbelfen leben unter Menschen, von denen sie sich durch ihre Gefiihlsbetontheit und ihre körperlichen Unterschiede absetzen, und wo sie Freunde und Geliebte altern sehen, während sie selbst kaum vom Lauf der Zeit betroffen sind. Andere wählen ein Leben in einem Reich der Elfen, deren Zeitlosigkeit sie ruhelos werden lässt. Viele Halbelfen haben Schwierigkeiten, sich in einer dieser Gesellschaften einzugliedern, und wählen daher ein Leben als Wanderer und Abenteurer entweder in Einsamkeit oder gemeinsam mit anderen Außenseitern und Ausgestoßenen.</p>
+      <h4>AUS ZWEI WELTEN</h4>
+      <p>Für Menschen sehen Halbelfen wie Elfen aus, für Elfen wie Menschen. Von der Größe her liegen sie zwischen ihren Eltern, auch wenn sie weder so schlank wie Elfen noch so breit gebaut wie Menschen sind. Sie werden zwischen 150 cm und etwa 180 cm groß und wiegen dabei 100-180 Pfund, wobei Männer nur ein wenig größer und schwerer sind als Frauen. Halbelfenmänner besitzen eine Gesichtsbehaarung und lassen sich manchmal einen Bart wachsen, um ihre elfi sehe Herkunft zu verbergen. Die Züge und Hautfarben der Halbelfen liegen irgendwo zwischen ihren elfischen und menschlichen Eltern und zeigen eine Vielfalt, die noch ausgeprägter ist als jene, die bei beiden Völkern zu finden ist. Sie neigen dazu, die Augenfarbe ihres elfischen Elternteils zu erben.</p>
+      <h4>DIPLOMATEN UND WANDERER</h4>
+      <p>Es gibt keine Nation der Halbelfen, doch sind sie in den Städten der Menschen willkommen, auch wenn sie in den Wäldern der Elfen etwas weniger gern gesehen werden. In großen Städten und in Gegenden, in denen Elfen und Menschen sich gegenseitig beeinflussen, sind Halbelfen manchmal so zahlreich, dass sie eigene kleine Gemeinschaften bilden. Sie mögen die Gesellschaft anderer Halbelfen, da diese die einzigen sind, die wirklich verstehen, was es bedeutet, zwischen beiden Welten zu leben.</p>
+      <p class="indent">In den meisten Teilen der Welt sind Halbelfen jedoch so selten, dass Jahre vergehen können, ohne dass sie auf einen anderen treffen. Manche ziehen es vor, bewohnte Gebiete zu meiden, und wandern als Fallensteller, Förster, Jäger oder Abenteurer durch die Wildnis und statten der Zivilisation nur selten einen Besuch ab. Wie ihre elfischen Vettern lassen sich diese Halbelfen von der Wanderlust treiben, die ihre Langlebigkeit mit sich bringt. Andere hingegen stürzen sich voll in die Gesellschaft und nutzen ihr Charisma und ihre sozialen Fertigkeiten als Diplomaten oder Betrüger.</p>
+      <h4>NAMEN DER HALBELFEN</h4>
+      <p>Halbelfen verwenden entweder die menschliche oder die elfische Namensgebung. Als ob sie ihr Dasein als Außenseiter betonen wollten, nehmen Halbelfen, die unter Menschen groß werden, häufig elfische Namen an und Halbelfen, die bei Elfen aufwachsen, oft menschliche.</p>
+      <h4>MERKMALE DER HALBELFEN</h4>
+      <p>Dein Halbelfcharakter teilt manche Eigenschaften mit den Elfen, andere sind einzigartig für sein Volk.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Charismawert wird um 2 Punkte erhöht. Außerdem steigen zwei weitere Attributswerte deiner Wahl um je l Punkt an.<br/>
+        <span class="feature">Alter:</span>Halbelfen entwickeln sich in der gleichen Geschwindigkeit wie Menschen und erreichen das Erwachsenenalter mit etwa 20 Jahren. Sie leben jedoch viel länger als Menschen und werden oft älter als 180 Jahre.<br/>
+        <span class="feature">Gesinnung:</span>Halbelfen besitzen die chaotische Neigung ihrer elfischen Vorfahren. Sie schätzen sowohl persönliche Freiheit als auch den kreativen Ausdruck, weder hegen sie Sympathien für Anführer noch legen sie Wert auf Gefolge. Oft scheren sie sich nicht um Regeln, missachten die Ansprüche anderer und erweisen sich manchmal als unzuverlässig oder zumindest unberechenbar.<br/>
+        <span class="feature">Größe:</span>Halbelfen sind etwa so groß wie Menschen, also zwischen 150 cm und 180 cm. Deine Größenkategorie ist mittelgroß.<br/>
+        <span class="feature">Bewegungsrate:</span>Deine Grundbewegungsrate beträgt 9 m.<br/>
+        <span class="feature">Dunkelsicht:</span>Dank deines elfischen Blutes besitzt du eine überlegene Sicht in dunklen und dämmrigen Lichtverhältnissen. Behandle im Umkreis von 18 m dämmriges Licht wie helles Licht und Dunkelheit wie dämmriges Licht. Allerdings kannst du im Dunkeln keine Farben erkennen, nur Graustufen.<br/>
+        <span class="feature">Feenblut:</span>Du bist bei Rettungswürfen gegen Bezauberungen im Vorteil und immun gegen Schlafzauber.<br/>
+        <span class="feature">Vielseitigkeit:</span>Du bist geübt in zwei Fertigkeiten deiner Wahl.<br/>
+        <span class="feature">Sprachen:</span>Du kannst Elfisch, die Gemeinsprache und eine weitere Sprache deiner Wahl lesen, schreiben und sprechen.<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric , Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
+      <set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
+      <set name="names" type="surname">Brightwood, Helder, Hornraven, Lackman, Stormwind, Windrivver, Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
+      <set name="names-format">{{name}} {{surname}}</set>
+      <set name="height" modifier="2d8">4'9"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="charisma" value="2"/>
+      <select type="Racial Trait" name="Attributswerterhöhung (Halbelf)" supports="Half-Elf" number="2" />
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_ELVISH" />
+      <select type="Language" name="Sprache (Halbelf)" supports="Standard||Exotic" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFELF_FEY_ANCESTRY" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SKILL_VERSATILITY" requirements="!ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF"/>
+      <select type="Race Variant" name="Half-Elf Variant" supports="Half-Elf Variant" optional="true" />
+    </rules>
+  </element>
+
+  <element name="Feenblut" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_HALFELF_FEY_ANCESTRY">
+    <description>
+      <p>Du bist bei Rettungswürfen gegen Bezauberungen im Vorteil und immun gegen Schlafzauber.</p>
+    </description>
+    <sheet>
+      <description>Du bist bei Rettungswürfen gegen Bezauberungen im Vorteil und immun gegen Schlafzauber.</description>
+    </sheet>
+  </element>
+  <element name="Vielseitigkeit" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_SKILL_VERSATILITY">
+    <description>
+      <p>Du bist geübt in zwei Fertigkeiten deiner Wahl.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Proficiency" name="Geübte Fertigkeit (Halbelf)" supports="Skill" number="2" />
+    </rules>
+  </element>
+
+
+  <element name="Attributswerterhöhung (Stärke)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_HALFELF_STRENGTH">
+		<compendium display="false" />
+    <supports>Half-Elf</supports>
+    <description>
+      <p>Deine Stärke erhöht sich um 1.</p>
+    </description>
+		<sheet display="false"/>
+    <rules>
+      <stat name="strength" value="1"/>
+    </rules>
+  </element>
+
+  <element name="Attributswerterhöhung (Geschicklichkeit)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_HALFELF_DEXTERITY">
+		<compendium display="false" />
+    <supports>Half-Elf</supports>
+    <description>
+      <p>Deine Geschicklichkeit erhöht sich um 1.</p>
+    </description>
+    <sheet display="false"/>
+		<rules>
+      <stat name="dexterity" value="1"/>
+    </rules>
+  </element>
+
+  <element name="Attributswerterhöhung (Konstitution)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_HALFELF_CONSTITUTION">
+		<compendium display="false" />
+    <supports>Half-Elf</supports>
+    <description>
+      <p>Deine Konstitution erhöht sich um 1.</p>
+    </description>
+		<sheet display="false"/>
+    <rules>
+      <stat name="constitution" value="1"/>
+    </rules>
+  </element>
+
+  <element name="Attributswerterhöhung (Intelligenz)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_HALFELF_INTELLIGENCE">
+		<compendium display="false" />
+    <supports>Half-Elf</supports>
+    <description>
+      <p>Deine Intelligenz erhöht sich um 1.</p>
+    </description>
+		<sheet display="false"/>
+    <rules>
+      <stat name="intelligence" value="1"/>
+    </rules>
+  </element>
+
+  <element name="Attributswerterhöhung (Weisheit)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_HALFELF_WISDOM">
+		<compendium display="false" />
+    <supports>Half-Elf</supports>
+    <description>
+      <p>Deine Weisheit erhöht sich um 1.</p>
+    </description>
+		<sheet display="false"/>
+    <rules>
+      <stat name="wisdom" value="1"/>
+    </rules>
+  </element>
+</elements>

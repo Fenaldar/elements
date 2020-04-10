@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wundersame Gegenstände</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.2">
+			<file name="gegenstaende-wundersame.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielleiterhandbuch/gegenstaende/gegenstaende-wundersame.xml" />
+		</update>
+	</info>
+	<element name="Umhang des Schutzes" type="Magic Item" source="Spielleiterhandbuch" id="ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_PROTECTION">
+		<description>
+			<p>Du erhälst einen Bonus von +1 auf deine Rüstungsklasse und Rettungswürfe, solange du diesen Umhang trägst.</p>
+		</description>
+		<setters>
+			<set name="keywords">cloak, armor, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">shoulders</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" />
+			<stat name="strength:save:misc" value="1" />
+			<stat name="dexterity:save:misc" value="1" />
+			<stat name="constitution:save:misc" value="1" />
+			<stat name="intelligence:save:misc" value="1" />
+			<stat name="wisdom:save:misc" value="1" />
+			<stat name="charisma:save:misc" value="1" />
+		</rules>
+	</element>
+</elements>

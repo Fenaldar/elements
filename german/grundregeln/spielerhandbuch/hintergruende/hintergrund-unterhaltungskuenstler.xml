@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Unterhaltungskünstler</name>
+		<description>Der Hintergrund Unterhaltungskünstler aus dem Spielerhandbuch</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.5">
+			<file name="hintergrund-unterhaltungskuenstler.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-unterhaltungskuenstler.xml" />
+		</update>
+	</info>
+
+	<element name="Unterhaltungskünstler" type="Background" source="Spielerhandbuch" id="ID_BACKGROUND_ENTERTAINER">
+		<description>
+			<p>Du blühst vor einem Publikum auf. Du weißt, wie man es fasziniert, wie man es unterhält und sogar wie man es inspiriert. Deine Poesie vermag die Herzen zu rühren, Trauer oder Freude auszulösen und Gelächter oder Wut hervorzurufen. Deine Musik heitert auf oder nährt Schmerz. Deine Tanzschritte sind faszinierend, dein Humor ist ansteckend. Weiche Technik du auch anwendest, deine Kunst ist dein Leben.</p>
+			<ul class="unstyled">
+				<li><strong>Geübt in folgenden Fertigkeiten:</strong> Akrobatik, Auftreten</li>
+				<li><strong>Geübt im Umgang mit folgenden Werkzeugen:</strong> Verkleidungsausrüstung, eine Art von Musikinstrument</li>
+				<li><strong>Ausrüstung:</strong> ein Musikinstrument (deiner Wahl), das Geschenk eines Verehrers (Liebesbrief, Haarlocke oder ein Stück Tand), ein Kostüm, ein Beutel mit 15 GM</li>
+			</ul>
+			<h5>UNTERHALTUNGSPROGRAMM</h5>
+			<p>Ein guter Unterhaltungskünstler ist vielseitig und würzt seine Auftritte mit einer Vielzahl verschiedener Kunststücke. Wähle aus der Tabelle ein bis drei Kunststücke aus oder würfle mit einem W10, um zu bestimmen, welche Art von Unterhaltungsprogramm dein Spezialgebiet ist.</p>
+			<table>
+				<thead>
+					<tr><td class="col-10">W10</td><td>Unterhaltungsprogramm</td></tr>
+				</thead>
+				<tr><td>1</td><td>Schauspiel</td></tr>
+				<tr><td>2</td><td>Tanz</td></tr>
+				<tr><td>3</td><td>Feuerschlucken</td></tr>
+				<tr><td>4</td><td>Possenreißen</td></tr>
+				<tr><td>5</td><td>Jonglage</td></tr>
+				<tr><td>6</td><td>Musik</td></tr>
+				<tr><td>7</td><td>Poesie</td></tr>
+				<tr><td>8</td><td>Gesang</td></tr>
+				<tr><td>9</td><td>Geschichten erzählen</td></tr>
+				<tr><td>10</td><td>Bodenakrobatik</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_BY_POPULAR_DEMAND" />
+			<h5>EMPFOHLENE CHARAKTERISTIKA</h5>
+			<p>Erfolgreiche Unterhaltungskünstler müssen in der Lage sein, die Aufmerksamkeit des Publikums sowohl zu erlangen als auch zu behalten, daher neigen sie dazu. extravagante oder starke Persönlichkeiten zu besitzen. Sie tendieren zu romantischen Vorstellungen und streben oft hochtrabende Ideale an, wenn es um die Ausübung ihrer Kunst und die Wertschätzung des Schönen geht.</p>
+			<h4>VARIANTE DES UNTERHALTUNGSKÜNSTLERS: GLADIATOR</h4>
+			<p>Ein Gladiator ist ebenso sehr ein Unterhaltungskünstler wie ein Minnesänger oder ein Zirkusartist. Seine Kunst ist es, den Kampf zur Schau zu stellen und daraus zur Freude der Menge ein Spektakel zu machen. Diese Art von protzigem Kampf ist dein Unterhaltungsprogramm, auch wenn du zudem vielleicht noch über Fähigkeiten als Schauspieler oder Bodenakrobat verfügst. Mit deinem Merkmal Auf vielfachen Wunsch kannst du einen Ort ausfindig machen, an dem Kämpfe zu Unterhaltungszwecken veranstaltet werden. Dabei könnte es sich um eine Gladiatorenarena handeln oder einen Ort für geheime Grubenkämpfe. Ersetze das Musikinstrument in deiner Anfangsausrüstung durch eine ungewöhnliche, aber günstige Waffe, wie beispielsweise ein Netz oder einen Dreizack.</p>
+		</description>
+		<setters>
+			<set name="short">Akrobatik, Auftreten, Verkleidungsausrüstung, Musikinstrument</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+			<select type="Proficiency" name="Musikinstrument (Unterhaltungskünstler)" supports="Musical Instrument" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_BY_POPULAR_DEMAND" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variante des Unterhaltungskünstlers" supports="Variant Entertainer" optional="true" />
+			<select type="Background Feature" name="Merkmalvariante" supports="Optional Background Feature" optional="true" />
+			<select name="Unterhaltungsprogramm" type="List" optional="true">
+				<item id="1">Schauspiel</item>
+				<item id="2">Tanz</item>
+				<item id="3">Feuerschlucken</item>
+				<item id="4">Possenreißen</item>
+				<item id="5">Jonglage</item>
+				<item id="6">Musik</item>
+				<item id="7">Poesie</item>
+				<item id="8">Gesang</item>
+				<item id="9">Geschichten erzählen</item>
+				<item id="10">Bodenakrobatik</item>
+			</select>
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">Ich kenne zu fast jeder Situation eine passende Geschichte.</item>
+				<item id="2">Wenn ich an einen neuen Ort komme, sammle ich Gerüchte und verbreite Tratsch.</item>
+				<item id="3">Ich bin ein hoffnungsloser Romantiker und bin immer auf der Suche nach der einen besonderen Person.</item>
+				<item id="4">Niemand kann lange auf mich oder in meiner Nähe wütend sein, da ich jede Art von Spannung sofort verfliegen lasse.</item>
+ 				<item id="5">Ich liebe gute Beleidigungen, sogar wenn sie gegen mich gerichtet sind.</item>
+				<item id="6">Ich bin eingeschnappt, wenn ich nicht der Mittelpunkt der Aufmerksamkeit bin.</item>
+				<item id="7">Ich strebe nach nichts Geringerem als der Perfektion.</item>
+				<item id="8">Ich ändere meine Stimmung oder meine Meinung so schnell wie die Akkorde in einem Lied.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Schönheit. Indem ich auftrete, mache ich die Welt besser, als sie vorher war. (gut)</item>
+				<item id="2">Tradition. Die Geschichten, Legenden und Lieder der Vergangenheit dürfen niemals in Vergessenheit geraten, da sie uns lehren, wer wir sind. (rechtschaffen)</item>
+				<item id="3">Kreativität. Die Welt braucht neue Ideen und gewagte Aktionen. (chaotisch)</item>
+				<item id="4">Gier. ich mache alles nur des Ruhmes und des Geldes wegen. (böse)</item>
+				<item id="5">Publikum. Ich liebe es, ein Lächeln auf den Gesichtern der Zuschauer zu sehen, wenn ich auftrete. Das ist alles, was zählt. (neutral)</item>
+				<item id="6">Ehrlichkeit. Kunst sollte die Seele widerspiegeln. Sie sollte aus dem tiefsten Inneren kommen und enthüllen, wer wir wirklich sind. (jede)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">Mein Instrument ist mein wertvollster Besitz. Es erinnert mich an jemanden, den ich liebe.</item>
+				<item id="2">Jemand hat mein geliebtes Instrument gestohlen. Eines Tages werde ich es wieder in meinen Händen halten.</item>
+				<item id="3">Ich will berühmt sein. Koste es, was es wolle!</item>
+				<item id="4">Ich verehre einen Held aus alten Sagen und messe meine Taten an dieser Person.</item>
+				<item id="5">Ich werde alles tun, um mich meinem Rivalen gegenüber als überlegen zu erweisen.</item>
+				<item id="6">Die Mitglieder meiner alten Schaustellertruppe sind die wichtigsten Personen in meinem Leben.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">Ich würde alles tun, um Ruhm und Bekanntheit zu erlangen.</item>
+				<item id="2">Ich kann einem schönen Gesicht nicht widerstehen.</item>
+				<item id="3">Ein Skandal hindert mich daran, je wieder in meine Heimat zurückzukehren. Diese Art von Problem scheint mich zu verfolgen.</item>
+				<item id="4">Seit ich einmal einen Adeligen satirisch dargestellt habe, ist dieser auf meinen Kopf aus. Es ist gut möglich, dass mir so etwas erneut passiert.</item>
+				<item id="5">Es fällt mir schwer, meine wahren Gefühle zu verstecken. Meine scharfe Zunge bringt mich oft in große Schwierigkeiten.</item>
+				<item id="6">Wie sehr ich mich auch anstrenge, ich bin sehr unzuverlässig, vor allem in Bezug auf meine Freunde.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Merkmal: Auf vielfachen Wunsch" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_BY_POPULAR_DEMAND">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Du findest immer einen Ort zum Auftreten, sei es in einem Gasthaus, einer Taverne oder möglicherweise in einem Zirkus, am Theater oder sogar am Hofe eines Adeligen. Solange du täglich dein Programm vorführst, erhältst du an einem solchen Ort kostenlose Verpflegung und einen Platz zum Schlafen von einfacher oder komfortabler Qualität (abhängig von der des Etablissements). Außerdem machen dich deine Darbietungen in der Gegend bekannt. Erkennen dich Fremde in einer Stadt, in der du gespielt hast, sind sie dir gegenüber meist positiv eingestellt.</p>
+		</description>
+		<sheet alt="Auf vielfachen Wunsch">
+			<description>Du findest immer einen Ort zum Auftreten, sei es in einem Gasthaus, einer Taverne oder möglicherweise in einem Zirkus, am Theater oder sogar am Hofe eines Adeligen. Solange du täglich dein Programm vorführst, erhältst du an einem solchen Ort kostenlose Verpflegung und einen Platz zum Schlafen von einfacher oder komfortabler Qualität (abhängig von der des Etablissements). Außerdem machen dich deine Darbietungen in der Gegend bekannt. Erkennen dich Fremde in einer Stadt, in der du gespielt hast, sind sie dir gegenüber meist positiv eingestellt.</description>
+		</sheet>
+	</element>
+
+	<element name="Variante des Unterhaltungskünstlers: Gladiator" type="Background Variant" source="Spielerhandbuch" id="ID_WOTC_PHB_BACKGROUND_VARIANT_GLADIATOR">
+		<supports>Variant Entertainer</supports>
+		<description>
+			<p>Ein Gladiator ist ebenso sehr ein Unterhaltungskünstler wie ein Minnesänger oder ein Zirkusartist. Seine Kunst ist es, den Kampf zur Schau zu stellen und daraus zur Freude der Menge ein Spektakel zu machen. Diese Art von protzigem Kampf ist dein Unterhaltungsprogramm, auch wenn du zudem vielleicht noch über Fähigkeiten als Schauspieler oder Bodenakrobat verfügst. Mit deinem Merkmal Auf vielfachen Wunsch kannst du einen Ort ausfindig machen, an dem Kämpfe zu Unterhaltungszwecken veranstaltet werden. Dabei könnte es sich um eine Gladiatorenarena handeln oder einen Ort für geheime Grubenkämpfe. Ersetze das Musikinstrument in deiner Anfangsausrüstung durch eine ungewöhnliche, aber günstige Waffe, wie beispielsweise ein Netz oder einen Dreizack.</p>
+		</description>
+		<sheet alt="Gladiator" />
+	</element>
+</elements>

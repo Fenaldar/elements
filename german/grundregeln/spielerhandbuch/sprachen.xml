@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Sprachen</name>
+    <description></description>
+    <author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.0.4">
+      <file name="sprachen.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/sprachen.xml" />
+    </update>
+  </info>
+
+  <element name="Abyssisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_ABYSSAL">
+  	<supports>Exotic</supports>
+  	<description>
+  		<p>Wird normalerweise von Dämonen gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Dämonen</set>
+  		<set name="Script">Diabolisch</set>
+  		<set name="Exotic">true</set>
+  	</setters>
+  </element>
+  <element name="Celestisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_CELESTIAL">
+  	<supports>Exotic</supports>
+  	<description>
+  		<p>Wird normalerweise von himmlischen Wesen gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">himmlische Wesen</set>
+  		<set name="Script">Celestisch</set>
+  		<set name="Exotic">true</set>
+  	</setters>
+  </element>
+  <element name="Gemeinsprache" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_COMMON">
+  	<supports>Standard</supports>
+  	<description>
+  		<p>Wird normalerweise von Menschen gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Menschen</set>
+  		<set name="Script">Gemeinsprache</set>
+  		<set name="Exotic">false</set>
+  	</setters>
+  </element>
+  <element name="Tiefensprache" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_DEEP_SPEECH">
+  	<supports>Exotic</supports>
+  	<description>
+  		<p>Wird normalerweise von Gedankenschindern und Betrachtern gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Gedankenschinder, Betrachter</set>
+  		<set name="Script">---</set>
+  		<set name="Exotic">true</set>
+  	</setters>
+  </element>
+  <element name="Drakonisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_DRACONIC">
+  	<supports>Exotic</supports>
+  	<description>
+  		<p>Wird normalerweise von Drachen, Drachblütigen gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Drachen, Drachblütige</set>
+  		<set name="Script">Drakonisch</set>
+  		<set name="Exotic">true</set>
+  	</setters>
+  </element>
+  <element name="Zwergisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_DWARVISH">
+  	<supports>Standard</supports>
+  	<description>
+  		<p>Wird normalerweise von Zwergen gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Zwerge</set>
+  		<set name="Script">Zwergisch</set>
+  		<set name="Exotic">false</set>
+  	</setters>
+  </element>
+  <element name="Elfisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_ELVISH">
+  	<supports>Standard</supports>
+  	<description>
+  		<p>Wird normalerweise von Elfen gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Elfen</set>
+  		<set name="Script">Elfisch</set>
+  		<set name="Exotic">false</set>
+  	</setters>
+  </element>
+  <element name="Riesisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_GIANT">
+  	<supports>Standard</supports>
+  	<description>
+  		<p>Wird normalerweise von Ogern und Riesen gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Oger, Riesen</set>
+  		<set name="Script">Zwergisch</set>
+  		<set name="Exotic">false</set>
+  	</setters>
+  </element>
+  <element name="Gnomisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_GNOMISH">
+  	<supports>Standard</supports>
+  	<description>
+  		<p>Wird normalerweise von Gnomen gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Gnome</set>
+  		<set name="Script">Zwergisch</set>
+  		<set name="Exotic">false</set>
+  	</setters>
+  </element>
+  <element name="Goblinisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_GOBLIN">
+  	<supports>Standard</supports>
+  	<description>
+  		<p>Wird normalerweise von Goblinoiden gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Goblinoide</set>
+  		<set name="Script">Zwergisch</set>
+  		<set name="Exotic">false</set>
+  	</setters>
+  </element>
+  <element name="Halblingisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_HALFLING">
+  	<supports>Standard</supports>
+  	<description>
+  		<p>Wird normalerweise von Halblingen gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Halblinge</set>
+  		<set name="Script">Gemeinsprache</set>
+  		<set name="Exotic">false</set>
+  	</setters>
+  </element>
+  <element name="Infernalisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_INFERNAL">
+  	<supports>Exotic</supports>
+  	<description>
+  		<p>Wird normalerweise von Teufeln gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Teufel</set>
+  		<set name="Script">Infernalisch</set>
+  		<set name="Exotic">true</set>
+  	</setters>
+  </element>
+  <element name="Orkisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_ORC">
+  	<supports>Standard</supports>
+  	<description>
+  		<p>Wird normalerweise von Orks gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Orks</set>
+  		<set name="Script">Zwergisch</set>
+  		<set name="Exotic">false</set>
+  	</setters>
+  </element>
+  <element name="Urtürmlich" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_PRIMORDIAL">
+  	<supports>Exotic</supports>
+  	<description>
+  		<p>Wird normalerweise von Elementaren gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Elementare</set>
+  		<set name="Script">Zwergisch</set>
+  		<set name="Exotic">true</set>
+  	</setters>
+  </element>
+  <element name="Sylvanisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_SYLVAN">
+  	<supports>Exotic</supports>
+  	<description>
+  		<p>Wird normalerweise von Feenwesen gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Feenwesen</set>
+  		<set name="Script">Elfisch</set>
+  		<set name="Exotic">true</set>
+  	</setters>
+  </element>
+  <element name="Gemeinsprache der Unterreiche" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_UNDERCOMMON">
+  	<supports>Exotic</supports>
+  	<description>
+  		<p>Wird normalerweise von Unterreich Händlern gesprochen.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Unterreich Händler</set>
+  		<set name="Script">Elfisch</set>
+  		<set name="Exotic">true</set>
+  	</setters>
+  </element>
+  <element name="Druidisch" type="Language" source="Spielerhandbuch" id="ID_LANGUAGE_DRUIDIC">
+  	<supports>Secret</supports>
+  	<description>
+  		<p>Du beherrscht Druidisch, die Geheimsprache der Druiden. Du weißt nicht nur, wie man die Sprache spricht, sondern auch wie man versteckte Botschaften hinterlassen kann. Jeder, der des Druidischen mächtig ist, findet diese Botschaften automatisch. Uneingeweihte erkennen sie nur mit einem erfolgreichen Wurf auf Weisheit (Wahrnehmung) gegen SG 15, können aber ohne magische Hilfe den Inhalt nicht entschlüsseln.</p>
+  	</description>
+  	<setters>
+  		<set name="Speakers">Druiden</set>
+  		<set name="Script">Elfisch</set>
+  		<set name="Exotic">true</set>
+  	</setters>
+  </element>
+  <element name="Diebessprache" type="Language" source="Spielerhandbuch" id="ID_WOTC_PHB_LANGUAGE_THIEVES_CANT">
+    <supports>Secret</supports>
+    <description>
+      <p>Diese geheime Mischung aus Dialekt, Jargon und Codes erlaubt es dir, in einer scheinbar gewöhnlichen Unterhaltung Botschaften zu verstecken. Nur eine andere Kreatur, die ebenfalls die Diebessprache beherrscht, kann diese Botschaften verstehen. Das Mitteilen einer solchen Nachricht dauert vier Mal so lange, als wenn man deren Inhalt direkt formulieren würde. Außerdem ist dir ein Satz geheimer Zeichen und Symbole bekannt, mit denen du einfache, kurze Informationen übermitteln kannst, etwa ob ein Gebiet sicher ist oder ob es zum Territorium einer Diebesgilde gehört. Auch ob man in der Nähe Beute machen kann, ob die Bevölkerung hier ein leichtes Ziele abgibt oder ob es einen Unterschlupf für Diebe auf der Flucht gibt.</p>
+    </description>
+    <setters>
+      <set name="secret">true</set>
+      <set name="speakers">Schurken</set>
+    </setters>
+  </element>
+</elements>

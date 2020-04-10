@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Spielerhandbuch</name>
+		<description>Das Spielerhandbuch ist das essentielle Nachschlagewerk für jeden Spieler von Dungeons &amp; Dragons. Es enthält Regeln zur Erschaffung und Entwicklung von Charakteren, Hintergründe und Fertigkeiten, Erforschung und Kampf, Ausrüstung, Zauber und vieles mehr. Verwende dieses Buch, um spannende Charaktere mit den ikonischsten aller Völker und Klassen aus D&amp;D zu erschaffen.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.2">
+			<file name="spielerhandbuch.index" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch.index" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/source.xml" />
+
+		<!-- races -->
+		<file name="volk-drachenbluetiger.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-drachenbluetiger.xml" />
+		<file name="volk-zwerg.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-zwerg.xml" />
+		<file name="volk-elf.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-elf.xml" />
+		<file name="volk-gnom.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-gnom.xml" />
+		<file name="volk-halbelf.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-halbelf.xml" />
+		<file name="volk-habling.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-habling.xml" />
+		<file name="volk-halbork.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-halbork.xml" />
+		<file name="volk-mensch.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-mensch.xml" />
+		<file name="volk-tiefling.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-tiefling.xml" />
+
+		<!-- classes -->
+		<file name="klasse-barbar.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-barbar.xml" />
+		<file name="klasse-barde.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-barde.xml" />
+		<file name="klasse-kleriker.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-kleriker.xml" />
+		<file name="klasse-druide.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-druide.xml" />
+		<file name="klasse-kaempfer.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-kaempfer.xml" />
+		<file name="klasse-moench.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-moench.xml" />
+		<file name="klasse-paladin.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-paladin.xml" />
+		<file name="klasse-waldlaeufer.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-waldlaeufer.xml" />
+		<file name="klasse-schurke.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-schurke.xml" />
+		<file name="klasse-zauberer.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-zauberer.xml" />
+		<file name="klasse-hexenmeister.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-hexenmeister.xml" />
+		<file name="klasse-magier.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-magier.xml" />
+
+		<!-- backgrounds -->
+		<file name="hintergrund-adliger.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-adliger.xml" />
+		<file name="hintergrund-einsiedler.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-einsiedler.xml" />
+		<file name="hintergrund-krimineller.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-krimineller.xml" />
+		<file name="hintergrund-scharlatan.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-scharlatan.xml" />
+		<file name="hintergrund-seemann.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-seemann.xml" />
+		<file name="hintergrund-sonderling.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-sonderling.xml" />
+		<file name="hintergrund-strassenkind.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-strassenkind.xml" />
+		<file name="hintergrund-tempeldiener.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-tempeldiener.xml" />
+		<file name="hintergrund-soldat.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-soldat.xml" />
+		<file name="hintergrund-unterhaltungskuenstler.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-unterhaltungskuenstler.xml" />
+		<file name="hintergrund-volksheld.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-volksheld.xml" />
+		<file name="hintergrund-weiser.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-weiser.xml" />
+		<file name="hintergrund-zunfthandwerker.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-zunfthandwerker.xml" />
+
+		<!-- items -->
+		<file name="gegenstaende-ruestungen.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gegenstaende/gegenstaende-ruestungen.xml" />
+		<file name="gegenstaende-waffen.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gegenstaende/gegenstaende-waffen.xml" />
+		<file name="gegenstaende-abenteuerausruestung.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gegenstaende/gegenstaende-abenteuerausruestung.xml" />
+		<file name="gegenstaende-ausruestungspakete.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gegenstaende/gegenstaende-ausruestungspakete.xml" />
+		<file name="gegenstaende-instrumente.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gegenstaende/gegenstaende-instrumente.xml" />
+		<file name="gegenstaende-werkzeuge.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gegenstaende/gegenstaende-werkzeuge.xml" />
+		<file name="gegenstaende-reittiere-fahrzeuge.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gegenstaende/gegenstaende-reittiere-fahrzeuge.xml" />
+
+		<!-- misc -->
+		<file name="internes.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/internes.xml" />
+		<file name="sprachen.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/sprachen.xml" />
+		<file name="talente.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/talente.xml" />
+		<file name="uebung.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/uebung.xml" />
+		<file name="zauber.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/zauber.xml" />
+		<!-- <file name="gottheiten.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gottheiten.xml" /> -->
+		<file name="begleiter.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/begleiter.xml" />
+	</files>
+</index>

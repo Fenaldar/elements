@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Weiser</name>
+		<description>Der Hintergrund Weiser aus dem Spielerhandbuch</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.5">
+			<file name="hintergrund-weiser.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-weiser.xml" />
+		</update>
+	</info>
+
+	<element name="Weiser" type="Background" source="Spielerhandbuch" id="ID_BACKGROUND_SAGE">
+		<description>
+			<p>Du hast Jahre damit verbracht, das Wissen des Multiversums zu lernen. Du hast Manuskripte durchkämmt, Schriftrollen studiert und zählst zu den größten Experten auf jenen Gebieten, die dich interessieren. Deine Anstrengungen haben dich zu einem Meister deines Faches werden lassen.</p>
+			<ul class="unstyled">
+				<li><strong>Geübt in folgenden Fertigkeiten:</strong> Arkane Kunde, Geschichte</li>
+				<li><strong>Sprachen:</strong> zwei nach Wahl</li>
+				<li><strong>Ausrüstung:</strong> eine Flasche mit schwarzer Tinte, eine Schreibfeder, ein kleines Messer, ein Brief von einem verstorbenen Kollegen (in dem dieser eine Frage stellt, die du noch nicht beantworten konntest), ein Satz gewöhnlicher Kleidung, ein Beutel mit 10 GM</li>
+			</ul>
+			<h5>AKADEMISCHE LAUFBAHN</h5>
+			<p>Um die Art deiner akademischen Laufbahn zu bestimmen, wähle aus der folgenden Tabelle oder würfle mit einem W8.</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">W8</td><td>Laufbahn</td></tr>
+				</thead>
+				<tr><td>1</td><td>Alchemist</td></tr>
+				<tr><td>2</td><td>Astronom</td></tr>
+				<tr><td>3</td><td>in Verruf geratener Akademiker</td></tr>
+				<tr><td>4</td><td>Bibliothekar</td></tr>
+				<tr><td>5</td><td>Professor</td></tr>
+				<tr><td>6</td><td>Forschungsreisender</td></tr>
+				<tr><td>7</td><td>Zauberlehrling</td></tr>
+				<tr><td>8</td><td>Schreiber</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_RESEARCHER" />
+			<h5>EMPFOHLENE CHARAKTERISTIKA</h5>
+			<p>Weise werden durch ihre ausgiebigen Studien geprägt, was sich auch in ihren Charakteristika widerspiegelt. Dem gelehrten Ansatz treu ergeben, legt ein Weiser großen Wert auf Wissen, manchmal um seiner selbst willen, manchmal in Bezug auf andere Moralvorstellungen.</p>
+		</description>
+		<setters>
+			<set name="short">Arkane Kunde, Geschichte, 2 Sprachen</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+			<select type="Language" name="Sprache (Weiser)" number="2" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_RESEARCHER" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Merkmalvariante" supports="Optional Background Feature" optional="true" />
+			<select name="Laufbahn" type="List" optional="true">
+				<item id="1">Alchemist</item>
+				<item id="2">Astronom</item>
+				<item id="3">in Verruf geratener Akademiker</item>
+				<item id="4">Bibliothekar</item>
+				<item id="5">Professor</item>
+				<item id="6">Forschungsreisender</item>
+				<item id="7">Zauberlehrling</item>
+				<item id="8">Schreiber</item>
+			</select>
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">Ich verwende vielsilbige Wörter, um den Eindruck von großer Gelehrsamkeit zu vermitteln.</item>
+				<item id="2">Ich habe alle Bücher in der größten Bibliothek der Welt gelesen, oder zumindest gebe ich gern damit an, das getan zu haben.</item>
+				<item id="3">Ich bin es gewohnt, denen zu helfen, die nicht so klug sind wie ich, und ich erkläre ihnen geduldig alles und jedes Detail.</item>
+				<item id="4">Es gibt nichts, was ich mehr mag als ein gutes Rätsel.</item>
+				<item id="5">Ich bin bereit, jede Seite einer Auseinandersetzung anzuhören, bevor ich mein Urteil fället.</item>
+				<item id="6">Ich ... spreche	langsam,	wenn ... ich ... mit ... Dummköpfen ... rede, ... was ... im	Vergleich ... zu ... mir ... fast ... jeder ... ist.</item>
+				<item id="7">Ich bin wahnsinnig, wahnsinnig schlecht im gesellschaftlichen Miteinander.</item>
+				<item id="8">Ich bin davon überzeugt, dass die Leute immer versuchen, meine Geheimnisse zu stehlen.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Wissen. Der Pfad zu Macht und Selbstvervollkommnung führt über das Wissen. (neutral)</item>
+				<item id="2">Schönheit. Schönheit strahlt immer auch Wahrheit aus. (gut)</item>
+				<item id="3">Logik. Emotionen dürfen nicht unseren logischen Verstand vernebeln. (rechtschaffen)</item>
+				<item id="4">Grenzenlosigkeit. Nichts sollte die unendlichen Möglichkeiten einschränken, die in der gesamten Schöpfung verborgen liegen. (chaotisch)</item>
+				<item id="5">Macht. Wissen ist der Weg zu Macht und Überlegenheit. (böse)</item>
+				<item id="6">Selbstvervollkommnung. Das Ziel eines Lebens voller Studien ist es, sich selbst zu verbessern. (jede)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">Es ist meine Pflicht, meine Studenten zu beschützen.</item>
+				<item id="2">Ich besitze einen uralten Text, der Geheimnisse enthält, die nicht in die falschen Hände geraten dürfen.</item>
+				<item id="3">Ich arbeite dafür, eine Bibliothek, Universität, Schreibwerkstatt oder Klostergemeinschaft zu erhalten.</item>
+				<item id="4">Mein Lebenswerk ist eine Reihe von Folianten, die von einem bestimmten Fachgebiet handeln.</item>
+				<item id="5">Ich suche bereits mein ganzes Leben lang nach der Antwort auf eine bestimmte Frage.</item>
+				<item id="6">Ich habe meine Seele für Wissen verkauft. Ich hoffe, große Taten zu vollbringen und sie eines Tages wiederzuerlangen.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">Ich werde schnell von der Aussicht auf Informationen abgelenkt.</item>
+				<item id="2">Die meisten laufen schreiend davon, wenn sie einen Dämon sehen. Ich bleibe stehen und mache mir Notizen zu seiner Anatomiey.</item>
+				<item id="3">Ein uraltes Mysterium zu entschlüsseln, ist es wert, eine Zivilisation zu opfern.</item>
+				<item id="4">Ich übersehe einfache Lösungen zugunsten komplizierterer.</item>
+				<item id="5">Ich rede, ohne nachzudenken, womit ich unweigerlich andere verletze.</item>
+				<item id="6">Ich kann kein Geheimnis für mich behalten, auch wenn mein Leben oder das anderer auf dem Spiel steht.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Merkmal: Forscher" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_RESEARCHER">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Gelingt es dir nicht, dir Wissen anzueignen oder dich an Wissen zu erinnern, weißt du meist. wo und von wem du die benötigte Information bekommen kannst. In der Regel erhältst du diese aus einer Bibliothek, einer Schreibwerkstatt, einer Universität, von einem Kollegen oder einer anderen gelehrten Person oder Kreatur. Dein SL kann bestimmen, dass das Wissen, nach dem du suchst. an einem nahezu unerreichbaren Ort versteckt wurde oder es einfach nicht gefunden werden kann. Die tiefsten Geheimnisse des Multiversums ans Licht zu bringen, kann ein Abenteuer oder sogar eine ganze Kampagne erfordern.</p>
+		</description>
+		<sheet alt="Forscher" />
+	</element>
+</elements>

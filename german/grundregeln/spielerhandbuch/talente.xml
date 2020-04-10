@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Talente</name>
+    <description>Talente aus dem Spielerhandbuch.</description>
+    <author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.3">
+      <file name="talente.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/talente.xml" />
+		</update>
+	</info>
+
+	<element name="Armbrustexperte" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_CROSSBOWEXPERT">
+		<description>
+			<p>Dank deines ausgiebigen Trainings mit der Armbrust erhältst du folgende Vorzüge:</p>
+			<ul>
+				<li>Du ignorierst die Eigenschaft Laden bei Armbrüsten, mit denen du geübt bist.</li>
+				<li>Du bist nicht im Nachteil bei Fernkampfangriffen, die du innerhalb von 1,50 m zu einer feindlichen Kreatur ausführst.</li>
+				<li>Wenn du deine Angriffsaktion für einen Angriff mit einer einhändigen Waffe nutzt, kannst du deine Bonusaktion aufwenden, um mit einer Handarmbrust anzugreifen, die du hältst.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du ignorierst die Eigenschaft Laden bei Armbrüsten, mit denen du geübt bist.
+			Du bist nicht im Nachteil bei Fernkampfangriffen, die du innerhalb von 1,50 m zu einer feindlichen Kreatur ausführst.
+			Wenn du deine Angriffsaktion für einen Angriff mit einer einhändigen Waffe nutzt, kannst du deine Bonusaktion aufwenden, um mit einer Handarmbrust anzugreifen, die du hältst.</description>
+		</sheet>
+	</element>
+	<element name="Athlet" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_ATHLETE">
+		<description>
+			<p>Du hast dich ausgiebigem körperlichen Training unterworfen und erhältst die folgenden Vorzüge:</p>
+			<ul>
+				<li>Erhöhe deine Stärke oder Geschicklichkeit um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Wenn du den Zustand liegend hast, kostet dich das Aufstehen nur 1,50 m deiner Bewegungsrate.</li>
+				<li>Klettern kostet dich keine zusätzliche Bewegungsrate.</li>
+				<li>Du kannst aus dem Lauf weit- und hochspringen, nachdem du 1,50 m zurückgelegt hast, anstatt den üblichen 3 m.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Wenn du den Zustand liegend hast, kostet dich das Aufstehen nur 1,50 m deiner Bewegungsrate.
+			Klettern kostet dich keine zusätzliche Bewegungsrate.
+			Du kannst aus dem Lauf weit- und hochspringen, nachdem du 1,50 m zurückgelegt hast, anstatt den üblichen 3 m.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Attributswerterhöhung (Athlet)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+		</rules>
+	</element>
+	<element name="Aufmerksam" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_OBSERVANT">
+		<description>
+			<p>Da dir Einzelheiten in deiner Umgebung schnell auffallen, erhältst du die folgenden Vorzüge:</p>
+			<ul>
+				<li>Erhöhe deine Intelligenz oder Weisheit um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Du bist in der Lage, von den Lippen zu lesen. Wenn du den Mund einer Kreatur sehen kannst, während diese in einer Sprache spricht, die du verstehst, kannst du abschätzen, was sie sagt.</li>
+				<li>Du besitzt einen +5 Bonus auf deinen passiven Weisheits- (Wahrnehmung) und passiven Intelligenzwert (Nachforschungen).</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du bist in der Lage, von den Lippen zu lesen. Wenn du den Mund einer Kreatur sehen kannst, während diese in einer Sprache spricht, die du verstehst, kannst du abschätzen, was sie sagt.
+			Du besitzt einen +5 Bonus auf deinen passiven Weisheits- (Wahrnehmung) und passiven Intelligenzwert (Nachforschungen).</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Attributswerterhöhung (Aufmerksam)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM" />
+			<stat name="perception:passive" value="5" />
+			<stat name="investigation:passive" value="5" />
+		</rules>
+	</element>
+	<element name="Begabt" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_SKILLED">
+		<description>
+			<p>Du bist in einer beliebigen Kombination aus drei Fertigkeiten und/oder Werkzeugen deiner Wahl geübt.</p>
+		</description>
+		<sheet />
+		<rules>
+			<select type="Proficiency" name="Geübt in (Begabt)" supports="Skill||Tool" number="3" />
+		</rules>
+	</element>
+	<element name="Belastbar" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_RESILIENT">
+		<description>
+			<p>Suche dir ein Attribut aus. Du erhältst die folgenden Vorzüge:</p>
+			<ul>
+				<li>Der gewählte Attributswert steigt um 1 Punkt, bis auf ein Maximum von 20 Punkten.</li>
+				<li>Du erhältst Übung in Rettungswürfen mit dem gewählten Attribut.</li>
+			</ul>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Belastbar (Feat)" supports="Resilient" />
+		</rules>
+	</element>
+	<element name="Belastbar (Stärke)" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RESILIENT_STRENGTH">
+		<supports>Resilient</supports>
+		<description>
+			<p>Dein Stärkewert wird um 1 Punkt erhöht.</p>
+			<p>Du erhältst Übung in Stärkerettungswürfen.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Belastbar" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+		</rules>
+	</element>
+	<element name="Belastbar (Geschicklichkeit)" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RESILIENT_DEXTERITY">
+		<supports>Resilient</supports>
+		<description>
+			<p>Dein Geschicklichskeitwert wird um 1 Punkt erhöht.</p>
+			<p>Du erhältst Übung in Geschicklichkeitsrettungswürfen.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Belastbar" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+		</rules>
+	</element>
+	<element name="Belastbar (Konstitution)" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RESILIENT_CONSTITUTION">
+		<supports>Resilient</supports>
+		<description>
+			<p>Dein Konstitutionswert wird um 1 Punkt erhöht.</p>
+			<p>Du erhältst Übung in Konstitutionsrettungswürfen.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Belastbar" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+		</rules>
+	</element>
+	<element name="Belastbar (Intelligenz)" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RESILIENT_INTELLIGENCE">
+		<supports>Resilient</supports>
+		<description>
+			<p>Dein Intelligenzwert wird um 1 Punkt erhöht.</p>
+			<p>Du erhältst Übung in Intelligenzrettungswürfen.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Belastbar" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+		</rules>
+	</element>
+	<element name="Belastbar (Weisheit)" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RESILIENT_WISDOM">
+		<supports>Resilient</supports>
+		<description>
+			<p>Dein Weisheitswert wird um 1 Punkt erhöht.</p>
+			<p>Du erhältst Übung in Weisheitsrettungswürfen.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Belastbar" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+		</rules>
+	</element>
+	<element name="Belastbar (Charisma)" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RESILIENT_CHARISMA">
+		<supports>Resilient</supports>
+		<description>
+			<p>Dein Charismawert wird um 1 Punkt erhöht.</p>
+			<p>Du erhältst Übung in Charismarettungswürfen.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Belastbar" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+		</rules>
+	</element>
+	<!-- /Belastbar -->
+
+	<element name="Berittener Kampf" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_MOUNTEDCOMBATANT">
+		<description>
+			<p>Du bist ein gefährlicher Gegner, wenn du beritten bist. Solange du im Sattel sitzt und nicht kampfunfähig bist, erhältst du die folgenden Vorzüge:</p>
+			<ul>
+				<li>Du bist bei jedem Nahkampfangriffswurf gegen unberittene Kreaturen im Vorteil, wenn sie kleiner sind als dein Reittier.</li>
+				<li>Du kannst Angriffe, die auf dein Reittier zielen, auf dich umleiten.</li>
+				<li>Wenn dein Reittier von Effekten betroffen wird, die ihm einen Geschicklichkeitsrettungswurf erlauben, um nur den halben Schaden zu erleiden, nimmt es bei einem Erfolg keinen Schaden und nur den halben bei einem Misserfolg.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du bist bei jedem Nahkampfangriffswurf gegen unberittene Kreaturen im Vorteil, wenn sie kleiner sind als dein Reittier.
+			Du kannst Angriffe, die auf dein Reittier zielen, auf dich umleiten.
+			Wenn dein Reittier von Effekten betroffen wird, die ihm einen Geschicklichkeitsrettungswurf erlauben, um nur den halben Schaden zu erleiden, nimmt es bei einem Erfolg keinen Schaden und nur den halben bei einem Misserfolg.</description>
+		</sheet>
+	</element>
+	<element name="Defensiver Duellant" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_DEFENSIVE_DUELIST">
+		<prerequisite>Geschicklichkeit 13 oder höher</prerequisite>
+		<requirements>[dex:13]</requirements>
+		<description>
+			<p><i>Voraussetzung: Geschicklichkeit 13 oder höher</i></p>
+			<p>Du hast deine Fähigkeiten perfektioniert, bestimmte Waffen zur Verteidigung einzusetzen. Wenn du eine Waffe mit der Eigenschaft Finesse führst, im Umgang mit dieser geübt bist und eine andere Kreatur dich mit einem Nahkampfangriff attackiert, kannst du deine Reaktion verwenden, um für diesen Angriff deinen Übungsbonus auf deine Rüstungsklasse zu addieren.</p>
+		</description>
+		<sheet action="Reaktion">
+			<description>Wenn du eine Waffe mit der Eigenschaft Finesse führst, im Umgang mit dieser geübt bist und eine andere Kreatur dich mit einem Nahkampfangriff attackiert, erhälst du für diesen Angriff +{{defensive duelist:ac}} auf deine Rüstungsklasse.</description>
+		</sheet>
+		<rules>
+			<stat name="defensive duelist:ac" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Eingeweihter der Magie" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_MAGICINITIATE">
+		<description>
+			<p>Wähle eine Klasse: Barde, Druide, Kleriker, Magier, Hexenmeister oder Zauberer. Du lernst aus der Zauberliste der entsprechenden Klasse zwei beliebige Zaubertricks sowie einen Zauber des 1. Grades deiner Wahl.</p>
+			<p class="indent">Mit diesem Talent darfst du den Zauber einmal auf dem niedrigsten Grad wirken. Du musst eine lange Rast beenden, bevor du den Zauber erneut auf diese Weise einsetzen kannst. Das Attribut zum Zauberwirken hängt von der gewählten Klasse ab: Charisma für Barde, Hexenmeister und Zauberer, Weisheit für Druide und Kleriker sowie Intelligenz für Magier.</p>
+		</description>
+		<sheet />
+		<rules>
+			<select type="Feat Feature" name="Eingeweihter der Magie" supports="Magic Initiate" />
+		</rules>
+	</element>
+	<element name="Barde" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_MAGIC_INITIATE_BARD">
+		<supports>Magic Initiate</supports>
+		<description>
+			<p>Du lernst aus der Zauberliste des Barden zwei beliebige Zaubertricks.</p>
+			<p class="indent">Wähle zusätzlich einen Zauber des 1. Grades aus der gleichen Liste. Du lernst diesen Zauber und kannst ihn auf dem niedrigsten Grad wirken. Du musst eine lange Rast beenden, bevor du den Zauber erneut auf diese Weise einsetzen kannst.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Charisma.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Charisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zaubertrick (Eingeweihter der Magie)" supports="0,Bard" number="2" />
+			<select type="Spell" name="Zauber 1. Grad (Eingeweihter der Magie)" supports="1,Bard" />
+		</rules>
+	</element>
+	<element name="Kleriker" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_MAGIC_INITIATE_CLERIC">
+		<supports>Magic Initiate</supports>
+		<description>
+			<p>Du lernst aus der Zauberliste des Klerikers zwei beliebige Zaubertricks.</p>
+			<p class="indent">Wähle zusätzlich einen Zauber des 1. Grades aus der gleichen Liste. Du lernst diesen Zauber und kannst ihn auf dem niedrigsten Grad wirken. Du musst eine lange Rast beenden, bevor du den Zauber erneut auf diese Weise einsetzen kannst.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Weisheit.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Weisheit.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zaubertrick (Eingeweihter der Magie)" supports="0,Cleric" number="2" />
+			<select type="Spell" name="Zauber 1. Grad (Eingeweihter der Magie)" supports="1,Cleric" />
+		</rules>
+	</element>
+	<element name="Druide" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_MAGIC_INITIATE_DRUID">
+		<supports>Magic Initiate</supports>
+		<description>
+			<p>Du lernst aus der Zauberliste des Druiden zwei beliebige Zaubertricks.</p>
+			<p class="indent">Wähle zusätzlich einen Zauber des 1. Grades aus der gleichen Liste. Du lernst diesen Zauber und kannst ihn auf dem niedrigsten Grad wirken. Du musst eine lange Rast beenden, bevor du den Zauber erneut auf diese Weise einsetzen kannst.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Weisheit.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Weisheit.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zaubertrick (Eingeweihter der Magie)" supports="0,Druid" number="2" />
+			<select type="Spell" name="Zauber 1. Grad (Eingeweihter der Magie)" supports="1,Druid" />
+		</rules>
+	</element>
+	<element name="Zauberer" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_MAGIC_INITIATE_SORCERER">
+		<supports>Magic Initiate</supports>
+		<description>
+			<p>Du lernst aus der Zauberliste des Zauberers zwei beliebige Zaubertricks.</p>
+			<p class="indent">Wähle zusätzlich einen Zauber des 1. Grades aus der gleichen Liste. Du lernst diesen Zauber und kannst ihn auf dem niedrigsten Grad wirken. Du musst eine lange Rast beenden, bevor du den Zauber erneut auf diese Weise einsetzen kannst.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Charisma.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Charisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zaubertrick (Eingeweihter der Magie)" supports="0,Sorcerer" number="2" />
+			<select type="Spell" name="Zauber 1. Grad (Eingeweihter der Magie)" supports="1,Sorcerer" />
+		</rules>
+	</element>
+	<element name="Hexenmeister" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_MAGIC_INITIATE_WARLOCK">
+		<supports>Magic Initiate</supports>
+		<description>
+			<p>Du lernst aus der Zauberliste des Hexenmeisters zwei beliebige Zaubertricks.</p>
+			<p class="indent">Wähle zusätzlich einen Zauber des 1. Grades aus der gleichen Liste. Du lernst diesen Zauber und kannst ihn auf dem niedrigsten Grad wirken. Du musst eine lange Rast beenden, bevor du den Zauber erneut auf diese Weise einsetzen kannst.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Charisma.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Charisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zaubertrick (Eingeweihter der Magie)" supports="0,Warlock" number="2" />
+			<select type="Spell" name="Zauber 1. Grad (Eingeweihter der Magie)" supports="1,Warlock" />
+		</rules>
+	</element>
+	<element name="Magier" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_MAGIC_INITIATE_WIZARD">
+		<supports>Magic Initiate</supports>
+		<description>
+			<p>Du lernst aus der Zauberliste des Magiers zwei beliebige Zaubertricks.</p>
+			<p class="indent">Wähle zusätzlich einen Zauber des 1. Grades aus der gleichen Liste. Du lernst diesen Zauber und kannst ihn auf dem niedrigsten Grad wirken. Du musst eine lange Rast beenden, bevor du den Zauber erneut auf diese Weise einsetzen kannst.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Intelligenz.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Intelligenz.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zaubertrick (Eingeweihter der Magie)" supports="0,Wizard" number="2" />
+			<select type="Spell" name="Zauber 1. Grad (Eingeweihter der Magie)" supports="1,Wizard" />
+		</rules>
+	</element>
+	<!-- /Eingeweihter der Magie -->
+
+	<element name="Elementarer Adept" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_ELEMENTAL_ADEPT">
+		<prerequisite>Fähigkeit, mindestens einen Zauber zu wirken</prerequisite>
+		<requirements>[type:spell]</requirements>
+		<description>
+			<p><i>Voraussetzung: Fähigkeit, mindestens einen Zauber zu wirken</i></p>
+			<p>Wähle eine der folgenden Schadensarten: Feuer, Kälte, Blitz, Säure oder Schall. Deine Zauber ignorieren Resistenzen der gewählten Schadensart. Zusätzlich darfst du bei Zaubern, welche die entsprechende Schadensart verursachen, jede gewürfelte 1 beim Schadenswurf wie eine 2 behandeln. Du kannst dieses Talent mehrfach auswählen, musst jedoch jedes Mal eine andere Schadensart nehmen.</p>
+		</description>
+		<sheet />
+		<setters>
+			<set name="allow multiple">true</set>
+		</setters>
+		<rules>
+			<select type="Feat Feature" name="Elementarer Adept" supports="Elemental Adept" />
+		</rules>
+	</element>
+	<element name="Säure" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_ACID">
+		<supports>Elemental Adept</supports>
+		<description>
+			<p>Deine Zauber ignoriert Resistenz gegen Säureschaden. Zusätzlich darfst du bei Zaubern, welche Säureschaden verursachen, jede gewürfelte 1 beim Schadenswurf wie eine 2 behandeln.</p>
+		</description>
+		<sheet>
+			<description>Deine Zauber ignoriert Resistenz gegen Säureschaden. Bei Zaubern, welche Säureschaden verursachen, behandle jede gewürfelte 1 beim Schadenswurf wie eine 2.</description>
+		</sheet>
+	</element>
+	<element name="Kälte" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_COLD">
+		<supports>Elemental Adept</supports>
+		<description>
+			<p>Deine Zauber ignoriert Resistenz gegen Kälteschaden. Zusätzlich darfst du bei Zaubern, welche Kälteschaden verursachen, jede gewürfelte 1 beim Schadenswurf wie eine 2 behandeln.</p>
+		</description>
+		<sheet>
+			<description>Deine Zauber ignoriert Resistenz gegen Kälteschaden. Bei Zaubern, welche Kälteschaden verursachen, behandle jede gewürfelte 1 beim Schadenswurf wie eine 2.</description>
+		</sheet>
+	</element>
+	<element name="Feuer" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_FIRE">
+		<supports>Elemental Adept</supports>
+		<description>
+			<p>Deine Zauber ignoriert Resistenz gegen Feuerschaden. Zusätzlich darfst du bei Zaubern, welche Feuerschaden verursachen, jede gewürfelte 1 beim Schadenswurf wie eine 2 behandeln.</p>
+		</description>
+		<sheet>
+			<description>Deine Zauber ignoriert Resistenz gegen Feuerschaden. Bei Zaubern, welche Feuerschaden verursachen, behandle jede gewürfelte 1 beim Schadenswurf wie eine 2.</description>
+		</sheet>
+	</element>
+	<element name="Blitz" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_LIGHTNING">
+		<supports>Elemental Adept</supports>
+		<description>
+			<p>Deine Zauber ignoriert Resistenz gegen Blitzschaden. Zusätzlich darfst du bei Zaubern, welche Blitzschaden verursachen, jede gewürfelte 1 beim Schadenswurf wie eine 2 behandeln.</p>
+		</description>
+		<sheet>
+			<description>Deine Zauber ignoriert Resistenz gegen Blitzschaden. Bei Zaubern, welche Blitzschaden verursachen, behandle jede gewürfelte 1 beim Schadenswurf wie eine 2.</description>
+		</sheet>
+	</element>
+	<element name="Schall" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_THUNDER">
+		<supports>Elemental Adept</supports>
+		<description>
+			<p>Deine Zauber ignoriert Resistenz gegen Schallschaden. Zusätzlich darfst du bei Zaubern, welche Schallschaden verursachen, jede gewürfelte 1 beim Schadenswurf wie eine 2 behandeln.</p>
+		</description>
+		<sheet>
+			<description>Deine Zauber ignoriert Resistenz gegen Schallschaden. Bei Zaubern, welche Schallschaden verursachen, behandle jede gewürfelte 1 beim Schadenswurf wie eine 2.</description>
+		</sheet>
+	</element>
+	<!-- elemental adept -->
+
+	<element name="Gewölbeforscher" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_DUNGEON_DELVER">
+		<description>
+			<p>Du bist versiert im Aufspüren von versteckten Fallen und Geheimtüren, die man in vielen Gewölben findet, und genießt folgende Vorzüge:</p>
+			<ul>
+				<li>Du bist im Vorteil, wenn du Rettungswürfe ablegst, um Fallen auszuweichen oder ihren Effekten zu widerstehen.</li>
+				<li>Du bist im Vorteil bei Würfen auf Weisheit (Wahrnehmung) und Intelligenz (Nachforschungen), um Geheimtüren zu finden beziehungsweise wahrzunehmen.</li>
+				<li>Du besitzt eine Resistenz gegen Schaden, der von Fallen verursacht wird.</li>
+				<li>Wenn du dich mit Reisetempo fortbewegst, leidest du nicht unter dem -5 Abzug auf deinen passiven Weisheitswert (Wahrnehmung).</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du bist im Vorteil, wenn du Rettungswürfe ablegst, um Fallen auszuweichen oder ihren Effekten zu widerstehen.
+			Du bist im Vorteil bei Würfen auf Weisheit (Wahrnehmung) und Intelligenz (Nachforschungen), um Geheimtüren zu finden beziehungsweise wahrzunehmen.
+			Du besitzt eine Resistenz gegen Schaden, der von Fallen verursacht wird.
+			Wenn du dich mit Reisetempo fortbewegst, leidest du nicht unter dem -5 Abzug auf deinen passiven Weisheitswert (Wahrnehmung).</description>
+		</sheet>
+		<!-- todo: traps resistance condition -->
+	</element>
+	<element name="Glückspilz" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_LUCKY">
+		<description>
+			<p>Du hast ausgesprochenes Glück, und das immer im richtigen Moment. Mit diesem Talent verfügst du über drei Glückspunkte. Immer wenn du einen Angriffs-, Attributs- oder Rettungswurf ablegst, kannst du einen Glückspunkt verbrauchen, um einen zusätzlichen W20 zu würfeln. Suche dir aus, welches Ergebnis der beiden W20 für den Angriffs-, Attributs- oder Rettungswurf verwendet werden soll. Du kannst dich entscheiden, den Glückspunkt erst zu verwenden, nachdem du gewürfelt hast, musst es jedoch, bevor die Auswirkungen des Wurfs in Kraft treten.</p>
+			<p class="indent">Außerdem kannst du einen deiner Glückspunkte aufwenden, wenn ein Angriffswurf gegen dich ausgeführt wird. Würfle mit einem W20 und suche dir aus, ob dein Würfelergebnis oder das des Angreifers für den Angriffswurf verwendet werden soll. Wenn mehr als eine Kreatur Glückspunkte verwenden, um einen Wurf zu beeinflussen, heben sich diese gegenseitig auf. Es wird also mit überhaupt keinem zusätzlichen Würfel gewürfelt. Alle verbrauchten Glückspunkte stehen dir nach Beenden einer langen Rast wieder zur Verfügung.</p>
+		</description>
+		<sheet usage="3/Lange Rast">
+			<description>Immer wenn du einen Angriffs-, Attributs- oder Rettungswurf ablegst, kannst du einen Glückspunkt verbrauchen, um einen zusätzlichen W20 zu würfeln. Suche dir aus, welches Ergebnis der beiden W20 für den Angriffs-, Attributs- oder Rettungswurf verwendet werden soll. Du kannst dich entscheiden, den Glückspunkt erst zu verwenden, nachdem du gewürfelt hast, musst es jedoch, bevor die Auswirkungen des Wurfs in Kraft treten.
+				Außerdem kannst du einen deiner Glückspunkte aufwenden, wenn ein Angriffswurf gegen dich ausgeführt wird. Würfle mit einem W20 und suche dir aus, ob dein Würfelergebnis oder das des Angreifers für den Angriffswurf verwendet werden soll. Wenn mehr als eine Kreatur Glückspunkte verwenden, um einen Wurf zu beeinflussen, heben sich diese gegenseitig auf. Es wird also mit überhaupt keinem zusätzlichen Würfel gewürfelt.</description>
+		</sheet>
+	</element>
+	<element name="Heiler" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_HEALER">
+		<description>
+			<p>Du bist ein fähiger Mediziner, was dir erlaubt, Wunden rasch zu behandeln und deine Verbündeten schnell wieder kampfbereit zu machen. Du erhältst folgende Vorzüge:</p>
+			<ul>
+				<li>Wenn du eine Heilerausrüstung einsetzt, um eine sterbende Kreatur zu stabilisieren, erhält sie zusätzlich 1 Trefferpunkt zurück.</li>
+				<li>Als Aktion kannst du eine Anwendung der Heilerausrüstung aufbrauchen, um eine Kreatur zu behandeln und bei ihr 1W6 + 4 Trefferpunkte wiederherzustellen + so viele Trefferpunkte, wie es ihrer maximalen Anzahl an Trefferwürfeln entspricht. Die Kreatur kann erst erneut mit diesem Talent geheilt werden, nachdem sie eine kurze oder lange Rast beendet hat.</li>
+			</ul>
+		</description>
+		<sheet action="Aktion">
+			<description>Du kannst eine Anwendung der Heilerausrüstung aufbrauchen, um eine Kreatur zu behandeln und bei ihr 1W6 + 4 Trefferpunkte wiederherzustellen + so viele Trefferpunkte, wie es ihrer maximalen Anzahl an Trefferwürfeln entspricht. Die Kreatur kann erst erneut mit diesem Talent geheilt werden, nachdem sie eine kurze oder lange Rast beendet hat.
+			Wenn du eine Heilerausrüstung einsetzt, um eine sterbende Kreatur zu stabilisieren, erhält sie zusätzlich 1 Trefferpunkt zurück.</description>
+		</sheet>
+	</element>
+	<element name="Inspirierender Anführer" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_INSPIRINGLEADER">
+		<prerequisite>Charisma 13 oder höher</prerequisite>
+		<requirements>[cha:13]</requirements>
+		<description>
+			<p><i>Voraussetzung: Charisma 13 oder höher</i></p>
+			<p>Verbringst du 10 Minuten damit, deine Kameraden zu inspirieren, kannst du ihre Entschlossenheit zu kämpfen stärken. Wähle bis zu sechs verbündete Kreaturen (du darfst auch dich selbst bestimmen), die sich innerhalb von 9 m befinden, dich hören oder sehen können und dich verstehen. Jede dieser Kreaturen erhält temporäre Trefferpunkte in Höhe deiner Stufe + deines Charismamodifikators. Eine Kreatur kann durch dieses Talent erst wieder temporäre Trefferpunkte erhalten, wenn sie eine kurze oder lange Rast beendet hat.</p>
+		</description>
+		<sheet>
+			<description>Verbringst du 10 Minuten damit, deine Kameraden zu inspirieren, kannst du ihre Entschlossenheit zu kämpfen stärken. Wähle bis zu sechs verbündete Kreaturen (du darfst auch dich selbst bestimmen), die sich innerhalb von 9 m befinden, dich hören oder sehen können und dich verstehen. Jede dieser Kreaturen erhält {{inspiring leader:hp:temp}} temporäre Trefferpunkte. Eine Kreatur kann durch dieses Talent erst wieder temporäre Trefferpunkte erhalten, wenn sie eine kurze oder lange Rast beendet hat.</description>
+		</sheet>
+		<rules>
+			<stat name="inspiring leader:hp:temp" value="level" />
+			<stat name="inspiring leader:hp:temp" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Kampferprobter Zauberwirker" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_WARCASTER">
+		<description>
+			<p><i>Voraussetzung: Fähigkeit, mindestens einen Zauber zu wirken</i></p>
+			<p>Du hast trainiert, Zauber mitten im Kampf zu wirken, wodurch du Techniken erlernt hast, die dir folgende Vorzüge gewähren:</p>
+			<ul>
+				<li>Du bist bei Konstitutionsrettungswürfen im Vorteil, um beim Erleiden von Schaden nicht die Konzentration auf einen Zauber zu verlieren.</li>
+				<li>Du kannst die Gestenkomponenten von Zaubern auch dann ausführen, wenn du eine Waffe oder einen Schild in einer oder beiden Händen hältst.</li>
+				<li>Provoziert die Bewegung einer feindlichen Kreatur einen Gelegenheitsangriff von dir, kannst du als Reaktion einen Zauber auf die Kreatur wirken, anstatt einen Angriff auszuführen. Der Spruch muss einen Zeitaufwand von einer Aktion haben und darf nur diese Kreatur als Ziel haben.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description action="Reaktion">Provoziert die Bewegung einer feindlichen Kreatur einen Gelegenheitsangriff von dir, kannst du als Reaktion einen Zauber auf die Kreatur wirken, anstatt einen Angriff auszuführen. Der Spruch muss einen Zeitaufwand von einer Aktion haben und darf nur diese Kreatur als Ziel haben.
+			Du bist bei Konstitutionsrettungswürfen im Vorteil, um beim Erleiden von Schaden nicht die Konzentration auf einen Zauber zu verlieren.
+			Du kannst die Gestenkomponenten von Zaubern auch dann ausführen, wenn du eine Waffe oder einen Schild in einer oder beiden Händen hältst.</description>
+		</sheet>
+	</element>
+	<element name="Kneipenschläger" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_TAVERNBRAWLER">
+		<description>
+			<p>Du bist an Raufereien gewöhnt und fähig, mit allem zu kämpfen, was dir gerade in die Finger kommt. Du erhältst folgende Vorzüge:</p>
+			<ul>
+				<li>Erhöhe deine Stärke oder Konstitution um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Du bist geübt im Umgang mit improvisierten Waffen.</li>
+				<li>Deine waffenlosen Schläge verursachen 1W4 Schaden.</li>
+				<li>Wenn du eine Kreatur in deinem Zug mit einer improvisierten Waffe oder einem waffenlosen Schlag triffst, kannst du deine Bonusaktion für den Versuch verwenden, mit dem Ziel zu ringen.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description action="Bonusaktion">>Wenn du eine Kreatur in deinem Zug mit einer improvisierten Waffe oder einem waffenlosen Schlag triffst, kannst du deine Bonusaktion für den Versuch verwenden, mit dem Ziel zu ringen.
+			Du bist geübt im Umgang mit improvisierten Waffen.
+			Deine waffenlosen Schläge verursachen 1W4 Schaden.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Attributswerterhöhung (Kneipenschläger)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION" />
+			<!-- todo: You are proficient with improvised weapons. -->
+		</rules>
+	</element>
+	<element name="Leichtfüssig" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_MOBILE">
+		<description>
+			<p>Du bist außergewöhnlich schnell und agil, was dir die folgenden Vorzüge verleiht:</p>
+			<ul>
+				<li>Deine Bewegungsrate erhöht sich um 3 m.</li>
+				<li>Wenn du die Rennenaktion nutzt, kostet dich schwieriges Gelände in dieser Runde keine zusätzliche Bewegungsrate.</li>
+				<li>Führst du einen Nahkampfangriff gegen eine Kreatur aus, provozierst du für den Rest des Zuges von dieser keinen Gelegenheitsangriff, ob du triffst oder nicht.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Wenn du die Rennenaktion nutzt, kostet dich schwieriges Gelände in dieser Runde keine zusätzliche Bewegungsrate.
+			Führst du einen Nahkampfangriff gegen eine Kreatur aus, provozierst du für den Rest des Zuges von dieser keinen Gelegenheitsangriff, ob du triffst oder nicht.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:misc" value="10" />
+			<stat name="innate speed:climb:misc" value="10" requirements="[innate speed:climb:1]" />
+			<stat name="innate speed:fly:misc" value="10" requirements="[innate speed:fly:1]" />
+			<stat name="innate speed:swim:misc" value="10" requirements="[innate speed:swim:1]" />
+			<stat name="innate speed:burrow:misc" value="10" requirements="[innate speed:burrow:1]" />
+		</rules>
+	</element>
+	<element name="Leicht gerüstet" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_LIGHTLYARMORED">
+		<description>
+			<p>Du hast trainiert, in leichten Rüstungen zu kämpfen, und erhältst die folgenden Vorzüge:</p>
+			<ul>
+				<li>Erhöhe deine Stärke oder Geschicklichkeit um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Du bist geübt im Umgang mit leichten Rüstungen.</li>
+			</ul>
+		</description>
+		<sheet display="false">
+			<description>Du bist geübt im Umgang mit leichten Rüstungen</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Attributswerterhöhung (Leicht gerüstet)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+		</rules>
+	</element>
+	<element name="Linguist" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_LINGUIST">
+		<description>
+			<p>Du hast Sprachen und Geheimschriften studiert, wodurch du diese Vorzüge erhältst:</p>
+			<ul>
+				<li>Erhöhe deine Intelligenz um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Du erlernst drei Sprachen deiner Wahl.</li>
+				<li>Du bist in der Lage, Geheimschriften zu entwerfen. Andere können deine Geheimschriften nicht entziffern, bis du es ihnen beigebracht hast, sie einen Intelligenzwurf bestehen (der SG entspricht deinem Intelligenzwert + deinem Übungsbonus) oder sie Magie anwenden, um die Schrift zu entschlüsseln.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du bist in der Lage, Geheimschriften zu entwerfen. Andere können deine Geheimschriften nicht entziffern, bis du es ihnen beigebracht hast, sie einen Intelligenzwurf bestehen (SG {{linguist:dc}}) oder sie Magie anwenden, um die Schrift zu entschlüsseln.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" />
+			<select type="Language" name="Sprache (Linguist)" number="3" />
+			<stat name="linguist:dc" value="intelligence:score" />
+			<stat name="linguist:dc" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Magiertöter" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_MAGESLAYER">
+		<description>
+			<p>Du hast Techniken erlernt, die im Nahkampf gegen Zauberwirker hilfreich sind, und erhältst dadurch folgende Vorzüge:</p>
+			<ul>
+				<li>Wenn eine Kreatur innerhalb von 1,50 m einen Zauber wirkt, kannst du deine Reaktion nutzen, um einen Nahkampf-Waffenangriff gegen diese Kreatur auszuführen.</li>
+				<li>Kreaturen, die sich auf Zauber konzentrieren, sind beim Rettungswurf zum Aufrechterhalten der Konzentration im Nachteil, wenn du ihnen Schaden zufügst.</li>
+				<li>Du bist im Vorteil bei Rettungswürfen gegen Zaubersprüche, die von Kreaturen innerhalb von 1,50 m gewirkt werden.</li>
+			</ul>
+		</description>
+		<sheet action="Reaktion">
+			<description>Wenn eine Kreatur innerhalb von 1,50 m einen Zauber wirkt, kannst du deine Reaktion nutzen, um einen Nahkampf-Waffenangriff gegen diese Kreatur auszuführen.
+			Kreaturen, die sich auf Zauber konzentrieren, sind beim Rettungswurf zum Aufrechterhalten der Konzentration im Nachteil, wenn du ihnen Schaden zufügst.
+			Du bist im Vorteil bei Rettungswürfen gegen Zaubersprüche, die von Kreaturen innerhalb von 1,50 m gewirkt werden.</description>
+		</sheet>
+	</element>
+	<element name="Meister der Kampfkunst" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_MARTIALADEPT">
+		<description>
+			<p>Du hast ein intensives Kampftraining absolviert, das dir erlaubt, spezielle Kampfmanöver auszuführen. Du erhältst die folgenden Vorzüge:</p>
+			<ul>
+				<li>Du lernst zwei Manöver deiner Wahl, die dem Kampfmeister-Archetypen der Kämpferklasse zur Verfügung stehen. Wenn das Kampfmanöver, das du anwendest, vom Ziel einen Rettungswurf verlangt, um Effekten des Manövers zu widerstehen, ist der SG des Rettungswurfs gleich 8 + deinem Übungsbonus + deinem Stärke- oder Geschicklichkeitsmodifikator (deine Wahl).</li>
+				<li>Du erhältst einen Überlegenheitswürfel, der ein W6 ist. (Besitzt du bereits Überlegenheitswürfel, wird der W6 diesen hinzugefügt). Dieser Würfel wird verwendet, um deine Manöver zu verstärken und gilt nach der Anwendung als verbraucht. Alle verbrauchten Überlegenheitswürfel stehen dir nach Beenden einer kurzen oder langen Rast wieder zur Verfügung.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>{{martial adept:dice:amount}}W{{martial adept:dice:size}} Überlegenheitswürfel / Kurze Rast. SG {{martial adept:dc}}</description>
+		</sheet>
+		<rules>
+			<stat name="martial adept:ability" value="strength:modifier" bonus="martial adept:ability" />
+			<stat name="martial adept:ability" value="dexterity:modifier" bonus="martial adept:ability" />
+
+			<stat name="martial adept:dc" value="8" />
+			<stat name="martial adept:dc" value="proficiency" />
+			<stat name="martial adept:dc" value="martial adept:ability" />
+
+			<stat name="martial adept:dice:amount" value="1" />
+			<stat name="martial adept:dice:size" value="6" />
+
+			<select type="Archetype Feature" name="Meister der Kampfkunst" supports="Maneuver,Battle Master" number="2" />
+
+			<!-- battle master -->
+			<stat name="superiority dice:amount" value="1" requirements="ID_ARCHETYPE_FEATURE_BATTLE_MASTER_COMBAT_SUPERIORITY" />
+
+			<stat name="superiority dice:dc" value="8" />
+			<stat name="superiority dice:dc" value="proficiency" />
+			<stat name="superiority dice:dc:ability" value="strength:modifier" bonus="ability"/>
+			<stat name="superiority dice:dc:ability" value="dexterity:modifier" bonus="ability"/>
+			<stat name="superiority dice:dc" value="superiority dice:dc:ability" />
+			<stat name="superiority dice:size" value="6"/>
+		</rules>
+	</element>
+	<element name="Meister der mittelschweren Rüstungen" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_MEDIUMARMORMASTER">
+		<prerequisite>Geübt im Umgang mit mittelschweren Rüstungen</prerequisite>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR</requirements>
+		<description>
+			<p><i>Voraussetzung: geübt im Umgang mit mittelschweren Rüstungen</i></p>
+			<p>Du hast den Kampf in mittelschweren Rüstungen gemeistert und erhältst die folgenden Vorzüge:</p>
+			<ul>
+				<li>Du bist durch das Tragen von mittelschweren Rüstungen bei Würfen auf Geschicklichkeit (Heimlichkeit) nicht im Nachteil.</li>
+				<li>Wenn du eine mittelschwere Rüstung trägst und eine Geschicklichkeit von 16 oder höher besitzt, darfst du 3 Punkte anstatt 2 auf deine Rüstungsklasse addieren.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du bist durch das Tragen von mittelschweren Rüstungen bei Würfen auf Geschicklichkeit (Heimlichkeit) nicht im Nachteil.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:armored:dexterity:cap" value="3" bonus="base" />
+		</rules>
+	</element>
+	<element name="Meister der schweren Rüstungen" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_HEAVYARMORMASTER">
+		<prerequisite>Geübt im Umgang mit schweren Rüstungen</prerequisite>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR</requirements>
+		<description>
+			<p><i>Voraussetzung: geübt im Umgang mit schweren Rüstungen</i></p>
+			<p>Du hast den Kampf in schweren Rüstungen gemeistert und erhältst die folgenden Vorzüge:</p>
+			<ul>
+				<li>Erhöhe deine Stärke um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Solange du schwere Rüstungen trägst, wird der Hieb-, Stich- oder Wuchtschaden nicht-magischer Waffen um 3 Punkte reduziert.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Solange du schwere Rüstungen trägst, wird der Hieb-, Stich- oder Wuchtschaden nicht-magischer Waffen um 3 Punkte reduziert.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="1" />
+		</rules>
+	</element>
+	<element name="Meisterschaft schwerer Waffen" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_GREATWEAPONMASTER">
+		<description>
+			<p>Du hast gelernt, das Gewicht von Waffen zu deinem Vorteil zu nutzen, wodurch die Wucht deiner Hiebe verstärkt wird. Du erhältst die folgenden Vorzüge:</p>
+			<ul>
+				<li>Wenn du in deinem Zug einen kritischen Treffer mit einer Nahkampfwaffe erzielst oder eine Kreatur mit einer Nahkampfwaffe auf 0 Trefferpunkte reduzierst, kannst du deine Bonusaktion aufwenden, um einen weiteren Nahkampfangriff durchzuführen.</li>
+				<li>Bevor du einen Nahkampfangriff mit einer schweren Waffe ausführst, in deren Umgang du geübt bist, kannst du dich dazu entscheiden, einen Malus von -5 auf den Angriffswurf hinzunehmen, um den verursachten Schaden bei einem Treffer um 10 zu erhöhen.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description action="Bonusaktion">Wenn du in deinem Zug einen kritischen Treffer mit einer Nahkampfwaffe erzielst oder eine Kreatur mit einer Nahkampfwaffe auf 0 Trefferpunkte reduzierst, kannst du deine Bonusaktion aufwenden, um einen weiteren Nahkampfangriff durchzuführen.
+			Bevor du einen Nahkampfangriff mit einer schweren Waffe ausführst, in deren Umgang du geübt bist, kannst du dich dazu entscheiden, einen Malus von -5 auf den Angriffswurf hinzunehmen, um den verursachten Schaden bei einem Treffer um 10 zu erhöhen.</description>
+		</sheet>
+	</element>
+	<element name="Mittelschwer gerüstet" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_MODERATELYARMORED">
+		<prerequisite>Geübt im Umgang mit leichten Rüstungen</prerequisite>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR</requirements>
+		<description>
+			<p><i>Voraussetzung: geübt im Umgang mit leichten Rüstungen</i></p>
+			<p>Du hast trainiert, in mittelschweren Rüstungen und mit Schilden zu kämpfen, und erhältst die folgenden Vorzüge:</p>
+			<ul>
+				<li>Erhöhe deine Stärke oder Geschicklichkeit um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Du bist im Umgang mit mittelschweren Rüstungen und Schilden geübt.</li>
+			</ul>
+		</description>
+		<sheet display="false">
+			<description>Du bist im Umgang mit mittelschweren Rüstungen und Schilden geübt.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Attributswerterhöhung (Mittelschwer gerüstet)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+		</rules>
+	</element>
+	<element name="Ringer" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_GRAPPLER">
+		<prerequisite>Stärke 13 oder höher</prerequisite>
+		<requirements>[str:13]</requirements>
+		<description>
+			<p><i>Voraussetzung: geübt im Umgang mit leichten Rüstungen</i></p>
+			<p>Du hast dir beigebracht, dich im Ringkampf durchzusetzen, wodurch du die folgenden Vorzüge erhältst:</p>
+			<ul>
+				<li>Du bist bei Angriffswürfen gegen Kreaturen im Vorteil, die du gepackt hast.</li>
+				<li>Du kannst deine Aktion dazu verwenden, eine Kreatur, die du gepackt hast, festzusetzen. Lege dazu einen zweiten Ringkampfwurf ab. Wenn dieser erfolgreich ist, erhaltet ihr beide den Zustand festgesetzt, bis der Zustand gepackt endet.</li>
+				<li>Creatures that are one size larger than you don’t automatically succeed on checks to escape your grapple.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du bist bei Angriffswürfen gegen Kreaturen im Vorteil, die du gepackt hast.
+			Du kannst deine Aktion dazu verwenden, eine Kreatur, die du gepackt hast, festzusetzen. Lege dazu einen zweiten Ringkampfwurf ab. Wenn dieser erfolgreich ist, erhaltet ihr beide den Zustand festgesetzt, bis der Zustand gepackt endet.
+			Creatures that are one size larger than you don’t automatically succeed on checks to escape your grapple.</description>
+		</sheet>
+	</element>
+	<element name="Ritualwirker" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_RITUALCASTER">
+		<prerequisite>Intelligenz Intelligenz oder Weisheit 13 oder höher</prerequisite>
+		<requirements>[int:13]||[wis:13]</requirements>
+		<description>
+			<p><i>Voraussetzung: Intelligenz Intelligenz oder Weisheit 13 oder höher</i></p>
+			<p>Du hast dir eine Reihe von Zaubern angeeignet, die du als Rituale wirken kannst. Diese Zauber werden in einem Ritualbuch niedergeschrieben, welches du in der Hand halten musst, während du eines dieser Rituale ausführst.</p>
+			<p class="indent">Wenn du dieses Talent wählst, erhältst du ein Ritualbuch, das zwei Zauber des 1. Grades enthält (deiner Wahl). Entscheide dich für eine der folgenden Klassen: Barde, Druide, Kleriker, Magier, Hexenmeister oder Zauberer. Du musst dir deine zwei Zauber aus der Spruchliste dieser Klasse aussuchen, und sie müssen als Ritual gekennzeichnet sein. Die gewählte Klasse bestimmt auch das zum Zauberwirken relevante Attribut: Charisma für Barden, Hexenmeister und Zauberer, Weisheit für Druiden und Kleriker sowie Intelligenz für Magier.</p>
+			<p class="indent">Findest du einen Zauber in geschriebener Form, etwa auf einer Spruchrolle oder im Zauberbuch eines Magiers, kannst du versuchen, ihn in dein Ritualbuch zu übertragen. Der Zauber muss in der Spruchliste der gewählten Klasse vor-kommen und sein Grad darf nicht mehr als die Hälfte deiner Stufe (aufgerundet) betragen. Außerdem muss der Zauber als Ritual gekennzeichnet sein. Der Vorgang des Kopierens dauert 2 Stunden pro Grad des Zaubers und kostet 50 GM pro Grad. Die Kosten repräsentieren sowohl Materialkomponenten, die du bei den Versuchen verbrauchst, den Zauber zu meistern, als auch spezielle Tinte, die du zum Aufschreiben benötigst.</p>
+		</description>
+		<sheet>
+			<description>Du hast dir eine Reihe von Zaubern angeeignet, die du als Rituale wirken kannst.</description>
+		</sheet>
+		<rules>
+			<!-- todo: grant ID_INTERNAL_RITUAL-->
+			<select type="Feat Feature" name="Ritualwirker" supports="Ritual Caster" />
+		</rules>
+	</element>
+	<element name="Barde" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RITUAL_CASTER_BARD">
+		<supports>Ritual Caster</supports>
+		<description>
+			<p>Du erhältst ein Ritualbuch, das zwei Zauber deiner Wahl des 1. Grades aus der Zauberliste des Barden enthält.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Charisma.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Charisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zauber 1. Grad (Ritualwirker)" supports="Ritual,1,Bard" number="2" />
+		</rules>
+	</element>
+	<element name="Kleriker" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RITUAL_CASTER_CLERIC">
+		<supports>Ritual Caster</supports>
+		<description>
+			<p>Du erhältst ein Ritualbuch, das zwei Zauber deiner Wahl des 1. Grades aus der Zauberliste des Klerikers enthält.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Weisheit.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Weisheit.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zauber 1. Grad (Ritualwirker)" supports="Ritual,1,Cleric" number="2" />
+		</rules>
+	</element>
+	<element name="Druide" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RITUAL_CASTER_DRUID">
+		<supports>Ritual Caster</supports>
+		<description>
+			<p>Du erhältst ein Ritualbuch, das zwei Zauber deiner Wahl des 1. Grades aus der Zauberliste des Druiden enthält.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Weisheit.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Weisheit.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zauber 1. Grad (Ritualwirker)" supports="Ritual,1,Druid" number="2" />
+		</rules>
+	</element>
+	<element name="Zauberer" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RITUAL_CASTER_SORCERER">
+		<supports>Ritual Caster</supports>
+		<description>
+			<p>Du erhältst ein Ritualbuch, das zwei Zauber deiner Wahl des 1. Grades aus der Zauberliste des Zauberers enthält.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Charisma.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Charisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zauber 1. Grad (Ritualwirker)" supports="Ritual,1,Sorcerer" number="2" />
+		</rules>
+	</element>
+	<element name="Hexenmeister" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RITUAL_CASTER_WARLOCK">
+		<supports>Ritual Caster</supports>
+		<description>
+			<p>Du erhältst ein Ritualbuch, das zwei Zauber deiner Wahl des 1. Grades aus der Zauberliste des Hexenmeisters enthält.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Charisma.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Charisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zauber 1. Grad (Ritualwirker)" supports="Ritual,1,Warlock" number="2" />
+		</rules>
+	</element>
+	<element name="Magier" type="Feat Feature" source="Spielerhandbuch" id="ID_PHB_FEAT_RITUAL_CASTER_WIZARD">
+		<supports>Ritual Caster</supports>
+		<description>
+			<p>Du erhältst ein Ritualbuch, das zwei Zauber deiner Wahl des 1. Grades aus der Zauberliste des Magiers enthält.</p>
+			<p class="indent">Das Attribut, mit dem du diese Zauber wirkst, ist Intelligenz.</p>
+		</description>
+		<sheet>
+			<description>Das Attribut zum Zauberwirken ist Intelligenz.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Zauber 1. Grad (Ritualwirker)" supports="Ritual,1,Wizard" number="2" />
+		</rules>
+	</element>
+	<!-- /ritual caster -->
+
+	<element name="Scharfer Verstand" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_KEENMIND">
+		<description>
+			<p>Du bist außergewöhnlich gut darin, dir Zeiten, Richtungen und Einzelheiten einzuprägen, und erhältst folgende Vorzüge:</p>
+			<ul>
+				<li>Erhöhe deine Intelligenz um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Du weißt immer, wo Norden ist.</li>
+				<li>Du weißt immer, wie viele Stunden es zum nächsten Sonnenauf- oder -untergang sind.</li>
+				<li>Du kannst dich genau an alles erinnern, was du im vergangenen Monat gesehen oder gehört hast.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du weißt immer, wo Norden ist.
+			Du weißt immer, wie viele Stunden es zum nächsten Sonnenauf- oder -untergang sind.
+			Du kannst dich genau an alles erinnern, was du im vergangenen Monat gesehen oder gehört hast.
+		</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" />
+		</rules>
+	</element>
+	<element name="Scharfschütze" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_SHARPSHOOTER">
+		<description>
+			<p>Du bist ein Meister im Fernkampf und kannst Schüsse ausführen, die anderen unmöglich sind. Du erhältst folgende Vorzüge:</p>
+			<ul>
+				<li>Du bist beim Angriffswurf nicht im Nachteil, wenn du ein Ziel angreifst, das sich weiter entfernt befindet als die Grundreichweite deiner Waffe.</li>
+				<li>Deine Fernkampfangriffe ignorieren Teil- und Dreivierteldeckung.</li>
+				<li>Bevor du einen Angriff mit einer Fernkampfwaffe ausführst, in deren Umgang du geübt bist, kannst du dich entscheiden, einen Malus von -5 auf den Angriffswurf hinzunehmen, um den verursachten Schaden bei einem Treffer um 10 zu erhöhen.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du bist beim Angriffswurf nicht im Nachteil, wenn du ein Ziel angreifst, das sich weiter entfernt befindet als die Grundreichweite deiner Waffe.
+			Deine Fernkampfangriffe ignorieren Teil- und Dreivierteldeckung.
+			Bevor du einen Angriff mit einer Fernkampfwaffe ausführst, in deren Umgang du geübt bist, kannst du dich entscheiden, einen Malus von -5 auf den Angriffswurf hinzunehmen, um den verursachten Schaden bei einem Treffer um 10 zu erhöhen.</description>
+		</sheet>
+	</element>
+	<element name="Schauspieler" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_ACTOR">
+		<description>
+			<p>Da du äußerst bewandert in den Künsten der Nachahmung und der Darstellung bist, erhältst du die folgenden Vorzüge:</p>
+			<ul>
+				<li>Erhöhe dein Charisma um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Du bist bei Würfen auf Charisma (Täuschen) und Charisma (Auftreten) im Vorteil, wenn du dich als eine andere Person ausgeben willst.</li>
+				<li>Du bist in der Lage, die Stimme einer anderen Person oder die Laute einer Kreatur nahezu perfekt nachzuahmen. Dazu musst du dem Ziel mindestens 1 Minute lang zugehört haben. Ein erfolgreicher Weisheitswurf (Motiv erkennen) gegen deinen Wurf auf Charisma (Täuschen) lässt den Zuhörer die Täuschung bemerken.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du bist bei Würfen auf Charisma (Täuschen) und Charisma (Auftreten) im Vorteil, wenn du dich als eine andere Person ausgeben willst.
+			Du bist in der Lage, die Stimme einer anderen Person oder die Laute einer Kreatur nahezu perfekt nachzuahmen. Dazu musst du dem Ziel mindestens 1 Minute lang zugehört haben. Ein erfolgreicher Weisheitswurf (Motiv erkennen) gegen deinen Wurf auf Charisma (Täuschen) lässt den Zuhörer die Täuschung bemerken.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" />
+		</rules>
+	</element>
+	<element name="Schildmeister" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_SHIELDMASTER">
+		<description>
+			<p>Du hast gelernt, Schilde nicht nur zur Verteidigung, sondern auch zum Angriff zu nutzen. Du erhältst die folgenden Vorzüge, solange du einen Schild führst:</p>
+			<ul>
+				<li>Wenn du in deinem Zug die Angriffsaktion wählst, kannst du deine Bonusaktion dazu verwenden, eine Kreatur innerhalb von 1,50 m mit deinem Schild zurückzustoßen.</li>
+				<li>Solange du nicht kampfunfähig bist, kannst du den Rüstungsklassebonus deines Schildes zu jedem Geschicklichkeitsrettungswurf addieren, den du aufgrund eines Zaubereffekts oder dem einer anderen schädlichen Quellen ablegen musst. Diese Effekte dürfen nur dich betreffen.</li>
+				<li>Wirst du von einem Effekt betroffen, der dir erlaubt, durch einen erfolgreichen Geschicklichkeitsrettungswurf nur den halben Schaden zu nehmen, kannst du deine Reaktion aufwenden, um bei einem gelungenen Rettungswurf keinen Schaden zu erleiden.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Wenn du in deinem Zug die Angriffsaktion wählst, kannst du deine Bonusaktion dazu verwenden, eine Kreatur innerhalb von 1,50 m mit deinem Schild zurückzustoßen.
+			Solange du nicht kampfunfähig bist, kannst du den Rüstungsklassebonus deines Schildes zu jedem Geschicklichkeitsrettungswurf addieren, den du aufgrund eines Zaubereffekts oder dem einer anderen schädlichen Quellen ablegen musst. Diese Effekte dürfen nur dich betreffen.
+			Wirst du von einem Effekt betroffen, der dir erlaubt, durch einen erfolgreichen Geschicklichkeitsrettungswurf nur den halben Schaden zu nehmen, kannst du deine Reaktion aufwenden, um bei einem gelungenen Rettungswurf keinen Schaden zu erleiden.</description>
+		</sheet>
+	</element>
+	<element name="Schleicher" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_SKULKER">
+		<prerequisite>Geschicklichkeit 13 oder höher</prerequisite>
+		<requirements>[dex:13]</requirements>
+		<description>
+			<p><i>Voraussetzung: Geschicklichkeit 13 oder höher</i></p>
+			<p>Du bist ein Experte darin, durch die Schatten zu schleichen, und erhältst folgende Vorzüge:</p>
+			<ul>
+				<li>Du kannst versuchen, dich zu verstecken, auch wenn du nur leicht verschleiert bist.</li>
+				<li>Wenn du vor einer Kreatur versteckt bist und mit einem Fernkampfangriff verfehlst, offenbart der Angriff nicht deine Position.</li>
+				<li>Dämmriges Licht sorgt nicht dafür, dass du bei Würfen auf Weisheit (Wahrnehmung) im Nachteil bist, wenn sie von Sicht abhängen.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du kannst versuchen, dich zu verstecken, auch wenn du nur leicht verschleiert bist.
+			Wenn du vor einer Kreatur versteckt bist und mit einem Fernkampfangriff verfehlst, offenbart der Angriff nicht deine Position.
+			Dämmriges Licht sorgt nicht dafür, dass du bei Würfen auf Weisheit (Wahrnehmung) im Nachteil bist, wenn sie von Sicht abhängen.</description>
+		</sheet>
+	</element>
+	<element name="Schwer gepanzert" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_HEAVILYARMORED">
+		<prerequisite>Geübt im Umgang mit mittelschweren Rüstungen</prerequisite>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR</requirements>
+		<description>
+			<p><i>Voraussetzung: geübt im Umgang mit mittelschweren Rüstungen</i></p>
+			<p>Du hast trainiert, in schweren Rüstungen zu kämpfen, und erhältst die folgenden Vorzüge:</p>
+			<ul>
+				<li>Erhöhe deine Stärke um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Du bist geübt im Umgang mit schweren Rüstungen.</li>
+			</ul>
+		</description>
+		<sheet display="false">
+			<description>Du bist geübt im Umgang mit schweren Rüstungen.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="1" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+		</rules>
+	</element>
+	<element name="Stangenwaffenmeister" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_POLEARMMASTER">
+		<description>
+			<p>Du bist versiert im Kampf mit Stangenwaffen und erhältst die folgenden Vorzüge:</p>
+			<ul>
+				<li>Wenn du die Angriffsaktion wählst und nur mit einer Glefe, Hellebarde oder einem Kampfstab angreifst, kannst du deine Bonusaktion aufwenden, um einen weiteren Angriff mit dem anderen Ende der Waffe auszuführen. Dieser Angriff verwendet denselben Attributsmodifikator wie der erste und verursacht 1W4 Wuchtschaden.</li>
+				<li>Solange du eine Glefe, Hellebarde, Pike oder einen Kampfstab führst, provozieren andere Kreaturen einen Gelegenheitsangriff durch dich, wenn sie sich in Reichweite der Waffe begeben.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Wenn du die Angriffsaktion wählst und nur mit einer Glefe, Hellebarde oder einem Kampfstab angreifst, kannst du deine Bonusaktion aufwenden, um einen weiteren Angriff mit dem anderen Ende der Waffe auszuführen. Dieser Angriff verwendet denselben Attributsmodifikator wie der erste und verursacht 1W4 Wuchtschaden.
+			Solange du eine Glefe, Hellebarde, Pike oder einen Kampfstab führst, provozieren andere Kreaturen einen Gelegenheitsangriff durch dich, wenn sie sich in Reichweite der Waffe begeben.</description>
+		</sheet>
+	</element>
+	<element name="Stürmer" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_CHARGER">
+		<description>
+			<p>Wenn du deine Aktion verwendest, um zu spurten, kannst du als Bonusaktion einen Nahkampfangriff ausführen oder eine Kreatur wegstoßen. Hast du vor dieser Bonusaktion mindestens 3 m in einer geraden Linie zurückgelegt, erhältst du entweder einen Bonus von +5 auf den Schadenswurf (wenn du den Nahkampfangriff gewählt hast und triffst) oder du stößt das Ziel bis zu 3 m von dir weg (wenn du dich entschieden hast, den Gegner wegzustoßen, und erfolgreich bist).</p>
+		</description>
+		<sheet action="Bonusaktion">
+			<description>Wenn du deine Aktion verwendest, um zu spurten, kannst du einen Nahkampfangriff ausführen oder eine Kreatur wegstoßen. Hast du vor dieser Bonusaktion mindestens 3 m in einer geraden Linie zurückgelegt, erhältst du entweder einen Bonus von +5 auf den Schadenswurf (wenn du den Nahkampfangriff gewählt hast und triffst) oder du stößt das Ziel bis zu 3 m von dir weg (wenn du dich entschieden hast, den Gegner wegzustoßen, und erfolgreich bist).</description>
+		</sheet>
+	</element>
+	<element name="Wachsam" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_ALERT">
+		<description>
+			<p> hältst immer Ausschau nach Gefahren und erhältst folgende Vorzüge:</p>
+			<ul>
+				<li>Du erhältst einen Bonus von +5 auf Initiative.</li>
+				<li>Du kannst nicht überrascht werden, solange du bei Bewusstsein bist.</li>
+				<li>Kreaturen, die du nicht sehen kannst, sind nicht im Vorteil bei Angriffswürfen gegen dich.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du kannst nicht überrascht werden, solange du bei Bewusstsein bist.
+			Kreaturen, die du nicht sehen kannst, sind nicht im Vorteil bei Angriffswürfen gegen dich.</description>
+		</sheet>
+		<rules>
+			<stat name="initiative" value="5" />
+		</rules>
+	</element>
+	<element name="Wächter" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_SENTINEL">
+		<description>
+			<p>Du hast die Technik gemeistert, jegliche Lücke in der Verteidigung deines Gegners zu nutzen, und erhältst folgende Vorzüge:</p>
+			<ul>
+				<li>Wenn du eine Kreatur mit einem Gelegenheitsangriff triffst, wird die Bewegungsrate der Kreatur für den restlichen Zug auf 0 reduziert.</li>
+				<li>Kreaturen provozieren Gelegenheitsangriffe durch dich, obwohl sie die Aktion Rückzug gewählt haben, bevor sie deine Reichweite verlassen.</li>
+				<li>Wenn eine Kreatur innerhalb von 1,50 m ein anderes Ziel als dich angreift (und das Ziel dieses Talent nicht besitzt), kannst du deine Reaktion aufwenden, um einen Nahkampf-Waffenangriff gegen diese Kreatur auszuführen.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Wenn eine Kreatur innerhalb von 1,50 m ein anderes Ziel als dich angreift (und das Ziel dieses Talent nicht besitzt), kannst du deine Reaktion aufwenden, um einen Nahkampf-Waffenangriff gegen diese Kreatur auszuführen.
+				Wenn du eine Kreatur mit einem Gelegenheitsangriff triffst, wird die Bewegungsrate der Kreatur für den restlichen Zug auf 0 reduziert.
+				Kreaturen provozieren Gelegenheitsangriffe durch dich, obwohl sie die Aktion Rückzug gewählt haben, bevor sie deine Reichweite verlassen.</description>
+		</sheet>
+	</element>
+	<element name="Waffenmeister" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_WEAPONMASTER">
+		<description>
+			<p>Du hast ausgiebig mit einer Vielzahl an Waffen geübt und erhältst folgende Vorzüge:</p>
+			<ul>
+				<li>Erhöhe deine Stärke oder Geschicklichkeit um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Du bist geübt im Umgang mit vier Waffen deiner Wahl. Jede muss eine einfache Waffe oder eine Kriegswaffe sein.</li>
+			</ul>
+		</description>
+		<sheet />
+		<rules>
+			<select type="Ability Score Improvement" name="Attributswerterhöhung (Waffenmeister)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+			<select type="Proficiency" name="Waffenmeister" supports="Weapon" number="4" />
+		</rules>
+	</element>
+	<element name="Widerstandsfähig" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_DURABLE">
+		<description>
+			<p>Du bist hartgesotten und standhaft, wodurch du folgende Vorzüge erhältst:</p>
+			<ul>
+				<li>Erhöhe deine Konstitution um 1 Punkt, bis zu einem maximalen Attributswert von 20.</li>
+				<li>Wenn du mit einem Trefferwürfel Trefferpunkte regenerierst, erhältst du minimal immer so viele Trefferpunkte, wie es dem Doppelten deines Konstitutionsmodifikators entspricht (mindestens 2).</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Wenn du mit einem Trefferwürfel Trefferpunkte regenerierst, erhältst du minimal {{durable:hd:bonus}} Trefferpunkte.</description>
+		</sheet>
+		<rules>
+			<stat name="constitution" value="1" />
+			<stat name="durable:constitution modifier" value="constitution:modifier" />
+			<stat name="durable:constitution modifier" value="constitution:modifier" />
+			<stat name="durable:hd:bonus" value="2" bonus="feat:durable" />
+			<stat name="durable:hd:bonus" value="durable:constitution modifier" bonus="feat:durable" />
+		</rules>
+	</element>
+	<element name="Wilder Angreifer" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_SAVAGEATTACKER">
+		<description>
+			<p>Einmal pro Zug darfst du bei einem erfolgreichen Nahkampf-Waffenangriff den Schaden ein zweites Mal auswürfeln und wählen, welches Ergebnis angewendet wird.</p>
+		</description>
+		<sheet>
+			<description>Einmal pro Zug darfst du bei einem erfolgreichen Nahkampf-Waffenangriff den Schaden ein zweites Mal auswürfeln und wählen, welches Ergebnis angewendet wird.</description>
+		</sheet>
+	</element>
+	<element name="Zäh" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_TOUGH">
+		<description>
+			<p>Du bist zäh wie Leder. Mit der Wahl dieses Talents erhöht sich dein Trefferpunktemaximum einmalig um das Doppelte deiner Stufe. Immer wenn du danach eine Stufe aufsteigst, erhöht sich dein Trefferpunktemaximum um weitere 2 Punkte.</p>
+		</description>
+		<sheet>
+			<description>Dein Trefferpunktemaximum erhöht sich um {{tough:hp}}.</description>
+		</sheet>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="tough:hp" value="level" />
+			<stat name="tough:hp" value="level" />
+			<stat name="hp" value="tough:hp" />
+		</rules>
+	</element>
+	<element name="Zielgenauer Zauberschütze" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_SPELLSNIPER">
+		<prerequisite>Fähigkeit, mindestens einen Zauber zu wirken</prerequisite>
+		<requirements>[type:spell]</requirements>
+		<description>
+			<p><i>Voraussetzung: Fähigkeit, mindestens einen Zauber zu wirken</i></p>
+			<p>Du hast Techniken gelernt, um die Angriffe mit bestimmten Zaubern zu verbessern, wodurch du die folgenden Vorzüge erhältst:</p>
+			<ul>
+				<li>Wenn du einen Zauber wirkst, der einen Angriffswurf verlangt, wird dessen Reichweite verdoppelt.</li>
+				<li>Deine Angriffszauber ignorieren Teil- und Dreivierteldeckung.</li>
+				<li>Du lernst einen Zaubertrick, der einen Angriffswurf erfordert. Wähle einen Zaubertrick aus der Spruchliste des Barden, Druiden, Klerikers, Magiers, Hexenmeisters oder Zauberers. Dein relevantes Attribut zum Zauberwirken hängt von der gewählten Spruchliste ab: Charisma für Barden, Hexenmeister und Zauberer, Weisheit für Druiden und Kleriker sowie Intelligenz für Magier.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Wenn du einen Zauber wirkst, der einen Angriffswurf verlangt, wird dessen Reichweite verdoppelt.
+			Deine Angriffszauber ignorieren Teil- und Dreivierteldeckung.</description>
+		</sheet>
+		<rules>
+			<!-- todo: supports ID_INTERNAL_SUPPORT_SPELL_ATTACK -->
+			<select type="Spell" name="Spell Sniper" supports="0,(Bard||Cleric||Druid||Sorcerer||Warlock||Wizard)" />
+		</rules>
+	</element>
+	<element name="Zwei-Waffen-Kämpfer" type="Feat" source="Spielerhandbuch" id="ID_PHB_FEAT_DUALWIELDER">
+		<description>
+			<p>Du hast die Kunst gemeistert, mit zwei Waffen gleichzeitig zu kämpfen, und genießt folgende Vorzüge:</p>
+			<ul>
+				<li>Du erhältst einen Bonus von +1 auf deine Rüstungsklasse, wenn du in beiden Händen je eine Nahkampfwaffe führst.</li>
+				<li>Du kannst mit zwei Waffen kämpfen, auch wenn die einhändigen Nahkampfwaffen, die du führst, nicht leicht sind.</li>
+				<li>Du kannst gleichzeitig zwei einhändige Waffen ziehen beziehungsweise verstauen statt nur einer.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Du erhältst einen Bonus von +1 auf deine Rüstungsklasse, wenn du in beiden Händen je eine Nahkampfwaffe führst.
+			Du kannst mit zwei Waffen kämpfen, auch wenn die einhändigen Nahkampfwaffen, die du führst, nicht leicht sind.
+			Du kannst gleichzeitig zwei einhändige Waffen ziehen beziehungsweise verstauen statt nur einer..</description>
+		</sheet>
+		<rules>
+			<stat name="ac:misc" value="1" equipped="[primary:any],[secondary:any],![primary:versatile]" />
+		</rules>
+	</element>
+
+	<!--Feat Ability Score Increase-->
+	<element name="Attributswerterhöhung (Stärke)" type="Ability Score Improvement" source="Spielerhandbuch" id="ID_PHB_FEAT_ASI_STRENGTH">
+		<compendium display="false" />
+		<supports>Feat, Athlete</supports>
+		<description>
+			<p>Dein Stärkewert wird um 1 Punkt erhöht.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" alt="Attributswerterhöhung" />
+		</rules>
+	</element>
+	<element name="Attributswerterhöhung (Geschicklichkeit)" type="Ability Score Improvement" source="Spielerhandbuch" id="ID_PHB_FEAT_ASI_DEXTERITY">
+    <compendium display="false" />
+		<supports>Feat, Athlete</supports>
+		<description>
+			<p>Dein Geschicklichkeitswert wird um 1 Punkt erhöht.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" alt="Attributswerterhöhung" />
+		</rules>
+	</element>
+	<element name="Attributswerterhöhung (Konstitution)" type="Ability Score Improvement" source="Spielerhandbuch" id="ID_PHB_FEAT_ASI_CONSTITUTION">
+    <compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Dein Konstitutionswert wird um 1 Punkt erhöht.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" alt="Attributswerterhöhung" />
+		</rules>
+	</element>
+	<element name="Attributswerterhöhung (Intelligenz)" type="Ability Score Improvement" source="Spielerhandbuch" id="ID_PHB_FEAT_ASI_INTELLIGENCE">
+    <compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Dein Intelligenzwert wird um 1 Punkt erhöht.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" alt="Attributswerterhöhung" />
+		</rules>
+	</element>
+	<element name="Attributswerterhöhung (Weisheit)" type="Ability Score Improvement" source="Spielerhandbuch" id="ID_PHB_FEAT_ASI_WISDOM">
+    <compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Dein Weisheitswert wird um 1 Punkt erhöht.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" alt="Attributswerterhöhung" />
+		</rules>
+	</element>
+	<element name="Attributswerterhöhung (Charisma)" type="Ability Score Improvement" source="Spielerhandbuch" id="ID_PHB_FEAT_ASI_CHARISMA">
+    <compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Dein Charismawert wird um 1 Punkt erhöht.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" alt="Attributswerterhöhung" />
+		</rules>
+	</element>
+</elements>

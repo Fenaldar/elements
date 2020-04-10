@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Übung</name>
+    <description></description>
+    <author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.0.2">
+      <file name="uebung.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/uebung.xml" />
+    </update>
+  </info>
+
+
+  <!-- Skill Proficiencies  -->
+  <element name="Akrobatik" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_SKILL_ACROBATICS">
+  	<supports>Skill,Dexterity,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_MONK,Monk</supports>
+  	<description>
+  		<p>Würfe auf Geschicklichkeit (Akrobatik) decken alle Versuche ab, in denen du in schwierigen Situationen auf den Beinen bleiben willst, wie beim Rennen über eine Eisscholle. dem Balancieren auf einem Seil oder dem Stehen auf einem schaukelnden Schiffsdeck, ohne hinzufallen. Der SL kann einen solchen Wurf auch verlangen, um zu bestimmen, ob dir ein akrobatisches Kunststück gelingt, wie etwa ein Salto, eine Rolle oder ein Hechtsprung.</p>
+  	</description>
+  	<rules>
+  		<stat name="acrobatics:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Mit Tieren umgehen" type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING" source="Spielerhandbuch">
+  	<supports>Skill,Wisdom,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_RANGER,Ranger</supports>
+  	<description>
+  		<p>Wenn es darum geht, ein domestiziertes Tier zu beruhigen, ein Reittier vor dem Scheuen zu bewahren oder die Absichten eines Tieres intuitiv zu erkennen, könnte dein SL einen Wurf auf Weisheit (Mit Tieren umgehen) verlangen. Auch wenn du mit deinem Reittier riskante Manöver ausführen willst, ist ein solcher Weiheitswurf nötig.</p>
+  	</description>
+  	<rules>
+  		<stat name="animal handling:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Arkane Kunde" type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" source="Spielerhandbuch">
+  	<supports>Skill,Intelligence,ID_PROFICIENCY_SKILL,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_WARLOCK,Warlock,ID_CLASS_WIZARD,Wizard</supports>
+  	<description>
+  		<p>Würfe auf Intelligenz (Arkane Kunde) werden angewendet, um sich an Wissen über Zaubersprüche, magische Gegenstände, mystische Symbole, magische Schulen sowie die Ebenen der Existenz und deren Bewohner zu erinnern.</p>
+  	</description>
+  	<rules>
+  		<stat name="arcana:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Athletik" type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" source="Spielerhandbuch">
+  	<supports>Skill,Strength,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_MONK,Monk,ID_CLASS_PALADIN,Paladin,ID_CLASS_RANGER,Ranger</supports>
+  	<description>
+  		<p>Würfe auf Stärke (Athletik) decken schwierige Situationen ab, in die du beim Schwimmen, Klettern oder Springen geraten könntest. Als Beispiele seien die folgenden Handlungen angeführt:</p>
+  		<ul>
+  			<li>Du versuchst einen steilen und rutschigen Vorsprung hinaufzuklettern, Gefahren auszuweichen, während du dich an einer Wand abseilst, oder dich an einer Oberfläche festzuhalten, während jemand dich zu Fall bringen möchte.</li>
+  			<li>Du versuchst eine ungewöhnlich weite Distanz zu überspringen oder willst in der Luft einen Trick ausführen.</li>
+  			<li>Du versuchst in gefährlicher Strömung, schwerem Wellengang oder Bereichen voller Seegras zu schwimmen oder über Wasser zu bleiben. Oder eine andere Kreatur versucht dich unter Wasser zu ziehen oder zu drücken, oder dich auf andere Weise beim Schwimmen zu hindern.</li>
+  		</ul>
+  	</description>
+  	<rules>
+  		<stat name="athletics:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Täuschen" type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" source="Spielerhandbuch">
+    <supports>Skill,Charisma,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_BARD,Bard,ID_CLASS_WARLOCK,Warlock</supports>
+	  <description>
+      <p>Deine Würfe auf Charisma (Täuschen) zeigen an, ob du überzeugend die Wahrheit verbergen kannst, sei es nun verbal oder durch konkretes Handeln. Diese Täuschungen können alles umfassen, beginnend damit, andere durch mehrdeutige Aussagen auf eine falsche Fährte zu locken, bis zum Auftischen dreister Lügen. Typische Situationen, die einen solchen Wurf erfordern, sind zum Beispiel: einen Wärter überreden, einen Händler übers Ohr hauen, Geld beim Glücksspiel verdienen, eine Verkleidung glaubhaft annehmen, das Misstrauen von jemandem durch falsche Zusicherungen zerstreuen oder eine haarsträubende Lüge erzählen, ohne dabei die Miene zu verziehen.</p>
+    </description>
+	   <rules>
+       <stat name="deception:proficiency" value="proficiency" bonus="proficiency" />
+     </rules>
+  </element>
+  <element name="Geschichte" type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" source="Spielerhandbuch">
+  	<supports>Skill,Intelligence,ID_PROFICIENCY_SKILL,ID_CLASS_CLERIC,Cleric,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_MONK,Monk,ID_CLASS_WARLOCK,Warlock,ID_CLASS_WIZARD,Wizard</supports>
+  	<description>
+  		<p>Willst du dich an Wissen über historische Ereignisse, sagenumwobene Persönlichkeiten, alte Königreiche, vergangene Kriege, abgesetzte Dispoten und verschollene Zivilisationen erinnern, kann dein SL einen Wurf auf Intelligenz (Geschichte) verlangen.</p>
+  	</description>
+  	<rules>
+  		<stat name="history:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Motiv erkennen" type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" source="Spielerhandbuch">
+  	<supports>Skill,Wisdom,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_CLERIC,Cleric,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_MONK,Monk,ID_CLASS_PALADIN,Paladin,ID_CLASS_RANGER,Ranger,ID_CLASS_WIZARD,Wizard</supports>
+  	<description>
+  		<p>Dein Wurf auf Weisheit (Motiv erkennen) entscheidet darüber, ob du die wahren Absichten einer anderen Kreatur erkennen kannst, etwa wenn du eine Lüge erkennen willst oder den nächsten Schritt von jemandem voraussagen möchtest. Dafür greifst du auf Hinweise aus der Körpersprache deines Gegenübers zurück und analysierst sowohl Sprachgewohnheiten als auch Veränderungen im Verhalten.</p>
+  	</description>
+  	<rules>
+  		<stat name="insight:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Einschüchtern" type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" source="Spielerhandbuch">
+  	<supports>Skill,Charisma,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_ROGUE,Rogue,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_PALADIN,Paladin,ID_CLASS_WARLOCK,Warlock</supports>
+  	<description>
+  		<p>Wenn du versuchst, jemanden durch Drohungen, feindselige Gesten und körperliche Gewalt zu beeinflussen, wird dein SL einen Wurf auf Charisma (Einschüchtern) verlangen. Möchtest du etwa Informationen von einem Gefangenen erlangen, einen Straßenräuber davon überzeugen, einer Auseinandersetzung aus dem Weg zu gehen, oder mit einer abgebrochenen Flasche in der Hand einen aufmüpfigen Wesir dazu bringen, seine Entscheidung zu überdenken, ist ein solcher Wurf gefordert.</p>
+  	</description>
+  	<rules>
+  		<stat name="intimidation:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Nachforschungen" type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" source="Spielerhandbuch">
+  	<supports>Skill,Intelligence,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard,ID_CLASS_RANGER,Ranger,ID_CLASS_WARLOCK,Warlock,ID_CLASS_WIZARD,Wizard</supports>
+  	<description>
+  		<p>Würfe auf Intelligenz (Nachforschungen) kommen zum Einsatz, wenn du nach Hinweisen suchst und aufgrund dieser Schlussfolgerungen ziehst. Du könntest den Ort eines versteckten Gegenstandes herleiten, von der Art einer Wunde auf den Gegenstand schließen, der sie verursacht hat, oder die schwächste Stelle eines Tunnels in Erfahrung bringen, an der man ihn eventuell zum Einsturz bringen könnte. Uralte Schriftrollen zu wälzen, um eine bestimmte Textstelle zu finden, könnte ebenfalls Würfe auf Intelligenz (Nachforschungen) erfordern.</p>
+  	</description>
+  	<rules>
+  		<stat name="investigation:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Heilkunde" type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" source="Spielerhandbuch">
+  	<supports>Skill,Wisdom,ID_PROFICIENCY_SKILL,ID_CLASS_CLERIC,Cleric,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_PALADIN,Paladin,ID_CLASS_WIZARD,Wizard</supports>
+  	<description>
+  		<p>Mit einem Wurf auf Weisheit (Heilkunde) versuchst du, einen sterbenden Gefährten zu stabilisieren oder eine Krankheit zu diagnostizieren.</p>
+  	</description>
+  	<rules>
+  		<stat name="medicine:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Naturkunde" type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" source="Spielerhandbuch">
+  	<supports>Skill,Intelligence,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_RANGER,Ranger,ID_CLASS_WARLOCK,Warlock</supports>
+  	<description>
+  		<p>Möchtest du dich beispielsweise an ein bestimmtes Terrain, bestimmte Pflanzen oder Tiere, das Wetter oder natürliche Kreisläufe erinnern, wird ein Wurf auf Intelligenz (Naturkunde) angewendet.</p>
+  	</description>
+  	<rules>
+  		<stat name="nature:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Wahrnehmung" type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" source="Spielerhandbuch">
+  	<supports>Skill,Wisdom,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_ROGUE,Rogue,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_RANGER,Ranger</supports>
+  	<description>
+  		<p>Deine Würfe auf Weisheit (Wahrnehmung) lassen dich sehen, hören oder auf andere Weise wahrnehmen, was in deiner Umgebung geschieht. Weisheit zeigt an, wie gut deine generelle Aufmerksamkeit ist und wie scharf deine Sinne sind. Beispielsweise könntest du versuchen, eine Unterhaltung durch eine geschlossene Tür hindurch zu belauschen, unter einem offenen Fenster zu horchen, ob sich jemand im Raum befindet, oder die heimlichen Bewegungen eines Monsters im Unterholz wahrzunehmen. Vielleicht strengst du dich auch an, etwas Verborgenes zu entdecken oder etwas, das leicht zu übersehen ist, seien es nun Orks, die an einem Weg in einem Hinterhalt liegen, Ganoven, die sich in den Schatten einer Seitenstraße verstecken, oder der Schein einer Kerze hinter einer verschlossenen Geheimtür.</p>
+  	</description>
+  	<rules>
+  		<stat name="perception:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Auftreten" type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" source="Spielerhandbuch">
+  	<supports>Skill,Charisma,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard</supports>
+  	<description>
+  		<p>Würfe auf Charisma (Auftreten) sind gefragt, um festzustellen, wie gut du ein Publikum mit Gesang, Musik, Schauspiel, Erzählkunst, Tanz oder jeglicher anderer Form von Unterhaltung erfreuen kannst.</p>
+  	</description>
+  	<rules>
+  		<stat name="performance:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Überzeugen" type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" source="Spielerhandbuch">
+  	<supports>Skill,Charisma,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_CLERIC,Cleric,ID_CLASS_BARD,Bard,ID_CLASS_PALADIN,Paladin</supports>
+  	<description>
+  		<p>Wenn du eine einzelne Person oder eine Gruppe mit Taktgefühl, sozialem Einfühlungsvermögen oder deinem wohlwollenden Wesen zu beeinflussen versuchst, kann dein SL einen Wurf auf Charisma (Überzeugen) verlangen. In der Regel nutzt du diese Fertigkeit, wenn du in guter Absicht handelst, bestehende Freundschaften stärken willst, einen Gefallen einforderst oder angemessene Etikette wahren willst. Beispielhafte Situationen sind: einen Kämmerer zu überreden, dich und deine Gruppe zum König vorzulassen, Friedensverhandlungen zwischen kriegstreibenden Stammesgruppen zu führen oder eine Schar von Dörflern zum Handeln zu inspirieren.</p>
+  	</description>
+  	<rules>
+  		<stat name="persuasion:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Religion" type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" source="Spielerhandbuch">
+  	<supports>Skill,Intelligence,ID_PROFICIENCY_SKILL,ID_CLASS_SORCERER,Sorcerer,ID_CLASS_CLERIC,Cleric,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_MONK,Monk,ID_CLASS_PALADIN,Paladin,ID_CLASS_WARLOCK,Warlock,ID_CLASS_WIZARD,Wizard</supports>
+  	<description>
+  		<p>Würfe auf Intelligenz (Religion) werden notwendig, wenn du Wissen über Gottheiten, Riten und Gebete, religiöse Hierarchien, heilige Symbole oder die Praktiken geheimer Kulte abrufen willst.</p>
+  	</description>
+  	<rules>
+  		<stat name="religion:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Heimlichkeit" type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" source="Spielerhandbuch">
+  	<supports>Skill,Dexterity,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard,ID_CLASS_MONK,Monk,ID_CLASS_RANGER,Ranger</supports>
+  	<description>
+  		<p>Lege einen Wurf auf Geschicklichkeit (Heimlichkeit) ab, wenn du versuchst, dich vor Gegnern zu verstecken, dich an Wachen vorbeizuschleichen oder unbemerkt zu entkommen. Auch beim Anschleichen an jemanden, ohne von diesem gesehen oder gehört zu werden, kommt Heimlichkeit zum Einsatz.</p>
+  	</description>
+  	<rules>
+  		<stat name="stealth:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Überlebenskunst" type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" source="Spielerhandbuch">
+  	<supports>Skill,Wisdom,ID_PROFICIENCY_SKILL,ID_CLASS_BARBARIAN,Barbarian,ID_CLASS_DRUID,Druid,ID_CLASS_BARD,Bard,ID_CLASS_FIGHTER,Fighter,ID_CLASS_RANGER,Ranger</supports>
+  	<description>
+  		<p>Der SL kann von dir einen Wurf auf Weisheit (Überlebenskunst) verlangen, wenn du versuchst, Spuren zu lesen, Wild zu jagen, deine Gruppe durch die vereiste Ödnis zu führen, ein Anzeichen dafür zu finden, ob in der Nähe Eulenbären leben, das Wetter vorherzusagen oder Treibsand und andere natürliche Gefahren zu vermeiden.</p>
+  	</description>
+  	<rules>
+  		<stat name="survival:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+  <element name="Fingerfertigkeit" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" >
+  	<supports>Skill,Dexterity,ID_PROFICIENCY_SKILL,ID_CLASS_ROGUE,Rogue,ID_CLASS_BARD,Bard</supports>
+  	<description>
+  		<p>Immer sobald du eine Aktion versuchst, die Fingerspitzengefühl oder eine schnelle Hand erfordert, wird ein Wurf auf Geschicklichkeit (Fingerfertigkeit) fällig. Beispielsweise wenn du einen Gegenstand bei dir verstecken möchtest oder jemandem einen zustecken willst, ohne dass dieser es merkt. Ein solcher Wurf kommt etwa auch zum Tragen, wenn der SL herausfinden möchte. ob du Münzen aus dem Geldbeutel einer anderen Person zu stehlen vermagst oder etwas unbemerkt aus deren Tasche entnehmen kannst.</p>
+  	</description>
+  	<rules>
+  		<stat name="sleight of hand:proficiency" value="proficiency" bonus="proficiency" />
+  	</rules>
+  </element>
+
+
+  <!-- Tool Proficiencies  -->
+  <!-- Tool Proficiency (text on sheet) -->
+  <element name="Tool Proficiency (Fälscherausrüstung)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT">
+    <supports>Tool, Kit</supports>
+  </element>
+    <element name="Tool Proficiency (Diebeswerkzeug)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS">
+  	<supports>Tool, Thieves tools</supports>
+  </element>
+  <element name="Tool Proficiency (Giftmischerausrüstung)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT">
+  	<supports>Tool, Kit</supports>
+  </element>
+  <element name="Tool Proficiency (Kräuterkundeausrüstung)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT">
+  	<supports>Tool, Kit</supports>
+  </element>
+  <element name="Tool Proficiency (Navigationswerke)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS">
+    <supports>Tool, Vehicles</supports>
+  </element>
+  <element name="Tool Proficiency (Verkleidungsausrüstung)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT">
+  	<supports>Tool, Kit</supports>
+  </element>
+  <element name="Tool Proficiency (Fahrzeuge (Land))" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND">
+    <supports>Tool, Vehicles</supports>
+  </element>
+  <element name="Tool Proficiency (Fahrzeuge (Wasser))" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER">
+  	<supports>Tool, Vehicles</supports>
+  </element>
+
+  <element name="Tool Proficiency (Handwerkszeug)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ARTISANS_TOOLS">
+	  <rules>
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT" type="Proficiency" />
+	  </rules>
+  </element>
+  <element name="Tool Proficiency (Alchemistenlabor)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES">
+  	<supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Brauereivorräte)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES">
+  	<supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Glasbläserwerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS">
+	  <supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Holzschnitzwerkzeug)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS">
+    <supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Juwelierwerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS">
+  	<supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Kalligraphiewerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES">
+  	<supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Kartographenwerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS">
+  	<supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Kochutensilien)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS">
+  	<supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Ledererwerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS">
+    <supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Malutensilien)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES">
+    <supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Maurerwerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS">
+    <supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Schmiedewerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS">
+    <supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Schreinerwerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS">
+    <supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Schusterwerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS">
+    <supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Töpferwerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS">
+    <supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Tüftlerwerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS">
+    <supports>Tool, Artisan tools</supports>
+  </element>
+  <element name="Tool Proficiency (Weberwerkzeuge)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS">
+    <supports>Tool, Artisan tools</supports>
+  </element>
+
+  <element name="Tool Proficiency (Musikinstrument)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_MUSICAL_INSTRUMENT">
+  	<rules>
+  		<grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_BAGPIPES" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_DRUM" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_DULCIMER" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_LUTE" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_LYRE" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_HORN" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_PAN_FLUTE" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_SHAWM" type="Proficiency" />
+		  <grant name="ID_PROFICIENCY_TOOL_PROFICIENCY_VIOL" type="Proficiency" />
+	  </rules>
+  </element>
+  <element name="Tool Proficiency (Dudelsack)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_BAGPIPES">
+  	<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
+  </element>
+  <element name="Tool Proficiency (Flöte)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE">
+  	<supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
+  </element>
+  <element name="Tool Proficiency (Gambe)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VIOL">
+    <supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
+  </element>
+  <element name="Tool Proficiency (Hackbrett)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DULCIMER">
+    <supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
+  </element>
+  <element name="Tool Proficiency (Horn)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HORN">
+    <supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
+  </element>
+  <element name="Tool Proficiency (Laute)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_LUTE">
+    <supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
+  </element>
+  <element name="Tool Proficiency (Leier)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_LYRE">
+    <supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
+  </element>
+  <element name="Tool Proficiency (Panflöte)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_PAN_FLUTE">
+    <supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
+  </element>
+  <element name="Tool Proficiency (Schalmei)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SHAWM">
+    <supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
+  </element>
+  <element name="Tool Proficiency (Trommel)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DRUM">
+    <supports>Tool, ID_PROFICIENCY_MUSICAL_INSTRUMENT, Musical Instrument</supports>
+  </element>
+
+  <element name="Tool Proficiency (Spiel)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_GAMING_SET">
+  	<rules>
+  		<grant name="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET" type="Proficiency" />
+  		<grant name="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET" type="Proficiency" />
+  	</rules>
+  </element>
+  <element name="Tool Proficiency (Satz Würfel)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET">
+	  <supports>Gaming Set</supports>
+  </element>
+  <element name="Tool Proficiency (Drachenschach-Spielsatz)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET">
+  	<supports>Gaming Set</supports>
+  </element>
+  <element name="Tool Proficiency (Satz Spielkarten)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET">
+  	<supports>Gaming Set</supports>
+  </element>
+  <element name="Tool Proficiency (Drei-Drachen-Kartensatz)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET">
+  	<supports>Gaming Set</supports>
+  </element>
+
+  <!-- Weapon Proficiencies  -->
+  <!-- Weapon Proficiency (text on sheet) -->
+  <element name="Weapon Proficiency (Dolch)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER">
+  	<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+  </element>
+  <element name="Weapon Proficiency (Knüppel)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB">
+  	<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_CLUBS</supports>
+  </element>
+  <element name="Weapon Proficiency (Zweihandknüppel)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB">
+  	<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CLUBS</supports>
+  </element>
+  <element name="Weapon Proficiency (Beil)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE">
+  	<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+  </element>
+  <element name="Weapon Proficiency (Wurfspeer)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN">
+	  <supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+  </element>
+  <element name="Weapon Proficiency (leichter Hammer)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER">
+  	<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_HAMMERS</supports>
+  </element>
+  <element name="Weapon Proficiency (Streitkolben)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE">
+  	<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_GROUP_MACES</supports>
+  </element>
+  <element name="Weapon Proficiency (Kampfstab)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF">
+  	<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+  </element>
+  <element name="Weapon Proficiency (Sichel)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE">
+  	<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+  </element>
+  <element name="Weapon Proficiency (Speer)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR">
+  	<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SPEARS</supports>
+  </element>
+  <element name="Weapon Proficiency (waffenloser Angriff)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE">
+  	<supports>Weapon, Simple, Melee</supports>
+  </element>
+  <element name="Weapon Proficiency (leichte Armbrust)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT">
+  	<supports>Weapon, Simple, Ranged, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
+  </element>
+  <element name="Weapon Proficiency (Wurfpfeil)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART">
+  	<supports>Weapon, Simple, Ranged, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+  </element>
+  <element name="Weapon Proficiency (Kurzbogen)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW">
+  	<supports>Weapon, Simple, Ranged, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
+  </element>
+  <element name="Weapon Proficiency (Schleuder)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING">
+  	<supports>Weapon, Simple, Ranged, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION</supports>
+  </element>
+  <element name="Weapon Proficiency (Streitaxt)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+  </element>
+  <element name="Weapon Proficiency (Flegel)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING</supports>
+  </element>
+  <element name="Weapon Proficiency (Gleve)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+  </element>
+  <element name="Weapon Proficiency (Zweihandaxt)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+  </element>
+  <element name="Weapon Proficiency (Zweihandschwert)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+  </element>
+  <element name="Weapon Proficiency (Hellebarde)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+  </element>
+  <element name="Weapon Proficiency (Lanze)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_LANCE</supports>
+  </element>
+  <element name="Weapon Proficiency (Langschwert)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+  </element>
+  <element name="Weapon Proficiency (Flegel)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_MAULS</supports>
+  </element>
+  <element name="Weapon Proficiency (Morgenstern)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+  </element>
+  <element name="Weapon Proficiency (Pike)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+  </element>
+  <element name="Weapon Proficiency (Rapier)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_PROFICIENCY_GROUP_SWORDS</supports>
+  </element>
+  <element name="Weapon Proficiency (Krummsäbel)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_PROFICIENCY_GROUP_SWORDS</supports>
+  </element>
+  <element name="Weapon Proficiency (Kurzschwert)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+  </element>
+  <element name="Weapon Proficiency (Dreizack)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+  </element>
+  <element name="Weapon Proficiency (Kriegshacke)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+  </element>
+  <element name="Weapon Proficiency (Kriegshammer)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS</supports>
+  </element>
+  <element name="Weapon Proficiency (Peitsche)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP">
+  	<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+  </element>
+  <element name="Weapon Proficiency (Blasrohr)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN">
+  	<supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
+  </element>
+  <element name="Weapon Proficiency (Handarmbrust)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND">
+  	<supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_DAMAGE_TYPE_PIERCING,ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION,ID_INTERNAL_WEAPON_PROPERTY_LIGHT,ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
+  </element>
+  <element name="Weapon Proficiency (schwere Armbrust)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY">
+  	<supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
+  </element>
+  <element name="Weapon Proficiency (Langbogen)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW">
+  	<supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
+  </element>
+  <element name="Weapon Proficiency (Netz)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET">
+  	<supports>Weapon, Martial, Ranged, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_NET, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+  </element>
+  <element name="Weapon Proficiency (Schwerter)" type="Proficiency" source="Spielerhandbuch" id="ID_INTERNAL_PROFICIENCY_GROUP_SWORDS">
+  	<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (Äxte)" type="Proficiency" source="Spielerhandbuch" id="ID_INTERNAL_PROFICIENCY_GROUP_AXES">
+  	<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (Streitkolben)" type="Proficiency" source="Spielerhandbuch" id="ID_INTERNAL_PROFICIENCY_GROUP_MACES">
+  	<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (Hämmer)" type="Proficiency" source="Spielerhandbuch" id="ID_INTERNAL_PROFICIENCY_GROUP_HAMMERS">
+  	<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (Flegel)" type="Proficiency" source="Spielerhandbuch" id="ID_INTERNAL_PROFICIENCY_GROUP_MAULS">
+  	<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (Bögen)" type="Proficiency" source="Spielerhandbuch" id="ID_INTERNAL_PROFICIENCY_GROUP_BOWS">
+  	<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (Armbrüste)" type="Proficiency" source="Spielerhandbuch" id="ID_INTERNAL_PROFICIENCY_GROUP_CROSSBOWS">
+  	<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (Speere)" type="Proficiency" source="Spielerhandbuch" id="ID_INTERNAL_PROFICIENCY_GROUP_SPEARS">
+  	<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (Knüppel)" type="Proficiency" source="Spielerhandbuch" id="ID_INTERNAL_PROFICIENCY_GROUP_CLUBS">
+  	<supports>ID_INTERNAL_PROFICIENCY_WEAPON, ID_INTERNAL_PROFICIENCY_GROUP</supports>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB" />
+  	</rules>
+  </element>
+
+  <element name="Weapon Proficiency (einfache Waffen)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS">
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED_WEAPONS" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (einfache Nahkampfwaffen)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS">
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (einfache Fernkampfwaffen)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_RANGED_WEAPONS">
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (Kriegswaffen)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS">
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (Nahkampf-Kriegswaffen)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" />
+  	</rules>
+  </element>
+  <element name="Weapon Proficiency (Fernkampf-Kriegswaffen)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS">
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
+  	</rules>
+  </element>
+
+  <!-- Armor Proficiencies  -->
+  <!-- Armor Proficiency (text on sheet) -->
+  <element name="Armor Proficiency (Gefütterte Rüstung)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED">
+    <supports>Light Armor, ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+  </element>
+  <element name="Armor Proficiency (Lederrüstung)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER">
+    <supports>Light Armor, ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+  </element>
+  <element name="Armor Proficiency (Beschlagene Lederrüstung)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER">
+	   <supports>Light Armor, ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+   </element>
+  <element name="Armor Proficiency (Fellrüstung)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE">
+	   <supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+  </element>
+  <element name="Armor Proficiency (Kettenhemd)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT">
+    <supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+  </element>
+  <element name="Armor Proficiency (Schuppenpanzer)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL">
+  	<supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+  </element>
+  <element name="Armor Proficiency (Brustplatte)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE">
+  	<supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+  </element>
+  <element name="Armor Proficiency (Plattenpanzer)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE">
+  	<supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+  </element>
+  <element name="Armor Proficiency (Ringpanzer)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_RING_MAIL">
+  	<supports>Heavy Armor, ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+  </element>
+  <element name="Armor Proficiency (Kettenpanzer)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_MAIL">
+  	<supports>Heavy Armor, ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+  </element>
+  <element name="Armor Proficiency (Schienenpanzer)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SPLINT">
+  	<supports>Heavy Armor, ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+  </element>
+  <element name="Armor Proficiency (Ritterrüstung)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PLATE">
+  	<supports>Heavy Armor, ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+  </element>
+  <element name="Armor Proficiency (Schild)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD">
+  	<supports>Shield, ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+  </element>
+
+  <element name="Armor Proficiency (leichte Rüstungen)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR">
+  	<description>
+  		<p>Aus weichen und dünnen Materialien gefertigt, begünstigen leichte Rüstungen agile Abenteurer, da sie Schutz bieten, ohne die Beweglichkeit einzuschränken. Wenn du eine leichte Rüstung trägst, addierst du deinen Geschicklichkeitsmodifikator zu der Basis-Rüstungsklasse deiner Rüstung, um deine Rüstungsklasse zu ermitteln.</p>
+  	</description>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER" />
+  	</rules>
+  </element>
+  <element name="Armor Proficiency (mittelschwere Rüstungen)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR">
+  	<description>
+  		<p>Mittelschwere Rüstung bietet mehr Schutz als leichte Rüstung, doch schränkt sie die Beweglichkeit auch mehr ein. Wenn du mittelschwere Rüstung trägst, addierst du deinen Geschicklichkeitsmodifikator auf die Basis-Rüstungsklasse der Rüstung, allerdings nur bis zu einem Maximum von +2, um deine Rüstungsklasse zu bestimmen.</p>
+  	</description>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE" />
+  	</rules>
+  </element>
+  <element name="Armor Proficiency (schwere Rüstungen)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR">
+  	<description>
+  		<p>Von allen Rüstungsarten bietet schwere Rüstung den besten Schutz. Sie bedeckt den Körper fast völlig und wurde entworfen, um eine ganze Reihe unterschiedlicher Angriffe abzuwehren. Nur geübte Krieger sind in der Lage, trotz des hohen Gewichts und der Sperrigkeit effektiv zu kämpfen.</p>
+  		<p class="indent">Bei schweren Rüstungen darfst du deinen Geschicklichkeitsmodifikator nicht auf deine Rüstungsklasse anrechnen. Allerdings bekommst du auch keine Abzüge, falls dein Geschicklichkeitsmodifikator negativ sein sollte.</p>
+  	</description>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_RING_MAIL" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_MAIL" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SPLINT" />
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PLATE" />
+  	</rules>
+  </element>
+  <element name="Armor Proficiency (Schilde)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS">
+  	<description>
+  		<p>Ein Schild ist aus Holz oder Metall gefertigt und wird in einer Hand getragen. Einen Schild zu führen, erhöht die Rüstungsklasse um 2. Du kannst immer nur von einem Schild gleichzeitig profitieren.</p>
+  	</description>
+  	<rules>
+  		<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" />
+  	</rules>
+  </element>
+
+  <element name="Saving Throw Proficiency (Geschicklichkeit)" type="Proficiency" source="Spielerhandbuch" id="ID_PROFICIENCY_SAVING_THROW_DEXTERITY">
+  	<description>
+  		<!-- <p>Ein Schild ist aus Holz oder Metall gefertigt und wird in einer Hand getragen. Einen Schild zu führen, erhöht die Rüstungsklasse um 2. Du kannst immer nur von einem Schild gleichzeitig profitieren.</p> -->
+  	</description>
+  	<rules>
+  		<!-- <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" /> -->
+  	</rules>
+  </element>
+
+</elements>

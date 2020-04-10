@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Zwerg</name>
+		<description></description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.1">
+			<file name="volk-zwerg.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-zwerg.xml" />
+		</update>
+	</info>
+
+  <element name="Zwerg" type="Race" source="Spielerhandbuch" id="ID_SRD_RACE_DWARF">
+    <description>
+      <p class="flavor">Königreiche voller antiker Erhabenheit, in den Fuß von Bergen geschlagene Hallen, der Widerhall von Spitzhacken und Hämmern aus tiefen Minen und feurigen Schmieden, die Verbundenheit mit Klan und Tradition und ein brennender Hass auf Goblins und Orks, diese Dinge verbinden alle Zwerge miteinander.</p>
+      <h4>KURZ UND STÄMMIG</h4>
+      <p>Mutig und zäh sind Zwerge als fähige Krieger, Minen-, Stein- und Metallarbeiter bekannt. Obwohl sie wesentlich weniger als 150 cm messen, ist ihr Körper so breit und kompakt gebaut, dass sie mitunter das Gewicht eines Menschen erreichen, der gut 60 cm größer ist. In Tapferkeit und Ausdauer kommen Zwerge jedem größeren Volk gleich. Ihre Hautfarbe reicht von tiefem Braun zu helleren Nuancen mit rötlichen Anteilen. doch die häufigsten Schattierugen sind Hellbraun und ein dunkleres Gelbbraun, ganz ähnlich bestimmter Erdtöne. Ihr Haar, das sie in einfacher Tracht lang tragen, ist für gewöhnlich schwarz, grau oder braun, auch wenn hellhäutige Zwerge oft rote Haare besitzen. Männliche Zwerge schätzen ihre Bärte sehr und pflegen sie sorgfältig.</p>
+      <h4>GUTES GEDÄCHTNIS, LANGANHALTENDER GROLL</h4>
+      <p>Zwerge erreichen ein Alter von bis zu 400 Jahren, daher können sich die ältesten unter ihnen oft noch an eine vollkommen andere Welt erinnern. Einige der weisen Zwerge in der Zitadelle von Felbarr (in den Vergessenen Reichen) kennen beispielsweise noch den Tag, an dem vor mehr als drei Jahrhunderten Orks die Festung eroberten und die Zwergenbewohner in eine mehr als 250-jährige Verbannung jagten. Diese lange Lebensdauer gibt ihnen eine Sicht auf die Welt, die kurzlebigen Völkern wie den Menschen oder Halblingen fehlt.</p>
+			<p class="indent">Zwerge sind solide und standhaft wie ihre geliebten Berge, sie überdauern die Jahrhunderte mit stoischem Durchhaltevermögen und wenigen Veränderungen. Sie respektieren die Traditionen ihres Klans und geben diese auch nicht leichtfertig auf, können manche ihre Ahnenreihe doch bis zur Gründung der urältesten Festungsanlagen am Anbeginn der Zeit zurückverfolgen. Teil dieser Traditionen ist die Verehrung der zwergischen Götter, welche Ideale wie fleißige Arbeit, Kampfgeschick und das Schmiedehandwerk hochhalten.</p>
+			<p class="indent">Einzelne Zwerge sind zielstrebig und loyal, stehen zu ihrem Wort und handeln mit schneller Entschlossenheit, die manchmal an Sturheit grenzt. Viele Zwerge besitzen einen ausgeprägten Sinn für Gerechtigkeit und vergessen ihnen zugefügtes Leid nur langsam. Ein Unrecht, das einem Zwerg angetan wird, wird gleichzeitig auch seinem ganzen Klan angetan. So kann sich der Rachedurst eines Einzelnen schnell zu einer ausgewachsenen Blutfehde des Klans entwickeln.</p>
+      <h4>KLANS UND KÖNIGREICHE</h4>
+      <p>Die Königreiche der Zwerge erstrecken sich tief unter den Bergen, wo ihr Volk nach Edelsteinen und wertvollen Metallen gräbt, um wundervolle Gegenstände daraus zu fertigen. Zwerge lieben die Schönheit und Kunstfertigkeit, die edles Metall und feiner Schmuck ausstrahlen. Dies geht mitunter so weit, dass mancher ob dieser Liebe in Habsucht verfällt. Reichtümer, die sie nicht im Berg finden, eignen sie sich durch Handel an. Zwerge besitzen eine Abneigung gegen Boote, also beschäftigen sie Menschen und Halblinge, um zwergische Waren entlang der Wasserwege zu befördern. Vertrauenswürdige Mitglieder anderer Völker sind in den Siedlungen der Zwerge willkommen, auch wenn selbst ihnen manche Bereiche dort verboten sind.</p>
+			<p class="indent">Die bestimmende Kraft der Zwergengesellschaft sind die Klans. Zwerge legen großen Wert auf ihre soziale Stellung. Selbst wenn sie weit von der Heimat entfernt leben, halten sie ihre Familienzugehörigkeit und die damit verbundene Identität stets in Ehren, begrüßen Verwandte stürmisch und rufen ihre Vorfahren in Schwüren und Flüchen an. Ohne Klan zu sein, ist das Schlimmste, was einem Zwerg widerfahren kann.</p>
+			<p class="indent">Auf Wanderschaft ziehende Zwerge sind in der Regel Handwerker, vor allem Waffenschmiede, Rüstungsbauer und Juweliere. Manche werden auch Söldner oder Leibwächter, die wegen ihrer Tapferkeit und Loyalität sehr gefragt sind.</p>
+      <h4>GÖTTER, GOLD UND KLANS</h4>
+      <p>Zwerge, die ein Abenteurerleben aufnehmen, könnten von der Sehnsucht nach Schätzen getrieben sein, ob nun für sie selbst oder einen bestimmten Zweck — vielleicht sogar aus dem gutherzigen Drang, anderen zu helfen. Andere Zwerge treibt der Befehl oder die Inspiration einer Gottheit an, eine Berufung oder das einfache Verlangen, einem einzelnen Zwergengott Ruhm einzubringen. Auch der Klan und die Vorfahren können wichtige Quellen der Motivation sein. So trachtet der eine Zwerg vielleicht danach, die verlorene Ehre seines Klans wiederherzustellen, eine uralte Schmach, die diesem zugefügt wurde, zu rächen oder sich nach der eigenen Verbannung einen neuen Platz in der Gemeinschaft zu verdienen. Ein anderer Zwerg könnte nach jener Axt suchen, die einer seiner mächtigen Vorfahren führte und die vor Jahrhunderten auf einem Schlachtfeld verloren ging.</p>
+      <h4>NAMEN	DER ZWERGE</h4>
+      <p>Der Name eines Zwerges wird ihm nach strenger Tradition von einem der Klanältesten verliehen. Jeder anständige Zwergenname wurde schon seit Generationen wieder und wieder verwendet. Ein Zwergenname gehört dem Klan, nicht dem Einzelnen. Missbraucht ein Zwerg seinen Namen oder bringt Schande über ihn, wird er ihm entrissen und es ihm per Gesetz verboten, einen anderen Zwergennamen an dessen Stelle anzunehmen.</p>
+      <p>
+        <span class="emphasis">Männliche Vornamen:</span>Adrik, Alberich, Baeren, Barendd, Brottor, Bruenor, Dain, Darrak, Delg, Eberk, Einkil, Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal<br />
+        <span class="emphasis">Weibliche Vornamen:</span>Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunndola, Gurdis, Helja, Hlin, Kathra, Kristryd, Ilde, Liftrasa, Mardred, Riswynn, Sannt, Torbera, Torgga, Vistra<br />
+        <span class="emphasis">Klannamen:</span>Balderk, Heldenhammer, Starkamboss, Dankil, Feuerschmiede, Frostbart, Gorunn, Holderhek, Eisenfaust, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart
+      </p>
+      <h4>MERKMALE DER ZWERGE</h4>
+      <p>Dein Zwergencharakter besitzt eine Vielzahl angeborener Fähigkeiten, die Teil seiner zwergischen Abstammung sind.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Konstitutionswert wird um 2 Punkte erhöht.<br />
+        <span class="feature">Alter:</span>Zwerge reifen in der gleichen Geschwindigkeit wie Menschen heran, doch werden sie bis zu ihrem 50 Sommer als jung angesehen. Im Durchschnitt erreichen sie ein Alter von 350 Jahren.<br />
+        <span class="feature">Gesinnung:</span>Die meisten Zwerge sind rechtschaffen, da sie fest an die Vorteile einer gut durchstrukturierten Gesellschaft glauben. Sie neigen ebenfalls zu einer guten Gesinnung, mit ihrem starken Sinn für Gerechtigkeit und dem Glauben, dass jeder verdient, an den Vorzügen einer gerechten Ordnung teilzuhaben.<br />
+        <span class="feature">Größe:</span>Zwerge sind zwischen 120 cm und 150 cm groß und wiegen meist um die 150 Pfund. Deine Größenkategorie ist mittelgroß.<br />
+        <span class="feature">Bewegungsrate:</span>Deine Grundbewegungsrate beträgt 7,50 m. Deine Bewegungsrate wird nicht durch das Tragen von schwerer Rüstung reduziert.<br />
+        <span class="feature">Dunkelsicht:</span>Das Leben unter Tage hat dazu geführt, dass Zwerge selbst bei schlechten Lichtverhältnissen hervorragend sehen können. Behandle im Umkreis von 18 m dämmriges Licht wie helles Licht und Dunkelheit wie dämmriges Licht. Allerdings kannst du im Dunklen keine Farben erkennen, nur Graustufen.<br />
+        <span class="feature">Zwergische Unverwüstlichkeit:</span>Du bist bei Rettungswürfen gegen Gifte im Vorteil und besitzt eine Resistenz gegen Schaden durch Gifte (siehe Kapitel 9 „Kampf").<br />
+        <span class="feature">Zwergisches Kampftraining:</span>Du bist geübt im Umgang mit Streitäxten, Beilen, leichten Hämmern und Kriegshämmern.<br />
+        <span class="feature">Handwerkliches Geschick:</span>Du bist geübt mit den Werkzeugen eines der folgenden Berufe: Braumeister, Schmied oder Steinmetz.<br />
+        <span class="feature">Steingespür:</span>Immer wenn du einen Wurf auf Intelligenz (Geschichte) ablegen sollst, der mit der Herkunft von Steinarbeiten zu tun hat, wirst du als geübt in der Fertigkeit angesehen und darfst deinen doppelten Übungsbonus auf den Wurf addieren anstatt nur den einfachen.<br />
+        <span class="feature">Sprachen:</span>Du kannst sowohl Zwergisch als auch die Gemeinsprache lesen, schreiben und sprechen. Zwergisch ist voller harter Konsonanten und kehliger Geräusche, sodass es nicht verwundert, dass sich diese Merkmale auch in der Aussprache anderer Sprachen wiederfinden, die ein Zwerg beherrscht.<br />
+        <span class="feature">Volksunterarten:</span>Zwei große Unterarten des zwergischen Volkes bewohnen die Welten von DUNGEONS &amp; DRAGONS: die Gebirgszwerge und die Hügelzwerge. Wähle eine dieser Volksunterarten.<br />
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Adrik, Alberich, Baeren, Barendd, Brottor, Bruenor, Dain, Darrak, Delg, Eberk, Einkil, Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal</set>
+      <set name="names" type="female">Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunndola, Gurdis, Helja, Hlin, Kathra, Kristryd, Ilde, Liftrasa, Mardred, Riswynn, Sannt, Torbera, Torgga, Vistra</set>
+      <set name="names" type="clan">Balderk, Heldenhammer, Starkamboss, Dankil, Feuerschmiede, Frostbart, Gorunn, Holderhek, Eisenfaust, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart</set>
+      <set name="names-format">{{name}} {{clan}}</set>
+    </setters>
+    <rules>
+      <stat name="constitution" value="2" />
+      <stat name="innate speed" value="25" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_DWARVISH" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_RESILIENCE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_COMBAT_TRAINING" requirements="!ID_WOTC_PSK_SUBRACE_KALADESH_DWARF" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY" requirements="!ID_WOTC_PSK_SUBRACE_KALADESH_DWARF" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_STONECUNNING" requirements="!ID_WOTC_PSK_SUBRACE_KALADESH_DWARF" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_SUBRACE" />
+    </rules>
+  </element>
+
+  <element name="Zwergische Unverwüstlichkeit" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DWARVEN_RESILIENCE">
+    <description>
+      <p>Du bist bei Rettungswürfen gegen Gifte im Vorteil und besitzt eine Resistenz gegen Schaden durch Gifte.</p>
+    </description>
+    <sheet>
+      <description>Du bist bei Rettungswürfen gegen Gifte im Vorteil und besitzt eine Resistenz gegen Schaden durch Gifte.</description>
+    </sheet>
+    <rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+  </element>
+  <element name="Zwergisches Kampftraining" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DWARVEN_COMBAT_TRAINING">
+    <description>
+      <p>Du bist geübt im Umgang mit Streitäxten, Beilen, leichten Hämmern und Kriegshämmern.</p>
+    </description>
+    <sheet display="false">
+      <description>Du bist geübt im Umgang mit Streitäxten, Beilen, leichten Hämmern und Kriegshämmern.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+    </rules>
+  </element>
+  <element name="Handwerkliches Geschick" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY">
+    <description>
+      <p>Du bist geübt mit den Werkzeugen eines der folgenden Berufe: Braumeister, Schmied oder Steinmetz.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Proficiency" name="Handwerkliches Geschick (Zwerg)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS" />
+    </rules>
+  </element>
+  <element name="Steingespür" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_STONECUNNING">
+    <description>
+      <p>Immer wenn du einen Wurf auf Intelligenz (Geschichte) ablegen sollst, der mit der Herkunft von Steinarbeiten zu tun hat, wirst du als geübt in der Fertigkeit angesehen und darfst deinen doppelten Übungsbonus auf den Wurf addieren anstatt nur den einfachen.</p>
+    </description>
+    <sheet>
+      <description>Du erhälst +{{stonecunning:check}} auf Intelligenz (Geschichte) Würfe, die mit der Herkunft von Steinarbeiten zu tun hat.</description>
+    </sheet>
+    <rules>
+      <stat name="stonecunning:check" value="intelligence:modifier" />
+      <stat name="stonecunning:check" value="history:misc" />
+      <stat name="stonecunning:check" value="proficiency" />
+      <stat name="stonecunning:check" value="proficiency" />
+    </rules>
+  </element>
+  <element name="Zwergische Volksunterart" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DWARVEN_SUBRACE">
+		<description>
+      <p>Zwei große Unterarten des zwergischen Volkes bewohnen die Welten von DUNGEONS &amp; DRAGONS: die Gebirgszwerge und die Hügelzwerge. Wähle eine dieser Volksunterarten.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Sub Race" name="Zwergische Volksunterart" supports="Dwarf" />
+    </rules>
+  </element>
+
+  <element name="Hügelzwerg" type="Sub Race" source="Spielerhandbuch" id="ID_SUB_RACE_HILL_DWARF">
+    <supports>Dwarf</supports>
+    <description>
+      <p>Als Hügelzwerg besitzt du scharfe Sinne, eine starke Intuition und eine bemerkenswerte Widerstandsfähigkeit. Die Goldzwerge aus Faerün in ihrem mächtigen südlichen Königreich sind ebenso Hügelzwerge wie die verbannten Neidar und die entwurzelten Klar von Krynn in der Welt der Drachenlanze.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Weisheitswert wird um 1 Punkt erhöht.<br />
+        <span class="feature">Zwergische Zähigkeit:</span>Dein Trefferpunktemaximum erhöht. sich um 1 Punkt und um 1 weiteren Punkt jedes Mal, wenn du eine Stufe aufsteigst.<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="height" modifier="2d4">3'8"</set>
+      <set name="weight" modifier="2d6">115 lb.</set>
+    </setters>
+    <rules>
+      <stat name="wisdom" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_TOUGHNESS" />
+    </rules>
+  </element>
+  <element name="Zwergische Zähigkeit" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DWARVEN_TOUGHNESS">
+    <description>
+      <p>Dein Trefferpunktemaximum erhöht. sich um 1 Punkt und um 1 weiteren Punkt jedes Mal, wenn du eine Stufe aufsteigst.</p>
+    </description>
+    <sheet display="false">
+      <description>Dein Trefferpunktemaximum erhöht. sich um 1 Punkt und um 1 weiteren Punkt jedes Mal, wenn du eine Stufe aufsteigst.</description>
+    </sheet>
+    <rules>
+      <stat name="hp" value="level" />
+    </rules>
+  </element>
+
+  <element name="Gebirgszwerg" type="Sub Race" source="Spielerhandbuch" id="ID_SUB_RACE_MOUNTAIN_DWARF">
+    <supports>Dwarf</supports>
+    <description>
+      <p>Als Gebirgszwerg bist du stark, zäh und an ein hartes Leben in rauer Umgebung gewöhnt. Du bist wahrscheinlich eher größer (für einen Zwerg) und neigst zu einem helleren Hautton. Die Schildzwerge des nördlichen Faerün sowie der herrschende Hylar-Klan und der adelige Daewar-Klan aus der Welt der Drachenlanze zählen zu dieser Unterart.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Stärkewert wird um 2 Punkte erhöht.<br />
+        <span class="feature">Zwergische Rüstungsvertrautheit:</span>Du bist geübt im Umgang mit leichten und mittelschweren Rüstungen.
+      </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="height" modifier="2d4">4'</set>
+      <set name="weight" modifier="2d6">130 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strength" value="2" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_ARMOR_TRAINING" />
+    </rules>
+  </element>
+  <element name="Zwergische Rüstungsvertrautheit" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DWARVEN_ARMOR_TRAINING">
+    <description>
+      <p>Du bist geübt im Umgang mit leichten und mittelschweren Rüstungen.</p>
+    </description>
+    <sheet display="false">
+      <description>Du bist geübt im Umgang mit leichten und mittelschweren Rüstungen.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+    </rules>
+  </element>
+</elements>

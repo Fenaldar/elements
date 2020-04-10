@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Grundregeln</name>
+		<description>Der Inhalt der Grundregelwerke.</description>
+		<author url="https://ulisses-spiele.de/spielsysteme/dungeon-and-dragons/">Ulisses Spiele</author>
+		<update version="0.2.5">
+			<file name="german-core.index" url="https://raw.githubusercontent.com/fenaldar/elements/german/german-core.index" />
+		</update>
+	</info>
+	<files>
+		<obsolete name="german-sources.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/german-sources.xml" />
+		<file name="spielleiterhandbuch.index" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielleiterhandbuch.index" />
+		<!-- <file name="monster-manual.index" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/monster-manual.index" /> -->
+		<file name="spielerhandbuch.index" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch.index" />
+	</files>
+</index>

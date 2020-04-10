@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Zauberer</name>
+    <description>Die Klasse Zauberer aus dem Spielerhandbuch.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.2.2">
+      <file name="klasse-zauberer.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-zauberer.xml" />
+    </update>
+  </info>
+
+  <element name="Zauberer" type="Class" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_SORCERER">
+    <description>
+      <p>Goldene Augen blitzen auf, als eine Menschenfrau die Hand ausstreckt und das Drachenfeuer, das in ihren Adern brennt, hervorbrechen lässt. Während das Inferno um ihre Feinde wütet, spreizen sich lederne Schwingen auf ihrem Rücken und sie erhebt sich in die Lüfte.</p>
+      <p class="indent">Ein Halbelf breitet seine Arme aus und wirft seinen Kopf in den Nacken, die langen Haare wehen im heraufbeschworenen Wind. Eine Welle aus Magie, die ihn kurzzeitig vom Boden hebt, baut sich in ihm auf, fließt durch ihn hindurch und entlädt sich in einem mächtigen Blitzschlag.</p>
+      <p class="indent">Hinter einem Stalagmiten kniend, deutet eine Halblingfrau mit ihrem Finger auf einen heranstürmenden Troglodyten. Ein Strahl aus Feuer schießt aus ihrer Fingerspitze hervor und hüllt die Kreatur in Flammen. Die Frau duckt sich mit einem Grinsen zurück hinter die Felsformation, ohne wahrzunehmen, dass die wilde Magie ihre Haut hellblau gefärbt hat.</p>
+      <p class="indent">Zauberer tragen ein magisches Geburtsrecht in sich, dass ihnen durch ihre exotische Blutlinie zukommt, meist entstanden durch eine außerweltliche Beeinflussung oder unbekannte kosmische Kräfte. Man kann die Zauberei nicht lernen, wie man eine Sprache lernt. genauso wenig wie man lernen kann, ein legendäres Leben zu führen. Keiner sucht sich die Zauberei aus — die Macht sucht sich den Zauberer aus.</p>
+      <h4>ROHE MAGIE</h4>
+      <p>Die Magie ist Teil jedes Zauberers, sie durchdringt den Körper, den Geist und das Bewusstsein und wartet darauf, dass ihre schlummernde Macht genutzt wird. Manche Zauberer greifen auf Kräfte zu, die aus einer uralten Blutlinie stammen und von der Magie der Drachen gespeist werden. Andere tragen rohe, unkontrollierte Magie in sich, einen chaotischen Strom, der sich auf unerwartete Weise manifestiert.</p>
+      <p class="indent">Das Auftreten von Zauberkräften ist völlig unvorhersehbar. Manche Drachenblutlinien bringen genau einen Zauberer in jeder Generation hervor, bei anderen Familien trägt jeder Einzelne diese Macht in sich. Oft ist das Erlangen dieses magischen Talents ein reiner Glücksfall. Einige Zauberer können die Herkunft ihrer Kräfte gar nicht benennen und andere führen sie auf seltsame Ereignisse in ihrem Leben zurück. Die Berührung eines Dämonen, der Segen einer Dryade bei der Geburt oder das Kosten des Wassers aus einer sagenumwogenen Quelle könnten den Samen der Zauberei in ihnen gepflanzt haben. Auch das Geschenk einer Gottheit der Magie, das Erleben der elementaren Kräfte auf den Inneren Ebenen, die Erfahrung des wahnsinnig machenden Chaos des Limbus oder ein Blick auf die inneren Zusammenhänge der Realität können diese Kräfte erwecken.</p>
+      <p class="indent">Zauberer benötigen weder Zauberbücher und uralte Folianten voller magischen Wissens, auf die sich die Magier verlassen, noch einen Schutzherren, der ihnen ihre Zauberkraft verleiht, wie es bei den Hexenmeistern der Fall ist. Indem sie lernen, ihre angeborene Magie zu nutzen und in Bahnen zu lenken, entdecken sie neue und erstaunliche Möglichkeiten, diese Macht zu entfesseln.</p>
+      <h4>UNERKLÄRLICHE KRÄFTE</h4>
+      <p>Zauberer sind auf der Welt selten und diejenigen von ihnen noch seltener, die nicht in irgendeiner Form ein Leben als Abenteurer führen. Jemand, in dessen Adern pure magische Macht pulsiert, findet schnell heraus, dass man diese Kräfte nur schwer ruhig zu halten vermag. Die Magie eines Zauberers will genutzt werden und neigt dazu, auf die unvorhersehbarsten Arten hervorzubrechen, wenn sie nicht in Anspruch genommen wird.</p>
+      <p class="indent">Zauberer haben oft obskure oder weltfremde Motivationen, um auf Abenteuer auszuziehen. Manche suchen nach einem besseren Verständnis für die magischen Kräfte, die sie durchdringen, oder einer Antwort auf die Mysterien ihrer Herkunft. Andere hoffen, einen Weg zu finden, ihre Macht loszuwerden oder ihr volles Potenzial zu entfesseln. Wie die Ziele des Einzelnen auch aussehen mögen - Zauberer sind für jede Abenteurergruppe genauso nützlich wie Magier. Die vergleichsweise geringe Breite ihres magischen Wissens machen sie durch ihre enorme Flexibilität wett, mit der sie die ihnen bekannten Zauber einsetzen können.</p>
+      <h4>EINEN ZAUBERER ERSCHAFFEN</h4>
+      <p>Die wichtigste Frage, die du bei der Erschaffung deines Zauberers klären solltest, ist die nach der Herkunft seiner Kräfte. Zu Beginn entscheidest du, ob die Kräfte deines Charakters einer Drachenblutlinie entstammen oder durch den Einfluss wilder Magie hervorgerufen wurden. Den genauen Ursprung dieser Macht zu bestimmen, bleibt jedoch dir überlassen. Handelt es sich um einen Familienfluch entfernter Verwandter? Oder hat ein außergewöhnliches Ereignis deinen Zauberer mit der ihm innewohnenden Magie gesegnet, und hat dieses Narben hinterlassen?</p>
+      <p class="indent">Wie fühlt sich dein Charakter in Bezug auf die magische Kraft, die ihn durchströmt? Nimmt er sie an, versucht er sie zu beherrschen oder lässt er sich von ihrer unvorhersehbaren Natur treiben? Ist es ein Segen oder ein Fluch? Suchte er sich die Kraft aus oder sie ihn? Hatte er die Möglichkeit abzulehnen oder wünscht er sich, dass er es getan hätte? Was beabsichtigt dein Charakter mit dieser Macht zu tun? Vielleicht hat er das Gefühl, sie zu einem höheren Zweck erhalten zu haben. Oder hat er entschieden, dass ihm diese das Recht gibt, zu tun oder zu lassen, was er will, ohne Rücksicht auf die Schwächeren? Vielleicht verbinden ihn seine Kräfte auch mit einem machtvollen Individuum, wie dem Feenwesen, das ihn bei seiner Geburt segnete, dem Drachen, der einen Tropfen seines Blutes in die Adern deines Zauberers gebracht hat, dem Lich, der ihn als eines seiner Experimente erschuf, oder der Gottheit, die ihn dazu erwählte, ihre Kraft in sich zu tragen.</p>
+      <h5>SCHNELLE ERSCHAFFUNG</h5>
+      <p>Du kannst einen Zauberer schnell erschaffen, indem du diesen Vorschlägen folgst:</p>
+      <p class="indent">Setze deinen höchsten Attributswert auf Charisma, deinen zweithöchsten auf Konstitution. Wähle zusätzlich den Hintergrund Einsiedler. Entscheide dich außerdem für die Zaubertricks <i>Licht</i>, <i>Schockgriff</i>, <i>Kältestrahl</i> und <i>Taschenspielerei</i>, zusammen mit den folgenden Zaubern des 1. Grades: <i>Schild</i> und <i>Magisches Geschoss</i>.</p>
+      <h3>KLASSENMERKMALE</h3>
+      <p>Als Zauberer erhältst du die folgenden Klassenmerkmale:</p>
+      <h5>TREFFERPUNKTE</h5>
+      <ul class="unstyled">
+          <li><strong>Trefferwürfel:</strong> 1W6 pro Stufe als Zauberer</li>
+          <li><strong>Trefferpunkte auf Stufe 1:</strong> 6 + dein Konstitutionsmodifikator</li>
+          <li><strong>Trefferpunkte auf höheren Stufen:</strong> 1W6 (oder 4) + dein Konstitutionsmodifikator pro Stufe als Zauberer über die 1. Stufe hinaus</li>
+      </ul>
+      <h5>ÜBUNG</h5>
+      <ul class="unstyled mb">
+          <li><strong>Rüstungen:</strong> keine</li>
+          <li><strong>Waffen:</strong> Dolche, Wurfpfeile, Schleudern, Kampfstäbe, leichte Armbrüste</li>
+          <li><strong>Werkzeuge:</strong> keine</li>
+      </ul>
+      <ul class="unstyled">
+          <li><strong>Rettungswürfe:</strong> Charisma und Konstitution</li>
+          <li><strong>Fertigkeiten:</strong> zwei nach Wahl: Arkane Kunde, Einschüchtern, Motiv erkennen, Religion, Täuschen oder Überzeugen</li>
+      </ul>
+      <h5>AUSRÜSTUNG</h5>
+      <p>Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:</p>
+      <ul>
+        <li><i>(a)</i> eine leichte Armbrust mit 20 Bolzen oder <i>(b)</i> eine beliebige einfache Waffe</li>
+        <li><i>(a)</i> ein Materialkomponentenbeutel oder <i>(b)</i> einen arkanen Fokus</li>
+        <li><i>(a)</i> eine Gewölbeforscherausrüstung oder <i>(b)</i> eine Entdeckerausrüstung</li>
+        <li>zwei Dolche</li>
+      </ul>
+      <h5 class="caption">DER ZAUBERER</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-5">Stufe</td><td class="col-10">Zaubereipunkte</td><td class="left">Merkmale</td><td class="col-10">Bekannte Zaubertrick</td><td class="col-10">Bekannte Zauber</td><td>1.</td><td>2.</td><td>3.</td><td>4.</td><td>5.</td><td>6.</td><td>7.</td><td>8.</td><td>9.</td></tr>
+        </thead>
+        <tr><td> 1</td><td>—</td><td class="left">Zauberwirken, Ursprung der Zauberei</td><td>4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 2</td><td>2</td><td class="left">Quelle der Magie</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 3</td><td>3</td><td class="left">Metamagie</td><td>4</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 4</td><td>4</td><td class="left">Attributswerterhöhung</td><td>5</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 5</td><td>5</td><td class="left">—</td><td>5</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 6</td><td>6</td><td class="left">Merkmal: Ursprung der Zauberei</td><td>5</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 7</td><td>7</td><td class="left">—</td><td>5</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 8</td><td>8</td><td class="left">Attributswerterhöhung</td><td>5</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 9</td><td>9</td><td class="left">—</td><td>5</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>10</td><td>10</td><td class="left">Metamagie</td><td>6</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>11</td><td>11</td><td class="left">—</td><td>6</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>12</td><td>12</td><td class="left">Attributswerterhöhung</td><td>6</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>13</td><td>13</td><td class="left">—</td><td>6</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>14</td><td>14</td><td class="left">Merkmal: Ursprung der Zauberei</td><td>6</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>15</td><td>15</td><td class="left">—</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>16</td><td>16</td><td class="left">Attributswerterhöhung</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>17</td><td>17</td><td class="left">Metamagie</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>18</td><td>18</td><td class="left">Merkmal: Ursprung der Zauberei</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>19</td><td>19</td><td class="left">Attributswerterhöhung</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>20</td><td>20</td><td class="left">Zaubereiauffrischung</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+      </table>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION" />
+    </description>
+    <sheet display="false">
+      <description>Ein Zauberwirker, der auf Magie zugreift, die ihm durch ein Geschenk oder einer Blutlinie innewohnt.</description>
+    </sheet>
+    <setters>
+      <set name="short">Ein Zauberwirker, der auf Magie zugreift, die ihm durch ein Geschenk oder einer Blutlinie innewohnt.</set>
+      <set name="hd">d6</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <select type="Proficiency" name="Geübte Fertigkeit (Zauberer)" supports="Skill,Sorcerer" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" level="1" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" level="2" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC" level="3" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" level="4" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION" level="20" />
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_SORCERER">
+      <prerequisite>Charisma 13</prerequisite>
+      <requirements>[cha:13]</requirements>
+      <setters>
+        <set name="multiclass proficiencies">—</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Zauberwirken" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
+    <description>
+      <p>Ein Ereignis in deiner Vergangenheit oder im Leben deiner Vorfahren hat dich mit arkaner Zauberkraft erfüllt. Diese Quelle der Magie, welchen Ursprungs sie auch immer ist, speist deine Zauber. Für allgemeine Informationen zum Wirken von Zaubern siehe Kapitel 10 „Zauber wirken" und für die Zauberliste des Zauberers Kapitel 11 „Zauber".</p>
+      <h5>ZAUBERTRICKS</h5>
+      <p>Zu Beginn sind dir vier beliebige Zaubertricks aus der Zauberliste des Zauberers bekannt. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der Aufstiegstabelle des Zauberers angegeben ist.</p>
+      <h5>ZAUBERPLÄTZE</h5>
+      <p>Die Aufstiegstabelle des Zauberers gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen dir bekannten Spruch zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung.</p>
+      <p class="indent">Ist dir beispielsweise der Zauber <i>Brennende Hände</i> des 1. Grades bekannt und besitzt du sowohl einen freien Zauperplatz des 1. Grades und einen des 2. Grades, kannst du jeden der beiden Zauberplätze verwenden, um <i>Brennende Hände</i> zu wirken.</p>
+      <h5>BEKANNTE ZAUBER DES 1. GRADES UND HÖHER</h5>
+      <p>Auf Stufe 1 kennst du zwei frei wählbare Zauber des 1. Grades aus der Zauberliste des Zauberers.</p>
+      <p class="indent">Der Spalte „Bekannte Zauber" der Tabelle kannst du entnehmen, wie viele neue Sprüche du dir bei einem Stufenaufstieg aussuchen darfst. Dabei kannst du nur Sprüche wählen, für deren Grad du auch Zauberplätze besitzt. Erreichst du zum Beispiel die 3. Stufe in dieser Klasse, darfst du einen neuen Zauber der 1. oder 2. Grades erlernen.</p>
+      <p class="indent">Sobald du eine Stufe in dieser Klasse aufsteigst, kannst du außerdem einen der Zauber, die dir bereits bekannt sind, mit einem anderen aus der Zauberliste ersetzen. Auch für diesen musst du einen dem Grad des Spruches entsprechenden Zauberplatz besitzen.</p>
+      <h5>ATTRIBUT ZUM ZAUBERWIRKEN</h5>
+      <p>Das Attribut, mit dem du deine Zauber wirkst ist Charisma. Die Macht deiner Magie beruht darauf, wie gut du darin bist, deinen Willen in die Welt zu projizieren.</p>
+      <p class="indent">Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Charisma. Wird der Schwierigkeitsgrad für eine Rettungswurf gegen deine Zauber bestimmt, ziehst du deine Charismamodifikator hinzu. Bei Angriffen mit deinen Zaubern findet ebenfalls der Charismamodifikator Anwendung.</p>
+      <center>
+				<p><strong>SG für Rettungswürfe</strong> = 8 + dein Übungsbonus + dein Charismamodifikator</p>
+				<p><strong>Modifikator für Zauberangriffe</strong> = dein Übungsbonus + dein Charismamodifikator</p>
+			</center>
+      <h5>ZAUBERFOKUS</h5>
+      <p>Als Zauberfokus für deine Zauber kannst du einen arkanen Fokus (siehe Kapitel 5 „Ausrüstung") verwenden.</p>
+    </description>
+    <sheet display="false">
+      <description>You have the ability to cast spells.</description>
+    </sheet>
+    <spellcasting name="Sorcerer" ability="Charisma" allowReplace="true">
+			<list>Sorcerer</list>
+		</spellcasting>
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+      <stat name="sorcerer:spellcasting:slots:1" value="2" level="1" />
+      <stat name="sorcerer:spellcasting:slots:1" value="1" level="2" />
+      <stat name="sorcerer:spellcasting:slots:1" value="1" level="3" />
+      <stat name="sorcerer:spellcasting:slots:2" value="2" level="3" />
+      <stat name="sorcerer:spellcasting:slots:2" value="1" level="4" />
+      <stat name="sorcerer:spellcasting:slots:3" value="2" level="5" />
+      <stat name="sorcerer:spellcasting:slots:3" value="1" level="6" />
+      <stat name="sorcerer:spellcasting:slots:4" value="1" level="7" />
+      <stat name="sorcerer:spellcasting:slots:4" value="1" level="8" />
+      <stat name="sorcerer:spellcasting:slots:4" value="1" level="9" />
+      <stat name="sorcerer:spellcasting:slots:5" value="1" level="9" />
+      <stat name="sorcerer:spellcasting:slots:5" value="1" level="10" />
+      <stat name="sorcerer:spellcasting:slots:5" value="1" level="18" />
+      <stat name="sorcerer:spellcasting:slots:6" value="1" level="11" />
+      <stat name="sorcerer:spellcasting:slots:6" value="1" level="19" />
+      <stat name="sorcerer:spellcasting:slots:7" value="1" level="13" />
+      <stat name="sorcerer:spellcasting:slots:7" value="1" level="20" />
+      <stat name="sorcerer:spellcasting:slots:8" value="1" level="15" />
+      <stat name="sorcerer:spellcasting:slots:9" value="1" level="17" />
+
+      <select type="Spell" name="Zaubertrick (Zauberer)" supports="$(spellcasting:list),0" level="1" number="4" spellcasting="Sorcerer" />
+      <select type="Spell" name="Zaubertrick (Zauberer)" supports="$(spellcasting:list),0" level="4" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zaubertrick (Zauberer)" supports="$(spellcasting:list),0" level="10" spellcasting="Sorcerer"/>
+
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="10" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Sorcerer"/>
+      <select type="Spell" name="Zauber (Zauberer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Sorcerer"/>
+    </rules>
+  </element>
+
+  <element name="Ursprung der Zauberei" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN">
+    <description>
+      <p>Wähle den Ursprung deiner angeborenen magischen Kraft: Entstammt sie einer Drachenblutlinie oder Wilder Magie? Beides ist am Ende dieses Abschnitts ausführlich beschrieben.</p>
+      <p class="indent">Deine Wahl verleiht dir auf der 1., 6., 14. und 18. Stufe jeweils ein Merkmal.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Ursprung der Zauberei" supports="Sorcerous Origin" />
+    </rules>
+  </element>
+  <element name="Quelle der Magie" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC">
+    <description>
+      <p>Ab der 2. Stufe bist du in der Lage, die Quelle der Magie in dir selbst anzuzapfen. Dieser Quell wird durch Zaubereipunkte repräsentiert, die dir erlauben, eine Vielzahl an magischen Effekten hervorzurufen.</p>
+      <h5>ZAUBEREIPUNKTE</h5>
+      <p>Zu Beginn besitzt du 2 Zaubereipunkte. Du erhältst weitere hinzu, je höher du in dieser Klasse aufsteigst, so wie es in der Spalte für Zaubereipunkte in der Aufstiegstabelle des Zauberers angegeben ist. Alle verbrauchten Zaubereipunkte stehen dir nach Beenden einer langen Rast wieder zur Verfügung.</p>
+      <h5>FLEXIBLES ZAUBERWIRKEN</h5>
+      <p>Du kannst deine Zaubereipunkte einsetzen, um zusätzliche Zauberplätze zu erhalten. Umgekehrt kannst du auch Zauberplätze aufgeben und sie für Zaubereipunkte eintauschen. Du lernst weitere Arten, deine Zaubereipunkte zu nutzen, wenn du höhere Stufen erreichst.</p>
+      <p class="indent"><strong><em>Zauberplätze erschaffen:</em></strong> Du kannst unverbrauchte Zaubereipunkte als Bonusaktion in deinem Zug in einen Zauberplatz umwandeln. Die Tabelle Zauberpätze erschaffen führt die Punktekosten für den Grad dieses Zauberplatzes auf. Du kannst keinen Zauberplatz höher als Grad 5 erschaffen. Alle Zauberplätze, die dir aufgrund dieses Merkmales zur Verfügung stehen, verschwinden nach Beenden einer langen Rast.</p>
+      <h5 class="caption">ZAUBERPLÄTZE ERSCHAFFEN</h5>
+      <table>
+        <thead>
+          <tr><td class="col-20">Zauberplatzgrad</td><td>Zaubereipunktekosten</td></tr>
+        </thead>
+        <tr><td>1.</td><td>2</td></tr>
+        <tr><td>2.</td><td>3</td></tr>
+        <tr><td>3.</td><td>5</td></tr>
+        <tr><td>4.</td><td>6</td></tr>
+        <tr><td>5.</td><td>7</td></tr>
+      </table>
+      <p class="indent"><strong><em>Zauberplätze in Zaubereipunkte umwandeln:</em></strong>Als Bonusaktion in deinem Zug kannst du eine Zauberplatz aufgeben, um Zaubereipunkte in Höhe des Grades des verbrauchen Zauberplatzes zu erhalten.</p>
+    </description>
+    <sheet action="Bonusaktion" usage="{{sorcery-points}}/Lange Rast">
+      <description>Du hast {{sorcery-points}} Zaubereipunkte (ZP).
+        Zauberplätze erschaffen: Du kannst unverbrauchte Zaubereipunkte in einen Zauberplatz umwandeln (2 ZP = 1. / 3 ZP = 2. / 5 ZP = 3. / 6 ZP = 4. / 7 ZP = 5.). Alle Zauberplätze, die dir aufgrund dieses Merkmales zur Verfügung stehen, verschwinden nach Beenden einer langen Rast.
+        Zauberplätze in Zaubereipunkte umwandeln: Du kannst einen Zauberplatz aufgeben, um Zaubereipunkte in Höhe des Grades des verbrauchen Zauberplatzes zu erhalten.</description>
+    </sheet>
+    <rules>
+      <stat name="sorcery-points" value="level:zauberer" />
+    </rules>
+  </element>
+  <element name="Metamagie" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC">
+    <description>
+      <p>Auf der 3. Stufe erlangst du die Fähigkeit, deine Zauber zu verändern, um sie deine Bedürfnissen anzupassen. Suche dir zwei der folgenden metamagischen Optionen aus. Auf den Stufen 10 und 17 erhältst du je eine weitere deiner Wahl.</p>
+      <p class="indent">Du kannst immer nur eine Option pro gewirktem Zauberspruch anwenden, außer es ist in der Beschreibung anders angegeben.</p>
+    </description>
+    <sheet>
+			<description>You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</description>
+		</sheet>
+    <rules>
+      <select type="Class Feature" name="Metamagie" supports="Metamagic" level="3" number="2"/>
+      <select type="Class Feature" name="Metamagie" supports="Metamagic" level="10"/>
+      <select type="Class Feature" name="Metamagie" supports="Metamagic" level="17"/>
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER">
+		<compendium display="false" />
+    <description>
+      <p>Beim Erreichen der 4. Stufe und dann wieder auf der 8., 12., 16. und 19. Stufe kannst du einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Attributswerterhöhung (Zauberer 4)" supports="Improvement Option,Zauberer,4" level="4" />
+      <select type="Class Feature" name="Attributswerterhöhung (Zauberer 8)" supports="Improvement Option,Zauberer,8" level="8" />
+      <select type="Class Feature" name="Attributswerterhöhung (Zauberer 12)" supports="Improvement Option,Zauberer,12" level="12" />
+      <select type="Class Feature" name="Attributswerterhöhung (Zauberer 16)" supports="Improvement Option,Zauberer,16" level="16" />
+      <select type="Class Feature" name="Attributswerterhöhung (Zauberer 19)" supports="Improvement Option,Zauberer,19" level="19" />
+    </rules>
+  </element>
+  <element name="Zaubereiauffrischung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION">
+    <description>
+      <p>Auf der 20. Stufe erhältst du jedes Mal, wenn du eine kurze Rast beendest, 4 Zaubereipunkte zurück.</p>
+    </description>
+    <sheet>
+      <description>Du erhälst, nach Beenden einer kurzen Rast, 4 Zaubereipunkte zurück.</description>
+    </sheet>
+  </element>
+
+  <!-- Sorcerous Origin Options -->
+  <element name="Drachenblutlinie" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_DRACONIC_BLOODLINE">
+    <supports>Sorcerous Origin</supports>
+    <description>
+      <p>Die Quelle der dir innewohnenden Magie ist eine Vermischung deines Blutes oder des deiner Vorfahren mit drakonischer Zauberkraft. Viele Vertreter einer solchen Blutlinie führen ihre Ahnenreihe bis auf einen mächtigen Zauberer aus alten Zeiten zurück, der ein Abkommen mit einem Drachen schloß oder sogar behauptete, von einem abzustammen. Einige solcher Zauberer können sich in der Welt etablieren, doch die meisten leben im Verborgenen. Jeder könnte auch der Erste einer neuen Blutlinie sein, ob als Resultat eines Pakts oder aus anderen außergewöhnlichen Umständen.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_RESILIENCE"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_AFFINITY"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_WINGS"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_PRESENCE"/>
+    </description>
+		<sheet display="false">
+      <description>Die Quelle der dir innewohnenden Magie ist eine Vermischung deines Blutes oder des deiner Vorfahren mit drakonischer Zauberkraft.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR" level="1" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_RESILIENCE" level="1" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_AFFINITY" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_WINGS" level="14" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_PRESENCE" level="18" />
+    </rules>
+  </element>
+  <element name="Wilde Magie" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_WILD_MAGIC">
+    <supports>Sorcerous Origin</supports>
+    <description>
+      <p>Die dir innewohnende Magie entspringt den Kräften des Chaos, die der gesamten Schöpfung zugrunde liegen. Du könntest purer Magie ausgesetzt gewesen sein, etwa durch ein planares Portal, das zum Limbus, den Elementaren Reichen oder zum Fernen Reich führt. Vielleicht hat ein Feenwesen dich gesegnet oder ein Dämon dich gebrandmarkt. Oder du hast bei deiner Geburt einfach nur Glück gehabt — und es gibt keine ersichtliche Herkunft deiner Magie. Wie auch immer du zu deinen magischen Kräften gekommen bist, sie brodeln in dir und warten darauf auszubrechen.</p>
+      <!-- <p>Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</p> -->
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WILD_MAGIC_SURGE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TIDES_OF_CHAOS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BEND_LUCK" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CONTROLLED_CHAOS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_SPELL_BOMBARDMENT" />
+      <h5 class="caption">WOGE DER WILDEN MAGIE</h5>
+      <table>
+        <thead>
+          <tr><td>W100</td><td>Effekt</td></tr>
+        </thead>
+        <tr><td>01-02</td><td>Würfle zu Beginn jedes deiner Züge innerhalb von 1 Minute auf diese Tabelle, aber ignoriere bei weiteren Würfen diesen Effekt hier.</td></tr>
+        <tr><td>03-04</td><td>Für 1 Minute kannst du alle unsichtbaren Kreaturen in deinem Sichtfeld sehen.</td></tr>
+        <tr><td>05-06</td><td>Ein Modron, das vom SL ausgesucht und kontrolliert wird, erscheint in einem unbesetzten Bereich im Umkreis von 1,50 m und verschwindet 1 Minute später.</td></tr>
+        <tr><td>07-08</td><td>Du wirkst <em>Feuerball als Zauber</em> des 3. Grades mit dir als Zentrum.</td></tr>
+        <tr><td>09-10</td><td>Du wirkst <em>Magisches Geschoss</em> als Zauber des 5. Grades.</td></tr>
+        <tr><td>11-12</td><td>Würfle mit einem W10. Deine Größe ändert sich um 2,5 cm mal dem Ergebnis. Ist die Zahl ungerade, schrumpfst du, ist sie gerade, wächst du.</td></tr>
+        <tr><td>13-14</td><td>Du wirkst <em>Verwirrung</em> mit dir als Zentrum.</td></tr>
+        <tr><td>15-16</td><td>Für 1 Minute erhältst du zu Beginn jedes deiner Züge 5 TP zurück.</td></tr>
+        <tr><td>17-18</td><td>Dir wächst ein gewaltiger Bart aus Federn, der so lange bestehen bleibt, bis du niest, wobei die Federn in alle Richtungen stieben.</td></tr>
+        <tr><td>19-20</td><td>Du wirkst <em>Schmieren</em> mit dir als Zentrum</td></tr>
+        <tr><td>21-22</td><td>Kreaturen sind beim nächsten Rettungswurf gegen einen Zauber, den du wirkst, im Nachteil. Dieser Effekt hält 1 Minute an.</td></tr>
+        <tr><td>23-24</td><td>Deine Haut färbt sich in einem kräftigen Blauton. Der Zauber <em>Fluch brechen</em> kann diesen Effekt beenden.</td></tr>
+        <tr><td>25-26</td><td>Für 1 Minute erscheint ein Auge auf deiner Stirn. Während dieser Zeit bist du bei Würfen auf Weisheit (Wahrnehmung), die sich auf das Sehen beziehen, im Vorteil.</td></tr>
+        <tr><td>27-28</td><td>Für 1 Minute besitzen alle deine Zauber, die einen Zeitaufwand von einer Aktion haben, nur noch den Zeitaufwand einer Bonusaktion.</td></tr>
+        <tr><td>29-30</td><td>Du teleportierst dich bis zu 18 m an eine unbesetzte Stelle, die du sehen kannst.</td></tr>
+        <tr><td>31-32</td><td>Du wirst bis zum Ende deines nächsten Zuges auf die Astralebene befördert. Danach erscheinst du wieder an der Stelle, an der du warst, oder an der nächstgelegenen unbesetzten Stelle.</td></tr>
+        <tr><td>33-34</td><td>Maximiere den Schaden des nächsten Zaubers, der Schaden verursacht. Dieser Effekt hält 1 Minute an und gilt nur für einen Zauber.</td></tr>
+        <tr><td>35-36</td><td>Würfle mit einem W10. Dein Alter ändert sich in der Höhe des Ergebnisses gemessen in Jahren. Bei einer ungeraden Zahl wirst du jünger, bei einer geraden Zahl älter. Du kannst nicht jünger als ein Jahr werden.</td></tr>
+        <tr><td>37-38</td><td>1W6 Flumphs, die vom SL kontrolliert werden, erscheinen in einem unbesetzten Bereich im Umkreis von 18 m. Sie sind von dir verängstigt und verschwinden nach Ablauf 1 Minute wieder.</td></tr>
+        <tr><td>39-40</td><td>Du erhältst 2W10 Trefferpunkte zurück.</td></tr>
+        <tr><td>41-42</td><td>Du verwandelst dich bis zum Anfang deines nächsten Zuges in eine Topfpflanze. Solange du eine Pflanze bist, giltst du als kampfunfähig und kannst durch jede Schadensart verletzt werden. Falls du auf 0 TP sinken solltest, zerbricht der Topf und du verwandelst dich in deine vorherige Form zurück.</td></tr>
+        <tr><td>43-44</td><td>Für 1 Minute kannst du dich als Bonusaktion in jedem deiner Züge bis zu 6 m teleportieren.</td></tr>
+        <tr><td>45-46</td><td>Du wirkst <em>Schweben</em> auf dich selbst.</td></tr>
+        <tr><td>47-48</td><td>Ein Einhorn, das vom SL kontrolliert wird, erscheint in einem unbesetzten Bereich im Umkreis von 1,50 m und verschwindet 1 Minute später wieder.</td></tr>
+        <tr><td>49-50</td><td>Du kannst für 1 Minute nicht sprechen. Immer wenn du es versuchst, entschweben deinem Mund rosafarbene Luftblasen.</td></tr>
+        <tr><td>51-52</td><td>Ein geisterhafter Schild schwebt für 1 Minute in deiner Nähe und gibt dir einen Bonus von +2 auf deine Rüstungsklasse und Immunität gegen <em>Magisches Geschoss</em>.</td></tr>
+        <tr><td>53-54</td><td>Du bist für die nächsten 5W6 Tage immun gegen die Auswirkungen von Alkohol.</td></tr>
+        <tr><td>55-56</td><td>Dir fallen die Haare aus, wachsen aber innerhalb von 24 Stunden wieder nach.</td></tr>
+        <tr><td>57-58</td><td>Für 1 Minute geht jedes brennbare Objekt, das nicht von einer Kreatur gehalten oder getragen wird, in Flammen auf, sobald du es berührst.</td></tr>
+        <tr><td>59-60</td><td>Du erhältst den verbrauchten Zauberplatz mit dem niedrigsten Grad wieder zurück.</td></tr>
+        <tr><td>61-62</td><td>Für 1 Minute musst du schreien, wenn du reden willst.</td></tr>
+        <tr><td>63-64</td><td>Du wirkst <em>Nebelwolke</em> mit dir als Zentrum.</td></tr>
+        <tr><td>65-66</td><td>Bis zu drei von dir gewählte Kreaturen im Umkreis von 9 m erleiden jeweils 4W10 Blitzschaden.</td></tr>
+        <tr><td>67-68</td><td>Du bist von der dir am nächsten stehenden Kreatur bis zum Ende deines nächsten Zuges verängstigt.</td></tr>
+        <tr><td>69-70</td><td>Jede Kreatur im Umkreis von 9 m wird für 1 Minute unsichtbar. Die Unsichtbarkeit endet jeweils, wenn die Kreatur angreift oder einen Zauber wirkt.</td></tr>
+        <tr><td>71-72</td><td>Du erhältst für 1 Minute eine Resistenz gegen sämtliche Schadensarten.</td></tr>
+        <tr><td>73-74</td><td>Eine zufällige Kreatur im Umkreis von 18 m wird für 1W4 Stunden vergiftet.</td></tr>
+        <tr><td>75-76</td><td>Du strahlst für 1 Minute im Umkreis von 9 m helles Licht aus. Jede Kreatur, die ihren Zug innerhalb von 1,50 m um dich beendet, gilt bis zum Ende ihres nächsten Zuges als blind.</td></tr>
+        <tr><td>77-78</td><td>Du wirkst <em>Verwandlung</em> auf dich selbst. Wenn dir der Rettungswurf misslingt, wirst du bis zum Ende der Wirkungsdauer in ein Schaf verwandelt.</td></tr>
+        <tr><td>79-80</td><td>Illusionäre Schmetterlinge und Blütenblätter flattern im Umkreis von 3 m für 1 Minute um dich herum.</td></tr>
+        <tr><td>81-82</td><td>Du kannst sofort eine weitere Aktion ausführen.</td></tr>
+        <tr><td>83-84</td><td>Jede Kreatur im Umkreis von 9 m erleidet 1W10 nekrotischen Schaden. Du erhältst Trefferpunkte in Höhe des zusammengerechneten Schadens zurück.</td></tr>
+        <tr><td>85-86</td><td>Du wirkst <em>Spiegelbilder</em>.</td></tr>
+        <tr><td>87-88</td><td>Du wirkst <em>Fliegen</em> auf eine zufällige Kreatur im Umkreis von 18 m.</td></tr>
+        <tr><td>89-90</td><td>Du wirst für 1 Minute unsichtbar. In dieser Zeit können dich andere Kreaturen zudem nicht hören. Du wirst sichtbar, wenn du angreifst oder zauberst.</td></tr>
+        <tr><td>91-92</td><td>Wenn du innerhalb 1 Minute stirbst, wirst du sofort wie durch den Zauber <em>Wiedergeburt</em> ins Leben zurückgeholt.</td></tr>
+        <tr><td>93-94</td><td>Deine Größenkategorie erhöht sich für 1 Minute um eine.</td></tr>
+        <tr><td>95-96</td><td>Du und alle Kreaturen im Umkreis von 9 m erhalten für 1 Minute eine Empfindlichkeit gegen Stichschaden.</td></tr>
+        <tr><td>97-98</td><td>Du wirst von sanfter, ätherischer Musik umgeben die 1 Minute lang anhält.</td></tr>
+        <tr><td>99-100</td><td>Du erhältst alle verbrauchten Zaubereipunkte zurück.</td></tr>
+      </table>
+    </description>
+		<sheet display="false">
+      <description>Die dir innewohnende Magie entspringt den Kräften des Chaos, die der gesamten Schöpfung zugrunde liegen.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WILD_MAGIC_SURGE" level="1" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TIDES_OF_CHAOS" level="1" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BEND_LUCK" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CONTROLLED_CHAOS" level="14" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_SPELL_BOMBARDMENT" level="18" />
+    </rules>
+  </element>
+
+  <!-- Draconic Bloodline Features -->
+  <element name="Drachenvorfahre" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR">
+    <supports>Draconic Bloodline</supports>
+    <description>
+      <p>Auf der 1. Stufe wählst du aus, von welcher Art dein drakonischer Vorfahre war. Die damit zusammenhängende Schadensart wird in den Fähigkeiten angewendet, die du später erlangst.</p>
+      <h5 class="caption">DRACHENVORFAHRE</h5>
+      <table>
+        <thead>
+          <tr> <td>Drache</td> <td>Schadensart</td> </tr>
+        </thead>
+        <tr> <td>Blau</td> <td>Blitz</td> </tr>
+        <tr> <td>Bronze</td> <td>Blitz</td> </tr>
+        <tr> <td>Gold</td> <td>Feuer</td> </tr>
+        <tr> <td>Grün</td> <td>Gift</td> </tr>
+        <tr> <td>Kupfer</td> <td>Säure</td> </tr>
+        <tr> <td>Messing</td> <td>Feuer</td> </tr>
+        <tr> <td>Rot</td> <td>Feuer</td> </tr>
+        <tr> <td>Schwarz</td> <td>Säure</td> </tr>
+        <tr> <td>Silber</td> <td>Kälte</td> </tr>
+        <tr> <td>Weiß</td> <td>Kälte</td> </tr>
+      </table>
+      <p>Du kannst Drakonisch lesen, schreiben und sprechen. Außerdem darfst du immer, wenn du einen Charismawurf bei der Interaktion mit einem Drachen ablegen musst, deinen Übungsbonus verdoppeln, wenn er auf diesen Wurf angewendet werden kann.</p>
+    </description>
+    <sheet>
+      <description>Du kannst Drakonisch lesen, schreiben und sprechen. Außerdem darfst du immer, wenn du einen Charismawurf bei der Interaktion mit einem Drachen ablegen musst, deinen Übungsbonus verdoppeln, wenn er auf diesen Wurf angewendet werden kann.</description>
+    </sheet>
+    <rules>
+      <grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+      <select type="Archetype Feature" name="Drachenvorfahre (Drachenblutlinie)" supports="Dragon Ancestor" />
+    </rules>
+  </element>
+  <element name="Drakonische Widerstandskraft" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_RESILIENCE">
+    <supports>Draconic Bloodline</supports>
+    <description>
+      <p>Die dich durchfließende Magie lässt körperliche Anzeichen deiner Abstammung hervortreten. Auf der 1. Stufe erhöht sich dein Trefferpunktemaximum um 1, und auf jeder weiteren Stufe dieser Klasse erneut um 1.</p>
+      <p class="indent">Außerdem sind Teile deiner Haut mit einer dünnen Schicht drachenartiger Schuppen bedeckt. Wenn du keine Rüstung trägst, ist deine Rüstungsklasse 13 + deinem Geschicklichkeitsmodifikator.</p>
+    </description>
+    <sheet>
+      <description>Wenn du keine Rüstung trägst, ist deine Rüstungsklasse {{ac:draconic resilience}}.</description>
+    </sheet>
+    <rules>
+      <stat name="hp" value="level:zauberer" />
+		  <stat name="ac:draconic resilience" value="13" />
+		  <stat name="ac:draconic resilience" value="dexterity:modifier" />
+		  <stat name="ac:calculation" value="ac:draconic resilience" bonus="calculation" equipped="[armor:none]" alt="Drakonische Widerstandskraft (Zauberer)" />
+    </rules>
+  </element>
+  <element name="Elementare Affinität" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_AFFINITY">
+    <supports>Draconic Bloodline</supports>
+    <description>
+      <p>Angefangen mit der 6. Stufe kannst du deinen Charismamodifikator zum Schadenswurf eines Zaubers addieren, dessen Schadensart der deines Drachenvorfahren entspricht. Gleichzeitig kannst du 1 Zaubereipunkt ausgeben, um für 1 Stunde eine Resistenz gegen diese Schadensart zu erhalten.</p>
+    </description>
+    <sheet>
+      <description>Du kannst deinen Charismamodifikator ({{charisma:modifier}}) zum Schadenswurf eines Zaubers addieren, dessen Schadensart {{Dragon Ancestor Damage Type}} entspricht. Außerdem kannst du 1 Zaubereipunkt ausgeben, um für 1 Stunde eine Resistenz gegen {{Dragon Ancestor Damage Type}} zu erhalten.</description>
+    </sheet>
+  </element>
+  <element name="Drachenflügel" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_WINGS">
+    <supports>Draconic Bloodline</supports>
+    <description>
+      <p>Auf der 14. Stufe erlangst du die Fähigkeit, als Bonusaktion deinem Rücken Flügel entspringen zu lassen, die dir eine Flugbewegungsrate in Höhe deiner aktuellen Bewegungsrate verleihen. Die Flügel bleiben so lange vorhanden, bis du sie mit einer Bonusaktion in deinem Zug wieder verschwinden lässt.</p>
+      <p class="indent">Du kannst deine Flügel nicht hervorrufen, solange du eine Rüstung trägst, die nicht speziell dafür angefertigt beziehungsweise angepasst wurde. Getragene Kleidung wird zerstört, falls sie nicht ebenfalls speziell angefertigt wurde.</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Du kannst deinem Rücken Flügel entspringen lassen, die dir eine Flugbewegungsrate {{speed}} verleihen. Die Flügel bleiben so lange vorhanden, bis du sie mit einer Bonusaktion in deinem Zug wieder verschwinden lässt.</description>
+    </sheet>
+  </element>
+  <element name="Drakonische Präsenz" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_PRESENCE">
+    <supports>Draconic Bloodline</supports>
+    <description>
+      <p>Ab der 18. Stufe kannst du die eindrucksvolle Präsenz deines Drachenvorfahren beschwören, um Wesen in deiner Nähe mit Ehrfurcht oder Schrecken zu erfüllen. Als Aktion kannst du 5 Zaubereipunkte ausgeben, um eine Aura der Ehrfurcht oder des Schreckens (deine Wahl) mit einem 18-m-Radius zu erschaffen. Für 1 Minute oder bis du deine Konzentration verlierst (als wenn du dich auf einen Zauber konzentrieren würdest) muss jede feindliche Kreatur, die ihren Zug in deiner Aura beginnt, einen Weisheitsrettungswurf ablegen. Bei einem Misserfolg wird sie bezaubert (bei einer Aura der Ehrfurcht) oder verängstigt (bei einer Aura des Schreckens), bis die Aura endet. Eine Kreatur, deren Rettungswurf gelingt, ist für die nächsten 24 Stunden immun gegen deine Aura.</p>
+    </description>
+    <sheet action="Aktion" usage="5 ZP">
+      <description>Du kannst eine Aura der Ehrfurcht oder des Schreckens (deine Wahl) mit einem 18-m-Radius erschaffen. Für 1 Minute oder bis du deine Konzentration verlierst muss jede feindliche Kreatur, die ihren Zug in deiner Aura beginnt, einen Weisheitsrettungswurf ablegen. Bei einem Misserfolg wird sie bezaubert (bei einer Aura der Ehrfurcht) oder verängstigt (bei einer Aura des Schreckens), bis die Aura endet. Eine Kreatur, deren Rettungswurf gelingt, ist für die nächsten 24 Stunden immun gegen deine Aura.</description>
+    </sheet>
+  </element>
+
+
+  <!-- Wild Magic Features -->
+  <element name="Woge der wilden Magie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WILD_MAGIC_SURGE">
+    <supports>Wild Magic</supports>
+    <description>
+      <p>Beginnend mit der Wahl dieses Ursprungs auf Stufe 1 kann dein Zauberwirken wilde Wogen aus ungezügelter Magie freisetzen. Einmal pro Zug, sofort nachdem du einen Zauberspruch des 1. oder eines höheren Grades gewirkt hast, kann dich der SL mit einem W20 würfeln lassen. Ist das Ergebnis eine 1, musst du mit Hilfe der Tabelle „Woge der Wilden Magie" einen zufälligen magischen Effekt bestimmen, den du hervorrufst. Falls der Effekt ein Zauber ist, gilt er als zu wild, um von deiner Metamagie beeinflusst zu werden. Würde er normalerweise Konzentration erfordern, entfällt diese Bedingung und der Spruch hält für seine vollständige Dauer an.</p>
+    </description>
+    <sheet>
+      <description>Einmal pro Zug, sofort nachdem du einen Zauberspruch des 1. oder eines höheren Grades gewirkt hast, kann dich der SL mit einem W20 würfeln lassen. Ist das Ergebnis eine 1, musst du mit Hilfe der Tabelle „Woge der Wilden Magie" einen zufälligen magischen Effekt bestimmen, den du hervorrufst.</description>
+    </sheet>
+  </element>
+  <element name="Gezeiten des Chaos" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TIDES_OF_CHAOS">
+    <supports>Wild Magic</supports>
+    <description>
+      <p>Ab der 1. Stufe kannst du die Kräfte des Chaos beeinflussen, um bei einem Angriffs-, Attributs- oder Rettungswurf im Vorteil zu sein. Hast du diese Fähigkeit einmal eingesetzt, kannst du sie erst nach einer langen Rast erneut anwenden.</p>
+      <p class="indent">Jederzeit, bevor du die Anwendung dieser Fähigkeit wiedererlangst, kann der SL dich sofort nach dem Wirken eines Zaubers des 1. oder eines höheren Grades auf die Tabelle „Woge der Wilden Magie" würfeln lassen. Du erhältst dann die Anwendung dieser Fähigkeit zurück.</p>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Du hast Vorteil bei einem Angriffs-, Attributs- oder Rettungswurf. Jederzeit, bevor du die Anwendung dieser Fähigkeit wiedererlangst, kann der SL dich sofort nach dem Wirken eines Zaubers des 1. oder eines höheren Grades auf die Tabelle „Woge der Wilden Magie" würfeln lassen. Du erhältst dann die Anwendung dieser Fähigkeit zurück.</description>
+    </sheet>
+  </element>
+  <element name="Das Schicksal zurechtbiegen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BEND_LUCK">
+    <supports>Wild Magic</supports>
+    <description>
+      <p>Beginnend mit der 6. Stufe bist du in der Lage, mit Hilfe deiner wilden Magie der Bestimmung ein Schnippchen zu schlagen. Führt eine andere Kreatur, die du sehen kannst, einen Angriffs-, Attributs- oder Rettungswurf aus, kannst du deine Reaktion einsetzen und 2 Zaubereipunkte ausgeben, um das Ergebnis eines W4 als Bonus oder Malus (deine Wahl) auf den Wurf der Kreatur anzurechnen. Du kannst diese Fähigkeit nach dem Wurf der Kreatur einsetzen, musst es jedoch, bevor das Ergebnis angewendet wird.</p>
+    </description>
+    <sheet action="Reaktion" usage="2 ZP">
+      <description>Führt eine andere Kreatur, die du sehen kannst, einen Angriffs-, Attributs- oder Rettungswurf aus, kannst du das Ergebnis eines W4 als Bonus oder Malus (deine Wahl) auf den Wurf der Kreatur anrechnen. Du kannst diese Fähigkeit nach dem Wurf der Kreatur einsetzen, musst es jedoch, bevor das Ergebnis angewendet wird.</description>
+    </sheet>
+  </element>
+  <element name="Kontrolliertes Chaos" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CONTROLLED_CHAOS">
+    <supports>Wild Magic</supports>
+    <description>
+      <p>Auf Stufe 14 erhältst du ein gewisses Maß an Kontrolle über die unberechenbaren Auswirkungen deiner wilden Magie. Immer wenn du auf der Tabelle „Woge der Wilden Magie" würfelst, kannst du ein zweites Mal würfeln und dir eines der beiden Ergebnisse aussuchen.</p>
+    </description>
+    <sheet>
+      <description>Immer wenn du auf der Tabelle „Woge der Wilden Magie" würfelst, kannst du ein zweites Mal würfeln und dir eines der beiden Ergebnisse aussuchen.</description>
+    </sheet>
+  </element>
+  <element name="Zauberbombardement" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_SPELL_BOMBARDMENT">
+    <supports>Wild Magic</supports>
+    <description>
+      <p>Angefangen mit der 18. Stufe verstärkt sich die vernichtende Energie deiner Zaubersprüche. Wenn du beim Schadenswurf eines Zaubers auf einem der Würfel das höchstmögliche Ergebnis erzielst, darfst du diesen ein weiteres Mal würfeln und auch das zweite Ergebnis zum Schaden addieren. Du kannst diese Fähigkeit nur einmal pro Zug einsetzen.</p>
+    </description>
+    <sheet>
+      <description>Wenn du beim Schadenswurf eines Zaubers auf einem der Würfel das höchstmögliche Ergebnis erzielst, darfst du diesen ein weiteres Mal würfeln und auch das zweite Ergebnis zum Schaden addieren. Du kannst diese Fähigkeit nur einmal pro Zug einsetzen.</description>
+    </sheet>
+  </element>
+
+
+  <!-- Metamagic Options -->
+  <element name="Bedachter Zauber" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_CAREFUL_SPELL">
+    <supports>Metamagic</supports>
+    <description>
+      <p>Wenn du einen Zauber wirkst, der andere Kreaturen dazu zwingt, einen Rettungswurf abzulegen, kannst du einige dieser Kreaturen vor der vollen Stärke des Zaubers schützen. Gib 1 Zaubereipunkt aus und bestimme eine Anzahl betroffener Kreaturen, die maximal der Höhe deines Charismamodifikators entspricht (mindestens 1). Jeder ausgewählten Kreatur gelingt der Rettungswurf gegen diesen Zauber automatisch.</p>
+    </description>
+    <sheet usage="1 ZP">
+      <description>Bestimme maximal {metamagic careful spell:creatures}} Kreature(n). Jeder ausgewählten Kreatur gelingt der Rettungswurf gegen diesen Zauber automatisch.</description>
+    </sheet>
+    <rules>
+      <stat name="metamagic careful spell:creatures" value="1" bonus="base" />
+			<stat name="metamagic careful spell:creatures" value="charisma:modifier" bonus="base" />
+    </rules>
+  </element>
+  <element name="Weitreichender Zauber" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_DISTANT_SPELL">
+    <supports>Metamagic</supports>
+    <description>
+      <p>Wenn du einen Zauber wirkst, der eine Reichweite von 1,50 m oder mehr besitzt, kannst du 1 Zaubereipunkt ausgeben, um seine Reichweite zu verdoppeln.</p>
+      <p class="indent">Wirkst du einen Zauber mit Berührungsreichweite, kannst du 1 Zaubereipunkt ausgeben, um seine Reichweite auf 9 m zu erhöhen.</p>
+    </description>
+    <sheet usage="1 ZP">
+      <description>Wenn du einen Zauber wirkst, der eine Reichweite von 1,50 m oder mehr besitzt, kannst du seine Reichweite zu verdoppeln. Bei einen Zauber mit Berührungsreichweite wird seine Reichweite auf 9 m erhöht.</description>
+    </sheet>
+  </element>
+  <element name="Mächtiger Zauber" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_EMPOWERED_SPELL">
+    <supports>Metamagic</supports>
+    <description>
+      <p>Wenn du den Schaden eines Zauberspruchs auswürfelst, kannst du 1 Zaubereipunkt ausgeben, um eine Anzahl von Würfeln bis zur Höhe deines Charismamodifikators (mindestens 1) erneut zu würfeln. Die neuen Ergebnisse musst du verwenden.</p>
+      <p class="indent">Du kannst Mächtiger Zauber anwenden, auch wenn du den ursprünglichen Zauber bereits mit einer anderen metamagischen Option gewirkt hast.</p>
+    </description>
+    <sheet usage="1 ZP">
+      <description>Wenn du den Schaden eines Zauberspruchs auswürfelst, kannst du {{metamagic empowered spell:rerolls}} Würfel erneut würfeln. Die neuen Ergebnisse musst du verwenden. Du kannst Mächtiger Zauber anwenden, auch wenn du den ursprünglichen Zauber bereits mit einer anderen metamagischen Option gewirkt hast.</description>
+    </sheet>
+    <rules>
+      <stat name="metamagic empowered spell:rerolls" value="1" bonus="base" />
+			<stat name="metamagic empowered spell:rerolls" value="charisma:modifier" bonus="base" />
+    </rules>
+  </element>
+  <element name="Verlängerter Zauber" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_EXTENDED_SPELL">
+    <supports>Metamagic</supports>
+    <description>
+      <p>Wenn du einen Zauber wirkst, der eine Wirkdauer von 1 Minute oder länger besitzt, kannst du 1 Zaubereipunkt ausgeben, um seine Wirkdauer bis zu einem Maximum von 24 Stunden zu verdoppeln.</p>
+    </description>
+    <sheet usage="1 ZP">
+      <description>Wenn du einen Zauber wirkst, der eine Wirkdauer von 1 Minute oder länger besitzt, kannst du seine Wirkdauer bis zu einem Maximum von 24 Stunden verdoppeln.</description>
+    </sheet>
+  </element>
+  <element name="Konzentrierter Zauber" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_HEIGHTENED_SPELL">
+    <supports>Metamagic</supports>
+    <description>
+      <p>Wenn du einen Zauber wirkst, der eine Kreatur dazu zwingt, einen Rettungswurf abzulegen, um den Effekten des Spruches zu widerstehen, kannst du 3 Zaubereipunkte ausgeben, damit eines der Ziele des Zaubers bei seinem ersten Rettungswurf im Nachteil ist.</p>
+    </description>
+    <sheet usage="3 ZP">
+      <description>Wenn du einen Zauber wirkst, der eine Kreatur dazu zwingt, einen Rettungswurf abzulegen, um den Effekten des Spruches zu widerstehen, ist eines der Ziele des Zaubers bei seinem ersten Rettungswurf im Nachteil.</description>
+    </sheet>
+  </element>
+  <element name="Beschleunigter Zauber" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL">
+    <supports>Metamagic</supports>
+    <description>
+      <p>Wenn du einen Zauber wirkst, der einen Zeitaufwand von einer Aktion besitzt, kannst du 2 Zaubereipunkte ausgeben, um den Zeitaufwand für dieses Mal in eine Bonusaktion zu ändern.</p>
+    </description>
+    <sheet usage="2 ZP">
+      <description>Wenn du einen Zauber wirkst, der einen Zeitaufwand von einer Aktion besitzt, kannst du den Zeitaufwand für dieses Mal in eine Bonusaktion ändern.</description>
+    </sheet>
+  </element>
+  <element name="Subtiler Zauber" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_SUBTLE_SPELL">
+    <supports>Metamagic</supports>
+    <description>
+      <p>Wenn du einen Zauber wirkst, kannst du 1 Zaubereipunkt ausgeben, um ihn ohne jegliche Gesten und verbale Komponenten zu wirken.</p>
+    </description>
+    <sheet usage="1 ZP">
+      <description>Du kannst einen Zauber ohne jegliche Gesten und verbale Komponenten wirken.</description>
+    </sheet>
+  </element>
+  <element name="Gespiegelter Zauber" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL">
+    <supports>Metamagic</supports>
+    <description>
+      <p>Wenn du einen Zauber wirkst, der nur eine Kreatur zum Ziel hat (die nicht du selbst bist), kannst du eine Anzahl von Zaubereipunkten in Höhe des Grades des Zaubers ausgeben (1 Zaubereipunkt bei einem Zaubertrick), um ihn auf eine weitere Kreatur in Reichweite zu wirken.</p>
+      <p class="indent">Um den Zauber mit dieser metamagischen Option wirken zu können, darf er auf seinem aktuellen Grad nicht mehr als eine Kreatur zum Ziel haben. Zum Beispiel sind Magisches Geschoss und Sengender Strahl nicht geeignet, Kältestrahl und Chromatische Kugel hingegen schon.</p>
+    </description>
+    <sheet usage="ZP">
+      <description>Wenn du einen Zauber wirkst, der nur eine Kreatur zum Ziel hat (die nicht du selbst bist), kannst du eine Anzahl von Zaubereipunkten in Höhe des Grades des Zaubers ausgeben (1 Zaubereipunkt bei einem Zaubertrick), um ihn auf eine weitere Kreatur in Reichweite zu wirken.</description>
+    </sheet>
+  </element>
+
+  <!-- Dragon Ancestor Options -->
+  <element name="Schwarzer Drache" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_BLACK">
+    <supports>Dragon Ancestor</supports>
+    <description>
+      <p>Du hast den Schwarzen Drachen als deinen Vorfahr gewählt. Schadensart Säure wird bei Merkmalen genutzt, die du später erhältst.</p>
+    </description>
+    <sheet>
+      <description>Du hast den Schwarzen Drachen als deinen Vorfahr gewählt. Schadensart Säure wird bei Merkmalen genutzt, die du später erhältst.</description>
+    </sheet>
+    <rules>
+      <!-- <stat inline="true" name="Dragon Ancestor" value="Schwarzer Drache" /> -->
+      <stat inline="true" name="Dragon Ancestor Damage Type" value="Säure" />
+    </rules>
+  </element>
+  <element name="Blauer Drache" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_BLUE">
+    <supports>Dragon Ancestor</supports>
+    <description>
+      <p>Du hast den Blauen Drachen als deinen Vorfahr gewählt. Schadensart Blitz wird bei Merkmalen genutzt, die du später erhältst.</p>
+    </description>
+    <sheet>
+      <description>Du hast den Blauen Drachen als deinen Vorfahr gewählt. Schadensart Blitz wird bei Merkmalen genutzt, die du später erhältst.</description>
+    </sheet>
+    <rules>
+      <!-- <stat inline="true" name="Dragon Ancestor" value="Blauer Drache" /> -->
+      <stat inline="true" name="Dragon Ancestor Damage Type" value="Blitz" />
+    </rules>
+  </element>
+  <element name="Messing Drache" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_BRASS">
+    <supports>Dragon Ancestor</supports>
+    <description>
+      <p>Du hast den Messing Drachen als deinen Vorfahr gewählt. Schadensart Feuer wird bei Merkmalen genutzt, die du später erhältst.</p>
+    </description>
+    <sheet>
+      <description>Du hast den Messing Drachen als deinen Vorfahr gewählt. Schadensart Feuer wird bei Merkmalen genutzt, die du später erhältst.</description>
+    </sheet>
+    <rules>
+      <!-- <stat inline="true" name="Dragon Ancestor" value="Messing Drache" /> -->
+      <stat inline="true" name="Dragon Ancestor Damage Type" value="Feuer" />
+    </rules>
+  </element>
+  <element name="Bronze Drache" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_BRONZE">
+    <supports>Dragon Ancestor</supports>
+    <description>
+      <p>Du hast den Bronze Drachen als deinen Vorfahr gewählt. Schadensart Blitz wird bei Merkmalen genutzt, die du später erhältst.</p>
+    </description>
+    <sheet>
+      <description>Du hast den Bronze Drachen als deinen Vorfahr gewählt. Schadensart Blitz wird bei Merkmalen genutzt, die du später erhältst.</description>
+    </sheet>
+    <rules>
+      <!-- <stat inline="true" name="Dragon Ancestor" value="Bronze Drache" /> -->
+      <stat inline="true" name="Dragon Ancestor Damage Type" value="Blitz" />
+    </rules>
+  </element>
+  <element name="Kupfer Drache" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_COPPER">
+    <supports>Dragon Ancestor</supports>
+    <description>
+      <p>Du hast den Kupfer Drachen als deinen Vorfahr gewählt. Schadensart Säure wird bei Merkmalen genutzt, die du später erhältst.</p>
+    </description>
+    <sheet>
+      <description>Du hast den Kupfer Drachen als deinen Vorfahr gewählt. Schadensart Säure wird bei Merkmalen genutzt, die du später erhältst.</description>
+    </sheet>
+    <rules>
+      <!-- <stat inline="true" name="Dragon Ancestor" value="Kupfer Drache" /> -->
+      <stat inline="true" name="Dragon Ancestor Damage Type" value="Säure" />
+    </rules>
+  </element>
+  <element name="Goldener Drache" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_GOLD">
+    <supports>Dragon Ancestor</supports>
+    <description>
+      <p>Du hast den Goldenen Drachen als deinen Vorfahr gewählt. Schadensart Feuer wird bei Merkmalen genutzt, die du später erhältst.</p>
+    </description>
+    <sheet>
+      <description>Du hast den Goldenen Drachen als deinen Vorfahr gewählt. Schadensart Feuer wird bei Merkmalen genutzt, die du später erhältst.</description>
+    </sheet>
+    <rules>
+      <!-- <stat inline="true" name="Dragon Ancestor" value="Goldener Drache" /> -->
+      <stat inline="true" name="Dragon Ancestor Damage Type" value="Feuer" />
+    </rules>
+  </element>
+  <element name="Grüner Drache" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_GREEN">
+    <supports>Dragon Ancestor</supports>
+    <description>
+      <p>Du hast den Grünen Drachen als deinen Vorfahr gewählt. Schadensart Gift wird bei Merkmalen genutzt, die du später erhältst.</p>
+    </description>
+    <sheet>
+      <description>Du hast den Grünen Drachen als deinen Vorfahr gewählt. Schadensart Gift wird bei Merkmalen genutzt, die du später erhältst.</description>
+    </sheet>
+    <rules>
+      <!-- <stat inline="true" name="Dragon Ancestor" value="Grüner Drache" /> -->
+      <stat inline="true" name="Dragon Ancestor Damage Type" value="Gift" />
+    </rules>
+  </element>
+  <element name="Roter Drache" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_RED">
+    <supports>Dragon Ancestor</supports>
+    <description>
+      <p>Du hast den Roten Drachen als deinen Vorfahr gewählt. Schadensart Feuer wird bei Merkmalen genutzt, die du später erhältst.</p>
+    </description>
+    <sheet>
+      <description>Du hast den Roten Drachen als deinen Vorfahr gewählt. Schadensart Feuer wird bei Merkmalen genutzt, die du später erhältst.</description>
+    </sheet>
+    <rules>
+      <!-- <stat inline="true" name="Dragon Ancestor" value="Roter Drache" /> -->
+      <stat inline="true" name="Dragon Ancestor Damage Type" value="Feuer" />
+    </rules>
+  </element>
+  <element name="Silber Drache" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_SILVER">
+    <supports>Dragon Ancestor</supports>
+    <description>
+      <p>Du hast den Silbernen Drachen als deinen Vorfahr gewählt. Schadensart Kälte wird bei Merkmalen genutzt, die du später erhältst.</p>
+    </description>
+    <sheet>
+      <description>Du hast den Silbernen Drachen als deinen Vorfahr gewählt. Schadensart Kälte wird bei Merkmalen genutzt, die du später erhältst.</description>
+    </sheet>
+    <rules>
+      <!-- <stat inline="true" name="Dragon Ancestor" value="Silber Drache" /> -->
+      <stat inline="true" name="Dragon Ancestor Damage Type" value="Kälte" />
+    </rules>
+  </element>
+  <element name="Weißer Drache" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRAGON_ANCESTOR_WHITE">
+    <supports>Dragon Ancestor</supports>
+    <description>
+      <p>Du hast den Weißen Drachen als deinen Vorfahr gewählt. Schadensart Kälte wird bei Merkmalen genutzt, die du später erhältst.</p>
+    </description>
+    <sheet>
+      <description>Du hast den Weißen Drachen als deinen Vorfahr gewählt. Schadensart Kälte wird bei Merkmalen genutzt, die du später erhältst.</description>
+    </sheet>
+    <rules>
+      <!-- <stat inline="true" name="Dragon Ancestor" value="Weißer Drache" /> -->
+      <stat inline="true" name="Dragon Ancestor Damage Type" value="Kälte" />
+    </rules>
+  </element>
+</elements>

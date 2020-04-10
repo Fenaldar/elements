@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Strassenkind</name>
+		<description>Der Hintergrund Strassenkind aus dem Spielerhandbuch</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.5">
+			<file name="hintergrund-strassenkind.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-strassenkind.xml" />
+		</update>
+	</info>
+
+	<element name="Strassenkind" type="Background" source="Spielerhandbuch" id="ID_BACKGROUND_URCHIN">
+		<description>
+			<p>Du bist allein auf der Straße aufgewachsen, verwaist und arm. Du hattest niemanden, der auf dich aufpasste oder für dich sorgte, also musstest du das selbst tun. Verbissen hast du um Essen gekämpft, ständig auf der Hut vor anderen verzweifelten Seelen, die dich hätten bestehlen können. Du hast auf Dächern und in Seitenstraßen geschlafen, warst den Elementen ausgesetzt und hast Krankheiten überstanden ohne Medizin oder einen sicheren Ort, um dich auszukurieren. Allen Widrigkeiten zum Trotz hast du dank deines Einfallsreichtums, deiner Stärke oder deiner Geschwindigkeit überlebt — oder einer Kombination aus allem.</p>
+			<p class="indent">Du beginnst deine Abenteurerkarriere mit genügend Geld, um für mindestens zehn Tage einen einfachen Lebensstil führen zu können. Wie bist du an das Geld gekommen? Was hat dir erlaubt, dich aus deinen hoffnungslosen Verhältnissen zu befreien und nach einem besseren Leben zu greifen?</p>
+			<ul class="unstyled">
+				<li><strong>Geübt in folgenden Fertigkeiten:</strong> Fingerfertigkeit, Heimlichkeit</li>
+				<li><strong>Geübt im Umgang mit folgenden Werkzeugen:</strong> Diebeswerkzeug, Verkleidungsausrüstung</li>
+				<li><strong>Ausrüstung:</strong> ein kleines Messer, eine Stadtkarte (der Stadt, in der du aufgewachsen bist), eine Maus als Haustier, ein persönlicher Gegenstand (der dich an deine Eltern erinnert), ein Satz gewöhnlicher Kleidung, ein Beutel mit 10 GM</li>
+			</ul>
+			<div element="ID_BACKGROUND_FEATURE_CITY_SECRETS" />
+			<h5>EMPFOHLENE CHARAKTERISTIKA</h5>
+			<p>Straßenkinder werden durch ihre ausweglose Armut geprägt, ob zum Guten oder zum Schlechten. Sie neigen dazu, entweder von ihrer Hingabe an jene, mit denen sie ihr Leben auf der Straße teilten, angetrieben zu werden oder von dem brennenden Verlangen nach einem besseren Leben — und vielleicht den Rachegelüsten gegenüber all den reichen Leuten, die sie schlecht behandelt haben.</p>
+		</description>
+		<setters>
+			<set name="short">Fingerfertigkeit, Heimlichkeit, Diebeswerkzeug, Verkleidungsausrüstung</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_CITY_SECRETS" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Merkmalvariante" supports="Optional Background Feature" optional="true" />
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">Essensabfälle und Plunder, der vielleicht noch nützlich sein könnte, verstaue ich unauffällig in meinen Taschen.</item>
+				<item id="2">Ich stelle viele Fragen.</item>
+				<item id="3">Ich mag es, mich in enge Orte zu quetschen, an denen mich niemand erreichen kann.</item>
+				<item id="4">Ich schlafe immer mit dem Rücken zu einem Baum oder einer Wand und halte alles, was ich besitze, in einem Bündel verschnürt in meinen Armen.</item>
+				<item id="5">Ich fresse wie ein Schwein und habe schlechte Umgangsformen.</item>
+				<item id="6">Ich bin überzeugt davon, dass jeder, der nett zu mir ist, etwas Böses im Schilde führt.</item>
+				<item id="7">Ich mag es nicht zu baden</item>
+				<item id="8">Ich spreche geradeheraus an, was andere nur andeuten oder zu verstecken versuchen.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Respekt. jeder, ob arm oder reich, verdient Respekt. (gut)</item>
+				<item id="2">Gemeinschaft. Wir müssen uns umeinander kümmern, weil es sonst niemand macht. (rechtschaffen)</item>
+				<item id="3">Wandel. Die Schwachen und Armen steigen empor, die Hohen und Mächtigen werden zu Fall gebracht. Wandel ist die Natur der Dinge. (chaotisch)</item>
+				<item id="4">Vergeltung. Den Reichen muss gezeigt werden, wie das Leben und der Tod in der Gosse sind. (böse)</item>
+				<item id="5">Freundschaft. Ich helfe denen, die mir helfen. Das ist es, was uns am Leben erhält. (neutral)</item>
+				<item id="6">Ehrgeiz. ich werde unter Beweis stellen, dass ich ein besseres Leben wert bin. (jede)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">Meine Stadt oder mein Dorf sind meine Heimat, und ich werde kämpfen, um sie zu verteidigen.</item>
+				<item id="2">Ich unterstütze ein Waisenhaus, damit andere nicht das durchmachen müssen, was ich erlebt habe.</item>
+				<item id="3">Ich verdanke mein Überleben einem anderen Straßenkind, das mir beigebracht hat, wie man in den Gassen zurechtkommt.</item>
+				<item id="4">Ich habe Schulden, die ich niemals zurückzahlen kann, bei einer Person, die Mitleid mit mir hatte.</item>
+				<item id="5">Ich bin der Armut entkommen, weil ich eine hochrangige Person ausgeraubt habe. Deshalb werde ich jetzt gesucht.</item>
+				<item id="6">Niemand anderer sollte die Entbehrungen durchmachen, die ich hinter mich gebracht habe.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">Wenn ich in Unterzahl bin, fliehe ich vor einem Kampf.</item>
+				<item id="2">Schon ein einziges Goldstück ist für mich ein wahrer Schatz. Ich würde so gut wie alles tun, um mehr davon zu bekommen.</item>
+				<item id="3">Niemals werde ich jemand anderem völlig vertrauen als mir selbst.</item>
+				<item id="4">Ich würde eher jemanden im Schlaftöten, als fair mit ihm zu kämpfen.</item>
+				<item id="5">Es ist kein Diebstahl, wenn ich etwas mehr brauche als jemand anderes.</item>
+				<item id="6">Jeder, der nicht auf sich aufpassen kann, bekommt, was er verdient.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Merkmal: Geheimnisse der Stadt" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_CITY_SECRETS">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Du kennst die Abläufe und die Struktur von Städten und vermagst in dem städtischen Gewirr Durchgänge zu finden, die anderen verborgen bleiben. Wenn du dich nicht im Kampf befindest, können du und deine dir folgenden Gefährten doppelt so schnell zwischen zwei Orten in einer Stadt reisen, als dies normalerweise der Fall wäre.</p>
+		</description>
+		<sheet alt="Geheimnisse der Stadt" />
+	</element>
+</elements>

@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Kämpfer</name>
+    <description>Die Klasse Kämpfer aus dem Spielerhandbuch.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.3.6">
+      <file name="klasse-kaempfer.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-kaempfer.xml" />
+    </update>
+  </info>
+
+  <element name="Kaempfer" type="Class" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FIGHTER">
+    <description>
+      <p>Eine Menschenfrau in einem scheppernden Plattenpanzer hält ihren Schild vor sich, während sie auf die Horde der Goblins zustürmt. Ein Elf, der in beschlagenes Leder gekleidet ist, steht hinter ihr und lässt mit seinem außergewöhnlichen Bogen einen wahren Pfeilhagel auf die Gegner niedergehen. Der Halbork an seiner Seite brüllt Befehle, um den Angriff der beiden Kämpfenden zu koordinieren und ihnen zu einem taktischen Vorteil zu verhelfen.</p>
+      <p class="indent">Ein Zwerg im Kettenpanzer wirft sich mit seinem Schild schützend zwischen die Keule des Ogers und seine Kameradin und wehrt so den tödlichen Schlag ab. Seine Begleiterin, eine Halbelfe in einem Schuppenpanzer, wirbelt zwei Krummsäbel in schwindelerregender Schnelligkeit umher, während sie den Oger umkreist und nach einer Schwachstelle in seiner Verteidigung sucht.</p>
+      <p class="indent">Ein Gladiator kämpft zum Spaß in einer Arena. Er ist ein Meister mit Netz und Dreizack und geübt darin, Gegner zu Fall zu bringen und sie zur Erheiterung des Publikums und zu seinem taktischen Vorteil durch den Staub zu schleifen. Das Schwert seiner Gegnerin blitzt in blauem Licht auf, gerade bevor sie einen Blitzschlag auf ihn loslässt.</p>
+      <p class="indent">Jeder dieser Helden ist ein Kämpfer, die vielleicht am breitesten gefächerte Charakterklasse in der Welt von DUNGEONS &amp; DRAGONS. Ritter auf einer Queste, erobernde Kriegsherren, adelige Anführer, erfahrene Fußsoldaten, abgehärtete Söldner und Räuberkönige, als Kämpfer teilen sie alle die unvergleichliche Meisterschaft im Umgang mit Waffen und Rüstungen sowie die herausragende Beherrschung der Kampffertigkeiten. Auch mit dem Tod sind sie gut vertraut, sowohl damit, ihn zu vermeiden, als auch, ihm herausfordernd ins Gesicht zu starren.</p>
+      <h4>VIELSEITIGE SPEZIALISTEN</h4>
+      <p>Kämpfer erlernen die Grundlagen aller Kampfstile. Jeder von ihnen kann eine Axt schwingen, mit einem Rapier fechten, ein Langschwert oder einen Zweihänder führen, einen Bogen benutzen und sogar einen Gegner auf geschickte Weise mit einem Netz einfangen. Ebenso ist ein Kämpfer mit Schilden und jeder Art von Rüstung vertraut. Über diese grundsätzliche Vertrautheit hinaus spezialisiert sich jeder Kämpfer auf einen bestimmten Kampfstil. Manche konzentrieren sich aufs Bogenschießen, einige auf das gleichzeitige Führen von zwei Waffen und wieder andere verstärken ihre Fähigkeiten mit Magie. Diese Kombination aus breitgefächertem generellen Können und tiefgehender Spezialisierung machen Kämpfer sowohl auf dem Schlachtfeld als auch in dunklen Gewölben zu überlegenen Kriegern.</p>
+      <h4>AUSGEBILDET FÜR DIE GEFAHR</h4>
+      <p>Nicht jedes Mitglied der Stadtwache, der Dorfmiliz oder der Armee der Königin ist ein Kämpfer. Die meisten Soldaten dieser Truppen sind schlecht ausgebildet und besitzen nur ein grundlegendes Verständnis des Waffengangs. Kampferprobte Veteranen, Militäroffiziere, ausgebildete Leibwächter, entschlossene Ritter und ähnliche Personen sind Kämpfer</p>
+      <p class="indent">Manche Kämpfer fühlen sich dazu hingezogen, auf Abenteuer auszuziehen. In Gewölben zu stöbern, Monster zu erschlagen und sich anderen gefährlichen Herausforderungen zu stellen, die für Abenteurer alltäglich sind, liegt in der Natur des Kämpfers und unterscheidet sich nicht allzu sehr von dem Leben, dem er den Rücken gekehrt hat. Es mag zwar größere Risiken bergen, aber auch größere Gewinne mit sich bringen. Beispielsweise bekommen nur wenige Kämpfer der Stadtwache jemals die Gelegenheit, ein magisches Flammenschwert zu erbeuten.</p>
+      <h4>EINEN KÄMPFER ERSCHAFFEN</h4>
+      <p>Bedenke bei der Erschaffung deines Kämpfers immer folgende zwei Elemente, die eng miteinander verbunden sind und seine Hintergrundgeschichte ausmachen: Wo hat dein Charakter seine Kampfausbildung erhalten und was unterscheidet ihn von den anderen Kriegern um ihn herum? Ist er besonders grausam? Erhielt er Hilfe von einem Mentor, vielleicht aufgrund seines außerordentlichen Engagements? Was hat ihn überhaupt dazu gebracht, diesen Weg zu beschreiten? Eine Bedrohung für sein Heimatland, Rachedurst oder das Verlangen, sich zu beweisen?</p>
+      <p class="indent">Dein Charakter könnte eine formelle Ausbildung in der Armee eines Adeligen oder der örtlichen Miliz genossen haben. Vielleicht wurde er an einer Kriegerakademie unterrichtet und lernte Strategie, Taktik und Militärgeschichte. Oder brachte er sich sein gesamtes Können selbst bei und erprobte es auf dem Schlachtfeld? Nahm er das Schwert in die Hand, um dem harten Leben als Bauer zu entkommen oder folgt er einer stolzen Familientradition? Wie ist dein Kämpfer an seine Waffen und seine Rüstung gelangt? Stammen sie aus Militärbeständen oder aus dem Familienerbe, oder hat er sich jahrelang Geld vom Mund abgespart, um sie sich leisten zu können? Die Bewaffnung gehört nun zu den wichtigsten Besitztümern deines Charakters und ist das Einzige, was zwischen ihm und der Umarmung des Todes steht.</p>
+      <h5>SCHNELLE ERSCHAFFUNG</h5>
+      <p>Du kannst einen Kämpfer schnell erschaffen, indem du diesen Vorschlägen folgst:</p>
+      <p class="indent">Setze deinen höchsten Attributswert auf Stärke oder Geschicklichkeit, je nachdem, ob du dich eher auf den Nahkampf oder Fernkampf (oder eine Waffe mit Finesse) konzentrieren willst. Dein zweithöchster Wert sollte Konstitution sein oder Intelligenz (Letzteres falls du dich für den Archetyp des Mystischen Ritters entscheidest). Wähle zusätzlich den Hintergrund Soldat.</p>
+      <h3>KLASSENMERKMALE</h3>
+      <p>Als Kämpfer erhältst du folgende Klassenmerkmale:</p>
+      <h5>TREFFERPUNKTE</h5>
+      <ul class="unstyled">
+          <li><strong>Trefferwürfel:</strong> 1W10 pro Stufe als Kämpfer</li>
+          <li><strong>Trefferpunkte auf Stufe 1::</strong> 10 + dein Konstitutionsmodifikator</li>
+          <li><strong>Trefferpunkte auf höheren Stufen:</strong> 1W10 (oder 6) + dein Konstitutionsmodifikator pro Stufe als Kämpfer über die 1. Stufe hinaus</li>
+      </ul>
+      <h5>ÜBUNG</h5>
+      <ul class="unstyled mb">
+          <li><strong>Rüstungen:</strong> alle Rüstungen, Schilde</li>
+          <li><strong>Waffen:</strong> einfache Waffen, Kriegswaffen</li>
+          <li><strong>Werkzeuge:</strong> keine</li>
+      </ul>
+      <ul class="unstyled">
+          <li><strong>Rettungswürfe:</strong> Stärke, Konstitution</li>
+          <li><strong>Fertigkeiten:</strong> zwei nach Wahl: Akrobatik, Mit Tieren umgehen, Athletik, Geschichte, Motiv erkennen, Einschüchtern, Wahrnehmung oder Überlebenskunst</li>
+      </ul>
+      <h5>AUSRÜSTUNG</h5>
+      <p>Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:</p>
+      <ul>
+        <li><i>(a)</i> ein Kettenpanzer oder <i>(b)</i> eine Lederrüstung und ein Langbogen mit 20 Pfeilen</li>
+        <li><i>(a)</i> eine Kriegswaffe und ein Schild oder <i>(b)</i> zwei Kriegswaffen</li>
+        <li><i>(a)</i> eine leichte Armbrust mit 20 Bolzen oder <i>(b)</i> zwei Beile</li>
+        <li><i>(a)</i> eine Gewölbeforscherausrüstung oder <i>(b)</i> eine Entdeckerausrüstung</li>
+      </ul>
+      <h5 class="caption">DER KÄMPFER</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-5">Stufe</td><td class="left">Merkmale</td></tr>
+        </thead>
+        <tr><td> 1</td><td class="left">Kampfstil, Durchschnaufen</td></tr>
+        <tr><td> 2</td><td class="left">Tatendrang (eine Anwendung)</td></tr>
+        <tr><td> 3</td><td class="left">Kampfarchetyp</td></tr>
+        <tr><td> 4</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td> 5</td><td class="left">Zusätzlicher Angriff</td></tr>
+        <tr><td> 6</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td> 7</td><td class="left">Merkmal: Kampfarchetyp</td></tr>
+        <tr><td> 8</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td> 9</td><td class="left">Unbeugsamkeit (eine Anwendung)</td></tr>
+        <tr><td>10</td><td class="left">Merkmal: Kampfarchetyp</td></tr>
+        <tr><td>11</td><td class="left">Zusätzlicher Angriff (2)</td></tr>
+        <tr><td>12</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td>13</td><td class="left">Unbeugsamkeit (zwei Anwendungen)</td></tr>
+        <tr><td>14</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td>15</td><td class="left">Merkmal: Kampfarchetyp</td></tr>
+        <tr><td>16</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td>17</td><td class="left">Tatendrang (zwei Anwendungen), Unbeugsamkeit (drei Anwendungen)</td></tr>
+        <tr><td>18</td><td class="left">Merkmal: Kampfarchetyp</td></tr>
+        <tr><td>19</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td>20</td><td class="left">Zusätzlicher Angriff (3)</td></tr>
+      </table>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ACTIONSURGE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MARTIALARCHETYPE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_INDOMITABLE" />
+    </description>
+    <sheet display="false">
+      <description>Ein Meister der Kriegskunst, trainiert in einer Vielzahl von Waffen und Rüstungen.</description>
+    </sheet>
+    <setters>
+      <set name="short">Ein Meister der Kriegskunst, trainiert in einer Vielzahl von Waffen und Rüstungen.</set>
+      <set name="hd">d10</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+      <select type="Proficiency" name="Geübte Fertigkeit (Kämpfer)" supports="Skill,Fighter" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_FIGHTER"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ACTIONSURGE" level="2"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MARTIALARCHETYPE" level="3"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER" level="4"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK" level="5"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_INDOMITABLE" level="9"/>
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_FIGHTER">
+      <prerequisite>Strength 13 or Dexterity 13</prerequisite>
+      <requirements>([str:13]||[dex:13])</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Kampfstil" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE">
+    <description>
+      <p>Du wählst eine bestimmte Art zu kämpfen als Spezialisierung. Suche dir eine der folgenden Möglichkeiten aus. Du kannst keinen der Stile mehr als einmal wählen, selbst wenn du später erneut aussuchen darfst.</p>
+      <h5 class="caption">BOGENSCHIESSEN</h5>
+      <p>Du erhältst einen Bonus von +2 auf alle Angriffswürfe mit Fernkampfwaffen.</p>
+      <h5 class="caption">DUELLIEREN</h5>
+      <p>Kämpfst du nur mit einer einhändig geführten Nahkampfwaffe und keiner Waffe in der anderen Hand, erhältst du einen Bonus von +2 auf die Schadenswürfe mit dieser Waffe.</p>
+      <h5 class="caption">KAMPF MIT GROSSEN WAFFEN</h5>
+      <p>Greifst du mit einer beidhändig geführten Nahkampfwaffe an und würfelst bei deinem Schadenswurf eine 1 oder 2, darfst du den entsprechenden Schadenswürfel erneut würfeln. Das zweite Ergebnis musst du verwenden, auch wenn es wieder eine 1 oder 2 sein sollte. Die Waffe muss die Waffeneigenschaft zweihändig oder vielseitig besitzen, um diesen Vorzug zu gewähren.</p>
+      <h5 class="caption">KAMPF MIT ZWEI WAFFEN</h5>
+      <p>Wenn du mit zwei Waffen angreifst, kannst du den passenden Attributsmodifikator zum Schaden der zweiten Waffe addieren.</p>
+      <h5 class="caption">LEIBWACHE</h5>
+      <p>Führt eine Kreatur, die du sehen kannst, einen Angriff auf eine bis zu 1,50 m von dir entfernt stehende Kreatur aus (die nicht du selbst bist), kannst du deine Reaktion verwenden, damit der Angreifer bei seinem Wurf im Nachteil ist. Du musst dafür einen Schild tragen.</p>
+      <h5 class="caption">VERTEIDIGUNG</h5>
+      <p>Solange du eine Rüstung trägst, erhältst du einen Bonus von +1 auf deine Rüstungsklasse (RK).</p>
+    </description>
+    <sheet />
+    <rules>
+      <select type="Class Feature" name="Fighting Style" supports="Fighting Style" level="1"/>
+    </rules>
+  </element>
+  <element name="Durchschnaufen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND">
+    <description>
+      <p>Durch deine große Ausdauer bist du in der Lage, während eines Kampfes deine Kräfte zu sammeln und dich dann erholt ins Schlachtgetümmel zu werfen. Du kannst deine Bonusaktion in deinem Zug verwenden, um Trefferpunkte in Höhe von 1W10 + deiner Stufe als Kämpfer wiederzuerlangen.</p>
+      <p class="indent">Hast du die Fähigkeit einmal eingesetzt, steht sie dir erst wieder nach einer kurzen oder langen Rast zur Verfügung.</p>
+    </description>
+    <sheet action="Bonusaktion" usage="1/Kurze Rast">
+      <description>Du erhälst 1W10+{{level:kämpfer}} Trefferpunkte.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Tatendrang" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ACTIONSURGE">
+    <description>
+      <p>Ab der 2. Stufe vermagst du dich für einen kurzen Augenblick über deine körperlichen Grenzen hinwegzusetzen. In deinem Zug kannst du eine weitere Aktion ausführen, zusätzlich zu deiner regulären Aktion und einer möglichen Bonusaktion.</p>
+      <p class="indent">Hast du die Fähigkeit einmal eingesetzt, steht sie dir erst wieder nach einer kurzen oder langen Rast zur Verfügung. Ab Stufe 17 kannst du dieses Merkmal zweimal nutzen, bevor du rasten musst, darfst es jedoch nur einmal pro Zug anwenden</p>
+    </description>
+    <sheet>
+      <description usage="1/Kurze Rast" level="2">In deinem Zug kannst du eine weitere Aktion ausführen, zusätzlich zu deiner regulären Aktion und einer möglichen Bonusaktion.</description>
+      <description usage="2/Kurze Rast" level="17">In deinem Zug kannst du eine weitere Aktion ausführen, zusätzlich zu deiner regulären Aktion und einer möglichen Bonusaktion.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Kampfarchetyp" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MARTIALARCHETYPE">
+    <description>
+      <p>Mit Erreichen der 3. Stufe entscheidest du dich für einen Kampfarchetyp, der deinen Weg als Kämpfer bestimmt und der deine Techniken und Kampfstile beeinflusst. Wähle zwischen Champion, Kampfmeister oder Mystischem Ritter. Die Kampfarchetypen werden am Ende dieses Abschnitts ausführlich beschrieben. Der Archetyp, den du wählst, verleiht dir auf der 3., 7., 10., 15. und 18. Stufe jeweils ein Merkmal.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Martial Archetype" supports="Martial Archetype" level="3" />
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Kämpfer)" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER">
+		<compendium display="false" />
+    <description>
+      <p>Beim Erreichen der 4. Stufe und dann wieder auf der 6., 8., 12., 14., 16. und 19. Stufe kannst du einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Attributswerterhöhung (Kämpfer 4)" supports="Improvement Option,Kaempfer,4" level="4" />
+      <select type="Class Feature" name="Attributswerterhöhung (Kämpfer 6)" supports="Improvement Option,Kaempfer,6" level="6" />
+      <select type="Class Feature" name="Attributswerterhöhung (Kämpfer 8)" supports="Improvement Option,Kaempfer,8" level="8" />
+      <select type="Class Feature" name="Attributswerterhöhung (Kämpfer 12)" supports="Improvement Option,Kaempfer,12" level="12" />
+      <select type="Class Feature" name="Attributswerterhöhung (Kämpfer 14)" supports="Improvement Option,Kaempfer,14" level="14" />
+      <select type="Class Feature" name="Attributswerterhöhung (Kämpfer 16)" supports="Improvement Option,Kaempfer,16" level="16" />
+      <select type="Class Feature" name="Attributswerterhöhung (Kämpfer 19)" supports="Improvement Option,Kaempfer,19" level="19" />
+    </rules>
+  </element>
+  <element name="Zusätzlicher Angriff" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK">
+    <description>
+      <p>Beginnend mit der 5. Stufe kannst du zweimal anstatt einmal angreifen, wenn du eine Angriffsaktion in deinem Zug ausführst. Die Anzahl der Angriffe steigt auf drei, sobald du die 11. Stufe als Kämpfer erreichst, und auf vier bei Stufe 20.</p>
+    </description>
+    <sheet>
+      <description level="5">Du kannst zweimal anstatt einmal angreifen, wenn du eine Angriffsaktion in deinem Zug ausführst.</description>
+      <description level="11">Du kannst dreimal anstatt einmal angreifen, wenn du eine Angriffsaktion in deinem Zug ausführst.</description>
+      <description level="20">Du kannst viermal anstatt einmal angreifen, wenn du eine Angriffsaktion in deinem Zug ausführst.</description>
+    </sheet>
+    <rules>
+		  <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		  <stat name="extra attack:count" value="3" level="11" bonus="extra attack" />
+		  <stat name="extra attack:count" value="4" level="20" bonus="extra attack" />
+  	</rules>
+  </element>
+  <element name="Unbeugsamkeit" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_INDOMITABLE">
+    <description>
+      <p>Angefangen mit der 9. Stufe kannst du einen Rettungswurf, der dir misslingt, wiederholen. Falls du dies tust, musst du das neue Ergebnis verwenden.</p>
+      <p class="indent">Nach ihrem Einsatz steht dir die Fähigkeit erst nach einer langen Rast wieder zur Verfügung. Auf Stufe 13 kannst du dieses Merkmal zweimal einsetzen, bevor eine Rast nötig ist, mit Stufe 17 sogar dreimal.</p>
+    </description>
+    <sheet usage="{{imdomitable:usages}}/Lange Rast">
+      <description>Du kannst einen Rettungswurf, der dir misslingt, wiederholen. Du musst das neue Ergebnis verwenden.</description>
+    </sheet>
+    <rules>
+		<stat name="imdomitable:usages" value="1" level="9" />
+		<stat name="imdomitable:usages" value="1" level="13" />
+		<stat name="imdomitable:usages" value="1" level="17" />
+	</rules>
+  </element>
+  <!-- Fighting Styles -->
+  <element name="Bogenschießen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY">
+    <supports>Fighting Style, Fighter, Ranger</supports>
+    <description>
+      <p>YDu erhältst einen Bonus von +2 auf alle Angriffswürfe mit Fernkampfwaffen.</p>
+    </description>
+    <sheet>
+      <description>Du erhältst einen Bonus von +2 auf alle Angriffswürfe mit Fernkampfwaffen.</description>
+    </sheet>
+    <rules>
+      <stat name="ranged:attack" value="2" />
+    </rules>
+  </element>
+  <element name="Verteidigung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
+    <supports>Fighting Style, Fighter, Paladin, Ranger</supports>
+    <description>
+      <p>Solange du eine Rüstung trägst, erhältst du einen Bonus von +1 auf deine Rüstungsklasse.</p>
+    </description>
+    <sheet>
+      <description>Solange du eine Rüstung trägst, erhältst du einen Bonus von +1 auf deine RK.</description>
+    </sheet>
+    <rules>
+      <stat name="ac:misc" value="1" bonus="fighting style" equipped="[armor:any]" alt="Verteidigung (Kampfstil)" />
+    </rules>
+  </element>
+  <element name="Duellieren" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
+    <supports>Fighting Style, Fighter, Paladin, Ranger</supports>
+    <description>
+      <p>Kämpfst du nur mit einer einhändig geführten Nahkampfwaffe und keiner Waffe in der anderen Hand, erhältst du einen Bonus von +2 auf die Schadenswürfe mit dieser Waffe.</p>
+    </description>
+    <sheet>
+      <description>Kämpfst du nur mit einer einhändig geführten Nahkampfwaffe und keiner Waffe in der anderen Hand, erhältst du einen Bonus von +2 auf die Schadenswürfe mit dieser Waffe.</description>
+    </sheet>
+    <rules>
+      <!-- <stat name="melee:damage" value="2" equipped="[primary:any],([secondary:none]||[shield:any])" /> -->
+    </rules>
+  </element>
+  <element name="Kampf mit grossen Waffen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
+    <supports>Fighting Style, Fighter, Paladin</supports>
+    <description>
+      <p>Greifst du mit einer beidhändig geführten Nahkampfwaffe an und würfelst bei deinem Schadenswurf eine 1 oder 2, darfst du den entsprechenden Schadenswürfel erneut würfeln. Das zweite Ergebnis musst du verwenden, auch wenn es wieder eine 1 oder 2 sein sollte. Die Waffe muss die Waffeneigenschaft zweihändig oder vielseitig besitzen, um diesen Vorzug zu gewähren.</p>
+    </description>
+    <sheet>
+      <description>Greifst du mit einer beidhändig geführten Nahkampfwaffe an und würfelst bei deinem Schadenswurf eine 1 oder 2, darfst du den entsprechenden Schadenswürfel erneut würfeln. Das zweite Ergebnis musst du verwenden, auch wenn es wieder eine 1 oder 2 sein sollte. Die Waffe muss die Waffeneigenschaft zweihändig oder vielseitig besitzen, um diesen Vorzug zu gewähren.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Leibwache" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION">
+    <supports>Fighting Style, Fighter, Paladin</supports>
+    <description>
+      <p>Führt eine Kreatur, die du sehen kannst, einen Angriff auf eine bis zu 1,50 m von dir entfernt stehende Kreatur aus (die nicht du selbst bist), kannst du deine Reaktion verwenden, damit der Angreifer bei seinem Wurf im Nachteil ist. Du musst dafür einen Schild tragen.</p>
+    </description>
+    <sheet action="Reaktion">
+      <description>Führt eine Kreatur, die du sehen kannst, einen Angriff auf eine bis zu 1,50 m von dir entfernt stehende Kreatur aus, kannst du dein Schild verwenden damit der Angreifer bei seinem Wurf im Nachteil ist.</description>
+    </sheet>
+  </element>
+  <element name="Kampf mit zwei Waffen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
+    <supports>Fighting Style, Fighter, Ranger</supports>
+    <description>
+      <p>Wenn du mit zwei Waffen angreifst, kannst du den passenden Attributsmodifikator zum Schaden der zweiten Waffe addieren.</p>
+    </description>
+    <sheet>
+      <description>Wenn du mit zwei Waffen angreifst, kannst du den passenden Attributsmodifikator zum Schaden der zweiten Waffe addieren.</description>
+    </sheet>
+  </element>
+  <!-- Champion Archetype -->
+  <element name="Champion" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_CHAMPION">
+    <supports>Martial Archetype</supports>
+    <description>
+      <p>Der archetypische Champion konzentriert sich auf die Entwicklung seiner rohen körperlichen Kraft bis hin zur tödlichen Perfektion, um im Kampf vernichtende Schläge auszuteilen.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_IMPROVEDCRITICAL"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_REMARKABLEATHLETE"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ADDITIONALFIGHTINGSTYLE"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_SUPERIORCRITICAL"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_SURVIVOR"/>
+    </description>
+		<sheet display="false">
+      <description>Der archetypische Champion konzentriert sich auf die Entwicklung seiner rohen körperlichen Kraft bis hin zur tödlichen Perfektion.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_IMPROVEDCRITICAL" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_REMARKABLEATHLETE" level="7"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ADDITIONALFIGHTINGSTYLE" level="10"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_SUPERIORCRITICAL" level="15"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_SURVIVOR" level="18"/>
+    </rules>
+  </element>
+  <element name="Verbesserte kritische Treffer" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_IMPROVEDCRITICAL">
+    <description>
+      <p>Mit der Wahl für diesen Archetyp auf Stufe 3 verursacht deine Waffe bei einem Würfelergebnis von 19 oder 20 kritische Treffer.</p>
+    </description>
+    <sheet>
+      <description>Deine Waffe verursacht bei einem Würfelergebnis von 19 oder 20 kritische Treffer.</description>
+    </sheet>
+  </element>
+  <element name="Bemerkenswerter Athlet" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_REMARKABLEATHLETE">
+    <description>
+      <p>Beginnend mit Stufe 7 kannst du die Hälfte (aufgerundet) deines Übungsbonus auf jeden Stärke-, Geschicklichkeits- oder Konstitutionswurf addieren, den du ablegst — außer der Übungsbonus wurde bereits miteinbezogen. Zusätzlich erhöht sich die Länge deiner Weitsprünge mit Anlauf um 30 cm pro Punkt deines Stärkemodifikators.</p>
+    </description>
+    <sheet>
+      <description>Die Länge deiner Weitsprünge mit Anlauf erhöht sich um 30 cm pro Punkt deines Stärkemodifikators. ({{strength:modifier}} Fuß)</description>
+    </sheet>
+    <rules>
+      <stat name="acrobatics:misc" value="proficiency:half:up" requirements="!ID_PROFICIENCY_SKILL_ACROBATICS" />
+      <stat name="athletics:misc" value="proficiency:half:up" requirements="!ID_PROFICIENCY_SKILL_ATHLETICS" />
+      <stat name="sleight of hand:misc" value="proficiency:half:up" requirements="!ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+      <stat name="stealth:misc" value="proficiency:half:up" requirements="!ID_PROFICIENCY_SKILL_STEALTH" />
+    </rules>
+  </element>
+  <element name="Weiterer Kampfstil" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ADDITIONALFIGHTINGSTYLE">
+    <description>
+      <p>Auf Stufe 10 darfst du dir einen zweiten Kampfstil aus der Liste des gleichnamigen Merkmals aussuchen.</p>
+    </description>
+    <sheet>
+      <description>Du hast einen zweiten Kampfstil erlernt.</description>
+    </sheet>
+    <rules>
+      <select type="Class Feature" name="Weiterer Kampfstil" supports="Fighting Style" level="10"/>
+    </rules>
+  </element>
+  <element name="Überlegener kritischer Treffer" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_SUPERIORCRITICAL">
+    <description>
+      <p>Ab der 15. Stufe erzielst du mit deiner Waffe bei einem Würfelergebnis von 18, 19 oder 20 einen kritischen Treffer.</p>
+    </description>
+    <sheet>
+      <description>Deine Waffe erzielt bei einem Würfelergebnis von 18, 19 oder 20 einen kritischen Treffer.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Der Überlebende" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_SURVIVOR">
+    <description>
+      <p>Mit der 18. Stufe erklimmst du den Gipfel körperlicher Zähigkeit im Kampf. Zu Beginn jedes deiner Züge gewinnst du Trefferpunkte in Höhe von 5 + deinem Konstitutionsmodifikator zurück, falls du nicht mehr als die Hälfte deiner Trefferpunkte übrig hast. Diesen Vorzug erhältst du nicht, wenn du nur noch über 0 Trefferpunkte verfügst.</p>
+    </description>
+    <sheet>
+      <description>Zu Beginn jedes deiner Züge gewinnst du {{survivor:hp}} Trefferpunkte zurück, falls du nicht mehr als die Hälfte deiner Trefferpunkte übrig hast. Diesen Vorzug erhältst du nicht, wenn du nur noch über 0 Trefferpunkte verfügst.</description>
+    </sheet>
+    <rules>
+      <stat name="survivor:hp" value="5" />
+      <stat name="survivor:hp" value="constitution:modifier" />
+    </rules>
+  </element>
+  <!-- Battle Master Archetype -->
+  <element name="Kampfmeister" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FIGHTER_BATTLE_MASTER">
+    <supports>Martial Archetype</supports>
+    <description>
+      <p>Die gelehrten Krieger, die den Archetyp des Kampfmeisters verkörpern, wenden im Gefecht Techniken an, die über Generationen hinweg weitergegeben wurden. Für einen Kampfmeister stellt die Schlacht einen Bereich der akademischen Lehre dar, die manchmal auch das Studium der Waffenschmiedekunst und der Kalligraphie beinhaltet. Nicht jeder Kämpfer nimmt sämtliche Lehrstunden in Geschichte, Theorie und Handwerkskunst, die den Archetyp eines Kampfmeisters ausmachen, in sich auf. Doch jene, denen das gelingt, werden zu vielseitigen Kämpfern mit großem Wissen und hervorragenden Fertigkeiten.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_COMBAT_SUPERIORITY"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_STUDENT_OF_WAR"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_KNOW_YOUR_ENEMY"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_IMPROVED_COMBAT_SUPERIORITY"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_RELENTLESS"/>
+    </description>
+    <sheet display="false">
+      <description>Die gelehrten Krieger, die den Archetyp des Kampfmeisters verkörpern, wenden im Gefecht Techniken an, die über Generationen hinweg weitergegeben wurden.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_COMBAT_SUPERIORITY" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_STUDENT_OF_WAR" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_KNOW_YOUR_ENEMY" level="7"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_IMPROVED_COMBAT_SUPERIORITY" level="10"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_RELENTLESS" level="15"/>
+    </rules>
+  </element>
+  <element name="Kampfüberlegenheit" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_COMBAT_SUPERIORITY">
+    <description>
+      <p>Bei der Wahl dieses Archetyps auf der 3. Stufe lernst du Manöver, für die du eine spezielle Art von Würfeln benötigst: die Überlegenheitswürfel.</p>
+        <p class="indent"><strong><em>Manöver:</em></strong> Du erlernst drei Manöver deiner Wahl. Alle Manöver findest du weiter unten näher beschrieben. Viele verbessern auf die eine oder andere Weise deinen Angriff. Du kannst pro Angriffsaktion nur ein Manöver einsetzen. Auf den Stufen 7, 10 und 15 lernst du jeweils zwei weitere Manöver deiner Wahl. Jedes Mal, wenn du neue Manöver lernst, kannst du zusätzlich auch ein altes, das du bereits kennst, durch ein anderes ersetzen.</p>
+        <p class="indent"><strong><em>Überlegenheitswürfel:</em></strong> Du besitzt vier Überlegenheitswürfel, die W8 sind. Benutzt du einen Überlegenheitswürfel im Rahmen eines Manövers wird er verbraucht. Du erhältst alle verbrauchten Überlegenheitswürfel nach Beenden einer kurzen oder langen Rast zurück. Auf Stufe 7 und 15 erhältst du je einen weiteren Überlegenheitswürfel.</p>
+        <p class="indent"><strong><em>Rettungswürfe:</em></strong> Manche deiner Manöver erfordern von deinem Ziel einen Rettungswurf, um den Auswirkungen des Manövers zu widerstehen. Der Schwierigkeitsgrad des Rettungswurfs wird folgendermaßen berechnet:</p>
+        <center>
+  				<p><strong>SG für Rettungswürfe</strong> = 8 + dein Übungsbonus + dein Stärke- oder Geschicklichkeitsmodifikator (nach Wahl)</p>
+  			</center>
+    </description>
+    <sheet usage="{{superiority dice:amount}}/Kurze Rast">
+      <description>Du lernst du Manöver, für die du eine spezielle Art von Würfeln benötigst: die Überlegenheitswürfel. Du hast {{superiority dice:amount}} Überlegenheitswürfel. SG für Rettungswürfe ist {{superiority dice:dc}}.</description>
+    </sheet>
+    <rules>
+      <stat name="superiority dice:amount" value="4" />
+      <stat name="superiority dice:amount" value="1" level="7" />
+      <stat name="superiority dice:amount" value="1" level="15" />
+      <stat name="superiority dice:size" value="8" bonus="size"/>
+      <stat name="superiority dice:dc" value="8" />
+      <stat name="superiority dice:dc" value="proficiency" />
+      <!-- create selection option -->
+      <stat name="superiority dice:dc:ability" value="strength:modifier" bonus="ability"/>
+      <stat name="superiority dice:dc:ability" value="dexterity:modifier" bonus="ability"/>
+      <stat name="superiority dice:dc" value="superiority dice:dc:ability" />
+      <select type="Archetype Feature" name="Kampfüberlegenheit (Level 3)" supports="Maneuver,Battle Master" number="3" />
+      <select type="Archetype Feature" name="Kampfüberlegenheit (Level 7)" supports="Maneuver,Battle Master" number="2" level="7" />
+      <select type="Archetype Feature" name="Kampfüberlegenheit (Level 10)" supports="Maneuver,Battle Master" number="2" level="10" />
+      <select type="Archetype Feature" name="Kampfüberlegenheit (Level 15)" supports="Maneuver,Battle Master" number="2" level="15" />
+    </rules>
+  </element>
+  <element name="Schüler des Krieges" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_STUDENT_OF_WAR">
+    <description>
+      <p>Auf der 3. Stufe wirst du geübt in der Anwendung eines Handwerkzeugs deiner Wahl.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Proficiency" name="Schüler des Krieges" supports="Artisan tools" />
+    </rules>
+  </element>
+  <element name="Kenne deinen Feind" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_KNOW_YOUR_ENEMY">
+    <description>
+      <p>Ab der 7. Stufe kannst du, wenn du für mindestens 1 Minute einen Feind außerhalb des Kampfes beobachtest oder mit ihm interagierst, bestimmte Informationen über seine Fähigkeiten im Vergleich zu deinen erfahren. Der SL sagt dir, ob du gleichwertig, überlegen oder unterlegen in Bezug auf zwei der folgenden Charakteristika deiner Wahl bist:</p>
+      <ul>
+        <li>Stärkewert</li>
+        <li>Geschicklichkeitswert</li>
+        <li>Konstitutionswert</li>
+        <li>Rüstungsklasse</li>
+        <li>aktuelle Trefferpunkte</li>
+        <li>Gesamtzahl der Klassenstufen (falls vorhanden)</li>
+        <li>Klassenstufen als Kämpfer (falls vorhanden)</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>Beobachte für mindestens 1 Minute einen Feind außerhalb des Kampfes oder interagiere mit ihm, und du erfährst Informationen über seine Fähigkeiten im Vergleich zu deinen.</description>
+    </sheet>
+  </element>
+  <element name="Verbesserte Kampfüberlegenheit" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_IMPROVED_COMBAT_SUPERIORITY">
+    <description>
+      <p>Auf Stufe 10 werden deine Überlegenheitswürfel zu W10. Ab der 18. Stufe werden sie zu W12.</p>
+    </description>
+    <sheet display="false">
+      <description>Deine Überlegenheitswürfel sind jetzt W10.</description>
+      <description level="18">Deine Überlegenheitswürfel sind jetzt W12.</description>
+    </sheet>
+    <rules>
+      <stat name="superiority dice:size" value="10" level="10" bonus="size"/>
+      <stat name="superiority dice:size" value="12" level="18" bonus="size"/>
+    </rules>
+  </element>
+  <element name="Unermüdlich" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BATTLE_MASTER_RELENTLESS">
+    <description>
+      <p>Hast du nach dem Erreichen der 15. Stufe beim Auswürfeln deiner Initiative keine Überlegenheitswürfel mehr zur Verfügung, erhältst du einen Überlegenheitswürfel zurück.</p>
+    </description>
+    <sheet>
+      <description>Wenn du beim Auswürfeln deiner Initiative keine Überlegenheitswürfel mehr zur Verfügung hast, erhältst du einen Überlegenheitswürfel zurück.</description>
+    </sheet>
+  </element>
+  <!-- Combat Maneuvers -->
+  <element name="Schlag des Befehlshabers" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_COMMANDERS_STRIKE">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn du in deinem Zug die Angriffsaktion wählst, kannst du auf einen deiner Angriffe verzichten und eine Bonusaktion verwenden, um einen Kameraden zum Ausfall zu motivieren. Wähle eine verbündete Kreatur aus, die dich sehen oder hören kann, und wende einen Überlegenheitswürfel auf. Die Kreatur kann sofort ihre Reaktion verwenden, um einen Waffenangriff auszuführen, bei dem das Ergebnis des Überlegenheitswürfels auf den Schadenswurf addiert wird.</p>
+    </description>
+    <sheet action="Bonusaktion" usage="Überlegenheitswürfel">
+      <description>Wenn du in deinem Zug die Angriffsaktion wählst, kannst du auf einen deiner Angriffe verzichten, um einen Kameraden zum Ausfall zu motivieren. Wähle eine verbündete Kreatur aus, die dich sehen oder hören kann. Die Kreatur kann sofort ihre Reaktion verwenden, um einen Waffenangriff auszuführen, auf den Schadenswurf wird 1W{{superiority dice:size}} addiert.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Entwaffnender Angriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_DISARMING_ATTACK">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen Überlegenheitswürfel für den Versuch aufwenden, das Ziel zu entwaffnen. Addiere das Ergebnis des Überlegenheitswürfels zum Schadenswurf. Zusätzlich muss das Ziel einen Stärkerettungswurf ablegen. Bei einem Misserfolg lässt dein Gegner einen Gegenstand, den du bestimmen darfst, aus der Hand fallen. Das Objekt landet zu dessen Füßen.</p>
+    </description>
+    <sheet usage="Überlegenheitswürfel">
+      <description>Wenn du eine Kreatur mit einem Waffenangriff triffst addiere 1W{{superiority dice:size}} zum Schaden. Das Ziel muss einen Stärkerettungswurf ablegen (SG {{superiority dice:dc}}). Bei einem Misserfolg lässt dein Gegner einen Gegenstand, den du bestimmen darfst, aus der Hand fallen. Das Objekt landet zu dessen Füßen.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Ablenkender Schlag" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_DISTRACTING_STRIKE">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen Überlegenheitswürfel aufwenden, um deinen Gegner abzulenken und deinen Verbündeten eine Angriffsfläche zu verschaffen. Addiere das Ergebnis des Überlegenheitswürfels zum Schadenswurf. Der nächste Angriffswurf gegen das Ziel von einem anderen Angreifer als dir selbst ist im Vorteil, falls die entsprechende Aktion vor Beginn deines nächsten Zuges ausgeführt wird.</p>
+    </description>
+    <sheet usage="Überlegenheitswürfel">
+      <description>Wenn du eine Kreatur mit einem Waffenangriff triffst addiere 1W{{superiority dice:size}} zum Schaden. Der nächste Angriffswurf gegen das Ziel von einem anderen Angreifer als dir selbst ist im Vorteil, falls die entsprechende Aktion vor Beginn deines nächsten Zuges ausgeführt wird.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Tänzelnde Beinarbeit" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_EVASIVE_FOOTWORK">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn du dich bewegst, kannst du einen Überlegenheitswürfel aufwenden, um dessen Ergebnis für die Dauer dieser Bewegung deiner Rüstungsklasse hinzuzufügen.</p>
+    </description>
+    <sheet usage="Überlegenheitswürfel">
+      <description>Wenn du dich bewegst, erhälst du für die Dauer dieser Bewegung 1W{{superiority dice:size}} auf deine Rüstungsklasse.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Finte" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_FEINTING_ATTACK">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Du kannst in deinem Zug einen Überlegenheitswürfel und eine Bonusaktion aufwenden, um eine Finte zu schlagen. Bestimme eine Kreatur innerhalb einer Reichweite von 1,50 m als Ziel. In diesem Zug bist du bei deinem nächsten Angriff gegen diese Kreatur im Vorteil. Wenn der Angriff trifft, addiere das Ergebnis des Überlegenheitswüfels zum Schadenwurf.</p>
+    </description>
+    <sheet action="Bonusaktion" usage="Überlegenheitswürfel">
+      <description>Bestimme eine Kreatur innerhalb einer Reichweite von 1,50 m als Ziel. In diesem Zug bist du bei deinem nächsten Angriff gegen diese Kreatur im Vorteil. Wenn der Angriff trifft, addiere 1W{{superiority dice:size}} zum Schadenwurf.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Provozierender Angriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_GOADING_ATTACK">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen Überlegenheitswürfel aufwenden, um das Ziel zu einer Attacke gegen dich zu verleiten. Addiere das Ergebnis des Überlegenheitswürfels zum Schadenswurf. Zusätzlich muss das Ziel einen Weisheitsrettungswurf ablegen. Bei einem Misserfolg ist das Ziel bis zum Ende deines nächsten Zuges bei allen Angriffswürfen, die nicht dir gelten, im Nachteil.</p>
+    </description>
+    <sheet usage="Überlegenheitswürfel">
+      <description>Wenn du eine Kreatur mit einem Waffenangriff triffst addiere 1W{{superiority dice:size}} zum Schaden, zusätzlich muss Ziel einen Weisheitsrettungswurf ablegen (SG {{superiority dice:dc}}). Bei einem Misserfolg ist das Ziel bis zum Ende deines nächsten Zuges bei allen Angriffswürfen, die nicht dir gelten, im Nachteil.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Ausfallschritt" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_LUNGING_ATTACK">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Du kannst einen Überlegenheitswürfel aufwenden, um einem Nahkampf-Waffenangriff in deinem Zug 1,50 m mehr Reichweite zu verleihen. Wenn du triffst, zählst du das Ergebnis des Überlegenheitswürfels zum Schadenswurf hinzu.</p>
+    </description>
+    <sheet usage="Überlegenheitswürfel">
+      <description>Du kannst einem Nahkampf-Waffenangriff in deinem Zug 1,50 m mehr Reichweite verleihen. Wenn du triffst, addiere 1W{{superiority dice:size}} zum Schadenswurf.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Manövrierender Angriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_MANEUVERING_ATTACK">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen Überlegenheitswürfel aufwenden, um einen deiner Verbündeten in eine vorteilhaftere Position zu bringen. Addiere das Ergebnis des Überlegenheitswürfels zum Schadenswurf und wähle eine verbündete Kreatur aus, die dich hören oder sehen kann. Diese Kreatur kann ihre Reaktion nutzen, um sich die Hälfte ihrer Bewegungsrate zu bewegen, ohne Gelegenheitsangriffe durch das Ziel deines Angriffs auszulösen.</p>
+    </description>
+    <sheet usage="Überlegenheitswürfel">
+      <description>Wenn du eine Kreatur mit einem Waffenangriff triffst addiere 1W{{superiority dice:size}} zum Schaden. Wähle eine verbündete Kreatur aus, die dich hören oder sehen kann. Diese Kreatur kann ihre Reaktion nutzen, um sich die Hälfte ihrer Bewegungsrate zu bewegen, ohne Gelegenheitsangriffe durch das Ziel deines Angriffs auszulösen.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Bedrohlicher Angriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_MENACING_ATTACK">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen Überlegenheitswürfel für den Versuch aufwenden, das Ziel zu verängstigen. Addiere das Ergebnis des Überlegenheitswürfels zum Schadenswurf. Zusätzlich muss das Ziel des Angriffs einen Weisheitsrettungswurf ablegen. Bei einem Misserfolg ist dein Gegner bis zum Ende deines nächsten Zuges von dir verängstigt.</p>
+    </description>
+    <sheet usage="Überlegenheitswürfel">
+      <description>Wenn du eine Kreatur mit einem Waffenangriff triffst addiere 1W{{superiority dice:size}} zum Schaden, zusätzlich muss dieser Gegner einen Weisheitsrettungswurf ablegen (SG {{superiority dice:dc}}). Bei einem Misserfolg ist dein Gegner bis zum Ende deines nächsten Zuges von dir verängstigt.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Parieren" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_PARRY">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn eine andere Kreatur dir Schaden mit einem Waffenangriff zufügt, kannst du einen Überlegenheitswürfel und deine Reaktion aufwenden, um den Schaden zu reduzieren. Senke den Schaden um das Ergebnis des Überlegenheitswürfels + deinen Geschicklichkeitsmodifikator.</p>
+    </description>
+    <sheet action="Reaktion" usage="Überlegenheitswürfel">
+      <description>Wenn eine andere Kreatur dir Schaden mit einem Waffenangriff zufügt, kannst du den Schaden um 1W{{superiority dice:size}}+{{dexterity:modifier}} senken.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Präzisionsangriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_PRECISION_ATTACK">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn du einen Waffenangriff gegen eine Kreatur ausführst, kannst du einen Überlegenheitswürfel aufwenden, um dessen Ergebnis zum Angriffswurf zu addieren. Du kannst dieses Manöver vor oder nach dem Angriffswurf ausführen, musst es jedoch bevor die Auswirkungen des Angriffs angewendet werden.</p>
+    </description>
+    <sheet usage="Überlegenheitswürfel">
+      <description>Wenn du einen Waffenangriff gegen eine Kreatur ausführst, kannst du 1W{{superiority dice:size}} zum Angriffswurf addieren. Du kannst dieses Manöver vor oder nach dem Angriffswurf ausführen, musst es jedoch bevor die Auswirkungen des Angriffs angewendet werden.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Stoßangriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_PUSHING_ATTACK">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen Überlegenheitswürfel aufwenden, um das Ziel zurückzudrängen. Addiere das Ergebnis des Überlegenheitswürfels zum Schadenswurf. Zusätzlich muss das Ziel, falls es die Größenkategorie groß oder kleiner besitzt, einen Stärkerettungswurf ablegen. Sollte der Rettungswurf misslingen, stößt du das Ziel bis zu 4,50 m von dir weg.</p>
+    </description>
+    <sheet usage="Überlegenheitswürfel">
+      <description>Wenn du eine Kreatur mit einem Waffenangriff triffst addiere 1W{{superiority dice:size}} zum Schaden, zusätzlich muss das Ziel, falls es die Größenkategorie groß oder kleiner besitzt, einen Stärkerettungswurf ablegen. Sollte der Rettungswurf misslingen, stößt du das Ziel bis zu 4,50 m von dir weg.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Sammeln" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_RALLY">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>In deinem Zug kannst du einen Überlegenheitswürfel und eine Bonusaktion aufwenden, um die Entschlossenheit eines Kameraden zu verstärken. Wähle eine verbündete Kreatur aus, die dich sehen oder hören kann. Diese Kreatur erhält temporäre Trefferpunkte in Höhe des Ergebnisses des Überlegenheitswürfels + deines Charismamodifikators.</p>
+    </description>
+    <sheet action="Bonusaktion" usage="Überlegenheitswürfel">
+      <description>Wähle eine verbündete Kreatur aus, die dich sehen oder hören kann. Diese Kreatur erhält 1W{{superiority dice:size}}+{{charisma:modifier}} temporäre Trefferpunkte.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Riposte" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_RIPOSTE">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn eine Kreatur dich mit einem Nahkampf-Waffenangriff verfehlt, kannst du einen Überlegenheitswürfel und deine Reaktion aufwenden, um einen Nahkampf-Waffenangriff gegen die Kreatur auszuführen. Triffst du, addiere das Ergebnis des Überlegenheitswürfels zum Schadenswurf.</p>
+    </description>
+    <sheet action="Reaktion" usage="Überlegenheitswürfel">
+      <description>Wenn eine Kreatur dich mit einem Nahkampf-Waffenangriff verfehlt, kannst du einen Nahkampf-Waffenangriff gegen die Kreatur ausführen. Triffst du, addiere 1W{{superiority dice:size}} zum Schadenswurf.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Doppelschlag" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_SWEEPING_ATTACK">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn du eine Kreatur mit einem Nahkampf-Waffenangriff triffst, kannst du einen Überlegenheitswürfe aufwenden, um mit demselben Schlag eine zweite Kreatur zu treffen. Bestimme eine andere Kreatur innerhalb von 1,50 m um das ursprüngliche Ziel und innerhalb deiner Reichweite. Falls der ursprüngliche Angriffswurf auch beim zweiten Ziel ein Treffer wäre, erleidet es einen Schaden, der dem Ergebnis des Überlegenheitswürfels entspricht. Die Schadensart ist die gleiche wie bei deinem ursprünglichen Angriff.</p>
+    </description>
+    <sheet usage="Überlegenheitswürfel">
+      <description>Wenn du eine Kreatur mit einem Nahkampf-Waffenangriff triffst, kannst du mit demselben Schlag eine zweite Kreatur treffen. Bestimme eine andere Kreatur innerhalb von 1,50 m um das ursprüngliche Ziel und innerhalb deiner Reichweite. Falls der ursprüngliche Angriffswurf auch beim zweiten Ziel ein Treffer wäre, erleidet es 1W{{superiority dice:size}} Schaden. Die Schadensart ist die gleiche wie bei deinem ursprünglichen Angriff.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Fällender Angriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_MANEUVER_TRIP_ATTACK">
+    <supports>Maneuver, Battle Master</supports>
+    <description>
+      <p>Wenn du eine Kreatur mit einem Waffenangriff triffst, kannst du einen Überlegenheitswürfel für den Versuch aufwenden, das Ziel zu Fall zu bringen. Addiere das Ergebnis des Überlegenheitswürfels zum Schadenswurf. Zusätzlich muss das Ziel, falls es die Größenkategorie groß oder kleiner besitzt, einen Stärkerettungswurf ablegen. Misslingt der Rettungswurf, wird das Ziel zu Boden geworfen und erhält den Zustand liegend.</p>
+    </description>
+    <sheet usage="Überlegenheitswürfel">
+      <description>Wenn du eine Kreatur mit einem Waffenangriff triffst addiere 1W{{superiority dice:size}} zum Schaden, zusätzlich muss das Ziel, falls es die Größenkategorie groß oder kleiner besitzt, einen Stärkerettungswurf ablegen (SG {{superiority dice:dc}}). Misslingt der Rettungswurf, wird das Ziel zu Boden geworfen.</description>
+    </sheet>
+    <rules />
+  </element>
+  <!-- Eldritch Knight Archetype -->
+  <element name="Mystischer Ritter" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FIGHTER_ELDRITCH_KNIGHT">
+    <supports>Martial Archetype</supports>
+    <description>
+      <p>Der archetypische Mystische Ritter kombiniert die meisterhafte Kriegskunst, die allen Kämpfern zu eigen ist, mit einem sorgfältigen Studium der Magie. Mystische Ritter wenden ähnliche magische Techniken an wie diejenigen, die von Magiern eingesetzt werden. Sie konzentrieren ihre Studien auf zwei der acht Schulen der Magie: Bannmagie und Hervorrufungen. Bannmagie verschafft dem Mystischen Ritter zusätzlichen Schutz im Kampf und Hervorrufungszauber verursachen bei vielen Feinden gleichzeitig Schaden, was die Effektivität des Kämpfers in der Schlacht erhöht. Diese Ritter lernen vergleichsweise wenige Zaubersprüche, die sie jedoch allein ihrem Erinnerungsvermögen anvertrauen, anstatt sie in einem Zauberbuch festzuhalten.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_SPELLCASTING"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_WEAPON_BOND"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_WAR_MAGIC"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_ELDRITCH_STRIKE"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_ARCANE_CHARGE"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC"/>
+    </description>
+    <sheet display="false">
+      <description>Der archetypische Mystische Ritter kombiniert die meisterhafte Kriegskunst, die allen Kämpfern zu eigen ist, mit einem sorgfältigen Studium der Magie.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_SPELLCASTING" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_WEAPON_BOND" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_WAR_MAGIC" level="7"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_ELDRITCH_STRIKE" level="10"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_ARCANE_CHARGE" level="15"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC" level="18"/>
+    </rules>
+  </element>
+  <element name="Zauberwirken" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_SPELLCASTING">
+    <description>
+      <p>Mit Erreichen der 3. Stufe verstärkst du deine Kampfkraft um die Fähigkeit, Zaubersprüche entfesseln zu können. In Kapitel 10 „Zauber wirken" findest du die allgemeinen Regeln für das Wirken von Zaubern und in Kapitel 11 „Zauber" die Zauberliste des Magiers.</p>
+      <p class="indent"><strong><em>Zaubertricks:</em></strong> Dir sind zwei Zaubertricks deiner Wahl aus der Zauberliste des Magiers bekannt. Auf der 10. Stufe lernst du einen weiteren Magierzaubertrick deiner Wahl.</p>
+      <p class="indent"><strong><em>Zauberplätze:</em></strong> Die Zaubertabelle des Mystischen Ritters gibt an, wie viele Zauberplätze dir auf jeder Stufe ab der 3. zur Verfügung stehen und welchen Grad diese haben.</p>
+      <p class="indent">Um einen dir bekannten Spruch zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung.</p>
+      <p class="indent">Ist dir beispielsweise der Zauberspruch Schild des 1. Grades bekannt und verfügst du über einen Zauberplatz des 1. und einen des 2. Grades, kannst du jeden der beiden Zauberplätze verwenden, um Schild zu wirken.</p>
+      <p class="indent"><strong><em>Bekannte Zauber des 1. Grades und höher:</em></strong> Du kennst drei Magierzauber des 1. Grades, von denen zwei aus den Schulen der Bannmagie oder der Hervorrufungen stammen müssen.</p>
+      <p class="indent">Der Spalte „Bekannte Zauber" der Tabelle kannst du entnehmen, wie viele neue Sprüche du dir bei einem Stufenaufstieg aus der Zauberliste des Magiers aussuchen darfst. Jeder dieser Zauber muss ein Bannzauber oder ein Hervorrufungszauber sein und einem Grad entsprechen, für den du auch Zauberplätze besitzt. Erreichst du zum Beispiel die 7. Stufe als Mystischer Ritter, darfst du einen neuen Zauber des 1. oder 2. Grades erlernen.</p>
+      <p class="indent">Die Zauber, die du auf den Stufen 8, 14 und 20 lernst, können jeder beliebigen Schule angehören.</p>
+      <p class="indent">Sobald du eine Stufe in dieser Klasse aufsteigst, kannst du außerdem einen der Magierzauber, die dir bereits bekannt sind, mit einem anderen aus der Zauberliste ersetzen. Auch bei diesem muss der Grad deiner Zauberplätze dem Grad des Spruches entsprechen und er muss der Schule der Bannmagie oder der Hervorrufung angehören — außer es handelt sich um die Zauber einer beliebigen Schule, die du auf der 3., 8., 14. und 20. Stufe gelernt hast.</p>
+      <p class="indent"><strong><em>Attribut zum Zauberwirken:</em></strong> Das Attribut, mit dem du deine Zauber wirkst, ist Intelligenz, da du sie durch Studieren und Einprägen erlangst. Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Intelligenz. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Magierzauber bestimmt, ziehst du deinen Intelligenzmodifikator hinzu. Bei Angriffen mit deinen Magierzaubern findet ebenfalls der Intelligenzmodifikator Anwendung.</p>
+      <center>
+        <p><strong>SG für Rettungswürfe</strong> = 8 + dein Übungsbonus + dein Intelligenzmodifikator</p>
+        <p><strong>Modifikator für Zauberangriffe</strong> = dein Übungsbonus + dein Intelligenzmodifikator</p>
+      </center>
+      <h5 class="caption">Zaubertabelle des Mystischen Ritters</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-10">Kämpferstufe</td><td class="col-10">Bekannte Zaubertricks</td><td class="col-10">Bekannte Zaubern</td><td>1.</td><td>2.</td><td>3.</td><td>4.</td></tr>
+        </thead>
+        <tr><td> 3</td><td>2</td><td> 3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 4</td><td>2</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 5</td><td>2</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 6</td><td>2</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 7</td><td>2</td><td> 5</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td> 8</td><td>2</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td> 9</td><td>2</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td>10</td><td>3</td><td> 7</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>11</td><td>3</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>12</td><td>3</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>13</td><td>3</td><td> 9</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>14</td><td>3</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>15</td><td>3</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>16</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+        <tr><td>17</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+        <tr><td>18</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+        <tr><td>19</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+        <tr><td>20</td><td>3</td><td>13</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+      </table>
+    </description>
+		<sheet display="false">
+      <description>Du verstärkst deine Kampfkraft um die Fähigkeit, Zaubersprüche entfesseln zu können.</description>
+    </sheet>
+    <spellcasting name="Mystischer Ritter" ability="Intelligence" prepare="false" allowReplace="true">
+      <list>Wizard,(Abjuration||Evocation)</list>
+    </spellcasting>
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_THIRD" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+      <stat name="eldritch knight:spellcasting:slots:1" value="2" level="3" />
+      <stat name="eldritch knight:spellcasting:slots:1" value="1" level="4" />
+      <stat name="eldritch knight:spellcasting:slots:1" value="1" level="7" />
+      <stat name="eldritch knight:spellcasting:slots:2" value="2" level="7" />
+      <stat name="eldritch knight:spellcasting:slots:2" value="1" level="10" />
+      <stat name="eldritch knight:spellcasting:slots:3" value="2" level="13" />
+      <stat name="eldritch knight:spellcasting:slots:3" value="1" level="16" />
+      <stat name="eldritch knight:spellcasting:slots:4" value="1" level="19" />
+      <select type="Spell" name="Zaubertrick (Mystischer Ritter)" supports="Wizard, 0" level="3" number="2" spellcasting="Mystischer Ritter" />
+      <select type="Spell" name="Zaubertrick (Mystischer Ritter)" supports="Wizard, 0" level="10" number="1" spellcasting="Mystischer Ritter" />
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="($(spellcasting:list)||Wizard), 1" level="3" number="1" spellcasting="Mystischer Ritter" allowReplace="false" />
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="$(spellcasting:list), 1" level="3" number="2" spellcasting="Mystischer Ritter" />
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" spellcasting="Mystischer Ritter"/>
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" spellcasting="Mystischer Ritter"/>
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="(Wizard||$(spellcasting:list)), $(spellcasting:slots)" level="8" spellcasting="Mystischer Ritter"/>
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" spellcasting="Mystischer Ritter"/>
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" spellcasting="Mystischer Ritter"/>
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" spellcasting="Mystischer Ritter"/>
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="(Wizard||$(spellcasting:list)), $(spellcasting:slots)" level="14" spellcasting="Mystischer Ritter"/>
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" spellcasting="Mystischer Ritter"/>
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" spellcasting="Mystischer Ritter"/>
+      <select type="Spell" name="Zauberwirken (Mystischer Ritter)" supports="(Wizard||$(spellcasting:list)), $(spellcasting:slots)" level="20" spellcasting="Mystischer Ritter"/>
+    </rules>
+  </element>
+  <element name="Waffenbindung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_WEAPON_BOND">
+    <description>
+      <p>Auf der 3. Stufe erlernst du ein Ritual, mit dem du einen magischen Bund zwischen dir und einer deiner Waffen herstellen kannst. Das Ritual dauert 1 Stunde und kann im Rahmen einer kurzen Rast vollzogen werden. Die Waffe muss sich während des gesamten Rituals in deiner Nähe befinden, da du sie zum Abschluss berühren musst, um den Bund zu schmieden. Ist eine Waffe erst einmal an dich gebunden, kann sie dir nicht mehr aus der Hand geschlagen werden (etwa durch einen entwaffnenden Angriff), außer du leidest unter dem Zustand kampfunfähig. Befindet sich die Waffe auf derselben Existenzebene wie du, kannst du sie in deinem Zug als Bonusaktion augenblicklich in deine Hand teleportieren. Du kannst bis zu zwei Waffen an dich binden, doch mit der Bonusaktion nur eine zur selben Zeit in deine Hand teleportieren. Wenn du versuchst, eine dritte Waffe an dich zu binden, musst du den Bund mit einer der anderen beiden Waffen aufgeben.</p>
+    </description>
+    <sheet>
+      <description>Du erlernst du ein Ritual, mit dem du einen magischen Bund zwischen dir und einer deiner Waffen herstellen kannst. Das Ritual dauert 1 Stunde und kann im Rahmen einer kurzen Rast vollzogen werden. Die Waffe muss sich während des gesamten Rituals in deiner Nähe befinden, da du sie zum Abschluss berühren musst, um den Bund zu schmieden. Ist eine Waffe erst einmal an dich gebunden, kann sie dir nicht mehr aus der Hand geschlagen werden (etwa durch einen entwaffnenden Angriff), außer du leidest unter dem Zustand kampfunfähig. Befindet sich die Waffe auf derselben Existenzebene wie du, kannst du sie in deinem Zug als Bonusaktion augenblicklich in deine Hand teleportieren. Du kannst bis zu zwei Waffen an dich binden, doch mit der Bonusaktion nur eine zur selben Zeit in deine Hand teleportieren. Wenn du versuchst, eine dritte Waffe an dich zu binden, musst du den Bund mit einer der anderen beiden Waffen aufgeben.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Kriegsmagie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_WAR_MAGIC">
+    <description>
+      <p>Wenn du ab Stufe 7 deine Aktion verwendest, um einen Zaubertrick zu wirken, kannst du zusätzlich einen einzelnen Waffenangriff als Bonusaktion durchführen.</p>
+    </description>
+    <sheet actino="Bonusaktion">
+      <description>Wenn du deine Aktion verwendest, um einen Zaubertrick zu wirken, kannst du zusätzlich einen einzelnen Waffenangriff durchführen.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Mystischer Schlag" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_ELDRITCH_STRIKE">
+    <description>
+      <p>Auf der 10. Stufe lernst du, wie man mit einem Waffenangriff die Resistenz einer Kreatur gegen deine Zaubersprüche umgeht. Wenn du eine Kreatur mit einem Waffenangriff triffst, ist sie im Nachteil bei dem nächsten Rettungswurf, den sie gegen einen deiner Zauber ablegen muss, falls du diesen vor Ende deines nächsten Zuges wirkst.</p>
+    </description>
+    <sheet>
+      <description>Wenn du eine Kreatur mit einem Waffenangriff triffst, ist sie im Nachteil bei dem nächsten Rettungswurf, den sie gegen einen deiner Zauber ablegen muss, falls du diesen vor Ende deines nächsten Zuges wirkst.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Arkaner Sturmangriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_ARCANE_CHARGE">
+    <description>
+      <p>Ab Stufe 15 erhältst du den Vorzug, dich bis zu 9 m an eine freie Stelle teleportieren zu dürfen (die du sehen können musst), sobald du dein Merkmal Tatendrang einsetzt. Du kannst dich vor oder nach der zusätzlichen Aktion teleportieren.</p>
+    </description>
+    <sheet usage="Tatendrang">
+      <description>Du kannst dich bis zu 9 m an eine freie Stelle teleportieren (die du sehen können musst). Du kannst dich vor oder nach der zusätzlichen Aktion teleportieren.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Verbesserte Kriegsmagie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC">
+    <description>
+      <p>Beginnend mit der 18. Stufe kannst du einen Waffenangriff als Bonusaktion ausführen, wenn du als Aktion einen Zauber wirkst.</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Wenn du als Aktion einen Zauber wirkst, kannst du einen Waffenangriff ausführen.</description>
+    </sheet>
+  </element>
+</elements>

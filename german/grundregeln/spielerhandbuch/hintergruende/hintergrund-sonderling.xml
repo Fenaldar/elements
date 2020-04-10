@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Sonderling</name>
+		<description>Der Hintergrund Sonderling aus dem Spielerhandbuch</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.5">
+			<file name="hintergrund-sonderling.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-sonderling.xml" />
+		</update>
+	</info>
+
+	<element name="Sonderling" type="Background" source="Spielerhandbuch" id="ID_BACKGROUND_OUTLANDER">
+		<description>
+			<p>Du bist in der Wildnis aufgewachsen, weit entfernt von der Zivilisation und den Annehmlichkeiten. der Städte und des Fortschritts. Du hast Tierherden bei der Wanderung zugesehen, die größer waren als ganze Wälder, hast Witterungen getrotzt, die extremer waren, als es sich ein Stadtbewohner jemals vorstellen könnte, und hast die Abgeschiedenheit genossen. die man nur erleben kann, wenn man das einzige denkende Wesen im Umkreis von vielen Kilometern ist. Die Wildnis steckt dir im Blut, ob du nun ein Nomade, ein Entdecker, ein Einsiedler, ein Jäger und Sammler oder sogar ein Plünderer warst. Selbst in Regionen, die du nicht genau oder vielleicht gar nicht kennst, kannst du mit deinem Wissen über die Natur überleben.</p>
+			<ul class="unstyled">
+				<li><strong>Geübt in folgenden Fertigkeiten:</strong> Athletik, Überlebenskunst</li>
+				<li><strong>Geübt im Umgang mit folgenden Werkzeugen:</strong> eine Art von Musikinstrument</li>
+				<li><strong>Sprachen:</strong> eine deiner Wahl</li>
+				<li><strong>Ausrüstung:</strong> ein Stab, eine Jagdfalle, die Trophäe eines getöteten Tieres, ein Satz Reisekleidung, ein Beutel mit 10 GM</li>
+			</ul>
+			<h5>BISHERIGES LEBEN</h5>
+			<p>Du warst schon an seltsamen Orten und hast Dinge gesehen, die sich andere nicht einmal vorstellen können. Würfle mit einem W10 oder wähle aus der folgenden Tabelle, um zu bestimmen, auf welche Art du deine Zeit in der Wildnis und auf Reisen verbracht hast.</p>
+			<table>
+				<thead>
+					<tr><td class="col-10">W10</td><td>Bisheriges Leben</td></tr>
+				</thead>
+				<tr><td>1</td><td>Förster</td></tr>
+				<tr><td>2</td><td>Fallensteller</td></tr>
+				<tr><td>3</td><td>Siedler</td></tr>
+				<tr><td>4</td><td>Führer</td></tr>
+				<tr><td>5</td><td>Exilant oder Aussteiger</td></tr>
+				<tr><td>6</td><td>Kopfgeldjäger</td></tr>
+				<tr><td>7</td><td>Pilger</td></tr>
+				<tr><td>8</td><td>Stammesnomade</td></tr>
+				<tr><td>9</td><td>Jäger und Sammler</td></tr>
+				<tr><td>10</td><td>Stammesplünderer</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_WANDERER" />
+			<h5>EMPFOHLENE CHARAKTERISTIKA</h5>
+			<p>Da sie von der zivilisierten Welt oft als grob und ungehobelt wahrgenommen werden, hegen Sonderlinge wenig Respekt für die Annehmlichkeiten des Lebens in der Stadt. Die Bande zu Stamm, Klan, Familie und der natürlichen Welt, deren Teil sie sind, stellen für die meisten Sonderlinge die wichtigsten Bindungen dar.</p>
+		</description>
+		<setters>
+			<set name="short">Athletik, Überlebenskunst, Musikinstrument, Sprache</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_WANDERER" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Merkmalvariante" supports="Optional Background Feature" optional="true" />
+			<select type="Proficiency" name="Musikinstrument (Sonderling)" supports="Musical Instrument" />
+			<select type="Language" name="Sprache (Sonderling)" supports="Standard||Exotic" />
+			<select name="Bisheriges Leben" type="List">
+				<item id="1">Förster</item>
+				<item id="2">Fallensteller</item>
+				<item id="3">Siedler</item>
+				<item id="4">Führer</item>
+				<item id="5">Exilant oder Aussteiger</item>
+				<item id="6">Kopfgeldjäger</item>
+				<item id="7">Pilger</item>
+				<item id="8">Stammesnomade</item>
+				<item id="9">Jäger und Sammler</item>
+				<item id="10">Stammesplünderer</item>
+			</select>
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">Ich werde von der Wanderlust getrieben, die mich mein Zuhause verlassen ließ.</item>
+				<item id="2">Ich wache über meine Freunde, als ob sie ein Wurf neugeborener Welpen wären.</item>
+				<item id="3">Einmal lief ich 40 km ohne eine einzige Pause, um meinen Stamm vor einer nahenden Horde Orks zu warnen. Ich würde es jederzeit wieder tun.</item>
+				<item id="4">Zu jeder Situation kenne ich eine Lektion, die ich aus der Beobachtung der Natur gezogen habe.</item>
+				<item id="5">Ich lege keinen Wert auf Reichtum oder Höflichkeit. Geld und Manieren werden dich nicht vor einem hungrigen Eulenbären beschützen.</item>
+				<item id="6">Ich hebe ständig Dinge auf, spiele damit herum und mache sie dann aus Versehen kaputt.</item>
+				<item id="7">Ich fühle mich unter Tieren viel wohler als unter humanoiden Wesen.</item>
+				<item id="8">Ich wurde von Wölfen aufgezogen.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Veränderung. Das Leben ist wie die Jahreszeiten, es unterliegt einem ständigen Wechsel, und wir müssen uns mit ihm verändern. (chaotisch)</item>
+				<item id="2">Höheres Ziel. Es ist die Verantwortung jedes Einzelnen, für das Wohl des Stammes zu sorgen. (gut)</item>
+				<item id="3">Ehre. Wenn ich entehrt werde, entehre ich meinen ganzen Klan. (rechtschaffen)</item>
+				<item id="4">Macht. Die Stärksten sind dazu bestimmt, zu führen. (böse)</item>
+				<item id="5">Natur. Die natürliche Welt ist wichtiger als alle Konstrukte der Zivilisation. (neutral)</item>
+				<item id="6">Ruhm. Ich muss im Kampf Ruhm ernten, für mich und meinen Klan. (jede)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">Meine Familie, mein Klan oder mein Stamm sind das Wichtigste in meinem Leben, auch wenn sie weit entfernt sinde.</item>
+				<item id="2">Eine Verletzung der unberührten Wildnis meiner Heimat verletzt auch mich.</item>
+				<item id="3">Ich werde schrecklichen Zorn auf die Übeltäter niedergehen lassen, die mein Heimatland zerstörten.</item>
+				<item id="4">Ich bin der Letzte meines Stammes, und es liegt an mir, seinen Namen in die Legenden eingehen zu lassen.</item>
+				<item id="5">Ich leide unter grausamen Visionen einer kommenden Katastrophe und werde alles tun, um sie zu verhindern.</item>
+				<item id="6">Es ist meine Pflicht, Kinder in die Welt zu setzen, um meinen Stamm zu erhalten.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">Ich fühle mich zu sehr zu Bier, Wein und ähnlichen Rauschmitteln hingezogen.</item>
+				<item id="2">In meinem Leben ist kein Platz für Vorsicht. Ich will es in vollen Zügen auskosten.</item>
+				<item id="3">Ich erinnere mich an jede einzelne Beleidigung, die mir galt, und hege eine stumme Abneigung gegen all jene, die mich schon einmal falsch behandelt haben.</item>
+				<item id="4">Ich bin misstrauisch gegenüber Mitgliedern anderer Völker, Stämme und Gesellschaften.</item>
+				<item id="5">Gewalt ist meine Antwort auf fast alle Herausforderungen.</item>
+				<item id="6">Erwarte nicht, dass ich jene rette, die sich nicht selbst retten können. Es ist das Gesetz der Natur, dass sich die Starken durchsetzen und die Schwachen sterben.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Merkmal: Wanderer" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_WANDERER">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Du verfügst über eine hervorragende Erinnerungsgabe in Bezug auf Karten und Geografie und kannst dir immer anhand auffälliger Geländemerkmale die Beschaffenheit und Lage eines Gebietes oder einer Siedlung merken. Zusätzlich bist du in der Lage, täglich für dich selbst und bis zu fünf Begleiter ausreichend frisches Wasser und Nahrung zu beschaffen, solange dir das Land entsprechende Möglichkeiten dazu bietet (es etwa Beeren, Kleinwild und Ähnliches gibt).</p>
+		</description>
+		<sheet alt="Wanderer" />
+	</element>
+</elements>

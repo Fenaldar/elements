@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Barde</name>
+    <description>Die Klasse Barde aus dem Spielerhandbuch.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.4.7">
+      <file name="klasse-barde.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-barde.xml" />
+    </update>
+  </info>
+
+  <element name="Barde" type="Class" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_BARD">
+    <description>
+      <p>Summend streicht sie mit den Fingern über das antike Monument in einer längst vergessenen Ruine. Die in robustes Leder gekleidete Halbelfin spürt, wie das Wissen in ihr Bewusstsein strömt, das von der Magie ihres Liedes heraufbeschworen wird. Es ist das Wissen des Volkes, das dieses Monument erbaut und die mystische Saga erschaffen hat, von der es erzählt.</p>
+      <p class="indent">Ein ernst dreinblickender menschlicher Krieger schlägt das Schwert rhythmisch gegen seinen Schuppenpanzer und gibt damit das Tempo für seinen Gesang vor, mit dem er die Kameraden zu Tapferkeit und Heldentaten antreibt. Die Magie in seinem Lied ermutigt und bestärkt die Kämpfer.</p>
+      <p class="indent">Während sie lachend ihre Zither anstimmt, verbreitet die Gnomin ihre sanfte Magie über die versammelten Adeligen, um sicherzustellen, dass die Worte ihrer Begleiter gut aufgenommen werden.</p>
+      <p class="indent">Ob Gelehrter, Skalde oder Halunke — ein Barde webt Magie in seine Musik und seine Worte ein, um Verbündete zu inspirieren, Feinde zu entmutigen, das Bewusstsein zu beeinflussen, Illusionen zu erschaffen und sogar um Wunden zu heilen.</p>
+      <h4>MUSIK UND MAGIE</h4>
+      <p>In der Welt von DUNGEONS &amp; DRAGONS sind Worte und Musik nicht einfach nur Schwingungen der Luft, sondern Ausdruck einer eigenen Macht. Barden sind Meister des Liedes, des Wortes und der Magie. Sie behaupten, dass das Multiversum durch die Stimme erschaffen wurde, dass die Worte der Götter ihm seine Gestalt gegeben haben und dass die Echos dieser vorzeitlichen Worte der Schöpfung noch immer durch den Kosmos hallen. Die Musik der Barden ist ein Versuch, diesen Widerhall auf- und einzufangen, damit sie ihn geschickt in ihre Kräfte und Zauber einflechten können.</p>
+      <p class="indent">Die größte Stärke der Barden ist ihre Vielseitigkeit. Die meisten ziehen es vor, ihre Magie vom Rande des Schlachtfeldes zu wirken und ihre Verbündeten von dort zu inspirieren oder ihre Gegner aus der Ferne zu behindern. Doch Barden vermögen es auch, sich im Nahkampf zu verteidigen, wenn es nötig sein sollte, und nutzen Magie, um ihre Waffen und Rüstungen zu verstärken. Ihre Sprüche tendieren eher dazu, Verzauberungen und Illusionen hervorzurufen als offensichtlich zerstörerische Kräfte. Sie besitzen ein breitgefächertes Wissen in vielen Gebieten und eine natürliche Begabung, mit der ihnen fast alles gelingt, das sie versuchen. Barden meistern jedes Talent, das zu perfektionieren sie sich in den Kopf gesetzt haben. Dies kann von musikalischen Vorführungen bis zu geheimem Wissen reichen.</p>
+      <h4>AUS ERFAHRUNG LERNEN</h4>
+      <p>Nicht jeder Minnesänger in einer Taverne oder Hofnarr in einem königlichen Palast ist gleichzeitig ein Barde. Die Magie zu entdecken, die in der Musik verborgen ist, erfordert intensives Lernen und ein Maß an Talent, das den meisten Troubadouren und Jongleuren fehlt. Es kann also schwierig sein, den Unterschied zwischen diesen Künstlern und echten Barden auszumachen. Ein Barde verbringt sein Leben ebenso wie fast jeder andere Unterhaltungskünstler damit, durch das Land zu reisen und Wissen zu sammeln, Geschichten zu erzählen und vom Wohlwollen des Publikums zu leben. Doch die Tiefe an Wissen, der Grad musikalischer Fähigkeit und ein Hauch von Magie heben den Barden von seinen Berufsgenossen ab.</p>
+      <p class="indent">Barden bleiben nur selten lange an einem Ort, und ihre angeborene Sehnsucht zu reisen, Geschichten zu finden, die es sich zu erzählen lohnt, nach neuen Fähigkeiten und Entdeckungen, machen eine Karriere als Abenteurer zu ihrer natürlichen Berufung. Jedes Abenteuer ist eine Gelegenheit um zu lernen, die verschiedenen Fertigkeiten zu üben, längst vergessene Grabstätten zu erforschen, verloren geglaubte magische Gegenstände zu entdecken, alte Folianten zu entziffern, an fremde Orte zu reisen oder exotischen Kreaturen zu begegnen. Barden lieben es, Abenteurer zu begleiten, um aus erster Hand von ihren Heldentaten zu berichten. Ein Barde, der aus eigener Erfahrung eine Ehrfurcht gebietende Geschichte erzählen kann, erntet den Ruhm seiner Kollegen. Nachdem sie unzählige Geschichten von Helden und ihren unglaublichen Aufgaben erzählt haben, fassen sich viele Barden ein Herz und ziehen selbst auf Abenteuer aus.</p>
+      <h4>EINEN BARDEN ERSCHAFFEN</h4>
+      <p>Motivation deines Charakters sind nicht so wichtig wie die Geschichten, die er darüber erzählt. Vielleicht hatte er eine sichere und behütete Kindheit. Doch lässt sich darüber kaum ein gutes Lied dichten, und so könnte er sich als Waisenkind darstellen, das von einer Hexe in einem ekelhaften Sumpf aufgezogen wurde. Vielleicht ist seine Kindheit auch tatsächlich eine Geschichte wert. Manche Barden erhalten ihre magischen Fähigkeiten durch außergewöhnliche Umstände wie zum Beispiel durch die Inspiration eines Feenwesens oder anderer übernatürlicher Kreaturen.</p>
+      <p class="indent">Absolvierte dein Charakter eine Ausbildung oder ging bei einem Meister in die Lehre, bis er bereit war, auf sich allein gestellt loszuziehen? Besuchte er eine Bardenschule, in der er das Wissen seiner Zunft und das Praktizieren der magischen Musik lernte? Vielleicht war er auch ein junger Ausreißer oder ein Waise, der sich mit einem reisenden Barden anfreundete, welcher dann zu seinem Mentor wurde. Oder er war ein verwöhntes Adelskind, dessen Eltern den Unterricht bei einem Meister bezahlten. Möglicherweise geriet er auch in die Fänge einer Hexe und konnte sein Leben, seine Freiheit und sein musikalisches Talent mit einem Tauschhandel erkaufen, doch zu welchem Preis?</p>
+      <h5>SCHNELLE ERSCHAFFUNG</h5>
+      <p>Du kannst einen Barden schnell erschaffen, indem du diesen Vorschlägen folgst:</p>
+      <p class="indent">Setze deinen höchsten Attributswert auf Charisma, den zweithöchsten auf Geschicklichkeit. Wähle zusätzlich den Hintergrund Unterhaltungskünstler. Entscheide dich außerdem für die Zaubertricks <i>Tanzende Lichter</i> und <i>Gehässiger Spott</i>, zusammen mit den folgenden Zaubern des 1. Grades: <i>Person bezaubern</i>, <i>Magie entdecken</i>, <i>Heilendes Wort</i> und <i>Donnerwoge</i>.</p>
+      <h3>KLASSENMERKMALE</h3>
+      <p>Als Barde erhältst du die folgenden Klassenmerkmale:</p>
+      <h5>TREFFERPUNKTE</h5>
+      <ul class="unstyled">
+				<li><strong>Trefferwürfel:</strong> 1W8 pro Stufe als Barde</li>
+				<li><strong>Trefferpunkte auf Stufe 1:</strong> 8 + dein Konstitutionsmodifikator</li>
+				<li><strong>Trefferpunkte auf höheren Stufen:</strong> 1W8 (oder 5) + dein Konstitutionsmodifikator pro Stufe als Barde über die 1. Stufe hinaus</li>
+			</ul>
+			<h5>ÜBUNG</h5>
+			<ul class="unstyled mb">
+				<li><strong>Rüstungen:</strong> leichte Rüstungen</li>
+				<li><strong>Waffen:</strong> einfache Waffen, Handarmbrüste, Langschwerter, Rapiere und Kurzschwerter</li>
+				<li><strong>Werkzeuge:</strong> drei Musikinstrumente deiner Wahl</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Rettungswürfe:</strong> Geschicklichkeit, Charisma</li>
+				<li><strong>Fertigkeiten:</strong> drei beliebige deiner Wahl</li>
+			</ul>
+      <h5>AUSRÜSTUNG</h5>
+      <p>Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:</p>
+      <ul>
+        <li><i>(a)</i> ein Rapier, <i>(b)</i> ein Langschwert oder <i>(c)</i> eine einfache Waffe</li>
+        <li><i>(a)</i> Diplomatenausrüstung oder <i>(b)</i> Unterhaltungskünstler-Ausrüstung</li>
+        <li><i>(a)</i> eine Laute oder <i>(b)</i> ein anderes Musikinstrument</li>
+        <li>eine Lederrüstung und ein Dolch</li>
+      </ul>
+      <h5 class="caption">DER BARDE</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-5">Stufe</td><td class="left">Merkmale</td><td class="col-5">Bekannte Zaubertricks</td><td class="col-5">Bekannte Zauber</td><td>1.</td><td>2.</td><td>3.</td><td>4.</td><td>5.</td><td>6.</td><td>7.</td><td>8.</td><td>9.</td></tr>
+        </thead>
+        <tr><td> 1</td><td class="left">Zauberwirken, Bardische Inspiration (W6)</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 2</td><td class="left">Alleskönner, Lied der Erholung (W6)</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 3</td><td class="left">Bardenschule, Expertise</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 4</td><td class="left">Attributswerterhöhung</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 5</td><td class="left">Bardische Inspiration (W8), Quelle der Inspiration</td><td>3</td><td>8</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 6</td><td class="left">Bannlied, Merkmal: Bardenschule</td><td>3</td><td>9</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 7</td><td class="left">—</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 8</td><td class="left">Attributswerterhöhung</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 9</td><td class="left">Lied der Erholung (W8)</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>10</td><td class="left">Bardische Inspiration (W10), Expertise, Magische Geheimnisse</td><td>4</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>11</td><td class="left">—</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>12</td><td class="left">Attributswerterhöhung</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>13</td><td class="left">Lied der Erholung (W10) </td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>14</td><td class="left">Magische Geheimnisse, Merkmal: Bardenschule</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>15</td><td class="left">Bardische Inspiration (W12)</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>16</td><td class="left">Attributswerterhöhung</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>17</td><td class="left">Lied der Erholung (W12)</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>18</td><td class="left">Magische Geheimnisse</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>19</td><td class="left">Attributswerterhöhung</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>20</td><td class="left">Überlegene Inspiration</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+      </table>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_ABILITYSCOREIMPROVEMENT_BARD" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_COUNTERCHARM" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_MAGICAL_SECRETS" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION" />
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="short">Ein inspirierender Zauberwirker, in dessen Kraft die Musik der Schöpfung widerhallt.</set>
+      <set name="hd">d8</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+      <select type="Proficiency" name="Musikinstrument (Barde)" supports="Musical Instrument" number="3" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+      <select type="Proficiency" name="Geübte Fertigkeit (Barde)" supports="Skill,Bard" number="3" requirements="!ID_WOTC_PHB_MULTICLASS_BARD"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" level="2"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST" level="2"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE" level="3"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE" level="3"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_ABILITYSCOREIMPROVEMENT_BARD" level="4"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION" level="5"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_COUNTERCHARM" level="6"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_MAGICAL_SECRETS" level="10"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION" level="20"/>
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_BARD">
+      <prerequisite>Charisma 13</prerequisite>
+      <requirements>[cha:13]</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Light armor, one skill of your choice, one musical instrument of your choice</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+        <select type="Proficiency" name="Skill Proficiency (Bard)" supports="Skill,Bard" number="1" />
+        <select type="Proficiency" name="Musical Instrument (Bard)" supports="Musical Instrument" number="1" />
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Bardische Inspiration" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARDIC_INSPIRATION">
+    <description>
+      <p>Du vermagst andere zu inspirieren, indem du eine bewegende Rede hältst oder ermutigende Musik erklingen lässt. Als Bonusaktion kannst du in deinem Zug innerhalb von 18 m Reichweite eine Kreatur außer dir selbst bestimmen, die in der Lage sein muss, dich zu hören. Diese Kreatur erhält einen bardischen Inspirationswürfel, auf der 1. Stufe einen W6.</p>
+      <p class="indent">Einmal innerhalb der nächsten 10 Minuten kann die Kreatur diesen Würfel nutzen und das gewürfelte Ergebnis auf einen Attributs-, Angriffs- oder Rettungswurf addieren. Sie kann auch nach diesem Wurf entscheiden, ob sie den bardischen Inspirationswürfel einsetzen möchte. Allerdings muss sie ihre Entscheidung treffen, bevor der SL bekannt gibt, ob das Ergebnis ein Erfolg oder Misserfolg ist. Wurde der bardische Inspirationswürfel benutzt, ist er verbraucht. Jede Kreatur darf nur über einen Inspirationswürfel gleichzeitig verfügen. Du kannst dieses Merkmal so oft einsetzen, wie es der Höhe deines Charismamodifikators entspricht (mindestens 1). Nach einer langen Rast erhältst du alle verbrauchten Anwendungen zurück.</p>
+      <p class="indent">Der Inspirationswürfel ändert sich, wenn du bestimmte Stufen als Barde erreichst: Auf der 5. Stufe wird er zu einem W8, auf der 10. zu einem W10 und auf der 15. zu einem W12.</p>
+    </description>
+    <sheet action="Bonusaktion" usage="{{bardic-inspiration:count}}/Lange Rast">
+      <description>Du kannst in deinem Zug innerhalb von 18 m Reichweite eine Kreatur außer dir selbst bestimmen, die in der Lage sein muss, dich zu hören. Diese Kreatur erhält einen bardischen Inspirationswürfel (W{{bardic-inspiration:dice}}). Einmal innerhalb der nächsten 10 Minuten kann die Kreatur diesen Würfel nutzen und das gewürfelte Ergebnis auf einen Attributs-, Angriffs- oder Rettungswurf addieren.</description>
+    </sheet>
+    <rules>
+      <stat name="bardic-inspiration:count" value="1" bonus="bardic inspiration"/>
+      <stat name="bardic-inspiration:count" value="charisma:modifier" bonus="bardic inspiration"/>
+
+      <stat name="bardic-inspiration:dice" value="6" bonus="bardic inspiration" />
+      <stat name="bardic-inspiration:dice" value="8" bonus="bardic inspiration" level="5" />
+      <stat name="bardic-inspiration:dice" value="10" bonus="bardic inspiration" level="10" />
+      <stat name="bardic-inspiration:dice" value="12" bonus="bardic inspiration" level="15" />
+    </rules>
+  </element>
+  <element name="Zauberwirken" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD">
+    <description>
+      <p>Du hast gelernt, das Gewebe der Realität mit Hilfe deines Willens und deiner Musik zu entwirren und zu formen. Deine Zaubersprüche sind Teil eines gewaltigen Repertoires, mit dem du deine Magie auf unterschiedliche Situationen einstimmen kannst. Für allgemeine Informationen zum Wirken von Zaubern siehe Kapitel 10 „Zauber wirken" und für die Zauberliste des Barden Kapitel 11 „Zauber".</p>
+      <h5>ZAUBERTRICKS</h5>
+      <p>Zu Beginn sind dir zwei beliebige Zaubertricks aus der Zauberliste des Barden bekannt. Weitere deiner Wahl lernst du auf höheren Stufen. so wie es in der Spalte für bekannte Zaubertricks in der Aufstiegstabelle des Barden angegeben ist.</p>
+      <h5>ZAUBERPLÄTZE</h5>
+      <p>Die Tabelle des Barden gibt an, wie viele Zauberplätze du hast, um Bardenzauber des 1. oder höheren Grads zu wirken. Um einen dir bekannten Spruch zu sprechen, musst du einen Zauberplatz des gleichen oder eines höheren Grades aufwenden. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung.</p>
+      <p class="indent">Ist dir beispielsweise der <i>Zauber Wunden</i> heilen des 1. Grades bekannt und besitzt du sowohl einen freien Zauberplatz des 1. Grades und einen des 2. Grades, kannst du jeden der beiden Zauberplätze verwenden, um <i>Wunden heilen</i> zu wirken.</p>
+      <h5>BEKANNTE ZAUBER DES 1. GRADES UND HÖHER</h5>
+      <p>Auf Stufe 1 kennst du vier frei wählbare Zauber des 1. Grades aus der Zauberliste des Barden.</p>
+      <p class="indent">Der Spalte „Bekannte Zauber" der Tabelle kannst du entnehmen, wie viele neue Sprüche du dir bei einem Stufenaufstieg aus der Zauberliste des Barden aussuchen darfst. Dabei kannst du nur Zauber wählen, für deren Grad du auch Zauberplätze besitzt. Erreichst du zum Beispiel die 3. Stufe als Barde, darfst du einen neuen Zauber des 1. oder 2. Grades erlernen.</p>
+      <p class="indent">Sobald du eine Stufe in dieser Klasse aufsteigst, kannst du außerdem einen der Bardenzauber, die dir bereits bekannt sind, mit einem anderen aus der Zauberliste ersetzen. Auch für diesen musst du einen dem Grad des Spruches entsprechenden Zauberplatz besitzen.</p>
+      <h5>ATTRIBUT ZUM ZAUBERWIRKEN</h5>
+      <p>Das Attribut, mit dem du deine Bardenzauber wirkst, ist Charisma. Deine Magie stammt aus dem Herzen und der Seele, die du in die Darbietungen deiner Musik oder Reden einfließen lässt.</p>
+      <p class="indent">Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Charisma. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Bardenzauber bestimmt, ziehst du deinen Charismamodifikator hinzu. Bei Angriffen mit deinen Bardenzaubern findet ebenfalls der Charismamodifikator Anwendung.</p>
+      <p class="center"><b>SG für Rettungswurfe</b> = 8 + dein Übungsbonus + dein Charismamodifikator</p>
+      <p class="center"><b>Modifikator für Zauberangriffe</b> = dein Übungsbonus + dein Charismamodifikator</p>
+      <h5>RITUALE WIRKEN</h5>
+      <p>Du kannst jeden Bardenzauber, der dir bekannt ist, auch als Ritual wirken, falls dieser als solches gekennzeichnet ist.</p>
+      <h5>ZAUBERFOKUS</h5>
+      <p>Als Zauberfokus für deine Bardenzauber kannst du ein Musikinstrument (siehe Kapitel 5 „Ausrüstung") verwenden.</p>
+    </description>
+	<sheet display="false">
+      <description>Du hast gelernt, das Gewebe der Realität mit Hilfe deines Willens und deiner Musik zu entwirren und zu formen.</description>
+    </sheet>
+    <spellcasting name="Bard" ability="Charisma" prepare="false" allowReplace="true">
+      <list>Bard</list>
+    </spellcasting>
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+      <grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+
+      <stat name="bard:spellcasting:slots:1" value="2" level="1" />
+      <stat name="bard:spellcasting:slots:1" value="1" level="2" />
+      <stat name="bard:spellcasting:slots:1" value="1" level="3" />
+      <stat name="bard:spellcasting:slots:2" value="2" level="3" />
+      <stat name="bard:spellcasting:slots:2" value="1" level="4" />
+      <stat name="bard:spellcasting:slots:3" value="2" level="5" />
+      <stat name="bard:spellcasting:slots:3" value="1" level="6" />
+      <stat name="bard:spellcasting:slots:4" value="1" level="7" />
+      <stat name="bard:spellcasting:slots:4" value="1" level="8" />
+      <stat name="bard:spellcasting:slots:4" value="1" level="9" />
+      <stat name="bard:spellcasting:slots:5" value="1" level="9" />
+      <stat name="bard:spellcasting:slots:5" value="1" level="10" />
+      <stat name="bard:spellcasting:slots:5" value="1" level="18" />
+      <stat name="bard:spellcasting:slots:6" value="1" level="11" />
+      <stat name="bard:spellcasting:slots:6" value="1" level="19" />
+      <stat name="bard:spellcasting:slots:7" value="1" level="13" />
+      <stat name="bard:spellcasting:slots:7" value="1" level="20" />
+      <stat name="bard:spellcasting:slots:8" value="1" level="15" />
+      <stat name="bard:spellcasting:slots:9" value="1" level="17" />
+
+      <select type="Spell" name="Zaubertrick (Barde)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Bard" />
+      <select type="Spell" name="Zaubertrick (Barde)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Zaubertrick (Barde)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="1" number="4" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="1" spellcasting="Bard" />
+      <select type="Spell" name="Spellcasting (Barde)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="1" spellcasting="Bard" />
+    </rules>
+  </element>
+  <element name="Alleskönner" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES">
+    <description>
+      <p>Ab der 2. Stufe kannst du deinen halben Übungsbonus (abgerundet) auf jeden Attributswurf addieren, der nicht bereits durch deinen Übungsbonus verbessert wird.</p>
+    </description>
+		<sheet display="false">
+      <description>Du kannst deinen halben Übungsbonus ({{proficiency:half}}), abgerundet, auf jeden Attributswurf addieren, der nicht bereits durch deinen Übungsbonus verbessert wird.</description>
+    </sheet>
+    <rules>
+	    <stat name="initiative" value="proficiency:half" bonus="proficiency" />
+	    <stat name="acrobatics:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ACROBATICS"/>
+	    <stat name="animal handling:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ANIMALHANDLING"/>
+	    <stat name="arcana:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ARCANA"/>
+	    <stat name="athletics:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ATHLETICS"/>
+	    <stat name="deception:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_DECEPTION"/>
+	    <stat name="history:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_HISTORY"/>
+	    <stat name="insight:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INSIGHT"/>
+	    <stat name="intimidation:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INTIMIDATION"/>
+	    <stat name="investigation:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INVESTIGATION"/>
+	    <stat name="medicine:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_MEDICINE"/>
+	    <stat name="nature:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_NATURE"/>
+	    <stat name="perception:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERCEPTION"/>
+	    <stat name="performance:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERFORMANCE"/>
+	    <stat name="persuasion:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERSUASION"/>
+	    <stat name="religion:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_RELIGION"/>
+	    <stat name="sleight of hand:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_SLEIGHTOFHAND"/>
+	    <stat name="stealth:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_STEALTH"/>
+	    <stat name="survival:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_SURVIVAL"/>
+    </rules>
+  </element>
+  <element name="Lied der Erholung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST">
+    <description>
+      <p>Von der 2. Stufe an kannst du während einer kurzen Rast mit sanfter Musik oder Gesängen den Heilungsprozess deiner verwundeten Verbündeten beschleunigen. Wenn du oder eine befreundete Kreatur durch das Ausgeben von Trefferwürfeln zum Ende einer kurzen Rast Trefferpunkte wiedererlangt, erhält der Betroffene 1W6 zusätzliche Trefferpunkte zurück. Die befreundete Kreatur muss deine Darbietung hören können, um von diesem Effekt zu profitieren.</p>
+      <p class="indent">Die zusätzlichen Trefferpunkte erhöhen sich mit dem Aufstieg in dieser Klasse: ab der 9. Stufe auf 1W8, ab der 13. Stufe auf 1W10 und ab der 17. Stufe auf 1W12.</p>
+    </description>
+    <sheet>
+      <description>Du oder eine befreundete Kreatur, die deine Darbietung hören können muss, erhalten durch das Ausgeben von Trefferwürfeln zum Ende einer kurzen Rast 1W{{song-of-rest:dice:size}} zusätzliche Trefferpunkte zurück.</description>
+    </sheet>
+    <rules>
+      <stat name="song-of-rest:dice:size" value="6" bonus="song-of-rest" />
+      <stat name="song-of-rest:dice:size" value="8" bonus="song-of-rest" level="9" />
+      <stat name="song-of-rest:dice:size" value="10" bonus="song-of-rest" level="13" />
+      <stat name="song-of-rest:dice:size" value="12" bonus="song-of-rest" level="17" />
+    </rules>
+  </element>
+  <element name="Bardenschule" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE">
+    <description>
+      <p>Auf Stufe 3 wirst du in die fortgeschrittenen Techniken einer Bardenschule deiner Wahl eingeweiht. Wähle die Schule des Wagemuts oder die Schule des Wissens, beide sind am Ende dieses Abschnitts näher beschrieben. Deine Wahl verleiht dir auf der 3., 6. und 14. Stufe jeweils ein Merkmal.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Bardenschule" supports="Bard College" level="3"/>
+    </rules>
+  </element>
+  <element name="Expertise" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE">
+    <description>
+      <p>Mit Stufe 3 wählst du zwei deiner Fertigkeiten aus, in denen du geübt bist. Dein Übungsbonus wird bei allen Attributswürfen verdoppelt, bei denen diese Fertigkeiten zur Anwendung kommen.</p>
+      <p class="indent">Auf der 10. Stufe kannst du dir zwei weitere deiner geübten Fertigkeiten aussuchen, in denen du den gleichen Vorzug erhältst.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Expertise (Barde 3)" level="3" number="2" supports="Expertise,Skill"/>
+      <select type="Class Feature" name="Expertise (Barde 10)" level="10" number="2" supports="Expertise,Skill"/>
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Barde)" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_ABILITYSCOREIMPROVEMENT_BARD">
+		<compendium display="false" />
+    <description>
+      <p>Beim Erreichen der 4. Stufe und dann wieder auf der 8., 12., 16. und 19. Stufe kannst du einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Attributswerterhöhung (Barde 4)" supports="Improvement Option,Barde,4" level="4" />
+      <select type="Class Feature" name="Attributswerterhöhung (Barde 8)" supports="Improvement Option,Barde,8" level="8" />
+      <select type="Class Feature" name="Attributswerterhöhung (Barde 12)" supports="Improvement Option,Barde,12" level="12" />
+      <select type="Class Feature" name="Attributswerterhöhung (Barde 16)" supports="Improvement Option,Barde,16" level="16" />
+      <select type="Class Feature" name="Attributswerterhöhung (Barde 19)" supports="Improvement Option,Barde,19" level="19" />
+    </rules>
+  </element>
+  <element name="Quelle der Inspiration" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION">
+    <description>
+      <p>Von der 5. Stufe an erhältst du all deine Anwendungen der Bardischen Inspiration zurück, sobald du eine kurze oder lange Rast beendet hast.</p>
+    </description>
+    <sheet>
+      <description>Du erhältst all deine Anwendungen der Bardischen Inspiration zurück, sobald du eine kurze oder lange Rast beendet hast.</description>
+    </sheet>
+  </element>
+  <element name="Bannlied" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_COUNTERCHARM">
+    <description>
+      <p>Auf Stufe 6 erlangst du die Fähigkeit, mit Zaubern gewobene Musik und Worte der Macht zu nutzen, um geistesbeeinflussende Effekte abzuwenden. Als Aktion kannst du eine Darbietung geben, die bis zum Ende deines nächsten Zuges andauert. Während dieser Zeit sind du und deine verbündeten Kreaturen im Umkreis von 9 m im Vorteil bei Rettungswürfen, um nicht bezaubert oder verängstigt zu sein. Die betroffene Kreatur muss in der Lage sein, dich zu hören, damit sie in den Genuss dieses Vorzugs kommt. Die Darbietung endet vorzeitig, falls du zum Schweigen gebracht wirst oder kampfunfähig wirst. Du kannst sie auch freiwillig beenden, wozu keine Aktion notwendig ist.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Du kannst eine Darbietung geben, die bis zum Ende deines nächsten Zuges andauert. Während dieser Zeit sind du und deine verbündeten Kreaturen im Umkreis von 9 m im Vorteil bei Rettungswürfen, um nicht bezaubert oder verängstigt zu sein.</description>
+    </sheet>
+  </element>
+  <element name="Magische Geheimnisse" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_MAGICAL_SECRETS">
+    <description>
+      <p>Mit Erreichen der 10. Stufe hast du bereits aus einem breiten Spektrum an Disziplinen magisches Wissen zusammengetragen. Wähle zwei Zauber beliebiger Klassen, einschließlich des Barden. Du musst in der Lage sein, Zauber des gewählten Grades zu wirken, vergleiche dazu die Aufstiegstabelle für Barden. Es ist auch möglich, sich für Zaubertricks zu entscheiden.</p>
+      <p class="indent">Die ausgesuchten Sprüche gelten für dich als Bardenzauber und zählen in Bezug auf die maximale Anzahl deiner bekannten Zauber. Du lernst zwei weitere Zauber beliebiger Klassen auf Stufe 14 und erneut auf Stufe 18.</p>
+    </description>
+		<sheet display="false">
+      <description>Du hast bereits aus einem breiten Spektrum an Disziplinen magisches Wissen zusammengetragen.</description>
+    </sheet>
+    <rules>
+      <select type="Spell" name="Magische Geheimnisse" supports="(0)||($(spellcasting:slots))" number="2" level="10" spellcasting="Bard"/>
+      <select type="Spell" name="Magische Geheimnisse" supports="(0)||($(spellcasting:slots))" number="2" level="14" spellcasting="Bard"/>
+      <select type="Spell" name="Magische Geheimnisse" supports="(0)||($(spellcasting:slots))" number="2" level="18" spellcasting="Bard"/>
+    </rules>
+  </element>
+  <element name="Überlegene Inspiration" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION">
+    <description>
+      <p>Hast du ab der 20. Stufe zum Zeitpunkt des Initiativewurfs keine Anwendung von Bardische Inspiration mehr zur Verfügung, erhältst du eine Anwendung zurück.</p>
+    </description>
+    <sheet>
+      <description>Wenn du zum Zeitpunkt des Initiativewurfs keine Anwendung von Bardische Inspiration mehr zur Verfügung, erhältst du eine Anwendung zurück.</description>
+    </sheet>
+  </element>
+
+  <!-- College of Lore -->
+  <element name="Schule des Wissens" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_COLLEGE_OF_LORE">
+    <supports>Bard College</supports>
+    <description>
+      <p>Barden, die sich dem Studium des Wissens widmen, verfügen über mannigfaltige Kenntnisse, die sie ihm Laufe ihrer Reisen aus der ganzen Welt zusammentragen. Dabei greifen sie auf alle nur möglichen Quellen zurück, vom akademischen Wälzer bis zum mündlich überlieferten Bauernmärchen.</p>
+      <p class="indent">Ob sie nun eine volkstümliche Ballade in einer Taverne oder eine sorgfältig ausgearbeitete Komposition am königlichen Hof vortragen — diese Barden vermögen das Publikum mit ihrer Begabung in den Bann zu ziehen. Während der Applaus abebbt, finden sich die Zuhörer nicht selten in der Situation wieder, alles zu hinterfragen, was sie bisher für wahr gehalten haben, sei es ihr Glaube an die Priesterschaft des ortsansässigen Tempels oder ihre Loyalität gegenüber dem König.</p>
+      <p class="indent">Die Treue des Barden gilt weder einer Krone noch den Lehren einer Gottheit, sie gilt allein der Beschäftigung mit dem Schönen und Wahren. Ein Adeliger, der solch einen Barden als Herold oder Berater beschäftigt, weiß, dass dieser sich eher aufrecht und ehrlich als diplomatisch verhalten wird.</p>
+      <p class="indent">Die Anhänger dieser Schule versammeln sich in Bibliotheken und manchmal in richtigen Universitäten, in Hörsälen und Klassenzimmern, um ihr Wissen miteinander zu teilen. Sie treffen sich auch bei Staatsakten oder auf Festen, bei denen sie Korruption offenlegen, Lügen aufdecken und sich über wichtigtuerische Menschen und Autoritäten lustig machen können.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_BONUS_PROFICIENCIES" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_ADDITIONAL_MAGICAL_SECRETS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_PEERLESS_SKILL" />
+    </description>
+		<sheet display="false">
+      <description>Barden, die sich dem Studium des Wissens widmen, verfügen über mannigfaltige Kenntnisse, die sie ihm Laufe ihrer Reisen aus der ganzen Welt zusammentragen. Dabei greifen sie auf alle nur möglichen Quellen zurück, vom akademischen Wälzer bis zum mündlich überlieferten Bauernmärchen.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_BONUS_PROFICIENCIES" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_ADDITIONAL_MAGICAL_SECRETS" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_PEERLESS_SKILL" level="14" />
+    </rules>
+  </element>
+  <element name="Zusätzliche Übung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_BONUS_PROFICIENCIES">
+    <description>
+      <p>Mit dem Beitritt zur Schule des Wissens auf der 3. Stufe erhältst du Übung in drei Fertigkeiten deiner Wahl.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Proficiency" name="Zusätzliche Übung (Barde)" supports="Skill,Bard" number="3" level="3"/>
+    </rules>
+  </element>
+  <element name="Schneidende Worte" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS">
+    <description>
+      <p>Ebenfalls beim Erreichen der 3. Stufe lernst du, mit Verstand und Schlagfertigkeit für Ablenkung und Verwirrung zu sorgen oder auf anderen Wegen Einfluss und Selbstsicherheit anderer zu schwächen. Führt eine Kreatur. die du sehen kannst, innerhalb von 18 m einen Angriffs-, Attributs- oder Schadenswurf aus, kannst du als Reaktion eine Anwendung deiner Bardischen Inspiration einsetzen. Würfle mit deinem Inspirationswürfel und ziehe das Ergebnis vom Wurf der Kreatur ab. Dies kannst du tun, nachdem die Kreatur ihren Wurf ausgeführt hat, musst es jedoch bevor der SL dessen Erfolg oder Misserfolg bekannt gibt oder verursachter Schaden angewendet wird. Die Kreatur ist immun gegen dieses Merkmal, falls sie dich nicht hören kann oder immun gegen Bezauberungen ist.</p>
+    </description>
+    <sheet action="Reaktion">
+      <description>Führt eine Kreatur. die du sehen kannst, innerhalb von 18 m einen Angriffs-, Attributs- oder Schadenswurf aus, kannst du eine Anwendung deiner Bardischen Inspiration einsetzen. Würfle mit deinem Inspirationswürfel und ziehe das Ergebnis vom Wurf der Kreatur ab. Dies kannst du tun, nachdem die Kreatur ihren Wurf ausgeführt hat, musst es jedoch bevor der SL dessen Erfolg oder Misserfolg bekannt gibt oder verursachter Schaden angewendet wird. Die Kreatur ist immun gegen dieses Merkmal, falls sie dich nicht hören kann oder immun gegen Bezauberungen ist.</description>
+    </sheet>
+  </element>
+  <element name="Zusätzliche magische Geheimnisse" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_ADDITIONAL_MAGICAL_SECRETS">
+    <description>
+      <p>Auf Stufe 6 lernst du zwei Zauber deiner Wahl einer beliebigen Klasse. Die gewählten Sprüche müssen einem Grad entsprechen, den du beherrschst, so wie es in der Aufstiegstabelle für Barden angegeben ist. Du kannst dich auch für einen oder mehrere Zaubertricks entscheiden. Die ausgesuchten Sprüche gelten als Bardenzauber, aber zählen diesmal nicht in Bezug auf die maximale Anzahl deiner bekannten Zauber.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Spell" name="Zusätzliche magische Geheimnisse" supports="(0)||($(spellcasting:slots))" number="2" level="6" spellcasting="Bard"/>
+    </rules>
+  </element>
+  <element name="Grenzenlose Begabung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_PEERLESS_SKILL">
+    <description>
+      <p>Mit Erreichen der 14. Stufe kannst du beim Ablegen eines Attributswurfs eine Anwendung deiner Bardischen Inspiration einsetzen. Würfle mit deinem Inspirationswürfel und addiere das Ergebnis zu deinem Attributswurf. Du kannst dich nach deinem Attributswurf dazu entscheiden, musst dies allerdings vor der Entscheidung über Erfolg oder Misserfolg durch den SL tun.</p>
+    </description>
+    <sheet>
+      <description>Du kannst beim Ablegen eines Attributswurfs eine Anwendung deiner Bardischen Inspiration einsetzen. Würfle mit deinem Inspirationswürfel und addiere das Ergebnis zu deinem Attributswurf. Du kannst dich nach deinem Attributswurf dazu entscheiden, musst dies allerdings vor der Entscheidung über Erfolg oder Misserfolg durch den SL tun.</description>
+    </sheet>
+  </element>
+
+  <!-- College of Valor -->
+  <element name="Schule des Wagemuts" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_COLLEGE_OF_VALOR">
+    <supports>Bard College</supports>
+    <description>
+      <p>Barden der Schule des Wagemuts sind verwegene Skalden, deren Erzählungen die Erinnerung an die größten Helden der Vergangenheit lebendig halten und dabei eine neue Generation von Abenteurern inspirieren. Diese Barden versammeln sich in Metstuben und um große Lagerfeuer, um von den Taten berühmter Recken zu singen. Ihre Lieder handeln ebenso von der Vergangenheit wie von der Gegenwart. Sie bereisen die Lande, um Zeuge von großen Ereignissen zu werden und sicherzustellen, dass diese Geschehnisse nicht vergessen werden. Mit ihren Liedern inspirieren sie andere dazu, sich in die gleichen Höhen aufzuschwingen wie die großen Helden der Vergangenheit.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BONUS_PROFICIENCIES" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC" />
+    </description>
+		<sheet display="false">
+      <description>Barden der Schule des Wagemuts sind verwegene Skalden, deren Erzählungen die Erinnerung an die größten Helden der Vergangenheit lebendig halten und dabei eine neue Generation von Abenteurern inspirieren.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BONUS_PROFICIENCIES" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC" level="14" />
+    </rules>
+  </element>
+  <element name="Zusätzliche Übung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BONUS_PROFICIENCIES">
+    <description>
+      <p>Wenn du dich auf Stufe 3 dazu entscheidest, dem Studium des Wagemuts nachzugehen, erhältst du Übung im Umgang mit mittelschweren Rüstungen, Schilden und Kriegswaffen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+    </rules>
+  </element>
+  <element name="Kampfinspiration" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION">
+    <description>
+      <p>Ebenfalls auf der 3. Stufe lernst du, wie man andere im Kampf zu großen Taten beflügelt. Eine Kreatur kann den von dir erhaltenen bardischen Inspirationswürfel dazu verwenden, einen gerade ausgeführten Schadenswurf mit einer Waffe um das Ergebnis des Inspirationswürfels zu erhöhen. Wird ein Angriffswurf gegen sie ausgeführt, kann sie alternativ auch ihre Reaktion verwenden, um den bardischen Inspirationswürfel zu nutzen und das Würfelergebnis für diesen Angriff zu ihrer Rüstungsklasse zu addieren. Dies kann sie tun, nachdem sie das Ergebnis des Angriffswurfs gesehen hat, muss es jedoch bevor feststeht, ob der Angriff trifft oder verfehlt.</p>
+    </description>
+    <sheet>
+      <description>Eine Kreatur kann den von dir erhaltenen bardischen Inspirationswürfel dazu verwenden, einen gerade ausgeführten Schadenswurf mit einer Waffe um das Ergebnis des Inspirationswürfels zu erhöhen. Wird ein Angriffswurf gegen sie ausgeführt, kann sie alternativ auch ihre Reaktion verwenden, um den bardischen Inspirationswürfel zu nutzen und das Würfelergebnis für diesen Angriff zu ihrer Rüstungsklasse zu addieren. Dies kann sie tun, nachdem sie das Ergebnis des Angriffswurfs gesehen hat, muss es jedoch bevor feststeht, ob der Angriff trifft oder verfehlt.</description>
+    </sheet>
+  </element>
+  <element name="Zusätzlicher Angriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK">
+    <description>
+      <p>Ab der 6. Stufe kannst du zweimal statt nur einmal angreifen, wenn du eine Angriffsaktion in deinem Zug ausführst.</p>
+    </description>
+    <sheet>
+      <description>Du kannst zweimal anstatt einmal angreifen, wenn du eine Angriffsaktion in deinem Zug ausführst..</description>
+    </sheet>
+	<rules>
+		<stat name="extra attack:count" value="2" level="6" bonus="extra attack" />
+	</rules>
+  </element>
+  <element name="Kampfmagie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC">
+    <description>
+      <p>Auf der 14. Stufe hast du die Kunst zu zaubern und die eine Waffe zu führen zu einer einzigen harmonischen Handlung verwoben. Wenn du deine Aktion einsetzt, um einen Bardenzauber zu wirken, kannst du einen Waffenangriff als Bonusaktion ausführen.</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Wenn du deine Aktion einsetzt, um einen Bardenzauber zu wirken, kannst du zusätzlich einen Waffenangriff ausführen.</description>
+    </sheet>
+  </element>
+</elements>

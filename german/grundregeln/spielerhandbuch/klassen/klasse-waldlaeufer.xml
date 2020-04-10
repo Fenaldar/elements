@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Waldläufer</name>
+    <description>Die Klasse Waldläufer aus dem Spielerhandbuch.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.2.8">
+      <file name="klasse-waldlaeufer.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-waldlaeufer.xml" />
+    </update>
+  </info>
+
+  <element name="Waldlaeufer" type="Class" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_RANGER">
+    <description>
+      <p>Ein rau und wild aussehender Mensch pirscht durch die Schatten der Bäume auf der Jagd nach den Orks, die planen, den nahegelegenen Bauernhof zu plündern. Mit einem Kurzschwert in jeder Hand wird er zu einem Wirbelwind aus Stahl, der einen Gegner nach dem anderen niederstreckt.</p>
+      <p class="indent">Nachdem sie taumelnd vor einem Kegel eiskalter Luft zurückgewichen ist, kommt eine Elfe zurück auf die Füße und spannt den Bogen, um einen Pfeil auf den weißen Drachen abzuschießen. Sie schüttelt die Wellen der Furcht ab, die von dem Drachen ähnlich seinem kalten Atem ausgehen, und schickt ihm Pfeil um Pfeil entgegen, in dem Versuch eine Lücke zwischen den dicken Schuppen des Untiers zu finden.</p>
+      <p class="indent">Seine Hand in die Höhe haltend, pfeift ein Halbelf dem Falken zu, der weit über ihm kreist, und ruft den Vogel so wieder zurück an seine Seite. Er flüstert Befehle auf Elfisch, zeigt auf den Eulenbären, den er verfolgt hat, und schickt den Falken aus, um die Kreatur abzulenken, während er seinen Bogen bereit macht.</p>
+      <p class="indent">Fernab des Treibens der Städte und Dörfer, hinter den weit entferntesten Bauernhöfen inmitten der dichtbewachsenen Bäume unerschlossener Gehölze und über die weiten, leeren Ebenen halten die Waldläufer unaufhörlich ihre Wacht.</p>
+      <h4>TÖDLICHE JÄGER</h4>
+      <p>Als Krieger der Wildnis spezialisieren sich Waldläufer auf das Jagen jener Schrecken, die an den Grenzen der Zivilisation lauern: humanoide Räuber, zerstörungswütige Bestien und Monstrositäten, schreckliche Riesen und tödliche Drachen. Sie lernen, ihre Beute wie ein Raubtier aufzuspüren und sich heimlich durch die Wildnis zu bewegen. Waldläufer konzentrieren ihr Kampftraining auf Techniken, die besonders wirkungsvoll gegen bestimmte bevorzugte Feinde sind.</p>
+      <p class="indent">Dank ihrer Vertrautheit mit der Wildnis erwerben Waldläufer die Fähigkeit, Zauber zu wirken, die sich die Kräfte der Natur zunutze machen, ähnlich einem Druiden. Ihre Zauber sind wie ihre Kampffähigkeiten auf Schnelligkeit, Heimlichkeit und die Jagd ausgelegt. Die Talente und Fähigkeiten eines Waldläufers sind mit tödlichem Fokus auf die harte Aufgabe ausgerichtet, auch die entlegensten Regionen zu schützen.</p>
+      <h4>UNABHÄNGIGE ABENTEURER</h4>
+      <p>Ein Waldläufer mag zwar als Jäger, Führer oder Fährtenleser sein Geld verdienen, doch seine wahre Berufung besteht darin, die Randgebiete der Zivilisation vor den Überfällen von Monstern und humanoiden Plünderern zu verteidigen. An manchen Orten schließen sich Waldläufer in geheimen Orden zusammen und vereinen ihre Kräfte mit Druidenzirkeln. Doch die meisten agieren unabhängig und auf sich allein gestellt. Nur so können sie sichergehen, dass sie bei einem Angriff einer Bande Orks oder eines Drache die erste und vielleicht letzte Verteidigungslinie bilden.</p>
+      <p class="indent">Durch diese starke Unabhängigkeit eignen sich Waldläufer hervorragend als Abenteurer, da sie an ein Leben fernab des Komforts eines trockenen Bettes und eines warmen Badezubers gewöhnt sind. Konfrontiert man sie mit in der Stadt aufgewachsenen Abenteurern, die über die Beschwerlichkeiten der Wildnis fluchen und jammern, reagieren Waldläufer mit einer Mischung aus Amüsiertheit, Frustration und Mitgefühl. Doch sie lernen schnell, dass andere Abenteurer, die sich im Kampf gegen die Feinde der Zivilisation behaupten können, jede weitere Bürde auf sich zu nehmen wert sind. Verhätschelte Stadtleute wissen vielleicht nicht, wie man sich in der Wildnis ernährt oder wie man frisches Wasser findet, doch das gleichen sie auf andere Art und Weise wieder aus.</p>
+      <h4>EINEN WALDLÄUFER ERSCHAFFEN</h4>
+      <p>Beim Erschaffen deines Waldläufers solltest du den Ursprung seiner Ausbildung bedenken, durch die er seine einzelnen Fähigkeiten erlangte. Hat dein Charakter bei einem einzelnen Mentor gelernt, mit dem er durch die Wildnis wanderte, bis er die Kunst der Waldläufer selbst beherrschte? Verließ er seinen Lehrmeister oder wurde dieser von einem Monster getötet, vielleicht von dem, das dein Charakter zu seinem Erzfeind erklärt hat? Oder lernte er seine Fertigkeiten als Mitglied einer Gruppe von Waldläufern, die sich mit einem Druidenzirkel zusammengeschlossen hatten und die ebenso bewandert in den mystischen Pfaden wie in ihrem Wissen über die Wildnis waren. Er könnte sich alles selbst beigebracht haben als Ausgestoßener, der sich seine Kampffertigkeiten, das Spurenlesen und sogar die magische Verbindung mit der Natur aus der Notwendigkeit heraus aneignete, in der Wildnis zu überleben.</p>
+      <p class="indent">Was ist die Quelle seines Hasses auf eine bestimmte Art von Gegner? Hat ein Monster jemanden umgebracht, den dein Charakter liebte, oder sein Heimatdorf zerstört? Sah er zu viel der Verwüstung, die diese Monster anrichteten, und verschrieb sich daher der Ausrottung ihrer Art? Stellt die Abenteurerkarriere deines Waldläufers eine Fortsetzung seiner Aufgabe zum Schutz der Grenzgebiete dar oder ist es eine schwerwiegende Veränderung? Was hat ihn dazu bewogen, sich einer Gruppe von Abenteurern anzuschließen? Findet dein Charakter es anstrengend, seine neuen Verbündeten in den Wegen der Wildnis zu unterweisen, oder sieht er es als willkommene Abwechslung, die sich ihm von der Einsamkeit bietet?</p>
+      <h5>SCHNELLE ERSCHAFFUNG</h5>
+      <p>Du kannst einen Waldläufer schnell erschaffen, indem du diesen Vorschlägen folgst:</p>
+      <p class="indent">Setze deinen höchsten Attributswert auf Geschicklichkeit, deinen zweithöchsten auf Weisheit. Möchtest du dich auf den Kampf mit zwei Waffen spezialisieren, mache Stärke zu deinem höchsten Attribut. Wähle zusätzlich den Hintergrund Sonderling.</p>
+      <h3>KLASSENMERKMALE</h3>
+      <p>Als Waldläufer erhältst du folgende Klassenmerkmale:</p>
+      <h5>TREFFERPUNKTE</h5>
+      <ul class="unstyled">
+          <li><strong>Trefferwürfel:</strong> 1W10 pro Stufe als Waldläufer</li>
+          <li><strong>Trefferpunkte auf Stufe 1:</strong> 10 + dein Konstitutionsmodifikator</li>
+          <li><strong>Trefferpunkte auf höheren Stufen:</strong> 1W10 (oder 6) + dein Konstitutionsmodifikator pro Stufe als Waldläufer über die 1. Stufe hinaus</li>
+      </ul>
+      <h5>ÜBUNG</h5>
+      <ul class="unstyled mb">
+          <li><strong>Rüstungen:</strong> leichte Rüstungen, mittelschwere Rüstungen, Schilde</li>
+          <li><strong>Waffen:</strong> einfache Waffen, Kriegswaffen</li>
+          <li><strong>Werkzeuge:</strong> keine</li>
+      </ul>
+      <ul class="unstyled">
+          <li><strong>Rettungswürfe:</strong> Stärke, Geschicklichkeit</li>
+          <li><strong>Fertigkeiten:</strong> drei nach Wahl: Athletik, Heimlichkeit, Mit Tieren umgehen, Motiv erkennen, Nachforschungen, Naturkunde, Überlebenskunst oder Wahrnehmung</li>
+      </ul>
+      <h5>AUSRÜSTUNG</h5>
+      <p>Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:</p>
+      <ul>
+        <li><i>(a)</i> ein Schuppenpanzer oder <i>(b)</i> eine Lederrüstung</li>
+        <li><i>(a)</i> zwei Kurzschwerter oder <i>(b)</i> zwei einfache Nahkampfwaffen</li>
+        <li><i>(a)</i> eine Gewölbeforscherausrüstung oder <i>(b)</i> eine Entdeckerausrüstung</li>
+        <li>ein Langbogen mit 20 Pfeilen</li>
+      </ul>
+      <h5 class="caption">DER WALDLÄUFER</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-5">Stufe</td><td class="left">Merkmale</td><td class="col-10">Bekannte Zauber</td><td>1.</td><td>2.</td><td>3.</td><td>4.</td><td>5.</td></tr>
+        </thead>
+        <tr><td> 1</td><td class="left">Erzfeind, Bevorzugtes Gelände</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 2</td><td class="left">Kampfstil, Zauberwirken</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 3</td><td class="left">Waldläuferarchetyp, Urtümliche Wahrnehmung</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 4</td><td class="left">Attributswerterhöhung</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 5</td><td class="left">Zusätzlicher Angriff</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 6</td><td class="left">Verbesserung: Erzfeind, Verbesserung: Bevorzugtes Gelände</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 7</td><td class="left">Merkmal: Waldläuferarchetyp</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 8</td><td class="left">Attributswerterhöhung, Sicherer Schritt</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 9</td><td class="left">—</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td>10</td><td class="left">Verbesserung: Bevorzugtes Gelände, Tarnung</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td>11</td><td class="left">Merkmal: Waldläuferarchetyp</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>12</td><td class="left">Attributswerterhöhung</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>13</td><td class="left">—</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+        <tr><td>14</td><td class="left">Verbesserung: Erzfeind, Verschwinden</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+        <tr><td>15</td><td class="left">Merkmal: Waldläuferarchetyp</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>16</td><td class="left">Attributswerterhöhung</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>17</td><td class="left">—</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+        <tr><td>18</td><td class="left">Wildes Gespür</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+        <tr><td>19</td><td class="left">Attributswerterhöhung</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+        <tr><td>20</td><td class="left">Feindestöter</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+      </table>
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_FIGHTING_STYLE" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_ASI" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_EXTRA_ATTACK" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_LANDS_STRIDE" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_VANISH" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_FERAL_SENSES" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_FOE_SLAYER" />
+    </description>
+    <sheet display="false">
+      <description>Ein Krieger, der mit Kampfesmut und Naturmagie Bedrohungen am Rande der Zivilisation begegnet.</description>
+    </sheet>
+    <setters>
+      <set name="short">Ein Krieger, der mit Kampfesmut und Naturmagie Bedrohungen am Rande der Zivilisation begegnet.</set>
+      <set name="hd">d10</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
+      <select type="Proficiency" name="Geübte Fertigkeit (Waldläufer)" supports="Skill,Ranger" number="3" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER" />
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_FIGHTING_STYLE" level="2"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING" level="2"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" level="3"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS" level="3"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_ASI" level="4"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_EXTRA_ATTACK" level="5"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_LANDS_STRIDE" level="8"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT" level="10"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_VANISH" level="14"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_FERAL_SENSES" level="18"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_FOE_SLAYER" level="20"/>
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_RANGER">
+      <prerequisite>Dexterity 13 and Wisdom 13</prerequisite>
+      <requirements>([dex:13],[wis:13])</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class’s skill list</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+        <select type="Proficiency" name="Geübte Fertigkeit (Waldläufer)" supports="Skill,Ranger" number="1"/>
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Erzfeind" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY">
+    <description>
+      <p>Ab der 1. Stufe hast du im Beobachten, Aufspüren und Jagen einer bestimmten Art von Gegner tiefgreifende Erfahrungen gesammelt und kannst dich sogar mit diesen Kreaturen verständigen.</p>
+      <p class="indent">Suche dir eine Art von Erzfeind aus: Aberrationen, Drachen, Elementare, Feenwesen, himmlische Wesen, Konstrukte, Monstrositäten, Pflanzen, Riesen, Schlicke, Tiere, Unholde oder Untote. Alternativ kannst du auch zwei Völker der Humanoiden als Erzfeinde wählen (zum Beispiel Gnolle und Orks).</p>
+      <p class="indent">Du bist im Vorteil bei Würfen auf Weisheit (Überlebenskunst), wenn du deine Erzfeinde aufzuspüren versuchst, und bei Würfen auf Intelligenz, wenn es darum geht, dich an Informationen über deine Erzfeinde zu erinnern.</p>
+      <p class="indent">Außerdem erlernst du eine zusätzliche Sprache, die von einem deiner Erzfeinde gesprochen wird, falls es eine solche gibt.</p>
+      <p class="indent">Jeweils einen weiteren Erzfeind und eine entsprechende Sprache suchst du dir auf den Stufen 6 und 14 aus. Deine Wahl sollte die Kreaturen widerspiegeln, denen du in deinen Abenteuern begegnet bist.</p>
+    </description>
+    <sheet>
+      <description>Du bist im Vorteil bei Würfen auf Weisheit (Überlebenskunst), wenn du deine Erzfeinde aufzuspüren versuchst, und bei Würfen auf Intelligenz, wenn es darum geht, dich an Informationen über deine Erzfeinde zu erinnern.</description>
+    </sheet>
+    <rules>
+      <select type="Class Feature" name="Erzfeind" supports="Favored Enemy" level="1" />
+      <select type="Class Feature" name="Erzfeind" supports="Favored Enemy" level="6" />
+      <select type="Class Feature" name="Erzfeind" supports="Favored Enemy" level="14" />
+      <select type="Class Feature" name="Erzfeind, Humanoid" supports="Humanoid Favored Enemy" number="2" level="1" requirements="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_1" />
+      <select type="Class Feature" name="Erzfeind, Humanoid" supports="Humanoid Favored Enemy" number="2" level="6" requirements="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_2" />
+      <select type="Class Feature" name="Erzfeind, Humanoid" supports="Humanoid Favored Enemy" number="2" level="14" requirements="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_3" />
+      <select type="Language" name="Sprache (Erzfeind)" level="1" />
+      <select type="Language" name="Sprache (Erzfeind)" level="6" />
+      <select type="Language" name="Sprache (Erzfeind)" level="14" />
+    </rules>
+  </element>
+  <element name="Bevorzugtes Gelände" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER">
+    <description>
+      <p>Du bist mit einer bestimmten Art von natürlichem Gelände besonders vertraut und beim Reisen und Überleben in solchen Regionen sehr geschickt. Suche dir eine Art von bevorzugtem Gelände aus: Arktisch, Gebirge, Grasland, Küste, Sumpf, Unterreich, Wald oder Wüste. Musst du einen Wurf auf Weisheit oder Intelligenz im Zusammenhang mit deinem bevorzugten Gelände ablegen, wird dein Übungsbonus verdoppelt, falls du eine Fertigkeit anwendest, in der du geübt bist.</p>
+      <p class="indent">Wenn du länger als 1 Stunde in deinem bevorzugten Gelände reist, erhältst du folgende Vorzüge:</p>
+      <ul>
+        <li>Schwieriges Gelände verringert nicht das Reisetempo deiner Gruppe.</li>
+        <li>Deine Gruppe kann sich nicht verirren, außer aufgrund von Magie.</li>
+        <li>Selbst wenn du dich während des Reisens mit etwas anderem beschäftigst (wie Navigieren, Spuren lesen oder Vorräte sammeln), bleibst du aufmerksam gegenüber Gefahren.</li>
+        <li>Wenn du allein reist, kannst du dich heimlich fortbewegen, ohne den üblichen Geschwindigkeitsverlust hinnehmen zu müssen.</li>
+        <li>Beim Sammeln von Vorräten findest du doppelt so viel, wie es normalerweise der Fall ist.</li>
+        <li>Während du Spuren liest, erkennst du genau, um wie viele Kreaturen es sich handelt, wie groß sie sind und wann sie an dieser Stelle vorbeikamen.</li>
+      </ul>
+      <p class="indent">Auf Stufe 6 und 10 darfst du dir je ein weiteres bevorzugtes Gelände aussuchen.</p>
+    </description>
+    <sheet>
+      <description>Musst du einen Wurf auf Weisheit oder Intelligenz im Zusammenhang mit deinem bevorzugten Gelände ablegen, wird dein Übungsbonus verdoppelt, falls du eine Fertigkeit anwendest, in der du geübt bist. Wenn du länger als 1 Stunde in deinem bevorzugten Gelände reist, erhältst du weitere Vorzüge.</description>
+    </sheet>
+    <rules>
+      <select type="Class Feature" name="Bevorzugtes Gelände" supports="Favored Terrain" level="1" />
+      <select type="Class Feature" name="Bevorzugtes Gelände" supports="Favored Terrain" level="6" />
+      <select type="Class Feature" name="Bevorzugtes Gelände" supports="Favored Terrain" level="10" />
+    </rules>
+  </element>
+  <element name="Arktisch" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_ARCTIC">
+    <supports>Favored Terrain</supports>
+    <description>
+      <p>Du bist mit einer bestimmten Art von natürlichem Gelände besonders vertraut und beim Reisen und Überleben in solchen Regionen sehr geschickt. Suche dir eine Art von bevorzugtem Gelände aus: Arktisch, Gebirge, Grasland, Küste, Sumpf, Unterreich, Wald oder Wüste. Musst du einen Wurf auf Weisheit oder Intelligenz im Zusammenhang mit deinem bevorzugten Gelände ablegen, wird dein Übungsbonus verdoppelt, falls du eine Fertigkeit anwendest, in der du geübt bist.</p>
+      <p class="indent">Wenn du länger als 1 Stunde in deinem bevorzugten Gelände reist, erhältst du folgende Vorzüge:</p>
+      <ul>
+        <li>Schwieriges Gelände verringert nicht das Reisetempo deiner Gruppe.</li>
+        <li>Deine Gruppe kann sich nicht verirren, außer aufgrund von Magie.</li>
+        <li>Selbst wenn du dich während des Reisens mit etwas anderem beschäftigst (wie Navigieren, Spuren lesen oder Vorräte sammeln), bleibst du aufmerksam gegenüber Gefahren.</li>
+        <li>Wenn du allein reist, kannst du dich heimlich fortbewegen, ohne den üblichen Geschwindigkeitsverlust hinnehmen zu müssen.</li>
+        <li>Beim Sammeln von Vorräten findest du doppelt so viel, wie es normalerweise der Fall ist.</li>
+        <li>Während du Spuren liest, erkennst du genau, um wie viele Kreaturen es sich handelt, wie groß sie sind und wann sie an dieser Stelle vorbeikamen.</li>
+      </ul>
+    </description>
+  </element>
+  <element name="Gebirge" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_COAST">
+    <supports>Favored Terrain</supports>
+    <description>
+      <p>Du bist mit einer bestimmten Art von natürlichem Gelände besonders vertraut und beim Reisen und Überleben in solchen Regionen sehr geschickt. Suche dir eine Art von bevorzugtem Gelände aus: Arktisch, Gebirge, Grasland, Küste, Sumpf, Unterreich, Wald oder Wüste. Musst du einen Wurf auf Weisheit oder Intelligenz im Zusammenhang mit deinem bevorzugten Gelände ablegen, wird dein Übungsbonus verdoppelt, falls du eine Fertigkeit anwendest, in der du geübt bist.</p>
+      <p class="indent">Wenn du länger als 1 Stunde in deinem bevorzugten Gelände reist, erhältst du folgende Vorzüge:</p>
+      <ul>
+        <li>Schwieriges Gelände verringert nicht das Reisetempo deiner Gruppe.</li>
+        <li>Deine Gruppe kann sich nicht verirren, außer aufgrund von Magie.</li>
+        <li>Selbst wenn du dich während des Reisens mit etwas anderem beschäftigst (wie Navigieren, Spuren lesen oder Vorräte sammeln), bleibst du aufmerksam gegenüber Gefahren.</li>
+        <li>Wenn du allein reist, kannst du dich heimlich fortbewegen, ohne den üblichen Geschwindigkeitsverlust hinnehmen zu müssen.</li>
+        <li>Beim Sammeln von Vorräten findest du doppelt so viel, wie es normalerweise der Fall ist.</li>
+        <li>Während du Spuren liest, erkennst du genau, um wie viele Kreaturen es sich handelt, wie groß sie sind und wann sie an dieser Stelle vorbeikamen.</li>
+      </ul>
+    </description>
+  </element>
+  <element name="Grasland" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_DESERT">
+    <supports>Favored Terrain</supports>
+    <description>
+      <p>Du bist mit einer bestimmten Art von natürlichem Gelände besonders vertraut und beim Reisen und Überleben in solchen Regionen sehr geschickt. Suche dir eine Art von bevorzugtem Gelände aus: Arktisch, Gebirge, Grasland, Küste, Sumpf, Unterreich, Wald oder Wüste. Musst du einen Wurf auf Weisheit oder Intelligenz im Zusammenhang mit deinem bevorzugten Gelände ablegen, wird dein Übungsbonus verdoppelt, falls du eine Fertigkeit anwendest, in der du geübt bist.</p>
+      <p class="indent">Wenn du länger als 1 Stunde in deinem bevorzugten Gelände reist, erhältst du folgende Vorzüge:</p>
+      <ul>
+        <li>Schwieriges Gelände verringert nicht das Reisetempo deiner Gruppe.</li>
+        <li>Deine Gruppe kann sich nicht verirren, außer aufgrund von Magie.</li>
+        <li>Selbst wenn du dich während des Reisens mit etwas anderem beschäftigst (wie Navigieren, Spuren lesen oder Vorräte sammeln), bleibst du aufmerksam gegenüber Gefahren.</li>
+        <li>Wenn du allein reist, kannst du dich heimlich fortbewegen, ohne den üblichen Geschwindigkeitsverlust hinnehmen zu müssen.</li>
+        <li>Beim Sammeln von Vorräten findest du doppelt so viel, wie es normalerweise der Fall ist.</li>
+        <li>Während du Spuren liest, erkennst du genau, um wie viele Kreaturen es sich handelt, wie groß sie sind und wann sie an dieser Stelle vorbeikamen.</li>
+      </ul>
+    </description>
+  </element>
+  <element name="Küste" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_FOREST">
+    <supports>Favored Terrain</supports>
+    <description>
+      <p>Du bist mit einer bestimmten Art von natürlichem Gelände besonders vertraut und beim Reisen und Überleben in solchen Regionen sehr geschickt. Suche dir eine Art von bevorzugtem Gelände aus: Arktisch, Gebirge, Grasland, Küste, Sumpf, Unterreich, Wald oder Wüste. Musst du einen Wurf auf Weisheit oder Intelligenz im Zusammenhang mit deinem bevorzugten Gelände ablegen, wird dein Übungsbonus verdoppelt, falls du eine Fertigkeit anwendest, in der du geübt bist.</p>
+      <p class="indent">Wenn du länger als 1 Stunde in deinem bevorzugten Gelände reist, erhältst du folgende Vorzüge:</p>
+      <ul>
+        <li>Schwieriges Gelände verringert nicht das Reisetempo deiner Gruppe.</li>
+        <li>Deine Gruppe kann sich nicht verirren, außer aufgrund von Magie.</li>
+        <li>Selbst wenn du dich während des Reisens mit etwas anderem beschäftigst (wie Navigieren, Spuren lesen oder Vorräte sammeln), bleibst du aufmerksam gegenüber Gefahren.</li>
+        <li>Wenn du allein reist, kannst du dich heimlich fortbewegen, ohne den üblichen Geschwindigkeitsverlust hinnehmen zu müssen.</li>
+        <li>Beim Sammeln von Vorräten findest du doppelt so viel, wie es normalerweise der Fall ist.</li>
+        <li>Während du Spuren liest, erkennst du genau, um wie viele Kreaturen es sich handelt, wie groß sie sind und wann sie an dieser Stelle vorbeikamen.</li>
+      </ul>
+    </description>
+  </element>
+  <element name="Sumpf" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_GRASSLAND">
+    <supports>Favored Terrain</supports>
+    <description>
+      <p>Du bist mit einer bestimmten Art von natürlichem Gelände besonders vertraut und beim Reisen und Überleben in solchen Regionen sehr geschickt. Suche dir eine Art von bevorzugtem Gelände aus: Arktisch, Gebirge, Grasland, Küste, Sumpf, Unterreich, Wald oder Wüste. Musst du einen Wurf auf Weisheit oder Intelligenz im Zusammenhang mit deinem bevorzugten Gelände ablegen, wird dein Übungsbonus verdoppelt, falls du eine Fertigkeit anwendest, in der du geübt bist.</p>
+      <p class="indent">Wenn du länger als 1 Stunde in deinem bevorzugten Gelände reist, erhältst du folgende Vorzüge:</p>
+      <ul>
+        <li>Schwieriges Gelände verringert nicht das Reisetempo deiner Gruppe.</li>
+        <li>Deine Gruppe kann sich nicht verirren, außer aufgrund von Magie.</li>
+        <li>Selbst wenn du dich während des Reisens mit etwas anderem beschäftigst (wie Navigieren, Spuren lesen oder Vorräte sammeln), bleibst du aufmerksam gegenüber Gefahren.</li>
+        <li>Wenn du allein reist, kannst du dich heimlich fortbewegen, ohne den üblichen Geschwindigkeitsverlust hinnehmen zu müssen.</li>
+        <li>Beim Sammeln von Vorräten findest du doppelt so viel, wie es normalerweise der Fall ist.</li>
+        <li>Während du Spuren liest, erkennst du genau, um wie viele Kreaturen es sich handelt, wie groß sie sind und wann sie an dieser Stelle vorbeikamen.</li>
+      </ul>
+    </description>
+  </element>
+  <element name="Unterreich" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_MOUNTAIN">
+    <supports>Favored Terrain</supports>
+    <description>
+      <p>Du bist mit einer bestimmten Art von natürlichem Gelände besonders vertraut und beim Reisen und Überleben in solchen Regionen sehr geschickt. Suche dir eine Art von bevorzugtem Gelände aus: Arktisch, Gebirge, Grasland, Küste, Sumpf, Unterreich, Wald oder Wüste. Musst du einen Wurf auf Weisheit oder Intelligenz im Zusammenhang mit deinem bevorzugten Gelände ablegen, wird dein Übungsbonus verdoppelt, falls du eine Fertigkeit anwendest, in der du geübt bist.</p>
+      <p class="indent">Wenn du länger als 1 Stunde in deinem bevorzugten Gelände reist, erhältst du folgende Vorzüge:</p>
+      <ul>
+        <li>Schwieriges Gelände verringert nicht das Reisetempo deiner Gruppe.</li>
+        <li>Deine Gruppe kann sich nicht verirren, außer aufgrund von Magie.</li>
+        <li>Selbst wenn du dich während des Reisens mit etwas anderem beschäftigst (wie Navigieren, Spuren lesen oder Vorräte sammeln), bleibst du aufmerksam gegenüber Gefahren.</li>
+        <li>Wenn du allein reist, kannst du dich heimlich fortbewegen, ohne den üblichen Geschwindigkeitsverlust hinnehmen zu müssen.</li>
+        <li>Beim Sammeln von Vorräten findest du doppelt so viel, wie es normalerweise der Fall ist.</li>
+        <li>Während du Spuren liest, erkennst du genau, um wie viele Kreaturen es sich handelt, wie groß sie sind und wann sie an dieser Stelle vorbeikamen.</li>
+      </ul>
+    </description>
+  </element>
+  <element name="Wald" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_SWAMP">
+    <supports>Favored Terrain</supports>
+    <description>
+      <p>Du bist mit einer bestimmten Art von natürlichem Gelände besonders vertraut und beim Reisen und Überleben in solchen Regionen sehr geschickt. Suche dir eine Art von bevorzugtem Gelände aus: Arktisch, Gebirge, Grasland, Küste, Sumpf, Unterreich, Wald oder Wüste. Musst du einen Wurf auf Weisheit oder Intelligenz im Zusammenhang mit deinem bevorzugten Gelände ablegen, wird dein Übungsbonus verdoppelt, falls du eine Fertigkeit anwendest, in der du geübt bist.</p>
+      <p class="indent">Wenn du länger als 1 Stunde in deinem bevorzugten Gelände reist, erhältst du folgende Vorzüge:</p>
+      <ul>
+        <li>Schwieriges Gelände verringert nicht das Reisetempo deiner Gruppe.</li>
+        <li>Deine Gruppe kann sich nicht verirren, außer aufgrund von Magie.</li>
+        <li>Selbst wenn du dich während des Reisens mit etwas anderem beschäftigst (wie Navigieren, Spuren lesen oder Vorräte sammeln), bleibst du aufmerksam gegenüber Gefahren.</li>
+        <li>Wenn du allein reist, kannst du dich heimlich fortbewegen, ohne den üblichen Geschwindigkeitsverlust hinnehmen zu müssen.</li>
+        <li>Beim Sammeln von Vorräten findest du doppelt so viel, wie es normalerweise der Fall ist.</li>
+        <li>Während du Spuren liest, erkennst du genau, um wie viele Kreaturen es sich handelt, wie groß sie sind und wann sie an dieser Stelle vorbeikamen.</li>
+      </ul>
+    </description>
+  </element>
+  <element name="Wüste" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_NATURAL_EXPLORER_FT_UNDERDARK">
+    <supports>Favored Terrain</supports>
+    <description>
+      <p>Du bist mit einer bestimmten Art von natürlichem Gelände besonders vertraut und beim Reisen und Überleben in solchen Regionen sehr geschickt. Suche dir eine Art von bevorzugtem Gelände aus: Arktisch, Gebirge, Grasland, Küste, Sumpf, Unterreich, Wald oder Wüste. Musst du einen Wurf auf Weisheit oder Intelligenz im Zusammenhang mit deinem bevorzugten Gelände ablegen, wird dein Übungsbonus verdoppelt, falls du eine Fertigkeit anwendest, in der du geübt bist.</p>
+      <p class="indent">Wenn du länger als 1 Stunde in deinem bevorzugten Gelände reist, erhältst du folgende Vorzüge:</p>
+      <ul>
+        <li>Schwieriges Gelände verringert nicht das Reisetempo deiner Gruppe.</li>
+        <li>Deine Gruppe kann sich nicht verirren, außer aufgrund von Magie.</li>
+        <li>Selbst wenn du dich während des Reisens mit etwas anderem beschäftigst (wie Navigieren, Spuren lesen oder Vorräte sammeln), bleibst du aufmerksam gegenüber Gefahren.</li>
+        <li>Wenn du allein reist, kannst du dich heimlich fortbewegen, ohne den üblichen Geschwindigkeitsverlust hinnehmen zu müssen.</li>
+        <li>Beim Sammeln von Vorräten findest du doppelt so viel, wie es normalerweise der Fall ist.</li>
+        <li>Während du Spuren liest, erkennst du genau, um wie viele Kreaturen es sich handelt, wie groß sie sind und wann sie an dieser Stelle vorbeikamen.</li>
+      </ul>
+    </description>
+  </element>
+  <element name="Kampfstil" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FIGHTING_STYLE">
+    <description>
+      <p>Du wählst eine bestimmte Art zu kämpfen als Spezialisierung. Suche dir eine der folgenden Möglichkeiten aus. Du kannst keinen der Stile mehr als einmal wählen, selbst wenn du später erneut aussuchen darfst.</p>
+      <h5 class="caption">BOGENSCHIESSEN</h5>
+      <p>Du erhältst einen Bonus von +2 auf alle Angriffswürfe mit Fernkampfwaffen.</p>
+      <h5 class="caption">DUELLIEREN</h5>
+      <p>Kämpfst du nur mit einer einhändig geführten Nahkampfwaffe und keiner Waffe in der anderen Hand, erhältst du einen Bonus von +2 auf die Schadenswürfe mit dieser Waffe.</p>
+      <h5 class="caption">KAMPF MIT ZWEI WAFFEN</h5>
+      <p>Wenn du mit zwei Waffen angreifst, kannst du den passenden Attributsmodifikator zum Schaden der zweiten Waffe addieren.</p>
+      <h5 class="caption">VERTEIDIGUNG</h5>
+      <p>Solange du eine Rüstung trägst, erhältst du einen Bonus von +1 auf deine Rüstungsklasse (RK).</p>
+    </description>
+    <rules>
+      <select type="Class Feature" name="Kampfstil" supports="Fighting Style,Ranger" level="2"/>
+    </rules>
+  </element>
+  <element name="Zauberwirken" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING">
+    <description>
+      <p>Mit Erreichen der 2. Stufe hast du gelernt, die magische Essenz der Natur zu nutzen, um Zauber zu wirken. Für allgemeine Informationen zum Wirken von Zaubern siehe Kapitel 10 „Zauber wirken" und für die Zauberliste des Waldläufers Kapitel 11 „Zauber".</p>
+      <h5>ZAUBERPLÄTZE</h5>
+      <p>Die Aufstiegstabelle des Waldläufers gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen dir bekannten Spruch zu wirken, musst du einen Zau-berplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung.</p>
+      <p class="indent">Ist dir beispielsweise der Zauber <i>Tierfreundschaft</i> des 1. Grades bekannt und besitzt du sowohl einen freien Zauberplatz des 1. Grades und einen des 2. Grades, kannst du jeden der beiden Zauberplätze verwenden, um <i>Tierfreundschaft</i> zu wirken.</p>
+      <h5>BEKANNTE ZAUBER DES 1. GRADES UND HÖHER</h5>
+      <p>Du kennst zwei frei wählbare Zauber des 1. Grades aus der Zauberliste des Waldläufers.</p>
+      <p class="indent">Der Spalte „Bekannte Zauber" der Tabelle kannst du entnehmen, wie viele neue Sprüche du dir bei einem Stufen aufstieg aus der Zauberliste des Waldläufers aussuchen darfst. Dabei kannst du nur Zauber wählen, für deren Grad du auch Zauberplätze besitzt. Erreichst du zum Beispiel die 5. Stufe als Waldläufer, darfst du einen neuen Zauber des 1. oder 2. Grades erlernen..</p>
+      <p class="indent">Sobald du eine Stufe in dieser Klasse aufsteigst, kannst du außerdem einen der Waldläuferzauber, die dir bereits bekannt sind, mit einem anderen aus der Zauberliste ersetzen. Auch für diesen musst du einen dem Grad des Spruches entsprechenden Zauberplatz besitzen.</p>
+      <h5>ATTRIBUT ZUM ZAUBERWIRKEN</h5>
+      <p>Das Attribut, mit dem du deine Waldläuferzauber wirkst, ist Weisheit, da du mit der Natur in Einklang stehen musst.</p>
+      <p class="indent">Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Weisheit. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Klerikerzauber bestimmt, ziehst du deinen Weisheitsmodifikator hinzu. Bei Angriffen mit deinen Waldläuferzaubern findet ebenfalls der Weisheitsmodifikator Anwendung.</p>
+      <center>
+        <p><strong>SG für Rettungswürfe</strong> = 8 + dein Übungsbonus + dein Weisheitsmodifikator</p>
+        <p><strong>Modifikator für Zauberangriffe</strong> = dein Übungsbonus + dein Weisheitsmodifikator</p>
+      </center>
+    </description>
+    <sheet display="false">
+      <description></description>
+    </sheet>
+    <spellcasting name="Ranger" ability="Wisdom" allowReplace="true">
+      <list>Ranger</list>
+    </spellcasting>
+    <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+        <stat name="ranger:spellcasting:slots:1" value="2" level="2" />
+        <stat name="ranger:spellcasting:slots:1" value="1" level="3" />
+        <stat name="ranger:spellcasting:slots:1" value="1" level="5" />
+        <stat name="ranger:spellcasting:slots:2" value="2" level="5" />
+        <stat name="ranger:spellcasting:slots:2" value="1" level="7" />
+        <stat name="ranger:spellcasting:slots:3" value="2" level="9" />
+        <stat name="ranger:spellcasting:slots:3" value="1" level="11" />
+        <stat name="ranger:spellcasting:slots:4" value="1" level="13" />
+        <stat name="ranger:spellcasting:slots:4" value="1" level="15" />
+        <stat name="ranger:spellcasting:slots:4" value="1" level="17" />
+        <stat name="ranger:spellcasting:slots:5" value="1" level="17" />
+        <stat name="ranger:spellcasting:slots:5" value="1" level="19" />
+        <select type="Spell" name="Spellcasting (Waldläufer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" number="2" spellcasting="Ranger"/>
+        <select type="Spell" name="Spellcasting (Waldläufer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Ranger" />
+        <select type="Spell" name="Spellcasting (Waldläufer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Ranger" />
+        <select type="Spell" name="Spellcasting (Waldläufer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Ranger" />
+        <select type="Spell" name="Spellcasting (Waldläufer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Ranger" />
+        <select type="Spell" name="Spellcasting (Waldläufer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Ranger" />
+        <select type="Spell" name="Spellcasting (Waldläufer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Ranger" />
+        <select type="Spell" name="Spellcasting (Waldläufer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Ranger" />
+        <select type="Spell" name="Spellcasting (Waldläufer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Ranger" />
+        <select type="Spell" name="Spellcasting (Waldläufer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Ranger" />
+    </rules>
+  </element>
+  <element name="Waldläuferarchetyp" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_RANGER_ARCHETYPE">
+    <description>
+      <p>Auf der 3. Stufe suchst du dir einen Archetypen aus. dem du nacheiferst und der deinen Weg als Waldläufer bestimmt. Entscheide dich für den Jäger oder den Herrn der Tiere. Beide Archetypen sind am Ende dieses Abschnitts ausführlich beschrieben.</p>
+      <p class="indent">Deine Wahl gewährt dir auf der 3., 7., 11. und 15. Stufe jeweils ein Merkmal.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Waldläuferarchetyp" supports="Ranger Archetype" />
+    </rules>
+  </element>
+  <element name="Urtümliche Wahrnehmung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS">
+    <description>
+      <p>Ab der 3. Stufe kannst du als Aktion einen Zauberplatz aufgeben, um deine Wahrnehmung auf die unmittelbare Umgebung zu konzentrieren. Für 1 Minute pro Grad des aufgewendeten Zauberplatzes kannst du spüren, ob sich eine der folgenden Kreaturenarten innerhalb von 1,5 km befindet (9 km, wenn es sich um eines deiner bevorzugten Gelände handelt): Aberrationen, Drachen, Elementare, Feenwesen, himmlische Wesen, Unholde und Untote. Durch dieses Merkmal erfährst du weder den Ort noch die Anzahl der Kreaturen.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Du kannst einen Zauberplatz aufgeben, um deine Wahrnehmung auf die unmittelbare Umgebung zu konzentrieren. Für 1 Minute pro Grad des aufgewendeten Zauberplatzes kannst du spüren, ob sich eine der folgenden Kreaturenarten innerhalb von 1,5 km befindet (9 km, wenn es sich um eines deiner bevorzugten Gelände handelt): Aberrationen, Drachen, Elementare, Feenwesen, himmlische Wesen, Unholde und Untote. Durch dieses Merkmal erfährst du weder den Ort noch die Anzahl der Kreaturen.</description>
+    </sheet>
+  </element>
+  <element name="Attributswerterhöhung (Waldläufer)" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_ASI">
+  	<compendium display="false" />
+    <description>
+      <p>Beim Erreichen der 4. Stufe und dann wieder auf der 8., 12., 16. und 19. Stufe kannst du einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Attributswerterhöhung (Waldläufer 4)" supports="Improvement Option,Waldlaeufer,4" level="4" />
+      <select type="Class Feature" name="Attributswerterhöhung (Waldläufer 8)" supports="Improvement Option,Waldlaeufer,8" level="8" />
+      <select type="Class Feature" name="Attributswerterhöhung (Waldläufer 12)" supports="Improvement Option,Waldlaeufer,12" level="12" />
+      <select type="Class Feature" name="Attributswerterhöhung (Waldläufer 16)" supports="Improvement Option,Waldlaeufer,16" level="16" />
+      <select type="Class Feature" name="Attributswerterhöhung (Waldläufer 19)" supports="Improvement Option,Waldlaeufer,19" level="19" />
+    </rules>
+  </element>
+  <element name="Zusätzlicher Angriff" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_EXTRA_ATTACK">
+    <description>
+      <p>Ab der 5. Stufe kannst du zweimal anstatt einmal angreifen, wenn du deine Angriffsaktion in deinem Zug einsetzt.</p>
+    </description>
+    <sheet>
+      <description>Du kannst zweimal anstatt einmal angreifen, wenn du eine Angriffsaktion in deinem Zug ausführst.</description>
+    </sheet>
+	<rules>
+		<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+	</rules>
+  </element>
+  <element name="Sicherer Schritt" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_LANDS_STRIDE">
+    <description>
+      <p>Von der 8. Stufe an kostet es dich keine zusätzliche Bewegung mehr, nicht-magisches schwieriges Gelände zu durchqueren. Du kannst dich auch durch nicht-magische Pflanzen bewegen, ohne von ihnen verlangsamt oder verletzt zu werden, wie es etwa bei Dornen, Stacheln oder ähnlichen Gefahren der Fall wäre.</p>
+      <p class="indent">Darüber hinaus bist du im Vorteil bei Rettungswürfen gegen Pflanzen, die magisch erschaffen oder manipuliert wurden, um deine Bewegung einzuschränken, wie etwa durch den Zauber <i>Verstricken</i>.</p>
+    </description>
+    <sheet>
+      <description>Es kostet dich keine zusätzliche Bewegung mehr, nicht-magisches schwieriges Gelände zu durchqueren. Darüber hinaus bist du im Vorteil bei Rettungswürfen gegen Pflanzen, die magisch erschaffen oder manipuliert wurden, um deine Bewegung einzuschränken, wie etwa durch den Zauber <i>Verstricken</i>.</description>
+    </sheet>
+  </element>
+  <element name="Tarnung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT">
+    <description>
+      <p>Beginnend mit Stufe 10 kannst du dir innerhalb von 1 Minute eine Tarnung verschaffen. Du musst frischen Schlamm, Schmutz, Pflanzen, Ruß oder andere natürlich vorkommende Materialien zur Verfügung haben, die dazu geeignet sind. Bist du auf diese Weise getarnt, kannst du dich verstecken, indem du dich gegen eine feste Oberfläche drückst (etwa einen Baum oder eine Mauer), die mindestens so hoch und breit ist wie du selbst.</p>
+      <p class="indent">Du erhältst einen Bonus von +10 auf Fertigkeitswürfe in Geschicklichkeit (Heimlichkeit), solange du in dieser Position verharrst. Sobald du dich bewegst oder eine Aktion oder Reaktion ausführst, musst du dich wieder von Neuem tarnen, um diesen Vorzug zu erhalten.</p>
+    </description>
+    <sheet>
+      <description>Du kannst dir innerhalb von 1 Minute eine Tarnung verschaffen. Du erhältst einen Bonus von +10 auf Fertigkeitswürfe in Geschicklichkeit (Heimlichkeit), solange du in dieser Position verharrst. Sobald du dich bewegst oder eine Aktion oder Reaktion ausführst, musst du dich wieder von Neuem tarnen, um diesen Vorzug zu erhalten.</description>
+    </sheet>
+  </element>
+  <element name="Verschwinden" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_VANISH">
+    <description>
+      <p>Du kannst dich ab der 14. Stufe als Bonusaktion in deinem Zug verstecken. Außerdem kannst du nicht mehr durch nicht-magische Methoden aufgespürt werden, außer du möchtest absichtlich eine Fährte hinterlassen.</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Du kannst die Verstecken Aktion nutzen. Außerdem kannst du nicht mehr durch nicht-magische Methoden aufgespürt werden, außer du möchtest absichtlich eine Fährte hinterlassen.</description>
+    </sheet>
+  </element>
+  <element name="Wilde Sinne" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FERAL_SENSES">
+    <description>
+      <p>Ab der 18. Stufe besitzt du übernatürliche Sinne, die dir im Kampf gegen Kreaturen helfen, die du nicht sehen kannst. Wenn du eine solche Kreatur angreifst, bist du aufgrund deiner Unfähigkeit, sie zu sehen, nicht mehr im Nachteil bei deinen Angriffswürfen gegen sie.</p>
+      <p class="indent">Du kennst außerdem den Standort jeder unsichtbaren Kreatur im Umkreis von 6 m, solange sie sich nicht vor dir versteckt und du weder geblendet noch taub bist.</p>
+    </description>
+    <sheet>
+      <description>Wenn du eine Kreatur angreifst, die du nicht sehen kannst, bist du aufgrund deiner Unfähigkeit, sie zu sehen, nicht mehr im Nachteil bei deinen Angriffswürfen gegen sie. Du kennst den Standort jeder unsichtbaren Kreatur im Umkreis von 6 m, solange sie sich nicht vor dir versteckt und du weder geblendet noch taub bist.</description>
+    </sheet>
+  </element>
+  <element name="Feindestöter" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FOE_SLAYER">
+    <description>
+      <p>Auf Stufe 20 wirst du zu einem beispiellosen Jäger deiner Feinde. Einmal in jedem deiner Züge darfst du deinen Weisheitsmodifikator zu einem Angriffs- oder Schadenswurf addieren, den du gegen einen deiner Erzfeinde ausführst. Du kannst dir aussuchen, ob du die Fähigkeit vor oder nach deinem Wurf einsetzt, musst dich jedoch entscheiden, bevor das Ergebnis des Wurfs angewendet wird.</p>
+    </description>
+    <sheet>
+      <description>Einmal in jedem deiner Züge darfst du deinen Weisheitsmodifikator (+{{wisdom:modifier}}) zu einem Angriffs- oder Schadenswurf addieren, den du gegen einen deiner Erzfeinde ausführst. Du kannst dir aussuchen, ob du die Fähigkeit vor oder nach deinem Wurf einsetzt, musst dich jedoch entscheiden, bevor das Ergebnis des Wurfs angewendet wird.</description>
+    </sheet>
+  </element>
+  <!-- Hunter -->
+  <element name="Jäger" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPE_RANGER_HUNTER">
+    <supports>Ranger Archetype</supports>
+    <description>
+      <p>Den Archetypen des Jägers zu verkörpern, bedeutet, deinen Platz als Bollwerk zwischen der Zivilisation und den Schrecken der Wildnis zu akzeptieren. Während du auf dem Weg des Jägers voranschreitest, lernst du spezialisierte Techniken, um sämtliche Gefahren auszuschalten, denen du dich entgegenstellst, von wütenden Ogern und Orkhorden bis hin zu Riesen und schrecklichen Drachen.</p>
+      <div element="ID_WOTC_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY" />
+      <div element="ID_WOTC_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS" />
+      <div element="ID_WOTC_ARCHETYPEFEATURE_RANGER_MULTIATTACK" />
+      <div element="ID_WOTC_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE" />
+    </description>
+		<sheet display="false">
+      <description>Den Archetypen des Jägers zu verkörpern, bedeutet, deinen Platz als Bollwerk zwischen der Zivilisation und den Schrecken der Wildnis zu akzeptieren.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS" level="7" />
+      <grant type="Archetype Feature" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_MULTIATTACK" level="11" />
+      <grant type="Archetype Feature" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE" level="15" />
+    </rules>
+  </element>
+  <element name="Des Jägers Beute" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY">
+    <description>
+      <p>Auf Stufe 3 erhältst du eines der folgenden Merkmale deiner Wahl:</p>
+      <p class="indent"><strong><em>Kolossschlächter:</em></strong> Deine Hartnäckigkeit kann die mächtigsten Gegner bezwingen. Wenn du mit deinem Waffenangriff eine Kreatur triffst, die weniger Trefferpunkte als ihr Maximum besitzt, erleidet sie zusätzlich 1W8 Schaden. Du kannst diesen zusätzlichen Schaden nur einmal pro Zug verursachen.</p>
+      <p class="indent"><strong><em>Riesentöter:</em></strong> Trifft oder verfehlt dich innerhalb von 1,50 m eine Kreatur der Größenkategorie groß oder größer, kannst du deine Reaktion dazu verwenden, um sofort nach diesem Angriff selbst anzugreifen. Du musst die Kreatur dafür sehen können.</p>
+      <p class="indent"><strong><em>Hordenbrecher:</em></strong> Wenn du mit einer Waffe angreifst, kannst du einmal in jedem deiner Züge einen weiteren Angriff mit derselben Waffe auf eine andere Kreatur ausführen. Das Ziel dieses Angriffs muss sich innerhalb von 1,50 m von deinem ursprünglichen Ziel befinden und in Reichweite deiner Waffe sein.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Des Jägers Beute" supports="Hunters Pray" />
+    </rules>
+  </element>
+  <element name="Defensive Taktiken" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS">
+    <description>
+      <p>Beim Erreichen der 7. Stufe erhältst du eines der folgenden Merkmale nach Wahl:</p>
+        <p class="indent"><strong><em>Der Horde entkommen:</em></strong> Gelegenheitsangriffe gegen dich sind im Nachteil.</p>
+        <p class="indent"><strong><em>Verteidigung gegen Mehrfachangriffe:</em></strong> Sobald dich eine Kreatur mit einem Angriff trifft, erhältst du einen Bonus von *4 auf deine Rüstungsklasse für alle weiteren Angriffe, die von dieser Kreatur in diesem Zug ausgeführt werden.</p>
+        <p class="indent"><strong><em>Eiserner Wille:</em></strong> Du bist bei Rettungswürfen gegen Effekte, die dich verängstigen, im Vorteil.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Defensive Taktiken" supports="Defensive Tactics" />
+    </rules>
+  </element>
+  <element name="Mehrfachangriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_MULTIATTACK">
+    <description>
+      <p>Mit der 11. Stufe erhältst du eines der folgenden Merkmale deiner Wahl:</p>
+      <p class="indent"><strong><em>Geschosshagel:</em></strong> Du kannst deine Aktion nutzen, um einen Fernkampfangriff gegen eine beliebige Anzahl an Kreaturen auszuführen, die sich im Umkreis von 3 m zu einem Punkt befinden, den du sehen kannst und der in der Reichweite deiner Waffe liegt. Du musst für jeden Angriff Munition aufwenden und die Angriffswürfe für jedes Ziel einzeln ausführen.</p>
+      <p class="indent"><strong><em>Wirbelwindangriff:</em></strong> Du kannst deine Aktion nutzen, um einen Nahkampfangriff gegen eine beliebige Anzahl an Kreaturen innerhalb von 1,50 m auszuführen. Für jedes Ziel ist ein eigener Angriffswurf notwendig.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Mehrfachangriff" supports="Multiattack" />
+    </rules>
+  </element>
+  <element name="Ausserordentliche Verteidigung des Jägers" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE">
+    <description>
+      <p>Stufe 15 erhältst du eines der folgenden Merkmale deiner Wahl:</p>
+      <p class="indent"><strong><em>Entrinnen:</em></strong> Wenn du einem Effekt ausgesetzt wirst, der einen Geschicklichkeitsrettungswurf erlaubt, um den Schaden zu halbieren (wie etwa dem Feuerodem eines roten Drachen oder dem Zauber <i>Feuerball</i>), nimmst du bei einem erfolgreichen Rettungswurf gar keinen Schaden und bei einem Misserfolg lediglich die Hälfte des Schadens.</p>
+      <p class="indent"><strong><em>Gegen den Strom:</em></strong> Verfehlt dich eine feindliche Kreatur mit einem Nahkampfangriff, kannst du deine Reaktion nutzen, um die Kreatur zu zwingen, den gleichen Angriff gegen eine andere Kreatur deiner Wahl (außer ihr selbst) auszuführen.</p>
+      <p class="indent"><strong><em>Unglaubliches Ausweichen:</em></strong> Trifft dich eine Kreatur, die du sehen kannst, mit einem Angriff, kannst du deine Reaktion nutzen, um den Schaden des Angriffs gegen dich zu halbieren.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Ausserordentliche Verteidigung des Jägers" supports="Superior Hunters Defense" />
+    </rules>
+  </element>
+  <!-- Hunter’s Prey Options -->
+  <element name="Kolossschlächter" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY_COLOSSUS_SLAYER">
+    <supports>Hunters Pray</supports>
+    <description>
+      <p>Deine Hartnäckigkeit kann die mächtigsten Gegner bezwingen. Wenn du mit deinem Waffenangriff eine Kreatur triffst, die weniger Trefferpunkte als ihr Maximum besitzt, erleidet sie zusätzlich 1W8 Schaden. Du kannst diesen zusätzlichen Schaden nur einmal pro Zug verursachen.</p>
+    </description>
+		<sheet usage="1/Zug">
+      <description>Wenn du mit deinem Waffenangriff eine Kreatur triffst, die weniger Trefferpunkte als ihr Maximum besitzt, erleidet sie zusätzlich 1W8 Schaden.</description>
+    </sheet>
+  </element>
+  <element name="Riesentöter" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY_GIANT_KILLER">
+    <supports>Hunters Pray</supports>
+    <description>
+      <p>Trifft oder verfehlt dich innerhalb von 1,50 m eine Kreatur der Größenkategorie groß oder größer, kannst du deine Reaktion dazu verwenden, um sofort nach diesem Angriff selbst anzugreifen. Du musst die Kreatur dafür sehen können.</p>
+    </description>
+    <sheet action="Reaktion">
+      <description>Trifft oder verfehlt dich innerhalb von 1,50 m eine Kreatur der Größenkategorie groß oder größer, kannst du sofort nach diesem Angriff selbst angreifen. Du musst die Kreatur dafür sehen können.</description>
+    </sheet>
+  </element>
+  <element name="Hordenbrecher" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY_HORDE_BREAKER">
+    <supports>Hunters Pray</supports>
+    <description>
+      <p>Wenn du mit einer Waffe angreifst, kannst du einmal in jedem deiner Züge einen weiteren Angriff mit derselben Waffe auf eine andere Kreatur ausführen. Das Ziel dieses Angriffs muss sich innerhalb von 1,50 m von deinem ursprünglichen Ziel befinden und in Reichweite deiner Waffe sein.</p>
+    </description>
+    <sheet>
+      <description>Wenn du mit einer Waffe angreifst, kannst du einmal in jedem deiner Züge einen weiteren Angriff mit derselben Waffe auf eine andere Kreatur ausführen. Das Ziel dieses Angriffs muss sich innerhalb von 1,50 m von deinem ursprünglichen Ziel befinden und in Reichweite deiner Waffe sein.</description>
+    </sheet>
+  </element>
+  <!-- Defensive Tactics -->
+  <element name="Der Horde entkommen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS_ESCAPE_THE_HORDE">
+    <supports>Defensive Tactics</supports>
+    <description>
+      <p>Gelegenheitsangriffe gegen dich sind im Nachteil.</p>
+    </description>
+    <sheet>
+      <description>Gelegenheitsangriffe gegen dich sind im Nachteil.</description>
+    </sheet>
+  </element>
+  <element name="Verteidigung gegen Mehrfachangriffe" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS_MULTIATTACK_DEFENSE">
+    <supports>Defensive Tactics</supports>
+    <description>
+      <p>Sobald dich eine Kreatur mit einem Angriff trifft, erhältst du einen Bonus von +4 auf deine Rüstungsklasse für alle weiteren Angriffe, die von dieser Kreatur in diesem Zug ausgeführt werden.</p>
+    </description>
+    <sheet>
+      <description>Sobald dich eine Kreatur mit einem Angriff trifft, erhältst du einen Bonus von +4 auf deine Rüstungsklasse für alle weiteren Angriffe, die von dieser Kreatur in diesem Zug ausgeführt werden.</description>
+    </sheet>
+  </element>
+  <element name="Eiserner Wille" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS_STEEL_WILL">
+    <supports>Defensive Tactics</supports>
+    <description>
+      <p>Du bist bei Rettungswürfen gegen Effekte, die dich verängstigen, im Vorteil.</p>
+    </description>
+    <sheet>
+      <description>Du bist bei Rettungswürfen gegen Effekte, die dich verängstigen, im Vorteil.</description>
+    </sheet>
+  </element>
+  <!-- Multiattack -->
+  <element name="Geschosshagel" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_MULTIATTACK_VOLLEY">
+    <supports>Multiattack</supports>
+    <description>
+      <p>Du kannst deine Aktion nutzen, um einen Fernkampfangriff gegen eine beliebige Anzahl an Kreaturen auszuführen, die sich im Umkreis von 3 m zu einem Punkt befinden, den du sehen kannst und der in der Reichweite deiner Waffe liegt. Du musst für jeden Angriff Munition aufwenden und die Angriffswürfe für jedes Ziel einzeln ausführen.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Führe einen Fernkampfangriff gegen eine beliebige Anzahl an Kreaturen aus, die sich im Umkreis von 3 m zu einem Punkt befinden, den du sehen kannst und der in der Reichweite deiner Waffe liegt. Du musst für jeden Angriff Munition aufwenden und die Angriffswürfe für jedes Ziel einzeln ausführen.</description>
+    </sheet>
+  </element>
+  <element name="Wirbelwindangriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_MULTIATTACK_WHIRLWIND_ATTACK">
+    <supports>Multiattack</supports>
+    <description>
+      <p>Du kannst deine Aktion nutzen, um einen Nahkampfangriff gegen eine beliebige Anzahl an Kreaturen innerhalb von 1,50 m auszuführen. Für jedes Ziel ist ein eigener Angriffswurf notwendig.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Führe einen Nahkampfangriff gegen eine beliebige Anzahl an Kreaturen innerhalb von 1,50 m aus. Für jedes Ziel ist ein eigener Angriffswurf notwendig.</description>
+    </sheet>
+  </element>
+  <!-- Superior Hunter’s Defense -->
+  <element name="Entrinnen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE_EVASION">
+    <supports>Superior Hunters Defense</supports>
+    <description>
+      <p>Wenn du einem Effekt ausgesetzt wirst, der einen Geschicklichkeitsrettungswurf erlaubt, um den Schaden zu halbieren (wie etwa dem Feuerodem eines roten Drachen oder dem Zauber <i>Feuerball</i>), nimmst du bei einem erfolgreichen Rettungswurf gar keinen Schaden und bei einem Misserfolg lediglich die Hälfte des Schadens.</p>
+    </description>
+    <sheet>
+      <description>Wenn du einem Effekt ausgesetzt wirst, der einen Geschicklichkeitsrettungswurf erlaubt, um den Schaden zu halbieren, nimmst du bei einem erfolgreichen Rettungswurf gar keinen Schaden und bei einem Misserfolg lediglich die Hälfte des Schadens.</description>
+    </sheet>
+  </element>
+  <element name="Gegen den Strom" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE_STAND_AGAINST_THE_TIDE">
+    <supports>Superior Hunters Defense</supports>
+    <description>
+      <p>Verfehlt dich eine feindliche Kreatur mit einem Nahkampfangriff, kannst du deine Reaktion nutzen, um die Kreatur zu zwingen, den gleichen Angriff gegen eine andere Kreatur deiner Wahl (außer ihr selbst) auszuführen.</p>
+    </description>
+    <sheet action="Reaktion">
+      <description>Verfehlt dich eine feindliche Kreatur mit einem Nahkampfangriff, kannst du die Kreatur zwingen, den gleichen Angriff gegen eine andere Kreatur deiner Wahl (außer ihr selbst) auszuführen.</description>
+    </sheet>
+  </element>
+  <element name="Unglaubliches Ausweichen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE_UNCANNY_DODGE">
+    <supports>Superior Hunters Defense</supports>
+    <description>
+      <p>Trifft dich eine Kreatur, die du sehen kannst, mit einem Angriff, kannst du deine Reaktion nutzen, um den Schaden des Angriffs gegen dich zu halbieren.</p>
+    </description>
+    <sheet action="Reaktion">
+      <description>Trifft dich eine Kreatur, die du sehen kannst, mit einem Angriff, kannst du den Schaden des Angriffs gegen dich halbieren.</description>
+    </sheet>
+  </element>
+  <!-- Beast Master -->
+  <element name="Herr der Tiere" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPE_RANGER_BEAST_MASTER">
+    <supports>Ranger Archetype</supports>
+    <description>
+      <p>Dieser Archetyp verkörpert die Freundschaft zwischen den zivilisierten Völkern und den Tieren der Wildnis. Tiere und Waldläufer sind in ihrem Bestreben vereint, die Monster zu bekämpfen, die sowohl die Wildnis als auch die Zivilisation bedrohen.</p>
+      <div element="ID_WOTC_ARCHETYPEFEATURE_RANGER_RANGERS_COMPANION" />
+      <div element="ID_WOTC_ARCHETYPEFEATURE_RANGER_EXCEPTIONAL_TRAINING" />
+      <div element="ID_WOTC_ARCHETYPEFEATURE_RANGER_BESTIAL_FURY" />
+      <div element="ID_WOTC_ARCHETYPEFEATURE_RANGER_SHARE_SPELLS" />
+    </description>
+		<sheet display="false">
+      <description>Dieser Archetyp verkörpert die Freundschaft zwischen den zivilisierten Völkern und den Tieren der Wildnis.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_RANGERS_COMPANION" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_EXCEPTIONAL_TRAINING" level="7" />
+      <grant type="Archetype Feature" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_BESTIAL_FURY" level="11" />
+      <grant type="Archetype Feature" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_SHARE_SPELLS" level="15" />
+    </rules>
+  </element>
+  <element name="Der Begleiter des Waldläufers" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_RANGERS_COMPANION">
+    <description>
+      <p>Mit der Entscheidung für diesen Archetypen auf der 3. Stufe wählst du einen Tiergefährten, der dich auf deinen Abenteuern begleitet und darauf abgerichtet ist, an deiner Seite zu kämpfen. Suche dir ein Tier aus, dessen Größenkategorie höchstens mittelgroß ist und das einen Herausforderungsgrad von 1/4 oder weniger besitzt (als Beispiele findest du im Anhang D „Kreaturenspielwerte" die Spielwerte für den Falken, den Panther und die Dogge).</p>
+      <p class="indent">Addiere deinen Übungsbonus zur Rüstungsklasse des Tiers, zu seinen Angriffs- und Schadenswürfen sowie zu jeglichen Rettungswürfen und Fertigkeiten, in denen es geübt ist. Sein Trefferpunktemaximum entspricht den Spielwerten im Anhang oder dem Vierfachen deiner Stufe als Waldläufer, je nachdem was höher ist. Wie jede Kreatur kann dein Tiergefährte Trefferwürfel ausgeben, um nach Beenden einer kurzen Rast Trefferpunkte wiederzuerlangen.</p>
+      <p class="indent">Das Tier gehorcht deinen Anweisungen, so gut es kann. Es beginnt seinen Zug mit deiner Initiative, auch wenn es keine Aktion ausführt, bevor du eine befiehlst. In deinem Zug kannst du, ohne deine Aktion aufzuwenden, dem Tier mit Worten befehlen, wohin es sich bewegen soll. Du kannst deine Aktion aufwenden, um ihm mit Worten zu befehlen, die Angriffs-, Spurten-, Rückzugs-, Ausweich- oder Hilfsaktion auszuführen. Sobald du das Merkmal Zusätzlicher Angriff besitzt, kannst du außerdem einen Waffenangriff durchführen, wenn du deinem Tiergefährten die Angriffsaktion befohlen hast.</p>
+      <p class="indent">Bist du kampfunfähig oder abwesend, handelt das Tier eigenständig, wobei es sich darauf konzentriert, dich und sich selbst zu schützen. Das Tier benötigt niemals deinen Befehl, um seine Reaktion zu nutzen, etwa für einen Gelegenheitsangriff.</p>
+      <p class="indent">Solange nur du mit deinem Tiergefährten durch dein bevorzugtes Gelände reist, könnt ihr euch auch mit normalem Reisetempo heimlich fortbewegen.</p>
+      <p class="indent">Stirbt dein Tier, kannst du einen neuen Tiergefährten erlangen, indem du 8 Stunden lang einen magischen Bund zu einem Tier aufbaust, das dir gegenüber nicht feindlich gesonnen ist und die Anforderungen erfüllt.</p>
+    </description>
+    <sheet>
+      <description>Das Tier gehorcht deinen Anweisungen, so gut es kann. Es beginnt seinen Zug mit deiner Initiative, auch wenn es keine Aktion ausführt, bevor du eine befiehlst. In deinem Zug kannst du, ohne deine Aktion aufzuwenden, dem Tier mit Worten befehlen, wohin es sich bewegen soll. Du kannst deine Aktion aufwenden, um ihm mit Worten zu befehlen, die Angriffs-, Spurten-, Rückzugs-, Ausweich- oder Hilfsaktion auszuführen. Sobald du das Merkmal Zusätzlicher Angriff besitzt, kannst du außerdem einen Waffenangriff durchführen, wenn du deinem Tiergefährten die Angriffsaktion befohlen hast.
+	  Solange nur du mit deinem Tiergefährten durch dein bevorzugtes Gelände reist, könnt ihr euch auch mit normalem Reisetempo heimlich fortbewegen.
+	  Stirbt dein Tier, kannst du einen neuen Tiergefährten erlangen, indem du 8 Stunden lang einen magischen Bund zu einem Tier aufbaust, das dir gegenüber nicht feindlich gesonnen ist und die Anforderungen erfüllt.</description>
+    </sheet>
+    <rules>
+      <select type="Companion" name="Der Begleiter des Waldläufers" supports="Beast,(Tiny||Small||Medium),(1/4||1/8||0)" />
+			<stat name="companion:ac" value="proficiency" />
+			<stat name="companion:attack" value="proficiency" />
+			<stat name="companion:damage" value="proficiency" />
+			<stat name="additional:hp:max" value="level:waldlaeufer" />
+			<stat name="additional:hp:max" value="level:waldlaeufer" />
+			<stat name="additional:hp:max" value="level:waldlaeufer" />
+			<stat name="additional:hp:max" value="level:waldlaeufer" />
+			<stat name="companion:hp:max" value="additional:hp:max" bonus="base" />
+    </rules>
+  </element>
+  <element name="Aussergewöhnliches Training" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_EXCEPTIONAL_TRAINING">
+    <description>
+      <p>Ab Stufe 7 kannst du als Bonusaktion deinem Tiergefährten befehlen, in seinem Zug die Rennen-, Rückzugs- oder Hilfsaktion auszuführen, solange er nicht angreift. Zudem zählen die Angriffe des Tiergefährten als magisch, wenn es darum geht, Resistenzen und Immunitäten gegen nichtmagische Attacken zu umgehen.</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Du kannst deinem Tiergefährten befehlen, die Rennen-, Rückzugs- oder Hilfsaktion auszuführen, solange er nicht angreift. Zudem zählen die Angriffe des Tiergefährten als magisch, wenn es darum geht, Resistenzen und Immunitäten gegen nichtmagische Attacken zu umgehen.</description>
+    </sheet>
+  </element>
+  <element name="Tierische Wut" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_BESTIAL_FURY">
+    <description>
+      <p>Befiehlst du von Stufe 11 an deinem Tiergefährten die Angriffsaktion, kann dieser zweimal angreifen anstatt einmal oder die Mehrfachangriffsaktion ausführen, falls er über diese verfügt.</p>
+    </description>
+    <sheet>
+      <description>Dein Tiergefährten kann zweimal angreifen, wenn du die Angriffsaktion befiehlst.</description>
+    </sheet>
+  </element>
+  <element name="Zauber teilen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_ARCHETYPEFEATURE_RANGER_SHARE_SPELLS">
+    <description>
+      <p>Beginnend mit der 15. Stufe kann ein Zauber, den du wirkst und der dich selbst zum Ziel hat, zusätzlich auch deinen Tiergefährten betreffen, solange sich dieser innerhalb von 9 m befindet.</p>
+    </description>
+    <sheet>
+      <description>Wenn du einen Zauber wirkst, der dich selbst zum Ziel hat, kann er zusätzlich auch deinen Tiergefährten betreffen, solange sich dieser innerhalb von 9 m befindet.</description>
+    </sheet>
+  </element>
+
+  <!-- Favored Enemies-->
+  <element name="Aberrationen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_ABERRATIONS">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Aberrations are utterly alien beings. Many of them have innate magical abilities drawn from the creature's alien mind rather than the mystical forces of the world. The quintessential aberrations are aboleths, beholders, mind fiayers, and slaadi.</p>
+    </description>
+  </element>
+  <element name="Tiere" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_BEAST">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Beasts are nonhumanoid creatures that are a natural part of the fantasy ecology. Some of them have magical powers, but most are unintelligent and lack any society or language. Beasts include all varieties of ordinary animals, dinosaurs, and giant versions of animals.</p>
+    </description>
+  </element>
+  <element name="himmlische Wesen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_CELESTIALS">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Celestials are creatures native to the Upper Planes. Many of them are the servants of deities, employed as messengers or agents in the mortal realm and throughout the planes. Celestials are good by nature, so the exceptional celestial who strays from a good alignment is a horrifying rarity. Celestials include angels, couatls, and pegasi.</p>
+    </description>
+  </element>
+  <element name="Konstrukte" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_CONSTRUCTS">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Constructs are made, not born. Some are programmed by their creators to'follow a simple set of instructions, while others are imbued with sentience and capable of independent thought. Golems are the iconic constructs. Many creatures native to the outer plane of Mechanus, such as modrons, are constructs shaped from the raw material of the plane by the will of more powerful creatures.</p>
+    </description>
+  </element>
+  <element name="Drachen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_DRAGONS">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Dragons are large reptilian creatures of ancient origin and tremendous power. True dragons, including the good metallic dragons and the evil chromatic dragons, are highly intelligent and have innate magic. Also in this category are creatures distantly related to true dragons, but less powerful, less intelligent, and less magical, such as wyverns and pseudodragons.</p>
+    </description>
+  </element>
+  <element name="Elementare" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_ELEMENTALS">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Elementals are creatures native to the elemental planes. Some creatures of this type are little more than animate masses of their respective elements, including the creatures simply called elementals. Others have biological forms infused with elemental energy. The races of genies, including djinn and efreet, form the most important civilizations on the elemental planes. Other elemental creatures include azers, invisible stalkers, and water weirds.</p>
+    </description>
+  </element>
+  <element name="Feenwesen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_FEY">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Fey are magical creatures closely tied to the forces of nature. They dwell in twilight groves and misty forests. In some worlds, they are closely tied to the Feywild, also called the Plane of Faerie. Some are also found in the Outer Planes, particularly the planes of Arborea and the Beastlands. Fey include dryads, pixies, and satyrs.</p>
+    </description>
+  </element>
+  <element name="Unholde" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_FIENDS">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Fiends are creatures of wickedness that are native to the Lower Planes. A few are the servants of deities, but many more labor under the leadership of archdevils and demon princes. Evil priests and mages sometimes summon fiends to tne' material world to do their bidding. If an evil celestial is a rarity, a good fiend is almost inconceivable. Fiends include demons, devils, hell hounds, rakshasas, and yugoloths.</p>
+    </description>
+  </element>
+  <element name="Riesen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_GIANTS">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Giants tower over humans and their kind. They are humanlike in shape, though some have multiple heads (ettins) or deformities (fomorians). The six varieties of true giant are hill giants, stone giants, frost giants, fire giants, cloud giants, and storm giants. Besides these, creatures such as ogres and trolls are giants.</p>
+    </description>
+  </element>
+  <element name="Monstrositäten" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_BEAST_MONSTROSITIES">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Monstrosities are monsters in the strictest sensefrightening creatures that are not ordinary, not truly natural, and almost never benign. Some are the results of magical experimentation gone awry (such as owl bears), and others ,are the product-of terrible curses (including minotaurs and yuan-ti). They defy categorization, and in some sense serve as a catch-all category for creatures that don't fit into any other type.</p>
+    </description>
+  </element>
+  <element name="Schlicke" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_OOZES">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Oozes are gelatinous creatures that rarely have a fixed shape. They are mostly subterranean, dwelling in caves and dungeons and feeding on refuse, carrion, or creatures unlucky enough to get in their way. Black puddings and gelatinous cubes are among the most recognizable oozes.</p>
+    </description>
+  </element>
+  <element name="Pflanzen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_PLANTS">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Plants in this context are vegetable creatures, not ordinary flora. Most of them are ambulatory, and some are carnivorous. The quintessential plants are the shambling mound and the treant. Fungal creatures such as the gas spore and the myconid also fall into this category.</p>
+    </description>
+  </element>
+  <element name="Untote" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_CLASSFEATURE_RANGER_FAVORED_ENEMY_UNDEAD">
+    <supports>Monster Type, Favored Enemy</supports>
+    <description>
+      <p>Undead are once-living creatures brought to a horrifying state of undeath through the practice of necromantic magic or some unholy curse. Undead include walking corpses, such as vampires and zombies, as well as bodiless spirits, such as ghosts and specters.</p>
+    </description>
+  </element>
+  <element name="Humanoide" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_1">
+      <supports>Favored Enemy,Monster Type</supports>
+      <description>
+          <p>Humanoids are the main peoples of the D&amp;D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds.</p>
+      </description>
+      <sheet display="false" />
+  </element>
+  <element name="Humanoide" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_2">
+  <compendium display="false" />
+      <requirements>ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_1</requirements>
+      <supports>Favored Enemy,Monster Type</supports>
+      <description>
+          <p>Humanoids are the main peoples of the D&amp;D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds.</p>
+      </description>
+      <sheet display="false" />
+  </element>
+  <element name="Humanoide" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_3">
+  <compendium display="false" />
+      <requirements>ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_2</requirements>
+      <supports>Favored Enemy,Monster Type</supports>
+      <description>
+          <p>Humanoids are the main peoples of the D&amp;D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds.</p>
+      </description>
+      <sheet display="false" />
+  </element>
+  <element name="Menschen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HUMAN">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.</p>
+      </description>
+  </element>
+  <element name="Zwerge" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_DWARVES">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller.</p>
+      </description>
+  </element>
+  <element name="Elfen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_ELVES">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.</p>
+      </description>
+  </element>
+  <element name="Halblinge" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HALFLINGS">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. Standing about 3 feet tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife.</p>
+      </description>
+  </element>
+  <element name="Drachenblütige" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_DRAGONBORN">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>It’s easy to assume that a dragonborn is a monster, especially if his or her scales betray a chromatic heritage. Unless the dragonborn starts breathing fire and causing destruction, though, people are likely to respond with caution rather than outright fear.</p>
+      </description>
+  </element>
+  <element name="Gnome" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GNOME">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Gnomes don’t look like a threat and can quickly disarm suspicion with good humor. The common folk are often curious about gnomes, likely never having seen one before, but they are rarely hostile or fearful.</p>
+      </description>
+  </element>
+  <element name="Halbelfen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HALF_ELF">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>To humans, half-elves look like elves, and to elves, they look human. In height, they’re on par with both parents, though they’re neither as slender as elves nor as broad as humans.</p>
+      </description>
+  </element>
+  <element name="Halborks" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HALF_ORC">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Half-orcs’ grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering builds make their orcish heritage plain for all to see. Half-orcs stand between 6 and 7 feet tall and usually weigh between 180 and 250 pounds.</p>
+          <p class="indent"></p>
+      </description>
+  </element>
+  <element name="Tieflinge" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_TIEFLING">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance. Tieflings have large horns that take any of a variety of shapes - some have curling horns like a ram, others have straight and tall horns like a gazelle’s, and some spiral upward like an antelopes’ horns. They have thick tails, four to five feet long, which lash or coil around their legs when they get upset or nervous. Their canine teeth are sharply pointed, and their eyes are solid colors black, red, white, silver, or gold with no visible sclera or pupil. Their skin tones cover the full range of human coloration, but also include various shades of red. Their hair, cascading down from behind their horns, is usually dark, from black or brown to dark red, blue, or purple.</p>
+      </description>
+  </element>
+  <element name="Aarakocra" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_AARAKOCRA">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Aarakocra range the Howling Gyre, an endless storm of mighty winds and lashing rains that surrounds the tranquil realm of Aaqa in the Elemental Plane of Air. Making aerial patrols, these birdlike humanoids guard the windy borders of their home against invaders from the Elemental Plane of Earth, such as gargoyles, their sworn enemies.</p>
+      </description>
+  </element>
+  <element name="Bugbears" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_BUGBEARS">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Bugbears are born for battle and mayhem. Surviving by raiding and hunting, they bully the weak and despise being bossed around, but their love of carnage means they will fight for powerful masters if bloodshed and treasure a reassured.</p>
+      </description>
+  </element>
+  <element name="Bullywugs" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_BULLYWUGS">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Life as a bullywug is nasty, brutish, and wet. These frog-headed amphibious humanoids must stay constantly moist, dwelling in rainy forests, marshes, and damp caves. Always hungry and thoroughly evil, bullywugs overwhelm opponents with superior numbers when they can, but they flee from serious threats to search for easier prey.</p>
+          <p class="indent">Bullywugs have green, gray, or mottled yellow skin that shifts through shades of gray, green, and brown, allowing them to blend in with their surroundings. They wear crude armor and wield simple weapons, and can deliver a powerful bite to foes that press too close.</p>
+      </description>
+  </element>
+  <element name="Gith" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GITH">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>The gith were a race of humanoids who had been enslaved by mind flayers for countless generations. Some sages claimed that they were once descended from humans, while others maintained that their original race was in fact unknown.</p>
+      </description>
+  </element>
+  <element name="Gnolle" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GNOLLS">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Gnolls are feral humanoids that attack settlements along the frontiers and borderlands of civilization without warning, slaughtering their victims and devouring their flesh.</p>
+      </description>
+  </element>
+  <element name="Grimlock" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GRIMLOCK">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>The degenerate subterranean grimlocks were once human, but their worship of the mind flayers over generations of prowling the Underdark transformed them into blind, monstrous cannibals long ago. Debased Cultists. The empire of the mind flayers once spread across many worlds, enslaving countless races. Among those were human cultures whose high priests the mind flayers subverted using their insidious powers of thought control. Those leaders gradually turned the faiths of their followers toward the illithids, which they worshiped as blasphemous deities.</p>
+          <p class="indent">Over time, the rituals of these enslaved humans created fervent cannibal cults that regarded the brain eating of the mind flayers as a holy sacrament. The illithids commanded their worshipers to abduct other sentient creatures to be sacrificed. After the victims’ brains had been consumed, the mind flayers gave the lifeless bodies to the cultists.</p>
+      </description>
+  </element>
+  <element name="Goblins" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_GOBLINS">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large-sometimes overwhelming-numbers. They crave power and regularly abuse whatever authority they obtain.</p>
+      </description>
+  </element>
+  <element name="Hobgoblins" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_HOBGOBLINS">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>War horns sound, stones fly from catapults, and the thunder of a thousand booted feet echoes across the land as hobgoblins march to battle. Across the borderlands of civilization, settlements and settlers must contend with these aggressive humanoids, whose thirst for conquest is never satisfied.</p>
+          <p class="indent">Hobgoblins have dark orange or red-orange skin, and hair ranging from dark red-brown to dark gray. Yellow or dark brown eyes peer out beneath their beetling brows, and their wide mouths sport sharp and yellowed teeth. A male hobgoblin might have a large blue or red nose, which symbolizes virility and power among goblinkin. Hobgoblins can live as long as humans, though their love of warfare and battle means that few do.</p>
+      </description>
+  </element>
+  <element name="Kenku" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_KENKU">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Kenku are feathered humanoids that wander the world as vagabonds, driven by greed. They can perfectly imitate any sound they hear.</p>
+      </description>
+  </element>
+  <element name="Kobolde" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_KOBOLDS">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons’ lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.</p>
+      </description>
+  </element>
+  <element name="Kuo-Toa" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_KUO_TOA">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Kuo-toa are degenerate fishlike humanoids that once inhabited the shores and islands of the surface world. Long ago humans and their ilk drove the kuo-toa underground, where they dwell in madness and everlasting night. Kuo-toa can no longer abide daylight.</p>
+      </description>
+  </element>
+  <element name="Lizardfolk" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_LIZARDFOLK">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Lizardfolk are primitive reptilian humanoids that lurk in the swamps and jungles of the world. Their hut villages thrive in forbidding grottos, half-sunken ruins, and watery caverns.</p>
+      </description>
+  </element>
+  <element name="Orks" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_ORCS">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.</p>
+      </description>
+  </element>
+  <element name="Wereboars" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_WEREBOARS">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Wereboars are ill-tempered and vulgar brutes. As humanoids, they are stocky and muscular, with short, stiff hair. In their humanoid and hybrid forms, they use heavy weapons, while in hybrid or animal form, they gain a devastating goring attack through which their curse is spread. A wereboar infects other creatures indiscriminately, relishing the fact that the more its victims resist the curse, the more savage and bestial they become.</p>
+          <p class="indent">Wereboars live in small family groups in remote forest areas, building ramshackle huts or dwelling in caves. They are suspicious of strangers but sometimes ally themselves with orcs.</p>
+      </description>
+  </element>
+  <element name="Wererats" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_WERERATS">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Wererats are cunning lycanthropes with sly, avaricious personalities. They are wiry and twitchy in humanoid form, with thin hair and darting eyes. In their humanoid and hybrid forms, wererats prefer light weapons and use ambush tactics rather than fighting as a pack. Although a wererat can deliver a nasty bite in its rat form, it favors that form for stealthy infiltration and escape rather than combat.</p>
+          <p class="indent">A wererat clan operates much like a thieves’ guild, with wererats transmitting their curse only to creatures they want to induct into the clan. Wererats that are accidentally cursed or break loose from the clan’s control are quickly hunted down and killed.</p>
+          <p class="indent">Wererat clans are found throughout urban civilization, often dwelling in cellars and catacombs. These creatures are common in the sewers beneath major cities, viewing those subterranean areas as their hunting grounds. Rats and giant rats are commonly found living among wererats.</p>
+      </description>
+  </element>
+  <element name="Weretigers" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_WERETIGER">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Weretigers are ferocious hunters and warriors with a haughty and fastidious nature. Lithe and sleekly muscular in humanoid form, they are taller than average and meticulously groomed. Weretigers grow to enormous size in animal and hybrid form, but they fight in their more refined humanoid form when they can.</p>
+          <p class="indent">They don’t like to pass on their curse, because every new weretiger means competition for territory and prey.</p>
+          <p class="indent">Weretigers live in jungles on the fringes of humanoid civilization, traveling to isolated settlements to trade or revel. They live and hunt alone or in small family groups.</p>
+      </description>
+  </element>
+  <element name="Werewolfs" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_WEREWOLF">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf’s head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.</p>
+          <p class="indent">Most werewolves flee civilized lands not long after becoming afflicted. Those that reject the curse fear what will happen if they remain among their friends and family. Those that embrace the curse fear discovery and the consequences of their murderous acts. In the wild, werewolves form packs that also include wolves and dire wolves.</p>
+      </description>
+  </element>
+  <element name="Merfolk" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_MERFOLK">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Aquatic humanoids with the upper body of a human and the lower body of a fish, merfolk adorn their skin and scales with shell decorations.</p>
+          <p class="indent">Merfolk tribes and kingdoms span the world, and their people are as varied in color, culture, and outlook as the human races of the surface. Land folk and merfolk rarely meet except by chance, though starry-eyed mariners tell tales of romance with these creatures along the shoals of faraway islands.</p>
+          <p class="indent">Merfolk lack the materials and practical means to forge weapons beneath the waves, to write books and keep lore, or to shape stone to raise buildings and cities. As a result, most live in small hunter-gatherer tribes, each of which holds unique values and creeds. Only occasionally do merfolk unite under the rule of a single leader. They do so to face a common threat or to complete a conquest. Such unifications can be the beginning of undersea kingdoms with dynasties lasting hundreds of years.</p>
+      </description>
+  </element>
+  <element name="Quaggoths" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_QUAGGOTH">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Savage and territorial, quaggoths climb the chasms of the Underdark. They maul their foes in a frenzy, becoming even more murderous in the face of death.</p>
+      </description>
+  </element>
+  <element name="Sahuagin" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_SAHUAGIN">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Across fog-shrouded coasts or endless ocean swells, an ominous drone sounded on a conch shell chills the blood of all who hear it. This is the sound of the sahuagin hunting horn-a call to raid and battle. Coastal settlers refer to sahuagin as "sea devils," for sahuagin have no compassion in them, slaughtering the crews of ships and decimating coastal villages.</p>
+      </description>
+  </element>
+  <element name="Thri-Kreen" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_THRI_KREEN">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Thri-kreen wander the deserts and savannas of the world, avoiding all other races.</p>
+      </description>
+  </element>
+  <element name="Troglodytes" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_TROGLODYTE">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>The savage, degenerate troglodytes squat in the shallow depths of the Underdark in a constant state of war against their neighbors and one another. They mark the borders of their territories with cracked bones and skulls, or with pictographs painted in blood or dung.</p>
+          <p class="indent">Perhaps the most loathsome of all humanoids, troglodytes eat anything they can stomach. They dwell in filth. The walls of their cavern homes are smeared with grime, oily secretions, and the debris of their foul feasting.</p>
+      </description>
+  </element>
+  <element name="Yuan-Ti Purebloods" type="Class Feature" source="Monster Manual" id="ID_WOTC_MM_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOID_YUAN_TI_PUREBLOOD">
+      <supports>Humanoid Favored Enemy</supports>
+      <description>
+          <p>Purebloods form the lowest caste of yuan-ti society. They closely resemble humans, yet a pureblood can’t pass for human under close scrutiny because there’s always some hint of its true nature, such as scaly patches of skin, serpentine eyes, pointed teeth, or a forked tongue. Wearing cloaks and cowls, they masquerade as humans and infiltrate civilized lands to gather information, kidnap prisoners for interrogation and sacrifice, and trade with anyone who has something that can further their myriad plots.</p>
+      </description>
+  </element>
+</elements>

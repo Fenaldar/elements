@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Instrumente</name>
+		<description></description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.3">
+			<file name="gegenstaende-instrumente.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gegenstaende/gegenstaende-instrumente.xml" />
+		</update>
+	</info>
+
+  <!-- <element name="Musical Instrument" type="Support" source="Core" id="ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT">
+    <description>
+      <p>Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency.</p>
+    </description>
+  </element> -->
+
+  <element name="Dudelsack" type="Item" source="Spielerhandbuch" id="ID_WOTC_SRD_INSTRUMENT_BAGPIPES">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>Bist du im Umgang mit dem Dudelsack geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, die mit dem Spielen des Instruments in Verbindung stehen. Ein Barde kann sein Instrument als Zauberfokus verwenden.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">30</set>
+      <set name="weight" lb="6">6 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_BAGPIPES</set>
+    </setters>
+  </element>
+  <element name="Trommel" type="Item" source="Spielerhandbuch" id="ID_WOTC_SRD_INSTRUMENT_DRUM">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>Bist du im Umgang mit der Trommel geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, die mit dem Spielen des Instruments in Verbindung stehen. Ein Barde kann sein Instrument als Zauberfokus verwenden.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">6</set>
+      <set name="weight" lb="3">3 lbs.</set>
+      <set name="slot">onehand</set>
+			<set name="type">Tool</set>
+			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_DRUM</set>
+    </setters>
+  </element>
+  <element name="Hackbrett" type="Item" source="Spielerhandbuch" id="ID_WOTC_SRD_INSTRUMENT_DULCIMER">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>Bist du im Umgang mit dem Hackbrett geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, die mit dem Spielen des Instruments in Verbindung stehen. Ein Barde kann sein Instrument als Zauberfokus verwenden.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">25</set>
+      <set name="weight" lb="10">10 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+	    <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_DULCIMER</set>
+    </setters>
+  </element>
+  <element name="Flöte" type="Item" source="Spielerhandbuch" id="ID_WOTC_SRD_INSTRUMENT_FLUTE">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>Bist du im Umgang mit der Flöte geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, die mit dem Spielen des Instruments in Verbindung stehen. Ein Barde kann sein Instrument als Zauberfokus verwenden.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">2</set>
+      <set name="weight" lb="1">1 lbs.</set>
+      <set name="slot">onehand</set>
+	    <set name="type">Tool</set>
+			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE</set>
+    </setters>
+  </element>
+  <element name="Laute" type="Item" source="Spielerhandbuch" id="ID_WOTC_SRD_INSTRUMENT_LUTE">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>Bist du im Umgang mit der Laute geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, die mit dem Spielen des Instruments in Verbindung stehen. Ein Barde kann sein Instrument als Zauberfokus verwenden.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">35</set>
+      <set name="weight" lb="2">2 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_LUTE</set>
+    </setters>
+  </element>
+  <element name="Leier" type="Item" source="Spielerhandbuch" id="ID_WOTC_SRD_INSTRUMENT_LYRE">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>Bist du im Umgang mit der Leier geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, die mit dem Spielen des Instruments in Verbindung stehen. Ein Barde kann sein Instrument als Zauberfokus verwenden.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">30</set>
+      <set name="weight" lb="2">2 lbs.</set>
+      <set name="slot">onehand</set>
+			<set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_LYRE</set>
+    </setters>
+  </element>
+  <element name="Horn" type="Item" source="Spielerhandbuch" id="ID_WOTC_SRD_INSTRUMENT_HORN">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>Bist du im Umgang mit dem Horn geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, die mit dem Spielen des Instruments in Verbindung stehen. Ein Barde kann sein Instrument als Zauberfokus verwenden.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">3</set>
+      <set name="weight" lb="2">2 lbs.</set>
+      <set name="slot">onehand</set>
+			<set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_HORN</set>
+    </setters>
+  </element>
+  <element name="Panflöte" type="Item" source="Spielerhandbuch" id="ID_WOTC_SRD_INSTRUMENT_PANFLUTE">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>Bist du im Umgang mit der Panflöte geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, die mit dem Spielen des Instruments in Verbindung stehen. Ein Barde kann sein Instrument als Zauberfokus verwenden.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">12</set>
+      <set name="weight" lb="2">2 lbs.</set>
+      <set name="slot">onehand</set>
+			<set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_PAN_FLUTE</set>
+    </setters>
+  </element>
+  <element name="Schalmei" type="Item" source="Spielerhandbuch" id="ID_WOTC_SRD_INSTRUMENT_SHAWM">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>Bist du im Umgang mit der Schalmei geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, die mit dem Spielen des Instruments in Verbindung stehen. Ein Barde kann sein Instrument als Zauberfokus verwenden.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">2</set>
+      <set name="weight" lb="1">1 lbs.</set>
+      <set name="slot">onehand</set>
+			<set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_SHAWM</set>
+    </setters>
+  </element>
+  <element name="Gambe" type="Item" source="Spielerhandbuch" id="ID_WOTC_SRD_INSTRUMENT_VIOL">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>Bist du im Umgang mit der Gambe geübt, darfst du deinen Übungsbonus auf alle Attributs- und Fertigkeitswürfe addieren, die mit dem Spielen des Instruments in Verbindung stehen. Ein Barde kann sein Instrument als Zauberfokus verwenden.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">30</set>
+      <set name="weight" lb="1">1 lbs.</set>
+      <set name="slot">onehand</set>
+			<set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_VIOL</set>
+    </setters>
+  </element>
+</elements>

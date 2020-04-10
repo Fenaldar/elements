@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.3">
+			<file name="source.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/zubehoer/volos-almanach-der-monster/source.xml" />
+		</update>
+	</info>
+	<element name="Volos Almanach der Monster" type="Source" source="Core" id="ID_WOTC_SOURCE_VOLOS_GUIDE_TO_MONSTERS">
+		<description>
+			<![CDATA[<p><strong>Forschung war noch nie so gefährlich</strong></p><p>Der angesehene Lehrmeister Volothamp Geddarm ist zurück! Er hat eine fantastische Dissertation verfasst, die einige der ikonischsten Monster in den Welten von Dungeons &amp; Dragons® beleuchtet. Doch Elminster, der Weise von Schattental selbst, ist der Ansicht, dass Volo einige Einzelheiten völlig falsch interpretiert. Lass dir nicht entgehen, wie Volo und Elminster mit ihrem gemeinsamen Wissen über bekannte und obskure Kreaturen die Unwissenden erleuchten.</p><p>Dieses Buch ist eine Inspiration für jeden Spielleiter und erkundet die Geschichten und Horte verschiedenster Monster, darunter Riesen, Gedankenschinder, Orks und Goblinoide. Spieler finden ebenfalls Regeln zum Spielen zahlreicher neuer Völker, darunter die engelsgleichen Aasimar und die katzenartigen Tabaxi. Ebenfalls enthalten sind die Spielwerte für Dutzende von Monstern - einige vollkommen neue und auch solche aus der Vergangenheit des Rollenspiels. Nun stehen sie bereit, um D&amp;D-Abenteuer als mächtige Verbündete oder furchterregende Gegner zu bereichern.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">VGTM</set>
+			<set name="url">http://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters</set>
+			<set name="image">https://media.dnd.wizards.com/styles/product_tabletop_left/public/images/product/Volos_Monster_manual_1.png</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+			<set name="release">20161115</set>
+		</setters>
+	</element>
+</elements>

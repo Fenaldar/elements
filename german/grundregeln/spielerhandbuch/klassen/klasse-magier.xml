@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Magier</name>
+    <description>Die Klasse Magier aus dem Spielerhandbuch.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.2.1">
+      <file name="klasse-magier.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-magier.xml" />
+    </update>
+  </info>
+
+  <element name="Magier" type="Class" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_WIZARD">
+    <description>
+      <p>In silberne Roben gekleidet, die ihren Rang kennzeichnen, schließt eine Elfe die Augen, um die Ablenkungen des Schlachtfeldes auszublenden, und beginnt ihren leisen Gesang. Mit einer kurzen Geste ihres Fingers beendet sie den Zauber und schießt einen winzigen Tropfen Feuer auf die Ränge der Feinde, wo er in ein Inferno ausbricht und die Soldaten in Flammen hüllt.</p>
+      <p class="indent">Wieder und wieder prüft ein Mensch seine Kreidezeichnungen, die auf dem blanken Steinboden einen komplizierten magischen Kreis beschreiben. Dann streut er behutsam Eisenstaub entlang jeder feinen Linie und jedes geschwungenen Bogens. Als der Kreis fertig ist, stimmt er einen langen dröhnenden Gesang an. Ein Loch tiefster Schwärze tut sich im Kreis auf und trägt einen Hauch von Schwefel aus der anders-weltlichen Ebene herüber, die er offenbart.</p>
+      <p class="indent">Auf einer Kreuzung in einem Gewölbe kniend, wirft ein Gnom eine Handvoll kleiner Knochen, die mit mystischen Symbolen beschriftet sind, und murmelt Worte der Macht. Er schließt seine Augen, um die Visionen klarer erkennen zu können, dann nickt er langsam, öffnet die Augen wieder und deutet in Richtung des linken Durchgangs.</p>
+      <p class="indent">Magier sind herausragende Zauberwirker, deren Sprüche sie definieren und als Klasse vereinen. An dem subtilen Geflecht magischer Energien zehrend, das den gesamten Kosmos durchdringt, rufen Magier explodierendes Feuer und züngelnde Blitze hervor, erschaffen unterschwellige Täuschung und erzwingen brutale Gedankenkontrolle. Ihre Zauberkunst beschwört Monster aus anderen Existenzebenen, erlaubt ihnen einen Blick in die Zukunft und macht aus getöteten Gegnern willenlose Zombies. Ihre mächtigen Sprüche verwandeln eine Substanz in eine andere, rufen Meteore vom Himmel herab oder öffnen Portale zu anderen Welten.</p>
+      <h4>GELEHRTE DES ARKANEN</h4>
+      <p>Wild und rätselhaft, vielfältig in Form und Funktion, zieht die Magie mit ihrer Macht Studenten in den Bann, die ihre Geheimnisse zu meistern versuchen. Manche streben gar danach, wie Götter zu werden und die Realität selbst zu gestalten. Obwohl das Wirken eines typischen Zaubers nur wenig mehr als das Murmeln einiger fremdartiger Wörter, fahrige Gesten und eine Prise oder einen Klumpen eines exotischen Materials erfordert, lassen diese oberflächlichen Komponenten kaum die Expertise erkennen, die erst durch jahrelanges Üben und unzählige Stunden des Studiums erreicht wird.</p>
+      <p class="indent">Magier leben und sterben für ihre Zauber. Alles andere ist zweitrangig. Sie eignen sich neue Sprüche an, indem sie experimentieren und an Erfahrung gewinnen, oder lernen sie von anderen Magiern, aus alten Folianten und Aufzeichnungen oder von uralten Kreaturen (wie zum Beispiel den Feen), die mit der Magie vertraut sind.</p>
+      <h4>DIE VERLOCKUNGEN DES WISSENS</h4>
+      <p>Das Leben eines Magiers ist selten gewöhnlich. Als Weiser oder als Dozent an einer Universität oder in einer Bibliothek zu arbeiten und andere die Geheimnisse des Multiversums zu lehren, kommt für einen Magier am ehesten einem herkömmliches Leben nahe. Einige bieten ihre Dienste als Hellseher an oder dienen in militärischen Streitkräften. Manche gehen auch einem Leben als Kriminelle nach oder streben nach Einfluss und Herrschaft.</p>
+      <p class="indent">Doch die Verlockungen von Wissen und Macht rufen selbst den biedersten Magier aus der Sicherheit seiner Bibliothek oder seines Laboratoriums in verfallene Ruinen und verlassene Städte. Die meisten Magier glauben daran, dass frühere Zauberwirker in den uralten Zivilisationen die Geheimnisse der Magie kannten, welche aber im Laufe der Zeit verloren gingen. Diese wiederzuentdecken, könnte den Weg zu einer Macht ebnen, die größer ist als jede bekannte Ausprägung der Magie.</p>
+      <h4>EINEN MAGIER ERSCHAFFEN</h4>
+      <p>Erschaffst du einen Magier. überlege dir eine Hintergrundgeschichte, die von mindestens einem außergewöhnlichen Ereignis beherrscht wird. Wie kam dein Charakter das erste Mal in Kontakt mit Magie? Wie hat er entdeckt, dass er eine Neigung dazu besitzt? Hat er ein angeborenes Talent oder musste er viel und intensiv üben? Ist er einem magischen Wesen begegnet, das ihm die Grundlagen der Zauberkunst beibrachte. oder lernte er sie aus einem uralten Wälzer, den er im Staub einer vergessenen Ruine fand?</p>
+      <p class="indent">Was hat deinen Charakter dazu veranlasst, sein sicheres Leben des Studiums aufzugeben? Hat das Wissen der Folianten ihm einen Vorgeschmack auf größere Macht gegeben und ist er hungrig nach mehr geworden? Hörte er von einer geheimen Sammlung uralter Bücher, die noch nicht von einem anderen Magier geplündert wurde? Vielleicht kann dein Charakter es auch kaum erwarten, seine neu gefundenen magischen Fähigkeiten im Angesicht der Gefahr einzusetzen?</p>
+      <h5>SCHNELLE ERSCHAFFUNG</h5>
+      <p>Du kannst einen Magier schnell erschaffen, indem du diesen Vorschlägen folgst:</p>
+      <p class="indent">Setze deinen höchsten Attributswert auf Intelligenz, deinen zweithöchsten auf Konstitution oder Geschicklichkeit. Wenn du dich der Schule der Verzauberungen anschließen möchtest, solltest du Charisma zu deinem zweithöchsten Attribut machen. Wähle zusätzlich den Hintergrund Weiser. Entscheide dich außerdem für die Zaubertricks Magierhand, Licht und Kältestrahl, zusammen mit den folgenden Zaubern des 1. Grades: <i>Brennende Hände</i>, <i>Person bezaubern</i>, <i>Federfall</i>, <i>Magierrüstung</i>, <i>Magisches Geschoss</i> und <i>Schlaf</i>.</p>
+      <h3>KLASSENMERKMALE</h3>
+      <p>Als Magier erhältst du folgende Klassenmerkmale:</p>
+      <h5>TREFFERPUNKTE</h5>
+      <ul class="unstyled">
+				<li><strong>Trefferwürfel:</strong> 1W6 pro Stufe als Magier</li>
+				<li><strong>Trefferpunkte auf Stufe 1:</strong> 6 + dein Konstitutionsmodifikator</li>
+				<li><strong>Trefferpunkte auf höheren Stufen:</strong> 1W6 (oder 4) + dein Konstitutionsmodifikator pro Stufe als Magier über die 1. Stufe hinaus</li>
+			</ul>
+			<h5>PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Rüstungen:</strong> keine</li>
+				<li><strong>Waffen:</strong> Dolche, Wurfpfeile, Schleudern, Kampfstäbe, leichte Armbrüste</li>
+				<li><strong>Werkzeuge:</strong> keine</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Rettungswürfe:</strong> Intelligenz, Weisheit</li>
+				<li><strong>Fertigkeiten:</strong> zwei nach Wahl: Arkane Kunde, Geschichte, Heilkunde, Motiv erkennen, Nachforschungen oder Religion</li>
+			</ul>
+      <h5>AUSRÜSTUNG</h5>
+      <p>Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:</p>
+      <ul>
+        <li><i>(a)</i> ein Kampfstab oder <i>(b)</i> ein Dolch</li>
+        <li><i>(a)</i> ein Materialkomponentenbeutel oder <i>(b)</i> ein arkaner Fokus</li>
+        <li><i>(a)</i> eine Gelehrtenausrüstung oder <i>(b)</i> eine Entdeckerausrüstung</li>
+        <li>ein Zauberbuch</li>
+      </ul>
+      <h5 class="caption">DER MAGIER</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-5">Stufe</td><td class="left">Merkmale</td><td class="col-10">Bekannte Zaubertricks</td><td>1.</td><td>2.</td><td>3.</td><td>4.</td><td>5.</td><td>6.</td><td>7.</td><td>8.</td><td>9.</td></tr>
+        </thead>
+        <tr><td> 1</td><td class="left">Zauberwirken, Arkane Erholung</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 2</td><td class="left">Arkane Tradition</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 3</td><td class="left">—</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 4</td><td class="left">Attributswerterhöhung</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 5</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 6</td><td class="left">Merkmal: Arkane Tradition</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 7</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 8</td><td class="left">Attributswerterhöhung</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 9</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>10</td><td class="left">Merkmal: Arkane Tradition</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>11</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>12</td><td class="left">Attributswerterhöhung</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>13</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>14</td><td class="left">Merkmal: Arkane Tradition</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>15</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>16</td><td class="left">Attributswerterhöhung</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>17</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>18</td><td class="left">Zaubermeisterschaft</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>19</td><td class="left">Attributswerterhöhung</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>20</td><td class="left">Lieblingszauber</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+      </table>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" />
+    </description>
+    <sheet display="false">
+      <description>Ein gelehrter Magiekundiger, der die Strukturen der Realität manipulieren kann.</description>
+    </sheet>
+    <setters>
+      <set name="short">Ein gelehrter Magiekundiger, der die Strukturen der Realität manipulieren kann.</set>
+      <set name="hd">d6</set>
+    </setters>
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+      <select type="Proficiency" name="Geübte Fertigkeit (Magier)" supports="Skill,Wizard" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" level="1" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" level="2" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" level="4" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY" level="18" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" level="20" />
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_WIZARD">
+      <prerequisite>Intelligence 13</prerequisite>
+      <requirements>[int:13]</requirements>
+      <setters>
+        <set name="multiclass proficiencies">—</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Zauberwirken" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
+    <description>
+      <p>Als Studierender der arkanen Magie besitzt du ein Zauberbuch, das die ersten Funken deiner zukünftigen Macht enthält. Für allgemeine Informationen zum Wirken von Zaubern siehe Kapitel 10 „Zauber wirken" und für die Zauberliste des Magiers Kapitel 11 „Zauber.</p>
+      <h5>ZAUBERTRICKS</h5>
+      <p>Auf der 1. Stufe beherrschst du drei beliebige Zaubertricks aus der Zauberliste des Magiers. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der Aufstiegstabelle des Magiers angegeben ist.</p>
+      <h5>ZAUBERBUCH</h5>
+      <p>Auf Stufe 1 besitzt du ein Zauberbuch, das sechs Magierzauber des 1. Grades umfasst. In diesem hältst du alle dir dir bekannten Magierzauber fest, außer Zaubertricks, diese wirkst du aus dem Gedächtnis.</p>
+      <h5>VORBEREITEN UND WIRKEN VON ZAUBERN</h5>
+      <p>Du musst Zaubersprüche vorbereiten, um sie wirken zu können. Wähle dazu aus deinem Zauberbuch eine Anzahl von Magierzaubern, die deiner Stufe als Magier + deinem Intelligenzmodifikator entspricht (mindestens 1), und notiere sie in einer Liste. Du kannst nur Sprüche aussuchen, für deren Grad du auch Zauberplätze besitz.</p>
+      <p class="indent">Bist du zum Beispiel ein Magier der 3. Stufe, verfügst du über vier Zauberplätze des 1. Grades und zwei des 2. Grades. Bei einem Intelligenzwert von 16 kann deine Liste vorbereiteter Zauber sechs beliebige Sprüche (Stufe 3 + Modifikator 3) des 1. oder 2. Grades aus deinem Zauberbuch umfassen.</p>
+      <p class="indent">Die Aufstiegstabelle des Magiers gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen Spruch aus deiner Liste vorbereiteter Zauber zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung. Hast du beispielsweise den Zauber <i>Magisches Geschoss</i> des 1. Grades vorbereitet, kannst du sowohl einen Zauberplatz des 1. Grades als auch einen des 2. Grades verwenden, um <i>Magisches Geschoss</i> zu wirken</p>
+      <p class="indent">Einen Spruch zu wirken, entfernt ihn nicht von deiner Liste der vorbereiteten Zauber. Diese kannst du nach jeder langen Rast ändern. Eine neue Liste vorzubereiten, erfordert mindestens 1 Minute je Zaubergrad pro Spruch, die du damit verbringst, dein Zauberbuch zu studieren und dir die Gesten und Gesänge einzuprägen, die zum Wirken der Zauber nötig sind.</p>
+      <h5>ATTRIBUT ZUM ZAUBERWIRKEN</h5>
+      <p>Das Attribut, mit dem du deine Magierzauber wirkst, ist Intelligenz, da du deine Sprüche durch diszipliniertes Lernen und Einprägen erlernst.</p>
+      <p class="indent">Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Intelligenz. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Magierzauber bestimmt, ziehst du deinen Intelligenzmodifikator hinzu. Bei Angriffen mit deinen Magierzaubern findet ebenfalls der Intelligenzmodifikator Anwendung.</p>
+      <center>
+				<p><strong>SG für Rettungswürfe</strong> = 8 + dein Übungsbonus + dein Intelligenzmodifikator</p>
+				<p><strong>Modifikator für Zauberangriffe</strong> = dein Übungsbonus + dein Intelligenzmodifikator</p>
+			</center>
+      <h5>RITUALE WIRKEN</h5>
+      <p>Du kannst einen Magierzauber als Ritual wirken, wenn er als solches gekennzeichnet ist. Du musst einen Zauber nicht vorbereitet haben, um ihn als Ritual zu wirken.</p>
+      <h5>ZAUBERFOKUS</h5>
+      <p>Als Zauberfokus für deine Magierzauber kannst du einen arkanen Fokus (siehe Kapitel 5 „Ausrüstung") verwenden.</p>
+      <h5>ZAUBER DES 1. GRADES UND HÖHER LERNEN</h5>
+      <p>Jedes Mal, wenn du eine Stufe als Magier aufsteigst, darfst du zwei neue Magierzauber in dein Zauberbuch eintragen, ohne dass du Zeit oder Geld aufzuwenden brauchst. Jeder dieser Zauber muss einem Grad entsprechen, für den du auch Zauberplätze besitzt, so wie es in der Aufstiegstabelle des Magiers angegeben ist.</p>
+      <p class="indent">Auf deinen Abenteuern könntest du neue Sprüche finden, die du deinem Zauberbuch hinzufügen kannst (siehe dazu den Kasten „Dein Zauberbuch").</p>
+    </description>
+    <sheet>
+      <description>Du kannst {{wizard:spellcasting:prepare}} Zauber vorbereiten. Du kannst deinen arkanen Fokus als Zauberfokus für deine Magierzauber verwenden. Du kannst Magierzauber als Ritual wirken.</description>
+    </sheet>
+    <spellcasting name="Wizard" ability="Intelligence" prepare="true">
+      <list>Wizard</list>
+    </spellcasting>
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+      <grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
+
+      <stat name="wizard:spellcasting:slots:1" value="2" level="1" />
+      <stat name="wizard:spellcasting:slots:1" value="1" level="2" />
+      <stat name="wizard:spellcasting:slots:1" value="1" level="3" />
+
+      <stat name="wizard:spellcasting:slots:2" value="2" level="3" />
+      <stat name="wizard:spellcasting:slots:2" value="1" level="4" />
+      <stat name="wizard:spellcasting:slots:3" value="2" level="5" />
+      <stat name="wizard:spellcasting:slots:3" value="1" level="6" />
+      <stat name="wizard:spellcasting:slots:4" value="1" level="7" />
+      <stat name="wizard:spellcasting:slots:4" value="1" level="8" />
+      <stat name="wizard:spellcasting:slots:4" value="1" level="9" />
+      <stat name="wizard:spellcasting:slots:5" value="1" level="9" />
+      <stat name="wizard:spellcasting:slots:5" value="1" level="10" />
+      <stat name="wizard:spellcasting:slots:5" value="1" level="18" />
+      <stat name="wizard:spellcasting:slots:6" value="1" level="11" />
+      <stat name="wizard:spellcasting:slots:6" value="1" level="19" />
+      <stat name="wizard:spellcasting:slots:7" value="1" level="13" />
+      <stat name="wizard:spellcasting:slots:7" value="1" level="20" />
+      <stat name="wizard:spellcasting:slots:8" value="1" level="15" />
+      <stat name="wizard:spellcasting:slots:9" value="1" level="17" />
+
+      <stat name="wizard:spellcasting:prepare" value="intelligence:modifier" />
+      <stat name="wizard:spellcasting:prepare" value="level:magier" />
+
+      <select type="Spell" name="Zaubertrick (Magier)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Wizard" />
+      <select type="Spell" name="Zaubertrick (Magier)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Wizard" />
+      <select type="Spell" name="Zaubertrick (Magier)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Wizard" />
+
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), 1" level="1" number="6" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="12" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="14" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="18" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" number="2" spellcasting="Wizard" />
+      <select type="Spell" name="Zauberbuch (Magier)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="2" spellcasting="Wizard" />
+    </rules>
+  </element>
+  <element name="Arkane Erholung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY">
+    <description>
+      <p>Du hast gelernt, etwas deiner magischen Energie zurückzugewinnen, indem du dein Zauberbuch studierst. Einmal pro Tag kannst du dir im Rahmen einer kurzen Rast eine gewisse Anzahl verbrauchter Zauberplätze aussuchen, die du wiedererlangst. Die Zauberplätze dürfen zusammengenommen höchstens eine Gradzahl besitzen, die kleiner oder gleich der Hälfte deiner Stufe als Magier ist (aufgerundet). Darüber hinaus darf keiner der Zauberplätze Grad 6 oder höher sein.</p>
+      <p class="indent">Bist du beispielsweise ein Magier der 4. Stufe, kannst du bis zu zwei Grade an Zauberplätzen wiedererlangen. Du kannst also entweder zwei Zauberplätze des 1. Grades oder einen Zauberplatz des 2. Grades zurückgewinnen.</p>
+    </description>
+    <sheet>
+      <description>Einmal pro Tag kannst du dir im Rahmen einer kurzen Rast eine gewisse Anzahl verbrauchter Zauberplätze aussuchen, die du wiedererlangst. Die Zauberplätze dürfen zusammengenommen höchstens eine Gradzahl von {{arkane erholung:zauberplaetze}} besitzen. Darüber hinaus darf keiner der Zauberplätze Grad 6 oder höher sein.</description>
+    </sheet>
+    <rules>
+      <stat name="arkane erholung:zauberplaetze" value="level:magier:half:up" />
+    </rules>
+  </element>
+  <element name="Arkane Tradition" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION">
+    <description>
+      <p>Beim Erreichen der 2. Stufe suchst du dir eine Arkane Tradition aus und orientierst dich dadurch in Richtung einer der acht Schulen der Magie: Bannmagie, Beschwörung, Erkenntnismagie, Verzauberung, Hervorrufung, Illusion, Nekromantie und Verwandlung. Alle werden am Ende dieses Abschnitts ausführlich beschrieben.</p>
+      <p class="indent">Deine Wahl verleiht dir auf der 2., 6., 10. und 14. Stufe jeweils ein Merkmal.</p>
+      <p class="indent">Das Studium der Zauberkunst ist uralt und reicht bis zu den frühesten Entdeckungen der Magie zurück. Es ist in den Welten von DUNGEONS &amp; DRAGONS fest etabliert und gliedert sich in verschiedene Traditionen, die sich bestimmten Teilaspekten der Magieanwendung widmen.</p>
+      <p class="indent">Die verbreitetsten Arkanen Traditionen im Multiversum sind den acht Schulen der Magie zugeordnet. Magier in allen Zeitaltern haben Tausende von Zaubern kategorisiert und sie in acht Sparten unterteilt, die Schulen genannt werden (siehe Kapitel 10 „Zauber wirken"). Mancherorts sind diese Traditionen auch buchstäblich Schulen. Der eine Magier könnte an der Schule der Illusionen studieren, während ein anderer in derselben Stadt an der Schule der Verzauberungen lernt. Manchmal entsprechen die Schulen eher akademischen Abteilungen, mit rivalisierenden Fakultäten, die im Wettstreit um Studenten und Geldmittel stehen. Selbst Magier, die in der Abgeschiedenheit ihres eigenen Turms Anwärter ausbilden, unterteilen die Magie zu Lehrzwecken in Schulen, da die Zauber jeder einzelnen das Meistern verschiedener Techniken erfordern.</p>
+    </description>
+		<sheet display="false"/>
+    <rules>
+      <select type="Archetype" name="Arkane Tradition" supports="Arcane Tradition" />
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Magier)" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD">
+    <compendium display="false" />
+    <description>
+      <p>Beim Erreichen der 4. Stufe und dann wieder auf der 8., 12., 16. und 19. Stufe kannst du einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Attributswerterhöhung (Magier 4)" supports="Improvement Option,Magier,4" level="4" />
+      <select type="Class Feature" name="Attributswerterhöhung (Magier 8)" supports="Improvement Option,Magier,8" level="8" />
+      <select type="Class Feature" name="Attributswerterhöhung (Magier 12)" supports="Improvement Option,Magier,12" level="12" />
+      <select type="Class Feature" name="Attributswerterhöhung (Magier 16)" supports="Improvement Option,Magier,16" level="16" />
+      <select type="Class Feature" name="Attributswerterhöhung (Magier 19)" supports="Improvement Option,Magier,19" level="19" />
+    </rules>
+  </element>
+  <element name="Zaubermeisterschaft" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY">
+    <description>
+      <p>Auf der 18. Stufe hast du eine solche Meisterschaft in bestimmten Zaubersprüchen erlangt, dass du sie nach Belieben wirken kannst. Wähle aus deinem Zauberbuch einen Magierzauber des 1. Grades und einen des 2. Grades. Du kannst beide auf dem niedrigsten Grad wirken, ohne dafür Zauberplätze verbrauchen zu müssen, falls du sie vorbereitet hast. Du kannst die Sprüche auch auf höheren Graden wirken, musst aber wie sonst auch die dafür notwendigen Zauberplätze aufwenden. Nach 8 Stunden des Lernens darfst du einen oder beide der gewählten Zauber durch andere des gleichen Grades ersetzen.</p>
+    </description>
+    <sheet>
+      <description>Wähle aus deinem Zauberbuch einen Magierzauber des 1. Grades und einen des 2. Grades. Du kannst beide auf dem niedrigsten Grad wirken, ohne dafür Zauberplätze verbrauchen zu müssen, falls du sie vorbereitet hast.</description>
+    </sheet>
+  </element>
+  <element name="Lieblingszauber" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS">
+    <description>
+      <p>Wenn du Stufe 20 erreichst, meisterst du zwei mächtige Zaubersprüche und kannst sie mit wenig Aufwand wirken. Wähle aus deinem Zauberbuch zwei Magierzauber des 3. Grades, die deine Lieblingszauber sein sollen. Diese Sprüche gelten immer als vorbereitet und zählen nicht in Bezug auf die maximale Anzahl deiner vorbereiteten Zauber. Zusätzlich kannst du sie einmal auf dem 3. Grad wirken, ohne einen Zauberplatz verbrauchen zu müssen. Dies darfst du erst erneut, wenn du eine kurze oder lange Rast beendet hast. Du kannst die Sprüche auch auf höheren Graden wirken, musst aber wie sonst auch die dafür notwendigen Zauberplätze aufwenden.</p>
+    </description>
+		<sheet usage="1/Kurze Rast">
+      <description>Wähle aus deinem Zauberbuch zwei Magierzauber des 3. Grades, die deine Lieblingszauber sein sollen. Diese Sprüche gelten immer als vorbereitet und zählen nicht in Bezug auf die maximale Anzahl deiner vorbereiteten Zauber. Du kannst die Sprüche auch auf höheren Graden wirken, musst aber wie sonst auch die dafür notwendigen Zauberplätze aufwenden.</description>
+    </sheet>
+  </element>
+
+<element name="Schule der Bannmagie" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_ABJURATION">
+  <supports>Arcane Tradition</supports>
+  <description>
+    <p>Die Schule der Bannmagie nutzt Zaubersprüche, die blockieren, auflösen und schützen. Anhänger dieser Schule sagen, dass die Essenz ihrer Tradition die Verweigerung ist, die Negation statt der Zustimmung. Trotz dieser philosophischen Grundgedanken, ist das Beenden schädlicher Effekte, das Schützen der Schwachen und das Auflösen böser Einflüsse alles andere als weltfremd. Es ist eine stolze und respektable Berufung.</p>
+    <p class="indent">Die als Bannmagier bezeichneten Anhänger dieser Schule werden gerufen, wenn böse Geister ausgetrieben werden sollen, wichtige Orte gegen magische Spionage geschützt werden müssen und wenn es darum geht, Portale in andere Ebenen der Existenz zu schließen.</p>
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ABJURATION_SAVANT" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ARCANE_WARD" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_PROJECTED_WARD" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_IMPROVED_ABJURATION" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_SPELL_RESISTANCE" />
+  </description>
+		<sheet display="false">
+    <description>Die Schule der Bannmagie nutzt Zaubersprüche, die blockieren, auflösen und schützen. Anhänger dieser Schule sagen, dass die Essenz ihrer Tradition die Verweigerung ist, die Negation statt der Zustimmung.</description>
+  </sheet>
+  <rules>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ABJURATION_SAVANT" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ARCANE_WARD" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_PROJECTED_WARD" level="6"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_IMPROVED_ABJURATION" level="10"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_SPELL_RESISTANCE" level="14"/>
+  </rules>
+</element>
+<element name="Gelehrter der Bannmagie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ABJURATION_SAVANT">
+  <description>
+    <p>Beginnend mit der Wahl dieser Schule auf der 2. Stufe werden die Geldkosten und der Zeitaufwand für das Kopieren von Bannzaubern in dein Zauberbuch halbiert.</p>
+  </description>
+  <sheet>
+    <description>Die Geldkosten und der Zeitaufwand für das Kopieren von Bannzaubern in dein Zauberbuch werden halbiert.</description>
+  </sheet>
+</element>
+<element name="Arkaner Schutz" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ARCANE_WARD">
+  <description>
+    <p>Ab der 2. Stufe bist du in der Lage, ein schützendes Netz aus Magie um dich zu weben. Wenn du einen Bannzauber des 1. Grades oder höher wirkst, kannst du gleichzeitig einen Teil der Zauberenergie dazu verwenden, diesen magischen Schutz zu verstärken. Der Schutz hält bis zum Ende einer langen Rast an und besitzt ein Trefferpunktemaximum, das dem Doppelten der Summe aus deiner Magierstufe und deinem Intelligenzmodifikator entspricht. Jedes Mal, wenn du Schaden erleiden würdest, wird dieser stattdessen vom Schutz absorbiert.</p>
+    <p class="indent">Werden die Trefferpunkte des Schutzes auf 0 reduziert, erleidest du eventuell überzähligen Schaden selbst. Solange der Schutz 0 Trefferpunkte besitzt, kann er keinen Schaden mehr abhalten, doch seine Magie bleibt bestehen. Wirkst du einen Bannzauber, erhält der Schutz Trefferpunkte in Höhe des doppelten Grades des gewirkten Spruches zurück.</p>
+    <p class="indent">Hast du diese Fähigkeit einmal eingesetzt, kannst du sie erst erneut anwenden, nachdem du eine lange Rast beendet hast.</p>
+  </description>
+  <sheet usage="1/Lange Rast">
+    <description>Wenn du einen Bannzauber des 1. Grades oder höher wirkst, kannst du gleichzeitig einen Teil der Zauberenergie dazu verwenden, diesen magischen Schutz zu verstärken. Der Schutz hält bis zum Ende einer langen Rast an und besitzt ein Trefferpunktemaximum von {{arcane ward:hp}}. Jedes Mal, wenn du Schaden erleiden würdest, wird dieser stattdessen vom Schutz absorbiert. Werden die Trefferpunkte des Schutzes auf 0 reduziert, erleidest du eventuell überzähligen Schaden selbst. Solange der Schutz 0 Trefferpunkte besitzt, kann er keinen Schaden mehr abhalten, doch seine Magie bleibt bestehen. Wirkst du einen Bannzauber, erhält der Schutz Trefferpunkte in Höhe des doppelten Grades des gewirkten Spruches zurück.</description>
+  </sheet>
+  <rules>
+	<stat name="arcane ward:hp" value="level:magier" />
+	<stat name="arcane ward:hp" value="level:magier" />
+	<stat name="arcane ward:hp" value="intelligence:modifier" />
+  </rules>
+</element>
+<element name="Projizierter Schutz" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_PROJECTED_WARD">
+  <description>
+    <p>Angefangen mit der 6. Stufe kannst du deine Reaktion nutzen, um einer Kreatur, die du sehen kannst und die sich innerhalb von 9 m befindet, deinen Arkanen Schutz zu gewähren. Würde sie Schaden erleiden, absorbiert diesen stattdessen der Schutz. Sollte das die Trefferpunkte des Schutzes auf 0 reduzieren, erleidet die Kreatur eventuell überzähligen Schaden selbst.</p>
+  </description>
+  <sheet action="Reaktion">
+    <description>Du kannst einer angegriffenen Kreatur, die du sehen kannst und die sich innerhalb von 9 m befindet, deinen Arkanen Schutz gewähren. Würde sie Schaden erleiden, absorbiert diesen stattdessen der Schutz. Sollte das die Trefferpunkte des Schutzes auf 0 reduzieren, erleidet die Kreatur eventuell überzähligen Schaden selbst.</description>
+  </sheet>
+</element>
+<element name="Verbesserte Bannmagie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_IMPROVED_ABJURATION">
+  <description>
+    <p>Ab der 10. Stufe darfst du deinen Übungsbonus zu den Attributswürfen addieren, die du beim Wirken eines Zaubers ablegen musst (wie etwa bei <i>Gegenzauber</i> und <i>Magie bannen</i>).</p>
+  </description>
+  <sheet>
+    <description>Du darfst deinen Übungsbonus (+{{proficiency}}) zu den Attributswürfen addieren, die du beim Wirken eines Zaubers ablegen musst (wie etwa bei <i>Gegenzauber</i> und <i>Magie bannen</i>).</description>
+  </sheet>
+</element>
+<element name="Zauberresistenz" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_SPELL_RESISTANCE">
+  <description>
+    <p>Von Stufe 14 an bist du bei Rettungswürfen gegen Zauber im Vorteil. Darüber hinaus erhältst du eine Resistenz gegen den Schaden von Zaubern.</p>
+  </description>
+  <sheet>
+    <description>Du bist bei Rettungswürfen gegen Zauber im Vorteil, und du erhältst eine Resistenz gegen den Schaden von Zaubern.</description>
+  </sheet>
+</element>
+
+<element name="Schule der Beschwörung" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_CONJURATION">
+  <supports>Arcane Tradition</supports>
+  <description>
+    <p>Als Beschwörer bevorzugst du Zauber, die Gegenstände und Kreaturen herbeirufen. Du kannst sich auftürmende Schwaden aus tödlichem Nebel erschaffen oder aus dem Nichts Kreaturen erscheinen lassen, die für dich kämpfen. Mit wachsender Meisterschaft lernst du Teleportationszauber, mit deren Hilfe du dich in einem Augenblick über weite Strecken fortbewegen kannst, sogar bis auf andere Ebenen der Existenz.</p>
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_CONJURATION_SAVANT" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_MINOR_CONJURATION" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_BENIGN_TRANSPOSITION" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_FOCUSED_CONJURATION" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_DURABLE_SUMMONS" />
+  </description>
+  <sheet>
+    <description>Als Beschwörer bevorzugst du Zauber, die Gegenstände und Kreaturen herbeirufen.</description>
+  </sheet>
+  <rules>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_CONJURATION_SAVANT" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_MINOR_CONJURATION" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_BENIGN_TRANSPOSITION" level="6"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_FOCUSED_CONJURATION" level="10"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_DURABLE_SUMMONS" level="14"/>
+  </rules>
+</element>
+<element name="Gelehrter der Beschwörungsmagie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_CONJURATION_SAVANT">
+  <description>
+    <p>Beginnend mit der Wahl dieser Schule auf der 2. Stufe werden die Geldkosten und der Zeitaufwand für das Kopieren von Beschwörungszaubern in dein Zauberbuch halbiert.</p>
+  </description>
+  <sheet>
+    <description>Die Geldkosten und der Zeitaufwand für das Kopieren von Beschwörungszaubern in dein Zauberbuch werden halbiert.</description>
+  </sheet>
+</element>
+<element name="Schwächere Beschwörung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_MINOR_CONJURATION">
+  <description>
+    <p>Ebenfalls ab der 2. Stufe kannst du deine Aktion einsetzen, um ein unbelebtes Objekt in deiner Hand oder an einer freien Stelle innerhalb von 3 m zu erschaffen. Dieses Objekt darf nicht größer sein als 1 m je Seitenlänge und nicht mehr als 10 Pfund wiegen. Seine Gestalt muss einem nicht-magischen Gegenstand entsprechen, den du vorher bereits gesehen hast. Das Objekt ist sichtbar magisch, da es dämmriges Licht in einem Radius von 1,50 m ausstrahlt.</p>
+    <p class="indent">Der Gegenstand verschwindet nach 1 Stunde oder wenn du diese Fähigkeit erneut einsetzt oder er Schaden nimmt.</p>
+  </description>
+  <sheet action="Aktion">
+    <description>Du kannst ein unbelebtes Objekt in deiner Hand oder an einer freien Stelle innerhalb von 3 m erschaffen. Dieses Objekt darf nicht größer sein als 1 m je Seitenlänge und nicht mehr als 10 Pfund wiegen. Seine Gestalt muss einem nicht-magischen Gegenstand entsprechen, den du vorher bereits gesehen hast. Das Objekt ist sichtbar magisch, da es dämmriges Licht in einem Radius von 1,50 m ausstrahlt.</description>
+  </sheet>
+</element>
+<element name="Wohlwollende Transposition" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_BENIGN_TRANSPOSITION">
+  <description>
+    <p>Angefangen mit der 6. Stufe kannst du deine Aktion verwenden, um dich bis zu 9 m in einen freien Bereich zu teleportieren. Alternativ kannst du dich auch an die Position einer Kreatur der Größenkategorie klein oder mittelgroß teleportieren, wenn diese es zulässt. Dadurch tauscht ihr beide die Plätze.</p>
+    <p class="indent">Hast du diese Fähigkeit einmal eingesetzt, kannst du sie erst nach Beenden einer langen Rast erneut anwenden oder nachdem du einen Beschwörungszauber des 1. Grades oder höher gewirkt hast.</p>
+  </description>
+  <sheet action="Aktion" usage="1/Lange Rast oder Beschwörungszauber >= 1. Grad">
+    <description>Du dich bis zu 9 m in einen freien Bereich teleportieren. Alternativ kannst du dich auch an die Position einer Kreatur der Größenkategorie klein oder mittelgroß teleportieren, wenn diese es zulässt. Dadurch tauscht ihr beide die Plätze.</description>
+  </sheet>
+</element>
+<element name="Konzentrierte Beschwörung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_FOCUSED_CONJURATION">
+  <description>
+    <p>Ab der 10. Stufe kann deine Konzentration nicht mehr durch das Erleiden von Schaden unterbrochen werden, solange du dich auf einen Beschwörungszauber konzentrierst.</p>
+  </description>
+  <sheet>
+    <description>Während du dich auf einen Beschwörungszauber konzentrierst, wird deine Konzentration nicht mehr durch das Erleiden von Schaden unterbrochen.</description>
+  </sheet>
+</element>
+<element name="Widerstandsfähige Beschwörungen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CONJURATION_DURABLE_SUMMONS">
+  <description>
+    <p>Ah der 14. Stufe erhält jede Kreatur, die du mit Hilfe eines Beschwörungszaubers erschaffst oder herbeirufst, 30 temporäre Trefferpunkte.</p>
+  </description>
+  <sheet>
+    <description>Jede Kreatur, die du mit Hilfe eines Beschwörungszaubers erschaffst oder herbeirufst, erhält 30 temporäre Trefferpunkte.</description>
+  </sheet>
+</element>
+
+<element name="Schule der Erkenntnismagie" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_DIVINATION">
+  <supports>Arcane Tradition</supports>
+  <description>
+    <p>Der Rat eines Sehers wird von Adeligen und Bauern gleichermaßen geschätzt, da sie alle ein besseres Verständnis der Vergangenheit, Gegenwart und Zukunft erlangen wollen. Als Seher strebst du danach, die Schleier von Zeit, Raum und Bewusstsein zu lüften. Du meisterst Zauber der Fernwahrnehmung, der übersinnlichen Erkenntnis, des Scharfsinns und der Voraussicht.</p>
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_DIVINATION_SAVANT" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_PORTENT" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_EXPERT_DIVINATION" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_THE_THIRD_EYE" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_GREATER_PORTENT" />
+  </description>
+  <sheet>
+    <description>Der Rat eines Sehers wird von Adeligen und Bauern gleichermaßen geschätzt, da sie alle ein besseres Verständnis der Vergangenheit, Gegenwart und Zukunft erlangen wollen.</description>
+  </sheet>
+  <rules>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_DIVINATION_SAVANT" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_PORTENT" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_EXPERT_DIVINATION" level="6"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_THE_THIRD_EYE" level="10"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_GREATER_PORTENT" level="14"/>
+  </rules>
+</element>
+<element name="Gelehrter der Erkenntnismagie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_DIVINATION_SAVANT">
+  <description>
+    <p>Beginnend mit der Wahl dieser Schule auf der 2. Stufe werden die Geldkosten und der Zeitaufwand für das Kopieren von Erkenntniszaubern in dein Zauberbuch halbiert.</p>
+  </description>
+  <sheet>
+    <description>Die Geldkosten und der Zeitaufwand für das Kopieren von Erkenntniszaubern in dein Zauberbuch werden halbiert.</description>
+  </sheet>
+</element>
+<element name="Omen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_PORTENT">
+  <description>
+    <p>Ebenfalls mit der Wahl dieser Schule erhältst du die Fähigkeit, Einblicke in die Zukunft zu erhaschen. Nach Beenden einer langen Rast würfelst du mit 2W20 und notierst dir die Ergebnisse. Anschließend kannst du jeden beliebigen Angriffs-, Rettungs- oder Attributswurf, den du selbst durchführst oder eine Kreatur, die du sehen kannst, durch eines der beiden Ergebnisse ersetzen. Du musst dich vor dem eigentlichen Wurf entscheiden, ob du die Fähigkeit einsetzen willst, und kannst sie nur einmal pro Zug anwenden.</p>
+    <p class="indent">Jede der Zahlen kann nur ein einziges Mal verwendet werden. Wenn du eine lange Rast beendest, gehen alle ungenutzten Vorzeichenergebnisse verloren.</p>
+  </description>
+  <sheet usage="1/Zug">
+    <description>Nach Beenden einer langen Rast würfelst du mit 2W20 und notierst dir die Ergebnisse. Anschließend kannst du jeden beliebigen Angriffs-, Rettungs- oder Attributswurf, den du selbst durchführst oder eine Kreatur, die du sehen kannst, durch eines der beiden Ergebnisse ersetzen. Du musst dich vor dem eigentlichen Wurf entscheiden, ob du die Fähigkeit einsetzen willst, und kannst sie nur einmal pro Zug anwenden.</description>
+    <description level="14">Nach Beenden einer langen Rast würfelst du mit 3W20 und notierst dir die Ergebnisse. Anschließend kannst du jeden beliebigen Angriffs-, Rettungs- oder Attributswurf, den du selbst durchführst oder eine Kreatur, die du sehen kannst, durch eines der drei Ergebnisse ersetzen. Du musst dich vor dem eigentlichen Wurf entscheiden, ob du die Fähigkeit einsetzen willst, und kannst sie nur einmal pro Zug anwenden.</description>
+  </sheet>
+</element>
+<element name="Ausgezeichnete Erkenntnismagie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_EXPERT_DIVINATION">
+  <description>
+    <p>Ab der 6. Stufe fällt dir das Wirken von Erkenntniszaubern so leicht, dass du nur noch einen Bruchteil deiner magischen Energien zum Zaubern benötigst. Wenn du einen Erkenntniszauber des 2. Grades oder höher wirkst und dabei einen Zauberplatz verbrauchst, erhältst du einen anderen bereits verbrauchten Zauberplatz zurück. Der Grad des Zauberplatzes, den du zurückerhältst, muss niedriger sein als der des gewirkten Spruches und darf nicht höher als Grad 5 sein.</p>
+  </description>
+  <sheet>
+    <description>Wenn du einen Erkenntniszauber des 2. Grades oder höher wirkst und dabei einen Zauberplatz verbrauchst, erhältst du einen anderen bereits verbrauchten Zauberplatz zurück. Der Grad des Zauberplatzes, den du zurückerhältst, muss niedriger sein als der des gewirkten Spruches und darf nicht höher als Grad 5 sein.</description>
+  </sheet>
+</element>
+<element name="Das dritte Auge" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_THE_THIRD_EYE">
+  <description>
+    <p>Angefangen mit der 10. Stufe kannst du deine Aktion verwenden, um deine Wahrnehmungskräfte zu steigern. Wähle einen der folgenden Vorzüge. Dieser hält an, bis du kampfunfähig wirst oder eine kurze oder lange Rast beendest. Hast du diese Fähigkeit einmal eingesetzt, kannst du sie erst nach einer Rast erneut anwenden.</p>
+    <p class="indent"><strong><em>Dunkelsicht:</em></strong> Du erhältst Dunkelsicht mit einer Reichweite von 18 m.</p>
+    <p class="indent"><strong><em>Ätherische Sicht:</em></strong> Du kannst die ätherische Ebene innerhalb von 18 m um dich herum wahrnehmen.</p>
+    <p class="indent"><strong><em>Mächtiges Verständnis:</em></strong> Du kannst jede Schrift lesen.</p>
+    <p class="indent"><strong><em>Unsichtbares Sehen:</em></strong> Du kannst unsichtbare Kreaturen und Gegenstände sehen, die sich innerhalb von 3 m in deiner Sichtlinie befinden.</p>
+  </description>
+		<sheet action="Aktion" usage="1/Kurze Rast">
+    <description>Wähle einen der folgenden Vorzüge: Dunkelsicht, Ätherische Sicht, Mächtiges Verständnis oder Unsichtbares Sehen. Dieser hält an, bis du kampfunfähig wirst oder eine kurze oder lange Rast beendest.</description>
+  </sheet>
+</element>
+<element name="Mächtige Omen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_DIVINATION_GREATER_PORTENT">
+  <description>
+    <p>Ab der 14. Stufe werden deine Träume und Visionen stärker und zeichnen in deinem Geist ein deutlicheres Bild von dem, was da kommen wird. Du würfelst ab sofort mit 3W20 (anstatt mit 2W20), wenn du dein Merkmal Omen einsetzt.</p>
+  </description>
+  <sheet display="false">
+    <description>Du würfelst ab sofort mit 3W20 (anstatt mit 2W20), wenn du dein Merkmal Omen einsetzt.</description>
+  </sheet>
+</element>
+
+<element name="Schule der Verzauberung" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_ENCHANTMENT">
+  <supports>Arcane Tradition</supports>
+  <description>
+    <p>Als Mitglied der Schule der Verzauberung verfeinerst du deine Fähigkeit, andere Kreaturen magisch zu bezaubern und zu betören. Manche Verzauberer sind Friedensstifter, welche die Gewalttätigen besänftigen, damit sie ihre Waffen niederlegen, oder die Grausamen verleiten, Gnade walten zu lassen. Andere sind Tyrannen, die den Unwilligen auf magische Weise ihren Willen aufzwingen.</p>
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_ENCHANTMENT_SAVANT" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_HYPNOTIC_GAZE" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_INSTINCTIVE_CHARM" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_SPLIT_ENCHANTMENT" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_ALTER_MEMORIES" />
+  </description>
+		<sheet display="false">
+    <description>Als Mitglied der Schule der Verzauberung verfeinerst du deine Fähigkeit, andere Kreaturen magisch zu bezaubern und zu betören.</description>
+  </sheet>
+  <rules>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_ENCHANTMENT_SAVANT" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_HYPNOTIC_GAZE" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_INSTINCTIVE_CHARM" level="6"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_SPLIT_ENCHANTMENT" level="10"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_ALTER_MEMORIES" level="14"/>
+  </rules>
+</element>
+<element name="Gelehrter der Verzauberungsmagie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_ENCHANTMENT_SAVANT">
+  <description>
+    <p>Beginnend mit der Wahl dieser Schule auf der 2. Stufe werden die Geldkosten und der Zeitaufwand für das Kopieren von Verzauberungen in dein Zauberbuch halbiert.</p>
+  </description>
+  <sheet>
+    <description>Die Geldkosten und der Zeitaufwand für das Kopieren von Verzauberungen in dein Zauberbuch werden halbiert.</description>
+  </sheet>
+</element>
+<element name="Hypnotischer Blick" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_HYPNOTIC_GAZE">
+  <description>
+    <p>Ebenfalls mit der 2. Stufe vermögen deine sanften Worte und dein verzaubernder Blick auf magische Weise andere Kreaturen zu fesseln. Als Aktion bestimmst du eine Kreatur innerhalb von 1,50 m, die du sehen kannst. Wenn das Ziel auch dich sehen oder hören kann, muss ihm ein Weisheitsrettungswurf gegen den SG zum Widerstehen deiner Magierzauber gelingen oder es ist bis zum Ende deines nächsten Zuges von dir bezaubert. Die Bewegungsrate der bezauberten Kreatur sinkt auf 0, sie ist kampfunfähig und sichtbar benommen.</p>
+    <p class="indent">In den folgenden Zügen kannst du deine Aktion nutzen, um den Effekt bis zum Ende deines jeweils nächsten Zuges aufrechtzuerhalten. Der Effekt endet sofort, wenn du dich mehr als 1,50 m von der Kreatur wegbewegst, die Kreatur dich nicht mehr sehen oder hören kann oder sie Schaden erleidet.</p>
+    <p class="indent">Ist der Effekt beendet oder gelingt der Kreatur ihr anfänglicher Rettungswurf, kannst du diese Fähigkeit nicht mehr auf sie anwenden, bis du eine lange Rast abgeschlossen hast.</p>
+  </description>
+  <sheet action="Aktion">
+    <description>Du bestimmst eine Kreatur innerhalb von 1,50 m, die du sehen kannst. Wenn das Ziel auch dich sehen oder hören kann, muss ihm ein Weisheitsrettungswurf gegen SG {{wizard:spell:dc}} gelingen oder es ist bis zum Ende deines nächsten Zuges von dir bezaubert. Die Bewegungsrate der bezauberten Kreatur sinkt auf 0, sie ist kampfunfähig und sichtbar benommen. In den folgenden Zügen kannst du deine Aktion nutzen, um den Effekt bis zum Ende deines jeweils nächsten Zuges aufrechtzuerhalten. Der Effekt endet sofort, wenn du dich mehr als 1,50 m von der Kreatur wegbewegst, die Kreatur dich nicht mehr sehen oder hören kann oder sie Schaden erleidet. Ist der Effekt beendet oder gelingt der Kreatur ihr anfänglicher Rettungswurf, kannst du diese Fähigkeit nicht mehr auf sie anwenden, bis du eine lange Rast abgeschlossen hast.</description>
+  </sheet>
+  <rules>
+    <stat name="wizard:spell:dc" value="8" />
+    <stat name="wizard:spell:dc" value="proficiency" />
+    <stat name="wizard:spell:dc" value="intelligence:modifier" />
+  </rules>
+</element>
+<element name="Instinktive Bezauberung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_INSTINCTIVE_CHARM">
+  <description>
+    <p>Führt ab der 6. Stufe eine Kreatur, die du sehen kannst und die sich innerhalb von 9 m befindet, einen Angriffswurf gegen dich aus, kannst du deine Reaktion aufwenden, um die Attacke auf eine andere Kreatur in Reichweite des Angreifers abzulenken. Der Angreifer muss einen Weisheitsrettungswurf gegen den SG zum Widerstehen deiner Magierzauber ablegen. Bei einem Misserfolg muss der Angreifer das Ziel attackieren, das sich am nähesten zu dir befindet, ausgenommen dir und sich selbst. Falls mehrere Kreaturen gleich weit von dir entfernt sind, darf der Angreifer entscheiden, welche er wählt. Bei einem gelungenen Rettungswurf kannst du die Fähigkeit nicht mehr auf diese Kreatur anwenden, bis du eine lange Rast beendet hast.</p>
+    <p class="indent">Du musst dich dazu entscheiden, diese Fähigkeit anzuwenden, bevor du weißt, ob die Kreatur dich trifft oder verfehlt. Kreaturen, die nicht bezaubert werden können, sind gegen diesen Effekt immun.</p>
+  </description>
+  <sheet acion="Reaktion">
+    <description>Führt eine Kreatur, die du sehen kannst und die sich innerhalb von 9 m befindet, einen Angriffswurf gegen dich aus, kannst du die Attacke auf eine andere Kreatur in Reichweite des Angreifers ablenken. Der Angreifer muss einen Weisheitsrettungswurf gegen SG {{wizard:spell:dc}} ablegen. Bei einem Misserfolg muss der Angreifer das Ziel attackieren, das sich am nähesten zu dir befindet, ausgenommen dir und sich selbst. Falls mehrere Kreaturen gleich weit von dir entfernt sind, darf der Angreifer entscheiden, welche er wählt. Bei einem gelungenen Rettungswurf kannst du die Fähigkeit nicht mehr auf diese Kreatur anwenden, bis du eine lange Rast beendet hast. Du musst dich dazu entscheiden, diese Fähigkeit anzuwenden, bevor du weißt, ob die Kreatur dich trifft oder verfehlt. Kreaturen, die nicht bezaubert werden können, sind gegen diesen Effekt immun.</description>
+  </sheet>
+  <rules>
+    <stat name="wizard:spell:dc" value="8" />
+    <stat name="wizard:spell:dc" value="proficiency" />
+    <stat name="wizard:spell:dc" value="intelligence:modifier" />
+  </rules>
+</element>
+<element name="Verzauberung aufteilen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_SPLIT_ENCHANTMENT">
+  <description>
+    <p>Wirkst du von Stufe 10 an eine Verzauberung des 1. Grades oder höher, die nur eine Kreatur in Reichweite betrifft, kannst du eine weitere Kreatur als Ziel wählen.</p>
+  </description>
+  <sheet>
+    <description>Wirkst du eine Verzauberung des 1. Grades oder höher, die nur eine Kreatur in Reichweite betrifft, kannst du eine weitere Kreatur als Ziel wählen.</description>
+  </sheet>
+</element>
+<element name="Erinnerungen verändern" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ENCHANTMENT_ALTER_MEMORIES">
+  <description>
+    <p>Auf der 14. Stufe lernst du, eine Kreatur auf magische Weise davon abzuhalten, deinen Einfluss auf sie wahrzunehmen. Wirkst du eine Verzauberung, um eine oder mehrere Kreaturen zu bezaubern, kannst du die Wahrnehmung einer der Kreaturen verändern, sodass sie die Bezauberung nicht bemerkt. Zusätzlich kannst du einmal, bevor der Zauber endet, deine Aktion für den Versuch nutzen, die Erinnerung der Kreatur zu tilgen. Bist du erfolgreich, kannst du sie vergessen lassen, was unter dem Einfluss deines Zaubers geschehen ist. Der Kreatur muss ein Intelligenzrettungswurf gegen den SG zum Widerstehen deiner Magierzauber gelingen oder sie verliert die Erinnerung einer Anzahl von Stunden, die 1 + deinem Charismamodifikator (mindestens 1) entspricht. Du kannst die Kreatur auch weniger Zeit vergessen lassen. Die vergessene Zeit kann nicht die Dauer deiner Verzauberung übersteigen.</p>
+  </description>
+  <sheet>
+    <description>Wirkst du eine Verzauberung, um eine oder mehrere Kreaturen zu bezaubern, kannst du die Wahrnehmung einer der Kreaturen verändern, sodass sie die Bezauberung nicht bemerkt. Zusätzlich kannst du einmal, bevor der Zauber endet, deine Aktion für den Versuch nutzen, die Erinnerung der Kreatur zu tilgen. Bist du erfolgreich, kannst du sie vergessen lassen, was unter dem Einfluss deines Zaubers geschehen ist. Der Kreatur muss ein Intelligenzrettungswurf gegen SG {{wizard:spell:dc}} gelingen oder sie verliert die Erinnerung von {{alter memories:hours}} Stunden. Du kannst die Kreatur auch weniger Zeit vergessen lassen. Die vergessene Zeit kann nicht die Dauer deiner Verzauberung übersteigen.</description>
+  </sheet>
+  <rules>
+    <stat name="alter memories:hours" value="1" bonus="base"/>
+    <stat name="alter memories:hours" value="charisma:modifier" bonus="base"/>
+    <stat name="alter memories:hours" value="1" />
+    <stat name="wizard:spell:dc" value="8" />
+    <stat name="wizard:spell:dc" value="proficiency" />
+    <stat name="wizard:spell:dc" value="intelligence:modifier" />
+  </rules>
+</element>
+
+<element name="Schule der Hervorrufung" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_EVOCATION">
+  <supports>Arcane Tradition</supports>
+  <description>
+    <p>Du konzentrierst deine Studien auf Zauber, die mächtige elementare Effekte hervorrufen, wie etwa bittere Kälte, sengende Flammen, grollenden Donner, zuckende Blitze und ätzende Säure. Manche Magier dieser Schule werden in der Armee eingesetzt, um feindliche Truppen von Weitem unter Beschuss zu nehmen. Manche nutzen ihre spektakulären Kräfte, um die Schwachen zu beschützen, während andere ihren eigenen Vorteil suchen und einen Weg als Bandit, Abenteurer oder aufstrebender Tyrann beschreiten.</p>
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EVOCATION_SAVANT" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_SCULPT_SPELLS" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_POTENT_CANTRIP" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EMPOWERED_EVOCATION" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_OVERCHANNEL" />
+  </description>
+		<sheet display="false">
+    <description>Du konzentrierst deine Studien auf Zauber, die mächtige elementare Effekte hervorrufen, wie etwa bittere Kälte, sengende Flammen, grollenden Donner, zuckende Blitze und ätzende Säure.</description>
+  </sheet>
+  <rules>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EVOCATION_SAVANT" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_SCULPT_SPELLS" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_POTENT_CANTRIP" level="6"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EMPOWERED_EVOCATION" level="10"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_OVERCHANNEL" level="14"/>
+  </rules>
+</element>
+<element name="Gelehrter der Hervorrufung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EVOCATION_SAVANT">
+  <description>
+    <p>Beginnend mit der Wahl dieser Schule auf der 2. Stufe werden die Geldkosten und der Zeitaufwand für das Kopieren von Hervorrufungszaubern in dein Zauberbuch halbiert.</p>
+  </description>
+  <sheet>
+    <description>Die Geldkosten und der Zeitaufwand für das Kopieren von Hervorrufungszaubern in dein Zauberbuch werden halbiert.</description>
+  </sheet>
+</element>
+<element name="Zauber formen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_SCULPT_SPELLS">
+  <description>
+    <p>Ab der 2. Stufe hast du die Effekte deiner Hervorrufungszauber so unter Kontrolle, dass du Bereiche in ihnen formen kannst, in denen man vor ihren Auswirkungen sicher ist. Wenn du einen Hervorrufungszauber wirkst, der andere Kreaturen betrifft, die du sehen kannst, darfst du eine Anzahl dieser Kreaturen bestimmen, die 1 + dem Grad des Zaubers entspricht. Die ausgewählten Kreaturen schaffen ihren Rettungswurf gegen deinen Zauber automatisch und erleiden keinen Schaden, auch wenn sie normalerweise bei einem gelungenen Rettungswurf die Hälfte des Schadens erleiden würden.</p>
+  </description>
+  <sheet>
+    <description>Wenn du einen Hervorrufungszauber wirkst, der andere Kreaturen betrifft, die du sehen kannst, darfst du eine Anzahl dieser Kreaturen bestimmen, die 1 + dem Grad des Zaubers entspricht. Die ausgewählten Kreaturen schaffen ihren Rettungswurf gegen deinen Zauber automatisch und erleiden keinen Schaden, auch wenn sie normalerweise bei einem gelungenen Rettungswurf die Hälfte des Schadens erleiden würden.</description>
+  </sheet>
+</element>
+<element name="Kraftvolle Zaubertricks" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_POTENT_CANTRIP">
+  <description>
+    <p>Angefangen auf der 6. Stufe betreffen deine schadenverursachenden Zaubertricks sogar die Kreaturen, die der vollen Wucht deines magischen Angriffs entgehen konnten. Wenn einer Kreatur der Rettungswurf gegen deinen Zaubertrick gelingt, erleidet sie durch diesen trotzdem die Hälfte des Schadens (wenn er welchen verursacht). Allerdings wird sie von keinem der sonstigen Effekte des Zaubertricks betroffen.</p>
+  </description>
+  <sheet>
+    <description>Wenn einer Kreatur der Rettungswurf gegen deinen Zaubertrick gelingt, erleidet sie durch diesen trotzdem die Hälfte des Schadens (wenn er welchen verursacht). Allerdings wird sie von keinem der sonstigen Effekte des Zaubertricks betroffen.</description>
+  </sheet>
+</element>
+<element name="Mächtige Hervorrufung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EMPOWERED_EVOCATION">
+  <description>
+    <p>Beginnend mit Stufe 10 kannst du einem der Schadenswürfe eines beliebigen Hervorrufungszaubers deinen Intelligenzmodifikator hinzufügen.</p>
+  </description>
+  <sheet>
+    <description>Du kannst einem der Schadenswürfe eines beliebigen Hervorrufungszaubers deinen Intelligenzmodifikator (+{{intelligence:modifier}}) hinzufügen.</description>
+  </sheet>
+</element>
+<element name="Überladen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_OVERCHANNEL">
+  <description>
+    <p>Mit Erreichen der 14. Stufe kannst du die Kraft deiner einfachen Zaubersprüche erhöhen. Wenn du einen Magierzauber des 1. bis 5. Grades wirkst, der Schaden verursacht, kannst du mit diesem maximalen Schaden anrichten. Wenn du diese Fähigkeit ein einziges Mal einsetzt, hat dies keine nachteiligen Effekte. Wendest du sie vor Beenden einer langen Rast jedoch erneut an, erleidest du 2W12 nekrotischen Schaden pro Grad des gewirkten Zaubers, sofort nachdem du ihn ausgesprochen hast. Bei jedem weiteren Einsatz vor einer langen Rast steigt der nekrotische Schaden um 1W12 pro Grad des Zaubers. Dieser Schaden ignoriert Resistenzen und Immunitäten.</p>
+  </description>
+  <sheet>
+    <description>Wenn du einen Magierzauber des 1. bis 5. Grades wirkst, der Schaden verursacht, kannst du mit diesem maximalen Schaden anrichten. Wenn du diese Fähigkeit ein einziges Mal einsetzt, hat dies keine nachteiligen Effekte. Wendest du sie vor Beenden einer langen Rast jedoch erneut an, erleidest du 2W12 nekrotischen Schaden pro Grad des gewirkten Zaubers, sofort nachdem du ihn ausgesprochen hast. Bei jedem weiteren Einsatz vor einer langen Rast steigt der nekrotische Schaden um 1W12 pro Grad des Zaubers. Dieser Schaden ignoriert Resistenzen und Immunitäten.</description>
+  </sheet>
+</element>
+
+<element name="Schule der  Illusion" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_ILLUSION">
+  <supports>Arcane Tradition</supports>
+  <description>
+    <p>Die Schule der Illusion beschäftigt sich mit Zaubern, welche die Sinne täuschen, den Geist verwirren und selbst die weisesten Leute hinters Licht zu führen vermögen. Deine Magie ist subtil, doch lassen die Illusionen, die dein scharfer Verstand erschafft, selbst das Unmögliche real erscheinen. Manche Illusionisten, viele gnomische Magier eingeschlossen, sind geschickte Trickser, die ihre Sprüche zur Unterhaltung einsetzen. Einige jedoch sind finstere Meister der Täuschung, die ihre Illusionen nutzen, um andere zu ihrem eigenen Vorteil zu verängstigen und hereinzulegen.</p>
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_ILLUSION_SAVANT" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_IMPROVED_MINOR_ILLUSION" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_MALLEABLE_ILLUSIONS" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_ILLUSORY_SELF" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_ILLUSORY_REALITY" />
+  </description>
+		<sheet display="false">
+    <description>Die Schule der Illusion beschäftigt sich mit Zaubern, welche die Sinne täuschen, den Geist verwirren und selbst die weisesten Leute hinters Licht zu führen vermögen.</description>
+  </sheet>
+  <rules>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_ILLUSION_SAVANT" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_IMPROVED_MINOR_ILLUSION" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_MALLEABLE_ILLUSIONS" level="6"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_ILLUSORY_SELF" level="10"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_ILLUSORY_REALITY" level="14"/>
+  </rules>
+</element>
+<element name="Gelehrter der Illusionsmagie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_ILLUSION_SAVANT">
+  <description>
+    <p>Beginnend mit der Wahl dieser Schule auf der 2. Stufe werden die Geldkosten und der Zeitaufwand für das Kopieren von Illusionszaubern in dein Zauberbuch halbiert.</p>
+  </description>
+  <sheet>
+    <description>Die Geldkosten und der Zeitaufwand für das Kopieren von Illusionszaubern in dein Zauberbuch werden halbiert.</description>
+  </sheet>
+</element>
+<element name="Verbesserte einfache Illusion" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_IMPROVED_MINOR_ILLUSION">
+  <description>
+    <p>Ebenfalls bei der Wahl dieser Schule lernst du den Zaubertrick <em>Einfache Illusion</em>. Solltest du diesen bereits beherrschen, suche dir einen beliebigen anderen Magierzaubertrick aus. Der Zaubertrick zählt nicht in Bezug auf deine maximale Anzahl bekannter Zaubertricks. Wenn du <em>Einfache Illusion</em> wirkst, kannst du mit einer Anwendung sowohl ein Geräusch als auch ein Bild erschaffen.</p>
+    <div class="reference">
+      <div element="ID_PHB_SPELL_MINOR_ILLUSION" />
+    </div>
+  </description>
+  <sheet>
+    <description>Wenn du <em>Einfache Illusion</em> wirkst, kannst du mit einer Anwendung sowohl ein Geräusch als auch ein Bild erschaffen.</description>
+  </sheet>
+  <rules>
+    <select type="Spell" name="Verbesserte einfache Illusion" supports="Wizard,0" spellcasting="Wizard" default="ID_PHB_SPELL_MINOR_ILLUSION" default-behaviour="force" />
+  </rules>
+</element>
+<element name="Formbare Illusionen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_MALLEABLE_ILLUSIONS">
+  <description>
+    <p>Angefangen mit der 6. Stufe kannst du immer, wenn du einen Illusionszauber mit einer Wirkungsdauer von 1 Minute oder länger wirkst, deine Aktion nutzen, um die Beschaffenheit der Illusion zu ändern (wobei du die normalen Parameter für die Illusion verwendest). Du musst die Illusion dafür sehen können.</p>
+  </description>
+  <sheet action="Aktion">
+    <description>Wenn du einen Illusionszauber mit einer Wirkungsdauer von 1 Minute oder länger wirkst, kannst du die Beschaffenheit der Illusion ändern (wobei du die normalen Parameter für die Illusion verwendest). Du musst die Illusion dafür sehen können.</description>
+  </sheet>
+</element>
+<element name="Illusorisches Selbst" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_ILLUSORY_SELF">
+  <description>
+    <p>Mit Erreichen der 10. Stufe erhältst du die Fähigkeit, ein illusorisches Duplikat deiner Selbst zu erschaffen, mit dem du nahezu reflexartig auf Gefahr reagieren kannst. Wenn eine Kreatur einen Angriffswurf gegen dich ausführt, kannst du deine Reaktion verwenden, um das illusorische Duplikat zwischen dich und den Gegner zu bewegen. Der Angriff verfehlt dich automatisch und löst das Duplikat auf.</p>
+    <p class="indent">Hast du diese Fähigkeit einmal angewendet, kannst du sie erst nach einer kurzen oder langen Rast erneut einsetzen.</p>
+  </description>
+  <sheet action="Reaktion" usage="1/Kurze Rast">
+    <description>Wenn eine Kreatur einen Angriffswurf gegen dich ausführt, kannst du ein illusorisches Duplikat zwischen dich und den Gegner bewegen. Der Angriff verfehlt dich automatisch und löst das Duplikat auf.</description>
+  </sheet>
+</element>
+<element name="Illusorische Realität" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ILLUSION_ILLUSORY_REALITY">
+  <description>
+    <p>Auf der 14. Stufe erlangst du das geheime Wissen, wie du Schattenmagie in deine Illusionen einflechten kannst, um Teile von ihnen Wirklichkeit werden zu lassen. Wenn du einen Illusionszauber des 1. Grades oder höher wirkst, kannst du dir ein nicht-magisches unbelebtes Objekt aussuchen, das Teil der Illusion ist, und dieses real werden lassen. Diesen Effekt kannst du als Bonusaktion in deinem Zug nutzen, während der Zauber anhält. Das Objekt bleibt für 1 Minute real. Beispielsweise kannst du so die Illusion einer Brücke schaffen, die über einen Abgrund führt, und sie dann lange genug real werden lassen, damit deine Verbündeten sie überqueren können.</p>
+    <p class="indent">Das Objekt kann keinen Schaden verursachen oder eine Kreatur auf andere Weise direkt verletzen.</p>
+  </description>
+		<sheet action="Bonusaktion">
+    <description>Wenn du einen Illusionszauber des 1. Grades oder höher wirkst, kannst du dir ein nicht-magisches unbelebtes Objekt aussuchen, das Teil der Illusion ist, und dieses real werden lassen. Diesen Effekt kannst du als Bonusaktion in deinem Zug nutzen, während der Zauber anhält. Das Objekt bleibt für 1 Minute real. Beispielsweise kannst du so die Illusion einer Brücke schaffen, die über einen Abgrund führt, und sie dann lange genug real werden lassen, damit deine Verbündeten sie überqueren können. Das Objekt kann keinen Schaden verursachen oder eine Kreatur auf andere Weise direkt verletzen.</description>
+  </sheet>
+</element>
+
+<element name="Schule der Nekromantie" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_NECROMANCY">
+  <supports>Arcane Tradition</supports>
+  <description>
+    <p>Die Schule der Nekromantie erforscht die kosmischen Kräfte des Lebens, des Todes und des Untodes. Beim Vertiefen deiner Studien in dieser Tradition lernst du die Energien zu manipulieren, die alle Dinge am Leben erhalten. Mit zunehmendem Wissen vermagst du die Lebenskraft einer Kreatur anzuzapfen, während deine Magie ihren Körper zerstört. Dabei bist du in der Lage, diese Lebensenergie in magische Kraft umzuwandeln, die du beeinflussen kannst.</p>
+    <p class="indent">Die meisten Leute sehen Nekromanten als Bedrohung an oder sogar als niederträchtig, da sie schnell mit dem Tod in Verbindung gebracht werden. Nicht alle Nekromanten sind böse, doch die Mächte, die sie zu beherrschen versuchen, gelten in den meisten Gesellschaften als Tabu.</p>
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_NECROMANCY_SAVANT" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_GRIM_HARVEST" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_UNDEAD_THRALLS" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_INURED_TO_UNDEAD" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_COMMAND_UNDEAD" />
+  </description>
+		<sheet display="false">
+    <description>Die Schule der Nekromantie erforscht die kosmischen Kräfte des Lebens, des Todes und des Untodes.</description>
+  </sheet>
+  <rules>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_NECROMANCY_SAVANT" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_GRIM_HARVEST" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_UNDEAD_THRALLS" level="6"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_INURED_TO_UNDEAD" level="10"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_COMMAND_UNDEAD" level="14"/>
+  </rules>
+</element>
+<element name="Gelehrter der Nekromantie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_NECROMANCY_SAVANT">
+  <description>
+    <p>Beginnend mit der Wahl dieser Schule auf der 2. Stufe werden die Geldkosten und der Zeitaufwand für das Kopieren von Nekromantiezaubern in dein Zauberbuch halbiert.</p>
+  </description>
+  <sheet>
+    <description>Die Geldkosten und der Zeitaufwand für das Kopieren von Nekromantiezaubern in dein Zauberbuch werden halbiert.</description>
+  </sheet>
+</element>
+<element name="Grausame Ernte" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_GRIM_HARVEST">
+  <description>
+    <p>Auf der 2. Stufe erhältst du die Fähigkeit, die Lebensenergie von Kreaturen zu ernten, die durch einen deiner Zauber getötet wurden. Wenn du eine oder mehrere Kreaturen mit einem Zauber des 1. oder höheren Grades tötest, erhältst du einmal pro Zug Trefferpunkte in doppelter Höhe des Zaubergrades zurück. Handelt es sich um einen Nekromantiezauber, wird dessen Grad zur Bestimmung der Trefferpunkte sogar verdreifacht. Diesen Vorzug erhältst du nicht, wenn du Untote oder Konstrukte tötest.</p>
+  </description>
+  <sheet>
+    <description>Wenn du eine oder mehrere Kreaturen mit einem Zauber des 1. oder höheren Grades tötest, erhältst du einmal pro Zug Trefferpunkte in doppelter Höhe des Zaubergrades zurück. Handelt es sich um einen Nekromantiezauber, wird dessen Grad zur Bestimmung der Trefferpunkte sogar verdreifacht. Diesen Vorzug erhältst du nicht, wenn du Untote oder Konstrukte tötest.</description>
+  </sheet>
+</element>
+<element name="Untote Diener" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_UNDEAD_THRALLS">
+  <description>
+    <p>Auf Stufe 6 fügst du deinem Zauberbuch den Zauber <em>Tote beleben</em> hinzu, falls du ihn noch nicht besitzt. Wenn du <em>Tote beleben</em> wirkst, kannst du eine weitere Leiche oder einen weiteren Knochenhaufen als Ziel bestimmen und dadurch einen weiteren Zombie bzw. ein weiteres Skelett erschaffen. Immer wenn du Untote unter Verwendung eines Nekromantiezaubers erschaffst, hat dies zusätzliche Vorzüge:</p>
+    <ul>
+      <li>Das Trefferpunktemaximum der Kreatur ist um eine Anzahl erhöht, die deiner Stufe als Magier entspricht.</li>
+      <li>Die Kreatur addiert deinen Übungsbonus zu ihren Schadenswürfen mit einer Waffe.</li>
+    </ul>
+    <div class="reference">
+      <div element="ID_PHB_SPELL_ANIMATE_DEAD" />
+    </div>
+  </description>
+  <sheet>
+    <description>Wenn du <em>Tote beleben</em> wirkst, kannst du eine weitere Leiche oder einen weiteren Knochenhaufen als Ziel bestimmen und dadurch einen weiteren Zombie bzw. ein weiteres Skelett erschaffen. Das Trefferpunktemaximum der Kreaturen ist um {{level:magier}} erhöht. Die Kreaturen addieren deinen Übungsbonus (+{{proficiency}}) zu ihren Schadenswürfen mit einer Waffe.</description>
+  </sheet>
+  <rules>
+    <grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" spellcasting="Wizard"/>
+  </rules>
+</element>
+<element name="Unempfindlich gegen Untotes" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_INURED_TO_UNDEAD">
+  <description>
+    <p>Mit Erreichen der 10. Stufe hast du so viel Zeit mit den Untoten verbracht und den Kräften, die sie beleben, dass du gegen ihre schlimmsten Auswirkungen abgehärtet bist. Du erhältst eine Resistenz gegen nekrotischen Schaden. Außerdem kann dein Trefferpunktemaximum nicht verringert werden.</p>
+  </description>
+  <sheet>
+    <description>Du erhältst eine Resistenz gegen nekrotischen Schaden und dein Trefferpunktemaximum kann nicht verringert werden.</description>
+  </sheet>
+  <rules>
+  	<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+  </rules>
+</element>
+<element name="Untote befehlen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_COMMAND_UNDEAD">
+  <description>
+    <p>Ab der 14. Stufe bist du in der Lage, Untote unter deine Kontrolle zu bringen, selbst wenn sie von einem anderen Magier erschaffen wurden. Als Aktion kannst du einen Untoten bestimmen, den du sehen kannst und der sich innerhalb von 18 m befindet. Diese Kreatur muss einen Charismarettungswurf gegen den SG zum Widerstehen deiner Magierzauber ausführen. Gelingt der Rettungswurf, kann diese Kreatur nicht erneut von deinem Zauber betroffen werden. Bei einem Misserfolg wird die Kreatur dir gegenüber freundlich gesinnt und gehorcht deinen Befehlen, bis du diese Fähigkeit erneut anwendest.</p>
+    <p class="indent">Intelligente Untote sind auf diese Weise schwieriger zu kontrollieren. Verfügt das Ziel über einen Intelligenzwert von 8 oder höher, ist es bei seinem Rettungswurf im Vorteil. Wenn der Rettungswurf misslingt und die Kreatur einen Intelligenzwert von 12 oder höher besitzt, kann sie am Ende jeder Stunde den Rettungswurf wiederholen, bis sie Erfolg hat und sich befreit.</p>
+  </description>
+  <sheet action="Aktion">
+    <description>Bestimme einen Untoten, den du sehen kannst und der sich innerhalb von 18 m befindet. Diese Kreatur muss einen Charismarettungswurf gegen SG {{wizard:spell:dc}} ausführen. Gelingt der Rettungswurf, kann diese Kreatur nicht erneut von deinem Zauber betroffen werden. Bei einem Misserfolg wird die Kreatur dir gegenüber freundlich gesinnt und gehorcht deinen Befehlen, bis du diese Fähigkeit erneut anwendest. Verfügt das Ziel über einen Intelligenzwert von 8 oder höher, ist es bei seinem Rettungswurf im Vorteil. Wenn der Rettungswurf misslingt und die Kreatur einen Intelligenzwert von 12 oder höher besitzt, kann sie am Ende jeder Stunde den Rettungswurf wiederholen, bis sie Erfolg hat und sich befreit.</description>
+  </sheet>
+  <rules>
+    <stat name="wizard:spell:dc" value="8" />
+    <stat name="wizard:spell:dc" value="proficiency" />
+    <stat name="wizard:spell:dc" value="intelligence:modifier" />
+  </rules>
+</element>
+
+<element name="Schule der Verwandlung" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_TRANSMUTATION">
+  <supports>Arcane Tradition</supports>
+  <description>
+    <p>Du bist ein Student der Zauber, die Energie und Materie verändern. Für dich ist die Welt nichts Festes, sondern ausgesprochen wandelbar, und du genießt es, ein Element dieser Verän-derung zu sein. Du formst die rohe Energie der Schöpfung und lernst, sowohl die körperliche Gestalt als auch die Natur des Geistes zu manipulieren. Deine Magie gibt dir die Werkzeuge an die Hand, um ein Schmied auf dem Amboss der Realität zu werden.</p>
+    <p class="indent">Manche Angehörige dieser Schule sind Bastler und Scherzbolde, die Leute zum Spaß in Kröten verwandeln oder Kupfer in Silber, um für gelegentlichen Profit zu sorgen. Andere verfolgen ihre magischen Studien mit tödlicher Ernsthaftigkeit, um die Macht von Göttern zu erlangen, mit der sie Welten erschaffen und zerstören können.</p>
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTATION_SAVANT" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MINOR_ALCHEMY" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTERS_STONE" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_SHAPECHANGER" />
+    <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MASTER_TRANSMUTER" />
+  </description>
+		<sheet display="false">
+    <description>>Du bist ein Student der Zauber, die Energie und Materie verändern.</description>
+  </sheet>
+  <rules>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTATION_SAVANT" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MINOR_ALCHEMY" level="2"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTERS_STONE" level="6"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_SHAPECHANGER" level="10"/>
+    <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MASTER_TRANSMUTER" level="14"/>
+  </rules>
+</element>
+<element name="Gelehrter der Verwandlung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTATION_SAVANT">
+  <description>
+    <p>Beginnend mit der Wahl dieser Schule auf der 2. Stufe werden die Geldkosten und der Zeitaufwand für das Kopieren von Verwandlungszaubern in dein Zauberbuch halbiert.</p>
+  </description>
+  <sheet>
+    <description>Die Geldkosten und der Zeitaufwand für das Kopieren von Verwandlungszaubern in dein Zauberbuch werden halbiert.</description>
+  </sheet>
+</element>
+<element name="Einfache Alchemie" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MINOR_ALCHEMY">
+  <description>
+    <p>Ebenfalls ab der 2. Stufe kannst du die physischen Eigenschaf ten eines nicht-magischen Objekts verändern und es damit von einer Substanz in die andere wandeln. Du wendest ein spezielles alchemistisches Verfahren auf einen Gegenstand an, der vollständig aus Holz, Stein (außer Edelstein), Eisen, Kupfer oder Silber besteht, und verwandelst seine Beschaffenheit in ein anderes dieser Materialien. Für jede 10 Minuten, die du diesen Vorgang vollziehst, kannst du einen Würfel mit bis zu 0,30 m Kantenlänge an Material verwandeln. Nach einer Stunde oder bis du die Konzentration verlierst (als wenn du dich auf einen Zauber konzentrieren würdest) nimmt der Gegenstand wieder seine ursprüngliche Beschaffenheit an.</p>
+  </description>
+  <sheet>
+    <description>Du wendest ein spezielles alchemistisches Verfahren auf einen Gegenstand an, der vollständig aus Holz, Stein (außer Edelstein), Eisen, Kupfer oder Silber besteht, und verwandelst seine Beschaffenheit in ein anderes dieser Materialien. Für jede 10 Minuten, die du diesen Vorgang vollziehst, kannst du einen Würfel mit bis zu 0,30 m Kantenlänge an Material verwandeln. Nach einer Stunde oder bis du die Konzentration verlierst (als wenn du dich auf einen Zauber konzentrieren würdest) nimmt der Gegenstand wieder seine ursprüngliche Beschaffenheit an.</description>
+  </sheet>
+</element>
+<element name="Stein des Wandlers" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_TRANSMUTERS_STONE">
+  <description>
+    <p>Beginnend mit der 6. Stufe kannst du 8 Stunden damit verbringen, einen Stein des Wandlers herzustellen, der Verwandlungsmagie speichert. Du kannst den Stein selbst nutzen oder ihn einem deiner Verbündeten anvertrauen. Eine Kreatur erhält den von dir gewählten Vorzug, solange der Stein in ihrem Besitz ist. Beim Erschaffen des Steins suchst du einen der folgenden Vorzüge aus:</p>
+    <ul>
+      <li>Dunkelsicht mit einer Reichweite von 18 m</li>
+      <li>Erhöhung der Bewegungsrate um 3 m, solange die Kreatur unbelastet ist</li>
+      <li>Übung in Konstitutionsrettungswürfen</li>
+      <li>Resistenz gegen Säure-, Kälte-, Feuer-, Blitz- oder Schallschaden (nach deiner Wahl beim Auswählen dieses Vorzuges)</li>
+    </ul>
+    <p>Jedes Mal, wenn du einen Verwandlungszauber des 1. oder höheren Grades wirkst, kannst du den Vorzug des Steins ändern, falls du ihn bei dir trägst. Wenn du einen weiteren Stein des Wandlers erschaffst, wird der vorherige nutzlos.</p>
+  </description>
+  <sheet>
+    <description>Du kannst 8 Stunden damit verbringen, einen Stein des Wandlers herzustellen, der Verwandlungsmagie speichert.</description>
+  </sheet>
+</element>
+<element name="Gestaltwandler" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_SHAPECHANGER">
+  <description>
+    <p>Auf der 10. Stufe fügst du deinem Zauberbuch den Zauber <em>Verwandlung</em> hinzu, falls du ihn nicht bereits besitzt. Du kannst <em>Verwandlung</em> wirken, ohne Zauberplätze zu verbrauchen. In diesem Fall kannst du nur dich selbst als Ziel wählen und dich in ein Tier verwandeln, das einen HG von 1 oder niedriger besitzt.</p>
+    <p class="indent">Hast du <em>Verwandlung</em> einmal auf diese Weise gewirkt, ist es dir erst wieder nach Abschluss einer kurzen oder langen Rast möglich. Du kannst den Spruch weiterhin ganz normal durch Aufwenden von Zauberplätzen wirken.</p>
+    <div class="reference">
+      <div element="ID_PHB_SPELL_POLYMORPH" />
+    </div>
+  </description>
+  <sheet usage="1/Kurze Rast">
+    <description>Du kannst <em>Verwandlung</em> wirken, ohne Zauberplätze zu verbrauchen. In diesem Fall kannst du nur dich selbst als Ziel wählen und dich in ein Tier verwandeln, das einen HG von 1 oder niedriger besitzt.</description>
+  </sheet>
+  <rules>
+    <grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" spellcasting="Wizard"/>
+  </rules>
+</element>
+<element name="Meisterwandler" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_TRANSMUTATION_MASTER_TRANSMUTER">
+  <description>
+    <p>Angefangen mit Stufe 14 kannst du deine Aktion nutzen, um die Kraft, die in deinem Stein des Wandlers gespeichert ist, in einem einzigen Ausbruch magischer Energie freizusetzen. Suche dir einen der folgenden Effekte aus. Dein Stein des Wandlers wird dabei zerstört und kann so lange nicht neu erschaffen werden, bis du eine lange Rast beendet hast.</p>
+    <p class="indent"><strong><em>Große Verwandlung:</em></strong> Du kannst ein nicht-magisches Objekt, das nicht größer als ein 1,50 m großer Würfel ist, in ein anderes nicht-magisches Objekt von ähnlicher Größe und ähnlichem Gewicht verwandeln, das einen vergleichbaren oder niedrigeren Wert besitzt. Du musst dich 10 Minuten mit dem Objekt befassen, um es zu verwandeln.</p>
+    <p class="indent"><strong><em>Allheilmittel:</em></strong> Du entfernst sämtliche Flüche, Krankheiten und Gifte von einer Kreatur, die du mit dem Stein des Wandlers berührst. Zusätzlich erhält die Kreatur alle verlorenen Trefferpunkte zurück.</p>
+    <p class="indent"><strong><em>Leben wiederherstellen:</em></strong> Du wirkst den Zauber <em>Tote erwecken</em> auf eine Kreatur, die du mit dem Stein des Wandlers berührst, ohne dass du einen Zauberplatz verbrauchst oder den Spruch in deinem Zauberbuch haben musst.</p>
+    <p class="indent"><strong><em>Jugend wiederherstellen:</em></strong> Berührst du mit dem Stein des Wandlers eine Kreatur, die dazu gewillt ist, veränderst du ihr Aussehen so, dass sie um 3W10 Jahre jünger wirkt (bis auf ein Minimum von 13 Jahren). Dieser Effekt verlängert nicht die Lebenserwartung der Kreatur.</p>
+  </description>
+  <sheet acion="Aktion" usage="1/Lange Rast">
+			<description>Du kannst die Kraft, die in deinem Stein des Wandlers gespeichert ist, in einem einzigen Ausbruch magischer Energie freizusetzen. Suche dir einen der folgenden Effekte aus. Dein Stein des Wandlers wird dabei zerstört und kann so lange nicht neu erschaffen werden, bis du eine lange Rast beendet hast.
+        <strong><em>Große Verwandlung:</em></strong> Du kannst ein nicht-magisches Objekt, das nicht größer als ein 1,50 m großer Würfel ist, in ein anderes nicht-magisches Objekt von ähnlicher Größe und ähnlichem Gewicht verwandeln, das einen vergleichbaren oder niedrigeren Wert besitzt. Du musst dich 10 Minuten mit dem Objekt befassen, um es zu verwandeln.
+        <strong><em>Allheilmittel:</em></strong> Du entfernst sämtliche Flüche, Krankheiten und Gifte von einer Kreatur, die du mit dem Stein des Wandlers berührst. Zusätzlich erhält die Kreatur alle verlorenen Trefferpunkte zurück.
+        <strong><em>Leben wiederherstellen:</em></strong> Du wirkst den Zauber <em>Tote erwecken</em> auf eine Kreatur, die du mit dem Stein des Wandlers berührst, ohne dass du einen Zauberplatz verbrauchst oder den Spruch in deinem Zauberbuch haben musst.
+        <strong><em>Jugend wiederherstellen:</em></strong> Berührst du mit dem Stein des Wandlers eine Kreatur, die dazu gewillt ist, veränderst du ihr Aussehen so, dass sie um 3W10 Jahre jünger wirkt (bis auf ein Minimum von 13 Jahren). Dieser Effekt verlängert nicht die Lebenserwartung der Kreatur.
+      </description>
+		</sheet>
+</element>
+
+<element name="Stein des Wandlers, Dunkelsicht" type="Magic Item" source="Spielerhandbuch" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_DARKVISION">
+  <description>
+    <p><em>Dieser Gegenstand kann von einem Magier, der der Schule der Verwandlung angehört, erschaffen werden.</em></p>
+    <p>As long as the stone is in the creature’s possession you have darkvision out to a range of 60 feet.</p>
+  </description>
+  <setters>
+    <set name="category">Wondrous Items</set>
+    <set name="type">Transmutation Item</set>
+    <set name="slot">misc</set>
+  </setters>
+  <rules>
+    <grant type="Vision" id="ID_VISION_DARKVISION" />
+  </rules>
+</element>
+<element name="Stein des Wandlers, Bewegung" type="Magic Item" source="Spielerhandbuch" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_SPEED">
+  <description>
+    <p><em>Dieser Gegenstand kann von einem Magier, der der Schule der Verwandlung angehört, erschaffen werden.</em></p>
+    <p>Erhöht die Bewegungsrate um 3 m, solange die Kreatur unbelastet ist.</p>
+  </description>
+  <setters>
+    <set name="category">Wondrous Items</set>
+    <set name="type">Transmutation Item</set>
+    <set name="slot">misc</set>
+  </setters>
+  <rules>
+    <stat name="speed:misc" value="10" />
+  </rules>
+</element>
+<element name="Stein des Wandlers, Konstitutionsrettungswurf" type="Magic Item" source="Spielerhandbuch" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_CONSTITUTION_SAVE">
+  <description>
+    <p><em>Dieser Gegenstand kann von einem Magier, der der Schule der Verwandlung angehört, erschaffen werden.</em></p>
+    <p>Solange der Stein im Besitz einer Kreatur ist, erhält sie Übung in Konstitutionsrettungswürfen.</p>
+  </description>
+  <setters>
+    <set name="category">Wondrous Items</set>
+    <set name="type">Transmutation Item</set>
+    <set name="slot">misc</set>
+  </setters>
+  <rules>
+    <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+  </rules>
+</element>
+<element name="Stein des Wandlers, Säureresistenz" type="Magic Item" source="Spielerhandbuch" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_ACID">
+  <description>
+    <p><em>Dieser Gegenstand kann von einem Magier, der der Schule der Verwandlung angehört, erschaffen werden.</em></p>
+    <p>Solange der Stein im Besitz einer Kreatur ist, erhält sie Resistenz gegen Säureschaden.</p>
+  </description>
+  <setters>
+    <set name="category">Wondrous Items</set>
+    <set name="type">Transmutation Item</set>
+    <set name="slot">misc</set>
+  </setters>
+  <rules>
+    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+  </rules>
+</element>
+<element name="Stein des Wandlers, Kälteresistenz" type="Magic Item" source="Spielerhandbuch" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_COLD">
+  <description>
+    <p><em>Dieser Gegenstand kann von einem Magier, der der Schule der Verwandlung angehört, erschaffen werden.</em></p>
+    <p>Solange der Stein im Besitz einer Kreatur ist, erhält sie Resistenz gegen Kälteschaden.</p>
+  </description>
+  <setters>
+    <set name="category">Wondrous Items</set>
+    <set name="type">Transmutation Item</set>
+    <set name="slot">misc</set>
+  </setters>
+  <rules>
+    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+  </rules>
+</element>
+<element name="Stein des Wandlers, Feuerresistenz" type="Magic Item" source="Spielerhandbuch" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_FIRE">
+  <description>
+    <p><em>Dieser Gegenstand kann von einem Magier, der der Schule der Verwandlung angehört, erschaffen werden.</em></p>
+    <p>Solange der Stein im Besitz einer Kreatur ist, erhält sie Resistenz gegen Feuerschaden.</p>
+  </description>
+  <setters>
+    <set name="category">Wondrous Items</set>
+    <set name="type">Transmutation Item</set>
+    <set name="slot">misc</set>
+  </setters>
+  <rules>
+    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+  </rules>
+</element>
+<element name="Stein des Wandlers, Blitzresistenz" type="Magic Item" source="Spielerhandbuch" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_LIGHTNING">
+  <description>
+    <p><em>Dieser Gegenstand kann von einem Magier, der der Schule der Verwandlung angehört, erschaffen werden.</em></p>
+    <p>Solange der Stein im Besitz einer Kreatur ist, erhält sie Resistenz gegen Blitzschaden.</p>
+  </description>
+  <setters>
+    <set name="category">Wondrous Items</set>
+    <set name="type">Transmutation Item</set>
+    <set name="slot">misc</set>
+  </setters>
+  <rules>
+    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+  </rules>
+</element>
+<element name="Stein des Wandlers, Schallresistenz" type="Magic Item" source="Spielerhandbuch" id="ID_WOTC_PHB_MAGIC_ITEM_TRANSMUTERS_STONE_RESISTANCE_THUNDER">
+  <description>
+    <p><em>Dieser Gegenstand kann von einem Magier, der der Schule der Verwandlung angehört, erschaffen werden.</em></p>
+    <p>Solange der Stein im Besitz einer Kreatur ist, erhält sie Resistenz gegen Schallschaden.</p>
+  </description>
+  <setters>
+    <set name="category">Wondrous Items</set>
+    <set name="type">Transmutation Item</set>
+    <set name="slot">misc</set>
+  </setters>
+  <rules>
+    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+  </rules>
+</element>
+</elements>

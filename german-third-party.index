@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Drittanbieter</name>
+		<description>The content from various third party sources.</description>
+		<update version="0.0.1">
+			<file name="german-third-party.index" url="https://raw.githubusercontent.com/fenaldar/elements/german/german-third-party.index" />
+		</update>
+	</info>
+	<files>
+		<file name="german-sources.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/drittanbieter/german-sources.xml" />
+
+		<!-- <file name="critical-role.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role.index" /> -->
+		<!-- <file name="dms-guild.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dms-guild.index" /> -->
+
+		<file name="german-dnd-wiki.index" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/drittanbieter/german-dnd-wiki.index" />
+		<!-- <file name="genuine-fantasy-press.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/genuine-fantasy-press.index" /> -->
+		<!-- <file name="mage-hand-press.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/mage-hand-press.index" /> -->
+	</files>
+</index>

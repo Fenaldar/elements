@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Abenteuerausrüstung</name>
+		<description></description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.4">
+			<file name="gegenstaende-abenteuerausruestung.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gegenstaende/gegenstaende-abenteuerausruestung.xml" />
+		</update>
+	</info>
+
+	<element name="Abakus" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ABACUS">
+		<description>
+			<p>Ein Standardwerkzeug für Berechnungen.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Alchemistenfeuer (Flasche)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ALCHEMISTS_FIRE_FLASK">
+		<description>
+			<p>Diese zähe, klebrige Flüssigkeit entzündet sich, wenn sie in Kontakt mit Luft kommt. Als Aktion kannst du das Fläschchen bis zu 6 m weit werfen, wo es beim Aufprall zerspringt. Führe einen Fernkampfangriff gegen ein Objekt oder eine Kreatur aus, wobei das Alchemistenfeuer als improvisierte Waffe behandelt wird. Bei einem Treffer erleidet das Ziel zu Beginn jedes seiner Züge 1W4 Feuerschaden. Eine Kreatur kann diesen Schaden beenden, indem es eine Aktion aufwendet und einen Geschicklichkeitswurf gegen SG 10 ablegt, um die Flammen zu löschen.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Angelausrüstung" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_FISHINGTACKLE">
+		<description>
+			<p>Diese Zusammenstellung beinhaltet eine Angelrute, Angelschnur, Korkschwimmer, Stahlhaken, Bleigewichte, Seidenköder und engmaschige Netze.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Kristallkugel" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CRYSTAL">
+		<description>
+			<p>Ein arkaner Fokus ist ein spezieller Gegenstand wie eine Kristallkugel, ein Edelstein, ein Stab, ein besonders gearbeiteter Stecken, ein zauberstabartiges Stück Holz oder ein ähnlicher Gegenstand, der dazu entworfen wurde, die Kraft von arkanen Zaubern zu bündeln. Ein Zauberer, Hexenmeister oder Magier kann einen solchen Gegenstand als Zauberfokus verwenden, wie es im Kapitel 10 „Zauber wirken" beschrieben wird.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="container">Arcane Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Edelstein" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ORB">
+		<description>
+			<p>Ein arkaner Fokus ist ein spezieller Gegenstand wie eine Kristallkugel, ein Edelstein, ein Stab, ein besonders gearbeiteter Stecken, ein zauberstabartiges Stück Holz oder ein ähnlicher Gegenstand, der dazu entworfen wurde, die Kraft von arkanen Zaubern zu bündeln. Ein Zauberer, Hexenmeister oder Magier kann einen solchen Gegenstand als Zauberfokus verwenden, wie es im Kapitel 10 „Zauber wirken" beschrieben wird.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="container">Arcane Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Rute" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ROD">
+		<description>
+			<p>Ein arkaner Fokus ist ein spezieller Gegenstand wie eine Kristallkugel, ein Edelstein, ein Stab, ein besonders gearbeiteter Stecken, ein zauberstabartiges Stück Holz oder ein ähnlicher Gegenstand, der dazu entworfen wurde, die Kraft von arkanen Zaubern zu bündeln. Ein Zauberer, Hexenmeister oder Magier kann einen solchen Gegenstand als Zauberfokus verwenden, wie es im Kapitel 10 „Zauber wirken" beschrieben wird.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="container">Arcane Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Stab" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_STAFF">
+		<description>
+			<p>Ein arkaner Fokus ist ein spezieller Gegenstand wie eine Kristallkugel, ein Edelstein, ein Stab, ein besonders gearbeiteter Stecken, ein zauberstabartiges Stück Holz oder ein ähnlicher Gegenstand, der dazu entworfen wurde, die Kraft von arkanen Zaubern zu bündeln. Ein Zauberer, Hexenmeister oder Magier kann einen solchen Gegenstand als Zauberfokus verwenden, wie es im Kapitel 10 „Zauber wirken" beschrieben wird.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="container">Arcane Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Zauberstab" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_WAND">
+		<description>
+			<p>Ein arkaner Fokus ist ein spezieller Gegenstand wie eine Kristallkugel, ein Edelstein, ein Stab, ein besonders gearbeiteter Stecken, ein zauberstabartiges Stück Holz oder ein ähnlicher Gegenstand, der dazu entworfen wurde, die Kraft von arkanen Zaubern zu bündeln. Ein Zauberer, Hexenmeister oder Magier kann einen solchen Gegenstand als Zauberfokus verwenden, wie es im Kapitel 10 „Zauber wirken" beschrieben wird.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="container">Arcane Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Behälter (Armbrustbolzen)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CASE_CROSSBOWBOLT">
+		<description>
+			<p>Dieser hölzerne Kasten fasst bis zu 20 Armbrustbolzen.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+	<element name="Behälter (Karten oder Schriftrollen)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CASE_MAPORSCROLL">
+		<description>
+			<p>Dieser zylindrische Lederbehälter kann bis zu zehn zusammengerollte Blatt Papier oder fünf zusammengerollte Blatt Pergament enthalten.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+	<element name="Becher oder Tonhumpen" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_FLASKORTANKARD">
+		<description>
+			<p>Ein Becher oder Tonhumpen hat ein Fassungsvermögen von 0,5 Liter Flüssigkeit.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">2</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Beutel" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_POUCH">
+		<description>
+			<p>Ein Stoff- oder Lederbeutel fasst (neben anderen Dingen) bis zu 20 Schleuderkugeln oder 50 Blasrohrpfeile. Ein Materialkomponentenbeutel, den man für Zauber verwendet, wird separat beschrieben.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+	<element name="Brechstange" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CROWBAR">
+		<description>
+			<p>Verwendest du eine Brechstange als Hebel, bist du im Vorteil bei entsprechenden Stärkewürfen.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Buch" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BOOK">
+		<description>
+			<p>Ein Buch könnte Poesie, geschichtliche Aufzeichnungen, Informationen über ein bestimmtes Fachgebiet, Diagramme und Notizen zu gnomischen Apparaten oder jeglichem anderen Inhalt enthalten, den man mit Text und Zeichnungen festhalten kann. Ein Buch mit Zaubernsprüchen ist ein Zauberbuch (siehe weiter unten in diesem Abschnitt).</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Decke" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BLANKET">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Drei-Schritt-Stange (3 Meter)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_POLE_10_FOOT">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="7">7 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sprig of Mistletoe" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SPRIGOFMISTLETOE">
+		<description>
+			<p>Ein druidischer Fokus kann ein Mistelzweig, ein Eibenstock oder ein anderer Gegenstand aus speziellem Holz sein, wie etwa ein Kampfstab. Es kann sich auch um ein Totemobjekt handeln, in das Federn, Fell, Knochen und Zähne eines heiligen Tieres eingearbeitet sind. Ein Druide kann ein solches Objekt als Zauberfokus verwenden, wie es in Kapitel 10 „Zauber wirken" beschrieben wird.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="0">—</set>
+			<set name="container">Druidic Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Totem" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_TOTEM">
+		<description>
+			<p>Ein druidischer Fokus kann ein Mistelzweig, ein Eibenstock oder ein anderer Gegenstand aus speziellem Holz sein, wie etwa ein Kampfstab. Es kann sich auch um ein Totemobjekt handeln, in das Federn, Fell, Knochen und Zähne eines heiligen Tieres eingearbeitet sind. Ein Druide kann ein solches Objekt als Zauberfokus verwenden, wie es in Kapitel 10 „Zauber wirken" beschrieben wird.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="0">—</set>
+			<set name="container">Druidic Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Eibenstock" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_WOODENSTAFF">
+		<description>
+			<p>Ein druidischer Fokus kann ein Mistelzweig, ein Eibenstock oder ein anderer Gegenstand aus speziellem Holz sein, wie etwa ein Kampfstab. Es kann sich auch um ein Totemobjekt handeln, in das Federn, Fell, Knochen und Zähne eines heiligen Tieres eingearbeitet sind. Ein Druide kann ein solches Objekt als Zauberfokus verwenden, wie es in Kapitel 10 „Zauber wirken" beschrieben wird.</p>		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="container">Druidic Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Mistelzweig" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_YEWWAND">
+		<description>
+			<p>Ein druidischer Fokus kann ein Mistelzweig, ein Eibenstock oder ein anderer Gegenstand aus speziellem Holz sein, wie etwa ein Kampfstab. Es kann sich auch um ein Totemobjekt handeln, in das Federn, Fell, Knochen und Zähne eines heiligen Tieres eingearbeitet sind. Ein Druide kann ein solches Objekt als Zauberfokus verwenden, wie es in Kapitel 10 „Zauber wirken" beschrieben wird.</p>		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="container">Druidic Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Eimer" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BUCKET">
+		<description>
+			<p>Ein Eimer hat ein Fassungsvermögen von 12 Liter.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Eisenkeile (10)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SPIKES_IRON_10">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Enterhaken" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_GRAPPLINGHOOK">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Fackel" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_TORCH">
+		<description>
+			<p>Eine Fackel brennt 1 Stunde lang und liefert im Umkreis von 6 m helles Licht sowie in weiteren 6 m Abstand dämmriges Licht. Wenn du mit der Fackel einen Nahkampfangriff ausführst und triffst, verursachst du 1 Punkt Feuerschaden.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Fangeisen (Falle)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_HUNTINGTRAP">
+		<description>
+			<p>Als Aktion kannst du das Fangeisen auslegen und einsatzbereit machen. Der sägezahnbesetzte Stahlring schnappt zusammen, sobald eine Kreatur auf die Druckplatte in dessen Mitte tritt. Die Falle wird an einer Kette an einem unbeweglichen Objekt befestigt, wie etwa einem Baum oder einem im Boden steckenden Pfahl. Eine Kreatur, die auf die Druckplatte tritt, muss einen Geschicklichkeitsrettungswurf gegen SG 13 ablegen. Bei einem Misserfolg erleidet sie 1W4 Stichschaden und ihre Bewegung ist beendet. Anschließend ist die Bewegungsfreiheit der Kreatur durch die Kette eingeschränkt, bis sie sich befreien kann. Eine Kreatur kann ihre Aktion dazu verwenden, um einen Stärkewurf gegen SG 13 abzulegen. Bei einem Erfolg kann sie sich selbst oder eine Kreatur in Reichweite befreien. Jeder erfolglose Versuch fügt der gefangenen Kreatur 1 Punkt Stichschaden zu. Die Kette ist typischerweise 1 m lang.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="25">25 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Fass" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BARREL">
+		<description>
+			<p>Ein Faß hat ein Fassungsvermögen von 160 Liter.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="70">70 lb.</set>
+		</setters>
+	</element>
+	<element name="Fernglas" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SPYGLASS">
+		<description>
+			<p>Objekte, die durch ein Fernglas betrachtet werden, erscheinen doppelt so groß.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Flaschenzug" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BLOCKANDTACKLE">
+		<description>
+			<p>Bestehend aus Seilen, Rollen und einem Holzblock, an dem ein Haken befestigt ist, dient der Flaschenzug dazu, bis zu viermal höheres Gewicht anzuheben, als dies ohne ihn möglich wäre.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Gegengift (Phiole)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ANTITOXIN_VIAL">
+		<description>
+			<p>Eine Kreatur, die diese Phiole mit Flüssigkeit trinkt, ist für die nächste Stunde bei ihren Rettungswürfen gegen Gifte im Vorteil. Untote und Konstrukte können diesen Vorteil nicht erhalten.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Gift, einfach (Phiole)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_POISON_BASIC_VIAL">
+		<description>
+			<p>Du kannst das Gift in diesem Gefäß verwenden, um als Aktion eine Hieb- oder Stichwaffe oder 3 Geschosse zu vergiften. Eine Kreatur, die von einer vergifteten Waffe oder einem vergifteten Geschoss getroffen wird, muss einen Konstitutionsrettungswurf gegen SG 10 ablegen oder nimmt 1W4 Giftschaden. Ist das Gift erst einmal aufgetragen, behält es seine Wirksamkeit für 1 Minute, bevor es eintrocknet.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Glasflasche" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BOTTLE_GLASS">
+		<description>
+			<p>Eine Flasche hat ein Fassungsvermögen von 0,75 Liter Flüssigkeit.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Glocke" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BELL">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Hammer" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_HAMMER">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Hammer, Vorschlag-" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_HAMMER_SLEDGE">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Handschellen" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_MANACLES">
+		<description>
+			<p>Diese metallenen Fesseln können einer kleinen oder mittelgroßen Kreatur angelegt werden. Sich den Handschellen zu entwinden, erfordert einen erfolgreichen Geschicklichkeitswurf gegen SG 20. Mit einem Stärkewurf gegen SG 20 können sie auch aufgebrochen werden. Jedem Paar Handschellen liegt ein Schlüssel bei. Eine Kreatur, die geübt im Umgang mit Diebeswerkzeug ist, kann die Handschellen auch ohne Schlüssel mit einem erfolgreichen Geschicklichkeitswurf gegen SG 15 öffnen. Handschellen haben 15 Trefferpunkte.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Heilerausrüstung" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_HEALERSKIT">
+		<description>
+			<p>Dieses Set ist ein Lederbeutel, der Bandagen, Salben und Schienen enthält. Es reicht für zehn Anwendungen. Als Aktion kannst du eine Anwendung aufbrauchen, um eine Kreatur mit 0 Trefferpunkten zu stabilisieren, ohne dass du einen Wurf auf Weisheit (Heilkunde) ablegen musst.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Heiltrank" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_POTIONOFHEALING">
+		<description>
+			<p>Ein Charakter, der die magische rote Flüssigkeit aus der Phiole trinkt, erhält 2W4 + 2 Trefferpunkte zurück. Den Trank zu trinken oder zu verabreichen, benötigt eine Aktion.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Amulett" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_AMULET">
+		<description>
+			<p>Ein heiliges Symbol repräsentiert eine Gottheit oder ein Pantheon von Göttern. Es könnte auf ein Amulett geprägt, aber auch auf einen Schild graviert sein oder sich als Einlegearbeit auf diesem befinden. Auch eine kleine Schatulle mit einem winzigen Fragment einer heiligen Reliquie kann als heiliges Symbol dienen. Anhang B „Götter des Multiversums" führt das verbreitetste Symbol jeder Gottheit auf. Ein Kleriker oder Paladin kann das heilige Symbol als Zauberfokus verwenden, so wie es in Kapitel 10 „Zauber wirken" beschrieben wird. Um das heilige Symbol auf diese Weise nutzen zu können, muss man es sichtbar in einer Hand halten oder es muss auf einem Schild angebracht sein.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="container">Holy Symbol</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Einlegearbeit" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_EMBLEM">
+		<description>
+			<p>Ein heiliges Symbol repräsentiert eine Gottheit oder ein Pantheon von Göttern. Es könnte auf ein Amulett geprägt, aber auch auf einen Schild graviert sein oder sich als Einlegearbeit auf diesem befinden. Auch eine kleine Schatulle mit einem winzigen Fragment einer heiligen Reliquie kann als heiliges Symbol dienen. Anhang B „Götter des Multiversums" führt das verbreitetste Symbol jeder Gottheit auf. Ein Kleriker oder Paladin kann das heilige Symbol als Zauberfokus verwenden, so wie es in Kapitel 10 „Zauber wirken" beschrieben wird. Um das heilige Symbol auf diese Weise nutzen zu können, muss man es sichtbar in einer Hand halten oder es muss auf einem Schild angebracht sein.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="0">—</set>
+			<set name="container">Holy Symbol</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Reliquie" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_RELIQUARY">
+		<description>
+			<p>Ein heiliges Symbol repräsentiert eine Gottheit oder ein Pantheon von Göttern. Es könnte auf ein Amulett geprägt, aber auch auf einen Schild graviert sein oder sich als Einlegearbeit auf diesem befinden. Auch eine kleine Schatulle mit einem winzigen Fragment einer heiligen Reliquie kann als heiliges Symbol dienen. Anhang B „Götter des Multiversums" führt das verbreitetste Symbol jeder Gottheit auf. Ein Kleriker oder Paladin kann das heilige Symbol als Zauberfokus verwenden, so wie es in Kapitel 10 „Zauber wirken" beschrieben wird. Um das heilige Symbol auf diese Weise nutzen zu können, muss man es sichtbar in einer Hand halten oder es muss auf einem Schild angebracht sein.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="container">Holy Symbol</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Kaufmannswaage" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SCALE_MERCHANTS">
+		<description>
+			<p>Eine Waage besteht aus einem Gegengewicht, zwei Waagschalen und einem passenden Sortiment an Gewichten von bis zu zwei Pfund. Mit ihrer Hilfe kannst du das genaue Gewicht von kleinen Gegenständen wie Rohmaterialien oder Handelsgütern abwiegen und so ihren Wert bestimmen.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Kette (3 m)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CHAIN_10FEET">
+		<description>
+			<p>Eine Kette hat 10 Trefferpunkte. Sie kann mit einem erfolgreichen Stärkewurf gegen SG 20 gesprengt werden.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Kerze" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CANDLE">
+		<description>
+			<p>Eine Kerze spendet für 1 Stunde helles Licht in einem Radius von 1,50 m und dämmriges Licht in weiteren 1.50 m Entfernung.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">1</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Kiste" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CHEST">
+		<description>
+			<p>Eine Kiste hat ein Fassungsvermögen von 340 Liter / 300 Pfund Ausrüstung.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="25">25 lb.</set>
+		</setters>
+	</element>
+	<element name="Kletterausrüstung" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CLIMBERSKIT">
+		<description>
+			<p>Eine Kletterausrüstung beinhaltet spezielle Felshaken, Steigeisen, Handschuhe und einen Klettergurt. Als Aktion kannst du die Kletterausrüstung nutzen, um dich in einer Wand zu verankern. Von dem Punkt, an dem du dich verankert hast, kannst du nicht tiefer als 7,50 m fallen und dich nicht weiter als 7,50 m entfernen, ohne die Verankerung zu lösen.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="12">12 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Köcher" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_QUIVER">
+		<description>
+			<p>Ein Köcher fasst bis zu 20 Pfeile.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+		</setters>
+	</element>
+	<element name="Korb" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BASKET">
+		<description>
+			<p>Ein Korb hat ein Fassungsvermögen von 60 Liter / 40 Pfund Ausrüstung.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">4</set>
+			<set name="weight" lb="2">2 lb.</set>
+		</setters>
+	</element>
+	<element name="Kleidung, fein" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CLOTHES_FINE">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="6">6 lb.</set>
+		</setters>
+	</element>
+	<element name="Kleidung, gewöhnlich" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CLOTHES_COMMON">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="3">3 lb.</set>
+		</setters>
+	</element>
+	<element name="Kleidung, Kostüm" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CLOTHES_COSTUME">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">4 lb.</set>
+		</setters>
+	</element>
+	<element name="Kleidung, Reise-" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CLOTHES_TRAVELERS">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="4">4 lb.</set>
+		</setters>
+	</element>
+	<element name="Kletterhaken" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_PITON">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0.25">1/4 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Krähenfüße (Beutel, 20 Stk.)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CALTROPS_BAGOF20">
+		<description>
+			<p>Als Aktion kannst du die Krähenfüße in diesem Beutel über einen Bereich mit höchstens 1,50 m Seitenlänge verteilen. Jede Kreatur, die den Bereich betritt, muss einen erfolgreichen Geschicklichkeitsrettungswurf gegen SG 15 ablegen oder sie erleidet 1 Punkt Stichschaden und ihre Bewegung ist beendet. Erleidet sie diesen Schaden, ist die Bewegungsrate der Kreatur um 3 m verringert, bis sie mindestens 1 Trefferpunkt wiedererlangt. Eine Kreatur, die sich nur mit halber Bewegungsrate durch den Bereich bewegt, muss keinen Rettungswurf ablegen. Fliegende Kreaturen werden von Krähenfüßen nicht beeinflusst.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Kreide" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CHALK_1PIECE">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">1</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Lampe" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_LAMP">
+		<description>
+			<p>Eine Lampe verbreitet helles Licht in einem Radius von 4,50 m und dämmriges Licht im Umkreis von weiteren 9 m. Ab dem Entfachen brennt die Lampe mit einem Fläschchen Öl (0,5 l) für 6 Stunden.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Laterne, abdeckbar" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_LANTERN_HOODED">
+		<description>
+			<p>Die abdeckbare Laterne erhellt einen Umkreis von 9 in mit hellem Licht und weitere 9 rn mit dämmrigem Licht. Nach dem Entzünden brennt sie mit einem Fläschchen Öl (0,5 l) 6 Stunden lang. Im Rahmen einer Aktion kannst du die Abdeckung herunterlassen und das Licht der Laterne auf einen Radius von 1,50 in aus dämmrigem Licht reduzieren.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Laterne, Blend" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_LANTERN_BULLSEYE">
+		<description>
+			<p>Eine Blendlaterne wirft einen 18 in langen Kegel hellen Lichts, der weitere 18 m in dämmriges Licht taucht. Einmal entfacht, brennt die Laterne mit einem Fläschchen Öl (0,5 l) für 6 Stunden.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Leiter (3 Meter)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_LADDER_10_FOOT">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="25">25 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Materialkomponentenbeutel" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_COMPONENTPOUCH">
+		<description>
+			<p>Ein Materialkomponentenbeutel ist eine kleine, wasserdichte Ledergürteltasche. In ihm befinden sich in separaten Fächern all jene Materialien und anderen speziellen Gegenstände, die du zum Wirken deiner Zauber benötigst. Komponenten, die in der Beschreibung des Zaubers mit Kosten aufgeführt sind, sind nicht im Beutel enthalten.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">2 lb.</set>
+		</setters>
+	</element>
+	<element name="Metallkügelchen (Beutel, 1.000 Stk.)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BALLBEARINGS">
+		<description>
+			<p>Als Aktion kannst du die kleinen Metallkugeln auf einer Fläche verschütten, die höchstens 3 m pro Seite misst. Eine Kreatur, die sich über die bedeckte Fläche (die eben sein muss) bewegt, muss einen erfolgreichen Geschicklichkeitsrettungswurf gegen SG 10 ablegen, um nicht hinzufallen und den Zustand liegend zu erhalten. Eine Kreatur, die sich nur mit halber Bewegungsrate durch diesen Bereich bewegt, muss keinen Rettungswurf ablegen.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Öl (Flasche)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_OIL_FLASK">
+		<description>
+			<p>Öl wird üblicherweise in tönernen Flaschen verkauft, die 0,5 Liter enthalten. Als Aktion kannst du das Öl auf eine Kreatur innerhalb von 1,50 m schütten oder es bis zu 6 m weit werfen, wo das Fläschchen beim Aufprall zerbricht. In beiden Fällen führst du einen Fernkampfangriff gegen das Objekt oder die Kreatur aus, wobei das Ölfläschchen als improvisierte Waffe behandelt wird. Bei einem Treffer ist das Ziel mit Öl benetzt. Erleidet es Feuerschaden, bevor das Öl eintrocknet (nach 1 Minute), fügt ihm das Öl weitere 5 Punkte Feuerschaden zu. Du kannst ein Fläschchen auch auf dem Boden ausleeren und eine Fläche von 1,50 m x 1,50 m mit Öl bedecken, vorausgesetzt der Boden ist eben. Wird es entzündet. brennt das Öl für 2 Runden und fügt jeder Kreatur, die den Bereich betritt oder ihren Zug in diesem beendet, 5 Punkte Feuerschaden zu.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Papier (ein Blatt)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_PAPER_ONESHEET">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">2</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Pergament (ein Blatt)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_PARCHMENT_ONESHEET">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Parfüm (Phiole)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_PERFUME_VIAL">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Phiole" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_VIAL">
+		<description>
+			<p>Eine Phiole hat ein Fassungsvermögen von 120 ml Flüssigkeit.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="1">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Rammbock, tragbarer" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_RAM_PORTABLE">
+		<description>
+			<p>Du kannst den tragbaren Rammbock dazu verwenden, um Türen einzuschlagen. In diesem Fall erhältst du einen Bonus von +4 auf deinen Stärkewurf. Hilft dir ein weiterer Charakter, den Rammbock zu benutzen, bist du bei deinem Wurf im Vorteil.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">4</set>
+			<set name="weight" lb="35">35 lb.</set>
+		</setters>
+	</element>
+	<element name="Rationen (1 Tag)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_RATIONS_1DAY">
+		<description>
+			<p>Rationen bestehen aus getrocknetem Essen, das für lange Reisen geeignet ist. Darunter findet man Dörrfleisch, Trockenfrüchte, Nüsse und Hartkäse.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Reisegeschirr" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_MESSKIT">
+		<description>
+			<p>Diese Blechdose enthält einen Becher und einfaches Besteck. Die Blechdose ist zusammengesteckt, sodass eine Seite als Pfanne und die andere als Teller oder flache Schale verwendet werden kann.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">2</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Roben" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ROBES">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="4">4 lb.</set>
+		</setters>
+	</element>
+	<element name="Rucksack" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BACKPACK">
+		<description>
+			<p>Ein Rucksack faßt 30 Liter / 30 Pfund Ausrüstung.</p>
+			<p class="indent">Du kannst auch Gegenstände außen an dem Rucksack festzurren, wie etwa einen Schlafsack oder ein Seil.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="5">5 lb.</set>
+		</setters>
+	</element>
+	<element name="Sack" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SACK">
+		<description>
+			<p>Der Sack hat ein Fassungsvermögen von 30 Liter / 30 Pfund Ausrüstung.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">1</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+		</setters>
+	</element>
+	<element name="Sanduhr" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_HOURGLASS">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Säure (Phiole)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ACID_VIAL">
+		<description>
+			<p>Als Aktion kannst du den Inhalt dieser Phiole auf eine Kreatur innerhalb von 1,50 m verspritzen oder die Phiole bis zu 6 m weit werfen, wo sie beim Aufprall zerbricht. In beiden Fällen führst du gegen das Objekt oder die Kreatur einen Fernkampfangriff aus, bei dem die Säure als improvisierte Waffe behandelt wird. Bei einem Treffer erleidet das Ziel 2W6 Säureschaden.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Schlafsack" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BEDROLL">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="7">7 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Schloss" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_LOCK">
+		<description>
+			<p>Schloss wird mit einem passenden Schlüssel verkauft. Eine Kreatur, die geübt im Umgang mit Diebeswerkzeug ist, kann das Schloss auch ohne den Schlüssel mit einem erfolgreichen Geschicklichkeitswurf gegen SG 15 öffnen. Dein SL kann bestimmen, ob es für mehr Geld bessere Schlösser zu kaufen gibt.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Schaufel" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SHOVEL">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Schreibfeder" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_INKPEN">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">2</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Seife" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SOAP">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">2</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Seil aus Hanf (15 m)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ROPE_HEMPEN_50FEET">
+		<description>
+			<p>Seile, ob aus Hanf oder Seide gefertigt, haben 2 Trefferpunkte und können mit einem Stärkewurf gegen SG 17 zerrissen werden.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Seil aus Seide (15 m)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ROPE_SILK_50FEET">
+		<description>
+			<p>Seile, ob aus Hanf oder Seide gefertigt, haben 2 Trefferpunkte und können mit einem Stärkewurf gegen SG 17 zerrissen werden.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Siegelring" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SIGNETRING">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Siegelwachs" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SEALINGWAX">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Signalpfeife" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SIGNALWHISTLE">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Spiegel, Stahl-" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_MIRROR_STEEL">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Spitzhacke" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_PICK_MINERS">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Tinte (1 Flasche, 30 ml)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_INK_1OUNCEBOTTLE">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Tonkrug oder Kanne" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_JUGORPITCHER">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">2</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Topf, Eisen-" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_POT_IRON">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Trinkschlauch" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_WATERSKIN">
+		<description>
+			<p>Ein Trinkschlauch hat ein Fassungsvermögen von 2 Liter Flüssigkeit.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">2</set>
+			<set name="weight" lb="5">5 lb. (voll)</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Vergrößerungsglas" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_MAGNIFYINGGLASS">
+		<description>
+			<p>Diese Linse ermöglicht einen besseren Blick auf kleine Objekte. Verwendest du ein Vergrößerungsglas bist du im Vorteil bei jeglichen Fertigkeitswürfen, die mit der Untersuchung oder dem Schätzen eines Objekts in Verbindung stehen, das klein oder sehr detailliert ist. Die Linse ist auch hilfreich als Ersatz für Feuerstein und Stahl. Ein Feuer mit dem Vergrößerungsglas zu entfachen, erfordert taghelles Licht, um die Strahlen zu bündeln, Zunder und etwa 5 Minuten Zeit, bis der Zunder brennt.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0">—</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Weihwasser (Flasche)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_HOLYWATER_FLASK">
+		<description>
+			<p>Als Aktion kannst du den Inhalt des Fläschchens auf eine Kreatur innerhalb von 1,50 m verspritzen oder dieses bis zu 6 m weit werfen, wo es beim Aufprall zerbricht. In beiden Fällen führst du einen Fernkampfangriff gegen die Zielkreatur aus, wobei das Weihwasser als improvisierte Waffe behandelt wird. Wenn das Ziel ein Untoter oder ein Unhold ist, nimmt es 2W6 gleißenden Schaden. Ein Kleriker oder ein Paladin kann Weihwasser mit einem speziellen Ritual erschaffen. Das Ritual benötigt 1 Stunde, um durchgeführt zu werden, und verbraucht 25 GM an Silberstaub und einen Zauberplatz des 1. Grades.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Wetzstein" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_WHETSTONE">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">1</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Zauberbuch" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SPELLBOOK">
+		<description>
+			<p>Unverzichtbar für Magier ist das Zauberbuch aus ledergebundenen 100 leeren Pergamentseiten.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="3">3 lb.</set>
+		</setters>
+	</element>
+	<element name="Zelt (für 2 Personen)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_TENT_TWOPERSON">
+		<description>
+			<p>Ein einfacher und tragbarer Leinenunterschlupf, in dem zwei Personen übernachten können.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="20">20 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Zunderkästchen" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_TINDERBOX">
+		<description>
+			<p>Dieses kleine Kästchen enthält Feuerstein, Stahl und Zunder (in der Regel Stoff, der leicht mit Öl getränkt ist), um ein Feuer entfachen zu können. Zum Anzünden einer Fackel oder einem ähnlichen mit Brennstoff versehenen Gegenstand, benötigt man eine Aktion. Jedes andere Feuer zu entfachen, dauert 1 Minute.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<!-- ammunition individual, price and weight recalculated -->
+	<element name="Pfeile" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ARROW">
+		<description>
+			<p>Pfeile werden benutzt um mit einem Bogen einen Fernkampfangriff auszuführen.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Blasrohrpfeile" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BLOWGUNNEEDLE">
+		<description>
+			<p>Blasrohrpfeile werden benutzt um mit einem Blasrohr einen Fernkampfangriff auszuführen.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="cp" bulk="50">2</set>
+			<set name="weight" lb="0.02">1/50 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Armbrustbolzen" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CROSSBOWBOLT">
+		<description>
+			<p>Armbrustbolzen werden benutzt um mit einer Armbrust einen Fernkampfangriff auszuführen.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Schleuderkugeln" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SLINGBULLET">
+		<description>
+			<p>Schleuderkugeln werden benutzt um mit einer Schleuder einen Fernkampfangriff auszuführen.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="cp" bulk="5">1</set>
+			<set name="weight" lb="0.075">75/1000 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Schnur (3 m)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_STRING_10FEET">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+</elements>

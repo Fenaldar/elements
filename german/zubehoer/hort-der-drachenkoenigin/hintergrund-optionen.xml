@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="hintergrund-optionen.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/zubehoer/hort-der-drachenkoenigin/hintergrund-optionen.xml" />
+		</update>
+	</info>
+	<element name="Zusatzoption: Drachenkultspion" type="Background Feature" source="Hort der Drachenkönigin" id="ID_WOCT_HOTDQ_BACKGROUND_FEATURE_DRAGON_CULT_INFILTRATOR">
+		<supports>Background Feature, Optional Background Feature</supports>
+		<description>
+			<p>Es ist dir gelungen die Ränke des Drachenkults zu unterwandern. Du beobachtest die Organisation nun schon eine ganze Weile und bist vertraut mit ihrer Arbeitsweise und Gewohnheiten. Du hast eine zweite Identität als ein Eingeweihter des Kultes, gut genug um als einfacher Knecht oder Diener durchzugehen.</p>
+		</description>
+		<sheet alt="Drachenkultspion" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+		</rules>
+	</element>
+	<element name="Zusatzoption: Drachengelehrter" type="Background Feature" source="Hort der Drachenkönigin" id="ID_WOCT_HOTDQ_BACKGROUND_FEATURE_DRAGON_SCHOLAR">
+		<supports>Background Feature, Optional Background Feature</supports>
+		<description>
+			<p>Du hast Drachen und ihr überliefertes Wissen über viele Jahre studiert. Du kannst automatisch Schauplätze identifizieren, die von Drachen gebaut oder genutzt wurden und kannst Dracheneier und -schuppen identifizieren, wenn du sie nur ansiehst. Sollte dir eine Intelligenzprobe Misslingen um dich an eine bestimmte Drachenkunde zu erinnern, kennst du jemanden oder weisst von einem Buch in dem die Antwort auf deine Frage gefunden werden kann, es sei denn der SL legt fest, dass dieses Wissen gänzlich unbekannt ist.</p>
+		</description>
+		<sheet alt="Drachengelehrter" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+		</rules>
+	</element>
+</elements>

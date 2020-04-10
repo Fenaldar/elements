@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Feldsanitäter</name>
+    <description>5e homebrew</description>
+    <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
+    <update version="0.0.1">
+        <file name="hintergrund-feldsanitaeter.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/drittanbieter/dnd-wiki/hintergruende/hintergrund-feldsanitaeter.xml" />
+    </update>
+  </info>
+  <element name="Feldsanitäter" type="Background" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_COMBAT_MEDIC">
+    <description>
+      <p>Es gab viele Kriege zu deiner Lebzeit und Armeen brauchen immer jemanden der kämpft, jemanden der hilft die verwundeten Truppen zu heilen und jemand der mit ihnen betet. Deine Familiengeschichte hat dich dazu bewogen Medizin und Kampf zu studieren. Als jugendlicher hast du trainiert, Überlebenstechniken Waffengebrauch und Rüstungen studiert und gelernt wie man Leute am Leben erhält. Du warst vielleicht ein Sanitäter in einer Armee oder unabhängiger Sanitäter einer Söldnerkompanie. Du bist hauptsächlich dafür verantwortlich Notfallmedizin und Schutz bereit zu stellen und Verletze vom Ort der Verwundung oder Krankheit zu evakuieren. Du hilfst dabei deine Kameraden am Leben zu halten und hältst außerdem noch Feinde in Schach. Aber nicht allein das, du kümmerst dich auch nach der Versorgung um sie und hilfst dabei ihre Moral zu heben indem du ihnen Gesellschaft leistest, dir ihre Sorgen anhörst und ihnen aufmunternde Geschichten erzählst.</p>
+      <p>
+        <span class="emphasis">Geübt in folgenden Fertigkeiten:</span>Heilkunde, Athletik<br/>
+        <span class="emphasis">Geübt im Umgang mit folgenden Werkzeugen:</span>Fahrzeuge (Land), Heilertasche<br/>
+        <span class="emphasis">Ausrüstung:</span>Heilertasche, Seife, Lampe, einfache Kleidung, Decke, einige Rollen Verbandszeug, Beutel mit 10 GM, und ein Abzeichen, das dich als Feldsanitäter ausweist.
+      </p>
+		  <h5>Spezialisierung</h5>
+		  <p>Während deiner Zeit als Sanitäter in deiner Armee oder Einheit gab es verschiedene Möglichkeiten wie du deiner Arbeit als Sanitäter nachgehen konntest. Wirf einen W6 oder wähle aus der Tabelle.</p>
+		  <table>
+        <thead>
+				  <tr><td>W6</td><td>Spezialisierung</td></tr>
+			  </thead>
+			  <tr><td>1</td><td>Chirurg</td></tr>
+			  <tr><td>2</td><td>Schwester</td></tr>
+			  <tr><td>3</td><td>Doktor</td></tr>
+			  <tr><td>4</td><td>Kampfmediziner</td></tr>
+			  <tr><td>5</td><td>Assistent</td></tr>
+			  <tr><td>6</td><td>Aufseher</td></tr>
+			</table>
+      <div element="ID_WIKI_BACKGROUND_FEATURE_COMBAT_MEDIC" />
+    </description>
+    <setters>
+      <set name="sourceUrl">https://www.dandwiki.com/wiki/Combat_Medic_(5e_Background)</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
+			<grant type="Proficiency" id="ID_WIKI_PROFICIENCY_TOOL_PROFICIENCY_HEALERS_KIT" />
+
+      <grant type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_COMBAT_MEDIC" />
+      <select name="Spezialisierung" type="List" optional="true">
+        <item id="1">Chirurg</item>
+        <item id="2">Schwester</item>
+        <item id="3">Doktor</item>
+        <item id="4">Kampfmediziner</item>
+        <item id="5">Assistent</item>
+        <item id="6">Aufseher</item>
+      </select>
+      <select name="Personality Trait" type="List" number="2">
+        <item id="1">Ich bin respektvoll und höflich.</item>
+        <item id="2">Ich werde niemals aufgeben.</item>
+        <item id="3">Gefahr wird mich nicht davon abhalten zu helfen.</item>
+        <item id="4">Die Erinnerung an diejenigen, die ich nicht retten konnte macht mir schwer zu schaffen.</item>
+        <item id="5">Ich liebe es Dinge zu reparieren.</item>
+        <item id="6">Ich habe eine Sinn für Humor ... der manchmal merkwürdig ist.</item>
+        <item id="7">Ich habe viele Geschichten von schweren Verletzungen, die ich gesehen habe.</item>
+        <item id="8">Ich mache schnell neue Freunde.</item>
+      </select>
+      <select name="Ideal" type="List">
+        <item id="1">Verantwortung: Wir werden Leben retten, koste es was es wolle (Rechtschaffen)</item>
+        <item id="2">Größeres Wohl: Wir werden unser Leben opfern, wenn es sein muss (Gut)</item>
+        <item id="3">Unabhängigkeit: Wir sind keine Richter, unsere Aufgabe ist es Leben zu retten (Neutral)</item>
+        <item id="4">Soldat: Manchmel muss man ein Leben beenden um ein anderes zu retten (Jede)</item>
+        <item id="5">Solo: Mein Leben für deines zu riskieren lohnt sich nicht immer (Böse)</item>
+        <item id="6">Richter: Pass auf, ich bin derjenige der darüber entscheidet ob du lebst oder nicht (Chaotisch)</item>
+      </select>
+      <select name="Bond" type="List">
+        <item id="1">Ich werde mein Leben riskieren um ein anderes zu retten.</item>
+        <item id="2">Ich werde niemals jemanden zurück lassen.</item>
+        <item id="3">Die Sicherheit meiner Patienten ist meine Priorität.</item>
+        <item id="4">Ich kämpfe für diejenigen, die sich nicht selbst verteidigen können.</item>
+        <item id="5">Heilung in meiner Familiengeschichte hat mich dazu inspiriert Leben zu retten.</item>
+        <item id="6">Meine Aufgabe ist mein Leben.</item>
+      </select>
+      <select name="Flaw" type="List">
+        <item id="1">Mein zögern mag vielen ihr Leben kosten.</item>
+        <item id="2">Die Verletzungen die ich sah liegen schwer auf meiner Seele.</item>
+        <item id="3">Ich werde meinen Feinden niemals vergeben, selbst wenn alles vorbei ist.</item>
+        <item id="4">Manchmal bevorzuge ich es allein zu arbeiten.</item>
+        <item id="5">Ich komme mit Kameraden die ich nicht mag einfach nicht klar.</item>
+        <item id="6">Ich respektiere niemanden, der sich nicht bewährt hat.</item>
+      </select>
+    </rules>
+  </element>
+  <element name="Merkmal: Gesundheitswesenspezialist" type="Background Feature" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_FEATURE_COMBAT_MEDIC">
+		<supports>Background Feature</supports>
+    <description>
+      <p>Du bist ein Mediziner und Soldat und ein seelischer Betreuer der Herz, Psyche und Körper heilt. Hast du Pfeilspitzen entfernt oder Heiltränke zubereitet? Wurdest du auf das Schlachtfeld entsandt um verwundete Soldaten zu retten? Vielleicht musstest du kämpfen um dich selbst zu verteidigen. Wie auch immer, alle respektieren und sind erleichtert, wenn deine unverkennbare Uniform durch das Schlachtfeld auf sie zukommt. Du bist Willkommen wo auch immer du hin gehst. Soldaten jedes Ranges und auch Dorfbewohner werden mit ihren Wunden und Krankheiten zu dir kommen. Auch bei seelischen Problemen (bei gleicher Gesinnung oder Werten). Wenn du anderen hilfst, helfen sie dir auch; dies gibt dir Kontakte und Verbündete, die andere nicht haben. In "zivilisierten" Schlachten ist es oft ein Kriegsverbrechen einen Feldsanitäter anzugreifen.</p>
+    </description>
+		<sheet alt="Gesundheitswesenspezialist" />
+  </element>
+  <element name="Tool Proficiency (Heilertasche)" type="Proficiency" source="D&amp;D Wiki" id="ID_WIKI_PROFICIENCY_TOOL_PROFICIENCY_HEALERS_KIT">
+	  <supports>Tool, Kit</supports>
+		<description>
+		  <p>Heilertasche.</p>
+	  </description>
+  </element>
+</elements>

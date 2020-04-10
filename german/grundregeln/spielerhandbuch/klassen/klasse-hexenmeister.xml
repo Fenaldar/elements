@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Hexenmeister</name>
+    <description>Die Klasse Hexenmeister aus dem Spielerhandbuch.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.3.2">
+      <file name="klasse-hexenmeister.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-hexenmeister.xml" />
+    </update>
+  </info>
+
+  <element name="Hexenmeister" type="Class" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_WARLOCK">
+    <description>
+      <p>Mit einem auf seiner Schulter zusammengerollten Pseudodrachen lächelt ein junger, in eine goldene Robe gekleideter Elf freundlich und webt eine magische Bezauberung in seine honigsüßen Worte ein, um die Palastwachen seinem Willen zu beugen.</p>
+      <p class="indent">Als Flammen aus ihren Händen entspringen, flüstert eine verhutzelte Menschenfrau den Namen ihres dämonischen Schutzherren, was ihren Zauber mit dunkler Magie erfüllt.</p>
+      <p class="indent">Zwischen dem zerfledderten Folianten und der seltsamen Anordnung der Sterne hin- und herschauend, hält ein Tiefling mit irrem Blick das mystische Ritual ab, das ein Tor in eine ferne Welt öffnen soll.</p>
+      <p class="indent">Hexenmeister sind Suchende der Wahrheiten, die im Gewebe des Multiversurns versteckt liegen. Durch Pakte, die sie mit mysteriösen Wesen von übernatürlicher Macht schließen, setzen diese Zauberkundigen subtile und spektakuläre magische Kräfte frei. Sie zehren von dem uralten Wissen von Wesen wie Feenadeligen, Dämonen, Teufeln, Hexen und den fremden Entitäten des Fernen Reiches, um ihre eigene Macht mit deren arkanen Geheimnissen zu vergrößern.</p>
+      <h4>EINGESCHWOREN UND VERPFLICHTET</h4>
+      <p>Ein Hexenmeister definiert sich über seinen Pakt mit einem außerweltlichen Wesen. Manchmal ist die Beziehung zwischen Hexenmeister und Schutzherr wie die eines Klerikers zu seiner Gottheit, auch wenn jene Wesen keine Götter sind und ein Kleriker ihnen niemals dienen würde. So könnte ein Hexenmeister einen Kult anführen, der einem Dämonenprinzen huldigt, einem Erzteufel anhängt oder eine völlig fremdartige Entität verehrt. Häufig ist die Art der Beziehung aber eher wie die zwischen Meister und Lehrling. Der Hexenmeister lernt und wird mächtiger, wofür er von Zeit zu Zeit Dienste auf Geheiß seines Schutzherren verrichten muss.</p>
+      <p class="indent">Die Magie, die dem Hexenmeister verliehen wird, reicht von kleinen, doch anhaltenden Veränderungen der eigenen Fähigkeiten (wie im Dunkeln zu sehen oder jede Sprache lesen zu können) bis zu mächtigen Zaubern. Im Unterschied zu den belesenen Magiern, stützen Hexenmeister ihre Magie auf eine gewisse Begabung für den Nahkampf. Sie sind an das Tragen leichter Rüstungen gewöhnt und wissen, wie man einfache Waffen einsetzt.</p>
+      <h4>ERGRÜNDER VON GEHEIMNISSEN</h4>
+      <p>Hexenmeister werden von einem unstillbaren Durst nach Wissen und Macht angetrieben, der sie zu ihren Pakten zwingt und ihr Leben bestimmt. Dieses Verlangen beeinflusst auch die Art des Wesens, mit dem ein Hexenmeister paktiert.</p>
+      <p class="indent">Geschichten über Hexenmeister, die sich an infernalische Wesen binden, sind weithin bekannt. Doch viele dieser Zauberkundigen dienen Schutzherren, die nicht teuflisch sind. Vielleicht entdeckt ein Reisender in der Wildnis einen seltsam schönen Turm, trifft dessen Feenlord oder -lady und stolpert in einen Pakt, ohne sich dessen so recht bewusst zu sein. Oder der Verstand eines brillanten, aber verrückten Zauberlehrlings öffnet sich durch das Studium alter Bücher voller verbotenem Wissen den Realitäten hinter der materiellen Welt und somit den fremdartigen Wesen der äußeren Sphären.</p>
+      <p class="indent">Ist ein Pakt erst einmal geschlossen, kann der Wissensdurst und das Verlangen nach Macht eines Hexenmeisters nicht mehr durch reine Studien und Forschung gestillt werden. Niemand geht einen solch bindenden und gefährlichen Pakt ein, wenn er nicht die Absicht hat, die Macht anzuwenden, die er dadurch erlangt. Demnach verbringt die große Mehrheit der Hexenmeister ihre Tage mit dem aktiven Verfolgen ihrer Ziele, was in der Regel mit irgendeiner Art von Abenteuer verbunden ist. Darüber hinaus lassen auch die Aufgaben seines Schutzherren einen Hexenmeister auf Abenteuer ausziehen.</p>
+      <h4>EINEN HEXENMEISTER ERSCHAFFEN</h4>
+      <p>Wenn du einen Hexenmeister erschaffst, solltest du darüber nachdenken, welche Verpflichtungen dein Charakter gegenüber seinem Schutzherren aufgrund des Pakts eingegangen ist. Was hat ihn dazu gebracht, den Pakt anzunehmen, und wie ist er mit seinem Schutzherren in Kontakt getreten? Wurde er dazu verführt, einen Teufel zu beschwören, oder wollte er selbst in Kontakt zu einer fremden alten Gottheit treten? Hat sich dein Charakter seinen Schutzherren ausgesucht oder erwählte dieser ihn? Leidet er unter den Verpflichtungen durch den Pakt oder dient er in freudiger Erwartung der Belohnungen, die ihm versprochen wurden?</p>
+      <p class="indent">Sprich mit dem SL ab, wie groß die Rolle des Pakts in der Abenteurerkarriere deines Charakters sein soll. Die Bedürfnisse seines Schutzherren könnten ihn zu Abenteuern treiben oder nur aus kleinen Gefallen bestehen, die er zwischen den Abenteuern erledigt.</p>
+      <p class="indent">Welche Art von Beziehung hat dein Hexenmeister zu seinem Schutzherren? Ist sie von Freundschaft oder Feindschaft geprägt, schwierig oder romantisch? Als wie wichtig erachtet der Schutzherr deinen Charakter und welche Rolle lässt er ihm in seinen Plänen zuteilwerden? Kennt dein Hexenmeister andere Diener seines Gönners?</p>
+      <p class="indent">Wie kommuniziert der Schutzherr mit deinem Charakter? Falls dein Hexenmeister einen Vertrauten besitzt, könnte dieser gelegentlich mit der Stimme des uralten Wesens sprechen. Manche Hexenmeister finden Nachrichten ihres Schutzherren an Bäume geheftet, in Teeblätter eingewickelt oder in die Wolken geschrieben. Dies können Zeichen sein, die nur dein Charakter versteht. Andere Hexenmeister reden in ihren Träumen oder in Visionen mit ihren Schutzherren oder tauschen sich nur über Mittelsmänner mit ihm aus.</p>
+      <h5>SCHNELLE ERSCHAFFUNG</h5>
+      <p>Du kannst einen Hexenmeister schnell erschaffen, indem du diesen Vorschlägen folgst:</p>
+      <p class="indent">Setze deinen höchsten Attributswert auf Charisma, den zweithöchsten auf Konstitution. Wähle zusätzlich den Hintergrund Scharlatan. Entscheide dich außerdem für die Zaubertricks <i>Kalte Hand</i> und <i>Schauriger Strahl</i> zusammen mit den Zaubern <i>Person bezaubern</i> und <i>Hexenpfeil</i> des 1. Grades.</p>
+      <h3>KLASSENMERKMALE</h3>
+      <p>Als Hexenmeister erhältst du folgende Klassenmerkmale:</p>
+      <h5>TREFFERPUNKTE</h5>
+      <ul class="unstyled">
+          <li><strong>Trefferwürfel:</strong> 1W8 pro Stufe als Hexenmeister</li>
+          <li><strong>Trefferpunkte auf Stufe 1:</strong> 8 + dein Konstitutionsmodifikator</li>
+          <li><strong>Trefferpunkte auf höheren Stufen:</strong> 1W8 (oder 5) + dein Konstitutionsmodifikator pro Stufe als Hexenmeister über die 1. Stufe hinaus</li>
+      </ul>
+      <h5>ÜBUNG</h5>
+      <ul class="unstyled mb">
+          <li><strong>Rüstungen:</strong> leichte Rüstungen</li>
+          <li><strong>Waffen:</strong> einfache Waffen</li>
+          <li><strong>Werkzeuge:</strong> keine</li>
+      </ul>
+      <ul class="unstyled">
+          <li><strong>Rettungswürfe:</strong> Weisheit und Charisma</li>
+          <li><strong>Fertigkeiten:</strong> zwei nach Wahl: Arkane Kunde, Einschüchtern, Geschichte, Nachforschungen, Naturkunde, Religion oder Täuschen</li>
+      </ul>
+      <h5>AUSRÜSTUNG</h5>
+      <p>Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:</p>
+      <ul>
+        <li><i>(a)</i> eine leichte Armbrust mit 20 Bolzen oder <i>(b)</i> eine einfache Waffe</li>
+        <li><i>(a)</i> Materialkomponentenbeutel oder <i>(b)</i> ein arkaner Fokus</li>
+        <li><i>(a)</i> eine Gelehrtenausrüstung oder <i>(b)</i> eine Gewölbeforscherausrüstung</li>
+        <li>eine Lederrüstung, eine einfache Waffe und zwei Dolche</li>
+      </ul>
+      <h5 class="caption">DER HEXENMEISTER</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-5">Stufe</td><td class="left">Merkmale</td><td class="col-10">Bekannte Zaubertricks</td><td class="col-10">Bekannte Zauber</td><td class="col-10">Zauberplätze</td><td class="col-10">Grad der Plätze</td><td class="col-10">Bekannte Anrufungen</td></tr>
+        </thead>
+        <tr><td> 1</td><td class="left">Anderswelticher Schutzherr, Paktmagie</td><td>2</td><td>2</td><td>1</td><td>1st</td><td>—</td></tr>
+        <tr><td> 2</td><td class="left">Schauerliche Anrufungen</td><td>2</td><td>3</td><td>2</td><td>1st</td><td>2</td></tr>
+        <tr><td> 3</td><td class="left">Segen des Pakts</td><td>2</td><td>4</td><td>2</td><td>2nd</td><td>2</td></tr>
+        <tr><td> 4</td><td class="left">Attributswerterhöhung</td><td>3</td><td>5</td><td>2</td><td>2nd</td><td>2</td></tr>
+        <tr><td> 5</td><td class="left">—</td><td>3</td><td>6</td><td>2</td><td>3rd</td><td>3</td></tr>
+        <tr><td> 6</td><td class="left">Merkmal: Schutzherr</td><td>3</td><td>7</td><td>2</td><td>3rd</td><td>3</td></tr>
+        <tr><td> 7</td><td class="left">—</td><td>3</td><td>8</td><td>2</td><td>4th</td><td>4</td></tr>
+        <tr><td> 8</td><td class="left">Attributswerterhöhung</td><td>3</td><td>9</td><td>2</td><td>4th</td><td>4</td></tr>
+        <tr><td> 9</td><td class="left">—</td><td>3</td><td>10</td><td>2</td><td>5th</td><td>5</td></tr>
+        <tr><td>10</td><td class="left">Merkmal: Schutzherr</td><td>4</td><td>10</td><td>2</td><td>5th</td><td>5</td></tr>
+        <tr><td>11</td><td class="left">Mystisches Arkanum (6. Grad)</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>5</td></tr>
+        <tr><td>12</td><td class="left">Attributswerterhöhung</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>6</td></tr>
+        <tr><td>13</td><td class="left">Mystisches Arkanum (7. Grad)</td><td>4</td><td>12</td><td>3</td><td>5th</td><td>6</td></tr>
+        <tr><td>14</td><td class="left">Merkmal: Schutzherr</td><td>4</td><td>12</td><td>3</td><td>5th</td><td>6</td></tr>
+        <tr><td>15</td><td class="left">Mystisches Arkanum (8. Grad)</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>7</td></tr>
+        <tr><td>16</td><td class="left">Attributswerterhöhung</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>7</td></tr>
+        <tr><td>17</td><td class="left">Mystisches Arkanum (9. Grad)</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>7</td></tr>
+        <tr><td>18</td><td class="left">—</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>8</td></tr>
+        <tr><td>19</td><td class="left">Attributswerterhöhung</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>8</td></tr>
+        <tr><td>20</td><td class="left">Mystischer Meister</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>8</td></tr>
+      </table>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" />
+    </description>
+    <sheet display="false">
+      <description>Ein Zauberwirker, dessen Magie aus einem Handel mit einem extraplanaren Wesen stammt.</description>
+    </sheet>
+    <setters>
+      <set name="short">Ein Zauberwirker, dessen Magie aus einem Handel mit einem extraplanaren Wesen stammt.</set>
+      <set name="hd">d8</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
+      <select type="Proficiency" name="Geübte Fertigkeit (Hexenmeister)" supports="Skill,Warlock" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" level="1" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" level="2" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON" level="3" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" level="4" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM" level="11" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER" level="20" />
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_WARLOCK">
+      <prerequisite>Charisma 13</prerequisite>
+      <requirements>[cha:13]</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Light armor, simple weapons</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS" />
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Anderswelticher Schutzherr" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON">
+    <description>
+      <p>Die Wesen, die als Schutzherren von Hexenmeistern auftreten, sind mächtige Bewohner anderer Existenzebenen — zwar keine Götter, doch nahezu gottgleich in ihrer Macht. Jeder Schutzherr gewährt Zugriff auf unterschiedliche Kräfte und Anrufungen, wofür er im Gegenzug große Gefallen erwartet. Einige Schutzherren stehen im Pakt mit zahlreichen Hexenmeistern und verbreiten ihr mystisches Wissen relativ freizügig oder brüsten sich mit ihrer Fähigkeit, Sterbliche an ihren Willen zu binden. Andere verleihen ihre Macht nur fluchend und schließen vielleicht bloß mit einem einzigen Hexenmeister einen Pakt. Hexenmeister, die dem gleichen Schutzherren dienen, können sich als Verbündete, Geschwister oder Rivalen betrachten.</p>
+      <p class="indent">Auf der 1. Stufe hast du einen Pakt mit einem andersweltlichen Wesen deiner Wahl geschlossen: einer Erzfee, einem Unhold oder einem Großen Alten. Alle werden am Ende dieses Abschnitts ausführlich beschrieben. Deine Wahl verleiht dir auf der 1., 6., 10. und 14. Stufe jeweils ein Merkmal.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Anderswelticher Schutzherr" supports="Otherworldly Patron" />
+    </rules>
+  </element>
+  <element name="Paktmagie" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
+    <supports>ID_INTERNAL_SUPPORT_SPELLCASTING,Warlock</supports>
+    <description>
+      <p>Aufgrund deiner arkanen Forschungen und der Magie, die dir durch deinen Schutzherren verliehen wird, besitzt du die Fähigkeit, Zauber zu wirken. Für allgemeine Informationen zum Wirken von Zaubern siehe Kapitel 10 „Zauber wirken" und für die Zauberliste des Hexenmeisters Kapitel 11 „Zauber".</p>
+      <h5>ZAUBERTRICKS</h5>
+      <p>Zu Beginn sind dir zwei beliebige Zaubertricks aus der Zauberliste des Hexenmeisters bekannt. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte "für" bekannte Zaubertricks in der Aufstiegstabelle des Hexenmeisters angegeben ist.</p>
+      <h5>ZAUBERPLÄTZE</h5>
+      <p>Die Aufstiegstabelle des Hexenmeisters gibt an, wie viele Zauberplätze dir auf jeder Stufe zur Verfügung stehen und welchen Grad diese haben. All deine Zauberplätze besitzen den gleichen Grad. Um einen dir bekannten Hexenmeister-Spruch zu wirken, musst du einen Zauberplatz verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer kurzen oder langen Rast zur Verfügung.</p>
+      <p class="indent">Bist du beispielsweise ein Hexenmeister der 5. Stufe, hast du zwei Zauberplätze des 3. Grades. Um den Zauber <i>Hexenpfeil</i> 1. Grades zu wirken, musst du einen dieser Zauberplätze aufwenden, und wirkst ihn als Zauber des 3. Grades.</p>
+      <h5>BEKANNTE ZAUBER DES 1. GRADES UND HÖHER</h5>
+      <p>Auf Stufe 1 kennst du zwei frei wählbare Zauber des 1. Grades aus der Zauberliste des Hexenmeisters.</p>
+      <p class="indent">Der Spalte „Bekannte Zauber" der Tabelle kannst du entnehmen, wie viele neue Sprüche du dir bei einem Stufenaufstieg aus der Zauberliste des Hexenmeisters aussuchen darfst. Dabei kannst du nur Zauber wählen, deren Grad dem deiner Zauberplätze entspricht. Erreichst du zum Beispiel die 6. Stufe als Hexenmeister, darfst du einen neuen Zauber des 1., 2. oder 3. Grades erlernen.</p>
+      <p class="indent">Sobald du eine Stufe in dieser Klasse aufsteigst, kannst du außerdem einen der Hexenmeisterzauber, die dir bereits bekannt sind, mit einem anderen aus der Zauberliste ersetzen. Auch bei diesem muss der Grad deiner Zauberplätze dem Grad des Spruches entsprechen.</p>
+      <h5>ATTRIBUT ZUM ZAUBERWIRKEN</h5>
+      <p>Das Attribut, mit dem du deine Hexenmeisterzauber wirkst, ist Charisma. Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Charisma. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Hexenmeisterzauber bestimmt, ziehst du deinen Charismamodifikator hinzu. Bei Angriffen mit deinen Hexenmeisterzaubern findet ebenfalls der Charismamodifikator Anwendung.</p>
+      <center>
+				<p><strong>SG für Rettungswürfe</strong> = 8 + dein Übungsbonus + dein Charismamodifikator</p>
+				<p><strong>Modifikator für Zauberangriffe</strong> = dein Übungsbonus + dein Charismamodifikator</p>
+			</center>
+      <h5>ZAUBERFOKUS</h5>
+      <p>Du kannst den arkanen Fokus (siehe Kapitel 5 „Ausrüstung") als Zauberfokus für deine Hexenmeisterzauber verwenden.</p>
+    </description>
+    <sheet display="false">
+      <description>Aufgrund deiner arkanen Forschungen und der Magie, die dir durch deinen Schutzherren verliehen wird, besitzt du die Fähigkeit, Zauber zu wirken. Du hast {{warlock:spellcasting:slots:count}} Zauberplätze von Stufe {{warlock:spellcasting:slot}}</description>
+    </sheet>
+		<spellcasting name="Warlock" ability="Charisma" allowReplace="true">
+			<list>Warlock</list>
+		</spellcasting>
+    <rules>
+      <!-- add not full but single _not counting as multiclass spellcaster due to pact magic -->
+      <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+
+      <stat name="warlock:spellcasting:slots:count" value="1" level="1"/>
+      <stat name="warlock:spellcasting:slots:count" value="1" level="2"/>
+      <stat name="warlock:spellcasting:slots:count" value="1" level="11"/>
+      <stat name="warlock:spellcasting:slots:count" value="1" level="17"/>
+
+      <stat name="warlock:spellcasting:slot" value="1" level="1" />
+      <stat name="warlock:spellcasting:slot" value="1" level="3" />
+      <stat name="warlock:spellcasting:slot" value="1" level="5" />
+      <stat name="warlock:spellcasting:slot" value="1" level="7" />
+      <stat name="warlock:spellcasting:slot" value="1" level="9" />
+
+      <!-- negative count to remove slots -->
+      <stat name="warlock:spellcasting:slots:1" value="warlock:spellcasting:slots:count" level="1" />
+      <stat name="warlock:spellcasting:slots:1" value="-warlock:spellcasting:slots:count" level="3" />
+      <stat name="warlock:spellcasting:slots:2" value="warlock:spellcasting:slots:count" level="3" />
+      <stat name="warlock:spellcasting:slots:2" value="-warlock:spellcasting:slots:count" level="5" />
+      <stat name="warlock:spellcasting:slots:3" value="warlock:spellcasting:slots:count" level="5" />
+      <stat name="warlock:spellcasting:slots:3" value="-warlock:spellcasting:slots:count" level="7" />
+      <stat name="warlock:spellcasting:slots:4" value="warlock:spellcasting:slots:count" level="7" />
+      <stat name="warlock:spellcasting:slots:4" value="-warlock:spellcasting:slots:count" level="9" />
+      <stat name="warlock:spellcasting:slots:5" value="warlock:spellcasting:slots:count" level="9" />
+
+      <select type="Spell" name="Zaubertrick (Hexenmeister)" supports="$(spellcasting:list),0" level="1" number="2" spellcasting="Warlock" />
+      <select type="Spell" name="Zaubertrick (Hexenmeister)" supports="$(spellcasting:list),0" level="4" spellcasting="Warlock" />
+      <select type="Spell" name="Zaubertrick (Hexenmeister)" supports="$(spellcasting:list),0" level="10" spellcasting="Warlock" />
+
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Warlock"/>
+      <select type="Spell" name="Spellcasting (Hexenmeister)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Warlock"/>
+    </rules>
+  </element>
+  <element name="Schauerliche Anrufungen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
+    <description>
+      <p>Bei deinen Studien des okkulten Wissens hast du unheilvolle Beschwörungsformeln zu Tage gefördert, die dich mit anhaltenden magischen Fähigkeiten ausstatten.</p>
+      <p>Auf der 2. Stufe kannst du dir zwei Schauerliche Anrufungen aussuchen, die du am Ende dieser Klassenbeschreibung aufgeführt findest. Bei Erreichen bestimmter Hexenmeisterstufen erhältst du weitere Anrufungen deiner Wahl, vergleiche dazu die Spalte „Bekannte Anrufungen" in der Aufstiegstabelle.</p>
+      <p>Darüber hinaus kannst du jedes Mal, wenn du in dieser Klasse aufsteigst, eine bereits bekannte Anrufung durch eine andere ersetzen, die du auf der entsprechenden Stufe lernen könntest.</p>
+    </description>
+    <rules>
+      <select type="Class Feature" name="Eldritch Invocation (Level 2)" supports="Eldritch Invocation" level="2" number="2" />
+      <select type="Class Feature" name="Eldritch Invocation (Level 5)" supports="Eldritch Invocation" level="5" />
+      <select type="Class Feature" name="Eldritch Invocation (Level 7)" supports="Eldritch Invocation" level="7" />
+      <select type="Class Feature" name="Eldritch Invocation (Level 9)" supports="Eldritch Invocation" level="9" />
+      <select type="Class Feature" name="Eldritch Invocation (Level 12)" supports="Eldritch Invocation" level="12" />
+      <select type="Class Feature" name="Eldritch Invocation (Level 15)" supports="Eldritch Invocation" level="15" />
+      <select type="Class Feature" name="Eldritch Invocation (Level 18)" supports="Eldritch Invocation" level="18" />
+    </rules>
+  </element>
+  <element name="Segen des Pakts" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON">
+    <description>
+      <p>Auf der 3. Stufe verleiht dein Schutzherr dir ein Geschenk für deine treuen Dienste. Du erhältst eines der folgenden Merkmale deiner Wahl.</p>
+      <h5 class="caption">PAKT DER KETTE</h5>
+			<p>Du lernst den Zauber <em>Vertrauten finden</em> und kannst ihn als Ritual wirken. Der Spruch verbraucht keinen deiner Zauberplätze und zählt nicht in Bezug auf deine maximale Anzahl bekannter Zauber.</p>
+			<p class="indent">Wenn du den Zauber wirkst, kannst du für deinen Vertrauten neben den normalen Formen auch eine der folgenden wählen: Imp (Teufelchen), Pseudodrache, Quasit oder Feengeist.</p>
+			<p class="indent">Nutzt du deine Aktion für einen Angriff, kannst du statt selbst anzugreifen auch deinen Vertrauten attackieren lassen, indem er seine Reaktion aufwendet.</p>
+			<h5 class="caption">PAKT DES BUCHES</h5>
+			<p>Dein Schutzherr gibt dir ein Zauberbuch: das Buch der Schatten. Wenn du dieses Merkmal erhältst, suche dir drei Zaubertricks von frei wählbaren Zauberlisten aus (es müssen nicht die gleichen sein). Solange du das Buch bei dir trägst, kannst du diese drei Zaubertricks beliebig oft wirken. Sie zählen nicht in Bezug auf die maximale Anzahl bekannter Zaubertricks. Sprüche, die nicht in der Zauberliste des Hexenmeisters enthalten sind, gelten für dich trotzdem als Hexenmeisterzaubertricks.</p>
+			<p class="indent">Solltest du das Buch der Schatten verlieren, kannst du eine einstündige Zeremonie ausführen, um von deinem Schutzherren einen Ersatz zu erhalten. Die Zeremonie kann im Rahmen einer kurzen oder langen Rast durchgeführt werden. Dabei wird das alte Buch zerstört. Falls du stirbst, zerfällt dein Buch zu Asche.</p>
+			<h5 class="caption">PAKT DER KLINGE</h5>
+			<p>Du kannst deine Aktion dazu verwenden, eine Paktwaffe in deiner freien Hand erscheinen zu lassen. Die Form dieser Nahkampfwaffe kannst du jedes Mal frei bestimmen (siehe Kapitel 5 „Ausrüstung"). Solange du sie trägst, zählst du als geübt im Umgang mit dieser Waffe. Außerdem gilt sie als magisch, wenn es darum geht, Resistenzen und Immunitäten gegen nicht-magische Angriffe und nicht-magischen Schaden zu überwinden.</p>
+			<p class="indent">Deine Paktwaffe löst sich auf, wenn sie länger als 1 Minute mehr als 1,50 m von dir entfernt ist. Sie verschwindet außerdem, wenn du die Fähigkeit erneut einsetzt, wenn du die Waffe bewusst auflöst (keine Aktion erforderlich) oder wenn du stirbst.</p>
+			<p class="indent">Du kannst eine magische Waffe zu deiner Paktwaffe machen, indem du ein spezielles Ritual ausführst, bei dem du die Waffe halten musst. Das Ritual dauert 1 Stunde und kann im Rahmen einer kurzen Rast vollzogen werden. Als Folge kannst du die Waffe, wenn du sie wegstecken möchtest, an einem außerdimensionalen Ort verstauen. Sie manifestiert sich von dort, sobald du die Paktwaffe in deiner Hand erscheinen lässt. Du kannst auf diese Weise weder Artefakte noch intelligente Waffen zu Paktwaffen machen. Die Waffe ist nicht länger deine Paktwaffe, wenn du stirbst, wenn du das einstündige Ritual auf eine andere Waffe anwendest oder wenn du das Ritual erneut vollziehst, um den Bund aufzulösen. In diesem Fall erscheint die Waffe zu deinen Füßen, sollte sie sich gerade an dem außerdimensionalen Ort befinden.</p>
+		</description>
+		<sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Segen des Pakts" supports="Pact Boon" level="3"/>
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK">
+		<compendium display="false" />
+    <description>
+      <p>Beim Erreichen der 4. Stufe und dann wieder auf der 8., 12., 16. und 19. Stufe kannst du einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Attributswerterhöhung (Hexenmeister 4)" supports="Improvement Option,Hexenmeister,4" level="4" />
+      <select type="Class Feature" name="Attributswerterhöhung (Hexenmeister 8)" supports="Improvement Option,Hexenmeister,8" level="8" />
+      <select type="Class Feature" name="Attributswerterhöhung (Hexenmeister 12)" supports="Improvement Option,Hexenmeister,12" level="12" />
+      <select type="Class Feature" name="Attributswerterhöhung (Hexenmeister 16)" supports="Improvement Option,Hexenmeister,16" level="16" />
+      <select type="Class Feature" name="Attributswerterhöhung (Hexenmeister 19)" supports="Improvement Option,Hexenmeister,19" level="19" />
+    </rules>
+  </element>
+  <element name="Mystisches Arkanum" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM">
+    <description>
+      <p>Auf der 11. Stufe vertraut dein Schutzherr dir ein magisches Geheimnis an, das Arkanum genannt wird. Wähle einen Zauber des 6. Grades aus der Zauberliste des Hexenmeisters. Du kannst diesen einmal wirken, ohne dafür einen Zauberplatz zu verbrauchen.</p>
+      <p class="indent">In höheren Stufen erhältst du weitere Hexenmeisterzauber deiner Wahl, die du auf diese Weise wirken kannst. Einen Zauber des 7. Grades auf Stufe 13, einen des 8. Grades auf Stufe 15 und einen des 9. Grades auf Stufe 17.</p>
+      <p class="indent">Du erhältst alle Anwendungen deiner Zauber des Mystischen Arkanums zurück, nachdem du eine lange Rast beendet hast.</p>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Du kannst dein Arakanum Zauber einmal wirken, ohne dafür einen Zauberplatz zu verbrauchen</description>
+    </sheet>
+    <rules>
+      <select type="Spell" name="Arcanum Spell (Mystisches Arkanum)" supports="Warlock,6" level="11" spellcasting="Warlock" />
+      <select type="Spell" name="Arcanum Spell (Mystisches Arkanum)" supports="Warlock,7" level="13" spellcasting="Warlock" />
+      <select type="Spell" name="Arcanum Spell (Mystisches Arkanum)" supports="Warlock,8" level="15" spellcasting="Warlock" />
+      <select type="Spell" name="Arcanum Spell (Mystisches Arkanum)" supports="Warlock,9" level="17" spellcasting="Warlock" />
+    </rules>
+  </element>
+  <element name="Mystischer Meister" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER">
+    <description>
+      <p>Ab Stufe 20 bist du mit Hilfe deines Schutzherren dazu in der Lage, von deinen inneren Reserven an mystischer Energie zu zehren, um Zauber zu wirken. Flehst du deinen Schutzherren 1 Minute lang an, erlangst du alle verbrauchten Zauberplätze deines Merkmals Paktmagie zurück. Diese Fähigkeit kannst du erst nach einer langen Rast erneut anwenden.</p>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Flehst du deinen Schutzherren 1 Minute lang an, erlangst du alle verbrauchten Zauberplätze deines Merkmals Paktmagie zurück.</description>
+    </sheet>
+  </element>
+  <!-- Eldritch Invocations -->
+  <element name="Qualvoller Strahl" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING BLAST">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>eldritch blast cantrip</prerequisite>
+    <requirements>ID_PHB_SPELL_ELDRITCH_BLAST</requirements>
+    <description>
+      <p><em>Voraussetzung: Zaubertrick Schauriger Strahl</em></p>
+      <p>Wenn du eine Kreatur mit <em>Schauriger Strahl</em> triffst, addiere deinen Charismamodifikator zum Schaden.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+      </div>
+    </description>
+    <sheet>
+      <description>Wenn du eine Kreatur mit <em>Schauriger Strahl</em> triffst, addiere +{{agonizing blast:damage}} zum Schaden.</description>
+    </sheet>
+    <rules>
+			<stat name="agonizing blast:damage" value="charisma:modifier" bonus="base" />
+		</rules>
+  </element>
+  <element name="Schattenrüstung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ARMOR_OF_SHADOWS">
+    <supports>Eldritch Invocation</supports>
+    <description>
+      <p>Du kannst <em>Magierrüstung</em> nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_MAGE_ARMOR" />
+			</div>
+    </description>
+    <sheet>
+      <description>Du kannst <em>Magierrüstung</em> nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_MAGE_ARMOR" />
+    </rules>
+  </element>
+  <element name="Aufsteigender Schritt " type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ASCENDANT_STEP">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>9th level</prerequisite>
+    <requirements>[level:9]</requirements>
+    <description>
+      <p><em>Voraussetzung: 9. Stufe</em></p>
+      <p>Du kannst <em>Schweben</em> nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>
+      <div class="reference">
+				<div element="ID_PHB_SPELL_LEVITATE" />
+			</div>
+    </description>
+    <sheet>
+      <description>Du kannst <em>Schweben</em> nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_LEVITATE" />
+    </rules>
+  </element>
+  <element name="Tiersprache" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BEAST_SPEACH">
+    <supports>Eldritch Invocation</supports>
+    <description>
+      <p>Du kannst <em>Mit Tieren sprechen</em> nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
+      </div>
+    </description>
+    <sheet>
+      <description>Du kannst <em>Mit Tieren sprechen</em> nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
+    </rules>
+  </element>
+  <element name="Verführerischer Einfluss" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BEGUILING_INFLUENCE">
+    <supports>Eldritch Invocation</supports>
+    <description>
+      <p>Du bist geübt in den Fertigkeiten Täuschen und Überzeugen.</p>
+    </description>
+		<sheet display="false">
+      <description>Du bist geübt in den Fertigkeiten Täuschen und Überzeugen.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+    </rules>
+  </element>
+  <element name="Verhexendes Flüstern" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BEWITCHING_WHISPERS">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>7th level</prerequisite>
+    <requirements>[level:7]</requirements>
+    <description>
+      <p><em>Voraussetzung: 7. Stufe</em></p>
+      <p>Du kannst <em>Zwang</em> einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, wenn du eine lange Rast beendet hast.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_COMPULSION" />
+      </div>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Du kannst <em>Zwang</em> wirken, indem du einen Hexenmeisterzauberplatz verbrauchst.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_COMPULSION" />
+    </rules>
+  </element>
+  <element name="Buch der uralten Geheimnisse" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BOOK_OF_ANCIENT_SECRETS">
+    <supports>Eldritch Invocation, Pact of the Tome</supports>
+    <prerequisite>Pact of the Tome feature</prerequisite>
+    <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME</requirements>
+    <description>
+      <p><em>Voraussetzung: Merkmal Pakt des Buches</em></p>
+      <p>Du kannst jetzt magische Rituale in deinem Buch der Schatten festhalten. Suche dir von beliebigen Zauberlisten zwei Zauber des 1. Grades aus, welche die Eigenschaft Ritual besitzen (die Sprüche können von unterschiedlichen Zauberlisten sein). Die Zauber sind nun in deinem Buch enthalten und zählen nicht in Bezug auf deine maximale Anzahl bekannter Zauber. Wenn du das Buch der Schatten in der Hand hältst, kannst du die gewählten Zauber als Rituale wirken. Solange du die Sprüche nicht noch auf einem anderen Weg lernst, darfst du sie ausschließlich als Rituale ausführen. Du kannst außerdem alle Hexenmeisterzauber, die dir bekannt sind, als Rituale wirken, wenn sie als solche gekennzeichnet sind.</p>
+      <p class="indent">Auf deinen Abenteuern kannst du dem Buch der Schatten weitere Rituale hinzufügen. Findest du einen solchen Zauber, kannst du ihn in deinem Buch niederschreiben, falls sein Grad gleich oder niedriger deiner halben Hexenmeisterstufe ist (aufgerundet) und du die entsprechende Zeit dafür aufbringst. Für jeden Grad des Zaubers benötigt der Übertragungsprozess 2 Stunden und kostet dich 50 GM für die seltene Tinte, mit der du den Zauber eintragen musst.</p>
+    </description>
+    <sheet>
+      <description>Du kannst jetzt magische Rituale in deinem Buch der Schatten festhalten.</description>
+    </sheet>
+    <rules>
+      <select type="Spell" name="Buch der uralten Geheimnisse" supports="1,Ritual" number="2" spellcasting="Warlock"/>
+    </rules>
+  </element>
+  <element name="Ketten von Carceri" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_CHAINS_OF_CARCERI">
+    <supports>Eldritch Invocation, Pact of the Chain</supports>
+    <prerequisite>15th level, Pact of the Chain feature</prerequisite>
+    <requirements>[level:15],ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN</requirements>
+    <description>
+      <p><em>Voraussetzung: 15. Stufe, Merkmal Pakt der Kette</em></p>
+      <p>Du kannst nach Belieben <em>Monster festhalten</em> auf eine himmlische Kreatur, einen Unhold oder einen Elementar wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen. Du musst eine lange Rast beenden, bevor du diese Fähigkeit erneut auf dieselbe Kreatur anwenden kannst.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_HOLD_MONSTER" />
+      </div>
+    </description>
+    <sheet>
+      <description>Du kannst nach Belieben <em>Monster festhalten</em> auf eine himmlische Kreatur, einen Unhold oder einen Elementar wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" />
+    </rules>
+  </element>
+  <element name="Teufelssicht" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVILS_SIGHT">
+    <supports>Eldritch Invocation</supports>
+    <description>
+      <p>Du kannst in Dunkelheit bis zu 36 m weit normal sehen, gleichgültig ob diese magischen oder natürlichen Ursprungs ist.</p>
+    </description>
+    <sheet>
+      <description>Du kannst in Dunkelheit bis zu 36 m weit normal sehen, gleichgültig ob diese magischen oder natürlichen Ursprungs ist.</description>
+    </sheet>
+  </element>
+  <element name="Fürcherliches Wort" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_DREADFUL_WORD">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>7th level</prerequisite>
+    <requirements>[level:7]</requirements>
+    <description>
+      <p><em>Voraussetzung: 7. Stufe</em></p>
+      <p>Du kannst <em>Verwirrung</em> einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine lange Rast beendet hast.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_CONFUSION" />
+      </div>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Du kannst <em>Verwirrung</em> wirken, indem du einen Hexenmeisterzauberplatz verbrauchst.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_CONFUSION" />
+    </rules>
+  </element>
+  <element name="Unheimliche Sicht" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SIGHT">
+    <supports>Eldritch Invocation</supports>
+    <description>
+      <p>Du kannst nach Belieben Magie entdecken wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_DETECT_MAGIC" />
+      </div>
+    </description>
+    <sheet>
+      <description>Du kannst nach Belieben Magie entdecken wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
+    </rules>
+  </element>
+  <element name="Unheimlicher Speer" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_Eldritch_Spear">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>eldritch blast cantrip</prerequisite>
+    <requirements>ID_PHB_SPELL_ELDRITCH_BLAST</requirements>
+    <description>
+      <p><em>Voraussetzung: Zaubertrick Schauriger Strahl</em></p>
+      <p>Wenn du <em>Schauriger Strahl</em> wirkst, beträgt die Reichweite des Zaubers 90 m.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+      </div>
+    </description>
+    <sheet>
+      <description>Wenn du <em>Schauriger Strahl</em> wirkst, beträgt die Reichweite des Zaubers 90 m.</description>
+    </sheet>
+    <rules>
+      <!-- implement alter spell: <stat target="ID_PHB_SPELL_ELDRITCH_BLAST" field="range" value="300 feet" />-->
+    </rules>
+  </element>
+  <element name="Auge des Runenwächters" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_EYES_OF_THE_RUNEKEEPER">
+    <supports>Eldritch Invocation</supports>
+    <description>
+      <p>Du kannst jede Schrift lesen und verstehen.</p>
+    </description>
+    <sheet>
+      <description>Du kannst jede Schrift lesen und verstehen.</description>
+    </sheet>
+  </element>
+  <element name="Vitalität des Unholds" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_FIENDISH_VIGOR">
+    <supports>Eldritch Invocation</supports>
+    <description>
+      <p>Du kannst <em>Falsches Leben</em> als Zauber des 1. Grades nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_FALSE_LIFE" />
+      </div>
+    </description>
+    <sheet>
+      <description>Du kannst <em>Falsches Leben</em> als Zauber des 1. Grades nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" />
+    </rules>
+  </element>
+  <element name="Gedankenblick" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_GAZE_OF_TWO_MINDS">
+    <supports>Eldritch Invocation</supports>
+    <description>
+      <p>Du kannst mit deiner Aktion eine humanoide Kreatur berühren, die dazu gewillt ist, um durch ihre Sinne bis zum Ende deines nächsten Zuges die Umwelt wahrzunehmen. Solange sich die Kreatur auf derselben Existenzebene befindet wie du selbst, kannst du deine Aktion in den folgenden Zügen verwenden, um diese Verbindung aufrechtzuerhalten und die Dauer bis zum Ende deines jeweils nächsten Zuges zu verlängern. Während du mit den Sinnen der anderen Kreatur wahrnimmst, besitzt du all ihre speziellen Sinne, bist aber blind und taub für deine eigene Umgebung.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Du kannst eine humanoide Kreatur berühren, die dazu gewillt ist, um durch ihre Sinne bis zum Ende deines nächsten Zuges die Umwelt wahrzunehmen. Solange sich die Kreatur auf derselben Existenzebene befindet wie du selbst, kannst du deine Aktion in den folgenden Zügen verwenden, um diese Verbindung aufrechtzuerhalten und die Dauer bis zum Ende deines jeweils nächsten Zuges zu verlängern. Während du mit den Sinnen der anderen Kreatur wahrnimmst, besitzt du all ihre speziellen Sinne, bist aber blind und taub für deine eigene Umgebung.</description>
+    </sheet>
+  </element>
+  <element name="Lebenstrinker" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_LIFEDRINKER">
+    <supports>Eldritch Invocation, Pact of the Blade</supports>
+    <prerequisite>12th level, Pact of the Blade feature</prerequisite>
+    <requirements>[level:12],ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+    <description>
+      <p><em>Voraussetzung: 12. Stufe, Merkmal Pakt der Klinge</em></p>
+      <p>Triffst du mit deiner Paktwaffe eine Kreatur, erleidet diese nekrotischen Schaden in Höhe deines Charismamodifikators (mindestens 1).</p>
+    </description>
+    <sheet>
+      <description>Triffst du mit deiner Paktwaffe eine Kreatur, erleidet diese {{lifedrinker:damage}} nekrotischen Schaden.</description>
+    </sheet>
+    <rules>
+      <stat name="lifedrinker:damage" value="1" bonus="modifier"/>
+      <stat name="lifedrinker:damage" value="charisma:modifier" bonus="modifier"/>
+    </rules>
+  </element>
+  <element name="Maske der vielen Gesichter" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MASK_OF_MANY_FACES">
+    <supports>Eldritch Invocation</supports>
+    <description>
+      <p>Du kannst <em>Selbstverkleidung</em> nach Belieben wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_DISGUISE_SELF" />
+      </div>
+    </description>
+    <sheet>
+      <description>Du kannst <em>Selbstverkleidung</em> nach Belieben wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" />
+    </rules>
+  </element>
+  <element name="Meister der myriaden Formen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MASTER_OF_MYRIAD_FORMS">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>15th level</prerequisite>
+    <requirements>[level:15]</requirements>
+    <description>
+      <p><em>Voraussetzung: 15. Stufe</em></p>
+      <p>Du kannst <em>Gestalt verändern</em> nach Belieben wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ALTER_SELF" />
+      </div>
+    </description>
+    <sheet>
+      <description>Du kannst <em>Gestalt verändern</em> nach Belieben wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" />
+    </rules>
+  </element>
+  <element name="Untergebene des Chaos" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MINIONS_OF_CHAOS">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>9th level</prerequisite>
+    <requirements>[level:9]</requirements>
+    <description>
+      <p><em>Voraussetzung: 9. Stufe</em></p>
+      <p>Du kannst <em>Elementar beschwören</em> einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, wenn du eine lange Rast beendet hast.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_CONJURE_ELEMENTAL" />
+      </div>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Du kannst <em>Elementar beschwören</em> wirken, indem du einen Hexenmeisterzauberplatz verbrauchst.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_CONJURE_ELEMENTAL" />
+    </rules>
+  </element>
+  <element name="Versumpfen lassen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MIRE_THE_MIND">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>5th level</prerequisite>
+    <requirements>[level:5]</requirements>
+    <description>
+      <p><em>Voraussetzung: 5. Stufe</em></p>
+      <p>Du kannst <em>Verlangsamen</em> einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, wenn du eine lange Rast beendet hast.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_SLOW" />
+      </div>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Du kannst <em>Verlangsamen</em> wirken, indem du einen Hexenmeisterzauberplatz verbrauchst.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_SLOW" />
+    </rules>
+  </element>
+  <element name="Neblige Visionen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MISTY_VISIONS">
+    <supports>Eldritch Invocation</supports>
+    <description>
+      <p>Du kannst <em>Lautloses Trugbild</em> nach Belieben wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_SILENT_IMAGE" />
+      </div>
+    </description>
+    <sheet>
+      <description>Du kannst <em>Lautloses Trugbild</em> nach Belieben wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_SILENT_IMAGE" />
+    </rules>
+  </element>
+  <element name="Mit den Schatten verschmelzen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ONE_WITH_SHADOWS">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>5th level</prerequisite>
+    <requirements>[level:5]</requirements>
+    <description>
+      <p><em>Voraussetzung: 5. Stufe</em></p>
+      <p>Wenn du dich in einem Bereich mit dämmrigem Licht oder Dunkelheit befindest, kannst du deine Aktion verwenden, um unsichtbar zu werden, bis du dich bewegst oder eine Aktion oder eine Reaktion ausführst.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Wenn du dich in einem Bereich mit dämmrigem Licht oder Dunkelheit befindest, kannst du unsichtbar werden, bis du dich bewegst oder eine Aktion oder eine Reaktion ausführst.</description>
+    </sheet>
+  </element>
+  <element name="Anderswelticher Sprung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_OTHERWORLDLY_LEAP">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>9th level</prerequisite>
+    <requirements>[level:9]</requirements>
+    <description>
+      <p><em>Voraussetzung: 9. Stufe</em></p>
+      <p>Du kannst <em>Springen</em> nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_JUMP" />
+      </div>
+    </description>
+    <sheet>
+      <description>Du kannst <em>Springen</em> nach Belieben auf dich selbst wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_JUMP" />
+    </rules>
+  </element>
+  <element name="Zurückdrängender Strahl" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>eldritch blast cantrip</prerequisite>
+    <requirements>ID_PHB_SPELL_ELDRITCH_BLAST</requirements>
+    <description>
+      <p><em>Voraussetzung: Zaubertrick Schauriger Strahl</em></p>
+      <p>Wenn du eine Kreatur mit <em>Schauriger Strahl</em> triffst, kannst du die Kreatur bis zu 3 m in einer geraden Linie von dir wegstoßen.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ELDRITCH_BLAST" />
+      </div>
+    </description>
+    <sheet>
+      <description>Wenn du eine Kreatur mit <em>Schauriger Strahl</em> triffst, kannst du die Kreatur bis zu 3 m in einer geraden Linie von dir wegstoßen.</description>
+    </sheet>
+  </element>
+  <element name="Fleischbildhauer" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_SCULPTOR_OF_FLESH">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>7th level</prerequisite>
+    <requirements>[level:7]</requirements>
+    <description>
+      <p><em>Voraussetzung: 7. Stufe</em></p>
+      <p>Du kannst <em>Verwandlung</em> einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine lange Rast beendet hast</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_POLYMORPH" />
+      </div>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Du kannst <em>Verwandlung</em> einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" />
+    </rules>
+  </element>
+  <element name="Zeichen des schlechten Omens " type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_SIGN_OF_ILL_OMEN">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>5th level</prerequisite>
+    <requirements>[level:5]</requirements>
+    <description>
+      <p><em>Voraussetzung: 5. Stufe</em></p>
+      <p>Du kannst <em>Fluch</em> einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, wenn du eine lange Rast beendet hast.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_BESTOW_CURSE" />
+      </div>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Du kannst <em>Fluch</em> einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" />
+    </rules>
+  </element>
+  <element name="Dieb der fünf Schicksale" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_THIEF_OF_FIVE_FATES">
+    <supports>Eldritch Invocation</supports>
+    <description>
+      <p>Du kannst <em>Verderben</em> einmal wirken, indem du einen Hexenmeisterzauberplatz verbrauchst. Du kannst diese Fähigkeit erst wieder einsetzen, nachdem du eine lange Rast beendet hast.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_BANE" />
+      </div>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Du kannst <em>Verderben</em> wirken, indem du einen Hexenmeisterzauberplatz verbrauchst.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_BANE" />
+    </rules>
+  </element>
+  <element name="Dürstende Klinge" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE">
+    <supports>Eldritch Invocation, Pact of the Blade</supports>
+    <prerequisite>5th level, Pact of the Blade feature</prerequisite>
+    <requirements>[level:5],ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+    <description>
+      <p><em>Voraussetzung: 5. Stufe, Merkmal Pakt der Klinge</em></p>
+      <p>Du kannst mit deiner Paktwaffe zweimal angreifen anstatt nur einmal, wenn du die Angriffsaktion in deinem Zug wählst.</p>
+    </description>
+    <sheet>
+      <description>Du kannst mit deiner Paktwaffe zweimal angreifen anstatt nur einmal, wenn du die Angriffsaktion in deinem Zug wählst.</description>
+    </sheet>
+  </element>
+  <element name="Visionen von fernen Gefildens" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_VISIONS_OF_DISTANT_REALMS">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>15th level</prerequisite>
+    <requirements>[level:15]</requirements>
+    <description>
+      <p><em>Voraussetzung: 15. Stufe</em></p>
+      <p>Du kannst <em>Arkanes Auge</em> nach Belieben wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_ARCANE_EYE" />
+      </div>
+    </description>
+    <sheet>
+      <description>Du kannst <em>Arkanes Auge</em> nach Belieben wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" />
+    </rules>
+  </element>
+  <element name="Stimme des Kettenmeisters" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_VOICE_OF_THE_CHAIN_MASTER">
+    <supports>Eldritch Invocation, Pact of the Chain</supports>
+    <prerequisite>Pact of the Chain feature</prerequisite>
+    <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN</requirements>
+    <description>
+      <p><em>Voraussetzung: Merkmal Pakt der Kette</em></p>
+      <p>Du kannst telepathisch mit deinem Vertrauten kommunizieren und mit seinen Sinnen die Umwelt wahrnehmen, solange ihr euch auf derselben Existenzebene befindet. Während du mit den Sinnen deines Vertrauten wahrnimmst, kannst du außerdem durch ihn mit deiner eigenen Stimme sprechen — selbst wenn dein Vertrauter eigentlich nicht sprechen kann.</p>
+    </description>
+    <sheet>
+      <description>Du kannst telepathisch mit deinem Vertrauten kommunizieren und mit seinen Sinnen die Umwelt wahrnehmen, solange ihr euch auf derselben Existenzebene befindet. Während du mit den Sinnen deines Vertrauten wahrnimmst, kannst du außerdem durch ihn mit deiner eigenen Stimme sprechen — selbst wenn dein Vertrauter eigentlich nicht sprechen kann.</description>
+    </sheet>
+  </element>
+  <element name="Grabesflüstern" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_WHISPERS_OF_THE_GRAVE">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>9th level</prerequisite>
+    <requirements>[level:9]</requirements>
+    <description>
+      <p><em>Voraussetzung: 9. Stufe</em></p>
+      <p>Du kannst <em>Mit Toten sprechen</em> nach Belieben wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_SPEAK_WITH_DEAD" />
+      </div>
+    </description>
+    <sheet>
+      <description>Du kannst <em>Mit Toten sprechen</em> nach Belieben wirken, ohne dafür Zauberplätze oder Materialkomponenten aufwenden zu müssen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" />
+    </rules>
+  </element>
+  <element name="Hexensicht" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_WITCH_SIGHT">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>15th level</prerequisite>
+    <requirements>[level:15]</requirements>
+    <description>
+      <p><em>Voraussetzung: 15. Stufe</em></p>
+      <p>Du kannst die wahre Gestalt jedes Formenwandlers, Wechselbalgs oder jeder Kreatur erkennen, die durch Illusion oder Verwandlungszauber verborgen wird, solange sich das Ziel innerhalb von 9 m in deinem Blickfeld aufhält.</p>
+    </description>
+    <sheet>
+      <description>Du kannst die wahre Gestalt jedes Formenwandlers, Wechselbalgs oder jeder Kreatur erkennen, die durch Illusion oder Verwandlungszauber verborgen wird, solange sich das Ziel innerhalb von 9 m in deinem Blickfeld aufhält.</description>
+    </sheet>
+  </element>
+  <!-- Pact Boons -->
+  <element name="Pakt der Kette" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN">
+    <supports>Pact Boon</supports>
+    <description>
+      <p>Du lernst den Zauber <em>Vertrauten finden</em> und kannst ihn als Ritual wirken. Der Spruch verbraucht keinen deiner Zauberplätze und zählt nicht in Bezug auf deine maximale Anzahl bekannter Zauber.</p>
+      <p class="indent">Wenn du den Zauber wirkst, kannst du für deinen Vertrauten neben den normalen Formen auch eine der folgenden wählen: Imp (Teufelchen), Pseudodrache, Quasit oder Feengeist.</p>
+      <p class="indent">Nutzt du deine Aktion für einen Angriff, kannst du statt selbst anzugreifen auch deinen Vertrauten attackieren lassen, indem er seine Reaktion aufwendet.</p>
+    </description>
+    <sheet>
+      <description>Du lernst den Zauber <em>Vertrauten finden</em> und kannst ihn als Ritual wirken. Nutzt du deine Aktion für einen Angriff, kannst du statt selbst anzugreifen auch deinen Vertrauten attackieren lassen, indem er seine Reaktion aufwendet.</description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" spellcasting="Warlock" />
+			<select type="Companion" name="Vertrauter, Pakt der Kette" supports="Familiar||Variant Familiar" />
+		</rules>
+  </element>
+  <element name="Pakt des Buches" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME">
+    <supports>Pact Boon</supports>
+    <description>
+      <p>Dein Schutzherr gibt dir ein Zauberbuch: das Buch der Schatten. Wenn du dieses Merkmal erhältst, suche dir drei Zaubertricks von frei wählbaren Zauberlisten aus (es müssen nicht die gleichen sein). Solange du das Buch bei dir trägst, kannst du diese drei Zaubertricks beliebig oft wirken. Sie zählen nicht in Bezug auf die maximale Anzahl bekannter Zaubertricks. Sprüche, die nicht in der Zauberliste des Hexenmeisters enthalten sind, gelten für dich trotzdem als Hexenmeisterzaubertricks.</p>
+      <p class="indent">Solltest du das Buch der Schatten verlieren, kannst du eine einstündige Zeremonie ausführen, um von deinem Schutzherren einen Ersatz zu erhalten. Die Zeremonie kann im Rahmen einer kurzen oder langen Rast durchgeführt werden. Dabei wird das alte Buch zerstört. Falls du stirbst, zerfällt dein Buch zu Asche.</p>
+    </description>
+    <sheet>
+      <description>Dein Schutzherr gibt dir ein Zauberbuch: das Buch der Schatten.</description>
+    </sheet>
+    <rules>
+      <select type="Spell" name="Zaubertrick (Pakt des Buches)" supports="0" level="1" number="3" spellcasting="Warlock"/>
+    </rules>
+  </element>
+  <element name="Pakt der Klinge" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE">
+    <supports>Pact Boon</supports>
+    <description>
+      <p>Du kannst deine Aktion dazu verwenden, eine Paktwaffe in deiner freien Hand erscheinen zu lassen. Die Form dieser Nahkampfwaffe kannst du jedes Mal frei bestimmen (siehe Kapitel 5 „Ausrüstung"). Solange du sie trägst, zählst du als geübt im Umgang mit dieser Waffe. Außerdem gilt sie als magisch, wenn es darum geht, Resistenzen und Immunitäten gegen nicht-magische Angriffe und nicht-magischen Schaden zu überwinden.</p>
+      <p class="indent">Deine Paktwaffe löst sich auf, wenn sie länger als 1 Minute mehr als 1,50 m von dir entfernt ist. Sie verschwindet außerdem, wenn du die Fähigkeit erneut einsetzt, wenn du die Waffe bewusst auflöst (keine Aktion erforderlich) oder wenn du stirbst.</p>
+      <p class="indent">Du kannst eine magische Waffe zu deiner Paktwaffe machen, indem du ein spezielles Ritual ausführst, bei dem du die Waffe halten musst. Das Ritual dauert 1 Stunde und kann im Rahmen einer kurzen Rast vollzogen werden. Als Folge kannst du die Waffe, wenn du sie wegstecken möchtest, an einem außerdimensionalen Ort verstauen. Sie manifestiert sich von dort, sobald du die Paktwaffe in deiner Hand erscheinen lässt. Du kannst auf diese Weise weder Artefakte noch intelligente Waffen zu Paktwaffen machen. Die Waffe ist nicht länger deine Paktwaffe, wenn du stirbst, wenn du das einstündige Ritual auf eine andere Waffe anwendest oder wenn du das Ritual erneut vollziehst, um den Bund aufzulösen. In diesem Fall erscheint die Waffe zu deinen Füßen, sollte sie sich gerade an dem außerdimensionalen Ort befinden.</p>
+    </description>
+    <sheet usage="Aktion">
+      <description>Du kannst eine Paktwaffe in deiner freien Hand erscheinen lassen. Sie gilt als magisch, wenn es darum geht, Resistenzen und Immunitäten gegen nicht-magische Angriffe und nicht-magischen Schaden zu überwinden.
+        Deine Paktwaffe löst sich auf, wenn sie länger als 1 Minute mehr als 1,50 m von dir entfernt ist. Sie verschwindet außerdem, wenn du die Fähigkeit erneut einsetzt, wenn du die Waffe bewusst auflöst (keine Aktion erforderlich) oder wenn du stirbst.
+        Du kannst eine magische Waffe zu deiner Paktwaffe machen, indem du ein spezielles Ritual ausführst, bei dem du die Waffe halten musst. Das Ritual dauert 1 Stunde und kann im Rahmen einer kurzen Rast vollzogen werden. Als Folge kannst du die Waffe, wenn du sie wegstecken möchtest, an einem außerdimensionalen Ort verstauen. Sie manifestiert sich von dort, sobald du die Paktwaffe in deiner Hand erscheinen lässt. Du kannst auf diese Weise weder Artefakte noch intelligente Waffen zu Paktwaffen machen. Die Waffe ist nicht länger deine Paktwaffe, wenn du stirbst, wenn du das einstündige Ritual auf eine andere Waffe anwendest oder wenn du das Ritual erneut vollziehst, um den Bund aufzulösen. In diesem Fall erscheint die Waffe zu deinen Füßen, sollte sie sich gerade an dem außerdimensionalen Ort befinden.</description>
+    </sheet>
+  </element>
+
+  <!-- Otherworldly Patrons -->
+  <element name="Der Unhold" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_FIEND">
+    <supports>Otherworldly Patron</supports>
+    <description>
+      <p>Du hast einen Pakt mit einem Unhold aus den unteren Ebenen der Existenz geschlossen, mit einem Wesen, dessen Ziele böse sind, selbst wenn du es nicht bist. Solche Wesen wollen die Zerstörung oder Entstellung aller Dinge, letztendlich auch von dir. Unholde, die mächtig genug sind, um einen Pakt zu schmieden, sind Dämonenherrscher wie Demogorgon, Orcus, Fraz'Urb-Luu und Baphomet; Erzteufel wie Asmodeus, Dispater, Mephistopheles und Belial; Grubenteufel und Balors, die besonders mächtig sind, sowie Ultroloths und andere Herren der Yugoloths.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL"/>
+    </description>
+		<sheet display="false">
+      <description>Du hast einen Pakt mit einem Unhold aus den unteren Ebenen der Existenz geschlossen.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST" level="1" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING" level="1" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE" level="10" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL" level="14" />
+    </rules>
+  </element>
+  <element name="Expanded Spell List" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST">
+    <description>
+      <p>Dein Pakt mit einem Unhold lässt dich aus weiteren Zaubern auswählen, wenn du einen neuen Hexenmeisterzauber lernst. Die folgenden Sprüche gelten für dich als Teil der Zauberliste des Hexenmeisters.</p>
+      <h5 class="caption">ERWEITERTE ZAUBERLISTE DES UNHOLDS</h5>
+      <table>
+        <thead>
+          <tr><td>Grad</td><td>Zauber</td></tr>
+        </thead>
+        <tr><td>1.</td><td><em>Brennende Hände, Befehl</em></td></tr>
+        <tr><td>2.</td><td><em>Blindheit/Taubheit, Sengender Strahl</em></td></tr>
+        <tr><td>3.</td><td><em>Feuerball, Stinkende Wolke</em></td></tr>
+        <tr><td>4.</td><td><em>Feuerwand, Feuerschild</em></td></tr>
+        <tr><td>5.</td><td><em>Flammenschlag, Weihen</em></td></tr>
+      </table>
+    </description>
+    <sheet display="false">
+      <description>Dein Pakt mit einem Unhold lässt dich aus weiteren Zaubern auswählen, wenn du einen neuen Hexenmeisterzauber lernst.</description>
+    </sheet>
+    <spellcasting name="Warlock" extend="true">
+      <extend>ID_PHB_SPELL_BURNING_HANDS</extend>
+      <extend>ID_PHB_SPELL_COMMAND</extend>
+      <extend>ID_PHB_SPELL_BLINDNESS_DEAFNESS</extend>
+      <extend>ID_PHB_SPELL_SCORCHING_RAY</extend>
+      <extend>ID_PHB_SPELL_FIREBALL</extend>
+      <extend>ID_PHB_SPELL_STINKING_CLOUD</extend>
+      <extend>ID_PHB_SPELL_FIRE_SHIELD</extend>
+      <extend>ID_PHB_SPELL_WALL_OF_FIRE</extend>
+      <extend>ID_PHB_SPELL_FLAME_STRIKE</extend>
+      <extend>ID_PHB_SPELL_HALLOW</extend>
+    </spellcasting>
+  </element>
+  <element name="Segen des Dunklen Meisters" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING">
+    <description>
+      <p>Reduzierst du ab der 1. Stufe eine feindliche Kreatur auf 0 Trefferpunkte, erhältst du temporäre Trefferpunkte in Höhe deines Charismamodifikators + deiner Stufe als Hexenmeister (mindestens 1).</p>
+    </description>
+    <sheet>
+      <description>Wenn du eine feindliche Kreatur auf 0 Trefferpunkte reduzierst, erhältst du {{dark ones blessing:temp hp}} temporäre Trefferpunkte.</description>
+    </sheet>
+    <rules>
+      <stat name="dark ones blessing:temp hp" value="charisma:modifier" />
+      <stat name="dark ones blessing:temp hp" value="level:hexenmeister" />
+    </rules>
+  </element>
+  <element name="Schicksal des Dunklen Meisters" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE">
+    <description>
+      <p>Von Stufe 6 an kannst du mit Hilfe deines Schutzherren das Schicksal zu deinen Gunsten ändern. Wenn du einen Attributs- oder Rettungswurf ablegst, kannst du diese Fähigkeit einsetzen, um 1W10 zu deinem Wurf zu addieren. Du kannst dich nach deinem eigentlichen Wurf dazu entscheiden, die Fähigkeit zu nutzen, musst es aber bevor dessen Ergebnis angewendet wird.</p>
+      <p class="indent">Hast du die Fähigkeit einmal eingesetzt, steht sie dir erst wieder nach einer kurzen oder langen Rast zur Verfügung.</p>
+    </description>
+    <sheet usage="1/Kurze Rast">
+      <description>Wenn du einen Attributs- oder Rettungswurf ablegst, kannst du 1W10 zu deinem Wurf zu addieren. Du kannst dich nach deinem eigentlichen Wurf dazu entscheiden, musst es aber bevor dessen Ergebnis angewendet wird.</description>
+    </sheet>
+  </element>
+  <element name="Widerstandskraft des Unholds" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK">
+    <description>
+      <p>Mit Erreichen der 10. Stufe kannst du dir nach Beenden einer kurzen oder langen Rast eine Schadensart aussuchen, gegen die du eine Resistenz erhältst. Der Effekt dauert an, bis du auf diese Weise eine andere Schadensart auswählst. Der Schaden von magischen oder silbernen Waffen ignoriert diese Resistenz.</p>
+    </description>
+    <sheet>
+      <description>Du kannst dir nach Beenden einer kurzen oder langen Rast eine Schadensart aussuchen, gegen die du eine Resistenz erhältst. Der Effekt dauert an, bis du auf diese Weise eine andere Schadensart auswählst. Der Schaden von magischen oder silbernen Waffen ignoriert diese Resistenz.</description>
+    </sheet>
+  </element>
+  <element name="Schlund des Wahnsinns" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL">
+    <description>
+      <p>Ab der 14. Stufe kannst du eine Kreatur, die du mit einem Angriff triffst, sofort auf die niederen Ebenen befördern, indem du diese Fähigkeit einsetzt. Die Kreatur verschwindet und wird durch eine alptraumhafte Landschaft geschleudert. Zum Ende deines nächsten Zuges kehrt sie an ihren ursprünglichen Platz zurück oder den nächstgelegenen freien Ort. Sollte das Ziel kein Unhold sein, erleidet es 10W10 psychischen Schaden durch die verstörende Erfahrung.</p>
+      <p class="indent">Du musst eine lange Rast beenden, bevor du diese Fähigkeit erneut einsetzen kannst.</p>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Du kannst eine Kreatur, die du mit einem Angriff triffst, sofort auf die niederen Ebenen befördern. Die Kreatur verschwindet und wird durch eine alptraumhafte Landschaft geschleudert. Zum Ende deines nächsten Zuges kehrt sie an ihren ursprünglichen Platz zurück oder den nächstgelegenen freien Ort. Sollte das Ziel kein Unhold sein, erleidet es 10W10 psychischen Schaden.</description>
+    </sheet>
+  </element>
+
+
+  <!-- Archfey -->
+  <element name="Die Erzfee" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_ARCHFEY">
+    <supports>Otherworldly Patron</supports>
+    <description>
+      <p>Dein Schutzherr ist ein Lord oder eine Lady der Feen — eine legendäre Kreatur, welche Geheimnisse bewahrt, die bereits in Vergessenheit geraten waren, bevor die ersten sterblichen Völker überhaupt geboren wurden. Die Beweggründe dieser Wesen sind oft schwer zu verstehen und manchmal von launenhafter Natur. Vielleicht streben sie nach größerer magischer Macht oder wollen einen seit Äonen bestehenden Fluch brechen. Wesen dieser Art sind der Prinz des Frostes; die Königin der Lüfte und der Dunkelheit, Herrscherin des Hofes der Abenddämmerung; Titania von den Sommerhöfen und ihr Gefährte Oberon, der Grüne Lord; Hyrsam, der Prinz der Narren sowie uralte Hexen.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM"/>
+    </description>
+		<sheet display="false">
+      <description>Dein Schutzherr ist ein Lord oder eine Lady der Feen — eine legendäre Kreatur, welche Geheimnisse bewahrt, die bereits in Vergessenheit geraten waren, bevor die ersten sterblichen Völker überhaupt geboren wurden.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST" level="1" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE" level="1" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES" level="10" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM" level="14" />
+    </rules>
+  </element>
+  <element name="Expanded Spell List" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST">
+    <description>
+      <p>Dein Pakt mit einer Erzfee lässt dich aus weiteren Zaubern auswählen, wenn du einen neuen Hexenmeisterzauber lernst. Die folgenden Sprüche gelten für dich als Teil der Zauberliste des Hexenmeisters.</p>
+      <h5 class="caption">ERWEITERTE ZAUBERLISTE DER ERZFEE</h5>
+      <table>
+        <thead>
+          <tr><td>Grad</td><td>Zauber</td></tr>
+        </thead>
+        <tr><td>1.</td><td><em>Feenfeuer, Schlaf</em></td></tr>
+        <tr><td>2.</td><td><em>Gefühle besänftigen, Macht der Vorstellungskraft</em></td></tr>
+        <tr><td>3.</td><td><em>Flimmern, Pflanzenwachstum</em></td></tr>
+        <tr><td>4.</td><td><em>Tier beherrschen, Mächtige Unsichtbarkeit</em></td></tr>
+        <tr><td>5.</td><td><em>Person beherrschen, Äußerlichkeiten</em></td></tr>
+      </table>
+    </description>
+    <sheet display="false">
+      <description>Dein Pakt mit einer Erzfee lässt dich aus weiteren Zaubern auswählen, wenn du einen neuen Hexenmeisterzauber lernst.</description>
+    </sheet>
+    <spellcasting name="Warlock" extend="true">
+      <extend>ID_PHB_SPELL_FAERIE_FIRE</extend>
+      <extend>ID_PHB_SPELL_SLEEP</extend>
+      <extend>ID_PHB_SPELL_CALM_EMOTIONS</extend>
+      <extend>ID_PHB_SPELL_PHANTASMAL_FORCE</extend>
+      <extend>ID_PHB_SPELL_BLINK</extend>
+      <extend>ID_PHB_SPELL_PLANT_GROWTH</extend>
+      <extend>ID_PHB_SPELL_DOMINATE_BEAST</extend>
+      <extend>ID_PHB_SPELL_GREATER_INVISIBILITY</extend>
+      <extend>ID_PHB_SPELL_DOMINATE_PERSON</extend>
+      <extend>ID_PHB_SPELL_SEEMING</extend>
+    </spellcasting>
+  </element>
+  <element name="Feenaustrahlung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE">
+    <description>
+      <p>Ab der 1. Stufe verleiht dein Schutzherr dir die Fähigkeit, die betörende und erschreckende Ausstrahlung der Feenwesen einzusetzen. Als Aktion kannst du jede Kreatur in einem 3-m-Würfel um dich herum (mit dir als Mittelpunkt) dazu bringen, einen Weisheitsrettungswurf gegen den SG zum Widerstehen deiner Hexenmeisterzauber auszuführen. Die Kreaturen, denen der Rettungswurf misslingt, gelten alle bis zum Ende deines nächsten Zuges als von dir bezaubert oder verängstigt (deine Wahl).</p>
+      <p class="indent">Hast du diese Fähigkeit einmal eingesetzt, kannst du sie erst wieder nach Beenden einer kurzen oder langen Rast anwenden.</p>
+    </description>
+    <sheet action="Aktion" usage="1/Kurze Rast">
+      <description>Du kannst jede Kreatur in einem 3-m-Würfel um dich herum (mit dir als Mittelpunkt) dazu bringen, einen Weisheitsrettungswurf gegen SG {{spellcasting:dc:wis}} auszuführen. Die Kreaturen, denen der Rettungswurf misslingt, gelten alle bis zum Ende deines nächsten Zuges als von dir bezaubert oder verängstigt (deine Wahl).</description>
+    </sheet>
+  </element>
+  <element name="Neblige Flucht" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE">
+    <description>
+      <p>Beginnend mit Stufe 6 kannst du bei Gefahr instinktiv in einer Explosion aus Nebel verschwinden. Wenn du Schaden erleidest, kannst du deine Reaktion nutzen, um unsichtbar zu werden und dich an einen bis zu 18 m entfernten Ort zu teleportieren, den du sehen können musst. Du bleibst unsichtbar bis zum Anfang deines nächsten Zuges oder bis du angreifst oder einen Zauber wirkst.</p>
+      <p class="indent">Hast du die Fähigkeit einmal eingesetzt, steht sie dir erst wieder nach einer kurzen oder langen Rast zur Verfügung.</p>
+    </description>
+    <sheet action="Reaktion" usage="1/Kurze Rast">
+      <description>Wenn du Schaden erleidest, kannst du unsichtbar werden und dich an einen bis zu 18 m entfernten Ort teleportieren, den du sehen können musst. Du bleibst unsichtbar bis zum Anfang deines nächsten Zuges oder bis du angreifst oder einen Zauber wirkst.</description>
+    </sheet>
+  </element>
+  <element name="Betrörende Abwehr" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES">
+    <description>
+      <p>Dein Schutzherr lehrt dich auf der 10. Stufe, wie du die geistesbeeinflussende Magie deiner Feinde gegen sie verwenden kannst. Du bist immun gegen den Zustand bezaubert. Versucht eine Kreatur, dich zu bezaubern, kannst du deine Reaktion dazu verwenden, die Bezauberung auf diese Kreatur zurückzuwerfen. Der Kreatur muss ein Weisheitsrettungswurf gegen den SG zum Widerstehen deiner Hexenmeisterzauber gelingen. Bei einem Misserfolg wird sie für 1 Minute oder bis die Kreatur Schaden erleidet bezaubert.</p>
+    </description>
+		<sheet action="Reaktion">
+      <description>Du bist immun gegen den Zustand bezaubert. Versucht eine Kreatur, dich zu bezaubern, kannst du deine Reaktion dazu verwenden, die Bezauberung auf diese Kreatur zurückzuwerfen. Der Kreatur muss ein Weisheitsrettungswurf gegen SG {{spellcasting:dc:wis}} gelingen. Bei einem Misserfolg wird sie für 1 Minute oder bis die Kreatur Schaden erleidet bezaubert.</description>
+    </sheet>
+  </element>
+  <element name="Dunkles Ddlirium" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM">
+    <description>
+      <p>Ab der 14. Stufe kannst du den Geist einer Kreatur verwirren und sie glauben machen, in einer anderen Ebene gefangen zu sein. Als Aktion bestimmst du eine Kreatur, die sich innerhalb von 18 m befindet und die du sehen kannst. Diese muss einen Weisheitsrettungswurf gegen den SG zum Widerstehen deiner Hexenmeisterzauber ablegen. Bei einem Misserfolg ist sie von dir für 1 Minute bezaubert oder verängstigt (deine Wahl). Der Effekt endet auch, wenn deine Konzentration unterbrochen wird (als würdest du dich auf einen Zauber konzentrieren) oder die Kreatur Schaden erleidet.</p>
+      <p class="indent">Bis diese Illusion endet, denkt die Kreatur, sie sei in einem nebligen Reich verloren, dessen Erscheinung du bestimmen darfst. Die Kreatur kann nur sich selbst, dich und die Illusion hören und sehen.</p>
+      <p class="indent">Du musst eine kurze oder lange Rast beenden, bevor du diese Fähigkeit erneut einsetzen kannst.</p>
+    </description>
+    <sheet action="Aktion" usage="1/Kurze Rast">
+      <description>Bestimme eine Kreatur, die sich innerhalb von 18 m befindet und die du sehen kannst. Diese muss einen Weisheitsrettungswurf gegen SG {{spellcasting:dc:wis}} ablegen. Bei einem Misserfolg ist sie von dir für 1 Minute bezaubert oder verängstigt (deine Wahl). Der Effekt endet auch, wenn deine Konzentration unterbrochen wird (als würdest du dich auf einen Zauber konzentrieren) oder die Kreatur Schaden erleidet.</description>
+    </sheet>
+  </element>
+  <!-- Great Old One -->
+  <element name="Der Grosse Alte" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_GREAT_OLD_ONE">
+    <supports>Otherworldly Patron</supports>
+    <description>
+      <p>Dein Schutzherr ist eine mysteriöse Entität, dessen Natur dem Geflecht der Realität vollkommen fremd ist. Er könnte aus dem Fernen Reich kommen, dem Ort hinter der Realität, oder einer der alten Götter sein, die nur aus Legenden bekannt sind. Seine Beweggründe sind für Sterbliche unergründlich und sein Wissen ist so immens und uralt, dass selbst die geheimsten Kenntnisse der größten Bibliotheken kümmerlich dagegen wirken. Der Große Alte mag sich über deine Existenz im Unklaren sein oder sich dir gegenüber vollkommen gleichgültig verhalten, doch seine Geheimnisse, die du bereits zu enträtseln vermochtest, verleihen dir große Macht und mystische Magie.</p>
+      <p class="indent">Zu den Entitäten dieser Art zählen Ghaunadaur, genannt „Der, der lauert"; Tharizdun, der Gott in Ketten; Dender, die Schlange der Nacht; Zargon, der Wiederkehrer; der Große Cthulhu und andere unergründliche Wesen.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL"/>
+    </description>
+		<sheet display="false">
+      <description>Dein Schutzherr ist eine mysteriöse Entität, dessen Natur dem Geflecht der Realität vollkommen fremd ist.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST" level="1" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND" level="1" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD" level="10" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL" level="14" />
+    </rules>
+  </element>
+  <element name="Expanded Spell List" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST">
+    <description>
+      <p>Dein Pakt mit einem Großen Alten lässt dich aus weiteren Zaubern auswählen, wenn du einen neuen Hexenmeisterzauber lernst. Die folgenden Sprüche gelten für dich als Teil der Zauberliste des Hexenmeisters.</p>
+      <h5>ERWEITERTE ZAUBERLISTE DES GROSSEN ALTEN</h5>
+      <table>
+        <thead>
+          <tr><td>Grad</td><td>Zauber</td></tr>
+        </thead>
+        <tr><td>1.</td><td><em>Dissonantes Flüstern, Tashas Füchterlicher Lachanfall</em></td></tr>
+        <tr><td>2.</td><td><em>Gedanken wahrnehmen, Macht der Vorstellungskraft</em></td></tr>
+        <tr><td>3.</td><td><em>Hellsehen, Verständigung</em></td></tr>
+        <tr><td>4.</td><td><em>Tier beherrschen, Evards Schwarze Tentakel</em></td></tr>
+        <tr><td>5.</td><td><em>Person beherrschen, Telekinese</em></td></tr>
+      </table>
+    </description>
+    <sheet display="false">
+      <description>Dein Pakt mit einem Großen Alten lässt dich aus weiteren Zaubern auswählen, wenn du einen neuen Hexenmeisterzauber lernst.</description>
+    </sheet>
+    <spellcasting name="Warlock" extend="true">
+      <extend>ID_PHB_SPELL_DISSONANT_WHISPERS</extend>
+      <extend>ID_PHB_SPELL_TASHAS_HIDEOUS_LAUGHTER</extend>
+      <extend>ID_PHB_SPELL_DETECT_THOUGHTS</extend>
+      <extend>ID_PHB_SPELL_PHANTASMAL_FORCE</extend>
+      <extend>ID_PHB_SPELL_CLAIRVOYANCE</extend>
+      <extend>ID_PHB_SPELL_SENDING</extend>
+      <extend>ID_PHB_SPELL_DOMINATE_BEAST</extend>
+      <extend>ID_PHB_SPELL_EVARDS_BLACK_TENTACLES</extend>
+      <extend>ID_PHB_SPELL_DOMINATE_PERSON</extend>
+      <extend>ID_PHB_SPELL_TELEKINESIS</extend>
+    </spellcasting>
+  </element>
+  <element name="Erwachter Geist" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND">
+    <description>
+      <p>Auf Stufe 1 hast du gelernt, dein fremdartiges Wissen dazu zu nutzen, mit deinen Gedanken das Bewusstsein anderer Kreaturen zu berühren. Innerhalb von 9 m kannst du auf telepathische Weise mit jeder Kreatur kommunizieren, die du sehen kannst. Ihr müsst nicht die gleiche Sprache sprechen, damit die Kreatur dich telepathisch versteht, doch sie muss zumindest irgendeine Sprache beherrschen.</p>
+    </description>
+    <sheet>
+      <description>Innerhalb von 9 m kannst du auf telepathische Weise mit jeder Kreatur kommunizieren, die du sehen kannst. Ihr müsst nicht die gleiche Sprache sprechen, damit die Kreatur dich telepathisch versteht, doch sie muss zumindest irgendeine Sprache beherrschen.</description>
+    </sheet>
+  </element>
+  <element name="Entropischer Schutz" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD">
+    <description>
+      <p>Auf der 6. Stufe erlangst du die Fähigkeit, dich auf magische Art gegen Angriffe zu schützen und einen misslungenen Ausfall des Gegners in deinen Vorteil zu verwandeln. Wenn eine Kreatur einen Angriffswurf gegen dich ausführt, kannst du deine Reaktion nutzen, damit dein Gegner bei diesem Wurf im Nachteil ist. Verfehlt die Attacke, bist du bei deinem nächsten Angriff auf diese Kreatur im Vorteil, solange du diesen vor Ende deines nächsten Zuges ausführst.</p>
+      <p class="indent">Hast du die Fähigkeit einmal eingesetzt, steht sie dir erst wieder nach einer kurzen oder langen Rast zur Verfügung.</p>
+    </description>
+    <sheet action="Reaktion" usage="1/Kurze Rast">
+      <description>Wenn eine Kreatur einen Angriffswurf gegen dich ausführt, ist dein Gegner bei diesem Wurf im Nachteil ist. Verfehlt die Attacke, bist du bei deinem nächsten Angriff auf diese Kreatur im Vorteil, solange du diesen vor Ende deines nächsten Zuges ausführst.</description>
+    </sheet>
+  </element>
+  <element name="Gedankenschild" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD">
+    <description>
+      <p>Mit Erreichen der 10. Stufe können deine Gedanken nicht mehr telepathisch oder auf andere Art gelesen werden, außer du lässt es zu. Du erhältst außerdem eine Resistenz gegen psychischen Schaden. Immer, wenn eine Kreatur dir psychischen Schaden zufügt, erleidet sie Schaden in der gleichen Höhe wie du.</p>
+    </description>
+    <sheet>
+      <description>Du erhältst eine Resistenz gegen psychischen Schaden. Immer, wenn eine Kreatur dir psychischen Schaden zufügt, erleidet sie Schaden in der gleichen Höhe wie du.</description>
+    </sheet>
+  	<rules>
+	  	<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+	  </rules>
+  </element>
+  <element name="Diener erschaffen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL">
+    <description>
+      <p>Auf der 14. Stufe erhältst du die Fähigkeit, den Verstand eines Humanoiden mit der fremdartigen Magie deines Schutzherren zu infizieren. Du kannst deine Aktion verwenden, um eine kampfunfähige humanoide Kreatur zu berühren. Diese Kreatur gilt dann so lange als bezaubert, bis Fluch brechen auf sie gewirkt wird, der Zustand bezaubert von ihr entfernt wird oder du diese Fähigkeit erneut einsetzt.</p>
+      <p class="indent">Du kannst mit der bezauberten Kreatur telepathisch kommunizieren, solange ihr euch beide auf derselben Existenzebene befindet.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Du berührst eine kampfunfähige humanoide Kreatur. Diese Kreatur gilt dann so lange als bezaubert, bis Fluch brechen auf sie gewirkt wird, der Zustand bezaubert von ihr entfernt wird oder du diese Fähigkeit erneut einsetzt.</description>
+    </sheet>
+  </element>
+</elements>

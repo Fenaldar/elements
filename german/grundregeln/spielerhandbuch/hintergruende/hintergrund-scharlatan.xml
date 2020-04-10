@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Scharlatan</name>
+		<description>Der Hintergrund Scharlatan aus dem Spielerhandbuch</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.5">
+			<file name="hintergrund-scharlatan.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-scharlatan.xml" />
+		</update>
+	</info>
+
+	<element name="Scharlatan" type="Background" source="Spielerhandbuch" id="ID_BACKGROUND_CHARLATAN">
+		<description>
+			<p>Du hattest schon immer ein Händchen für den Umgang mit anderen Leuten. Du weißt, wie sie ticken, nach wenigen Minuten der Unterhaltung kennst du ihre innersten Wünsche und mit einigen gut bedachten Fragen kannst du in ihnen wie in einem Buch lesen. Ein nützliches Talent, und du bist ohne Skrupel dazu bereit, es zu deinem Vorteil zu nutzen.</p>
+			<p class="indent">Du weißt, was die Leute wollen, und du lieferst oder zumindest versprichst es ihnen. Der gesunde Menschenverstand sollte misstrauisch machen gegenüber Dingen, die sich zu gut anhören, um wahr zu sein — doch der gesunde Menschenverstand scheint in deiner Nähe auszusetzen. Das Fläschchen mit rosafarbener Flüssigkeit wird sicherlich den unansehnlichen Ausschlag kurieren, diese Tinktur (nichts weiter als Fett mit einer Prise Silberstaub) kann Gesundheit und Jugend wiederherstellen, und es gibt eine Brücke in der Stadt, die gerade jetzt zum Verkauf steht. Diese Wunder klingen unplausibel, doch du lässt sie wie die reine Wahrheit klingen.</p>
+			<ul class="unstyled">
+				<li><strong>Geübt in folgenden Fertigkeiten:</strong> Täuschen, Fingerfertigkeit</li>
+				<li><strong>Geübt im Umgang mit folgenden Werkzeugen:</strong> Fälscherausrüstung, Verkleidungsausrüstung</li>
+				<li><strong>Ausrüstung:</strong> ein Satz feine Kleidung, eine Verkleidungsausrüstung, die Mittel für eine Betrugsmasche deiner Wahl (etwa zehn versiegelte Flaschen mit farbiger Flüssigkeit, ein Satz gezinkter Würfel oder gezinkter Karten, ein Siegelring eines imaginären Grafen), ein Beutel mit 15 GM</li>
+			</ul>
+			<h5>LIEBLINGSMASCHE</h5>
+			<p>Jeder Scharlatan hat einen Kniff, den er gegenüber den anderen Maschen bevorzugt. Suche dir deine Lieblingsmasche aus oder bestimme sie mit Hilfe der folgenden Tabelle zufällig.</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">W6</td><td>Betrug</td></tr>
+				</thead>
+				<tr><td>1</td><td>Ich schummle beim Wetten.</td></tr>
+				<tr><td>2</td><td>Ich präge Münzen oder fälsche Dokumente.</td></tr>
+				<tr><td>3</td><td>Ich schleiche mich in das Leben anderer Leute ein, um ihre Schwächen herauszufinden und mir ihr Vermögen unter den Nagel zu reißen.</td></tr>
+				<tr><td>4</td><td>Ich wechsle Identitäten wie Kleidung.</td></tr>
+				<tr><td>5</td><td>Ich verdiene mit meiner Fingerfertigkeit Geld bei Betrügereien auf der Straße.</td></tr>
+				<tr><td>6</td><td>Ich überzeuge die Leute davon, dass wertloser Schrott ihr hart verdientes Geld wert ist.</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_FALSE_IDENTITY" />
+			<h5>EMPFOHLENE CHARAKTERISTIKA</h5>
+			<p>Scharlatane sind farbenfrohe Charaktere, die ihr wahres Ich hinter den Masken verstecken, die sie erschaffen. Sie stellen dar, was die Leute sehen wollen, was sie glauben wollen, und wie sie die Welt wahrnehmen. Doch ihr wahres Selbst ist oft von einem schlechten Gewissen oder tiefsitzenden Vertrauensängsten geplagt oder wird von einem alten Feind gejagt.</p>
+		</description>
+		<setters>
+			<set name="short">Täuschen, Fingerfertigkeit, Fälscherausrüstung, Verkleidungsausrüstung</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_FALSE_IDENTITY" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Feature" name="Merkmalvariante" supports="Optional Background Feature" optional="true" />
+			<select name="Betrug" type="List" optional="true">
+				<item id="1">Ich schummle beim Wetten.</item>
+				<item id="2">Ich präge Münzen oder fälsche Dokumente.</item>
+				<item id="3">Ich schleiche mich in das Leben anderer Leute ein, um ihre Schwächen herauszufinden und mir ihr Vermögen unter den Nagel zu reißen.</item>
+				<item id="4">Ich wechsle Identitäten wie Kleidung.</item>
+				<item id="5">Ich verdiene mit meiner Fingerfertigkeit Geld bei Betrügereien auf der Straße.</item>
+				<item id="6">Ich überzeuge die Leute davon, dass wertloser Schrott ihr hart verdientes Geld wert ist.</item>
+			</select>
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">Ich verliebe mich schnell und verliere ebenso schnell das Interesse an jemandem. Ich bin immer hinter einer Liebschaft her.</item>
+				<item id="2">Ich kenne einen Witz für jede Situation, besonders für die, in denen Humor unangebracht ist.</item>
+				<item id="3">Schmeicheleien sind mein bevorzugtes Mittel, um zu bekommen, was ich will.</item>
+				<item id="4">Ich bin ein geborener Spieler, der nicht widerstehen kann, ein Risiko einzugehen, wenn es einen möglichen Gewinn gibt.</item>
+				<item id="5">Ich lüge bei fast jeder Gelegenheit, auch wenn es keinen guten Grund dazu gibt.</item>
+				<item id="6">Sarkasmus und Beleidigungen sind die Waffen meiner Wahl.</item>
+				<item id="7">Ich trage eine Vielzahl von heiligen Symbolen und bete zu jeder Gottheit, die mir gerade hilfreich erscheint.</item>
+				<item id="8">Ich stecke alles ein, was irgendwie von Wert sein könnte.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Unabhängigkeit. Ich bin ein Freigeist, niemand kann mir vorschreiben, was ich zu tun oder zu lassen habe. (chaotisch)</item>
+				<item id="2">Fairness. Ich suche mir niemals jemanden als Opfer aus, der es nicht verkraften kann, einige Münzen zu verlieren. (rechtschaffen)</item>
+				<item id="3">Wohltätigkeit. Ich verteile das Geld, das ich beschaffe, unter denen, die es wirklich nötig haben. (gut)</item>
+				<item id="4">Kreativität. Ich betrüge niemals auf die gleiche Art und Weise. (chaotisch)</item>
+				<item id="5">Freundschaft. Materielle Güter kommen und gehen. Bande der Freundschaft halten für die Ewigkeit. (gut)</item>
+				<item id="6">Ehrgeiz. Ich bin zu Größerem bestimmt als kleinen Betrügereien auf der Straße. (jede)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">Ich habe die falsche Person hereingelegt und muss dafür sorgen, dass diese niemals die Wege von mir oder denen kreuzt, die mir wichtig sind.</item>
+				<item id="2">Ich verdanke alles meinem Mentor, einer schrecklichen Person, die vermutlich irgendwo in einem Gefängnis verrottet.</item>
+				<item id="3">Irgendwo da draußen habe ich ein Kind, das nichts von mir weiß. Ich mache die Welt für sie oder ihn zu einem besseren Ort.</item>
+				<item id="4">Ich stamme aus einer adeligen Familie, und eines Tages werde ich die mir rechtmäßig zustehenden Ländereien und Titel von denen zurückfordern, die mir alles genommen haben.</item>
+				<item id="5">Eine mächtige Person hat jemanden, den ich liebte, getötet. Der Tag meiner Rache wird kommen.</item>
+				<item id="6">Ich habe eine Person, die es nicht verdient hat, hereingelegt und ruiniert. Ich strebe danach, meine Missetat wiedergutzumachen, doch kann mir selbst vielleicht niemals vergeben.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">Ich kann einem schönen Gesicht nicht widerstehen.</item>
+				<item id="2">Ich bin ständig verschuldet. Meine unrechtmäßig erworbenen Gewinne gebe ich schneller für dekadente Luxuriösitäten aus, als ich sie mir aneignen kann.</item>
+				<item id="3">Ich bin davon überzeugt, dass mich niemals jemand derartig hereinlegen kann, wie ich andere hereinlege.</item>
+				<item id="4">Ich bin gieriger, als gut für mich ist. Ich kann nicht widerstehen, ein Risiko einzugehen, wenn ich dabei einen Gewinn wittere.</item>
+				<item id="5">ich kann es nicht lassen, diejenigen zu beleidigen, die mächtiger sind als ich.</item>
+				<item id="6">Ich hasse es, das zuzugeben, und verachte mich selbst dafür — doch wenn es hart auf hart kommt, laufe ich davon, um meine eigene Haut zu retten.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Merkmal: Falsche Identität" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_FALSE_IDENTITY">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Du hast dir eine zweite Identität aufgebaut, die Dokumente, etablierte Bekanntschaften und Verkleidungen umfasst, welche es dir erlauben, eine bestimmte Person zu verkörpern. Zusätzlich kannst du Dokumente fälschen, einschließlich offizieller Papiere und persönlicher Briefe, wenn du erst einmal ein Exemplar der Art von Dokument oder die Handschrift gesehen hast, die du zu kopieren versuchst.</p>
+		</description>
+		<sheet alt="Falsche Identität">
+			<description>Du hast dir eine zweite Identität aufgebaut, die Dokumente, etablierte Bekanntschaften und Verkleidungen umfasst, welche es dir erlauben, eine bestimmte Person zu verkörpern. Zusätzlich kannst du Dokumente fälschen, einschließlich offizieller Papiere und persönlicher Briefe, wenn du erst einmal ein Exemplar der Art von Dokument oder die Handschrift gesehen hast, die du zu kopieren versuchst.</description>
+		</sheet>
+	</element>
+</elements>

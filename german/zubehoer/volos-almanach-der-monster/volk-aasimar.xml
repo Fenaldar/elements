@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Aasimar</name>
+		<description></description>
+		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
+		<update version="0.0.4">
+			<file name="volk-aasimar.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/zubehoer/volos-almanach-der-monster/volk-aasimar.xml" />
+		</update>
+	</info>
+  <element name="Aasimar" type="Race" source="Volos Almanach der Monster" id="ID_WOTC_VGTM_RACE_AASIMAR">
+    <description>
+        <p class="flavor">Aasimar tragen in ihren Seelen das Licht des Himmels. Sie stammen von Menschen ab, die von der Macht des Berges Celestia berührt wurden, dem Reich vieler rechtschaffen guter Götter. Aasimar werden geboren, um als Champions des Guten zu dienen. Ihre Geburt wird als gesegnetes Ereignis gepriesen. Sie sind ein Volk, das ein andersweltliches Antlitz trägt, mit strahlenden Zügen, die ihre himmlische Abstammung offenbaren.</p>
+        <h4>HIMMLISCHE RECKEN</h4>
+        <p>Aasimar werden,in die Welt gebracht, um als Hüter der Gesetze und des Guten zu dienen. Ihre Schutzgötter erwarten, dass sie das Böse angreifen, durch ihr Beispiel führen und die Sache der Gerechtigkeit vorantreiben.</p>
+        <p class="indent">Von früher Kindheit an empfängt der Aasimar in seinen Träumen Visionen und Botschaften von himmlischen Wesenheiten. Diese Träume tragen dazu bei, einen Aasimar zu formen. und gewähren ihm ein Gespür für das Schicksal und den Wunsch nach Rechtschaffenheit.</p>
+        <p class="indent">Jeder Aasimar kann auf einen bestimmten himmlischen Diener der Götter als Ratgeber vertrauen. Diese Wesenheit ist für gewöhnlich ein Deva, ein Engel, der als Bote zwischen den Welten der Götter und der Sterblichen dient.</p>
+        <h4>VERBORGENE WANDERER</h4>
+        <p>Auch wenn Aasimar eifrige Streiter gegen das Böse sind, bevorzugen sie es in der Regel, unentdeckt zu bleiben. Ein Aasimar zieht unweigerlich die Aufmerksamkeit böser Kultisten, Unholde und anderer Feinde des Guten an, die alle einen himmlischen Champion niederschmettern wollen, wenn sie die Chance dazu bekommen.</p>
+        <p class="indent">Auf Reisen tragen Aasimar Kapuzen, geschlossene Helme und andere Ausrüstung, die es ihnen erlaubt, ihre Identität zu verbergen. Sie haben dennoch keine Bedenken, offen gegen das Böse vorzugehen. Die Geheimhaltung, die sie sich wünschen, ist es niemals wert, Unschuldige in Gefahr zu bringen.</p>
+        <h4>RATGEBER DES AASIMAR</h4>
+        <p>Jeder Aasimar — außer denen, die sich dem Bösen zugewandt haben — besitzt eine Verbindung zu einem engelsgleichen Wesen. Dieses Wesen, für gewöhnlich ein Deva, hilft dem Aasimar mit seinen Weisungen, doch besteht die Verbindung zwischen ihnen nur in den Träumen des Aasimars. Die Weisungen sind also keine direkten Befehle und bestehen noch nicht einmal aus gesprochenen Wörtern. Vielmehr empfängt der Aasimar Visionen, Prophezeiungen und Empfindungen.</p>
+        <p class="indent">Das Engelswesen ist beileibe nicht allwissend. Seine Weisungen basieren auf seinem Verständnis dessen, was gut und rechtschaffen ist. Zudem könnte es Einsichten in besonders mächtige böse Mächte haben, die im Kampf gegen diese hilfreich sind.</p>
+        <p class="indent">Wenn du einen Aasimar-Charakter ausarbeitest, denke auch über das Naturell deines himmlischen Ratgebers nach. Die folgenden Tabellen helfen dir, den engelsgleichen Begleiter deines Charakters näher zu beschreiben.</p>
+        <h4>GESPALTENE SEELEN</h4>
+        <p>Trotz ihrer himmlischen Abstammung sind Aasimar sterblich und besitzen einen freien Willen. Die meisten ihrer Art folgen dem ihnen vorbestimmten Pfad, aber einige beginnen ihre Fähigkeiten als Fluch zu sehen. Diese verbitterten Aasimar sind meist zufrieden damit. sich von der Welt abzuwenden, aber einige werden Diener des Bösen. Aus ihrer Sicht war der jahrelange Kontakt mit den himmlischen Mächten nichts anderes als Gehirnwäsche.</p>
+        <p class="indent">Böse Aasimar sind tödliche Feinde. Die göttliche Kraft, über die sie einst geboten, wird korrumpiert in eine grauenvolle, verzehrende Magie. Und ihre engelsgleichen Ratgeber verlassen sie.</p>
+        <p class="indent">Selbst Aasimar, die sich voll dem Guten verschrieben haben, fühlen sich manchmal zwischen zwei Welten hin- und hergerissen. Die Engel, die sie leiten, sehen die Dinge von einem distanzierten Standpunkt aus. Ein Aasimar, der seine Queste unterbrechen will, um einer Stadt beim Überwinden einer Dürre zu helfen, könnte von seinem himmlischen Ratgeber die Anweisung erhalten, seine Mission weiter voranzutreiben. Für einen Engel ist die Rettung einiger Bauern nichts im Vergleich dazu, einen Kult des Orcus zu bezwingen. Der Ratgeber eines Aasimar ist weise, aber nicht unfehlbar.</p>
+        <h4>MERKMALE DER AASIMAR</h4>
+        <p>Dein Aasimarcharakter besitzt die folgenden Volksmerkmale.<br />
+          <span class="feature">Attributswerterhöhung:</span>Dein Charismawert wird um 2 Punkte erhöht.<br />
+          <span class="feature">Alter:</span>Aasimar sind so schnell ausgewachsen wie Menschen. können aber bis zu 160 Jahre alt werden.<br />
+          <span class="feature">Gesinnung:</span>Da himmlische Macht sie durchdringt, sind die meisten Aasimar gut. Verbitterte und ausgestoßene Aasimar sind meist neutral oder böse.<br />
+          <span class="feature">Größe:</span>Aasimar entsprechen in Größe und Gewicht Menschen. Deine Größenkategorie ist mittelgroß.<br />
+          <span class="feature">Bewegungsrate:</span>Deine Grundbewegungsrate beträgt 9 m.<br />
+          <span class="feature">Dunkelsicht:</span>Du bist mit einer strahlenden Seele gesegnet, und deine Sicht kann mühelos die Finsternis durchdringen. Behandle im Umkreis von 18 m dämmriges Licht wie helles Licht und Dunkelheit wie dämmriges Licht. Allerdings kannst du im Dunklen keine Farben erkennen, nur Graustufen.<br />
+          <span class="feature">Himmlische Resistenz:</span>Du besitzt eine Resistenz gegen nekrotischen Schaden und gleißenden Schaden.<br />
+          <span class="feature">Heilende Hände:</span>Als Aktion kannst du eine Kreatur berühren und sie Trefferpunkte gleich deiner Stufe zurückerlangen lassen. Wenn du dieses Merkmal verwendest. kannst du es erst wieder nutzen, nachdem du eine lange Rast abgeschlossen hast.<br />
+          <span class="feature">Lichtbringer:</span>Du kennst den Zaubertrick <i>Licht</i>. Das Attribut, mit dem du diesen Zauber wirkst, ist Charisma.<br />
+          <span class="feature">Sprachen:</span>Du kannst die Gemeinsprache und Celestisch sprechen, lesen und schreiben.<br />
+          <span class="feature">Volksunterarten:</span>Es gibt drei Volksunterarten von Aasimar: Beschützer-, Geißel- und gefallene Aasimar. Wähle eine davon für deinen Charakter aus.<br />
+        </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="names" type="male">Aseir, Bardeid, Haseid, Khemed, Mehmen, Sudeiman, Zasheir</set>
+      <set name="names" type="female">Atala, Ceidil, Hama, Jasmal, Meilil, Seipora, Yasheira, Zasheida</set>
+      <set name="names" type="surname">Basha, Dumein, Jassan, Khalid, Mostana, Pashar, Rein</set>
+      <set name="names-format">{{name}} {{surname}}</set>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="charisma" value="2" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_CELESTIAL" />
+      <grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_CELESTIAL_RESISTANCE" />
+      <grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_HEALING_HANDS" />
+      <grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_LIGHT_BEARER" />
+      <grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_AASIMAR_SUBRACE" />
+    </rules>
+  </element>
+  <element name="Himmlische Resistenz" type="Racial Trait" source="Volos Almanach der Monster" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_CELESTIAL_RESISTANCE">
+    <description>
+      <p>Du besitzt eine Resistenz gegen nekrotischen Schaden und gleißenden Schaden.</p>
+    </description>
+    <sheet>
+      <description>Du besitzt eine Resistenz gegen nekrotischen Schaden und gleißenden Schaden.</description>
+    </sheet>
+    <rules>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+	</rules>
+  </element>
+  <element name="Heilende Hände" type="Racial Trait" source="Volos Almanach der Monster" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_HEALING_HANDS">
+    <description>
+      <p>Als Aktion kannst du eine Kreatur berühren und sie Trefferpunkte gleich deiner Stufe zurückerlangen lassen. Wenn du dieses Merkmal verwendest. kannst du es erst wieder nutzen, nachdem du eine lange Rast abgeschlossen hast.</p>
+    </description>
+    <sheet action="Aktion" usage="1/Lange Rast">
+      <description>Du kannst eine Kreatur berühren und sie {{trait:healing-hands}} Trefferpunkte zurückerlangen lassen.</description>
+    </sheet>
+    <rules>
+      <stat name="trait:healing-hands" value="level" />
+    </rules>
+  </element>
+  <element name="Lichtbringer" type="Racial Trait" source="Volos Almanach der Monster" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_LIGHT_BEARER">
+    <description>
+      <p>Du kennst den Zaubertrick <i>Licht</i>. Das Attribut, mit dem du diesen Zauber wirkst, ist Charisma.</p>
+    </description>
+    <sheet>
+      <description>Du kennst den Zaubertrick <i>Licht</i>.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_LIGHT" />
+    </rules>
+  </element>
+  <element name="Aasimar Volksunterart" type="Racial Trait" source="Volos Almanach der Monster" id="ID_WOTC_VGTM_RACIAL_TRAIT_AASIMAR_AASIMAR_SUBRACE">
+    <description>
+      <p>Es gibt drei Volksunterarten von Aasimar: Beschützer-, Geißel- und gefallene Aasimar. Wähle eine davon für deinen Charakter aus.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Sub Race" name="Aasimar Volksunterart" supports="Aasimar" />
+    </rules>
+  </element>
+
+  <element name="Beschützer-Aasimar" type="Sub Race" source="Volos Almanach der Monster" id="ID_WOTC_VGTM_SUB_RACE_PROTECTOR_AASIMAR">
+    <supports>Aasimar</supports>
+    <description>
+      <p>Beschützer-Aasimar sind von den Mächten des Guten beauftragt, die Schwachen zu verteidigen, gegen das Böse vorzugehen, wo immer es sich auch erhebt, und wachsam der Dunkelheit zu trotzen. Von seiner Kindheit an erhält ein Beschützer-Aasimar Ratschläge und Anweisungen. die ihn dazu drängen, sich gegen das Böse zu stellen.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Weisheitswert wird um 1 Punkt erhöht.<br />
+        <span class="feature">Gleißende Seele:</span>Ab der 3. Stufe kannst du deine Aktion verwenden, um die göttliche Energie in dir zu entfesseln. Sie lässt deine Augen leuchten und körperlose Schwingen aus deinem Rücken wachsen. Deine Verwandlung hält 1 Minute an oder bis du sie mit einer Bonusaktion beendest. In dieser Zeit hast du eine Flugbewegungsrate von 9 m. Außerdem kannst du einmal in jedem deiner Züge bei einem Ziel, dem du Schaden mit einem Angriff oder Zauber zufügst, zusätzlich gleißenden Schaden entsprechend deiner Stufe verursachen. Hast du dieses Merkmal verwendet, kannst du es erst wieder nutzen, nachdem du eine lange Rast abgeschlossen hast.<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <stat name="wisdom" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_AASIMAR_RADIANT_SOUL" />
+    </rules>
+  </element>
+  <element name="Gleißende Seele" type="Racial Trait" source="Volos Almanach der Monster" id="ID_RACIAL_TRAIT_AASIMAR_RADIANT_SOUL">
+    <description>
+      <p>Ab der 3. Stufe kannst du deine Aktion verwenden, um die göttliche Energie in dir zu entfesseln. Sie lässt deine Augen leuchten und körperlose Schwingen aus deinem Rücken wachsen.</p>
+      <p>Deine Verwandlung hält 1 Minute an oder bis du sie mit einer Bonusaktion beendest. In dieser Zeit hast du eine Flugbewegungsrate von 9 m. Außerdem kannst du einmal in jedem deiner Züge bei einem Ziel, dem du Schaden mit einem Angriff oder Zauber zufügst, zusätzlich gleißenden Schaden entsprechend deiner Stufe verursachen.</p>
+      <p>Hast du dieses Merkmal verwendet, kannst du es erst wieder nutzen, nachdem du eine lange Rast abgeschlossen hast.</p>
+    </description>
+    <sheet action="Aktion" usage="1/Lang Rast">
+      <description>Deine Verwandlung hält 1 Minute an oder bis du sie mit einer Bonusaktion beendest. In dieser Zeit hast du eine Flugbewegungsrate von 9 m. Außerdem kannst du einmal in jedem deiner Züge bei einem Ziel, dem du Schaden mit einem Angriff oder Zauber zufügst, zusätzlich {{level}} gleißenden Schaden verursachen.</description>
+    </sheet>
+  </element>
+
+  <element name="Geissel-Aasimar" type="Sub Race" source="Volos Almanach der Monster" id="ID_WOTC_VGTM_SUB_RACE_Scourge_AASIMAR">
+    <supports>Aasimar</supports>
+    <description>
+      <p>Geißel-Aasimar sind mit brennender göttlicher Energie erfüllt. die in ihrem Innern lodert. Sie treibt den mächtigen Wunsch an, alles Böse zu zerstören - ein Wunsch, der im besten Fall unerschütterlich ist, im schlechtesten alles verzehrt. Viele Geißel-Aasimar tragen Masken, um die Welt auszusperren und sich besser darauf konzentrieren zu können, dass ihre Macht nicht ausbricht. Diese legen sie nur im Kampf ab.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Konstitutionswert wird um 1 Punkt erhöht.<br />
+        <span class="feature">Gleißende Verzehrung:</span>Ab der 3. Stufe kannst du deine Aktion verwenden, um die göttliche Energie in dir zu entfesseln, was gleißendes Licht aus deinem Innern strahlen lässt. Es strömt aus deinen Augen und deinem Mund und droht, selbst dich zu verzehren. Deine Verwandlung hält 1 Minute an oder bis du sie mit einer Bonusaktion beendest. In dieser Zeit strahlst du helles Licht in einem Radius von 3 m aus und dämmriges Licht in einem Radius von weiteren 3 m. Am Ende eines jeden deiner Züge erleiden du und jede Kreatur innerhalb von 3 m gleißenden Schaden gleich deiner halben Stufe (aufgerundet). Außerdem kannst du einmal in jedem deiner Züge bei einem Ziel, dem du Schaden mit einem Angriff oder Zauber zufügst, zusätzlich gleißenden Schaden entsprechend deiner Stufe verursachen. Hast du dieses Merkmal verwendet, kannst du es erst wieder nutzen, nachdem du eine lange Rast abgeschlossen hast.<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <stat name="constitution" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_AASIMAR_RADIANT_CONSUMPTION" />
+    </rules>
+  </element>
+  <element name="Gleißende Verzehrung" type="Racial Trait" source="Volos Almanach der Monster" id="ID_RACIAL_TRAIT_AASIMAR_RADIANT_CONSUMPTION">
+    <description>
+      <p>Ab der 3. Stufe kannst du deine Aktion verwenden, um die göttliche Energie in dir zu entfesseln, was gleißendes Licht aus deinem Innern strahlen lässt. Es strömt aus deinen Augen und deinem Mund und droht, selbst dich zu verzehren.</p>
+      <p>Deine Verwandlung hält 1 Minute an oder bis du sie mit einer Bonusaktion beendest. In dieser Zeit strahlst du helles Licht in einem Radius von 3 m aus und dämmriges Licht in einem Radius von weiteren 3 m. Am Ende eines jeden deiner Züge erleiden du und jede Kreatur innerhalb von 3 m gleißenden Schaden gleich deiner halben Stufe (aufgerundet). Außerdem kannst du einmal in jedem deiner Züge bei einem Ziel, dem du Schaden mit einem Angriff oder Zauber zufügst, zusätzlich gleißenden Schaden entsprechend deiner Stufe verursachen.</p>
+      <p>OHast du dieses Merkmal verwendet, kannst du es erst wieder nutzen, nachdem du eine lange Rast abgeschlossen hast.</p>
+    </description>
+    <sheet action="Aktion" usage="1/Lang Rast">
+      <description>Deine Verwandlung hält 1 Minute an oder bis du sie mit einer Bonusaktion beendest. In dieser Zeit strahlst du helles Licht in einem Radius von 3 m aus und dämmriges Licht in einem Radius von weiteren 3 m. Am Ende eines jeden deiner Züge erleiden du und jede Kreatur innerhalb von 3 m {{level:half:up}} gleißenden Schaden. Außerdem kannst du einmal in jedem deiner Züge bei einem Ziel, dem du Schaden mit einem Angriff oder Zauber zufügst, zusätzlich {{level}} gleißenden Schaden verursachen.
+			</description>
+    </sheet>
+  </element>
+
+  <element name="Gefallene Aasimar" type="Sub Race" source="Volos Almanach der Monster" id="ID_WOTC_VGTM_SUB_RACE_FALLEN_AASIMAR">
+    <supports>Aasimar</supports>
+    <description>
+      <p>Ein Aasimar, der in seiner Jugend von dunklen Mächten berührt wurde oder sich als junger Erwachsener dem Bösen zuwendet, kann ein Gefallener werden - ein Aasimar, dessen inneres Licht von Schatten verschlungen wurde.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Stärkewert wird um 1 Punkt erhöht.<br />
+        <span class="feature">Nekrotischer Mantel:</span>Ab der 3. Stufe kannst du deine Aktion verwenden, um die göttliche Energie in dir zu entfesseln. Sie lässt deine Augen zu schwarzen Tümpeln werden und skelettierte, flugunfähige Schwingen aus deinem Rücken wachsen. In dem Augenblick, in dem du dich verwandelst, müssen andere Kreaturen innerhalb von 3 m, die dich sehen können, einen Charismarettungswurf ablegen (SG 8 + dein Übungsbonus + dein Charismamodifikator). Bei einem Misserfolg ist das Ziel bis zum Ende deines nächsten Zugs von dir verängstigt. Deine Verwandlung hält 1 Minute an oder bis du sie mit einer Bonusaktion beendest. In dieser Zeit kannst du einmal in jedem deiner Züge bei einem Ziel, dem du Schaden mit einem Angriff oder Zauber zufügst, zusätzlich nekrotischen Schaden entsprechend deiner Stufe verursachen. Hast du dieses Merkmal verwendet, kannst du es erst wieder nutzen, nachdem du eine lange Rast abgeschlossen hast.<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <stat name="strength" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_AASIMAR_NECROTIC_SHROUD" />
+    </rules>
+  </element>
+  <element name="Nekrotischer Mantel" type="Racial Trait" source="Volos Almanach der Monster" id="ID_RACIAL_TRAIT_AASIMAR_NECROTIC_SHROUD">
+    <description>
+      <p>Ab der 3. Stufe kannst du deine Aktion verwenden, um die göttliche Energie in dir zu entfesseln. Sie lässt deine Augen zu schwarzen Tümpeln werden und skelettierte, flugunfähige Schwingen aus deinem Rücken wachsen. In dem Augenblick, in dem du dich verwandelst, müssen andere Kreaturen innerhalb von 3 m, die dich sehen können, einen Charismarettungswurf ablegen (SG 8 + dein Übungsbonus + dein Charismamodifikator). Bei einem Misserfolg ist das Ziel bis zum Ende deines nächsten Zugs von dir verängstigt.</p>
+      <p class="indent">Deine Verwandlung hält 1 Minute an oder bis du sie mit einer Bonusaktion beendest. In dieser Zeit kannst du einmal in jedem deiner Züge bei einem Ziel, dem du Schaden mit einem Angriff oder Zauber zufügst, zusätzlich nekrotischen Schaden entsprechend deiner Stufe verursachen.</p>
+      <p class="indent">Hast du dieses Merkmal verwendet, kannst du es erst wieder nutzen, nachdem du eine lange Rast abgeschlossen hast.</p>
+    </description>
+    <sheet action="Aktion" usage="1/Lang Rast">
+      <description>In dem Augenblick, in dem du dich verwandelst, müssen andere Kreaturen innerhalb von 3 m, die dich sehen können, einen Charismarettungswurf ablegen (SG {{necrotic shroud:dc}}). Bei einem Misserfolg ist das Ziel bis zum Ende deines nächsten Zugs von dir verängstigt. Deine Verwandlung hält 1 Minute an oder bis du sie mit einer Bonusaktion beendest. In dieser Zeit kannst du einmal in jedem deiner Züge bei einem Ziel, dem du Schaden mit einem Angriff oder Zauber zufügst, zusätzlich {{level}} nekrotischen Schaden verursachen.
+			</description>
+    </sheet>
+    <rules>
+		<stat name="necrotic shroud:dc" value="8" />
+		<stat name="necrotic shroud:dc" value="proficiency" />
+		<stat name="necrotic shroud:dc" value="charisma:modifier" />
+	</rules>
+  </element>
+
+</elements>

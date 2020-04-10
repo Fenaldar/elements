@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Schurke</name>
+		<description>Die Klasse Schurke aus dem Spielerhandbuch.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.2.9">
+			<file name="klasse-schurke.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-schurke.xml" />
+		</update>
+	</info>
+
+  <element name="Schurke" type="Class" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_ROGUE">
+    <description>
+      <p>Ihren Gefährten signalisierend zu warten, kriecht eine Halblingfrau in eine Halle des Gewölbes. Sie drückt ihr Ohr an die Tür und holt dann einen Satz Werkzeuge hervor, mit dem sie das Schloss innerhalb eines kurzen Augenblicks knackt. Dann verschwindet sie in den Schatten, um dem Kämpfer ihrer Gruppe Platz zu machen, der die Tür mit einem Tritt aufstößt.</p>
+      <p class="indent">Ein Mensch lauert in den Schatten einer Seitenstraße, während seine Komplizin sich auf ihren Teil des Hinterhalts vorbereitet. Sobald ihr Ziel, ein gemeingefährlicher Sklavenhändler, an der Gasse vorbeigeht, schreit die Komplizin auf. Der Sklavenhändler kommt näher, um den Schrei zu untersuchen, und die Klinge des Assassinen durchtrennt seine Kehle, ehe das Opfer ein Geräusch von sich geben kann.</p>
+      <p class="indent">Ein Kichern unterdrückend, wedelt eine Gnomin in ihrer Zelle mit den Fingern und lupft auf magische Weise den Schlüsselbund vom Gürtel der Wache. Einen Moment später sind die Schlüssel in ihrer Hand, die Zellentür geöffnet, und sie sowie ihre Gefährten frei und auf der Flucht.</p>
+			<p class="indent">Schurken verlassen sich auf Erfahrung, Heimlichkeit und das Ausnutzen gegnerischer Schwachstellen, um in allen Situation die Oberhand zu gewinnen. Sie besitzen ein Talent dafür, für jedes Problem eine Lösung zu finden, und erweisen sich als vielseitig und einfallsreich, was den Grundstein jeder erfolgreichen Abenteurergruppe bildet.</p>
+      <h4>KÖNNEN UND PRÄZISION</h4>
+      <p>Schurken widmen sich ebenso dem Meistern ihrer Fertigkeiten wie dem Perfektionieren ihrer Kampfkünste, was ihnen eine breitgefächerte Expertise verschafft, wie sie nur wenige andere Abenteurer besitzen. Viele Schurken konzentrieren sich auf Heimlichkeit und Täuschung, während andere jene Fähigkeiten verfeinern, die sie zum Überleben in gefährlichen alten Ruinen und Gewölben benötigen, wie etwa das Finden und Entschärfen von Fallen oder das Knacken von Schlössern.</p>
+      <p class="indent">Im Kampf geben Schurken der Gerissenheit den Vortritt vor brutaler Stärke. Sie setzen lieber einen präzisen Schlag an, der eine Schwachstelle des Gegners trifft, als diesen mit einer Vielzahl heftiger Angriffe zu überwinden. Schurken besitzen ein beinahe übernatürliches Talent dafür, Gefahren auszuweichen, und einige lernen sogar magische Tricks, um ihre Fähigkeiten zu verbessern.</p>
+      <h4>EIN ZWIELICHTIGES LEBEN</h4>
+      <p>In jeder Stadt und jedem Dorf gibt es Schurken. Die meisten werden den schlimmsten Stereotypen dieser Klasse gerecht und leben als Räuber, Assassinen, Beutelschneider und Trickbetrüger. Häufig sind diese Halunken in Diebesgilden oder Verbrecherfamilien organisiert. Viele Schurken agieren unabhängig, werben jedoch manchmal Hilfskräfte an, die ihnen bei Einbrüchen und Betrügereien zur Hand zu gehen. Einige wenige verdienen ihr Geld auf ehrliche Weise als Schlosser, Ermittler oder Kammerjäger, was ein gefährlicher Beruf sein kann in einer Welt, in der Schreckens- und Werratten in den Abwasserkanälen lauern.</p>
+      <p class="indent">Als Abenteurer stehen Schurken auf beiden Seiten des Gesetzes. Manche sind abgebrühte Kriminelle, die sich entschieden haben, ihr Glück in Schatzhorten zu suchen, während andere ein Leben als Abenteurer wählen, um dem Gesetz zu entfliehen. Einige haben ihre Fähigkeiten gezielt gelernt und perfektioniert, um auf der Suche nach Schätzen in uralte Ruinen und versteckte Grabkammern einzudringen.</p>
+      <h4>EINEN SCHURKEN ERSCHAFFEN</h4>
+      <p>Denke beim Erschaffen deines Schurken daran, in welcher Beziehung er zum Gesetz steht. Hat dein Charakter eine kriminelle Vergangenheit oder ist noch in verbrecherische Machenschaften verwickelt? Ist er auf der Flucht vor dem Gesetz oder dem verärgerten Meister einer Diebesgilde? Hat er seine Gilde auf der Suche nach größerem Risiko und größeren Belohnungen verlassen? Treibt ihn die Gier dazu, auf Abenteuer auszuziehen, oder ein anderes Verlangen oder Ideal?</p>
+      <p>Was war der Auslöser, der deinen Charakter dazu gebracht hat, sein vorheriges Leben aufzugeben? Lief ein großer Betrug oder ein Einbruch schrecklich schief, sodass dein Schurke erneut über seine Karriere nachdachte? Vielleicht hatte er Glück und ein erfolgreicher Raub verschaffte ihm die notwendigen Mittel, um der Verkommenheit seines alten Lebens zu entfliehen. Hat die Wanderlust ihn schließlich von zu Hause weggelockt? Oder fand er sich plötzlich von seiner Familie oder seinem Mentor abgeschnitten und musste neue Unterstützer suchen? Vielleicht fand er auch einen neuen Freund, ein Mitglied seiner jetzigen Abenteurergruppe, der ihm neue Möglichkeiten aufzeigte, Geld zu verdienen und seine speziellen Talente einzusetzen.</p>
+      <h5>SCHNELLE ERSCHAFFUNG</h5>
+      <p>Du kannst dir einen Schurken schnell erschaffen. indem du diesen Vorschlägen folgst:</p>
+			<p class="indent">Setze deinen höchsten Attributswert auf Geschicklichkeit, deinen zweithöchsten entweder auf Intelligenz oder Charisma. Intelligenz, wenn du beim Anstellen von Nachforschungen glänzen möchtest oder planst, den Archetyp des Arkanen Betrügers anzunehmen. Charisma, wenn du deinen Schwerpunkt auf Täuschung und soziale Interaktion legen willst. Wähle zusätzlich den Hintergrund Scharlatan.</p>
+      <h3>KLASSENMERKMALE</h3>
+      <p>Als Schurke hast du die folgenden Klassenmerkmale:</p>
+      <h5>TREFFERPUNKTE</h5>
+			<ul class="unstyled">
+				<li><strong>Trefferwürfel:</strong> 1W8 pro Stufe als Schurke</li>
+				<li><strong>Trefferpunkte auf Stufe 1:</strong> 8 + dein Konstitutionsmodifikator</li>
+				<li><strong>Trefferpunkte auf höheren Stufen::</strong> 1W8 (oder 5) + dein Konstitutionsmodifikator pro Stufe als Schurke über die 1. Stufe hinaus</li>
+			</ul>
+			<h5>ÜBUNG</h5>
+			<ul class="unstyled mb">
+				<li><strong>Rüstungen:</strong> leichte Rüstungen</li>
+				<li><strong>Waffen:</strong> einfache Waffen, Handarmbrüste, Langschwerter, Rapiere und Kurzschwerter</li>
+				<li><strong>Werkzeuge:</strong> Diebeswerkzeug</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Rettungswürfe:</strong> Geschicklichkeit und Intelligenz</li>
+				<li><strong>Fertigkeiten:</strong> vier nach Wahl: Akrobatik, Athletik, Auftreten, Motiv erkennen, Einschüchtern, Fingerfertigkeit, Heimlichkeit, Überzeugen, Nachforschungen, Täuschen oder Wahrnehmung</li>
+			</ul>
+      <h5>AUSRÜSTUNG</h5>
+      <p>Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:</p>
+      <ul>
+        <li><i>(a)</i> ein Rapier oder <i>(b)</i> ein Kurzschwert</li>
+        <li><i>(a)</i> ein Kurzbogen mit 20 Pfeilen oder <i>(b)</i> ein Kurzschwert</li>
+        <li><i>(a)</i> eine Einbrecherausrüstung, <i>(b)</i> eine Gewölbeforscherausrüstung oder <i>(c)</i> eine Entdeckerausrüstung</li>
+        <li>eine Lederrüstung, zwei Dolche und Diebeswerkzeug</li>
+      </ul>
+			<h5 class="caption">DER SCHURKE</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Stufe</td><td class="col-10">Hinterhältiger Angriff</td><td class="col-60 left">Merkmale</td></tr>
+				</thead>
+				<tr><td> 1</td><td>1W6</td><td class="left">Expertise, Hinterhältiger Angriff, Diebessprache</td></tr>
+				<tr><td> 2</td><td>1W6</td><td class="left">Raffinierte Aktion</td></tr>
+				<tr><td> 3</td><td>2W6</td><td class="left">Schurkenarchetyp</td></tr>
+				<tr><td> 4</td><td>2W6</td><td class="left">Attributswerterhöhung</td></tr>
+				<tr><td> 5</td><td>3W6</td><td class="left">Ungaubliches Ausweichen</td></tr>
+				<tr><td> 6</td><td>3W6</td><td class="left">Expertise</td></tr>
+				<tr><td> 7</td><td>4W6</td><td class="left">Entrinnen</td></tr>
+				<tr><td> 8</td><td>4W6</td><td class="left">Attributswerterhöhung</td></tr>
+				<tr><td> 9</td><td>SW6</td><td class="left">Merkmal: Schurkenarchetyp</td></tr>
+				<tr><td>10</td><td>SW6</td><td class="left">Attributswerterhöhung</td></tr>
+				<tr><td>11</td><td>6W6</td><td class="left">Verlässliches Talent</td></tr>
+				<tr><td>12</td><td>6W6</td><td class="left">Attributswerterhöhung</td></tr>
+				<tr><td>13</td><td>7W6</td><td class="left">Merkmal: Schurkenarchetyp</td></tr>
+				<tr><td>14</td><td>7W6</td><td class="left">Blindgespür</td></tr>
+				<tr><td>15</td><td>8W6</td><td class="left">Entschlüpfender Geist</td></tr>
+				<tr><td>16</td><td>8W6</td><td class="left">Attributswerterhöhung</td></tr>
+				<tr><td>17</td><td>9W6</td><td class="left">Merkmal: Schurkenarchetyp</td></tr>
+				<tr><td>18</td><td>9W6</td><td class="left">Schwer zu fassen</td></tr>
+				<tr><td>19</td><td>10W6</td><td class="left">Attributswerterhöhung</td></tr>
+				<tr><td>20</td><td>10W6</td><td class="left">Glückstreffer</td></tr>
+			</table>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EXPERTISE"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SNEAKATTACK"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_THIEVES_CANT"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_CUNNINGACTION"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ROGUISHARCHETYPE"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ABILITYSCOREIMPROVEMENT_ROGUE"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_UNCANNY_DODGE"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EVASION"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_RELIABLETALENT"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_BLINDSENSE"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SLIPPERYMIND"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ELUSIVE"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_STROKEOFLUCK"/>
+    </description>
+    <sheet display="false">
+      <description>Ein Gauner, der Heimlichkeit und Betrügereien nutzt, um Hindernisse und Feinde zu überwinden.</description>
+    </sheet>
+    <setters>
+      <set name="short">Ein Gauner, der Heimlichkeit und Betrügereien nutzt, um Hindernisse und Feinde zu überwinden.</set>
+      <set name="hd">d8</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
+      <select type="Proficiency" name="Geübte Fertigkeit (Schurke)" supports="Skill,Rogue" number="4" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EXPERTISE" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SNEAKATTACK" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_THIEVES_CANT" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_CUNNINGACTION" level="2"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ROGUISHARCHETYPE" level="3"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ABILITYSCOREIMPROVEMENT_ROGUE" level="4"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_UNCANNY_DODGE" level="5"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EVASION" level="7"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_RELIABLETALENT" level="11"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_BLINDSENSE" level="14"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SLIPPERYMIND" level="15"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ELUSIVE" level="18"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_STROKEOFLUCK" level="20"/>
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_ROGUE">
+      <prerequisite>Dexterity 13</prerequisite>
+      <requirements>[dex:13]</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Light armor, one skill from the class’s skill list, thieves’ tools</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+        <select type="Proficiency" name="Geübte Fertigkeit (Schurke)" supports="Skill,Rogue" number="1" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Expertise" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EXPERTISE">
+    <description>
+      <p>Auf der 1. Stufe wählst du zwei deiner Fertigkeiten aus, in denen du geübt bist, oder eine Fertigkeit, in der du geübt bist, sowie den Umgang mit Diebeswerkzeug. Dein Übungsbonus wird bei allen Attributswürfen verdoppelt, bei denen diese Fertigkeiten oder Diebeswerkzeug zur Anwendung kommen.</p>
+      <p>Auf der 6. Stufe kannst du dir zwei weitere geübte Fertigkeiten oder eine geübte Fertigkeit und den Umgang mit Diebeswerkzeug aussuchen, auf die du den gleichen Vorzug erhältst.</p>
+    </description>
+    <sheet display="false">
+      <description>Dein Übungsbonus wird bei allen Attributswürfen verdoppelt, bei denen die gewählten Fertigkeiten zur Anwendung kommen.</description>
+    </sheet>
+    <rules>
+      <select type="Class Feature" name="Expertise (Schurke)" level="1" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
+      <select type="Class Feature" name="Expertise (Schurke)" level="6" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
+    </rules>
+  </element>
+  <element name="Hinterhältiger Angriff" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SNEAKATTACK">
+    <description>
+      <p>Beginnend ab Stufe 1 weißt du, wie man die Ablenkung eines Feindes ausnutzt, um gezielt zuzuschlagen. Einmal pro Zug kannst du einer Kreatur, die du triffst, zusätzlich 1W6 Schaden zufügen, falls du bei dem Angriffswurf im Vorteil bist. Der Angriff muss mit einer Fernkampfwaffe oder einer Waffe mit der Eigenschaft Finesse ausgeführt werden.</p>
+      <p class="indent">Du musst bei dem Angriffswurf nicht im Vorteil sein, wenn sich ein anderer Gegner des Ziels innerhalb von 1,50 m um dieses befindet, dieser Gegner nicht kampfunfähig ist und du bei dem Angriffswurf nicht im Nachteil bist.</p>
+      <p class="indent">Die Höhe des zusätzlichen Schadens steigt auf bestimmten Stufen in dieser Klasse, so wie es in der Aufstiegstabelle des Schurken angegeben ist.</p>
+    </description>
+		<sheet usage="1/Zug">
+      <description>Einmal pro Zug kannst du einer Kreatur, die du triffst, zusätzlich {{sneak-attack:count}}W{{sneak-attack:die}} Schaden zufügen, falls du bei dem Angriffswurf im Vorteil bist oder wenn sich ein anderer Gegner des Ziels innerhalb von 1,50 m um dieses befindet, dieser Gegner nicht kampfunfähig ist und du bei dem Angriffswurf nicht im Nachteil bist.</description>
+    </sheet>
+    <rules>
+      <stat name="sneak-attack:count" value="1" level="1" />
+      <stat name="sneak-attack:count" value="1" level="3" />
+      <stat name="sneak-attack:count" value="1" level="5" />
+      <stat name="sneak-attack:count" value="1" level="7" />
+      <stat name="sneak-attack:count" value="1" level="9" />
+      <stat name="sneak-attack:count" value="1" level="11" />
+      <stat name="sneak-attack:count" value="1" level="13" />
+      <stat name="sneak-attack:count" value="1" level="15" />
+      <stat name="sneak-attack:count" value="1" level="17" />
+      <stat name="sneak-attack:count" value="1" level="19" />
+      <stat name="sneak-attack:die" value="6" bonus="die" />
+    </rules>
+  </element>
+  <element name="Diebessprache" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_THIEVES_CANT">
+    <description>
+      <p>Während deiner Ausbildung zum Schurken hast du die Diebessprache erlernt. Diese geheime Mischung aus Dialekt, Jargon und Codes erlaubt es dir, in einer scheinbar gewöhnlichen Unterhaltung Botschaften zu verstecken. Nur eine andere Kreatur, die ebenfalls die Diebessprache beherrscht, kann diese Botschaften verstehen. Das Mitteilen einer solchen Nachricht dauert vier Mal so lange, als wenn man deren Inhalt direkt formulieren würde.</p>
+      <p class="indent">Außerdem ist dir ein Satz geheimer Zeichen und Symbole bekannt, mit denen du einfache, kurze Informationen übermitteln kannst, etwa ob ein Gebiet sicher ist oder ob es zum Territorium einer Diebesgilde gehört. Auch ob man in der Nähe Beute machen kann, ob die Bevölkerung hier ein leichtes Ziele abgibt oder ob es einen Unterschlupf für Diebe auf der Flucht gibt.</p>
+    </description>
+    <sheet>
+      <description>Während deiner Ausbildung zum Schurken hast du die Diebessprache erlernt. Diese geheime Mischung aus Dialekt, Jargon und Codes erlaubt es dir, in einer scheinbar gewöhnlichen Unterhaltung Botschaften zu verstecken.
+			Außerdem ist dir ein Satz geheimer Zeichen und Symbole bekannt, mit denen du einfache, kurze Informationen übermitteln kannst, etwa ob ein Gebiet sicher ist oder ob es zum Territorium einer Diebesgilde gehört. Auch ob man in der Nähe Beute machen kann, ob die Bevölkerung hier ein leichtes Ziele abgibt oder ob es einen Unterschlupf für Diebe auf der Flucht gibt.</description>
+    </sheet>
+    <rules>
+			<grant type="Language" id="ID_WOTC_PHB_LANGUAGE_THIEVES_CANT" />
+    </rules>
+  </element>
+  <element name="Raffinierte Aktion" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_CUNNINGACTION">
+    <description>
+      <p>Ab der 2. Stufe erlauben dir deine geistige und körperliche Agilität, schnell Entscheidungen zu treffen und dich rasch zubewegen und zu handeln. Du kannst in jedem deiner Züge eine Bonusaktion verwenden, um damit die Spurten-, Rückzugs- oder Versteckenaktion auszuführen.</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Du kannst in jedem deiner Züge die Spurten-, Rückzugs- oder Versteckenaktion auszuführen.</description>
+    </sheet>
+  </element>
+  <element name="Schurkenarchetyp" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ROGUISHARCHETYPE">
+    <description>
+      <p>Auf der 3. Stufe wählst du einen Archetyp, dem du in der Ausübung deiner Fähigkeiten nacheiferst und der deinen Weg als Schurke bestimmt. Entscheide dich für den Arkanen Betrüger, den Assassinen oder den Dieb. Alle Archetypen sind am Ende dieses Abschnitts ausführlich beschrieben.</p>
+			<p class="indent">Deine Wahl verleiht dir auf den Stufen 3, 9, 13 und 17 jeweils ein Merkmal.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Schurkenarchetyp" supports="Schurkenarchetyp" level="3"/>
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Schurke)" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ABILITYSCOREIMPROVEMENT_ROGUE">
+		<compendium display="false" />
+		<description>
+      <p>Beim Erreichen der 4. Stufe und dann wieder auf der 8., 10., 12., 16. und 19. Stufe kannst du einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Attributswerterhöhung (Schurke 4)" supports="Improvement Option,Schurke,4" level="4" />
+      <select type="Class Feature" name="Attributswerterhöhung (Schurke 8)" supports="Improvement Option,Schurke,8" level="8" />
+      <select type="Class Feature" name="Attributswerterhöhung (Schurke 10)" supports="Improvement Option,Schurke,10" level="10" />
+      <select type="Class Feature" name="Attributswerterhöhung (Schurke 12)" supports="Improvement Option,Schurke,12" level="12" />
+      <select type="Class Feature" name="Attributswerterhöhung (Schurke 16)" supports="Improvement Option,Schurke,16" level="16" />
+      <select type="Class Feature" name="Attributswerterhöhung (Schurke 19)" supports="Improvement Option,Schurke,19" level="19" />
+    </rules>
+  </element>
+  <element name="Ungaubliches Ausweichen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_UNCANNY_DODGE">
+    <description>
+      <p>Trifft dich ab Stufe 5 der Angriff einer Kreatur, die du sehen kannst, darfst du deine Reaktion aufwenden, um den Schaden des Angriffs zu halbieren.</p>
+    </description>
+    <sheet action="Reaktion">
+      <description>Trifft dich der Angriff einer Kreatur, die du sehen kannst, kannst du den Schaden des Angriffs zu halbieren.</description>
+    </sheet>
+  </element>
+  <element name="Entrinnen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EVASION">
+    <description>
+      <p>Ab der 7. Stufe kannst du dich dank deiner instinktiven Gewandheit dem Wirkungsbereich bestimmter Effekte entziehen, wie etwa dem Blitzodem eines blauen Drachen oder dem Zauber Feuerball. Bist du einem Effekt ausgesetzt, der einen Geschicklichkeitsrettungswurf erlaubt, um den Schaden zu halbieren, nimmst du bei einem erfolgreichen Rettungswurf gar keinen Schaden und bei einem Misserfolg lediglich die Hälfte des Schadens.</p>
+    </description>
+    <sheet>
+      <description>Bist du einem Effekt ausgesetzt, der einen Geschicklichkeitsrettungswurf erlaubt, um den Schaden zu halbieren, nimmst du bei einem erfolgreichen Rettungswurf gar keinen Schaden und bei einem Misserfolg lediglich die Hälfte des Schadens.</description>
+    </sheet>
+  </element>
+  <element name="Verlässliches Talent" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_RELIABLETALENT">
+    <description>
+      <p>Auf Stufe 11 beherrscht du deine geübten Fertigkeiten schon beinahe bis zur Perfektion. Immer wenn du einen Fertigkeitswurf ablegst, der dich deinen Übungsbonus verwenden lässt, kannst du bei einem Würfelergebnis von 9 oder niedriger die 10 verwenden.</p>
+    </description>
+    <sheet>
+      <description>Immer wenn du einen Fertigkeitswurf ablegst, der dich deinen Übungsbonus verwenden lässt, kannst du bei einem Würfelergebnis von 9 oder niedriger die 10 verwenden.</description>
+    </sheet>
+  </element>
+  <element name="Blindgespür" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_BLINDSENSE">
+    <description>
+      <p>Angefangen mit der 14. Stufe bist du fähig, mit deinen scharfen Sinnen den Aufenthaltsort einer versteckten oder unsichtbaren Kreatur, die du hören kannst, innerhalb von 3 m festzustellen.</p>
+    </description>
+    <sheet>
+      <description>Dist du fähig, mit deinen scharfen Sinnen den Aufenthaltsort einer versteckten oder unsichtbaren Kreatur, die du hören kannst, innerhalb von 3 m festzustellen.</description>
+    </sheet>
+  </element>
+  <element name="Entschlüpfender Geist" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SLIPPERYMIND">
+    <description>
+      <p>Auf der 15. Stufe hast du große mentale Stärke erreicht. Du bist jetzt geübt in Weisheitsrettungswürfen.</p>
+    </description>
+		<sheet display="false">
+      <description>Du hast große mentale Stärke erreicht. Du bist jetzt geübt in Weisheitsrettungswürfen.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+    </rules>
+  </element>
+  <element name="Schwer zu fassen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ELUSIVE">
+    <description>
+      <p>Beginnend mit der 18. Stufe hast du deine Fähigkeit auszuweichen so perfektioniert, dass Angreifer kaum die Oberhand über dich gewinnen. Kein Angriffswurf gegen dich ist im Vorteil, solange du nicht kampfunfähig bist.</p>
+    </description>
+    <sheet>
+      <description>Kein Angriffswurf gegen dich ist im Vorteil, solange du nicht kampfunfähig bist.</description>
+    </sheet>
+  </element>
+  <element name="Glückstreffer" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_STROKEOFLUCK">
+    <description>
+      <p>Ab Stufe 20 besitzt du das unglaubliche Talent, immer dann Erfolg zu haben, wenn es nötig ist. Verfehlt dein Angriff ein Ziel innerhalb deiner Reichweite, kannst du den misslungen Wurf in einen Treffer verwandeln. Alternativ kannst du auch einen fehlgeschlagenen Attributswurf so behandeln, als hättest du eine 20 gewürfelt.</p>
+      <p class="indent">Hast du diese Fähigkeit einmal eingesetzt, musst du eine kurze oder lange Rast beenden, bevor du sie erneut anwenden kannst.</p>
+    </description>
+    <sheet usage="Kurze Rast">
+      <description>Verfehlt dein Angriff ein Ziel innerhalb deiner Reichweite, kannst du den misslungen Wurf in einen Treffer verwandeln. Alternativ kannst du auch einen fehlgeschlagenen Attributswurf so behandeln, als hättest du eine 20 gewürfelt.</description>
+    </sheet>
+  </element>
+
+  <element name="Dieb" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_THIEF">
+    <supports>Schurkenarchetyp</supports>
+    <description>
+      <p>Du verfeinerst deine Fertigkeiten in den Diebeskünsten. Einbrecher, Banditen, Beutelschneider und andere Kriminelle folgen in der Regel diesem Archetyp, doch auch Schurken, die sich als professionelle Schatzsucher, Entdecker, Detektive und Grabräuber betrachten, schlagen diese Richtung ein. Du verbesserst nicht nur deine Beweglichkeit und Heimlichkeit, sondern lernst auch hilfreiche Fertigkeiten, um uralte Ruinen zu erforschen, unbekannte Sprachen zu entziffern und magische Gegenstände zu benutzen, deren Einsatz dir normalerweise verwehrt bleiben würde.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_FASTHANDS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_SECONDSTORYWORK" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_SUPREMESNEAK" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_USEMAGICDEVICE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_THIEFS_REFLEXES" />
+    </description>
+		<sheet display="false">
+      <description>Du verfeinerst deine Fertigkeiten in den Diebeskünsten.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_FASTHANDS" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_SECONDSTORYWORK" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_SUPREMESNEAK" level="9"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_USEMAGICDEVICE" level="13"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_THIEFS_REFLEXES" level="17"/>
+    </rules>
+  </element>
+  <element name="Flinke Finger" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_FASTHANDS">
+    <description>
+      <p>Ab der 3. Stufe kannst du die Bonusaktion, die dir durch dein Merkmal Raffinierte Aktion zukommt, auch auf folgende Arten verwenden: um einen Wurf auf Geschicklichkeit (Fingerfertigkeit) abzulegen, dein Diebeswerkzeug einzusetzen, ein Schloss zu öffnen, eine Falle zu entschärfen oder die Aktion Objekt benutzen auszuführen.</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Raffinierte Aktion wird um folgende Arten erweitert: um einen Wurf auf Fingerfertigkeit ablegen, dein Diebeswerkzeug einsetzen, ein Schloss öffnen, eine Falle entschärfen oder die Aktion Objekt benutzen ausführen.</description>
+    </sheet>
+  </element>
+  <element name="Kletteraffe" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_SECONDSTORYWORK">
+    <description>
+      <p>Mit der Wahl dieses Archetyps auf der 3. Stufe erhältst du die Fähigkeit, schneller als normal zu klettern. Klettern kostet dich ab sofort keine zusätzliche Bewegung mehr.</p>
+      <p class="indent">Außerdem springst du aus dem Lauf 0,30 m pro Punkt deines Geschicklichkeitsmodifikators weiter als gewöhnlich.</p>
+    </description>
+    <sheet>
+      <description> Klettern kostet dich ab sofort keine zusätzliche Bewegung mehr. Du springst du aus dem Lauf 0,30 m * {{dexterity:modifier}} weiter als gewöhnlich.</description>
+    </sheet>
+  </element>
+  <element name="Ausserordenliches Schleichen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_SUPREMESNEAK">
+    <description>
+      <p>Angefangen mit der 9. Stufe bist du bei Würfen auf Geschicklichkeit (Heimlichkeit) im Vorteil, wenn du dich in diesem Zug nicht weiter als deine halbe Bewegungsrate fortbewegst.</p>
+    </description>
+    <sheet>
+      <description>Du bist im Vorteil bei Würfen auf Heimlichkeit, wenn du dich in diesem Zug nicht weiter als deine halbe Bewegungsrate fortbewegst.</description>
+    </sheet>
+  </element>
+  <element name="Magischen Gegenstand benutzen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_USEMAGICDEVICE">
+    <description>
+      <p>Ab der 13. Stufe hast du so viel über das Wesen der Magie gelernt, dass du beim Gebrauch von magischen Gegenstän den improvisieren kannst. Du darfst jetzt sogar Gegenstände einsetzen, die nicht für dich gedacht sind. Ignoriere alle Anforderungen für Volk, Klasse und Stufe beim Benutzen von magischen Gegenständen.</p>
+    </description>
+    <sheet>
+      <description>Ignoriere alle Anforderungen für Volk, Klasse und Stufe beim Benutzen von magischen Gegenständen.</description>
+    </sheet>
+    <rules>
+      <!-- create grant to circomvent the restrictions -->
+    </rules>
+  </element>
+  <element name="Die Reflexe des Diebes" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_THIEF_THIEFS_REFLEXES">
+    <description>
+      <p>Mit Erreichen von Stufe 17 bist du außerordentlich gechickt geworden im Legen von Hinterhalten und blitzschnell beim Vermeiden einer Gefahr. Im ersten Initiativedurchgang jedes Kampfes darfst du zwei Züge ausführen. Den ersten Zug spielst du regulär, wie es deine Initiative anzeigt, und den zweiten zu dem Zeitpunkt, wenn deine Initiative -10 an der Reihe wäre. Du kannst diese Fähigkeit nicht einsetzen, wenn du überrascht bist.</p>
+    </description>
+    <sheet>
+      <description>Im ersten Initiativedurchgang jedes Kampfes darfst du zwei Züge ausführen. Den ersten Zug spielst du regulär, wie es deine Initiative anzeigt, und den zweiten zu dem Zeitpunkt, wenn deine Initiative -10 an der Reihe wäre. Du kannst diese Fähigkeit nicht einsetzen, wenn du überrascht bist.</description>
+    </sheet>
+  </element>
+
+  <element name="Assassine" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_ASSASSIN">
+    <supports>Schurkenarchetyp</supports>
+    <description>
+      <p>Du konzentrierst dein Training auf die grausame Kunst des Tötens. Es gibt sehr unterschiedliche Schurken, die diesem Archetyp angehören: Auftragsmörder, Spione, Kopfgeldjäger und sogar speziell erwählte Priester, die ausgebildet werden, um die Feinde ihrer Gottheit auszulöschen. Heimlichkeit, Gift und Verkleidung helfen dir, deine Gegner mit tödlicher Effizienz zu eliminieren.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BONUSPROFICIENCIES" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ASSASSINATE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_INFILTRATIONEXPERTISE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_IMPOSTER" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DEATHSTRIKE" />
+    </description>
+		<sheet display="false">
+      <description>Du konzentrierst dein Training auf die grausame Kunst des Tötens.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BONUSPROFICIENCIES" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ASSASSINATE" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_INFILTRATIONEXPERTISE" level="9"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_IMPOSTER" level="13"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DEATHSTRIKE" level="17"/>
+    </rules>
+  </element>
+  <element name="Zusätzliche Übung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BONUSPROFICIENCIES">
+    <description>
+      <p>Bei der Wahl dieses Archetyps auf der 3. Stufe wirst du geübt im Umgang mit der Verkleidungsausrüstung und der Giftmischerausrüstung.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" />
+    </rules>
+  </element>
+  <element name="Attentat" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ASSASSINATE">
+    <description>
+      <p>Ebenfalls ab der 3. Stufe bist du am tödlichsten, wenn du deine Feinde kalt erwischst. Du bist im Vorteil bei Angriffswürfen gegen Kreaturen, die in diesem Kampf noch keinen Zug ausgeführt haben. Außerdem ist jeder Treffer, den du gegen einen überraschten Gegner erzielst, ein kritischer Treffer.</p>
+    </description>
+    <sheet>
+      <description>Du bist im Vorteil bei Angriffswürfen gegen Kreaturen, die in diesem Kampf noch keinen Zug ausgeführt haben. Außerdem ist jeder Treffer, den du gegen einen überraschten Gegner erzielst, ein kritischer Treffer.</description>
+    </sheet>
+  </element>
+  <element name="Infiltrationsexperte" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_INFILTRATIONEXPERTISE">
+    <description>
+      <p>Beginnend mit der 9. Stufe kannst du perfekte falsche Identitäten für dich selbst erschaffen. Du musst 7 Tage und 25 GM aufwenden, um dir für eine Identität eine Geschichte und einen Beruf auszudenken, Verbindungen für sie einzurichten und eine entsprechende Ausstattung zu besorgen. Du kannst keine Identität erschaffen, die es bereits gibt. Beispielsweise könntest du mit passender Kleidung, Empfehlungsschreiben und offiziell aussehenden Zertifikaten als Mitglied eines weit entfernten Handelshauses auftreten, um in das Gebäude eines anderen reichen Kaufmanns eingelassen zu werden.</p>
+      <p class="indent">Sobald du eine Identität als Verkleidung angenommen hast, glauben andere Kreaturen so lange, dass du tatsächlich diese Person bist, bis ihnen ein offensichtlicher Grund gegeben wird, daran zu zweifeln.</p>
+    </description>
+    <sheet>
+      <description>Für 25 GM kannst du perfekte falsche Identitäten für dich selbst erschaffen.</description>
+    </sheet>
+  </element>
+  <element name="Imitator" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_IMPOSTER">
+    <description>
+      <p>Auf der 13. Stufe erhältst du die Fähigkeit, fehlerfrei die Stimme, die Schrift und das Verhalten einer anderen Person nachzuahmen. Du musst mindestens 3 Stunden damit verbringen, diese drei Komponenten zu studieren, also die Stimme zu hören, das Verhalten zu beobachten und Texte zu untersuchen.</p>
+      <p class="indent">Deine List ist für den gewöhnlichen Beobachter nicht zu durchschauen. Falls eine misstrauische Kreatur vermutet, dass etwas nicht stimmt, bist du im Vorteil bei jedem Wurf auf Täuschen, um eine Enttarnung zu vermeiden.</p>
+    </description>
+    <sheet>
+      <description>Du kannst fehlerfrei die Stimme, die Schrift und das Verhalten einer anderen beobachteten Person nachahmen. Falls eine misstrauische Kreatur vermutet, dass etwas nicht stimmt, bist du im Vorteil bei jedem Wurf auf Täuschen, um eine Enttarnung zu vermeiden.</description>
+    </sheet>
+  </element>
+  <element name="Todesstoss" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DEATHSTRIKE">
+    <description>
+      <p>Ab der 17. Stufe wirst du zu einem Meister des sofortigen Todes. Wenn du eine überraschte Kreatur angreifst und triffst, muss sie einen Konstitutionsrettungswurf ablegen (SG 8 + dein Geschicklichkeitsmodifikator + dein Übungsbonus). Bei einem Misserfolg verdopple den Schaden deines Angriffs gegen die Kreatur.</p>
+    </description>
+    <sheet>
+      <description>Wenn du eine überraschte Kreatur angreifst und triffst, muss sie einen Konstitutionsrettungswurf ablegen (SG {{death strike:dc}}). Bei einem Misserfolg verdopple den Schaden deines Angriffs gegen die Kreatur.</description>
+    </sheet>
+		<rules>
+			<stat name="death strike:dc" value="8" />
+			<stat name="death strike:dc" value="proficiency" />
+			<stat name="death strike:dc" value="dexterity:modifier" />
+		</rules>
+  </element>
+
+  <element name="Arkaner Betrüger" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_ARCANE_TRICKSTER">
+    <supports>Schurkenarchetyp</supports>
+    <description>
+      <p>Manche Schurken verbessern ihre hervorragenden Fertigkeiten der Heimlichkeit und der Beweglichkeit mit Magie, und erlernen Verzauberungstricks und Illusionen. Unter diesen Schurken gibt es Taschendiebe und Einbrecher, aber auch Unruhestifter, Scherzbolde und eine beachtliche Zahl von Abenteurern.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELLCASTING" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGICAL_AMBUSH" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELL_THIEF" />
+    </description>
+		<sheet display="false">
+      <description>Du verbesserst deine hervorragenden Fertigkeiten der Heimlichkeit und der Beweglichkeit mit Magie, und erlernst Verzauberungstricks und Illusionen.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELLCASTING" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGICAL_AMBUSH" level="9"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER" level="13"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELL_THIEF" level="17"/>
+      <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_THIRD" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+    </rules>
+  </element>
+  <element name="Zauberwirken" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELLCASTING">
+    <description>
+      <p>Mit Erreichen der 3. Stufe erlangst du die Fähigkeit, Zauber zu wirken. In Kapitel 10 „Zauber wirken" findest du die allgemeinen Regeln des Zauberns und in Kapitel 11 „Zauber" die Zauberliste des Magiers.</p>
+      <p class="indent"><b><i>Zaubertricks:</i></b> Du lernst drei Zaubertricks: <i>Magierhand</i> sowie zwei beliebige Zaubertricks aus der Zauberliste des Magiers. Auf Stufe 10 erhältst du einen zusätzlichen Magierzaubertrick deiner Wahl.</p>
+      <p class="indent"><b><i>Zauberplätze:</i></b> Die Zaubertabelle des Arkanen Betrügers gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen dir bekannten Spruch zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung.</p>
+      <p class="indent">Ist dir beispielsweise der Zauber Person bezaubern des 1. Grades bekannt und besitzt du sowohl einen freien Zauberplatz des 1. Grades und einen des 2. Grades, kannst du jeden der beiden Zauberplätze verwenden, um Person bezaubern zu wirken.</p>
+      <p class="indent"><b><i>Bekannte Zauber des 1. Grades und höher:</i></b> Du kennst drei frei wählbare Zauber des 1. Grades aus der Zauberliste des Magiers, von denen zwei den Schulen der Verzauberung oder der Illusion angehören müssen.</p>
+      <p class="indent">Der Spalte „Bekannte Zauber" der Tabelle kannst du entnehmen, wie viele neue Sprüche du dir bei einem Stufenaufstieg aus der Zauberliste des Magiers aussuchen darfst. Dabei kannst du nur Zauber wählen, die aus den Schulen der Verzauberung und der Illusion stammen und für deren Grad du auch Zauberplätze besitzt. Erreichst du zum Beispiel die 7. Stufe dieser Klasse, darfst du einen neuen Magierzauber des 1. oder 2. Grades erlernen.</p>
+      <p class="indent">Die Zauber, die du auf den Stufen 8, 14 und 20 lernst, können jeder beliebigen Schule der Magie angehören.</p>
+      <p class="indent">Sobald du eine Stufe in dieser Klasse aufsteigst, kannst du außerdem einen der Magierzauber, die dir bereits bekannt sind, mit einem anderen aus der Zauberliste ersetzen. Auch für diesen musst du einen dem Grad des Spruches entsprechende Zauberplatz besitzen und es darf sich nur um Verzauberungs- oder Illusionssprüche handeln.</p>
+      <p class="indent"><b><i>Attribut zum Zauberwirken:</i></b> Das Attribut, mit dem du deine Magierzauber wirkst, ist Intelligenz, da du diese durch eingehendes Studium und Einprägen lernst.</p>
+			<p class="indent">Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Intelligenz. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Magierzauber bestimmt, ziehst du deinen Intelligenzmodifikator hinzu. Bei Angriffen mit deinen Magierzaubern findet ebenfalls der Intelligenzmodifikator Anwendung.</p>
+			<center>
+				<p><strong>SG für Rettungswürfe</strong> = 8 + dein Übungsbonus + dein Intelligenzmodifikator</p>
+				<p><strong>Modifikator für Zauberangriffe</strong> = dein Übungsbonus + dein Intelligenzmodifikator</p>
+			</center>
+			<h5 class="caption">ZAUBERTABELLE DES ARKANEN BETRÜGERS</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Schurkenstufe</td><td class="col-10">Bekannte Zaubertricks</td><td class="col-10">Bekannte Zauber</td><td>1.</td><td>2.</td><td>3.</td><td>4.</td></tr>
+				</thead>
+				<tr><td> 3</td><td>3</td><td> 3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4</td><td>3</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5</td><td>3</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6</td><td>3</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7</td><td>3</td><td> 5</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td> 8</td><td>3</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td> 9</td><td>3</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10</td><td>4</td><td> 7</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>11</td><td>4</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12</td><td>4</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13</td><td>4</td><td> 9</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>14</td><td>4</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>15</td><td>4</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>17</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>18</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>19</td><td>4</td><td>12</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>20</td><td>4</td><td>13</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+    <spellcasting name="Arcane Trickster" ability="Intelligence" allowReplace="true">
+      <list>Wizard,(Enchantment||Illusion)</list>
+    </spellcasting>
+		<rules>
+			<stat name="arcane trickster:spellcasting:slots:1" value="2" level="3" />
+			<stat name="arcane trickster:spellcasting:slots:1" value="1" level="4" />
+			<stat name="arcane trickster:spellcasting:slots:1" value="1" level="7" />
+			<stat name="arcane trickster:spellcasting:slots:2" value="2" level="7" />
+			<stat name="arcane trickster:spellcasting:slots:2" value="1" level="10" />
+			<stat name="arcane trickster:spellcasting:slots:3" value="2" level="13" />
+			<stat name="arcane trickster:spellcasting:slots:3" value="1" level="16" />
+			<stat name="arcane trickster:spellcasting:slots:4" value="1" level="19" />
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" level="3" spellcasting="Arcane Trickster" />
+			<select type="Spell" name="Zaubertrick (Arkaner Betrüger)" supports="Wizard, 0" level="3" number="2" spellcasting="Arcane Trickster" />
+			<select type="Spell" name="Zaubertrick (Arkaner Betrüger)" supports="Wizard, 0" level="10" number="1" spellcasting="Arcane Trickster" />
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="Wizard, 1" level="3" number="1" spellcasting="Arcane Trickster" allowReplace="false" />
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="$(spellcasting:list), 1" level="3" number="2" spellcasting="Arcane Trickster" />
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" spellcasting="Arcane Trickster"/>
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" spellcasting="Arcane Trickster"/>
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="(Wizard||$(spellcasting:list)), $(spellcasting:slots)" level="8" spellcasting="Arcane Trickster"/>
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" spellcasting="Arcane Trickster"/>
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" spellcasting="Arcane Trickster"/>
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" spellcasting="Arcane Trickster"/>
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="(Wizard||$(spellcasting:list)), $(spellcasting:slots)" level="14" spellcasting="Arcane Trickster"/>
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" spellcasting="Arcane Trickster"/>
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" spellcasting="Arcane Trickster"/>
+			<select type="Spell" name="Spell (Arkaner Betrüger)" supports="(Wizard||$(spellcasting:list)), $(spellcasting:slots)" level="20" spellcasting="Arcane Trickster"/>
+		</rules>
+  </element>
+  <element name="Magiehand-Kniff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGE_HAND_LEGERDEMAIN">
+    <description>
+      <p>Wenn du ab Stufe 3 den Zauber Magierhand wirkst, kannst du die geisterhafte Hand unsichtbar werden lassen und die folgenden zusätzlichen Aufgaben mit ihr ausführen:</p>
+      <ul>
+        <li>Du kannst ein Objekt in einem Behälter verstauen, den eine Kreatur trägt oder in der Hand hält.</li>
+        <li>Du kannst ein Objekt aus einem Behälter hervorholen, den eine Kreatur trägt oder in der Hand hält.</li>
+        <li>Du kannst Diebeswerkzeug verwenden, um auf Entfernung Schlösser zu knacken oder Fallen zu entschärfen.</li>
+      </ul>
+      <p>Eine dieser Aufgaben kannst du ausführen, ohne dass es von einer Kreatur bemerkt wird, falls dir ein Wurf auf Fingerfertigkeit gegen den Wurf auf Wahrnehmung der Kreatur gelingt.</p>
+      <p class="indent">Außerdem kannst du die Hand mit der Bonusaktion aus deinem Merkmal Raffinierte Aktion kontrollieren.</p>
+    </description>
+    <sheet>
+      <description>Du kannst die geisterhafte Hand unsichtbar werden lassen und die folgenden zusätzlichen Aufgaben mit ihr ausführen:<br />
+				ein Objekt in einem Behälter verstauen, den eine Kreatur trägt oder in der Hand hält,<br />
+				ein Objekt aus einem Behälter hervorholen, den eine Kreatur trägt oder in der Hand hält,<br />
+				Diebeswerkzeug verwenden, um auf Entfernung Schlösser zu knacken oder Fallen zu entschärfen</description>
+    </sheet>
+  </element>
+  <element name="Magischer Hinterhalt" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_MAGICAL_AMBUSH">
+    <description>
+      <p>Beginnend mit der 9. Stufe ist eine Kreatur, auf die du aus einem Versteck heraus einen Zauber wirkst, in diesem Zug im Nachteil bei sämtlichen Rettungswürfe gegen den Zauber.</p>
+    </description>
+    <sheet>
+      <description>Wenn du aus einem Versteck einen Zauber auf eine Kreatur wirkst, ist diese in diesem Zug im Nachteil bei sämtlichen Rettungswürfe gegen den Zauber.</description>
+    </sheet>
+  </element>
+  <element name="Vielseitiger Trickser" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_VERSATILE_TRICKSTER">
+    <description>
+      <p>Auf Stufe 13 erhältst du die Fähigkeit, Ziele mit dem Zauber <i>Magierhand</i> abzulenken. Als Bonusaktion in deinem Zug kannst du eine Kreatur innerhalb von 1,50 m um die durch den Spruch erschaffene geisterhafte Hand bestimmen. Du bist bis zum Ende des Zuges im Vorteil bei Angriffswürfen gegen diese Kreatur.</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Du kannst eine Kreatur innerhalb von 1,50 m um die durch den Spruch erschaffene geisterhafte Hand bestimmen. Du bist bis zum Ende des Zuges im Vorteil bei Angriffswürfen gegen diese Kreatur.</description>
+    </sheet>
+  </element>
+  <element name="Zauberdieb" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCANE_TRICKSTER_SPELL_THIEF">
+    <description>
+      <p>Ab Stufe 17 bist du dazu in der Lage, einem anderen Zauberwirker auf magische Weise die Kenntnis über einen gerade gesprochenen Zauber zu entreißen.</p>
+      <p class="indent">Sofort wenn eine Kreatur einen Zauber wirkt, der dich zum Ziel hat oder in dessen Wirkungsbereich du dich befindest, kannst du deine Reaktion nutzen, um den Spruch zu vereiteln und zu stehlen. Die Kreatur muss einen Rettungswurf mit ihrem Attributsmodifikator ablegen, den sie zum Zauberwirken verwendet. Der SG des Rettungswurfs entspricht dem zum Widerstehen deiner Magierzauber. Bei einem Misserfolg unterdrückst du die Auswirkungen des Zaubers auf dich und stiehlst das Wissen um diesen, wenn es mindestens ein Spruch des 1. Grades ist und du den entsprechenden Zauberplatz besitzt, um ihn zu wirken (es muss kein Magierzauber sein). Für die nächsten 8 Stunden ist dir der Zauber bekannt und du kannst ihn wirken, indem du einen passenden Zauberplatz verbrauchst. Die Kreatur kann den Spruch erst nach Ablauf der 8 Stunden wieder wirken.</p>
+      <p class="indent">Hast du diese Fähigkeit einmal eingesetzt, kannst du sie erst nach Beenden einer langen Rast erneut anwenden.</p>
+    </description>
+    <sheet action="Reaktion" usage="Lange Rast">
+      <description>Du bist dazu in der Lage, einem anderen Zauberwirker auf magische Weise die Kenntnis über einen gerade gesprochenen Zauber zu entreißen.</description>
+    </sheet>
+  </element>
+
+	<!-- Expertise -->
+	<element name="Fähigkeiten Expertise (Akrobatik)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_ACROBATICS">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_ACROBATICS</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Akrobatik verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_ACROBATICS" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="acrobatics:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Mit Tieren umgehen)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_ANIMALHANDLING">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_ANIMALHANDLING</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Mit Tieren umgehen verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="animal handling:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Arkane Kunde)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_ARCANA">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_ARCANA</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Arkane Kunde verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_ARCANA" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="arcana:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Athletik)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_ATHLETICS">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_ATHLETICS</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen auf Athletik verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="athletics:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Täuschen)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_DECEPTION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_DECEPTION</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Täuschen verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_DECEPTION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="deception:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Geschichte)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_HISTORY">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_HISTORY</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Geschichte verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_HISTORY" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="history:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Motiv erkennen)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_INSIGHT">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_INSIGHT</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Motiv erkennen verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_INSIGHT" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="insight:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Einschüchtern)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_INTIMIDATION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_INTIMIDATION</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Einschüchtern verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intimidation:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Nachforschungen)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_INVESTIGATION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_INVESTIGATION</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Nachforschungen verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="investigation:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Heilkunde)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_MEDICINE">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_MEDICINE</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Heilkunde verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_MEDICINE" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="medicine:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Naturkunde)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_NATURE">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_NATURE</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Naturkunde verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_NATURE" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="nature:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Wahrnehmung)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_PERCEPTION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_PERCEPTION</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Wahrnehmung verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="perception:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Auftreten)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_PERFORMANCE">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_PERFORMANCE</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Auftreten verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="performance:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Überzeugen)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_PERSUASION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_PERSUASION</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Überzeugen verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_PERSUASION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="persuasion:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Religion)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_RELIGION">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_RELIGION</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Religion verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_RELIGION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="religion:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Fingerfertigkeit)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_SLEIGHTOFHAND">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_SLEIGHTOFHAND</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Fingerfertigkeit verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="sleight of hand:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Heimlichkeit)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_STEALTH">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_STEALTH</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Heimlichkeit verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_STEALTH" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="stealth:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Fähigkeiten Expertise (Überlebenskunst)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_SKILL_SURVIVAL">
+		<supports>Expertise, Skill, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_SURVIVAL</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Überlebenskunst verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="survival:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Werkzeug Expertise (Diebeswerkzeug)" type="Class Feature" source="Spielerhandbuch" id="ID_EXPERTISE_TOOL_THIEVES_TOOLS">
+		<supports>Expertise, Tool, ID_INTERNAL_SUPPORT_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS</requirements>
+		<description>
+			<p>Dein Übungsbonus wird bei allen Würfen auf Diebeswerkzeug verdoppelt.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB_ITEM_TOOL_THIEVES_TOOLS" />
+			</div>
+		</description>
+		<sheet>
+			<description>Dein Übungsbonus wird bei allen Würfen auf Diebeswerkzeug verdoppelt.</description>
+		</sheet>
+		<rules>
+			<stat name="thieves’ tools:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+
+</elements>

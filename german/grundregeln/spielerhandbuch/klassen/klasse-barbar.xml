@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Barbar</name>
+    <description>Die Klasse Barbar aus dem Spielerhandbuch.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.2.5.1">
+      <file name="klasse-barbar.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-barbar.xml" />
+    </update>
+  </info>
+
+  <element name="Barbar" type="Class" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_BARBARIAN">
+    <description>
+      <p>Ein großer Stammeskrieger der Menschen schreitet in Felle gehüllt und mit seiner Axt in der Hand durch den Schneesturm. Er lacht, als er auf den Frostriesen zustürmt, der es gewagt hat, die Elchherde seiner Leute zu rauben.</p>
+      <p class="indent">Eine Halborkin knurrt den neuesten Herausforderer an, der ihre Autorität über den wilden Stamm anzweifelt, und bereitet sich darauf vor, sein Genick mit bloßen Händen zu brechen — so wie bei den sechs vorherigen Rivalen.</p>
+      <p class="indent">Mit Schaum vor dem Mund donnert ein Zwerg seinen Helm in das Gesicht eines Drow-Kriegers, wirbelt dann herum und treibt seinen gepanzerten Ellbogen in den Magen eines weiteren Gegners.</p>
+      <p class="indent">Diese drei Barbaren, so unterschiedlich sie auch sein mögen, definieren sich durch ihre Wut und ihre ungezügelte, unstillbare und gedankenlose Raserei, die in ihrer Wildheit der eines in die Enge getriebenen Raubtiers entspricht, des unablässigen Anbrausens eines Sturms, des aufgewühlten Durcheinanders des Meeres.</p>
+      <p class="indent">Für manche entspringt diese Wut der Zwiesprache mit wilden Tiergeistern, andere ziehen Energie aus einem sich anstauenden Groll, genährt durch das Leben in einer Welt voller Schmerz. Für jeden Barbar ist die Wut eine Kraft, die ihn nicht nur in den Kampfrausch treibt, sondern die auch unglaubliche Reflexe, Ausdauer und Stärke ermöglicht.</p>
+      <h4>URINSTINKTE</h4>
+      <p>Die Bevölkerung der Dörfer und Städte ist stolz darauf, wie sehr ihre zivilisierte Art sie vom Tier unterscheidet — als wenn es ein Zeichen von Überlegenheit wäre, die eigene Natur zu verleugnen. Für einen Barbaren ist Zivilisiertheit keine Tugend, sondern ein Zeichen der Schwäche. Die Starken nehmen ihre tierische Natur an, mitsamt der scharfen Sinne, der rohen Kraft und des wilden Zorns. Barbaren fühlen sich unwohl, wenn sie von Mauern und Gedränge umgeben sind. Sie blühen in der Wildnis ihrer Heimatländer auf, wie der Tundra, dem Dschungel oder dem Grasland, wo ihre Stämme leben und jagen.</p>
+      <p class="indent">Erst in der Hitze der Schlacht fühlen sich Barbaren wirklich lebendig. Sie können sich in einen Berserkerzustand versetzen, in dem die Wut Überhand nimmt und ihnen übermenschliche Stärke und Widerstandskraft verleiht. Ein Barbar kann sich dieser Fähigkeit nur wenige Male bedienen, ohne eine Rast zu machen, doch reicht das in der Regel aus, um jede Bedrohung, die da kommen mag, in den Staub zu stampfen.</p>
+      <h4>EIN GEFÄHRLICHES LEBEN</h4>
+      <p>Nicht jedes Mitglied eines Stammes, der von den Angehörigen einer zivilisierten Gesellschaft als „barbarisch" bezeichnet wird, hat auch die gleichnamige Klasse. Ein wahrer Barbar ist unter diesen Leuten genauso selten wie ein ausgebildeter Kämpfer in einem kleinen Weiler, und in Kriegszeiten nehmen beide eine ähnliche Rolle als Beschützer und Führer ihres Volks ein.</p>
+      <p class="indent">Das Leben an den wilden Plätzen der Welt birgt viele tödliche Gefahren, wie rivalisierende Stämme, lebensgefährliches Wetter und schreckliche Monster. Um seine Leute vor diesen zu beschützen, stürzt sich ein Barbar kopfüber in jedes Wagnis.</p>
+      <p class="indent">Der Mut der Barbaren im Angesicht der Gefahr passt perfekt zu einem Leben als Abenteurer. Die Wanderschaft ist oft die natürliche Lebensart ihrer Stämme, das entwurzelte Dasein eines Abenteurers stellt für die meisten Barbaren also keine Belastung dar. Manch einer mag die eng gewobenen Familienstrukturen seines Stammes vermissen, doch kann die Beziehung zu den Mitgliedern der Abenteurergruppe diese gelegentlich ersetzen.</p>
+      <h4>EINEN BARBAREN ERSCHAFFEN</h4>
+      <p>Mache dir bei der Erschaffung deines Barbaren zuerst darüber Gedanken, von wo dein Charakter kommt und was sein Platz in der Welt ist. Berate dich auch mit dem SL über eine angemessene Herkunft deines Abenteurers. Kommt er aus einem fernen Land und ist er in der Region, in der sich eure Gruppe jetzt aufhält, ein Fremder? Oder findet die Kampagne in einem rauen und umkämpften Grenzland statt, wo Stammeskrieger etwas ganz Gewöhnliches sind?</p>
+      <p class="indent">Was hat ihn dazu bewogen, das Leben eines Abenteurers zu führen? Wurde er von der Aussicht auf Reichtümer in die besiedelten Länder gelockt? Oder hat er sich den Soldaten dieser Länder nur angeschlossen, um sich einer gemeinsamen Bedrohung zu stellen? Haben Monster oder eine einfallende Horde ihn aus seinem Heimatland vertrieben und ihn zu einem entwurzelten Flüchtling gemacht? Vielleicht ist er auch ein Kriegsgefangener, der in Ketten in die Zivilisation kam und erst jetzt seine Freiheit wiedererlangte? Oder wurde er von seinen Leuten verstoßen, weil er ein Verbrechen beging, ein Tabu brach oder versuchte, die Häuptlingswürde in einem Zweikampf an sich zu reißen, und scheiterte?</p>
+      <h5 class="caption">SCHNELLE ERSCHAFFUNG</h5>
+      <p>Du kannst einen Barbaren schnell erschaffen, indem du diesen Vorschlägen folgst:</p>
+      <p class="indent">Setze deinen höchsten Attributswert auf Stärke, den zweithöchsten auf Konstitution. Wähle zusätzlich den Hintergrund Sonderling.</p>
+      <h3>KLASSENMERKMALE</h3>
+      <p>Als Barbar erhältst du die folgenden Klassenmerkmale:</p>
+      <h5 class="caption">TREFFERPUNKTE</h5>
+      <ul class="unstyled">
+				<li><strong>Trefferwürfel:</strong> 1W12 pro Stufe als Barbar</li>
+				<li><strong>Trefferpunkte auf Stufe 1:</strong> 12 + dein Konstitutionsmodifikator</li>
+				<li><strong>Trefferpunkte auf höheren Stufen:</strong> 1W12 (oder 7) + dein Konstitutionsmodifikator pro Stufe als Barbar über die 1. Stufe hinaus</li>
+			</ul>
+      <h5 class="caption">ÜBUNG</h5>
+      <ul class="unstyled mb">
+				<li><strong>Rüstungen:</strong> leichte Rüstungen, mittelschwere Rüstungen, Schilde</li>
+				<li><strong>Waffen:</strong> einfache Waffen, Kriegswaffen</li>
+				<li><strong>Werkzeuge:</strong> keine</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Rettungswürfe:</strong> Stärke, Konstitution</li>
+				<li><strong>Fertigkeiten:</strong> zwei nach Wahl: Athletik, Einschüchtern, Mit Tieren umgehen, Naturkunde, Überlebenskunst oder Wahrnehmung</li>
+			</ul>
+      <h5 class="caption">AUSRÜSTUNG</h5>
+      <p>Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:</p>
+      <ul>
+        <li><i>(a)</i> eine zweihändige Axt oder <i>(b)</i> eine Nahkampf-Kriegswaffe</li>
+        <li><i>(a)</i> zwei Beile oder <i>(b)</i> eine einfache Waffe deiner Wahl</li>
+        <li>eine Entdeckerausrüstung und vier Wurfspeere</li>
+      </ul>
+      <h5 class="caption">DER BARBAR</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-10">Stufe</td><td>Anzahl der Kampfräusche</td><td>Kampfrausch-Schaden</td><td class="col-60 left">Merkmale</td></tr>
+        </thead>
+        <tr><td> 1</td><td>2</td><td>+2</td><td class="left">Kampfrausch, Ungerüstete Verteidigung</td></tr>
+        <tr><td> 2</td><td>2</td><td>+2</td><td class="left">Rücksichtsloser Angriff, Gefahrengespür</td></tr>
+        <tr><td> 3</td><td>3</td><td>+2</td><td class="left">Urtümlicher Pfad</td></tr>
+        <tr><td> 4</td><td>3</td><td>+2</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td> 5</td><td>3</td><td>+2</td><td class="left">Zusätzlicher Angriff, Schnelle Bewegung</td></tr>
+        <tr><td> 6</td><td>4</td><td>+2</td><td class="left">Pfadmerkmal</td></tr>
+        <tr><td> 7</td><td>4</td><td>+2</td><td class="left">Wilder Instinkt</td></tr>
+        <tr><td> 8</td><td>4</td><td>+2</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td> 9</td><td>4</td><td>+3</td><td class="left">Brutale kritische Treffer (1 Würfel)</td></tr>
+        <tr><td>10</td><td>4</td><td>+3</td><td class="left">Pfadmerkmal</td></tr>
+        <tr><td>11</td><td>4</td><td>+3</td><td class="left">Unerbittlicher Kampfrausch</td></tr>
+        <tr><td>12</td><td>5</td><td>+3</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td>13</td><td>5</td><td>+3</td><td class="left">Brutale kritische Treffer (2 Würfel)</td></tr>
+        <tr><td>14</td><td>5</td><td>+3</td><td class="left">Pfadmerkmal</td></tr>
+        <tr><td>15</td><td>5</td><td>+3</td><td class="left">Anhaltender Kampfrausch</td></tr>
+        <tr><td>16</td><td>5</td><td>+4</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td>17</td><td>6</td><td>+4</td><td class="left">Brutale kritische Treffer (3 Würfel)</td></tr>
+        <tr><td>18</td><td>6</td><td>+4</td><td class="left">Unbändige Stärke</td></tr>
+        <tr><td>19</td><td>6</td><td>+4</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td>20</td><td>unbegrenzt</td><td>+4</td><td class="left">Meister der Wildnis</td></tr>
+      </table>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE"/>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION" />
+    </description>
+    <sheet display="false">
+      <description>Ein leidenschaftlicher Krieger mit archaischem Hintergrund, der in Raserei verfallen kann.</description>
+    </sheet>
+    <setters>
+      <set name="short">Ein leidenschaftlicher Krieger mit archaischem Hintergrund, der in Raserei verfallen kann.</set>
+      <set name="hd">d12</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+      <select type="Proficiency" name="Geübte Fertigkeit (Barbar)" number="2" supports="Skill,Barbarian" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE" level="1" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" level="1" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" level="2" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" level="2" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" level="3" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" level="4" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" level="5" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" level="5" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT" level="7" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL" level="9" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE" level="11" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE" level="15" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT" level="18" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION" level="20" />
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_BARBARIAN">
+      <prerequisite>Strength 13</prerequisite>
+      <requirements>[str:13]</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Shields, simple weapons, martial weapons</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Kampfrausch" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE">
+    <description>
+      <p>Auf dem Schlachtfeld kämpfst du mit urtümlicher Wildheit. In deinem Zug kannst du dich mit einer Bonusaktion in einen Kampfrausch versetzen. Während du dich in diesem befindest. erhältst du die folgenden Vorteile, solange du keine schwere Rüstung trägst:</p>
+      <ul>
+        <li>Du bist bei Stärkewürfen und Rettungswürfen, die auf Stärke basieren, im Vorteil.</li>
+        <li>Führst du einen Nahkampfangriff mit einer Waffe durch, die deinen Stärkemodifikator verwendet, erhältst du auf deinen Schadenswurf den Bonus, der in der Tabelle unter Kampfrausch-Schaden angegeben ist. Dieser Wert erhöht sich, wenn du weiter als Barbar aufsteigst.</li>
+        <li>Du besitzt eine Resistenz gegen Hieb-, Stich- und Wuchtschaden.</li>
+      </ul>
+      <p>Falls du in der Lage bist, Zauber zu wirken, kannst du dies nicht während des Kampfrausches. Auch ist es in diesem nicht möglich, sich auf Zauber zu konzentrieren.</p>
+      <p>Dein Kampfrausch dauert 1 Minute. Er endet vorzeitig, wenn du bewusstlos wirst oder in deinem Zug keine feindliche Kreatur angegriffen hast oder in diesem keinen Schaden erhalten hast. Du kannst den Kampfrausch auch selbst als Bonusaktion in deinem Zug beenden.</p>
+      <p>Bist du so viele Male in Kampfrausch verfallen, wie es in der Tabelle angegeben ist, musst du eine lange Rast einlegen, um erneut auf diese Fähigkeit zurückgreifen zu können.</p>
+    </description>
+    <sheet action="Bonusaaktion">
+      <description usage="{{barbarian rage:count}}/Lange Rast">Du bist bei Stärkewürfen und Rettungswürfen, die auf Stärke basieren, im Vorteil. Führst du einen Nahkampfangriff mit einer Waffe durch, die deinen Stärkemodifikator verwendet, erhältst du +{{barbarian rage:damage}} auf dein Schadenswurf. Du besitzt Resistenz gegen Hieb-, Stich- und Wuchtschaden.</description>
+      <description usage="unbegrenzt" level="20">Du bist bei Stärkewürfen und Rettungswürfen, die auf Stärke basieren, im Vorteil. Führst du einen Nahkampfangriff mit einer Waffe durch, die deinen Stärkemodifikator verwendet, erhältst du +{{barbarian rage:damage}} auf dein Schadenswurf. Du besitzt Resistenz gegen Hieb-, Stich- und Wuchtschaden.</description>
+    </sheet>
+    <rules>
+      <stat name="barbarian rage:count" value="2" level="1" />
+      <stat name="barbarian rage:count" value="1" level="3" />
+      <stat name="barbarian rage:count" value="1" level="6" />
+      <stat name="barbarian rage:count" value="1" level="12" />
+      <stat name="barbarian rage:count" value="1" level="17" />
+      <stat name="barbarian rage:count" value="93" level="20" />
+      <stat name="barbarian rage:damage" value="2" level="1" />
+      <stat name="barbarian rage:damage" value="1" level="9" />
+      <stat name="barbarian rage:damage" value="1" level="16" />
+      <!--
+      <stat name="melee:damage, strength" value="barbarian rage:damage" condition="while raging" />
+	  <stat name="advantage:Strength Check" condition="while raging" />
+	  <stat name="advantage:Strength Saving Throws" condition="while raging" />
+	  <stat name="resistance:bludgeoning" condition="while raging" />
+	  <stat name="resistance:piercing" condition="while raging" />
+	  <stat name="resistance:slashing" condition="while raging" />
+      -->
+    </rules>
+  </element>
+  <element name="Ungerüstete Verteidigung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE">
+    <description>
+      <p>Solange du keine Rüstung trägst, entspricht deine Rüstungsklasse 10 + Geschicklichkeitsmodifikator + Konstitutionsmodifikator. Du kannst einen Schild verwenden und trotzdem von diesem Vorzug profitieren.</p>
+    </description>
+    <sheet>
+      <description>Solange du keine Rüstung trägst, entspricht deine Rüstungsklasse {{ac:unarmored defense barbarian}}. Du kannst einen Schild verwenden und trotzdem von diesem Vorzug profitieren.</description>
+    </sheet>
+    <rules>
+		<stat name="ac:unarmored defense barbarian:base" value="10" />
+		<stat name="ac:unarmored defense barbarian:dexterity" value="dexterity:modifier" />
+		<stat name="ac:unarmored defense barbarian:constitution" value="constitution:modifier" />
+
+		<stat name="ac:unarmored defense barbarian" value="ac:unarmored defense barbarian:base" />
+		<stat name="ac:unarmored defense barbarian" value="ac:unarmored defense barbarian:dexterity" />
+		<stat name="ac:unarmored defense barbarian" value="ac:unarmored defense barbarian:constitution" />
+
+		<stat name="ac:calculation" value="ac:unarmored defense barbarian" bonus="calculation" equipped="[armor:none]" alt="Ungerüstete Verteidigung (Barbar)" />
+    </rules>
+  </element>
+  <element name="Rücksichtsloser Angriff" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK">
+    <description>
+      <p>Von Stufe 2 an bist du in der Lage, deine Verteidigung völlig außer Acht zu lassen und Angriffe mit wilder Entschlossenheit auszuführen. Beim ersten Angriff in deinem Zug kannst du dich dazu entscheiden, rücksichtslos anzugreifen. Du bist dann in diesem Zug bei allen Nahkampfangriffen im Vorteil, auf die dein Stärkemodifikator angewendet wird. Im Gegenzug sind Angriffswürfe gegen dich bis zu deinem nächsten Zug ebenfalls im Vorteil.</p>
+    </description>
+    <sheet>
+      <description>Beim ersten Angriff in deinem Zug kannst du dich dazu entscheiden, rücksichtslos anzugreifen. Du bist dann in diesem Zug bei allen Nahkampfangriffen im Vorteil, auf die dein Stärkemodifikator angewendet wird. Im Gegenzug sind Angriffswürfe gegen dich bis zu deinem nächsten Zug ebenfalls im Vorteil.</description>
+    </sheet>
+  </element>
+  <element name="Gefahrengespür" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE">
+    <description>
+      <p>Auf der 2. Stufe erlangst du einen untrügerischen Sinn dafür, wenn die Dinge um dich herum nicht so sind, wie sie sein sollten. Dies lässt dich Gefahren besser ausweichen.</p>
+      <p class="indent">Du bist bei Geschicklichkeitsrettungswürfen gegen sichtbare Gefahren wie Fallen oder Zaubersprüche im Vorteil. Um diesen Vorzug zu erhalten, darfst du nicht blind, taub oder kampfunfähig sein.</p>
+    </description>
+    <sheet>
+      <description>Du bist bei Geschicklichkeitsrettungswürfen gegen sichtbare Gefahren wie Fallen oder Zaubersprüche im Vorteil. Um diesen Vorzug zu erhalten, darfst du nicht blind, taub oder kampfunfähig sein.</description>
+    </sheet>
+    <rules>
+      <!--<stat name="advantage:Dexterity Saving Throws" condition="against effects that you can see, such as traps and spells. While not blinded, deafened, or incapacitated." />-->
+    </rules>
+  </element>
+  <element name="Urtümlicher Pfad" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH">
+    <description>
+      <p>Wut brennt im Herzen jedes Barbaren, ein Feuer, das sie oder ihn zu wahrer Größe antreibt. Die Quelle dieser Wut ist von Barbar zu Barbar unterschiedlich. Bei einigen wird die Wut aus Schmerz, Kummer und Zorn gespeist und ergießt sich dann schlagartig über ihre Feinde. Andere sehen sie als spirituellen Segen an, als Geschenk eines Totemtiers.</p>
+      <p class="indent">Auf der 3. Stufe suchst du dir einen Pfad aus, der die Natur deines Kampfrausches bestimmt. Wähle den Pfad des Berserkers oder den Pfad des Totemkriegers, beide sind am Ende dieses Abschnitts näher beschrieben. Deine Wahl verleiht dir auf der 3., 6., 10. und 14. Stufe jeweils ein Pfadmerkmal.</p>
+    </description>
+    <sheet />
+    <rules>
+      <select type="Archetype" name="Urtümlicher Pfad" supports="Primal Path" level="3" />
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Barbar)" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT">
+		<compendium display="false" />
+    <description>
+      <p>Beim Erreichen der 4. Stufe und dann wieder auf der 8., 12., 16. und 19. Stufe kannst du einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Attributswerterhöhung (Barbar 4)" supports="Improvement Option,Barbar,4" level="4" />
+      <select type="Class Feature" name="Attributswerterhöhung (Barbar 8)" supports="Improvement Option,Barbar,8" level="8" />
+      <select type="Class Feature" name="Attributswerterhöhung (Barbar 12)" supports="Improvement Option,Barbar,12" level="12" />
+      <select type="Class Feature" name="Attributswerterhöhung (Barbar 16)" supports="Improvement Option,Barbar,16" level="16" />
+      <select type="Class Feature" name="Attributswerterhöhung (Barbar 19)" supports="Improvement Option,Barbar,19" level="19" />
+    </rules>
+  </element>
+  <element name="Zusätzlicher Angriff" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK">
+    <description>
+      <p>Beginnend mit der 5. Stufe kannst du zweimal anstatt einmal angreifen, wenn du eine Angriffsaktion in deinem Zug ausführst.</p>
+    </description>
+    <sheet>
+      <description>Du kannst zweimal anstatt einmal angreifen, wenn du eine Angriffsaktion in deinem Zug ausführst.</description>
+    </sheet>
+    <rules>
+		<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+    </rules>
+  </element>
+  <element name="Schnelle Bewegung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT">
+    <description>
+      <p>Auf der 5. Stufe erhöht sich deine Bewegungsrate um 3 m, wenn du keine schwere Rüstung trägst.</p>
+    </description>
+    <sheet>
+      <description>Deine Bewegungsrate erhöht sich um 3 m, wenn du keine schwere Rüstung trägst.</description>
+    </sheet>
+    <rules>
+		<stat name="innate speed:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:1]" />
+		<stat name="innate speed:climb:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:climb:1]" />
+		<stat name="innate speed:fly:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:fly:1]" />
+		<stat name="innate speed:swim:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:swim:1]" />
+		<stat name="innate speed:burrow:misc" value="10" equipped="![armor:heavy]" requirements="[innate speed:burrow:1]" />
+    </rules>
+  </element>
+  <element name="Wilder Instinkt" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT">
+    <description>
+      <p>Ab der 7. Stufe sind deine Instinkte dermaßen geschärft, dass du bei Initiativewürfen im Vorteil bist.</p>
+      <p class="indent">Zusätzlich kannst du, falls du überrascht wirst und nicht kampfunfähig bist, am Anfang deines ersten Zuges normal handeln. Jedoch nur, wenn du in Kampfrausch verfällst, bevor du etwas anderes tust.</p>
+    </description>
+    <sheet>
+      <description>Du bist bei Initiativewürfen im Vorteil. Zusätzlich kannst du, falls du überrascht wirst und nicht kampfunfähig bist, am Anfang deines ersten Zuges normal handeln. Jedoch nur, wenn du in Kampfrausch verfällst, bevor du etwas anderes tust.</description>
+    </sheet>
+	<rules>
+		<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
+	</rules>
+  </element>
+  <element name="Brutale kritische Treffer" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL">
+    <description>
+      <p>Mit dem Erreichen der 9. Stufe kannst du bei einem kritischen Treffer mit einer Nahkampfwaffe einen zusätzlichen Schadenswürfel der Waffe verwenden, um den Schaden des kritischen Treffers zu bestimmen.</p>
+        <p class="indent">Auf der 13. und 17. Stufe erhöht sich die Anzahl auf zwei beziehungsweise drei weitere Schadenswürfel der Waffe.</p>
+    </description>
+    <sheet>
+      <description>Bei einem kritischen Treffer mit einer Nahkampfwaffe kannst du {{brutal critical:dice:amount}} zusätzliche(n) Schadenswürfel der Waffe verwenden, um den Schaden des kritischen Treffers zu bestimmen.</description>
+    </sheet>
+    <rules>
+      <stat name="brutal critical:dice:amount" value="1" />
+      <stat name="brutal critical:dice:amount" value="1" level="13" />
+      <stat name="brutal critical:dice:amount" value="1" level="17" />
+    </rules>
+  </element>
+  <element name="Unerbittlicher Kampfrausch" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE">
+    <description>
+      <p>Mit der 11. Stufe bist du in der Lage. trotz schwerer Verletzungen weiterzukämpfen, wenn du dich im Kampfrausch befindest. Sollten deine Trefferpunkte auf 0 reduziert werden, während du im Kampfrausch bist, und stirbst du nicht augenblicklich, kannst du einen Konstitutionsrettungswurf mit SG 10 ablegen. Gelingt dir dieser, werden deine Trefferpunkte nur auf 1 reduziert.</p>
+      <p class="indent">Jedes Mal, wenn du dieses Merkmal benutzt, steigt der Schwierigkeitsgrad für den Rettungswurf um 5 an. Nach einer kurzen oder langen Rast ist der Schwierigkeitsgrad wieder 10.</p>
+    </description>
+    <sheet usage="Kampfrausch">
+      <description>Sollten deine Trefferpunkte auf 0 reduziert werden, während du im Kampfrausch bist, und stirbst du nicht augenblicklich, kannst du einen Konstitutionsrettungswurf mit SG 10 ablegen. Gelingt dir dieser, werden deine Trefferpunkte nur auf 1 reduziert. Jedes Mal, wenn du dieses Merkmal benutzt, steigt der Schwierigkeitsgrad für den Rettungswurf um 5 an.</description>
+    </sheet>
+  </element>
+  <element name="Anhaltender Kampfrausch" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE">
+    <description>
+      <p>Ab der 15. Stufe ist dein Kampfrausch so wild, dass er nur vorzeitig endet, wenn du bewusstlos wirst oder du ihn selbst beendest.</p>
+    </description>
+    <sheet>
+      <description>Dein Kampfrausch so wild, dass er nur vorzeitig endet, wenn du bewusstlos wirst oder du ihn selbst beendest.</description>
+    </sheet>
+  </element>
+  <element name="Unbändige Stärke" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT">
+    <description>
+      <p>Sollte nach Erreichen der 18. Stufe das Gesamtergebnis eines Stärkewurfs kleiner sein als dein Stärkewert, kannst du stattdessen deinen Attributswert als Gesamtergebnis verwenden.</p>
+    </description>
+    <sheet>
+      <description>Sollte das Gesamtergebnis eines Stärkewurfs kleiner sein als dein Stärkewert, kannst du stattdessen deinen Attributswert als Gesamtergebnis verwenden.</description>
+    </sheet>
+  </element>
+  <element name="Meister der Wildnis" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION">
+    <description>
+      <p>Auf Stufe 20 verkörperst du die Macht der Wildnis. Dein Stärke- und dein Konstitutionswert steigen um 4 Punkte an. Das Maximum für beide Attribute beträgt nun jeweils 24.</p>
+    </description>
+    <sheet>
+      <description>Du verkörperst die Macht der Wildnis. Dein Stärke- und dein Konstitutionswert steigen um 4 Punkte an. Das Maximum für beide Attribute beträgt nun jeweils 24..</description>
+    </sheet>
+    <rules>
+      <stat name="strength" value="4" />
+      <stat name="constitution" value="4" />
+      <stat name="strength:max" value="4" />
+      <stat name="constitution:max" value="4" />
+    </rules>
+  </element>
+
+  <!-- Path of the Berserker -->
+  <element name="Pfad des Berserkers" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_PATH_OF_THE_BERSERKER">
+    <supports>Primal Path</supports>
+    <description>
+      <p>Manche Barbaren zieht der Kampfrausch in einen Strudel der Gewalt, der nur ein Ende kennt: einen blutigen, glorreichen Tod. Der Pfad des Berserkers ist der Pfad ungezügelter Wut. Sobald du in den Kampfrausch verfällst, bist du so begeistert vom Chaos der Schlacht, dass du keine Rücksicht mehr auf deine Gesundheit und dein Wohlergehen nimmst.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_FRENZY" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_MINDLESS_RAGE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_INTIMIDATING_PRESENCE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_RETALIATION" />
+    </description>
+    <sheet>
+      <description>Der Pfad des Berserkers ist der Pfad ungezügelter Wut.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_FRENZY" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_MINDLESS_RAGE" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_INTIMIDATING_PRESENCE" level="10" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_RETALIATION" level="14" />
+    </rules>
+  </element>
+  <element name="Raserei" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_FRENZY">
+    <description>
+      <p>Entscheidest du dich auf der 3. Stufe für diesen Pfad, kannst du von nun an in Raserei verfallen, wenn du deinen Kampfrausch entfesselst. Für die Dauer des Kampfrausches kannst du dann in jedem Zug — außer dem ersten — einen einzelnen Nahkampfangriff als Bonusaktion ausführen. Sobald dein Kampfrausch endet, erhältst du eine Stufe Erschöpfung (Beschreibung siehe Anhang A „Zustände").</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Für die Dauer des Kampfrausches kannst du in jedem Zug — außer dem ersten — einen einzelnen Nahkampfangriff ausführen. Sobald dein Kampfrausch endet, erhältst du eine Stufe Erschöpfung.</description>
+    </sheet>
+  </element>
+  <element name="Geistloser Kampfrausch" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_MINDLESS_RAGE">
+    <description>
+      <p>Beginnend mit der 6. Stufe kannst du, solange du im Kampfrausch bist, nicht mehr bezaubert oder verängstigt werden. Bist du bereits beim Eintritt in den Kampfrausch bezaubert oder verängstigt, werden die Effekte bis zum Ende des Kampfrausches ausgesetzt.</p>
+    </description>
+    <sheet>
+      <description>Du kannst nicht mehr bezaubert oder verängstigt werden, solange du im Kampfrausch bist. Bist du bereits beim Eintritt in den Kampfrausch bezaubert oder verängstigt, werden die Effekte bis zum Ende des Kampfrausches ausgesetzt.</description>
+    </sheet>
+  </element>
+  <element name="Einschüchternde Präsenz" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_INTIMIDATING_PRESENCE">
+    <description>
+      <p>Ab der 10. Stufe kannst du deine Aktion nutzen, um jemanden mit deiner bedrohlichen Präsenz einzuschüchtern. Bestimme eine Kreatur innerhalb von 9 m, die du sehen kannst. Kann diese dich ebenfalls sehen oder hören, muss ihr ein Weisheitsrettungswurf (SG 8 + dein Übungsbonus + dein Charismamodifikator) gelingen oder sie wird bis zum Ende deines nächsten Zuges verängstigt. In den folgenden Zügen kannst du deine Aktion dazu verwenden, die Dauer dieses Zustands jeweils bis zum Ende deines nächsten Zuges zu verlängern. Der Effekt hört auf, falls die Kreatur ihren Zug außerhalb deiner Sicht oder mehr als 18 m entfernt von dir beendet. Schafft die Kreatur ihren Rettungswurf, kannst du dieses Merkmal in den nächsten 24 Stunden nicht mehr auf sie anwenden.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Bestimme eine Kreatur innerhalb von 9 m, die du sehen kannst. Kann diese dich ebenfalls sehen oder hören, muss ihr ein Weisheitsrettungswurf (SG {{intimidating presence:dc}}) gelingen oder sie wird bis zum Ende deines nächsten Zuges verängstigt. In den folgenden Zügen kannst du deine Aktion dazu verwenden, die Dauer dieses Zustands jeweils bis zum Ende deines nächsten Zuges zu verlängern.</description>
+    </sheet>
+    <rules>
+      <stat name="intimidating presence:dc" value="8" />
+      <stat name="intimidating presence:dc" value="proficiency" />
+      <stat name="intimidating presence:dc" value="charisma:modifier" />
+    </rules>
+  </element>
+  <element name="Vergeltung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_RETALIATION">
+    <description>
+      <p>Erleidest du ab Stufe 14 Schaden von einer Kreatur innerhalb von 1,50 m Entfernung, kannst du deine Reaktion verwenden, um einen Nahkampfangriff gegen sie auszuführen.</p>
+    </description>
+    <sheet action="Reaktion">
+      <description>Erleidest du Schaden von einer Kreatur innerhalb von 1,50 m Entfernung, kannst du einen Nahkampfangriff gegen sie auszuführen.</description>
+    </sheet>
+  </element>
+
+  <!-- Path of the Totem Warrior -->
+  <element name="Pfad des Totemkriegers" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_PATH_OF_THE_TOTEM_WARRIOR">
+    <supports>Primal Path</supports>
+    <description>
+      <p>Der Pfad des Totemkriegers stellt eine spirituelle Reise dar, zu deren Beginn der Barbar einen Tiergeist als Führer und Beschützer erwählt. Im Kampf erfüllt dich dein Totem mit übernatürlicher Kraft und befeuert auf magische Weise deinen Kampfrausch. Für die meisten barbarischen Stämme gehört ein Totemtier zu einem bestimmten Klan. In solchen Fällen ist es ungewöhnlich, dass jemand mehr als ein Totem besitzt, obwohl es Ausnahmen gibt.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT" />
+    </description>
+    <sheet>
+      <description>Der Pfad des Totemkriegers stellt eine spirituelle Reise dar, zu deren Beginn der Barbar einen Tiergeist als Führer und Beschützer erwählt.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER" level="10" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT" level="14" />
+    </rules>
+  </element>
+  <element name="Geistsucher" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER">
+    <description>
+      <p>Du wandelst auf einem Pfad, der den Einklang mit der Natur anstrebt, was dir eine gewisse Nähe zu Tieren verschafft. Mit deiner Entscheidung für den Totemkrieger auf Stufe 3 erhältst du die Fähigkeit, die Zauber <i>Mit Tieren sprechen</i> und <i>Tiersinn</i> als Rituale auszuführen (wie in Kapitel 10 „Zauberwirken" beschrieben).</p>
+    </description>
+    <sheet>
+      <description>Du kannst die Zauber <i>Mit Tieren sprechen</i> und <i>Tiersinn</i> als Rituale auszuführen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_BEAST_SENSE" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
+    </rules>
+  </element>
+  <element name="Totemgeist" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT">
+    <description>
+      <p>Wählst du auf der 3. Stufe diesen Pfad, suchst du dir einen Totemgeist aus und erhältst seine Merkmale. Du musst ein stoffliches Totemobjekt herstellen oder erlangen, etwa ein Amulett oder ein ähnliches Schmuckstück, in das Fell, Federn, Klauen, Zähne oder Knochen des Totemtiers eingearbeitet sind. Wenn du willst, kann dein Körper auch gewisse Eigenschaften annehmen, die für dein Totemtier typisch sind. Hast du beispielsweise den Bären gewählt, könnte dein Haarwuchs stark zunehmen oder deine Haut besonders ledrig werden. Ist dein Totemtier der Adler, färben sich deine Augen vielleicht strahlend gelb.</p>
+      <p>Dein Totemtier sollte einem der hier aufgeführten ähneln und an dein Heimatland angepasst sein. Zum Beispiel könntest du anstatt des Adlers einen Falken oder einen Geier wählen.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Totemgeist" supports="Totem Spirit" />
+    </rules>
+  </element>
+  <element name="Tieraspekt" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST">
+    <description>
+      <p>Auf Stufe 6 erhältst du einen magischen Vorzug, der auf einem Totemtier deiner Wahl basiert. Du kannst dich für dasselbe wie auf Stufe 3 entscheiden oder dir ein anderes aussuchen.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Tieraspekt" supports="Aspect of the Beast" />
+    </rules>
+  </element>
+  <element name="Geistwandler" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER">
+    <description>
+      <p>Ab der 10. Stufe kannst du den Zauber <i>Einswerden mit der Natur</i> als Ritual abhalten. Wenn du das tust, erscheint dir eine geisterhafte Version eines deiner Totemtiere und lässt dir Informationen zuteilwerden, nach denen du suchst.</p>
+    </description>
+    <sheet>
+      <description>Du kannst den Zauber <i>Einswerden mit der Natur</i> als Ritual abhalten. Wenn du das tust, erscheint dir eine geisterhafte Version eines deiner Totemtiere und lässt dir Informationen zuteilwerden, nach denen du suchst.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" />
+    </rules>
+  </element>
+  <element name="Einklang mit dem Totem" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT">
+    <description>
+      <p>Auf Stufe 14 erhältst du einen weiteren magischen Vorzug, der auf einem Totemtier deiner Wahl basiert. Du kannst dich für eines entscheiden, das du bereits zuvor gewählt hast, oder dir ein anderes aussuchen.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Einklang mit dem Totem" supports="Totemic Attunement" />
+    </rules>
+  </element>
+  <!-- Totem Spirit Choices-->
+  <element name="Totemgeist (Bär)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_BEAR">
+    <supports>Totem Spirit</supports>
+    <description>
+      <p>Im Kampfrausch erhältst du eine Resistenz gegen alle Schadensarten außer psychischem Schaden. Der Geist des Bären macht dich so zäh, dass du jedwedes Leid ertragen kannst.</p>
+    </description>
+    <sheet alt="Bär">
+      <description>Im Kampfrausch erhältst du eine Resistenz gegen alle Schadensarten außer psychischem Schaden.</description>
+    </sheet>
+  </element>
+  <element name="Totemgeist (Adler)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_EAGLE">
+    <supports>Totem Spirit</supports>
+    <description>
+      <p>Wenn du im Kampfrausch bist und keine schwere Rüstung trägst, sind andere Kreaturen bei Gelegenheitsangriffen gegen dich im Nachteil. Außerdem kannst du in deinem Zug die Spurtaktion als Bonusaktion verwenden. Der Geist des Adlers macht dich zu einem Raubtier, das mit Leichtigkeit einen Weg durch das Kampfgetümmel findet.</p>
+    </description>
+    <sheet alt="Adler">
+      <description>Wenn du im Kampfrausch bist und keine schwere Rüstung trägst, sind andere Kreaturen bei Gelegenheitsangriffen gegen dich im Nachteil. Außerdem kannst du in deinem Zug die Spurtaktion als Bonusaktion verwenden.</description>
+    </sheet>
+  </element>
+  <element name="Totemgeist (Wolf)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_WOLF">
+    <supports>Totem Spirit</supports>
+    <description>
+      <p>Während deines Kampfrausches sind deine Verbündeten im Vorteil bei Nahkampfangriffen auf jede feindliche Kreatur, die sich innerhalb von 1,50 m um dich befindet. Der Geist des Wolfes macht dich zum Anführer des Jagdrudels.</p>
+    </description>
+    <sheet alt="Wolf">
+      <description>Während deines Kampfrausches sind deine Verbündeten im Vorteil bei Nahkampfangriffen auf jede feindliche Kreatur, die sich innerhalb von 1,50 m um dich befindet.</description>
+    </sheet>
+  </element>
+  <!-- Aspect of the Beast Choices-->
+  <element name="Tieraspekt (Bär)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_BEAR">
+    <supports>Aspect of the Beast</supports>
+    <description>
+      <p>Du besitzt jetzt die Stärke des Bären. Deine Traglast (einschließlich Maximalgewicht und Höchstlast beim Anheben) wird verdoppelt und du bist im Vorteil bei Stärkewürfen, um Gegenstände zu schieben, zu ziehen, hochzuheben oder zu zerschmettern.</p>
+    </description>
+    <sheet>
+      <description>Deine Traglast (einschließlich Maximalgewicht und Höchstlast beim Anheben) wird verdoppelt und du bist im Vorteil bei Stärkewürfen, um Gegenstände zu schieben, zu ziehen, hochzuheben oder zu zerschmettern.</description>
+    </sheet>
+    <rules>
+      <!--<stat name="carrying capacity" value="*2" />-->
+    </rules>
+  </element>
+  <element name="Tieraspekt (Adler)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_EAGLE">
+    <supports>Aspect of the Beast</supports>
+    <description>
+      <p>Du kannst jetzt sehen wie ein Adler. Du bist problemlos in der Lage, bis zu 1,5 km weit zu schauen, und kannst dabei Details erkennen, als ob die Dinge 30 m von dir entfernt wären. Außerdem bist du in dämmrigem Licht nicht mehr im Nachteil bei Würfen auf Weisheit (Wahrnehmung).</p>
+    </description>
+    <sheet>
+      <description>Du bist problemlos in der Lage, bis zu 1,5 km weit zu schauen, und kannst dabei Details erkennen, als ob die Dinge 30 m von dir entfernt wären. Außerdem bist du in dämmrigem Licht nicht mehr im Nachteil bei Würfen auf Weisheit (Wahrnehmung).</description>
+    </sheet>
+  </element>
+  <element name="Tieraspekt (Wolf)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_WOLF">
+    <supports>Aspect of the Beast</supports>
+    <description>
+      <p>Du verfügst jetzt über das Jagdgespür eines Wolfes. Du kannst andere Kreaturen aufspüren, während du dich schnell fortbewegst, und dich auch mit normalem Reisetempo heimlich bewegen (siehe Kapitel 8 „Auf Abenteuer ausziehen" für Regeln zum Reisetempo).</p>
+    </description>
+    <sheet>
+      <description>Du kannst andere Kreaturen aufspüren, während du dich schnell fortbewegst, und dich auch mit normalem Reisetempo heimlich bewegen.</description>
+    </sheet>
+  </element>
+  <!-- Totemic Attunement Choices-->
+  <element name="Einklang mit dem Totem (Bär)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_BEAR">
+    <supports>Totemic Attunement</supports>
+    <description>
+      <p>Solange du dich im Kampfrausch befindest, sind alle feindlichen Kreaturen, die sich innerhalb von 1,50 m um dich befinden, im Nachteil, wenn sie jemand anderes als dich oder einen Charakter mit diesem Merkmal angreifen. Ein Gegner, der dich nicht sehen oder hören kann oder nicht verängstigt werden kann, ist immun gegen diesen Effekt.</p>
+    </description>
+    <sheet>
+      <description>Solange du dich im Kampfrausch befindest, sind alle feindlichen Kreaturen, die sich innerhalb von 1,50 m um dich befinden, im Nachteil, wenn sie jemand anderes als dich oder einen Charakter mit diesem Merkmal angreifen. Ein Gegner, der dich nicht sehen oder hören kann oder nicht verängstigt werden kann, ist immun gegen diesen Effekt.</description>
+    </sheet>
+  </element>
+  <element name="Einklang mit dem Totem (Adler)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_EAGLE">
+    <supports>Totemic Attunement</supports>
+    <description>
+      <p>Solange du im Kampfrausch bist, besitzt du während deines Zuges eine Flugbewegungsrate in Höhe deiner derzeitigen Schrittbewegungsrate. Du kannst auf diese Weise nur in kurzen Schüben fliegen. Solltest du dich am Ende deines Zuges in der Luft befinden und dich nichts anderes halten, fällst du zu Boden.</p>
+    </description>
+    <sheet>
+      <description>Solange du im Kampfrausch bist, besitzt du während deines Zuges eine Flugbewegungsrate in Höhe deiner derzeitigen Schrittbewegungsrate. Du kannst auf diese Weise nur in kurzen Schüben fliegen. Solltest du dich am Ende deines Zuges in der Luft befinden und dich nichts anderes halten, fällst du zu Boden.</description>
+    </sheet>
+  </element>
+  <element name="Einklang mit dem Totem (Wolf)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_WOLF">
+    <supports>Totemic Attunement</supports>
+    <description>
+      <p>Solange du im Kampfrausch bist, kannst du deine Bonusaktion verwenden, um eine einzelne Kreatur der Größenkategorie groß (oder kleiner) mit einem Nahkampfangriff zu Fall zu bringen und sie in den Zustand liegend zu versetzen.</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Solange du im Kampfrausch bist, kannst du eine einzelne Kreatur der Größenkategorie groß (oder kleiner) mit einem Nahkampfangriff zu Fall bringen.</description>
+    </sheet>
+  </element>
+</elements>

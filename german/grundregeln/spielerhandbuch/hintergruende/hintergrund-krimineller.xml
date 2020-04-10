@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Krimineller</name>
+		<description>Der Hintergrund Krimineller aus dem Spielerhandbuch</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.6">
+			<file name="hintergrund-krimineller.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-krimineller.xml" />
+		</update>
+	</info>
+
+	<element name="Krimineller" type="Background" source="Spielerhandbuch" id="ID_BACKGROUND_CRIMINAL">
+		<description>
+			<p>Du bist ein erfahrener Krimineller mit einer Vergangenheit voller Gesetzesbrüche. Die meiste Zeit deines Lebens hast du unter Ganoven verbracht und pflegst noch immer Kontakte in die kriminelle Unterwelt. Du stehst der Welt aus Mord, Diebstahl und Gewalt, die den Unterbau der Zivilisation bildet, näher als die meisten und hast bisher überlebt, indem du die Regeln und Gesetzmäßigkeiten der Gesellschaft umgangen oder gebrochen hast.</p>
+			<ul class="unstyled">
+				<li><strong>Geübt in folgenden Fertigkeiten:</strong> Täuschen, Heimlichkeit</li>
+				<li><strong>Geübt im Umgang mit folgenden Werkzeugen:</strong> eine Art von Spiel, Diebeswerkzeug</li>
+				<li><strong>Ausrüstung:</strong> eine Brechstange, ein Satz dunkle gewöhnliche Kleidung mit Kapuze, eine Börse mit 15 GM</li>
+			</ul>
+			<h5>KRIMINELLES FACHGEBIET</h5>
+			<p>Es gibt viele Arten von Kriminellen, und oft besitzen die einzelnen Mitglieder einer Diebesgilde oder einer ähnlichen verbrecherischen Organisation bestimmte Spezialisierungen. Sogar Kriminelle außerhalb solcher Gruppierungen haben einen starken Hang dazu, ein gewisses Verbrechen anderen vorzuziehen. Suche dir das Fachgebiet aus, auf das du dich in deinem kriminellen Leben spezialisiert hast, oder bestimme es mit Hilfe der folgenden Tabelle zufällig.</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">W8</td><td>Fachgebiet</td></tr>
+				</thead>
+				<tr><td>1</td><td>Erpressung</td></tr>
+				<tr><td>2</td><td>Einbruch</td></tr>
+				<tr><td>3</td><td>Schulden eintreiben</td></tr>
+				<tr><td>4</td><td>Hehlerei</td></tr>
+				<tr><td>5</td><td>Wegelagerei</td></tr>
+				<tr><td>6</td><td>Auftragsmord</td></tr>
+				<tr><td>7</td><td>Taschendiebstahl</td></tr>
+				<tr><td>8</td><td>Schmuggel</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_CRIMINAL_CONTACT" />
+			<h5>EMPFOHLENE  CHARAKTERISTIKA</h5>
+			<p>Kriminelle mögen oberflächlich wie Bösewichte erscheinen, und tatsächlich sind viele böse bis ins Mark. Doch einige andere sind reich an liebenswerten, wenn nicht sogar gewinnenden Charakteristika. Es mag eine Ganovenehre geben, allerdings zeigen Kriminelle nur selten Respekt für geltende Gesetze oder die Autoritäten.</p>
+			<div element="ID_WOTC_PHB_BACKGROUND_VARIANT_CRIMINAL_SPY" />
+		</description>
+		<setters>
+			<set name="short">Täuschen, Heimlichkeit, Spielsatz, Diebeswerkzeug</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+			<select type="Proficiency" name="Spielsatz (Krimineller)" supports="Gaming Set" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_CRIMINAL_CONTACT" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variante des Kriminellen" supports="Variant Criminal" optional="true" />
+			<select type="Background Feature" name="Merkmalvariante" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Kriminelles Fachgebiet" optional="true">
+				<item id="1">Erpressung</item>
+				<item id="2">Einbruch</item>
+				<item id="3">Schulden eintreiben</item>
+				<item id="4">Hehlerei</item>
+				<item id="5">Wegelagerei</item>
+				<item id="6">Auftragsmord</item>
+				<item id="7">Taschendiebstahl</item>
+				<item id="8">Schmuggel</item>
+			</select>
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">Ich habe immer einen Plan für den Fall, dass etwas schiefläuft.</item>
+				<item id="2">Ich bin stets ruhig, in jeder Situation. Niemals werde ich laut oder lasse mich von meinen Gefühlen beherrschen.</item>
+				<item id="3">Sobald ich an einen neuen Ort komme, nehme ich alles Wertvolle in Augenschein oder versuche herauszufinden, wo solche Dinge versteckt sein könnten.</item>
+				<item id="4">Ich gewinne eher einen neuen Freund, als dass ich mir einen Feind schaffe.</item>
+				<item id="5">Ich brauche unglaublich lange, um Vertrauen zu fassen. Diejenigen, die am nettesten wirken, haben oft am meisten zu verbergen.</item>
+				<item id="6">Mir sind die Risiken einer Handlung gleichgültig. Sag mir niemals, wie meine Chancen stehen.</item>
+				<item id="7">Mir zu sagen, dass ich etwas nicht schaffen kann, ist der beste Weg, mich dazu bringen, genau dies zu versuchen.</item>
+				<item id="8">Ich gehe bei der kleinsten Beleidigung an die Decke.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Ehre. Ich beklaue niemanden aus meinem Gewerbe. (rechtschaffen)</item>
+				<item id="2">Freiheit. Ketten sind dazu da, um gebrochen zu werden, genau wie diejenigen, die sie schmieden. (chaotisch)</item>
+				<item id="3">Wohltätigkeit. Ich nehme von den Reichen, damit ich jenen in Not helfen kann. (gut)</item>
+				<item id="4">Gier. Ich werde alles Nötige tun, um reich zu werden. (böse)</item>
+				<item id="5">Freundschaft. Ich bin meinen Freunden treu, nicht moralischen Maßstäben. Und jeder, der sich gegen die stellt, die mir wichtig sind, kann zum Styx fahren! (neutral)</item>
+				<item id="6">Wiedergutmachung. In jedem steckt ein Fünkchen Gutes. (gut)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">Ich versuche, eine alte Schuld bei einem großzügigen Gönner zu begleichen.</item>
+				<item id="2">Meine unrechtmäßig erworbenen Gewinne nutze ich, um meine Familie zu unterstützen.</item>
+				<item id="3">Mir wurde etwas Wichtiges genommen und ich will es mir wieder zurückholen.</item>
+				<item id="4">Ich werde der beste Dieb, den es jemals gegeben hat.</item>
+				<item id="5">Ich habe ein schreckliches Verbrechen begangen. Ich hoffe, dass ich meine Schuld eines Tages abtragen kann.</item>
+				<item id="6">Jemand, den ich liebte, starb wegen eines Fehlers, den ich gemacht habe. Das wird mir nie wieder passieren.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">Sehe ich etwas Wertvolles, kann ich an nichts anderes mehr denken als daran, wie ich es stehlen kann.</item>
+				<item id="2">Wenn ich vor die Wahl gestellt werde, mich zwischen meinen Freunden und Geld zu entscheiden, wähle ich in der Regel das Geld.</item>
+				<item id="3">Gibt es einen Plan, vergesse ich ihn. Vergesse ich ihn nicht, ignoriere ich ihn.</item>
+				<item id="4">Ich besitze einen Tick, der verrät, wenn ich lüge.</item>
+				<item id="5">Ich drehe mich um und laufe davon, wenn es brenzlig wird.</item>
+				<item id="6">Eine unschuldige Person ist für ein Verbrechen ins Gefängnis gekommen, das ich begangen habe. Mir macht das nichts aus.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Merkmal: Krimineller Kontakt" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_CRIMINAL_CONTACT">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Du verfügst über einen zuverlässigen und vertrauenswürdigen Kontakt, der als deine Verbindung zu einem Netzwerk von anderen Kriminellen fungiert. Du weißt, wie man dem Kontakt Nachrichten übermittelt und solche selbst über große Entfernungen empfängt. Außerdem kennst du die ortsansässigen Boten, die für dich Nachrichten überbringen können, zum Beispiel korrupte Karawanenmeister und zwielichtige Seeleute.</p>
+		</description>
+		<sheet>
+			<description>Du verfügst über einen zuverlässigen und vertrauenswürdigen Kontakt, der als deine Verbindung zu einem Netzwerk von anderen Kriminellen fungiert. Du weißt, wie man dem Kontakt Nachrichten übermittelt und solche selbst über große Entfernungen empfängt. Außerdem kennst du die ortsansässigen Boten, die für dich Nachrichten überbringen können, zum Beispiel korrupte Karawanenmeister und zwielichtige Seeleute.</description>
+		</sheet>
+		<sheet alt="Krimineller Kontakt" />
+	</element>
+
+	<element name="Variante des Kriminellen: Spion" type="Background Variant" source="Spielerhandbuch" id="ID_WOTC_PHB_BACKGROUND_VARIANT_CRIMINAL_SPY">
+		<supports>Variant Criminal</supports>
+		<description>
+			<p>Obwohl sich deine Fähigkeiten nicht sehr von denen eines Einbrechers oder Schmugglers unterscheiden, hast du sie in einem ganz anderen Kontext gelernt und geübt: Du bist das Mitglied einer Spionageorganisation. Du könntest ein von der Krone abgesegneter Spion sein oder die Geheimnisse, die du aufdeckst, an den Höchstbietenden verkaufen.</p>
+		</description>
+		<sheet alt="Spion" />
+	</element>
+</elements>

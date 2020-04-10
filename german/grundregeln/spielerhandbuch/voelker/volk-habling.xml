@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Halbling</name>
+		<description></description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.1">
+			<file name="volk-habling.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-habling.xml" />
+		</update>
+	</info>
+
+  <element name="Halbling" type="Race" source="Spielerhandbuch" id="ID_RACE_HALFLING">
+    <description>
+      <p class="flavor">Der Komfort eines Heims ist das Lebensziel der meisten Halblinge. Ein Platz, um sich in Ruhe und Frieden niederzulassen, weit weg von plündernden Monsterhorden und sich bekämpfenden Armeen. Ein knisterndes Feuer, ein üppiges Mahl, ausgesuchte Getränke und anregende Unterhaltungen. Obwohl manche Halblinge ihre Tage in abgelegenen landwirtschaftlichen Gemeinschaften verbringen, bilden andere nomadische Verbände, die ständig auf der Reise sind, gelockt von den offenen Straßen und der Weite des Horizonts, um die Wunder neuer Länder und Völker zu entdecken. Doch selbst diese Wanderer lieben Frieden, Essen, Heim und Herd, auch wenn das Heim ein Wagen ist, der eine dreckige Straße entlangzuckelt, oder ein Floß. das einen Strom hinabtreibt.</p>
+      <h4>KLEIN UND PRAKTISCH</h4>
+      <p>Die kleinen Halblinge überleben in einer Welt voller größerer Kreaturen, indem sie vermeiden, bemerkt zu werden, oder - falls das nicht klappt - indem sie Streitigkeiten aus dem Weg gehen. Mit ihren knapp 90 cm Größe erwecken sie den Eindruck, harmlos zu sein, und haben es so für Jahrhunderte geschafft, im Schatten von Imperien und unbehelligt von Kriegen und politischen Unruhen zu leben. Bei einem Gewicht von 40-45 Pfund neigen sie dazu, stämmig zu sein.</p>
+      <p class="indent">Die Haut der Halblinge kann von bräunlich bis blass mit einem Rotstich reichen, ihr für gewöhnlich gelocktes Haar ist braun oder sandfarben. Meist haben sie braune oder hellbraune Augen. Männliche Halblinge tragen oft lange Koteletten, Vollbärte hingegen sind selten und Schnurrbärte noch seltener. Halblinge mögen schlichte Kleidung, die bequem und praktisch ist, wobei sie helle Farben bevorzugen.</p>
+      <p class="indent">Die Vorliebe der Halblinge zum praktischen Nutzen geht über ihre Kleiderwahl hinaus. Sie erfreuen sich an den einfachen Dingen des Lebens und machen sich wenig aus Angeberei. Selbst die wohlhaberasten Halblinge verstauen ihre Reichtümer in Kisten im Keller, anstatt sie zur Schau zu stellen. Sie finden gern eine direkte Lösung für ein Problem und bringen kaum Geduld für Unentschlossenheit auf.</p>
+      <h4>FREUNDLICH UND NEUGIERIG</h4>
+      <p>Halblinge sind ein umgängliches und fröhliches Volk. Sie schätzen die Beziehungen zu Familie und Freunden ebenso wie den Komfort von Heim und Herd, ohne allzu große Träume von Ruhm und Gold zu hegen. Sogar die Abenteurer unter ihnen wagen sich aus Beweggründen in die Welt, die mit Gemeinschaft, Freundschaft, Wanderlust oder Neugier zusammenhängen. Sie lieben es, Neues zu entdecken, selbst einfache Dinge wie exotisches Essen oder unbekannte Kleidungsstile.</p>
+      <p class="indent">Halblinge empfinden schnell Mitleid und hassen es, Lebewesen leiden zu sehen. Sie sind großzügig und teilen bereitwillig alles, was sie besitzen — auch in schlechten Zeiten.</p>
+      <h4>IN DER MENGE UNTERGEHEN</h4>
+      <p>Halblinge sind geschickt darin, sich an eine Gesellschaft von Menschen, Zwergen oder Elfen anzupassen, indem sie sich nützlich machen, und sind in diesen oft willkommen. Die Kombination aus ihrer angeborenen Heimlichkeit und ihrer unauffälligen Natur hilft ihnen dabei, ungewollte Aufmerksamkeit zu vermeiden.</p>
+      <p class="indent">Halblinge arbeiten bereitwillig mit anderen zusammen und sind ihren Freunden gegenüber stets treu, ob es nun Halblinge sind oder nicht. Sie können eine bemerkenswerte Wildheit an den Tag legen. wenn Freunde, Familie oder Gemeinschaft bedroht werden.</p>
+      <h4>RUSTIKALE HERZLICHKEIT</h4>
+      <p>Die meisten Halblinge leben in kleinen, friedlichen Gemeinschaften mit großen Bauernhöfen und gut gepflegten Ländereien. Königreiche gründen sie äußerst selten, auch besitzen sie nur vereinzelt Land abseits ihres beschaulichen Grund und Bodens. Für gewöhnlich gibt es weder Adel noch Königshäuser unter den Halblingen, lieber halten sie sich an den Rat und die Führung der Familienältesten — denn die Familie hat Bestand, während Imperien aufsteigen und wieder zerfallen.</p>
+      <p class="indent">Viele Halblinge leben unter anderen Völkern, wo ihre harte Arbeit und Loyalität ihnen reichlich Lohn und leibliches Wohl bietet. Manche Halblinggemeinschaften sehen das Reisen als Lebensart und fahren mit Wagen oder Booten von Ort zu Ort, ohne jemals sesshaft zu werden.</p>
+      <h4>MÖGLICHKEITEN ENTDECKEN</h4>
+      <p>Normalerweise entscheiden sich Halblinge für den Weg des Abenteurers, um ihre Gemeinschaft zu verteidigen, ihre Freunde zu unterstützen oder die weite und wundervolle Welt zu entdecken. Für sie ist das Abenteurerleben weniger eine Karriere als eine Gelegenheit oder manchmal eine Notwendigkeit.</p>
+      <h4>NAMEN DER HALBLINGE</h4>
+      <p>Ein Halbling besitzt einen Vornamen, einen Familiennamen und möglicherweise einen Spitznamen. Bei Familiennamen handelt es sich oft um Spitznamen, die so treffend waren, dass sie über Generationen hinweg weitergegeben wurden.</p>
+      <p>
+        <span class="emphasis">Männliche Vornamen:</span>Alton, Ander, Cade, Coorin, Eldon, Errich, Finan, Garret, Lindal, Lyle, Merric, Milo, Osborn, Perrin, Reed, Roscoe, Wellby<br/>
+        <span class="emphasis">Weibliche Vornamen:</span>Andry, Bree, Callie, Cora, Euphemia, Jillian, Kithri, Lavinia, Lidda, Merla, Nedda, Paela, Portia, Seraphina, Shaena, Trym, Vani, Verna<br/>
+        <span class="emphasis">Familiennamen:</span>Buschsammler, Dickdorn, Fallkraut, Grünflasche, Goldbarren, Hochhügel, Hügelspitz, Strammgurt, Teeblatt, Unterast<br/>
+      </p>
+      <h4>MERKMALE DER HALBLINGE</h4>
+      <p>Dein Halbling-Charakter besitzt eine Anzahl von Merkmalen, die er mit allen anderen Halblingen gemein hat.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Geschicklichkeitswert wird um 2 Punkte erhöht.<br/>
+        <span class="feature">Alter:</span>Ein Halbling erreicht mit 20 Jahren das Erwachsenenalter und lebt etwa 150 Jahre.<br/>
+        <span class="feature">Gesinnung:</span>Die meisten Halblinge sind rechtschaffen gut. Generell sind sie mitfühlend, warmherzig und freundlich und tolerieren keine Form der Unterdrückung. Sie lieben geordnete Verhältnisse und sind traditionell veranlagt. Die Unterstützung der Familie und der Komfort des Althergebrachten sind Säulen, auf denen die Halbling-Gemeinschaft erbaut ist.<br/>
+        <span class="feature">Größe:</span>Im Mittel sind Halblinge etwa 90 cm groß und wiegen dabei um die 40 Pfund. Deine Größenkategorie ist klein.<br/>
+        <span class="feature">Bewegungsrate:</span>Deine Grundbewegungsrate beträgt 7,50 m.<br/>
+        <span class="feature">Halblingsglück:</span>Würfelst du bei einem Angriffs-, Attributs- oder Rettungswurf eine 1, darfst du den Wurf wiederholen, musst das zweite Ergebnis aber verwenden.<br/>
+        <span class="feature">Tapferkeit:</span>Du bist im Vorteil bei Rettungswürfen, um zu vermeiden, verängstigt zu werden.<br/>
+        <span class="feature">Halblingsgewandheit:</span>Du kannst dich durch Bereiche bewegen, die von Kreaturen eingenommen werden, die eine Größenkategorie größer sind als du.<br/>
+        <span class="feature">Sprachen:</span>Du kannst sowohl Halblingisch als auch die Gemeinsprache lesen, schreiben und sprechen. Die Sprache der Halblinge ist zwar nicht geheim, doch wird sie ungern mit anderen geteilt. Halblinge schreiben sehr wenig, daher gibt es nur wenig Literatur. Wissen, Geschichten oder Gedichte werden größtenteils mündlich überliefert. Fast alle Halblinge bedienen sich der Gemeinsprache, um sich mit den Leuten zu unterhalten, durch deren Länder sie reisen oder in deren Städten sie sich niederlassen.<br/>
+        <span class="feature">Volksunterarten:</span>Die beiden Hauptarten von Halblingen sind eher nah verwandte Familien als wahre Volksunterarten und werden Leichtfüße und Stämmige genannt.<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Alton, Ander, Cade, Coorin, Eldon, Errich, Finan, Garret, Lindal, Lyle, Merric, Milo, Osborn, Perrin, Reed, Roscoe, Wellby</set>
+      <set name="names" type="female">Andry, Bree, Callie, Cora, Euphemia, Jillian, Kithri, Lavinia, Lidda, Merla, Nedda, Paela, Portia, Seraphina, Shaena, Trym, Vani, Verna</set>
+      <set name="names" type="family">Buschsammler, Dickdorn, Fallkraut, Grünflasche, Goldbarren, Hochhügel, Hügelspitz, Strammgurt, Teeblatt, Unterast</set>
+      <set name="names-format">{{name}} {{family}}</set>
+      <set name="height" modifier="2d4">90 cm</set>
+      <set name="weight" modifier="1d4">40 Pfund</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="2"/>
+      <stat name="innate speed" value="25" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_SMALL" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_HALFLING" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_LUCKY" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BRAVE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFLING_NIMBLENESS" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFLING_SUBRACE" />
+    </rules>
+  </element>
+
+  <element name="Halblingsglück" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_LUCKY">
+    <description>
+      <p>Würfelst du bei einem Angriffs-, Attributs- oder Rettungswurf eine 1, darfst du den Wurf wiederholen, musst das zweite Ergebnis aber verwenden.</p>
+    </description>
+    <sheet>
+      <description>Würfelst du bei einem Angriffs-, Attributs- oder Rettungswurf eine 1, darfst du den Wurf wiederholen, musst das zweite Ergebnis aber verwenden.</description>
+    </sheet>
+  </element>
+  <element name="Tapferkeit" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_BRAVE">
+    <description>
+      <p>Du bist im Vorteil bei Rettungswürfen, um zu vermeiden, verängstigt zu werden.</p>
+    </description>
+    <sheet>
+      <description>Du bist im Vorteil bei Rettungswürfen, um zu vermeiden, verängstigt zu werden.</description>
+    </sheet>
+  </element>
+  <element name="Halblingsgewandheit" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_HALFLING_NIMBLENESS">
+    <description>
+      <p>Du kannst dich durch Bereiche bewegen, die von Kreaturen eingenommen werden, die eine Größenkategorie größer sind als du.</p>
+    </description>
+    <sheet>
+      <description>Du kannst dich durch Bereiche bewegen, die von Kreaturen eingenommen werden, die eine Größenkategorie größer sind als du.</description>
+    </sheet>
+  </element>
+  <element name="Halbling Unterarten" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_HALFLING_SUBRACE">
+    <description>
+      <p>Die beiden Hauptarten von Halblingen sind eher nah verwandte Familien als wahre Volksunterarten und werden Leichtfüße und Stämmige genannt. Wähle eine dieser Unterart.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Sub Race" name="Halbling Unterart" supports="Halfling" />
+    </rules>
+  </element>
+
+  <element name="Leichtfuß-Halbling" type="Sub Race" source="Spielerhandbuch" id="ID_SUB_RACE_LIGHTFOOT_HALFLING">
+    <supports>Halfling</supports>
+    <description>
+      <p>Als Leichtfuß-Halbling kannst du dich mühelos verstecken und sogar andere Leute als Deckung verwenden. Du neigst dazu, umgänglich zu sein, und kommst gut mit anderen aus. In der Welt der Vergessenen Reiche sind Leichtfüße die am weitesten verbreiteten Halblinge und deswegen die gewöhnlichste Unterart. Im Vergleich zu den übrigen Halblingen sind sie besonders anfällig für die Wanderlust. Daher tummeln sie sich oft bei anderen Völkern oder pflegen einen nomadischen Lebensstil. In der Welt von Greyhawk werden diese Halblinge Haarfüße oder Großgefährten genannt.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Charismawert wird um 1 Punkt erhöht.<br/>
+        <span class="feature">Angeborene Verstohlenheit:</span>Du kannst sogar versuchen, dich zu verstecken, wenn du nur von einer Kreatur verschleiert wirst, die lediglich eine Größenkategorie größer ist als du selbst.<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="charisma" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURALLY_STEALTHY" />
+    </rules>
+  </element>
+  <element name="Stämmige" type="Sub Race" source="Spielerhandbuch" id="ID_SUB_RACE_STOUT_HALFLING">
+    <supports>Halfling</supports>
+    <description>
+      <p>Als Stämmiger bist du zäher als andere Halblinge und verfügst über eine gewisse Resistenz gegen Gifte. Manche sagen, dass in Stämmigen Zwergenblut fließt. In der Welt der Vergessenen Reiche werden diese Halblinge Starkherzen genannt und sind dort im Süden am weitesten verbreitet.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Konstitutionswert wird um 1 Punkt erhöht.<br/>
+        <span class="feature">Unempfindlichkeit:</span>Du bist bei Rettungswürfen gegen Gift im Vorteil und besitzt eine Resistenz gegen Schaden durch Gifte (siehe Kapitel 9 „Kampf").<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="constitution" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_STOUT_RESILIENCE" />
+    </rules>
+  </element>
+
+  <element name="Angeborene Verstohlenheit" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_NATURALLY_STEALTHY">
+    <description>
+      <p>Du kannst sogar versuchen, dich zu verstecken, wenn du nur von einer Kreatur verschleiert wirst, die lediglich eine Größenkategorie größer ist als du selbst.</p>
+    </description>
+    <sheet>
+      <description>Du kannst sogar versuchen, dich zu verstecken, wenn du nur von einer Kreatur verschleiert wirst, die lediglich eine Größenkategorie größer ist als du selbst.</description>
+    </sheet>
+  </element>
+  <element name="Unempfindlichkeit" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_STOUT_RESILIENCE">
+    <description>
+      <p>Du bist bei Rettungswürfen gegen Gift im Vorteil und besitzt eine Resistenz gegen Schaden durch Gifte (siehe Kapitel 9 „Kampf").</p>
+    </description>
+    <sheet>
+      <description>Du bist bei Rettungswürfen gegen Gift im Vorteil und besitzt eine Resistenz gegen Schaden durch Gifte.</description>
+    </sheet>
+    <rules>
+	    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+    </rules>
+  </element>
+
+</elements>

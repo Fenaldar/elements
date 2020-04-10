@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.3">
+			<file name="source.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/zubehoer/xanathars-ratgeber-fuer-alles/source.xml" />
+		</update>
+	</info>
+	<element name="Xanathars Ratgeber für alles" type="Source" source="Core" id="ID_WOTC_SOURCE_XANATHARS_GUIDE_TO_EVERYTHING">
+		<description>
+	   <![CDATA[<p><strong>Schönheit und Arglist liegen im Auge des Betrachters!</strong></p>
+	 	 <p>Der Betrachter Xanathar, der berüchtigtste Verbrecherfürst von Tiefwasser, ist bekannt dafür, Informationen über seine Freunde und Feinde zu horten. Er katalogisiert Wissen über Abenteurer und sinnt darüber nach, wie er sie aufhalten kann. Sein verdrehter Verstand stellt sich sogar vor, letztendlich absolut alles aufzuzeichnen!</p>
+	   <p>Auf diesen Seiten finden sich brandneue Regeln und Erzähloptionen für alle Charakterklassen aus dem Player’s Handbook, einschließlich über fünfundzwanzig neuer Unterklassen. Das Buch stellt darüber hinaus neue Zauber für sowohl Spielercharaktere als auch Monster vor.</p>
+     <p>Spielleiter finden darin neue Regeln für Fallen, magische Gegenstände, Freizeitaktivitäten und vieles mehr – allesamt entworfen, um eine D&amp;D-Kampagne noch abwechslungsreicher zu gestalten und in neue Richtungen zu lenken.</p>
+	   <p>Zwischen all diesem Zusatzmaterial gibt Xanathar bizarre Beobachtungen über alles mögliche kund, auf das seine Augenstiele gerade fallen. Bete, dass sie dich nicht entdecken!</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">XGTE</set>
+			<set name="url">https://ulisses-spiele.de/dr-alles-2/</set>
+			<set name="image">https://ulisses-spiele.de/assets/img/9C/T_GFDND73606-G_0.JPG</set>
+			<set name="author" abbreviation="WOTC" url="https://ulisses-spiele.de/spielsysteme/dungeon-and-dragons/">Ulisses Spiele</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+			<set name="release">20171121</set>
+		</setters>
+	</element>
+</elements>

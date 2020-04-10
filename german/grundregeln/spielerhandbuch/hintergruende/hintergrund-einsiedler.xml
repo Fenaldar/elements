@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Einsiedler</name>
+		<description>Der Hintergrund Einsiedler aus dem Spielerhandbuch</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.6">
+			<file name="hintergrund-einsiedler.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-einsiedler.xml" />
+		</update>
+	</info>
+
+	<element name="Einsiedler" type="Background" source="Spielerhandbuch" id="ID_BACKGROUND_HERMIT">
+		<description>
+			<p>Du hast einen prägenden Teil deines Lebens in Abgeschiedenheit verbracht, entweder in einer behüteten Gemeinschaft wie einem Kloster oder ganz allein. In deiner Zeit fern der Gesellschaft hast du Ruhe, Einsamkeit und vielleicht einige Antworten gefunden, nach denen du gesucht hast.</p>
+			<ul class="unstyled">
+				<li> <strong>Geübt in folgenden Fertigkeiten:</strong> Heilkunde, Religion</li>
+				<li> <strong>Geübt im Umgang mit folgenden Werkzeugen:</strong> Kräuterkundeausrüstung</li>
+				<li> <strong>Sprachen:</strong> eine deiner Wahl</li>
+				<li> <strong>Ausrüstung:</strong> ein Schriftrollenbehälter voller Notizen zu deinen Studien oder Gebeten, eine Winterdecke, ein Satz gewöhnlicher Kleidung, 5 GM</li>
+			</ul>
+			<h5>EIN LEBEN IN ABGESCHIEDENHEIT</h5>
+			<p>Was war der Grund für deine Isolation und was hat sich geändert, dass du sie aufgegeben hast? Du kannst auch mit deinem SL gemeinsam darüber nachdenken oder von der folgenden Tabelle auswählen beziehungsweise den Würfel entscheiden lassen.</p>
+			<table>
+				<thead>
+					<tr> <td>W8</td> <td>Leben in Abgeschiedenheit</td> </tr>
+				</thead>
+				<tr> <td>1</td> <td>Ich war auf der Suche nach spiritueller Erleuchtung.</td> </tr>
+				<tr> <td>2</td> <td>Ich habe ein gemeinschaftliches Leben im Einklang mit den Geboten eines religiösen Ordens geführt.</td> </tr>
+				<tr> <td>3</td> <td>Ich wurde für ein Verbrechen, das ich nicht begangen habe, ins Exil geschickt.</td> </tr>
+				<tr> <td>4</td> <td>Ich habe mich nach einem lebensverändernden Ereignis von der Gesellschaft zurückgezogen.</td> </tr>
+				<tr> <td>5</td> <td>Ich brauchte einen ruhigen Ort, um an meiner Kunst, Literatur, Musik oder einem Manifest zu arbeiten.</td> </tr>
+				<tr> <td>6</td> <td>Ich musste mit der Natur eins werden, weit weg von der zivilisierten Gesellschaft.</td> </tr>
+				<tr> <td>7</td> <td>Ich bewachte eine uralte Ruine oder ein wichtiges Relikt.</td> </tr>
+				<tr> <td>8</td> <td>Ich war ein Pilger, der nach einer Person, einem Ort oder einem Relikt von spiritueller Bedeutung gesucht hat.</td> </tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_DISCOVERY" />
+			<h5>EMPFOHLENE CHARAKTERISTIKA</h5>
+			<p>Manche Einsiedler haben sich an das Leben in der Abgeschiedenheit gewöhnt, andere hingegen hadern damit und sehnen sich nach anderen Mitgliedern ihres Volkes. Ob sie nun die Einsamkeit annehmen oder ihr entfliehen wollen, so prägt das Leben an den entlegenen Orten der Welt doch die Ansichten und Ideale jedes Einsiedlers. Manch einer wird über die Jahre abseits der Gesellschaft sogar leicht verrückt.</p>
+			<h5>ANDERE ARTEN DES EINSIEDLERS</h5>
+			<p>Der beschriebene Hintergrund des Einsiedlers geht von einem kontemplativen Weg der Abgeschiedenheit aus, der Platz für Studien und Gebete lässt. Wenn du einen rauen Aussteiger spielen möchtest, der sich aufs Land zurückgezogen hat, um der Gesellschaft anderer Leute zu entgehen, sieh dir den Hintergrund Sonderling an. Tendierst du eher in eine religiöse Richtung, ziehe den Tempeldiener in Betracht. Vielleicht ist sogar der Scharlatan passend, wenn du den Weisen oder Heiligen nur vorspielst, um dich von den Leichtgläubigen durchfüttern zu lassen.</p>
+		</description>
+		<setters>
+			<set name="short">Heilkunde, Religion, Kräuterkundeausrüstung, Sprache</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+			<select type="Language" name="Sprache (Einsiedler)" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_DISCOVERY" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Feature" name="Merkmalvariante" supports="Optional Background Feature" optional="true" />
+			<select name="Leben in Abgeschiedenheit" type="List" optional="true">
+				<item id="1">Ich war auf der Suche nach spiritueller Erleuchtung.</item>
+				<item id="2">Ich habe ein gemeinschaftliches Leben im Einklang mit den Geboten eines religiösen Ordens geführt.</item>
+				<item id="3">Ich wurde für ein Verbrechen, das ich nicht begangen habe, ins Exil geschickt.</item>
+				<item id="4">Ich habe mich nach einem lebensverändernden Ereignis von der Gesellschaft zurückgezogen.</item>
+				<item id="5">Ich brauchte einen ruhigen Ort, um an meiner Kunst, Literatur, Musik oder einem Manifest zu arbeiten.</item>
+				<item id="6">Ich musste mit der Natur eins werden, weit weg von der zivilisierten Gesellschaft.</item>
+				<item id="7">Ich bewachte eine uralte Ruine oder ein wichtiges Relikt.</item>
+				<item id="8">Ich war ein Pilger, der nach einer Person, einem Ort oder einem Relikt von spiritueller Bedeutung gesucht hat.</item>
+			</select>
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">Ich war so lange allein, dass ich kaum spreche und Gesten und gelegentliches Knurren bevorzuge.</item>
+				<item id="2">Ich besitze eine fast übernatürliche Ruhe, selbst im Angesicht einer Katastrophe.</item>
+				<item id="3">Das Oberhaupt meiner Gemeinschaft konnte mir zu jedem Aspekt des Lebens etwas Weises sagen, und ich bin bemüht, diese Weisheit zu teilen.</item>
+				<item id="4">Ich empfinde ein starkes Mitgefühl für alle, die leiden müssen.</item>
+				<item id="5">Ich bin unempfänglich für Etikette und gesellschaftliche Erwartungen.</item>
+				<item id="6">Ich bringe alles, was passiert, mit mir und einem großen kosmischen Plan in Verbindung.</item>
+				<item id="7">Ich verliere mich oft in meinen Gedanken und blende die Umgebung einfach aus.</item>
+				<item id="8">Ich arbeite an einer großen philosophischen Abhandlung und liebe es, meine Ideen mitzuteilen.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Höheres Ziel. Meine Talente sollen allen zuteilwerden und sind nicht für meinen eigenen Vorteil gedacht. (gut)</item>
+				<item id="2">Logik. Gefühle dürfen nicht unseren Sinn für das Richtige und Wahre vernebeln oder uns am logischen Denken hindern. (rechtschaffen)</item>
+				<item id="3">Freies Denken. Neugier und Wissensdurst sind die Pfeiler des Fortschritts. (chaotisch)</item>
+				<item id="4">Macht. Einsamkeit und Kontemplation sind der Weg zu mystischer oder magischer Macht. (böse)</item>
+				<item id="5">Leben und leben lassen. Sich in die Angelegenheiten anderer einzumischen, verursacht nur Probleme. (neutral)</item>
+				<item id="6">Selbsterkenntnis. Wenn du dich selbst erkennst, brauchst du nichts anderes mehr zu wissen. (jede)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">Nichts ist mir wichtiger als andere Mitglieder aus meiner Einsiedelei, meinem Orden oder meiner Gemeinschaft.</item>
+				<item id="2">Ich bin Einsiedler geworden, um jenen zu entgehen, die Jagd auf mich machten und dies wohl noch immer tun. Eines Tages werde ich mich ihnen entgegenstellen.</item>
+				<item id="3">Ich suche noch immer nach der Erleuchtung, die ich mir von meinem Leben als Einsiedler erhofft hatte, doch die mir bis jetzt verwehrt blieb.</item>
+				<item id="4">Ich bin Einsiedler geworden, weil ich jemanden liebte, der diese Liebe nicht teilte.</item>
+				<item id="5">Sollte meine Entdeckung ans Tageslicht kommen, könnte ich die ganze Welt ins Verderben stürzen.</item>
+				<item id="6">Meine Isolation hat mir ein umfassendes Verständnis eines Übels gebracht, das nur ich zerstören kann.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">Jetzt, da ich in die Welt zurückgekehrt bin, erfreue ich mich etwas zu sehr an deren Annehmlichkeiten.</item>
+				<item id="2">Ich trage dunkle, blutrünstige Gedanken in mir, die meine Isolation und meine Meditation nicht ausmerzen konnten.</item>
+				<item id="3">Ich bin dogmatisch in meinen Gedanken und meiner Philosophie.</item>
+				<item id="4">Mein Verlangen, Diskussionen zu gewinnen, trübt die Harmonie und die Freundschaft.</item>
+				<item id="5">Ich bin bereit, alles zu riskieren, um ein bestimmtes Wissen zu enthüllen.</item>
+				<item id="6">Ich mag es, Geheimnisse zu bewahren, und teile sie mit niemandem.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Merkmal: Entdeckung" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_DISCOVERY">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Die ruhige Abgeschiedenheit deines langen Eremitentums hat dir zu einer einzigartigen und machtvollen Entdeckung verholfen. Ihre genaue Art hängt von der Beschaffenheit deiner abgeschiedenen Lebensweise ab. Du könntest eine große Wahrheit über den Kosmos erkannt haben, über die Götter, über die mächtigen Wesen auf anderen Ebenen oder über die Naturkräfte. Vielleicht handelt es sich auch um einen Ort, den noch niemand zuvor gesehen hat. Oder du hast Wissen entdeckt, das schon lange in Vergessenheit geraten war, oder ein Relikt aus alten Zeiten ausgegraben, das die Geschichtsschreibung für immer verändert. Es könnte eine Information sein, die jenen zu schaden vermag, die dich ins Exil geschickt haben, und die folglich der Grund für deine Rückkehr in die Gesellschaft ist.</p>
+			<p class="indent">Setze dich mit deinem SL zusammen und legt gemeinsam die Einzelheiten deiner Entdeckung fest sowie deren Einfluss auf die Kampagne.</p>
+		</description>
+		<sheet alt="Entdeckung">
+			<description>Die ruhige Abgeschiedenheit deines langen Eremitentums hat dir zu einer einzigartigen und machtvollen Entdeckung verholfen. Ihre genaue Art hängt von der Beschaffenheit deiner abgeschiedenen Lebensweise ab. Du könntest eine große Wahrheit über den Kosmos erkannt haben, über die Götter, über die mächtigen Wesen auf anderen Ebenen oder über die Naturkräfte. Vielleicht handelt es sich auch um einen Ort, den noch niemand zuvor gesehen hat. Oder du hast Wissen entdeckt, das schon lange in Vergessenheit geraten war, oder ein Relikt aus alten Zeiten ausgegraben, das die Geschichtsschreibung für immer verändert. Es könnte eine Information sein, die jenen zu schaden vermag, die dich ins Exil geschickt haben, und die folglich der Grund für deine Rückkehr in die Gesellschaft ist.</description>
+		</sheet>
+	</element>
+</elements>

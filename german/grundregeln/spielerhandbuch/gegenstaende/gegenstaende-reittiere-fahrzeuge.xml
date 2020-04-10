@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Reittiere &amp; Fahrzeuge</name>
+		<description></description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.3">
+			<file name="gegenstaende-reittiere-fahrzeuge.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/gegenstaende/gegenstaende-reittiere-fahrzeuge.xml" />
+		</update>
+	</info>
+
+	<element name="Kamel" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CAMEL">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 15 m<br/><strong><em>Traglast.</em></strong> 480 lb.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">50</set>
+   		<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="type">Mount</set>
+		</setters>
+	</element>
+	<element name="Esel" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_DONKEY">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 12 m<br/><strong><em>Traglast.</em></strong> 420 lb.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">8</set>
+   		<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="type">Mount</set>
+		</setters>
+	</element>
+	<element name="Maultier" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_MULE">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 12 m<br/><strong><em>Traglast.</em></strong> 420 lb.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">8</set>
+   		<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="type">Mount</set>
+		</setters>
+	</element>
+	<element name="Elefant" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ELEPHANT">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 12 m<br/><strong><em>Traglast.</em></strong> 1320 lb.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">200</set>
+   		<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="type">Mount</set>
+		</setters>
+	</element>
+	<element name="Pferd, Zug-" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_HORSE_DRAFT">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 12 m.<br/><strong><em>Traglast.</em></strong> 480 lb.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">50</set>
+   		<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="type">Mount</set>
+		</setters>
+	</element>
+	<element name="Pferd, Reit-" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_HORSE_RIDING">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 18 m<br/><strong><em>Traglast.</em></strong> 480 lb.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">75</set>
+	   	<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="type">Mount</set>
+		</setters>
+	</element>
+	<element name="Mastiff" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_MASTIFF">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 12 m<br/><strong><em>Traglast.</em></strong> 195 lb.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">25</set>
+   		<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="type">Mount</set>
+		</setters>
+	</element>
+	<element name="Pony" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_PONY">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 12 m<br/><strong><em>Traglast.</em></strong> 225 lb.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">30</set>
+   		<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="type">Mount</set>
+		</setters>
+	</element>
+	<element name="Schlachtroß" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_WARHORSE">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 18 m.<br/><strong><em>Traglast.</em></strong> 540 lb.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">400</set>
+	   	<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="type">Mount</set>
+		</setters>
+	</element>
+	<element name="Rossharnisch" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BARDING">
+		<description>
+			<p>Hierbei handelt es sich um eine Rüstung, die dafür entworfen wurde, Kopf, Nacken, Brust und Körper eines Reittieres zu schützen. Jede Art von Rüstung, die in der Rüstungstabelle aufgeführt ist, kann als Rossharnisch angefertigt werden. Die Kosten entsprechen dem vierfachen Preis für Humanoide und das Gewicht ist doppelt so hoch. Nicht nur Pferde können einen Rossharnisch tragen.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+		</setters>
+	</element>
+	<element name="Geschirr und Zaumzeug" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_BIT_AND_BRIDLE">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="1" excludeEncumbrance="true">1 lb.</set>
+		</setters>
+	</element>
+	<element name="Kutsche" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CARRIAGE">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="600" excludeEncumbrance="true">600 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Karren" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CART">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">15</set>
+	  	<set name="weight" lb="200" excludeEncumbrance="true">200 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Streitwagen" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_CHARIOT">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="weight" lb="100" excludeEncumbrance="true">100 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Futter (pro Tag)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_FEED_PER_DAY">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="10" excludeEncumbrance="true">10 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Sattel, Exotisch" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SADDLE_EXOTIC">
+		<description>
+			<p>Ein exotischer Sattel wird zum Reiten von fliegenden oder Wasserreittieren benötigt.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">60</set>
+	  	<set name="weight" lb="40" excludeEncumbrance="true">40 lb.</set>
+		</setters>
+	</element>
+	<element name="Sattel, Militär-" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SADDLE_MILITARY">
+		<description>
+			<p>Ein Militärsattel stützt den Reiter und hilft ihm dabei, während des Kampfes auf einem Reittier nicht hinunterzufallen. Du bist im Vorteil bei Würfen, um im Sattel zu bleiben.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="30" excludeEncumbrance="true">30 lb.</set>
+		</setters>
+	</element>
+	<element name="Sattel, Pack-" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SADDLE_PACK">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="15" excludeEncumbrance="true">15 lb.</set>
+		</setters>
+	</element>
+	<element name="Sattel, Reit-" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SADDLE_RIDING">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="25" excludeEncumbrance="true">25 lb.</set>
+		</setters>
+	</element>
+	<element name="Satteltaschen" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SADDLEBAGS">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">4</set>
+			<set name="weight" lb="8" excludeEncumbrance="true">8 lb.</set>
+		</setters>
+	</element>
+	<element name="Schlitten" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SLED">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="300" excludeEncumbrance="true">300 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Stallung (pro Tag)" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_STABLING">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Wagen" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_WAGON">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">35</set>
+			<set name="weight" lb="400" excludeEncumbrance="true">400 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Galeere" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_GALLEY">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 6 km/h</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">30000</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Kielboot" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_KEELBOAT">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 1,5 km/h</p>
+			<p>Kielboote und Ruderboote werden auf Seen und Flüssen eingesetzt. Wenn du flussabwärts fährst, kannst du die Geschwindigkeit der Strömung beim Bestimmen des Reisetempos des Fahrzeugs mit einrechnen (typischerweise 4,5 km pro Stunde). Mit diesen Booten kann man nicht flussaufwärts rudern, wenn eine erwähnenswerte Strömung besteht, doch können sie von Tieren am Ufer in diese Richtung gezogen werden. Ein Ruderboot wiegt 100 Pfund, für den Fall, dass Abenteurer es über Land tragen müssen.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">3000</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Langboot" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_LONGSHIP">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 4,5 km/h</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">10000</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Ruderboot" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_ROWBOAT">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 2,25 km/h</p>
+			<p>Kielboote und Ruderboote werden auf Seen und Flüssen eingesetzt. Wenn du flussabwärts fährst, kannst du die Geschwindigkeit der Strömung beim Bestimmen des Reisetempos des Fahrzeugs mit einrechnen (typischerweise 4,5 km pro Stunde). Mit diesen Booten kann man nicht flussaufwärts rudern, wenn eine erwähnenswerte Strömung besteht, doch können sie von Tieren am Ufer in diese Richtung gezogen werden. Ein Ruderboot wiegt 100 Pfund, für den Fall, dass Abenteurer es über Land tragen müssen.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Segelschiff" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_SAILING_SHIP">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 3 km/h</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">10000</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Kriegsschiff" type="Item" source="Spielerhandbuch" id="ID_WOTC_PHB_ITEM_WARSHIP">
+		<description>
+			<p><strong><em>Bewegungsrate.</em></strong> 3,75 km/h</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">25000</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">0 lb.</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+</elements>

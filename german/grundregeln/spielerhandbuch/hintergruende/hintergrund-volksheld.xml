@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Volksheld</name>
+		<description>Der Hintergrund Volksheld aus dem Spielerhandbuch</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.6">
+			<file name="hintergrund-volksheld.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-volksheld.xml" />
+		</update>
+	</info>
+
+	<element name="Volksheld" type="Background" source="Spielerhandbuch" id="ID_BACKGROUND_FOLK_HERO">
+		<description>
+			<p>Du kommst aus einer bescheidenen sozialen Schicht, doch bist für so viel Größeres bestimmt. Die Bevölkerung deines Heimatorts sieht dich bereits als ihren Helden, und dein Schicksal verlangt danach, dass du dich Tyrannen und Monstern stellst, überall dort, wo sie das gemeine Volk bedrohen.</p>
+			<ul class="unstyled">
+				<li><strong>Geübt in folgenden Fertigkeiten:</strong> Mit Tieren umgehen, Überlebenskunst</li>
+				<li><strong>Geübt im Umgang mit folgenden Werkzeugen:</strong> ein Handwerkszeug deiner Wahl, Fahrzeuge (Land)</li>
+				<li><strong>Ausrüstung:</strong> ein Satz Handwerkszeug (deiner Wahl), eine Schaufel, ein Eisentopf, ein Satz gewöhnlicher Kleidung, eine Börse mit 10 GM</li>
+			</ul>
+			<h5>PRÄGENDES EREIGNIS</h5>
+			<p>Früher bist du einem einfachen Beruf nachgegangen wie zum Beispiel Bauer, Minenarbeiter, Diener, Schäfer, Holzfäller oder Totengräber. Doch es ist etwas passiert, das dich auf einen anderen Weg geführt hat und dich für Größeres bestimmt. Suche dir ein prägendes Ereignis aus oder bestimme es zufällig, um festzulegen, was dich zum Helden gemacht hat.</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">W10</td><td>Prägendes Ereignis</td></tr>
+				</thead>
+				<tr><td>1</td><td>Ich lehnte mich gegen einen Abgesandten des Tyrannen auf.</td></tr>
+				<tr><td>2</td><td>Ich rettete mehrere Anwohner bei einer Naturkatastrophe.</td></tr>
+				<tr><td>3</td><td>Ich besiegte allein ein schreckliches Monster.</td></tr>
+				<tr><td>4</td><td>Ich bestahl einen korrupten Kaufmann, um den Armen zu helfen.</td></tr>
+				<tr><td>5</td><td>Ich führte eine Miliz an und wehrte eine einfallende Streitmacht ab.</td></tr>
+				<tr><td>6</td><td>Ich brach in das Schloss des Tyrannen ein und stahl Waffen, um das Volk für den Kampf auszurüsten.</td></tr>
+				<tr><td>7</td><td>Ich brachte den Bauern bei, wie sie ihre Werkzeuge als Waffen gegen die Soldaten des Tyrannen einsetzen können.</td></tr>
+				<tr><td>8</td><td>Ein Graf nahm ein unbeliebtes Gesetz zurück, nachdem ich einen symbolischen Akt des Protests dagegen veranstaltete.</td></tr>
+				<tr><td>9</td><td>Ein himmlisches Wesen, eine Fee oder eine ähnliche Kreatur segnete mich oder offenbarte mir meine wahre Abstammung.</td></tr>
+				<tr><td>10</td><td>In die Armee meines Herrschers einberufen, übernahm ich in der Schlacht die Führung meiner Einheit und wurde für meinen Heldenmut gelobt.</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_RUSTIC_HOSPITALITY" />
+			<h5>EMPFOHLENE CHARAKTERISTIKA</h5>
+			<p>Ein Volksheld ist ein gewöhnlicher Bürger, mit allen dazugehörigen Vor- und Nachteilen. Die meisten Volksheiden betrachten ihre bescheidene Herkunft als Stärke, nicht als Unzulänglichkeit, und ihre Heimatgemeinde bleibt ihnen sehr wichtig.</p>
+		</description>
+		<setters>
+			<set name="short">Mit Tieren umgehen, Überlebenskunst, Handwerkszeug, Fahrzeuge (Land)</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_RUSTIC_HOSPITALITY" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Feature" name="Merkmalvariante" supports="Optional Background Feature" optional="true" />
+			<select type="Proficiency" name="Handwerkszeug (Volksheld)" supports="Artisan tools" />
+			<select name="Prägendes Ereignis" type="List">
+				<item id="1">Ich lehnte mich gegen einen Abgesandten des Tyrannen auf.</item>
+				<item id="2">Ich rettete mehrere Anwohner bei einer Naturkatastrophe.</item>
+				<item id="3">Ich besiegte allein ein schreckliches Monster.</item>
+				<item id="4">Ich bestahl einen korrupten Kaufmann, um den Armen zu helfen.</item>
+				<item id="5">Ich führte eine Miliz an und wehrte eine einfallende Streitmacht ab.</item>
+				<item id="6">Ich brach in das Schloss des Tyrannen ein und stahl Waffen, um das Volk für den Kampf auszurüsten.</item>
+				<item id="7">Ich brachte den Bauern bei, wie sie ihre Werkzeuge als Waffen gegen die Soldaten des Tyrannen einsetzen können.</item>
+				<item id="8">Ein Graf nahm ein unbeliebtes Gesetz zurück, nachdem ich einen symbolischen Akt des Protests dagegen veranstaltete.</item>
+				<item id="9">Ein himmlisches Wesen, eine Fee oder eine ähnliche Kreatur segnete mich oder offenbarte mir meine wahre Abstammung.</item>
+				<item id="10">In die Armee meines Herrschers einberufen, übernahm ich in der Schlacht die Führung meiner Einheit und wurde für meinen Heldenmut gelobt.</item>
+			</select>
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">Ich beurteile jeden nach seinen Taten, nicht seinen Worten.</item>
+				<item id="2">Ist jemand in Schwierigkeiten, bin ich immer zu helfen bereit.</item>
+				<item id="3">Wenn ich mir etwas vornehme, ziehe ich es durch. Komme, was wolle!</item>
+				<item id="4">Ich besitze einen ausgeprägten Sinn für Gerechtigkeit und versuche bei Streitigkeiten stets, die ausgeglichenste Lösung zu finden.</item>
+				<item id="5">Ich vertraue auf mein Können und tue, was in meiner Macht steht, um dieses Vertrauen auch in anderen zu erwecken.</item>
+				<item id="6">Denken überlasse ich anderen. Ich bevorzuge das Handeln.</item>
+				<item id="7">Ich verwende komplizierte Wörter auf die falsche Weise bei dem Versuch, gebildet zu klingen.</item>
+				<item id="8">Mir wird schnell langweilig. Wann geht es mit meiner Bestimmung voran?</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Respekt. Jeder verdient es, mit Respekt und Ehrfurcht behandelt zu werden. (gut)</item>
+				<item id="2">Gerechtigkeit. Keiner sollte durch das Gesetz bevorzugt behandelt werden, und niemand steht über dem Gesetz. (rechtschaffen)</item>
+				<item id="3">Freiheit. Tyrannen darf es nicht erlaubt sein, das Volk zu unterdrücken. (chaotisch)</item>
+				<item id="4">Macht. Wenn ich stark werde, kann ich mir nehmen, was ich will — was mir zusteht. (böse)</item>
+				<item id="5">Aufrichtigkeit. Es ist nichts Gutes daran, wenn man vorgibt, etwas zu sein, was man nicht ist. (neutral)</item>
+				<item id="6">Schicksal. Nichts und niemand kann mich von meiner höheren Berufung abbringen. (jede)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">Ich habe eine Familie, doch weiß nicht, wo sie ist. Ich hoffe, sie eines Tages wiederzusehenn.</item>
+				<item id="2">Ich habe das Land mit eigenen Händen bestellt und es mit Blut und Schweiß gedüngt. Ich liebe das Land, und ich werde es beschützen.</item>
+				<item id="3">Ein stolzer Adeliger ließ mir einst eine Tracht Prügel verpassen. Ich habe geschworen, an jedem Rüpel Rache zu nehmen, dem ich begegne.</item>
+				<item id="4">Meine Werkzeuge sind die Symbole meines bisherigen Lebens und ich trage sie bei mir, damit ich niemals vergesse, wo ich herkomme.</item>
+				<item id="5">Ich beschütze jene, die sich nicht selbst beschützen können.</item>
+				<item id="6">Ich wünschte, meine Jugendliebe wäre mit mir gekommen, um meiner Bestimmung zu folgen.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">Der Tyrann, der mein Land beherrscht, wird vor nichts zurückschrecken, um meinen Tod herbeizuführen.</item>
+				<item id="2">Ich bin von der Wichtigkeit meines Schicksals überzeugt und sowohl blind für meine Unzulänglichkeiten als auch vor der Gefahr zu scheitern.</item>
+				<item id="3">Alle, die mich seit meiner Kindheit kennen, wissen von meinem beschämenden Geheimnis. Daher kann ich niemals nach Hause zurückkehren.</item>
+				<item id="4">Ich habe eine Schwäche für die Laster der Stadt, besonders für harten Alkohol.</item>
+				<item id="5">Insgeheim glaube ich daran, dass alles besser wäre, wenn ich als Alleinherrscher das Land regieren würde.</item>
+				<item id="6">Mir fällt es sehr schwer, meinen Verbündeten zu vertrauen.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Merkmal: Rustikale Gastfreundschaft" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_RUSTIC_HOSPITALITY">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Da du aus den Reihen des gemeinen Volkes stammst, hast du ihren Respekt und ihre Unterstützung. Die einfache Bevölkerung wird dir immer einen Ort zum Untertauchen, zum Rasten oder zur Genesung zur Verfügung stellen, außer du hast dich als Gefahr für sie erwiesen. Sie wird dich vor dem Gesetz oder jedem anderen beschützen, der nach dir sucht, jedoch wird niemand sein Leben für dich aufs Spiel setzen.</p>
+		</description>
+		<sheet alt="Rustikale Gastfreundschaft" />
+	</element>
+</elements>

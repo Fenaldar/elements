@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Halbork</name>
+		<description></description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.1">
+			<file name="volk-halbork.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-halbork.xml" />
+		</update>
+	</info>
+
+  <element name="Halbork" type="Race" source="Spielerhandbuch" id="ID_RACE_HALFORC">
+    <description>
+      <p class="flavor">Ob unter der Führung eines mächtigen Kriegsherren vereint oder nach jahrelangen Konflikten einen Waffenstillstand aushandelnd, bilden die Stämme der Orks und der Menschen zuweilen Allianzen, deren gebündelte Kraft sie zum Schrecken für die nahegelegenen zivilisierten Länder macht. Aus Allianzen, die durch Heirat besiegelt werden, gehen Halborks hervor. Manche von ihnen wachsen zu stolzen Anführern von Orkstämmen heran, wobei ihr menschliches Blut ihnen oft einen Vorsprung gegenüber ihren vollblütigen Orkrivalen verschafft. Andere wagen sich in die Welt hinaus, um ihren Wert bei den Menschen und anderen zivilisierten Völkern unter Beweis zu stellen. Viele werden zu Abenteurern. die Ruhm durch ihre mächtigen Taten erlangen und aufgrund ihrer barbarischen Gebräuche und wilden Raserei gefürchtet sind.</p>
+      <h4>NARBENÜBERSÄT UND STARK</h4>
+      <p>Die gräuliche Pigmentierung der Halborks, ihre geschwungene Stirn, ihre breiten Kiefer, die hervorstehenden Zähne und ihre hünenhafte Gestalt lassen jedermann die orkische Abstammung deutlich erkennen. Sie sind zwischen 150 cm und 210 cm groß und wiegen meist um die 180-250 Pfund. Orks sehen Narben, die sie durch Kämpfe erhalten haben, als Trophäen an und erachten Ziernarben als schön. Jedoch können andere Narben einen Ork oder Halbork auch als ehemaligen Sklaven oder als in Ungnade gefallenen Verbannten brandmarken. Jeder Halbork, der unter Orks aufgewachsen ist oder in ihrer Nähe gelebt hat, besitzt Narben, seien es nun Zeichen von Demütigung oder des Stolzes. Lebt ein solcher Halbork unter Menschen, könnte er seine Narben mit Stolz zeigen oder sie aus Scham versteckt halten.</p>
+      <h4>DAS ZEICHEN VON GRUUMSH</h4>
+      <p>Der einäugige Gott Gruumsh erschuf die Orks, und selbst diejenigen, die ihn nicht verehren, können sich seinem Einfluss nicht entziehen. Das Gleiche gilt für Halborks, auch wenn ihr menschliches Blut die Auswirkung ihrer orkischen Abstammung etwas abmildert. Zu manchen flüstert Gruumsh im Traum und bestürmt sie, die Wut zu entfesseln, die in ihnen schlummert. Andere fühlen Gruumshs Jubel, wenn sie sich auf einen Nahkampf einlassen. und erbeben mit ihm oder schaudern vor Angst und Schrecken. Halborks sind nicht von Natur aus böse, doch das Böse lauert in ihnen, ob sie es nun annehmen oder sich dagegen auflehnen.</p>
+      <p class="indent">Nicht nur die Wut von Gruumsh, auch alle anderen Gefühle durchlebt ein Halbork sehr stark. Wut lässt nicht bloß seinen Puls in die Höhe schnellen, sie lässt seinen Körper brennen. Eine Beleidigung ätzt wie Säure und Traurigkeit reißt ihn in tiefe Schwermut. Doch kann er auch laut und herzlich lachen, und einfache körperliche Freuden wie Essen, Trinken, Ringen. Trommeln und wildes Tanzen erfüllen sein Herz mit überschwänglicher Freude. Halborks neigen dazu, ungeduldig, aufbrausend und manchmal mürrisch zu sein. Im Allgemeinen fühlen sie sich mehr zur Tat als zum Nachdenken hingezogen und ziehen das Kämpfen dem Diskutieren vor. Die erfolgreichsten Halborks sind jene, die genügend Selbstkontrolle aufbringen, um das Leben in einem zivilisierten Land zu meistern.</p>
+      <h4>STÄMME UND ELENDSVIERTEL</h4>
+      <p>Am häufigsten leben Halborks unter Orks. Von den anderen Völkern akzeptieren die Menschen sie am ehesten in ihrer Mitte. Wenn ein Halbork sein Leben nicht bei den Orkstämmen verbringt, findet man ihn also höchstwahrscheinlich in den Ländern der Menschen. Ob sie sich unter rauen Barbaren beweisen müssen oder in den Elendsvierteln einer großen Stadt ums Überleben kämpfen, so verlassen sich Halborks doch meist auf ihre körperliche Uberlegenheit, ihre Ausdauer und jene pure Entschlossenheit, die sie von ihren menschlichen Vorfahren geerbt haben.</p>
+      <h4>NAMEN DER HALBORKS</h4>
+      <p>Halborks tragen für gewöhnlich einen Namen, der an die Kultur angepasst ist, in der sie aufwachsen. Möchte ein Halbork unter Menschen leben, könnte er seinen orkischen Namen ablegen und einen menschlichen annehmen. Manche Halborks mit menschlichem Namen tauschen diesen gegen einen kehlig klingenden orkischen Namen, da sie denken, dass dieser sie einschüchternder wirken lässt.</p>
+      <p>
+        <span class="emphasis">Männliche Orknamen:</span>Dench, Feng, Gell, Henk, Holg, Imsh, Keth, Krusk, Mhurren, Ront, Shump, Thokk<br/>
+        <span class="emphasis">Weibliche Orknamen:</span>Baggi, Emen. Engong, Kansif, Myev, Neega, Ovak, Ownka, Shautha, Sutha, Vola, Volen, Yevelda<br/>
+      </p>
+      <h4>MERKMALE DER HALBORKS</h4>
+      <p>Dein Halborkcharakter besitzt bestimmte Eigenschaften, die sich aus seiner orkischen Abstammung ergeben.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Stärkewert wird um 2 Punkte erhöht, dein Konstitutionswert um 1 Punkt.<br />
+        <span class="feature">Alter:</span>Halborks sind etwas schneller ausgewachsen als Menschen, sie erreichen das Erwachsenenalter mit etwa 14 Jahren. Ihre Lebenserwartung ist jedoch auch deutlich geringer, selten werden sie älter als 75 Jahre.<br />
+        <span class="feature">Gesinnung:</span>Halborks wohnt eine Tendenz zum Chaos inne. die auf ihr orkisches Elternteil zurückzuführen ist. Sie fühlen sich nicht sonderlich zum Guten hingezogen. Diejenigen, die unter Orks aufwachsen und gewillt sind, bei ihnen zu leben, sind meist böse.<br />
+        <span class="feature">Größe:</span>Halborks sind etwas größer und stämmiger als Menschen und reichen von 150 cm bis weit über 180 cm hinaus. Deine Größenkategorie ist mittelgroß.<br />
+        <span class="feature">Bewegungsrate:</span>Deine Grundbewegungsräte beträgt 9 m.<br />
+        <span class="feature">Dunkelsicht:</span>Dank deines orkischen Blutes kannst du hervorragend in der Dunkelheit und in dämmrigem Licht sehen. Behandle im Umkreis von 18 m dämmriges Licht wie helles Licht und Dunkelheit wie dämmriges Licht. Allerdings kannst du im Dunkeln keine Farben erkennen, nur Graustufen.<br />
+        <span class="feature">Bedrohlich:</span>Du bist geübt in der Fertigkeit Einschüchtern.<br />
+        <span class="feature">Durchhaltevermögen:</span>Wenn deine Trefferpunkte auf 0 fallen und du nicht stirbst, darfst du sie auf 1 setzen. Diese Fähigkeit kannst du erst nach einer langen Rast erneut verwenden.<br />
+        <span class="feature">Wilde Angriffe:</span>Erzielst du einen kritischen Treffer mit einer Nahkampfwaffe, kannst du einen der Schadenswürfel der Waffe erneut würfeln und das Ergebnis zum Zusatzschaden des kritischen Treffers addieren.<br />
+        <span class="feature">Sprachen:</span>Du kannst sowohl Orkisch als auch die Gemeinsprache lesen, schreiben und sprechen. Orkisch ist eine raue, kratzig klingende Sprache mit harten Konsonanten. Sie besitzt keine eigenen Schriftzeichen und wird daher in zwergischen Zeichen geschrieben.<br />
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Dench, Feng, Gell, Henk, Holg, Imsh, Keth, Krusk, Mhurren, Ront, Shump, Thokk</set>
+      <set name="names" type="female">Baggi, Emen, Engong, Kansif, Myev, Neega, Ovak, Ownka, Shautha, Sutha, Vola, Volen, Yevelda</set>
+      <set name="names-format">{{name}}</set>
+      <set name="height" modifier="2d10">4'10"</set>
+      <set name="weight" modifier="2d6">140 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strength" value="2"/>
+      <stat name="constitution" value="1"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_ORC" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MENACING" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_RELENTLESS_ENDURANCE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SAVAGE_ATTACKS" />
+    </rules>
+  </element>
+
+  <element name="Bedrohlich" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_MENACING">
+    <description>
+      <p>Du bist geübt in der Fertigkeit Einschüchtern.</p>
+    </description>
+    <sheet display="false">
+      <description>Du bist geübt in der Fertigkeit Einschüchtern.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+    </rules>
+  </element>
+  <element name="Durchhaltevermögen" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_RELENTLESS_ENDURANCE">
+    <description>
+      <p>Wenn deine Trefferpunkte auf 0 fallen und du nicht stirbst, darfst du sie auf 1 setzen. Diese Fähigkeit kannst du erst nach einer langen Rast erneut verwenden.</p>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description>Wenn deine Trefferpunkte auf 0 fallen und du nicht stirbst, darfst du sie auf 1 setzen.</description>
+    </sheet>
+  </element>
+  <element name="Wilde Angriffe" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_SAVAGE_ATTACKS">
+    <description>
+      <p>Erzielst du einen kritischen Treffer mit einer Nahkampfwaffe, kannst du einen der Schadenswürfel der Waffe erneut würfeln und das Ergebnis zum Zusatzschaden des kritischen Treffers addieren.</p>
+    </description>
+    <sheet>
+      <description>Erzielst du einen kritischen Treffer mit einer Nahkampfwaffe, kannst du einen der Schadenswürfel der Waffe erneut würfeln und das Ergebnis zum Zusatzschaden des kritischen Treffers addieren.</description>
+    </sheet>
+  </element>
+</elements>

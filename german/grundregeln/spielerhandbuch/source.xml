@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.2">
+			<file name="source.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/source.xml" />
+		</update>
+	</info>
+	<element name="Spielerhandbuch" type="Source" source="Grundregeln" id="ID_WOTC_SOURCE_PLAYERS_HANDBOOK">
+		<description>
+			<![CDATA[<p><strong>Alles was ein Spieler braucht, um heldenhafte Charaktere für das größte Rollenspiel der Welt zu erschaffen.</strong></p>
+			<p>Das Spielerhandbuch ist das essentielle Nachschlagewerk für jeden Spieler von Dungeons &amp; Dragons®. Es enthält Regeln zur Erschaffung und Entwicklung von Charakteren, Hintergründe und Fertigkeiten, Erforschung und Kampf, Ausrüstung, Zauber und vieles mehr. Verwende dieses Buch, um spannende Charaktere mit den ikonischsten aller Völker und Klassen aus D&amp;D® zu erschaffen.</p>
+			<p>Dungeons &amp; Dragons® ist euer Einstieg in eine Welt der Abenteuer. Erkundet uralte Ruinen und tödliche Kerker. Kämpft gegen Monster, während ihr nach legendären Schätzen sucht. Sammelt Erfahrung und Macht, während ihr mit euren Gefährten durch unerforschte Lande zieht.</p><p>Die Welt braucht Helden. Werdet ihr dem Ruf folgen?</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">PHB</set>
+			<set name="url">https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/</set>
+			<set name="image">https://www.f-shop.de/media/image/c9/7e/e4/9781945625312_0008.JPG</set>
+			<!-- <set name="errata">http://media.wizards.com/2018/dnd/downloads/PH-Errata.pdf</set> -->
+			<set name="author" abbreviation="WOTC" url="https://ulisses-spiele.de/spielsysteme/dungeon-and-dragons/">Ulisses Spiele</set>
+			<set name="official">true</set>
+			<set name="core">true</set>
+			<set name="release">20190131</set>
+		</setters>
+	</element>
+</elements>

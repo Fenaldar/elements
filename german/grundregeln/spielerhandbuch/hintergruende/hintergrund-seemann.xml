@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Seemann</name>
+		<description>Der Hintergrund Seemann aus dem Spielerhandbuch</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.6">
+			<file name="hintergrund-seemann.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-seemann.xml" />
+		</update>
+	</info>
+
+	<element name="Seemann" type="Background" source="Spielerhandbuch" id="ID_BACKGROUND_SAILOR">
+		<description>
+			<p>Du bist jahrelang auf einem meerestauglichen Schiff gesegelt. In dieser Zeit hast du mächtigen Stürmen, Monstern aus der Tiefe und Gegnern getrotzt, die dein Boot auf den Grund des Meeres schicken wollten. Deine erste Liebe war der unerreichbare Horizont, doch die Zeit ist gekommen, um dich an etwas Neuem zu versuchen. Lege gemeinsam mit dem SL die Art des Schiffes fest, mit dem du gesegelt bist. War es eine Handelskogge, ein Erkundungsschiff, ein Marineboot oder eine Piratenschaluppe? Wie berühmt (oder berüchtigt) ist es? Ist es weit herumgekommen? Ging es mit Mann und Maus unter, wird es vermisst oder fährt es noch?</p>
+			<p class="indent">Was waren deine Pflichten an Bord? Warst du Ausguck, Kapitän, Navigator, Koch oder in einer anderen Position? Wer waren dein Kapitän und dein erster Maat? Hast du deine Mannschaft im Guten verlassen oder bist du vor ihnen auf der Flucht?</p>
+			<ul class="unstyled">
+				<li> <strong>Geübt in folgenden Fertigkeiten:</strong> Athletik, Wahrnehmung</li>
+				<li> <strong>Geübt im Umgang mit folgenden Werkzeugen:</strong> Navigationswerkzeuge, Fahrzeuge (Wasser)</li>
+				<li> <strong>Ausrüstung:</strong> ein Belegnagel (Knüppel), 15 m Seidenseil, ein Glücksbringer wie eine Hasenpfote oder ein kleiner Stein mit einem Loch in der Mitte (oder du würfelst auf die Tand-Tabelle in Kapitel 5 „Ausrüstung"), ein Satz gewöhnliche Kleidung, eine Börse mit 10 GM</li>
+			</ul>
+			<div element="ID_WOTC_PHB_BACKGROUND_FEATURE_SAILOR_SHIPS_PASSAGE" />
+			<h5>EMPFOHLENE CHARAKTERISTIKA</h5>
+			<p>Seemänner können ein grober Haufen sein, doch die gegenseitige Verantwortung füreinander, die das Leben auf See mit sich bringt, macht sie für gewöhnlich auch sehr zuverlässig. Der Alltag an Bord eines Schiffes prägt ihre Ansichten und formt ihre wichtigsten Freundschaften.</p>
+			<div element="ID_WOTC_PHB_BACKGROUND_VARIANT_SAILOR_PIRATE" />
+			<div element="ID_WOCT_PHB_BACKGROUND_FEATURE_PIRATE_BAD_REPUTATION" />
+		</description>
+		<setters>
+			<set name="short">Athletik, Wahrnehmung, Navigationswerkzeuge, Fahrzeuge (Wasser)</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER" />
+			<grant type="Background Feature" id="ID_WOTC_PHB_BACKGROUND_FEATURE_SAILOR_SHIPS_PASSAGE" requirements="!ID_WOCT_PHB_BACKGROUND_FEATURE_PIRATE_BAD_REPUTATION,!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variante des Seemanns" supports="Background Variant, Sailor" optional="true" />
+			<select type="Background Feature" name="Merkmalvariante" supports="Background Feature, Sailor || Optional Background Feature" optional="true" />
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">Meine Freunde können sich auf mich verlassen. Komme, was wolle!</item>
+				<item id="2">Ich arbeite hart, damit ich ordentlich feiern kann, wenn die Arbeit getan ist.</item>
+				<item id="3">Ich genieße es, in neue Häfen einzulaufen und neue Freunde bei einer Flasche Ale zu finden.</item>
+				<item id="4">Ich verbiege die Wahrheit, um eine richtig gute Geschichte erzählen zu können.</item>
+				<item id="5">Eine Kneipenschlägerei ist für mich eine grandiose Möglichkeit, eine neue Stadt kennenzulernen.</item>
+				<item id="6">Ich kann keine freundschaftliche Wette ausschlagen.</item>
+				<item id="7">Meine Umgangsformen sind so dreckig wie das Nest eines Otyugh.</item>
+				<item id="8">Ich mag es, wenn eine Aufgabe ordentlich erledigt wird, besonders wenn ich jemanden dazu überreden kann, sie für mich zu erledigen.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Respekt. Das, was ein Schiff zusammenhält, ist der gegenseitige Respekt zwischen Mannschaft und Kapitän. (gut)</item>
+				<item id="2">Gerechtigkeit. Wir teilen uns die Arbeit, also teilen wir uns auch die Gewinne. (rechtschaffen)</item>
+				<item id="3">Freiheit. Auf dem Meer ist man frei: frei, überall hinzugehen und alles zu tun. (chaotisch)</item>
+				<item id="4">Überlegenheit. Ich bin ein Raubtier und die anderen Schiffe auf dem Meer sind meine Beute. (böse)</item>
+				<item id="5">Freundschaft. Ich bin meiner Mannschaft gegenüber verpflichtet, nicht moralischen Maßstäben. (neutral)</item>
+				<item id="6">Ehrgeiz. Eines Tages werde ich mein eigenes Schiff besitzen und meinem Schicksal entgegen segeln. (jede)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">An erster Stelle steht für mich die Treue zu meinem Kapitän, alles andere ist zweitrangig.</item>
+				<item id="2">Das Schiff ist das Wichtigste, Mannschaften und Kapitäne kommen und gehen.</item>
+				<item id="3">ich werde mein erstes Schiff immer in Erinnerung behalten.</item>
+				<item id="4">In einer Hafenstadt habe ich eine Liebschaft, deren Augen mich fast die Seefahrerei aufgeben ließen.</item>
+				<item id="5">Ich wurde um meinen gerechten Anteil betrogen, und ich will ihn zurückbekommen.</item>
+				<item id="6">Verwegene Piraten haben meinen Kapitän und meine Crew getötet, unser Schiff geplündert und mich zum Sterben zurückgelassen. Die Rache wird mein sein!</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">Ich folge Befehlen, auch wenn ich sie für falsch halte.</item>
+				<item id="2">Ich würde alles behaupten, um zusätzlicher Arbeit aus dem Weg zu gehen.</item>
+				<item id="3">Sobald jemand meinen Mut infrage stellt, hält mich nichts mehr zurück, gleichgültig wie gefährlich die Situation auch ist.</item>
+				<item id="4">Habe ich erst einmal angefangen zu trinken, vermag ich nicht mehr aufzuhören.</item>
+				<item id="5">Ich kann nichts dagegen tun: Ich muss jede lose Münze und anderen Tand einstecken, der mir in die Finger kommt.</item>
+				<item id="6">Mein Stolz wird mich eines Tages ins Verderben stürzen.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Merkmal: Schiffspassage" type="Background Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_BACKGROUND_FEATURE_SAILOR_SHIPS_PASSAGE">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Bei Bedarf kannst du deinen Abenteurergefährten und dir eine kostenlose Überfahrt auf einem Segelschiff sichern. Ihr könntet auf dem Boot mitreisen, auf dem du einst gedient hast, oder auf einem, zu dem du gute Kontakte unterhältst (weil es vielleicht von einem früheren Mannschaftsmitglied geführt wird). Da du für die Passage einen Gefallen einforderst, kannst du dir nicht sicher sein, dass der Zeitplan und die Route genau eingehalten werden und somit all deinen Anforderungen entsprechen. Dein SL bestimmt, wie lange es dauert, bis ihr an euer gewünschtes Ziel kommt. Als Gegenleistung für die Passage wird von deiner Gruppe und dir erwartet, dass ihr der Crew während der Reise zur Hand geht.</p>
+		</description>
+		<sheet alt="Schiffspassage" />
+	</element>
+
+	<element name="Variante des Seemanns: Pirat" type="Background Variant" source="Spielerhandbuch" id="ID_WOTC_PHB_BACKGROUND_VARIANT_SAILOR_PIRATE">
+		<supports>Background Variant, Sailor</supports>
+		<description>
+			<p>Du hast deine Jugend unter dem Befehl eines schrecklichen Piraten verbracht, eines ruchlosen Halsabschneiders, der dir beibrachte, wie man in einer Welt voller Haie und Wilder überlebt. Du genießt die Räuberei auf hoher See und hast mehr als nur eine Seele verdient in ihr feuchtes Grab geschickt. Das Verbreiten von Furcht und Vergießen von Blut sind dir nicht unbekannt, und du hast dir bereits einen gewissen Ruf in einigen Hafenstädten gemacht.</p>
+			<p class="indent">Wenn du während deiner Matrosenlaufbahn der Piraterie nachgegangen bist, kannst du das Merkmal Schiffspassage mit dem Merkmal Schlechte Reputation ersetzen (siehe Kasten).</p>
+		</description>
+		<sheet alt="Pirat" />
+	</element>
+
+	<element name="Merkmalvariante: Schlechte Reputation" type="Background Feature" source="Spielerhandbuch" id="ID_WOCT_PHB_BACKGROUND_FEATURE_PIRATE_BAD_REPUTATION">
+		<supports>Background Feature, Sailor</supports>
+		<description>
+			<p>Wenn dein Charakter den Hintergrund Seemann besitzt, kannst du dieses Merkmal statt des Merkmals Schiffspassage wählen.</p>
+			<p class="indent">Gleichgültig wo du hinkommst — die Leute haben wegen deines schlechten Rufes Angst vor dir. In einer zivilisierten Siedlung kannst du mit kleinen Straftaten ungestraft davonkommen, wie etwa Zechprellerei oder Ladendiebstahl, da die meisten Geschädigten sich nicht trauen, dich anzuzeigen.</p>
+		</description>
+		<sheet alt="Schlechte Reputation">
+			<description>Gleichgültig wo du hinkommst — die Leute haben wegen deines schlechten Rufes Angst vor dir. In einer zivilisierten Siedlung kannst du mit kleinen Straftaten ungestraft davonkommen, wie etwa Zechprellerei oder Ladendiebstahl, da die meisten Geschädigten sich nicht trauen, dich anzuzeigen.</description>
+		</sheet>
+	</element>
+</elements>

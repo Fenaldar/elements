@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Kleriker</name>
+    <description>Die Klasse Kleriker aus dem Spielerhandbuch.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.3.9">
+      <file name="klasse-kleriker.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-kleriker.xml" />
+    </update>
+  </info>
+
+  <element name="Kleriker" type="Class" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_CLERIC">
+    <description>
+      <p>Die Arme und Augen zur Sonne gewandt und ein Gebet auf den Lippen, strahlt der Elf ein inneres Licht aus, das sich aus breitet und seine vom Kampf geschwächten Kameraden heilt.</p>
+      <p class="indent">Mit einem Lied des Ruhmes auf den Lippen schwingt ein Zwerg seine Axt in weiten Hieben durch die Reihen der Orks, die sich gegen ihn gestellt haben, und preist die Götter lauthals beim Sturz jedes einzelnen Feindes.</p>
+      <p class="indent">Während sie die Mächte der Untoten mit einem Fluch belegt, erhebt eine Menschenfrau ihr heiliges Symbol und drängt mit dem daraus flutenden Licht die Zombies zurück, welche ihre Kameraden in die Enge getrieben haben.</p>
+      <p class="indent">Kleriker sind Mittler zwischen der Welt der Sterblichen und den fernen Ebenen der Götter. So unterschiedlich die Gott heiten, denen sie dienen, auch sein mögen, streben doch alle Kleriker danach, deren Werk und deren Ideale mit jeder ihrer Taten zu verkörpern. Im Gegensatz zu einem gewöhnlichen Priester ist ein Kleriker von göttlicher Magie erfüllt.</p>
+      <h4>HEILER UND KRIEGER</h4>
+      <p>Göttliche Magie, wie der Name verrät, ist die Macht der Götter, die durch sie in die Welt strömt. Kleriker kanalisieren diese Kraft, sodass sie in Form wundersamer Effekte in Erscheinung tritt. Die Götter verleihen diese Macht nicht jedem, der danach sucht, sondern nur denen, die sie für eine höhere Berufung auserwählen.</p>
+      <p class="indent">Die heiligen Kräfte nutzbar zu machen, hängt nicht von Übung oder Lerneifer ab. Ein Kleriker kann zwar Gebetsformeln und uralte Rituale lernen, doch die Fähigkeit, Klerikerzauber zu wirken, stützt sich auf die Verehrung der Gottheit und das intuitive Wissen um ihre Wünsche. Kleriker kombinieren die hilfreiche Magie der Heilung und der Inspiration mit Zaubersprüchen, die ihre Gegner auffialten und verletzen. Sie können Leid und Schrecken über ihre Feinde bringen, sie mit krankmachenden oder vergiftenden Flüchen belegen und sogar Flammen vom Himmel auf sie herabregnen lassen. Bei Halunken, die einen Hieb mit dem Streitkolben auf den Kopf verdienen, verlassen sich Kleriker auf ihre Kampfausbildung und stellen sich ihnen mit der Macht der Götter an der Seite im Nahkampf.</p>
+      <h4>GÖTTLICHE STELLVERTRETER</h4>
+      <p>Nicht jeder Akolyth oder Geistliche in einem Tempel oder einer Kirche ist ein Kleriker. Manche Priester werden zu einem einfachen Leben als Tempeldiener berufen und entsprechen dem Willen ihrer Götter mit Gebeten und Opfergaben, nichtmit Magie und Waffengewalt. In einigen Städten hat die Priesterschaft auch politische Ämter inne. Der Klerus wird dort oft als Sprungbrett benutzt, um an höhere Positionen zu gelangen, ohne dass der Glaube an eine Gottheit dabei eine Rolle spielt. Echte Kleriker sind in den meisten Hierarchien selten zu finden.</p>
+      <p class="indent">Sollte ein Kleriker sich für ein Leben als Abenteurer entscheiden, dann liegt das in der Regel daran, dass seine Gottheit es so verlangt. Die Ziele der Götter zu verfolgen beinhaltet oft, Gefahren hinter den Grenzen der Zivilisation zu trotzen, das Böse zu bekämpfen oder heilige Relikte in uralten Grabstätten zu suchen. Von vielen Klerikern wird auch erwartet, dass sie die Anhänger ihrer Gottheit beschützen — was bedeuten kann, dass sie randalierende Orks bekämpfen müssen, Friedensverhandlungen zwischen sich bekriegenden Nationen führen dürfen oder ein Portal versiegeln sollen, das einem Dämonenprinzen erlauben würde, die Welt zu betreten.</p>
+      <p class="indent">Die meisten Kleriker auf Abenteuern halten Verbindungen zu alteingesessenen Tempeln oder Orden ihres Glaubens aufrecht. Ein Tempel könnte die Hilfe des Klerikers erbitten oder ein Hohepriester gar in der Position sein, diese einzufordern.</p>
+      <h4>EINEN KLERIKER ERSCHAFFEN</h4>
+      <p>Beim Erschaffen deines Klerikers besteht die wichtigste Frage darin, welcher Gottheit er dient und welche Prinzipien er verkörpert. Anhang B „Götter des Multiversums" enthält Listen mit vielen möglichen Gottheiten. Sprich mit deinem SL ab, welche in deiner Kampagne vorkommen. Sobald du dir eine Gottheit ausgesucht hast, überlege dir, welche Beziehung dein Charakter zu dieser hat. Ist er freiwillig in ihren Dienst getreten? Oder hat der Gott ihn erwählt und nötigt ihn, ihm zu dienen, ohne auf die Wünsche deines Charakters zu achten? Wie gehen die Priester im Tempel mit deinem Kleriker um? Ist er für sie ein Held oder ein Unruhestifter? Was will er erreichen? Hat seine Gottheit eine besondere Aufgabe für ihn im Sinn? Oder versucht er, sich einer großen Queste als würdig zu erweisen.</p>
+      <h5 class="caption">SCHNELLE ERSCHAFFUNG</h5>
+      <p>Du kannst einen Kleriker schnell erschaffen, indem du diesen Vorschlägen folgst:</p>
+      <p class="indent">Setze deinen höchsten Attributswert auf Weisheit, deinen zweithöchsten auf Stärke oder Konstitution. Wähle zusätzlich den Hintergrund Tempeldiener.</p>
+      <h3>KLASSENMERKMALE</h3>
+      <p>Als Kleriker erhältst du folgende Klassenmerkmale:</p>
+      <h5 class="caption">TREFFERPUNKTE</h5>
+      <ul class="unstyled">
+				<li><strong>Trefferwürfel:</strong> 1W8 pro Stufe als Kleriker</li>
+				<li><strong>Trefferpunkte auf Stufe 1:</strong> 8 + dein Konstitutionsmodifikator</li>
+				<li><strong>Trefferpunkte auf höheren Stufen:</strong> 1W8 (oder 5) + dein Konstitutionsmodifikator pro Stufe als Kleriker über die 1. Stufe hinaus</li>
+			</ul>
+			<h5 class="caption">ÜBUNG</h5>
+			<ul class="unstyled mb">
+				<li><strong>Rüstungen:</strong> leichte Rüstungen, mittelschwere Rüstungen, Schilde</li>
+				<li><strong>Waffen:</strong> einfache Waffen</li>
+				<li><strong>Werkzeuge:</strong> keine</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Rettungswürfe:</strong> Weisheit, Charisma</li>
+				<li><strong>Fertigkeiten:</strong> zwei nach Wahl: Geschichte, Heilkunde, Motiv erkennen, Religion oder Überzeugen</li>
+			</ul>
+      <h5 class="caption">AUSRÜSTUNG</h5>
+      <p>Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:</p>
+      <ul>
+        <li><i>(a)</i> ein Streitkolben oder <i>(b)</i> ein Kriegshammer (falls im Umgang geübt)</li>
+        <li><i>(a)</i> ein Schuppenpanzer, <i>(b)</i> eine Lederrüstung oder <i>(c)</i> ein Kettenpanzer (falls im Umgang geübt)</li>
+        <li><i>(a)</i> eine leichte Armbrust mit 20 Bolzen oder <i>(b)</i> eine einfache Waffe</li>
+        <li><i>(a)</i> eine Priesterausrüstung oder <i>(b)</i> eine Entdeckerausrüstung</li>
+        <li>ein Schild und ein heiliges Symbol</li>
+      </ul>
+      <h5 class="caption">DER KLERIKER</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-5">Stufe</td><td class="left">Merkmale</td><td class="col-10">Bekannte Zaubertricks</td><td>1.</td><td>2.</td><td>3.</td><td>4.</td><td>5.</td><td>6.</td><td>7.</td><td>8.</td><td>9.</td></tr>
+        </thead>
+        <tr><td> 1</td><td class="left">Zauberwirken, Göttliche Domäne</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 2</td><td class="left">Göttliche Macht fokussieren (1/Rast), Merkmal: Göttliche Domäne</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 3</td><td class="left">—</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 4</td><td class="left">Attributswerterhöhung</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 5</td><td class="left">Untote zerstören (HG 1/2)</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 6</td><td class="left">Göttliche Macht fokussieren (2/Rast), Merkmal: Göttliche Domäne</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 7</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 8</td><td class="left">Attributswerterhöhung, Untote zerstören (HG 1), Merkmal: Göttliche Domäne</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 9</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>10</td><td class="left">Göttliche Intervention</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>11</td><td class="left">Untote zerstören (HG 2)</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>12</td><td class="left">Attributswerterhöhung</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>13</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>14</td><td class="left">Untote zerstören (HG 3)</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>15</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>16</td><td class="left">Attributswerterhöhung</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>17</td><td class="left">Untote zerstören (HG 4), Merkmal: Göttliche Domäne</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>18</td><td class="left">Göttliche Macht fokussieren (3/Rast)</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>19</td><td class="left">Attributswerterhöhung</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>20</td><td class="left">Verbesserte Göttliche Intervention</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+      </table>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEDOMAIN" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" />
+    </description>
+    <sheet display="false">
+      <description>Ein priesterlicher Held, der im Zuges seines Dienstes an eine höhere Macht göttliche Magie erhält.</description>
+    </sheet>
+    <setters>
+      <set name="short">Ein priesterlicher Held, der im Zuges seines Dienstes an eine höhere Macht göttliche Magie erhält.</set>
+      <set name="hd">d8</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_CLERIC"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_CLERIC"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" requirements="!ID_WOTC_PHB_MULTICLASS_CLERIC"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_CLERIC"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_CLERIC"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_CLERIC"/>
+      <select type="Proficiency" name="Geübte Fertigkeit (Kleriker)" supports="Skill,Cleric" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_CLERIC"/>
+
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC" level="1" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEDOMAIN" level="1" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" level="2" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" level="4" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" level="5" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" level="10" />
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_CLERIC">
+      <prerequisite>Wisdom 13</prerequisite>
+      <requirements>[wis:13]</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Light armor, medium armor, shields</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" />
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Zauberwirken" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
+    <description>
+      <p>Als Kleriker kannst du Zauber wirken, indem du die Macht deiner Gottheit kanalisierst. Für allgemeine Informationen zum Wirken von Zaubern siehe Kapitel 10 „Zauber wirken" und für die Zauberliste des Klerikers Kapitel 11 „Zauber".</p>
+      <h5>ZAUBERTRICKS</h5>
+      <p>Auf der 1. Stufe sind dir drei Zaubertricks deiner Wahl aus der Zauberliste des Klerikers bekannt. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der Aufstiegstabelle des Klerikers angegeben ist.</p>
+      <h5>VORBEREITEN UND WIRKEN VON ZAUBERN</h5>
+      <p>Du musst Zaubersprüche vorbereiten, um sie wirken zu können. Wähle dazu eine Anzahl von Klerikerzaubern, die deiner Stufe als Kleriker + deinem Weisheitsmodifikator entspricht (mindestens 1), und notiere sie in einer Liste. Du kannst nur Sprüche aussuchen, für deren Grad du auch Zauberplätze besitzt.</p>
+      <p class="indent">Bist du zum Beispiel ein Kleriker der 3. Stufe, verfügst du über vier Zauberplätze des 1. Grades und zwei des 2. Grades. Bei einem Weisheitswert von 16 kann deine Liste vorbereiteter Zauber sechs beliebige Sprüche (Stufe 3 + Modifikator 3) des 1. oder 2. Grades umfassen.</p>
+      <p class="indent">Die Aufstiegstabelle des Klerikers gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen Spruch aus deiner Liste vorbereiteter Zauber zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung. Hast du beispielsweise den Zauber <i>Wunden heilen</i> des 1. Grades vorbereitet, kannst du sowohl einen Zauberplatz des 1. Grades als auch einen des 2. Grades verwenden, um <i>Wunden heilen</i> zu wirken.</p>
+      <p class="indent">Einen Spruch zu wirken, entfernt ihn nicht von deiner Liste der vorbereiteten Zauber. Diese kannst du nach jeder langen Rast ändern. Eine neue Liste vorzubereiten, erfordert mindestens 1 Minute im Gebet oder in Meditation je Zaubergrad pro Spruch.</p>
+      <h5>ATTRIBUT ZUM ZAUBERWIRKEN</h5>
+      <p>Das Attribut, mit dem du deine Klerikerzauber wirkst, ist Weisheit, da du deine Magie aus der Hingabe zu deiner Gottheit schöpfst. </p>
+      <p class="indent">Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Weisheit. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Klerikerzauber bestimmt, ziehst du deinen Weisheitsmodifikator hinzu. Bei Angriffen mit deinen Klerikerzaubern findet ebenfalls der Weisheitsmodifikator Anwendung.</p>
+      <p class="indent"><b>SG für Rettungswürfe</b> = 8 + dein Übungsbonus + dein Weisheitsmodifikator</p>
+      <p class="indent"><b>Modifikator für Zauberangriffe</b> = dein Übungsbonus + dein Weisheitsmodifikator</p>
+      <h5>RITUALE WIRKEN</h5>
+      <p>Du kannst einen Klerikerzauber als Ritual wirken, falls der Spruch als solches gekennzeichnet ist und du ihn vorbereitet hast.</p>
+      <h5>ZAUBERFOKUS</h5>
+      <p>Du kannst ein heiliges Symbol (siehe Kapitel 5 „Ausrüstung") als Zauberfokus für deine Klerikerzauber verwenden.</p>
+    </description>
+    <sheet>
+      <description>Du kannst Klerikerzauber als Rituale wirken. Du kannst {{cleric:spellcasting:prepare}} Klerikerauber vorbereiten. Du kannst ein heiliges Symbol als Zauberfokus für deine Klerikerzauber verwenden.</description>
+    </sheet>
+    <spellcasting name="Cleric" ability="Wisdom" prepare="true">
+      <list known="true">Cleric</list>
+    </spellcasting>
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+      <grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+      <grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_HOLY_SYMBOL" />
+
+      <stat name="cleric:spellcasting:slots:1" value="2" level="1" />
+      <stat name="cleric:spellcasting:slots:1" value="1" level="2" />
+      <stat name="cleric:spellcasting:slots:1" value="1" level="3" />
+      <stat name="cleric:spellcasting:slots:2" value="2" level="3" />
+      <stat name="cleric:spellcasting:slots:2" value="1" level="4" />
+      <stat name="cleric:spellcasting:slots:3" value="2" level="5" />
+      <stat name="cleric:spellcasting:slots:3" value="1" level="6" />
+      <stat name="cleric:spellcasting:slots:4" value="1" level="7" />
+      <stat name="cleric:spellcasting:slots:4" value="1" level="8" />
+      <stat name="cleric:spellcasting:slots:4" value="1" level="9" />
+      <stat name="cleric:spellcasting:slots:5" value="1" level="9" />
+      <stat name="cleric:spellcasting:slots:5" value="1" level="10" />
+      <stat name="cleric:spellcasting:slots:5" value="1" level="18" />
+      <stat name="cleric:spellcasting:slots:6" value="1" level="11" />
+      <stat name="cleric:spellcasting:slots:6" value="1" level="19" />
+      <stat name="cleric:spellcasting:slots:7" value="1" level="13" />
+      <stat name="cleric:spellcasting:slots:7" value="1" level="20" />
+      <stat name="cleric:spellcasting:slots:8" value="1" level="15" />
+      <stat name="cleric:spellcasting:slots:9" value="1" level="17" />
+
+      <stat name="cleric:spellcasting:prepare" value="wisdom:modifier" />
+      <stat name="cleric:spellcasting:prepare" value="level:kleriker" />
+
+      <select type="Spell" name="Zaubertrick (Kleriker)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Cleric" />
+      <select type="Spell" name="Zaubertrick (Kleriker)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Cleric" />
+      <select type="Spell" name="Zaubertrick (Kleriker)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Cleric" />
+    </rules>
+  </element>
+  <element name="Göttliche Domänen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEDOMAIN">
+    <description>
+      <p>In einem Pantheon hat jede Gottheit Einfluss auf verschiedene Aspekte der Welt und des Lebens der Sterblichen. Dieser Einflussbereich wird die Domäne des Gottes genannt. Alle Domänen, die einer Gottheit zugeordnet sind, werden zusammen als ihr Portfolio bezeichnet. Beispielsweise enthält das Portfolio des griechischen Gottes Apollo die Domänen Wissen, Leben und Licht. Als Kleriker suchst du dir aus dem Portfolio deines Gottes einen dieser Aspekte aus, den du fortan verkörpern möchtest, und erhältst die Kräfte, die mit dieser Domäne in Verbindung stehen.</p>
+      <p class="indent">Deine Wahl könnte mit der Ausrichtung einer bestimmten Sekte übereinstimmen, die deiner Gottheit folgt. Apollo zum Beispiel könnte in einer Region als Phoebus Apollo („der Strahlende") verehrt werden, was seinen Einfluss auf die Domäne des Lichts betont, und in einer anderen Ort als Apollo Acesius („der Heilende"), wodurch seine Verbindung mit der Domäne des Lebens hervorgehoben wird. Alternativ kannst du dir auch einfach eine Domäne aus dem Portfolio aussuchen, die deiner persönlichen Vorliebe am ehesten gerecht wird.</p>
+      <p class="indent">Jede Domänenbeschreibung gibt dir Beispiele von Göttern, die Einfluss über diese Domäne haben. Du findest sowohl Gottheiten aus den Welten der Vergessenen Reiche, Greyhawk, der Welt der Drachenlanze und Eberron als auch Fantasy-Interpretationen der keltischen, griechischen, nordischen und ägyptischen Pantheons.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Göttliche Domäne" supports="Divine Domain" />
+    </rules>
+  </element>
+	<element name="Göttliche Macht fokussieren" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY">
+		<description>
+			<p>Auf der 2. Stufe erhältst du die Fähigkeit, direkt durch deine Gottheit göttliche Macht zu fokussieren, um magische Effekte hervorzurufen. Du beginnst mit zwei solchen Effekten: Untote vertreiben und einem Effekt, der durch deine Domäne festgelegt wird. Manche Domänen verleihen dir weitere Effekte im Laufe deiner Klerikerkarriere.</p>
+			<p class="indent">Wenn du Göttliche Macht fokussierst, kannst du dir aussuchen, welchen der Effekte dies hervorrufen soll. Bevor du erneut Göttliche Macht fokussieren kannst, musst du eine kurze oder lange Rast einlegen. Manche Effekte dieses Merkmals erfordern, dass dein Ziel einen Rettungswurf ablegt. In diesem Fall ist der SG des Rettungswurfs der gleiche, als wenn das Ziel einem deiner Klerikerzauber zu widerstehen versucht. Ab der 6. Stufe kannst du zweimal (statt nur einmal) Göttliche Macht fokussieren, bevor du eine Rast benötigst, ab der 18. Stufe sogar dreimal. Nach einer kurzen oder langen Rast stehen dir alle verbrauchten Anwendungen wieder zur Verfügung.</p>
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
+		</description>
+		<sheet usage="{{channel divinity:count}}/Kurze Rast" />
+		<rules>
+			<stat name="channel divinity:count" value="1" level="1" bonus="base" />
+			<stat name="channel divinity:count" value="2" level="6" bonus="base" />
+			<stat name="channel divinity:count" value="3" level="18" bonus="base" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
+		</rules>
+	</element>
+	<element name="Göttliche Macht fokussieren: Untote vertreiben" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD">
+		<description>
+			<p>Als Aktion zeigst du dein heiliges Symbol und sprichst ein Gebet. Jeder Untote im Umkreis von 9 m, der dich sehen oder hören kann, muss einen Weisheitsrettungswurf ausführen. Falls dieser misslingt, gilt die Kreatur für 1 Minute oder bis sie Schaden erleidet als vertrieben. Eine vertriebene Kreatur muss ihren Zug dafür aufwenden, sich so weit wie möglich von dir wegzubewegen, und darf dir nicht absichtlich näher kommen als 9 m. Außerdem kann die Kreatur keine Reaktionen nutzen. Als Aktion kann sie nur spurten oder sich aus einem Effekt befreien, der sie an der Bewegung hindert. Sollte es keinen Ort geben, zu dem sie gelangen kann, darf die Kreatur die Ausweichaktion nutzen.</p>
+		</description>
+		<sheet alt="Untote vertreiben" action="Aktion" usage="Göttliche Macht fokussieren">
+			<description>Jeder Untote im Umkreis von 9 m, der dich sehen oder hören kann, muss einen Weisheitsrettungswurf ausführen. Falls dieser misslingt, gilt die Kreatur für 1 Minute oder bis sie Schaden erleidet als vertrieben. Eine vertriebene Kreatur muss ihren Zug dafür aufwenden, sich so weit wie möglich von dir wegzubewegen, und darf dir nicht absichtlich näher kommen als 9 m. Außerdem kann die Kreatur keine Reaktionen nutzen. Als Aktion kann sie nur spurten oder sich aus einem Effekt befreien, der sie an der Bewegung hindert. Sollte es keinen Ort geben, zu dem sie gelangen kann, darf die Kreatur die Ausweichaktion nutzen.</description>
+		</sheet>
+	</element>
+  <element name="Attributswerterhöhung (Kleriker)" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC">
+		<compendium display="false" />
+    <description>
+      <p>Beim Erreichen der 4. Stufe und dann wieder auf der 8., 12., 16. und 19. Stufe kannst du einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Attributswerterhöhung (Kleriker 4)" supports="Improvement Option,Kleriker,4" level="4" />
+      <select type="Class Feature" name="Attributswerterhöhung (Kleriker 8)" supports="Improvement Option,Kleriker,8" level="8" />
+      <select type="Class Feature" name="Attributswerterhöhung (Kleriker 12)" supports="Improvement Option,Kleriker,12" level="12" />
+      <select type="Class Feature" name="Attributswerterhöhung (Kleriker 16)" supports="Improvement Option,Kleriker,16" level="16" />
+      <select type="Class Feature" name="Attributswerterhöhung (Kleriker 19)" supports="Improvement Option,Kleriker,19" level="19" />
+    </rules>
+  </element>
+  <element name="Untote zerstören" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DESTROYUNDEAD">
+    <description>
+      <p>Mit Erreichen der 5. Stufe verbessert sich dein Merkmal Göttliche Macht fokussieren: Untote vertreiben. Misslingt einem Untoten von nun an der entsprechende Rettungswurf, wird er sofort zerstört, falls sein Herausforderungsgrad (HG) gleich oder niedriger als eine bestimmte Schwelle ist (siehe dazu die Tabelle „Untote zerstören").</p>
+      <h5>Untote zerstören</h5>
+      <table>
+        <thead>
+			    <tr><td>Klerikerstufe</td><td>Untote dieses HG werden zerstört</td></tr>
+		    </thead>
+        <tr><td>5</td><td>1/2 oder niedriger</td></tr>
+        <tr><td>8</td><td>1 oder niedriger</td></tr>
+        <tr><td>11</td><td>2 oder niedriger</td></tr>
+        <tr><td>14</td><td>3 oder niedriger</td></tr>
+        <tr><td>17</td><td>4 oder niedriger</td></tr>
+      </table>
+    </description>
+    <sheet>
+      <description>Misslingt einem Untoten der Rettungswurf beim Untote vertreiben, wird er sofort zerstört, falls sein Herausforderungsgrad {{destroy undead:cr}} oder niedriger ist.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="destroy undead:cr" value="1/2" level="5"/>
+      <stat inline="true" name="destroy undead:cr" value="1" level="8"/>
+      <stat inline="true" name="destroy undead:cr" value="2" level="11"/>
+      <stat inline="true" name="destroy undead:cr" value="3" level="14"/>
+    </rules>
+  </element>
+  <element name="Göttliche Intervention" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION">
+    <description>
+      <p>Ab der 10. Stufe kannst du deine Gottheit in großer Not bitten, dir beizustehen und in die Welt der Sterblichen einzugreifen. Verwende deine Aktion dafür, deine Gottheit um Hilfe anzuflehen. Beschreibe anschließend die Unterstützung, um die du ersuchst, und würfle mit einem W100. Ist das Ergebnis gleich oder niedriger deiner Klerikerstufe, greift deine Gottheit ein. Der SL wählt die Art der Intervention, etwa wäre der Effekt eines beliebigen Kleriker- oder Domänenzaubers angemessen.</p>
+      <p class="indent">Falls deine Gottheit interveniert, kannst du dieses Merkmal für die nächsten 7 Tage nicht verwenden. Andernfalls darfst du es nach Abschluss einer langen Rast erneut einsetzen.</p>
+      <p class="indent">Auf der 20. Stufe gelingen deine Bitten um Intervention automatisch und es wird kein Wurf mehr benötigt.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Bitte deine Gottheit in großer Not um dir beizustehen.</description>
+    </sheet>
+  </element>
+  <!-- Life Domain -->
+  <element name="Domäne des Lebens" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_LIFEDOMAIN">
+    <supports>Divine Domain</supports>
+    <description>
+      <p>Die Domäne des Lebens konzentriert sich auf die schöpferische und pulsierende Energie, die allem Lebendigen innewohnt —eine der grundlegenden Kräfte des Universums. Die Götter des Lebens fördern Vitalität und Gesundheit und stellen sich den Mächten des Todes, besonders den Untoten, entgegen.</p>
+      <p class="indent">Nahezu jede nicht böse Gottheit kann Einfluss auf diese Domäne beanspruchen, besonders die Götter der Landwirtschaft (wie etwa Chauntea, Arawai und Demeter), Sonnengötter (wie etwa Lathander, Pelor und Re-Horachti), Götter der Heilung oder der Ausdauer (wie etwa Ilmater, Mishakal, Apollo und Dian Cecht) sowie Götter des Heimes und der Gemeinschaft (wie etwa Hestia, Hathor und Boldrei).</p>
+      <h5 class="caption">DOMÄNENZAUBER DES LEBENS</h5>
+      <table>
+        <thead>
+          <tr> <td>Klerikerstufe</td> <td>Zauber</td> </tr>
+        </thead>
+        <tr> <td>1</td> <td> <em>Segnen, Wunden heilen</em> </td> </tr>
+        <tr> <td>3</td> <td> <em>Schwache Genesung, Waffe des Glaubens</em> </td> </tr>
+        <tr> <td>5</td> <td> <em>Leuchtfeuer der Hoffnung, Wiederbeleben</em> </td> </tr>
+        <tr> <td>7</td> <td> <em>Todesschutz, Hüter des Glaubens</em> </td> </tr>
+        <tr> <td>9</td> <td> <em>Massen-Wunden Heilen, Tote erwecken</em> </td> </tr>
+      </table>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BONUSPROFICIENCY" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLEOFLIFE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_CHANNELDIVINITY_PRESERVELIFE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BLESSEDHEALER" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DIVINESTRIKE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING" />
+    </description>
+    <sheet display="false">
+      <description>Die Domäne des Lebens konzentriert sich auf die schöpferische und pulsierende Energie, die allem Lebendigen innewohnt —eine der grundlegenden Kräfte des Universums.</description>
+    </sheet>
+    <rules>
+      <!-- Spells put into a 'life domain spells' grant -->
+      <grant type="Spell" id="ID_PHB_SPELL_BLESS" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPIRITUAL_WEAPON" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_RAISE_DEAD" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BONUSPROFICIENCY" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLEOFLIFE" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_CHANNELDIVINITY_PRESERVELIFE" level="2"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BLESSEDHEALER" level="6"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DIVINESTRIKE" level="8"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING" level="17"/>
+    </rules>
+  </element>
+  <element name="Zusätzliche Übung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BONUSPROFICIENCY">
+    <description>
+      <p>Wählst du diese Domäne auf der 1. Stufe, wirst du geübt im Umgang mit schweren Rüstungen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+    </rules>
+  </element>
+  <element name="Jünger des Lebens" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLEOFLIFE">
+    <description>
+      <p>Ebenfalls mit der 1. Stufe werden deine Heilzauber effektiver. Immer wenn du einen Zauber des 1. Grades oder höher wirkst, der bei einer Kreatur Trefferpunkte wiederherstellt, erhält diese zusätzliche Trefferpunkte in Höhe von 2 + dem Grad des Zaubers zurück.</p>
+    </description>
+    <sheet>
+      <description>Immer wenn du einen Zauber des 1. Grades oder höher wirkst, der bei einer Kreatur Trefferpunkte wiederherstellt, erhält diese zusätzliche Trefferpunkte in Höhe von 2 + dem Grad des Zaubers zurück.</description>
+    </sheet>
+  </element>
+  <element name="Göttliche Macht fokussieren: Leben erhalten" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_CHANNELDIVINITY_PRESERVELIFE">
+    <description>
+      <p>Von der 2. Stufe an kannst du eine Welle göttlicher Macht hervorrufen, die schwerste Verletzungen zu heilen vermag. Als Aktion zeigst du dein heiliges Symbol und setzt dein Merkmal Göttliche Macht fokussieren ein, um eine Anzahl von Trefferpunkten in Höhe deiner Stufe als Kleriker mal 5 wiederherzustellen. Als Ziel bestimmst du innerhalb von 9 m beliebig viele Kreaturen, unter denen du die Trefferpunkte aufteilst. Diese Fähigkeit kann keine Trefferpunkte über die Hälfte des Trefferpunktemaximums hinaus zurückgeben und wirkt nicht bei Konstrukten und Untoten.</p>
+    </description>
+    <sheet alt="Leben erhalten" action="Aktion" usage="Göttliche Macht fokussieren">
+      <description>Du zeigst dein heiliges Symbol und kannst {{preserve life:hp}} Trefferpunkte wiederherstellen. Als Ziel bestimmst du innerhalb von 9 m beliebig viele Kreaturen, unter denen du die Trefferpunkte aufteilst. Diese Fähigkeit kann keine Trefferpunkte über die Hälfte des Trefferpunktemaximums hinaus zurückgeben und wirkt nicht bei Konstrukten und Untoten.</description>
+    </sheet>
+    <rules>
+      <stat name="preserve life:hp" value="level:kleriker" />
+      <stat name="preserve life:hp" value="level:kleriker" />
+      <stat name="preserve life:hp" value="level:kleriker" />
+      <stat name="preserve life:hp" value="level:kleriker" />
+      <stat name="preserve life:hp" value="level:kleriker" />
+    </rules>
+  </element>
+  <element name="Gesegneter Heiler" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BLESSEDHEALER">
+    <description>
+      <p>Ab der 6. Stufe betreffen die Heilzauber, die du auf andere wirkst, auch dich selbst. Solltest du einen Heilzauber des 1. Grades oder höher auf eine Kreatur wirken, die nicht du selbst bist, erhältst du Trefferpunkte in Höhe von 2 + dem Grad des Zaubers zurück.</p>
+    </description>
+    <sheet>
+      <description>Solltest du einen Heilzauber des 1. Grades oder höher auf eine Kreatur wirken, die nicht du selbst bist, erhältst du Trefferpunkte in Höhe von 2 + dem Grad des Zaubers zurück.</description>
+    </sheet>
+  </element>
+  <element name="Göttlicher Schlag" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DIVINESTRIKE">
+    <description>
+      <p>Auf Stufe 8 erhältst du die Fähigkeit, die Schläge deiner Waffe mit göttlicher Energie aufzuladen. Einmal pro Zug kannst du bei einem erfolgreichen Waffenangriff dem Ziel zusätzlich 1W8 gleißenden Schaden zufügen. Mit Erreichen der 14. Stufe erhöht sich der zusätzliche Schaden auf 2W8.</p>
+    </description>
+    <sheet>
+      <description>Einmal pro Zug kannst du bei einem erfolgreichen Waffenangriff dem Ziel zusätzlich 1W8 gleißenden Schaden zufügen.</description>
+      <description level="14">Einmal pro Zug kannst du bei einem erfolgreichen Waffenangriff dem Ziel zusätzlich 2W8 gleißenden Schaden zufügen.</description>
+    </sheet>
+  </element>
+  <element name="Überlegene Heilung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_SUPREMEHEALING">
+    <description>
+      <p>Sollst du normalerweise mit einem oder mehreren Würfeln bestimmen, wie viele Trefferpunkte du mit einem Zauber wiederherstellst, kannst du ab Stufe 17 stattdessen das höchstmögliche Ergebnis für jeden Würfel verwenden. Beispielsweise heilst du bei einer Kreatur anstatt 2W6 Trefferpunkte nun 12 Trefferpunkte.</p>
+    </description>
+    <sheet>
+      <description>Sollst du normalerweise mit einem oder mehreren Würfeln bestimmen, wie viele Trefferpunkte du mit einem Zauber wiederherstellst, kannst du stattdessen das höchstmögliche Ergebnis für jeden Würfel verwenden. Beispielsweise heilst du bei einer Kreatur anstatt 2W6 Trefferpunkte nun 12 Trefferpunkte.</description>
+    </sheet>
+  </element>
+  <!-- Knowledge Domain -->
+  <element name="Domäne des Wissens" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_CLERIC_KNOWLEDGE_DOMAIN">
+    <supports>Divine Domain</supports>
+    <description>
+      <p>Die Götter des Wissens (wie Oghma, Boccob, Gilean, Aureon und Thoth) schätzen Gelehrsamkeit und Verstand über alles. Manche lehren, dass man Wissen sammeln und an Universitäten und in Bibliotheken teilen soll, andere horten es und behalten dessen Geheimnisse für sich. Einige Gottheiten versprechen ihren Anhängern ungeheure Macht, wenn sie die Rätsel des Multiversums entschlüsseln. Kleriker dieser Götter studieren geheimes Wissen, sammeln alte Folianten, stoßen an die verborgenen Orte der Welt vor und lernen, so viel sie können. Manche Götter des Wissens fördern die praktischen Kenntnisse des Handwerks und den Erfindungsreichtum (wie die Schmiedegottheiten Gond, Reorx, Onatar, Moradin, Hephaistos und Goibniu).</p>
+      <h5 class="caption">DOMÄNENZAUBER DES WISSENS</h5>
+      <table>
+        <thead>
+          <tr> <td>Klerikerstufe</td> <td>Zauber</td> </tr>
+        </thead>
+        <tr> <td>1</td> <td> <em>Befehl, Identifizieren</em> </td> </tr>
+        <tr> <td>3</td> <td> <em>Einflüsterung, Vorahnung</em> </td> </tr>
+        <tr> <td>5</td> <td> <em>Mit Toten sprechen, Unauffindbarkeit</em> </td> </tr>
+        <tr> <td>7</td> <td> <em>Arkanes Auge, Verwirrung</em> </td> </tr>
+        <tr> <td>9</td> <td> <em>Ausspähung, Sagenkunde</em> </td> </tr>
+      </table>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST" />
+    </description>
+		<sheet display="false">
+      <description>Die Götter des Wissens schätzen Gelehrsamkeit und Verstand über alles.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_IDENTIFY" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_AUGURY" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_NONDETECTION" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONFUSION" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_LEGEND_LORE" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES" level="2"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS" level="6"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING" level="8"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST" level="17"/>
+    </rules>
+  </element>
+  <element name="Segen des Wissens" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE">
+    <description>
+      <p>Auf Stufe 1 lernst du zwei Sprachen deiner Wahl. Außerdem bist du geübt in zwei der folgenden Fertigkeiten: Arkane Kunde, Geschichte, Naturkunde und Religion. Wendest du eine der gewählten Fertigkeiten an, wird dein Übungsbonus verdoppelt.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Language" name="Blessings of Knowledge" number="2"/>
+      <select type="Archetype Feature" name="Segen des Wissens" supports="Blessings of Knowledge" number="2"/>
+    </rules>
+  </element>
+  <element name="Segen des Wissens (Arkane Kunde)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_ARCANA">
+    <supports>Blessings of Knowledge</supports>
+    <description>
+      <p>Du bist geübt in Arkane Kunde.</p>
+      <p class="indent">Dein Übungsbonus wird bei allen Attributswürfen auf Arkane Kunde verdoppelt.</p>
+      <div element="ID_PROFICIENCY_SKILL_ARCANA" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+      <stat name="arcana:proficiency" value="proficiency" bonus="double"/>
+    </rules>
+  </element>
+  <element name="Segen des Wissens (Geschichte)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_HISTORY">
+    <supports>Blessings of Knowledge</supports>
+    <description>
+      <p>Du bist geübt in Geschichte.</p>
+      <p class="indent">Dein Übungsbonus wird bei allen Attributswürfen auf Geschichte verdoppelt.</p>
+      <div element="ID_PROFICIENCY_SKILL_HISTORY" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+      <stat name="history:proficiency" value="proficiency" bonus="double"/>
+    </rules>
+  </element>
+  <element name="Segen des Wissens (Naturkunde)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_NATURE">
+    <supports>Blessings of Knowledge</supports>
+    <description>
+      <p>Du bist geübt in Naturkunde.</p>
+      <p class="indent">Dein Übungsbonus wird bei allen Attributswürfen auf Naturkunde verdoppelt.</p>
+      <div element="ID_PROFICIENCY_SKILL_NATURE" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+      <stat name="nature:proficiency" value="proficiency" bonus="double"/>
+    </rules>
+  </element>
+  <element name="Segen des Wissens (Religion)" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE_RELIGION">
+    <supports>Blessings of Knowledge</supports>
+    <description>
+      <p>Du bist geübt in Religion.</p>
+      <p class="indent">Dein Übungsbonus wird bei allen Attributswürfen auf Religion verdoppelt.</p>
+      <div element="ID_PROFICIENCY_SKILL_RELIGION" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+      <stat name="religion:proficiency" value="proficiency" bonus="double"/>
+    </rules>
+  </element>
+  <element name="Göttliche Macht fokussieren: Wissen der Zeitalter" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES">
+    <supports>Channel Divinity</supports>
+    <description>
+      <p>Ab Stufe 2 kannst du aus der göttlichen Quelle des Wissens schöpfen. Als Aktion wählst du eine Fertigkeit oder ein Werkzeug und setzt dein Merkmal Göttliche Macht fokussieren ein. Für die folgenden 10 Minuten bist du geübt in der gewählten Fertigkeit oder im Umgang mit dem Werkzeug.</p>
+    </description>
+    <sheet alt="Wissen der Zeitalter" action="Aktion" usage="Göttliche Macht fokussieren">
+      <description>Wähle eine Fertigkeit oder ein Werkzeug. Für die folgenden 10 Minuten bist du geübt in der gewählten Fertigkeit oder im Umgang mit dem Werkzeug.</description>
+    </sheet>
+  </element>
+  <element name="Göttliche Macht fokussieren: Gedanken lesen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS">
+    <supports>Channel Divinity</supports>
+    <description>
+      <p>Auf Stufe 6 kannst du dein Merkmal Göttliche Macht fokussieren einsetzen, um die Gedanken einer Kreatur zu lesen. Du kannst diesen Zugang zum Bewusstsein der Kreatur auch nutzen, um sie zu befehligen. Wähle als Aktion eine Kreatur innerhalb von 18 m, die du sehen kannst. Diese muss einen Weisheitsrettungswurf ablegen. Gelingt ihr der Rettungswurf, kannst du die Fähigkeit bis zum Abschluss einer langen Rast nicht mehr auf diese Kreatur anwenden. Bei einem Misserfolg bist du in der Lage, die oberflächlichen Gedanken der Kreatur zu lesen (ihre Gefühle und worüber sie im Augenblick aktiv nachdenkt), solange sie nicht weiter als 18 m von dir entfernt ist. Dieser Effekt hält für 1 Minute an. Während dieser Zeit kannst du deine Aktion aufwenden, um den Effekt zu beenden und den Zauber <i>Einflüsterung</i> auf die Kreatur zu wirken, ohne dass du dafür einen Zauberplatz verbrauchen musst. Dem Ziel misslingt der Rettungswurf gegen den Zauber automatisch.</p>
+    </description>
+    <sheet alt="Gedanken lesen" action="Aktion" usage="Göttliche Macht fokussieren">
+      <description>Wähle als Aktion eine Kreatur innerhalb von 18 m, die du sehen kannst. Diese muss einen Weisheitsrettungswurf ablegen. Gelingt ihr der Rettungswurf, kannst du die Fähigkeit bis zum Abschluss einer langen Rast nicht mehr auf diese Kreatur anwenden. Bei einem Misserfolg bist du in der Lage, die oberflächlichen Gedanken der Kreatur zu lesen (ihre Gefühle und worüber sie im Augenblick aktiv nachdenkt), solange sie nicht weiter als 18 m von dir entfernt ist. Dieser Effekt hält für 1 Minute an. Während dieser Zeit kannst du deine Aktion aufwenden, um den Effekt zu beenden und den Zauber <i>Einflüsterung</i> auf die Kreatur zu wirken, ohne dass du dafür einen Zauberplatz verbrauchen musst. Dem Ziel misslingt der Rettungswurf gegen den Zauber automatisch.</description>
+    </sheet>
+    <rules>
+      <!-- <grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" />spellcasting="Cleric" prepared="true" -->
+      <!-- <set target="ID_PHB_SPELL_SUGGESTION" parent="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS" field="name" value="Read Thoughts: Suggestion" /> -->
+    </rules>
+  </element>
+  <element name="Verstärkte Zaubertrick" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_POTENT_SPELLCASTING">
+    <description>
+      <p>Ab der 8. Stufe darfst du deinen Weisheitsmodifikator zu dem Schaden addieren, den du mit Klerikerzaubertricks verursachst.</p>
+    </description>
+    <sheet>
+      <description>Addiere deinen Weisheitsmodifikator ({{wisdom:modifier}}) zu dem Schaden, den du mit Klerikerzaubertricks verursachst.</description>
+    </sheet>
+  </element>
+  <element name="Visionen der Vergangenheit" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_VISIONS_OF_THE_PAST">
+    <description>
+      <p>Ab Stufe 17 kannst du einen schemenhaften Blick in die Vergangenheit werfen, die mit deiner unmittelbaren Umgebung in Verbindung steht oder mit einem Objekt, das du in der Hand hältst. Verbringst du mindestens 1 Minute in Meditation oder im Gebet, empfängst du traumartige, schattenhafte Bilder vergangener Ereignisse. Du kannst so viele Minuten in dieser Einkehr verharren, wie es der Höhe deines Weisheitsmodifikators entspricht. Während der gesamten Dauer musst du konzentriert bleiben (als ob du dich auf einen Zauber konzentrieren würdest). Hast du diese Fähigkeit eingesetzt, steht sie dir erst wieder nach einer kurzen oder langen Rast zur Verfügung.</p>
+      <p>
+        <span class="feature">Objekt lesen:</span>Hältst du ein Objekt, während du meditierst, hast du Visionen zu dessen früheren Besitzern. Nach 1 Minute Meditation erfährst du, wie der Besitzer an das Objekt gelangt ist und wie er es verloren hat. Außerdem siehst du das jüngste und einschneidenste Ereignis, bei dem Objekt und Besitzer involviert waren. Falls das Objekt in der jüngeren Vergangenheit von weiteren Kreaturen besessen wurde (innerhalb von Tagen in Höhe deines Weisheitsmodifikators), kannst du 1 zusätzliche Minute je weiterem Besitzer meditieren, um das Gleiche über sie zu erfahren.<br />
+        <span class="feature">Gebiet lesen:</span>Während du meditierst, siehst du Visionen von Ereignissen, die sich kürzlich in deiner direkten Umgebung abgespielt haben (einem Raum, einer Straße, einem Tunnel, einer Lichtung oder dergleichen, im Umfang eines 15-m-Würfels). Die Vision reicht eine Anzahl von Tagen zurück, die der Höhe deines Weisheitsmodifikators entspricht. Für jede Minute, die du meditierst, erfährst du ein wichtiges Ereignis, angefangen mit dem jüngsten. Wichtige Ereignisse sind solche, bei denen starke Emotionen involviert waren, etwa ein Kampf oder ein Verrat, eine Hochzeit, ein Mord, eine Geburt oder eine Beerdigung. Es kann sich allerdings auch um alltäglichere Ereignisse handeln, die trotzdem wichtig für deine derzeitige Situation sind.<br />
+      </p>
+    </description>
+    <sheet>
+      <description>Du verbringst mindestens 1 Minute in Meditation und Gebet, dann erhältst du Visionen über vergangene Ereignisse (Ort) oder Besitzer (Objekt). Du kannst so {{wisdom:score}} Minuten meditieren und weitere Informationen erlangen. Du musst die während dieser Medition konzentrieren, als wenn du einen Zauber wirkst.</description>
+    </sheet>
+  </element>
+  <!-- Light Domain -->
+  <element name="Domäne des Lichts" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_CLERIC_LIGHT_DOMAIN">
+    <supports>Divine Domain</supports>
+    <description>
+      <p>Götter des Lichts (wie Helm, Lathander, Pholtus, Branchala, Die Silberne Flamme, Belenus, Apollo und Re-Horachti) verkörpern die Ideale der Wiedergeburt und der Erneuerung, der Wahrheit, der Wachsamkeit und der Schönheit, wobei sie oft das Symbol der Sonne verwenden. Manche dieser Götter werden als die Sonne selbst dargestellt oder als Wagenlenker, der diese auf ihrem Weg über den Himmel führt. Andere sind unermüdliche Wächter, deren Blick jeden Schatten durchdringt und jede Täuschung durchschaut. Einige sind Beschützer der Schönheit und der Kunstfertigkeit und lehren, dass die Künste ein Weg zur Verbesserung der Seele sind. Kleriker eines Gottes des Lichts sind erleuchtete Seelen, die durchdrungen sind vom Glanz und der Kraft der scharfsichtigen Vision ihres Gottes, damit beauftragt, Lügen aufzudecken und die Dunkelheit mit leuchtender Flamme zu vertreiben.</p>
+      <h5 class="caption">DOMÄNENZAUBER DES LICHTS</h5>
+      <table>
+        <thead>
+          <tr> <td>Klerikerstufe</td> <td>Zauber</td> </tr>
+        </thead>
+        <tr> <td>1</td> <td> <em>Brennende Hände, Feenfeuer</em> </td> </tr>
+        <tr> <td>3</td> <td> <em>Sengender Strahl, Flammenkugel</em> </td> </tr>
+        <tr> <td>5</td> <td> <em>Tageslicht, Feuerball</em> </td> </tr>
+        <tr> <td>7</td> <td> <em>Hüter des Glaubens, Feuerwand</em> </td> </tr>
+        <tr> <td>9</td> <td> <em>Ausspähung, Flammenschlag</em> </td> </tr>
+      </table>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_Radiance_of_the_Dawn" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_Improved_Flare" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_Potent_Spellcasting" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_Corona_of_Light" />
+    </description>
+		<sheet display="false">
+      <description>Götter des Lichts verkörpern die Ideale der Wiedergeburt und der Erneuerung, der Wahrheit, der Wachsamkeit und der Schönheit, wobei sie oft das Symbol der Sonne verwenden.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FLAMING_SPHERE" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SCORCHING_RAY" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_Radiance_of_the_Dawn" level="2"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_Improved_Flare" level="6"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_Potent_Spellcasting" level="8"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_Corona_of_Light" level="17"/>
+    </rules>
+  </element>
+  <element name="Zusätzlicher Zaubertrick" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP">
+    <description>
+      <p>Bei der Wahl dieser Domäne auf der 1. Stufe erhältst du den Zaubertrick Licht, falls du ihn nicht bereits beherrschst.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_LIGHT" spellcasting="Cleric" />
+    </rules>
+  </element>
+  <element name="Schützendes Flackern" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
+    <description>
+      <p>Ebenfalls ab der 1. Stufe kannst du zwischen dir und einer angreifenden Kreatur ein göttliches Licht erscheinen lassen. Greift dich innerhalb von 9 m eine Kreatur an, die du sehen kannst, darfst du deine Reaktion dazu verwenden, den Angreifer bei seinem Wurf im Nachteil sein zu lassen, indem du ein grelles Licht vor ihm aufflackern lässt. Du kannst diese Fähigkeit vor oder nach dem gegnerischen Angriffswurf ausführen, musst es jedoch bevor die Auswirkungen des Angriffs angewendet werden. Eine Kreatur, die nicht geblendet werden kann, ist gegen diesen Effekt immun.</p>
+      <p class="indent">Du kannst diese Fähigkeit so viele Male einsetzen, wie es deinem Weisheitsmodifikator entspricht (mindestens 1). Alle verbrauchten Anwendungen dieser Fähigkeit stehen dir nach einer langen Rast wieder zur Verfügung.</p>
+    </description>
+    <sheet action="Reaktion" usage="{{warding flare:count}}/Lange Rast ">
+      <description>Greift dich innerhalb von 9 m eine Kreatur an, die du sehen kannst, kannst du den Angreifer bei seinem Wurf im Nachteil sein lassen, indem du ein grelles Licht vor ihm aufflackern lässt. Du kannst diese Fähigkeit vor oder nach dem gegnerischen Angriffswurf ausführen, musst es jedoch bevor die Auswirkungen des Angriffs angewendet werden. Eine Kreatur, die nicht geblendet werden kann, ist gegen diesen Effekt immun.</description>
+    </sheet>
+    <rules>
+      <stat name="warding flare:count" value="1" bonus="warding flare" />
+      <stat name="warding flare:count" value="wisdom:modifier" bonus="warding flare" />
+    </rules>
+  </element>
+  <element name="Göttliche Macht fokussieren: Strahlen des Sonnenaufgangs" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_Radiance_of_the_Dawn">
+    <supports>Channel Divinity</supports>
+    <description>
+      <p>Ab der 2. Stufe kannst du Sonnenlicht erstrahlen lassen und damit Dunkelheit vertreiben und Feinden gleißenden Schaden zufügen. Als Aktion zeigst du dein heiliges Symbol und setzt dein Merkmal Göttliche Macht fokussieren ein, um jegliche magische Dunkelheit innerhalb von 9 m zu bannen. Zusätzlich muss jede feindliche Kreatur in diesem Umkreis einen Konstitutionsrettungswurf ablegen. Bei einem Misserfolg erleidet die Kreatur gleißenden Schaden in Höhe von 2W10 + deiner Stufe als Kleriker, oder die Hälfte bei einem erfolgreichen Rettungswurf. Eine Kreatur in vollständiger Deckung ist von diesem Effekt nicht betroffen.</p>
+    </description>
+    <sheet alt="Strahlen des Sonnenaufgangs" action="Aktion" usage="Göttliche Macht fokussieren">
+      <description>Du zeigst dein heiliges Symbol um jegliche magische Dunkelheit innerhalb von 9 m zu bannen. Zusätzlich muss jede feindliche Kreatur in diesem Umkreis einen Konstitutionsrettungswurf ablegen. Bei einem Misserfolg erleidet die Kreatur gleißenden Schaden in Höhe von 2W10 + {{level:kleriker}}, oder die Hälfte bei einem erfolgreichen Rettungswurf. Eine Kreatur in vollständiger Deckung ist von diesem Effekt nicht betroffen.</description>
+    </sheet>
+  </element>
+  <element name="Verbessertes Flackern" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_Improved_Flare">
+    <description>
+      <p>Beginnend mit Stufe 6 kannst du dein Schützendes Flackern einsetzen, um deinen Verbündeten beizustehen. Du darfst die Fähigkeit auch anwenden, wenn innerhalb von 9 m eine feindliche Kreatur, die du sehen kannst, eine andere Kreatur als dich selbst angreift.</p>
+    </description>
+    <sheet>
+      <description>Du kansnt dein Schützendes Flackern einsetzen, um deinen Verbündeten beizustehen. Du darfst die Fähigkeit auch anwenden, wenn innerhalb von 9 m eine feindliche Kreatur, die du sehen kannst, eine andere Kreatur als dich selbst angreift.</description>
+    </sheet>
+  </element>
+  <element name="Verstärkte Zaubertricks" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_Potent_Spellcasting">
+    <description>
+      <p>Ab der 8. Stufe darfst du deinen Weisheitsmodifikator auf den Schaden anrechnen, den du mit einem Klerikerzaubertrick zufügst.</p>
+    </description>
+    <sheet>
+      <description>Addiere deinen Weisheitsmodifikator ({{wisdom:modifier}}) zu dem Schaden, den du mit Klerikerzaubertricks verursachst.</description>
+    </sheet>
+  </element>
+  <element name="Korona des Lichts" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_Corona_of_Light">
+    <description>
+      <p>Ab der 17. Stufe kannst du deine Aktion verwenden, um eine Aura aus Sonnenlicht hervorzurufen, die für 1 Minute bestehen bleibt oder bis du sie mit einer weiteren Aktion auflöst. Du strahlst in einem Radius von 18 m helles Licht aus und verbreitest 9 m darüber hinaus dämmriges Licht. Deine Gegner, die sich im hellen Licht befinden, sind im Nachteil bei ihren Rettungswürfen gegen alle Zauber, die gleißenden Schaden oder Feuerschaden verursachen.</p>
+    </description>
+    <sheet usage="Aktion">
+      <description>Du rufst eine Aura aus Sonnenlicht hervor, die für 1 Minute bestehen bleibt oder bis du sie mit einer weiteren Aktion auflöst. Du strahlst in einem Radius von 18 m helles Licht aus und verbreitest 9 m darüber hinaus dämmriges Licht. Deine Gegner, die sich im hellen Licht befinden, sind im Nachteil bei ihren Rettungswürfen gegen alle Zauber, die gleißenden Schaden oder Feuerschaden verursachen.</description>
+    </sheet>
+  </element>
+  <!-- Nature Domain -->
+  <element name="Domäne der Natur" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_CLERIC_NATURE_DOMAIN">
+    <supports>Divine Domain</supports>
+    <description>
+      <p>Gottheiten der Natur sind so unterschiedlich wie die natürliche Welt selbst, von den undurchschaubaren Göttern der dichten Wälder (wie Silvanus, Obad-Hai, Chislev, Balinor und Pan) bis zu freundlichen Gottheiten, die insbesondere mit Quellen und Hainen in Verbindung gebracht werden (wie Eldath). Druiden verehren die Natur als Ganzes und könnten einer dieser Gottheiten dienen, indem sie mysteriöse Riten durchführen und uralte Gebete in ihrer eigenen Geheimsprache rezitieren. Doch viele dieser Götter haben in ihren Diensten auch Kleriker, Helden, welche die Interessen ihrer Gottheit aktiver vorantreiben. Diese Kleriker könnten böse Monstrositäten jagen, welche plündernd ein Waldgebiet verwüsten, die Ernte der Gläubigen segnen oder die Felder derer verdorren lassen, die den Zorn der Götter auf sich gezogen haben.</p>
+      <h5 class="caption">DOMÄNENZAUBER DER NATUR</h5>
+      <table>
+        <thead>
+          <tr> <td>Klerikerstufe</td> <td>Zauber</td> </tr>
+        </thead>
+        <tr> <td>1</td> <td> <em>Tierfreundschaft, Mit Tieren sprechen</em> </td> </tr>
+        <tr> <td>3</td> <td> <em>Dornenwuchs, Rindenhaut</em> </td> </tr>
+        <tr> <td>5</td> <td> <em>Pflanzenwachstum, Windwall</em> </td> </tr>
+        <tr> <td>7</td> <td> <em>Tier beherrschen, Schlingranke</em> </td> </tr>
+        <tr> <td>9</td> <td> <em>Hölzerner Weg, Insektenplage</em> </td> </tr>
+      </table>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_ACOLYTE_OF_NATURE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_BONUS_PROFICIENCY" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_CD_CHARM_ANIMALS_AND_PLANTS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DAMPEN_ELEMENTS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DIVINE_STRIKE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_MASTER_OF_NATURE" />
+    </description>
+		<sheet display="false">
+      <description>Gottheiten der Natur sind so unterschiedlich wie die natürliche Welt selbst, von den undurchschaubaren Göttern der dichten Wälder bis zu freundlichen Gottheiten, die insbesondere mit Quellen und Hainen in Verbindung gebracht werden.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BARKSKIN" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPIKE_GROWTH" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_PLANT_GROWTH" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WIND_WALL" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DOMINATE_BEAST" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GRASPING_VINE" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_ACOLYTE_OF_NATURE" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_BONUS_PROFICIENCY" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_CD_CHARM_ANIMALS_AND_PLANTS" level="2"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DAMPEN_ELEMENTS" level="6"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DIVINE_STRIKE" level="8"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_MASTER_OF_NATURE" level="17"/>
+    </rules>
+  </element>
+  <element name="Gefolgsmann der Natur" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_ACOLYTE_OF_NATURE">
+    <description>
+      <p>Auf der 1. Stufe lernst du einen Druidenzaubertrick deiner Wahl. Du bist außerdem geübt in einer der folgenden Fertigkeiten: Mit Tieren umgehen, Naturkunde oder Überlebenskunst.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Spell" name="Gefolgsmann der Natur" supports="Druid,0" spellcasting="Cleric" />
+      <select type="Proficiency" name="Gefolgsmann der Natur" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL" />
+    </rules>
+  </element>
+  <element name="Zusätzliche Übung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_BONUS_PROFICIENCY">
+    <description>
+      <p>Ebenfalls ab der 1. Stufe bist du geübt im Umgang mit schweren Rüstungen.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+    </rules>
+  </element>
+  <element name="Göttliche Macht fokussieren: Tiere und Pflanzen bezaubern" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_CD_CHARM_ANIMALS_AND_PLANTS">
+    <description>
+      <p>Mit Erreichen der 2. Stufe kannst du deine göttliche Macht nutzen, um Tiere und Pflanzen zu bezaubern. Als Aktion kannst du dein heiliges Symbol zeigen, den Namen deiner Gottheit anrufen und dein Merkmal Göttliche Macht fokussieren einsetzen. Jedes Tier und jede Pflanze im Umkreis von 9 m muss daraufhin einen Weisheitsrettungswurf ablegen. Bei einem Misserfolg ist die Kreatur für 1 Minute oder bis sie Schaden erleidet von dir bezaubert. Während sie von dir bezaubert ist, reagiert sie freundlich auf dich und andere Kreaturen, die du bestimmst.</p>
+    </description>
+    <sheet alt="Tiere und Pflanzen bezaubern" action="Aktion" usage="Göttliche Macht fokussieren">
+      <description>Du zeigst dein heiliges Symbol und rust den Namen deiner Gottheit an. Jedes Tier und jede Pflanze im Umkreis von 9 m muss daraufhin einen Weisheitsrettungswurf ablegen. Bei einem Misserfolg ist die Kreatur für 1 Minute oder bis sie Schaden erleidet von dir bezaubert. Während sie von dir bezaubert ist, reagiert sie freundlich auf dich und andere Kreaturen, die du bestimmst.</description>
+    </sheet>
+  </element>
+  <element name="Elementarkräfte mässigen" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DAMPEN_ELEMENTS">
+    <description>
+      <p>Ab Stufe 6 kannst du deine Reaktion dazu verwenden, um dir oder einer Kreatur innerhalb von 9 m eine Resistenz gegen Säure-, Kälte-, Feuer-, Blitz- oder Schallschaden zu verleihen, sobald sie diesen erleidet. Die Resistenz gilt nur für die Dauer der Schadensabwicklung.</p>
+    </description>
+    <sheet action="Reaktion">
+      <description>Wird dir oder einer Kreatur innerhalb von 9 m Säure-, Kälte-, Feuer-, Blitz- oder Schallschaden zugefügt, kannst du der Kreatur Resistenz gegen diese Schadensart verleihen.</description>
+    </sheet>
+  </element>
+  <element name="Göttlicher Schlag" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_DIVINE_STRIKE">
+    <description>
+      <p>Auf der 8. Stufe erhältst du die Fähigkeit, die Schläge deiner Waffe mit göttlicher Energie aufzuladen. Einmal pro Zug kannst du mit einem erfolgreichen Waffenangriff 1W8 zusätzlichen Kälte-, Feuer- oder Blitzschaden (frei wählbar) verursachen. Mit Erreichen der 14. Stufe erhöht sich der zusätzliche Schaden auf 2W8.</p>
+    </description>
+    <sheet>
+      <description>Einmal pro Zug kannst du mit einem erfolgreichen Waffenangriff 1W8 zusätzlichen Kälte-, Feuer- oder Blitzschaden (deine Wahl) verursachen.</description>
+      <description level="14">Einmal pro Zug kannst du mit einem erfolgreichen Waffenangriff 2W8 zusätzlichen Kälte-, Feuer- oder Blitzschaden (frei wählbar) verursachen.</description>
+    </sheet>
+  </element>
+  <element name="Herr der Natur" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_MASTER_OF_NATURE">
+    <description>
+      <p>Ab Stufe 17 bist du in der Lage, Pflanzen und Tiere zu befehligen, die von deinem Merkmal Göttliche Macht fokussieren: Tiere und Pflanzen bezaubern betroffen sind. Du kannst in deinem Zug eine Bonusaktion ausführen, um jeder bezauberten Kreatur verbal zu befehlen, welche Handlung sie in ihrem nächsten Zug ausführen soll.</p>
+    </description>
+    <sheet acion="Bonusaktion">
+      <description>Während Kreaturen, die von dir durch deine göttliche Macht Tiere und Pflanzen bezaubern, verzaubert sind kannst du bestimmen welche Handlung sie in ihrem nächsten Zug ausführen soll.</description>
+    </sheet>
+  </element>
+  <!-- Tempest Domain -->
+  <element name="Domäne des Sturms" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_CLERIC_TEMPEST_DOMAIN">
+    <supports>Divine Domain</supports>
+    <description>
+      <p>Götter, deren Portfolio die Domäne des Sturms beinhaltet, (wie Talos, Umberlee, Kord, Zeboim, Der Verschlinger, Zeus und Thor) herrschen über Gewitter, das Meer und den Himmel. Dazu gehören Götter des Blitzes und des Donners, Götter der Erdbeben, einige Feuergötter und bestimmte Gottheiten der physischen Stärke und des Mutes. In einigen Pantheons herrscht ein Gott dieser Domäne über die anderen Gottheiten und ist für seine schlagkräftige Gerechtigkeit bekannt, die er durch einen Donnerkeil vollstreckt. Bei seefahrenden Völkern sind Götter dieser Domäne die Beherrscher der Fluten und Schutzherren der Matrosen. Sturmgötter schicken ihre Kleriker, um das gemeine Volk in Furcht zu versetzen, entweder um es auf dem rechten Pfad zu halten oder um es zu Opfergaben zu ermutigen, mit denen der göttliche Zorn abgewendet werden kann.</p>
+      <h5 class="caption">DOMÄNENZAUBER DES STURMS</h5>
+      <table>
+        <thead>
+          <tr> <td>Klerikerstufe</td> <td>Zauber</td> </tr>
+        </thead>
+        <tr> <td>1</td> <td> <em>Nebelwolke, Donnerwoge</em> </td> </tr>
+        <tr> <td>3</td> <td> <em>Windstoß, Zerbersten</em> </td> </tr>
+        <tr> <td>5</td> <td> <em>Blitze herbeirufen, Schneesturm</em> </td> </tr>
+        <tr> <td>7</td> <td> <em>Eissturm, Wasser kontrollieren</em> </td> </tr>
+        <tr> <td>9</td> <td> <em>Insektenplage, Zerstörerische Woge</em> </td> </tr>
+      </table>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_BONUS_PROFICIENCIES" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_WRATH_OF_THE_STORM" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_CD_DESTRUCTIVE_WRATH" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_THUNDERBOLT_STRIKE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_DIVINE_STRIKE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_STORMBORN" />
+    </description>
+		<sheet display="false">
+      <description>Götter, deren Portfolio die Domäne des Sturms beinhaltet, herrschen über Gewitter, das Meer und den Himmel.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_FOG_CLOUD" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SHATTER" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CALL_LIGHTNING" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONTROL_WATER" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_BONUS_PROFICIENCIES" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_WRATH_OF_THE_STORM" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_CD_DESTRUCTIVE_WRATH" level="2"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_THUNDERBOLT_STRIKE" level="6"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_DIVINE_STRIKE" level="8"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_STORMBORN" level="17"/>
+    </rules>
+  </element>
+  <element name="Zusätzliche Übung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_BONUS_PROFICIENCIES">
+    <description>
+      <p>Ab der 1. Stufe bist du geübt im Umgang mit Kriegswaffen und schweren Rüstungen.</p>
+    </description>
+    <sheet display="false">
+      <description>Du bist geübt im Umgang mit Kriegswaffen und schweren Rüstungen.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+    </rules>
+  </element>
+  <element name="Zorn des Sturms" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_WRATH_OF_THE_STORM">
+    <description>
+      <p>Ebenfalls ab der 1. Stufe kannst du deine Angreifer mit einem Donnergrollen in die Schranken weisen. Trifft dich der Angriff einer Kreatur, die du sehen kannst und die sich innerhalb von 1,50 m befindet, kannst du deine Reaktion verwenden, um die Kreatur einen Geschicklichkeitsrettungswurf ablegen zu lassen. Bei einem Misserfolg erleidet sie 2W8 Schall- oder Blitzschaden (frei wählbar), oder die Hälfte des Schadens bei einem erfolgreichen Rettungswurf. Du kannst diese Fähigkeit so oft einsetzen, wie es deinem Weisheitsmodifikator (mindestens 1) entspricht. Alle verbrauchten Anwendungen dieser Fähigkeit stehen dir nach einer langen Rast wieder zur Verfügung.</p>
+    </description>
+    <sheet action="Reaktion" usage="{{wrath of the storm:count}}/Lange Rast">
+      <description>Trifft dich der Angriff einer Kreatur, die du sehen kannst und die sich innerhalb von 1,50 m befindet, kannst du die Kreatur einen Geschicklichkeitsrettungswurf ablegen lassen. Bei einem Misserfolg erleidet sie 2W8 Schall- oder Blitzschaden (deine Wahl), oder die Hälfte des Schadens bei einem erfolgreichen Rettungswurf.</description>
+    </sheet>
+    <rules>
+      <stat name="wrath of the storm:count" value="1" bonus="wrath of the storm"/>
+      <stat name="wrath of the storm:count" value="wisdom:modifier" bonus="wrath of the storm"/>
+    </rules>
+  </element>
+  <element name="Göttliche Macht fokussieren: Vernichtender Zorn" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_CD_DESTRUCTIVE_WRATH">
+    <description>
+      <p>Ab der 2. Stufe kannst du die Macht deines Gottes einsetzen, um die Kraft des Sturms mit hemmungslosem Zorn zuschlagen zu lassen. Wenn du Blitz- oder Schallschaden auswürfelst, kannst du Göttliche Macht fokussieren dazu verwenden, um den höchstmöglichen Schaden zu verursachen, anstatt zu würfeln.</p>
+    </description>
+    <sheet alt="Vernichtender Zorn" action="Aktion" usage="Göttliche Macht fokussieren">
+      <description> Wenn du Blitz- oder Schallschaden auswürfelst, kannst du Göttliche Macht fokussieren dazu verwenden, um den höchstmöglichen Schaden zu verursachen, anstatt zu würfeln.</description>
+    </sheet>
+  </element>
+  <element name="Blitzeinschlag" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_THUNDERBOLT_STRIKE">
+    <description>
+      <p>Von Stufe 6 an kannst du eine Kreatur der Größenkategorie groß oder kleiner, der du Blitzschaden zufügst, zusätzlich 3 m von dir wegstoßen.</p>
+    </description>
+    <sheet>
+      <description>Wenn du einer Kreatur der Größenkategorie groß oder kleiner, Blitzschaden zufügst kannst du sie zusätzlich 3 m von dir wegstoßen.</description>
+    </sheet>
+  </element>
+  <element name="Göttlicher Schlag" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_DIVINE_STRIKE">
+    <description>
+      <p>Auf der 8. Stufe erhältst du die Fähigkeit, die Schläge deiner Waffe mit göttlicher Energie aufzuladen. Einmal pro Zug kannst du mit einem erfolgreichen Waffenangriff 1W8 zusätzlichen Schallschaden verursachen. Mit Erreichen der 14. Stufe erhöht sich der zusätzliche Schaden auf 2W8.</p>
+    </description>
+    <sheet>
+      <description>Einmal pro Zug kannst du mit einem erfolgreichen Waffenangriff 1W8 zusätzlichen Schallschaden verursachen.</description>
+      <description level="14">Einmal pro Zug kannst du mit einem erfolgreichen Waffenangriff 2W8 zusätzlichen Schallschaden verursachen..</description>
+    </sheet>
+  </element>
+  <element name="Sturmgeboren" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_STORMBORN">
+    <description>
+      <p>Mit Stufe 17 verleiht dir die Macht deines Sturmgottes die Fähigkeit, dich mit den Winden in die Lüfte zu erheben. Immer wenn du dich nicht in einer unterirdischen Umgebung oder einem Gebäude aufhältst, darfst du mit einer Flugbewegungsrate fliegen, die deiner aktuellen Bewegungsrate entspricht.</p>
+    </description>
+    <sheet>
+      <description>Immer wenn du dich nicht in einer unterirdischen Umgebung oder einem Gebäude aufhältst, darfst du mit einer Flugbewegungsrate fliegen, die deiner aktuellen Bewegungsrate entspricht.</description>
+    </sheet>
+  </element>
+  <!-- Trickery Domain -->
+  <element name="Domäne der List" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_CLERIC_Trickery_DOMAIN">
+    <supports>Divine Domain</supports>
+    <description>
+      <p>Götter der List (wie Tymora, Beshaba, Olidammara, Der Reisende, Garl Glittergold und Loki) sind Unruhestifter und Aufwiegler, die in einem ständigen Wettstreit mit der anerkannten Ordnung der Götter und der Sterblichen stehen. Sie sind die Schutzherren der Diebe, der Spieler, der Rebellen, der Freigeister und der Halunken. Ihre Kleriker sind eine störende Macht in der zivilisierten Welt. Sie verspotten die Stolzen, stürzen Tyrannen, bestehlen die Reichen, befreien Gefangene und missachten sinnbefreite Traditionen. Sie ziehen List, Streiche, Täuschung und Diebstahl einer direkten Konfrontation vor.</p>
+      <h5 class="caption">DOMÄNENZAUBER DER LIST</h5>
+      <table>
+        <thead>
+          <tr> <td>Klerikerstufe</td> <td>Zauber</td> </tr>
+        </thead>
+        <tr> <td>1</td> <td> <em>Person bezaubern, Selbstverkleidung</em> </td> </tr>
+        <tr> <td>3</td> <td> <em>Spiegelbilder, Spurloses Gehen</em> </td> </tr>
+        <tr> <td>5</td> <td> <em>Flimmern, Magie bannen</em> </td> </tr>
+        <tr> <td>7</td> <td> <em>Dimensionstür, Verwandlung</em> </td> </tr>
+        <tr> <td>9</td> <td> <em>Person beherrschen, Erinnerung verändern</em> </td> </tr>
+      </table>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_CLOAK_OF_SHADOWS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_DIVINE_STRIKE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY" />
+    </description>
+		<sheet display="false">
+      <description>Götter der List sind Unruhestifter und Aufwiegler, die in einem ständigen Wettstreit mit der anerkannten Ordnung der Götter und der Sterblichen stehen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BLINK" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" level="2"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_CLOAK_OF_SHADOWS" level="6"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_DIVINE_STRIKE" level="8"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY" level="17"/>
+    </rules>
+  </element>
+  <element name="Segen der List" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER">
+    <description>
+      <p>Wählst du diese Domäne auf der 1. Stufe, kannst du als Aktion eine bereitwillige Kreatur berühren, die nicht du selbst bist, und ihr einen Vorteil bei Würfen auf Geschicklichkeit (Heimlichkeit) verleihen. Diese Segnung hält für 1 Stunde an oder bis du diese Fähigkeit erneut anwendest.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Du berührst eine bereitwillige Kreatur, die nicht du selbst bist, und verleihst ihr einen Vorteil bei Würfen auf Geschicklichkeit (Heimlichkeit). Diese Segnung hält für 1 Stunde an oder bis du diese Fähigkeit erneut anwendest.</description>
+    </sheet>
+  </element>
+  <element name="Göttliche Macht fokussieren: Abbild beschwören" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY">
+    <description>
+      <p>Beginnend mit der 2. Stufe kannst du dein Merkmal Göttliche Macht fokussieren dazu verwenden, um ein illusionäres Abbild deiner selbst zu erschaffen. Als Aktion rufst du eine perfekte Illusion von dir hervor, die für 1 Minute bestehen bleibt oder bis du dich nicht mehr konzentrierst (als ob du dich auf einen Zauber konzentrieren würdest). Die Illusion erscheint in einem freien Bereich, den du sehen kannst, innerhalb eines 9-m-Radius um dich. Als Bonusaktion in deinem Zug kannst du die Illusion bis zu 9 m an einen Ort bewegen, den du sehen kannst, der sich aber nicht weiter als 36 m von dir entfernt befindet. Für die Dauer der Illusion kannst du Zauber wirken, als ob du an der Stelle der Illusion stehen würdest, doch du musst deine eigenen Sinne verwenden. Außerdem bist du im Vorteil bei Angriffswürfen auf eine Kreatur, die 1,50 m von dir und der Illusion entfernt ist, da diese das Ziel ablenkt.</p>
+    </description>
+    <sheet alt="Abbild beschwören" action="Aktion / Bonusaktion" usage="Göttliche Macht fokussieren">
+      <description>Du erschaffst eine perfekte Illusion von dir selbst, die für 1 Minute bestehen bleibt oder bis du dich nicht mehr konzentrierst (als ob du dich auf einen Zauber konzentrieren würdest). Die Illusion erscheint in einem freien Bereich, den du sehen kannst, innerhalb eines 9-m-Radius um dich. Als Bonusaktion in deinem Zug kannst du die Illusion bis zu 9 m an einen Ort bewegen, den du sehen kannst, der sich aber nicht weiter als 36 m von dir entfernt befindet. Für die Dauer der Illusion kannst du Zauber wirken, als ob du an der Stelle der Illusion stehen würdest, doch du musst deine eigenen Sinne verwenden. Außerdem bist du im Vorteil bei Angriffswürfen auf eine Kreatur, die 1,50 m von dir und der Illusion entfernt ist, da diese das Ziel ablenkt.</description>
+    </sheet>
+  </element>
+  <element name="Göttliche Macht fokussieren: Schattenmantel" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_CLOAK_OF_SHADOWS">
+    <description>
+      <p>Ab der 6. Stufe kannst du dein Merkmal Göttliche Macht fokussieren dazu verwenden, um mit den Schatten zu verschmelzen. Als Aktion wirst du bis zum Ende deines nächsten Zuges unsichtbar. Du wirst wieder sichtbar, wenn du angreifst oder zauberst.</p>
+    </description>
+    <sheet alt="Schattenmantel" action="Aktion" usage="Göttliche Macht fokussieren">
+      <description>Du bis zum Ende deines nächsten Zuges unsichtbar. Du wirst wieder sichtbar, wenn du angreifst oder zauberst.</description>
+    </sheet>
+  </element>
+  <element name="Göttlicher Schlag" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_DIVINE_STRIKE">
+    <description>
+      <p>Auf der 8. Stufe erhältst du die Fähigkeit, die Schläge deiner Waffe mit göttlicher Energie aufzuladen. Einmal pro Zug kannst du bei einem erfolgreichen Waffenangriff 1W8 zusätzlichen Giftschaden verursachen. Mit Erreichen der 14. Stufe erhöht sich der zusätzliche Schaden auf 2W8.</p>
+    </description>
+    <sheet>
+      <description>Einmal pro Zug kannst du bei einem erfolgreichen Waffenangriff 1W8 zusätzlichen Giftschaden verursachen.</description>
+      <description level="14">Einmal pro Zug kannst du bei einem erfolgreichen Waffenangriff 2W8 zusätzlichen Giftschaden verursachen.</description>
+    </sheet>
+  </element>
+  <element name="Verbessertes Abbild" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY">
+    <description>
+      <p>Auf der 17. Stufe kannst du bis zu vier Abbilder deiner selbst erschaffen (anstatt nur einem), wenn du das Merkmal Göttliche Macht fokussieren: Abbild beschwören anwendest. Als Bonusaktion kannst du jedes einzelne bis zu 9 m bewegen. Keins der Abbilder darf sich weiter als 36 m von dir entfernen.</p>
+			<div class="reference">
+        <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" />
+      </div>
+    </description>
+    <sheet>
+      <description>Du kannst bis zu vier Abbilder deiner selbst erschaffen, anstatt nur einem, wenn du Abbild beschwören anwendest. Als Bonusaktion kannst du jedes einzelne bis zu 9 m bewegen. Keins der Abbilder darf sich weiter als 36 m von dir entfernen.</description>
+    </sheet>
+  </element>
+  <!-- War Domain -->
+  <element name="Domäne des Krieges" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_CLERIC_War_DOMAIN">
+    <supports>Divine Domain</supports>
+    <description>
+      <p>Der Krieg hat viele Erscheinungsformen. Er kann aus gewöhnlichen Leuten Helden machen, sie aber auch in die Verzweiflung stürzen und mit seiner Grausamkeit die Fälle von Vortrefflich-keit und Mut in den Schatten stellen. In jedem Fall wachen die Götter des Krieges über all jene, die in ihrem Namen auf das Schlachtfeld treten, und belohnen sie für ihre großen Taten. Die Kleriker einer solchen Gottheit tun sich im Kampf hervor und inspirieren andere zu wagemutigen Angriffen oder herausragenden Manövern.</p>
+      <p class="indent">Unter den Göttern des Krieges findet man sowohl ehrenhafte und ritterliche (wie Torm, Heironeous und Kiri-Jolith) als auch Götter der Zerstörung und des Plünderns (wie Erythnul, Die Furie, Gruumsh und Ares) oder Götter der Eroberung und der Beherrschung (wie Tyrannos, Hextor und Maglubiyet). Andere Kriegsgötter (wie Tempus, Nike und Nuada) nehmen eine neutralere Haltung ein, fördern Krieg in all seinen Ausprägungen und unterstützen Krieger unter allen Umständen.</p>
+      <h5 class="caption">DOMÄNENZAUBER DES KRIEGS</h5>
+      <table>
+        <thead>
+          <tr> <td>Klerikerstufe</td> <td>Zauber</td> </tr>
+        </thead>
+        <tr> <td>1</td> <td> <em>Göttliche Gunst, Schild des Glaubens</em> </td> </tr>
+        <tr> <td>3</td> <td> <em>Magische Waffe, Waffe des Glaubens</em> </td> </tr>
+        <tr> <td>5</td> <td> <em>Kreuzfahrerrnantel, Schutzgeister</em> </td> </tr>
+        <tr> <td>7</td> <td> <em>Bewegungsfreiheit, Steinhaut</em> </td> </tr>
+        <tr> <td>9</td> <td> <em>Flarnmenschlag, Monster festhalten</em> </td> </tr>
+      </table>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_BONUS_PROFICIENCIES" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_WAR_GODS_BLESSING" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_STRIKE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE" />
+    </description>
+		<sheet display="false">
+      <description></description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DIVINE_FAVOR" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SHIELD_OF_FAITH" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_MAGIC_WEAPON" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPIRITUAL_WEAPON" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CRUSADERS_MANTLE" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPIRIT_GUARDIANS" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_BONUS_PROFICIENCIES" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST" level="1"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE" level="2"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_WAR_GODS_BLESSING" level="6"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_STRIKE" level="8"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE" level="17"/>
+    </rules>
+  </element>
+  <element name="Zusätzliche Übung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_BONUS_PROFICIENCIES">
+    <description>
+      <p>Ab der 1. Stufe bist du geübt im Umgang mit Kriegswaffen und schweren Rüstungen.</p>
+    </description>
+    <sheet display="false">
+      <description>Du bist geübt im Umgang mit Kriegswaffen und schweren Rüstungen.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+    </rules>
+  </element>
+  <element name="Kriegspriester" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST">
+    <description>
+      <p>Von der 1. Stufe an inspiriert dich dein Gott im Kampf zu großen Taten. Setzt du deine Angriffsaktion ein, kannst du einen Waffenangriff als Bonusaktion ausführen.</p>
+      <p class="indent">Du kannst diese Fähigkeit so viele Male einsetzen, wie es der Höhe deines Weisheitsmodifikators (mindestens 1) entspricht. Alle verbrauchten Anwendungen dieses Merkmals stehen dir nach Abschluss einer langen Rast wieder zur Verfügung.</p>
+    </description>
+    <sheet action="Bonusaktion" usage="{{war priest:count}}/Lange Rast">
+      <description>Setzt du deine Angriffsaktion ein, kannst du einen zusätzlichen Waffenangriff ausführen.</description>
+    </sheet>
+    <rules>
+      <stat name="war priest:count" value="1" bonus="war priest" />
+      <stat name="war priest:count" value="wisdom:modifier" bonus="war priest" />
+    </rules>
+  </element>
+  <element name="Göttliche Macht fokussieren: Geführter Schlag" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE">
+    <description>
+      <p>Beginnend mit der 2. Stufe kannst du die Macht deines kriegerischen Gottes fokussieren, um einen Schlag mit übernatürlicher Zielgenauigkeit auszuführen. Wenn du einen Angriffswurf ablegst, kannst du Göttliche Macht fokussieren einsetzen, um einen Bonus von +10 auf den Wurf zu erhalten. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfs siehst, jedoch bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</p>
+    </description>
+    <sheet alt="Geführter Schlag" usage="Göttliche Macht fokussieren">
+      <description>Wenn du einen Angriffswurf ablegst, erhälst du einen Bonus von +10 auf den Wurf. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfs siehst, jedoch bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</description>
+    </sheet>
+  </element>
+  <element name="Göttliche Macht fokussieren: Segen des Kriegsgottes" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_WAR_GODS_BLESSING">
+    <description>
+      <p>Auf der 6. Stufe kannst du einer Kreatur, die sich innerhalb von 9 m befindet und einen Angriffswurf ausführt, einen Bonus von +10 auf diesen Wurf verleihen, indem du dein Merkmal Göttliche Macht fokussieren anwendest. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfs siehst, jedoch bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</p>
+    </description>
+    <sheet alt="Segen des Kriegsgottes" action="Reaktion" usage="Göttliche Macht fokussieren">
+      <description>Wenn eine Kreatur, die sich innerhalb von 9 m befindet, einen Angriffswurf ausführt kannst du dieser Kreatur einen Bonus von +10 auf diesen Wurf verleihen.</description>
+    </sheet>
+  </element>
+  <element name="Göttlicher Schlag" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_STRIKE">
+    <description>
+      <p>Auf der 8. Stufe erhältst du die Fähigkeit, die Schläge deiner Waffe mit göttlicher Energie aufzuladen. Einmal pro Zug kannst du bei einem erfolgreichen Waffenangriff 1W8 zusätzlichen Schaden verursachen, der dem Schadenstyp deiner Waffe entspricht. Mit Erreichen der 14. Stufe erhöht sich der zusätzliche Schaden auf 2W8.</p>
+    </description>
+    <sheet>
+      <description>Einmal pro Zug kannst du bei einem erfolgreichen Waffenangriff 1W8 zusätzlichen Schaden verursachen, der dem Schadenstyp deiner Waffe entspricht.</description>
+      <description level="14">Einmal pro Zug kannst du bei einem erfolgreichen Waffenangriff 2W8 zusätzlichen Schaden verursachen, der dem Schadenstyp deiner Waffe entspricht.</description>
+    </sheet>
+  </element>
+  <element name="Verkörperung der Schlacht" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE">
+    <description>
+      <p>Auf der 17. Stufe erhältst du eine Resistenz gegen Wucht-, Stich-, und Hiebschaden von nicht-magischen Waffen.</p>
+    </description>
+    <sheet>
+      <description>Du erhältst Resistenz gegen Wucht-, Stich-, und Hiebschaden von nicht-magischen Waffen.</description>
+    </sheet>
+  </element>
+</elements>

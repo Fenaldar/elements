@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Mönch</name>
+    <description>Die Klasse Mönch aus dem Spielerhandbuch.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.2.6">
+      <file name="klasse-moench.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spierlerhandbuch/klassen/klasse-moench.xml" />
+    </update>
+  </info>
+
+  <element name="Moench" type="Class" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_MONK">
+    <description>
+      <p>Ihre Fäuste verschwimmen, als sie die hernnahende Pfeilsalve ablenkt, dann springt die Halbelfe über eine Barrikade und wirft sich in die dicht gedrängten Ränge der Hobgoblins auf der anderen Seite. Sie wirbelt durch sie hindurch, wehrt Hiebe von allen Seiten ab und lässt die Gegner durch ihre Konter taumeln, bis sie zuletzt die Einzige ist, die noch steht.</p>
+      <p class="indent">Tief einatmend nimmt ein von Tätowierungen übersäter Mensch eine Kampfhaltung ein. Als die ersten heranstürmenden Orks ihn erreichen, atmet er aus, und ein Feuerstrahl schießt aus seinem Mund, der seine Gegner verschlingt.</p>
+      <p class="indent">In der Stille der Nacht tritt eine schwarz gekleidete Halblingfrau in den Schatten unter einem Torbogen und taucht aus einem anderen pechschwarzen Schatten auf einem Balkon wieder auf, der sich einen Steinwurf weit entfernt befindet. Sie lässt ihre Klinge aus der stoffummantelten Scheide gleiten und späht durch das offene Fenster auf den tyrannischen Prinzen, der dort so verletzlich im Griff des Schlafes liegt.</p>
+      <p class="indent">Welche Ausbildung sie auch absolviert haben, alle Mönche vereint ihre Fähigkeit, die Energie, die durch ihre Körper strömt, auf magische Weise nutzbar zu machen. Ob als schlagkräftiger Beweis ihrer Kampfstärke oder mit subtilerem Fokus auf Abwehr und Geschwindigkeit, nährt diese Energie jede Handlung eines Mönchs.</p>
+      <h4>DIE MAGIE DES KI</h4>
+      <p>Mönche studieren sorgfältig jene magische Energie, die in den meisten klösterlichen Traditionen Ki genannt wird. Diese Energie ist ein Element der Magie, welches das ganze Multiversum erfüllt und insbesondere durch lebende Körper strömt. Mönche nutzen diese Kraft in ihnen, um magische Effekte hervorzurufen und die physischen Möglichkeiten ihres Körpers zu vergrößern. Manche ihrer Spezialangriffe können denFluss des Ki in den Körpern ihrer Gegner behindern. Indem sie diese Energie benutzen, vermögen Mönche unglaubliche Geschwindigkeit und Stärke in ihre waffenlosen Schläge zu legen. Mit zunehmender Erfahrung können sie durch Kampftraining und die Meisterschaft des Ki ihren eigenen und den Körper eines Gegners bis zur Vollendung beherrschen.</p>
+      <h4>ÜBUNG UND ASKESE</h4>
+      <p>In allen Welten von DUNGEONS &amp; DRAGONS finden sich beschauliche Klöster, an denen die Zeit still zu stehen scheint und die als Rückzugsort von der Schnellebigkeit des gewöhnlichen Lebens dienen. Die Mönche, die dort leben, suchen nach Selbstvervollkommnung durch Kontemplation und rigoroses Training. Viele wurden als Kinder in die Klöster geschickt, entweder weil nach dem Tod ihrer Eltern niemand Nahrung für sie aufbringen konnte oder als Dank für einen Gefallen, den die Mönche des Klosters ihrer Familie erwiesen haben.</p>
+      <p class="indent">Einige Mönche leben in völliger Abgeschiedenheit von der umliegenden Bevölkerung, abgeschirmt von allem, das ihre Vertiefung in den spirituellen Prozess stören könnte. Andere haben sich zwar der Isolation verschrieben, treten aber auf Befehl ihrer Anführer als Spione oder Assassinen in Erscheinung. Diese Führer sind meist adelige Schutzherren oder eine andere sterbliche oder göttliche Macht.</p>
+      <p class="indent">Der Großteil der Mönche scheut seine Nachbarn nicht und stattet den nahegelegenen Dörfern und Städten regelmäßige Besuche ab, bei denen sie ihre Dienste gegen Nahrung und andere Güter tauschen. Als fähige Krieger ist es oft an den Mönchen, die benachbarte Bevölkerung vor Monstern oder Tyrannen zu beschützen.</p>
+      <p class="indent">Ein Abenteurer zu werden, bedeutet für einen Mönch, sein strukturiertes Leben in der Gemeinschaft aufzugeben und sein Dasein auf Wanderschaft zu fristen. Das kann eine tiefgreifende Veränderung sein, die ein Mönch nicht leichtfertig riskiert. Diejenigen, die ihr Kloster verlassen, nehmen ihre neue Aufgabe ernst und sehen das Abenteurerleben als persönliche Prüfung ihres körperlichen und spirituellen Wachstums an. In der Regel machen sich Mönche wenig aus materiellen Reichtümern und werden von der Sehnsucht angetrieben, etwas Größeres zu leisten als das Töten von Monstern und Erbeuten von Schätzen.</p>
+      <h4>EINEN MÖNCH ERSCHAFFEN</h4>
+      <p>Wenn du deinen Mönch erschaffst, denke über die Verbindung zu dem Kloster nach, in dem er seine Fähigkeiten erlernte und seine prägenden Jahre verbrachte. War er ein Waise oder ein Kind. das der Obhut des Klosters anvertraut wurde? Haben seine Eltern ihn dem Kloster versprochen, weil die Mönche ihnen einen großen Dienst erwiesen? Hat er sich zu diesem Weg entschlossen, weil er ein Verbrechen beging und sich verstecken musste? Oder hat er sich das abgeschiedene Leben im Kloster bewusst ausgesucht?</p>
+      <p class="indent">Überlege dir, warum dein Charakter das Kloster verlassen hat. Wählte ihn das Oberhaupt für eine wichtige Mission außerhalb der Abtei aus? Wurde er vielleicht verstoßen, weil er gegen die Regeln der Gemeinschaft aufbegehrte? War er froh zu gehen oder hat es ihm davor gegraut? Gibt es etwas Bestimmtes, das dein Mönch außerhalb des Klosters erreichen will? Sehnt er seine Rückkehr nach Hause schon herbei? Als Resultat des strukturierten Lebens im Kloster und der Disziplin, die das Meistern des Ki erfordert, sind fast alle Mönche von rechtschaffener Gesinnung.</p>
+      <h5>SCHNELLE ERSCHAFFUNG</h5>
+      <p>Du kannst dir einen Mönch schnell erschaffen, indem du diesen Vorschlägen folgst:</p>
+      <p class="indent">Setze deinen höchsten Attributswert auf Geschicklichkeit, den zweithöchsten auf Weisheit. Wähle zusätzlich den Hintergrund Einsiedler.</p>
+      <h3>KLASSENMERKMALE</h3>
+      <p>Als Mönch erhältst du folgende Klassenmerkmale:</p>
+      <ul class="unstyled">
+          <li><strong>Trefferwürfel:</strong> 1dW8 pro Stufe als Mönch</li>
+          <li><strong>Trefferpunkte auf Stufe 1:</strong> 8 + dein Konstitutionsmodifikato</li>
+          <li><strong>Trefferpunkte auf höheren Stufen:</strong> 1W8 (oder 5) + dein Konstitutionsmodifikator pro Stufe als Mönch über die 1. Stufe hinaus</li>
+      </ul>
+      <h5 class="caption">ÜBUNG</h5>
+      <ul class="unstyled mb">
+          <li><strong>Rüstungen:</strong> keine</li>
+          <li><strong>Waffen:</strong> einfache Waffen, Kurzschwerter</li>
+          <li><strong>Werkzeuge:</strong> ein Handwerkszeug oder Musikinstrument nach Wahl</li>
+      </ul>
+      <ul class="unstyled">
+          <li><strong>Rettungswürfe:</strong> Stärke, Geschicklichkeit</li>
+          <li><strong>Fertigkeiten:</strong> zwei nach Wahl: Akrobatik, Athletik, Geschichte, Motiv erkennen, Religion oder Heimlichkeit</li>
+      </ul>
+      <h5>AUSRÜSTUNG</h5>
+      <p>Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:</p>
+      <ul>
+        <li><i>(a)</i> ein Kurzschwert oder <i>(b)</i> eine einfache Waffe</li>
+        <li><i>(a)</i> eine Gewölbeforscherausrüstung oder <i>(b)</i> eine Entdeckerausrüstung</li>
+        <li>10 Wurfpfeile</li>
+      </ul>
+      <h5 class="caption">DER MÖNCH</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-10">Stufe</td><td class="col-10">Kampf-künste</td><td class="col-10">Ki-Punkte</td><td class="col-10">Ungerüstete Bewegung</td><td class="col-60 left">Merkmale</td></tr>
+        </thead>
+        <tr><td> 1</td><td>1W4</td><td>—</td><td>—</td><td class="left">Ungerüstete Verteidigung, Kampfkünste</td></tr>
+        <tr><td> 2</td><td>1W4</td><td>2</td><td>+3 m</td><td class="left">Ki, Ungerüstete Bewegung</td></tr>
+        <tr><td> 3</td><td>1W4</td><td>3</td><td>+3 m</td><td class="left">Klostertradition, Geschosse abwehren</td></tr>
+        <tr><td> 4</td><td>1W4</td><td>4</td><td>+3 m</td><td class="left">Attributswerterhöhung, Sturz abfedern</td></tr>
+        <tr><td> 5</td><td>1W6</td><td>5</td><td>+3 m</td><td class="left">Zusätzlicher Angriff, Betäubender Schlag</td></tr>
+        <tr><td> 6</td><td>1W6</td><td>6</td><td>+4,50 m</td><td class="left">Ki-Schläge, Merkmal: Klostertradition</td></tr>
+        <tr><td> 7</td><td>1W6</td><td>7</td><td>+4,50 m</td><td class="left">Entrinnen, Ruhiger Geist</td></tr>
+        <tr><td> 8</td><td>1W6</td><td>8</td><td>+4,50 m</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td> 9</td><td>1W6</td><td>9</td><td>+4,50 m</td><td class="left">Verbesserte Ungerüstete Bewegung</td></tr>
+        <tr><td>10</td><td>1W6</td><td>10</td><td>+6 m</td><td class="left">Reinheit des Körpers</td></tr>
+        <tr><td>11</td><td>1W8</td><td>11</td><td>+6 m</td><td class="left">Merkmal: Klostertradition</td></tr>
+        <tr><td>12</td><td>1W8</td><td>12</td><td>+6 m</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td>13</td><td>1W8</td><td>13</td><td>+6 m</td><td class="left">Sprache von Sonne und Mond</td></tr>
+        <tr><td>14</td><td>1W8</td><td>14</td><td>+7,50 m</td><td class="left">Diamantseele</td></tr>
+        <tr><td>15</td><td>1W8</td><td>15</td><td>+7,50 m</td><td class="left">Zeitloser Körper</td></tr>
+        <tr><td>16</td><td>1W8</td><td>16</td><td>+7,50 m</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td>17</td><td>1Wl0</td><td>17</td><td>+7,50 m</td><td class="left">Merkmal: Klostertradition</td></tr>
+        <tr><td>18</td><td>1W10</td><td>18</td><td>+9 m</td><td class="left">Geist über Körper</td></tr>
+        <tr><td>19</td><td>1W10</td><td>19</td><td>+9 m</td><td class="left">Attributswerterhöhung</td></tr>
+        <tr><td>20</td><td>1W10</td><td>20</td><td>+9 m</td><td class="left">Perfektes Selbst</td></tr>
+      </table>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_MONASTIC_TRADITION" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_DEFLECT_MISSILES" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_SLOW_FALL" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI-EMPOWERED_STRIKES" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_EVASION_MONK" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_STILLNESS_OF_MIND" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_PURITY_OF_BODY" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_TONGUE_OF_THE_SUN_AND_MOON" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_DIAMOND_SOUL" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_TIMELESS_BODY_MONK" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_EMPTY_BODY" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_PERFECT_SELF" />
+    </description>
+    <sheet display="false">
+      <description>Ein Meister der Kampfkünste, der die Kraft des Körpers nutzt, um nach physischer und spiritueller Perfektion zu streben.</description>
+    </sheet>
+    <setters>
+      <set name="short">Ein Meister der Kampfkünste, der die Kraft des Körpers nutzt, um nach physischer und spiritueller Perfektion zu streben.</set>
+      <set name="hd">d8</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_MONK" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_WOTC_PHB_MULTICLASS_MONK" />
+      <select type="Proficiency" name="Geübtes Werkzeug (Mönch)" supports="Musical Instrument||Artisan tools" requirements="!ID_WOTC_PHB_MULTICLASS_MONK" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB_MULTICLASS_MONK" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB_MULTICLASS_MONK" />
+      <select type="Proficiency" name="Geübte Fertigkeit (Mönch)" supports="Skill,Monk" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_MONK" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" level="1" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS" level="1" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI" level="2" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT" level="2" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_MONASTIC_TRADITION" level="3" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_DEFLECT_MISSILES" level="3" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK" level="4" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_SLOW_FALL" level="4" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" level="5" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE" level="5" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI-EMPOWERED_STRIKES" level="6" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EVASION_MONK" level="7" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STILLNESS_OF_MIND" level="7" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_PURITY_OF_BODY" level="10" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_TONGUE_OF_THE_SUN_AND_MOON" level="13" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_DIAMOND_SOUL" level="14" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_TIMELESS_BODY_MONK" level="15" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EMPTY_BODY" level="18" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_PERFECT_SELF" level="20" />
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_MONK">
+      <prerequisite>Dexterity 13 and Wisdom 13</prerequisite>
+      <requirements>([dex:13],[wis:13])</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Simple weapons, shortswords</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Ungerüstete Verteidigung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_DEFENSE">
+    <description>
+      <p>Ab der 1. Stufe entspricht deine Rüstungsklasse 10 + deinem Geschicklichkeitsmodifikator + deinem Weisheitsmodifikator, solange du weder eine Rüstung noch einen Schild trägst.</p>
+    </description>
+    <sheet>
+      <description>Solange du weder eine Rüstung noch einen Schild trägst, ist deine RK {{ac:unarmored defense monk}}.</description>
+    </sheet>
+    <rules>
+		<stat name="ac:unarmored defense monk:base" value="10" />
+		<stat name="ac:unarmored defense monk:dexterity" value="dexterity:modifier" />
+		<stat name="ac:unarmored defense monk:wisdom" value="wisdom:modifier" />
+		<stat name="ac:unarmored defense monk" value="ac:unarmored defense monk:base" />
+		<stat name="ac:unarmored defense monk" value="ac:unarmored defense monk:dexterity" />
+		<stat name="ac:unarmored defense monk" value="ac:unarmored defense monk:wisdom" />
+		<stat name="ac:calculation" value="ac:unarmored defense monk" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Ungerüstete Verteidigung (Mönch)" />
+    </rules>
+  </element>
+  <element name="Kampfkünste" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS">
+    <description>
+      <p>Auf der 1. Stufe erlangst du durch deine Übung in den Kampfkünsten Meisterschaft im Umgang mit Mönchswaffen und im waffenlosen Kampf. Als Mönchswaffe gelten alle Kurzschwert und jede einfach Waffe, die nicht als zweihändig oder schwer gekennzeichnet ist.</p>
+      <p class="indent">Du erhältst die folgenden Vorzüge, wenn du weder eine Rünstung noch eine Schild trägst und solange du unbewaffnet bist oder nur eine Mönchswaffe benutzt:</p>
+      <ul>
+        <li>Für deine Angriff- und Schadenswürfe mit Mönchswaffen oder waffenlosen Schlägen darfst du deinen Geschicklichkeitsmodifikator anstelle deines Stärkemodifikators verwenden.</li>
+        <li>Für deine waffenlosen Angriffe und die mit Mönchswaffen kannst du einen W4 anstelle des regulären Schadenswürfels benutzen. Dieser W4 verbessert sich auf höheren Stufen, so wie es in der Aufstiegstabelle des Mönchs unter Kampfkünste angegeben ist.</li>
+        <li>Wählst du in deinem Zug die Angriffsaktion mit einer Mönchswaffe oder einem waffenlosen Schlag, darfst du einen zusätzlichen waffenlosen Schlag als Bonusaktion ausführen. Greifst du beispielsweise mit einem Kampfstab an, darfst du einen waffenlosen Schlag als Bonusaktion ausführen. Diesen Vorzug kannst du nur nutzen, wenn du in diesem Zug noch keine Bonusaktion aufgewendet hast.</li>
+      </ul>
+      <p>Bestimmte Klöster verwenden spezialisierte Formen der Mönchswaffen. Zum Beispiel könntest du mit einem Knüppel kämpfen, der in zwei Hälften unterteilt und durch eine kurze Kette verbunden ist (einem Nunchaku), oder du benutzt eine Sichel mit einer kürzeren, gerade Klinge (eine Kama). Welchen Namen die Mönchswaffe auch immer tragen mag, verwende die entsprechenden Spielwerte aus Kapitel 5 „Ausrüstung".</p>
+    </description>
+    <sheet>
+      <description>Dein waffenloser Angriff verursacht 1W{{martial arts:dice}} Schaden. Du kannst Stärke oder Geschicklichkeit für diesen Angriff verwenden.</description>
+    </sheet>
+    <rules>
+        <stat name="martial arts:attack" value="strength:modifier" bonus="martial arts" />
+        <stat name="martial arts:attack" value="dexterity:modifier" bonus="martial arts" />
+        <stat name="martial arts:damage" value="strength:modifier" bonus="martial arts" />
+        <stat name="martial arts:damage" value="dexterity:modifier" bonus="martial arts" />
+        <stat name="martial arts:dice" value="4" bonus="martial arts" />
+        <stat name="martial arts:dice" value="6" bonus="martial arts" level="5" />
+        <stat name="martial arts:dice" value="8" bonus="martial arts" level="11" />
+        <stat name="martial arts:dice" value="10" bonus="martial arts" level="17" />
+    </rules>
+  </element>
+  <element name="Ki" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI">
+    <description>
+      <p>Ab Stufe 2 erlaubt dir dein Training die mystische Energie des Ki nutzbar zu machen. Dein Zugriff auf diese Energie wird durch Ki-Punkte dargestellt, deren Anzahl deiner Stufe als Mönch bestimmt (siehe dazu Spalte "Ki-Punkte" in der Aufstiegstabelle).</p>
+      <p class="indent">Du kannst diese Punkte ausgeben, um verschiedene Ki-Fähigkeiten einzusetzen. Zu Beginn kennst du drei solcher Fähigkeiten: Schlaghagel, Geduldige Verteidigung und Windschritt. Du lernst weitere Ki-Fertigkeiten, während du Stufen in dieser Klasse aufsteigst.</p>
+      <p class="indent">Gibts du einen Ki-Punkt aus, ist er verbraucht. Alle verbrauchten Ki-Punkte stehen dir erst wieder nach einer kurzen oder langen Rast zur Verfügung. Du must mindestens 30 Minuten der Rast mit Meditation verbringen, um die Ki-Punkte wiederzuerlangen.</p>
+      <p class="indent">Manche deiner Ki-Fähigkeiten verlangen dem Ziel einen Rettungswurf ab, um der Auswirkung der Fähigkeit zu widerstehen. Der Schwierigkeitsgrad des Rettungswurfs wird wie folgt berechnet:</p>
+			<center>
+        <p><strong>SG für Rettungswürfe gegen Ki-Fähigkeiten</strong> = 8 + dein Übungsbonus + dein Weisheitsmodifikator</p>
+			</center>
+      <h6>SCHLAGHAGEL</h6>
+      <p>Sofort nachdem du die Angriffsaktion in deinem Zug ausgeführt hast, kannst du 1 Ki-Punkt ausgeben, um zwei waffenlose Schläge als Bonusaktion auszuführen.</p>
+      <h6>GEDULDIGE VERTEIDIGUNG</h6>
+      <p>Du kannst 1 Ki-Punkt ausgeben, um die Ausweichaktion als Bonusaktion in deinem Zug zu verwenden.</p>
+      <h6>WINDSCHRITT</h6>
+      <p>Du kannst 1 Ki-Punkt ausgeben, um die Rückzugs- oder Spurtenaktion als Bonusaktion in deinem Zug zu verwenden. Zusätzlich wird deine Sprungweite beziehungsweise -höhe für diesen Zug verdoppelt.</p>
+    </description>
+    <sheet usage="Kurze Rast - 30 Minuten Meditation">
+      <description>Du hast {{ki:points}} Ki-Punkte und der SG für RW gegen Ki-Fähigkeiten ist {{ki:dc}}.</description>
+    </sheet>
+    <rules>
+      <stat name="ki:points" value="level:moench" />
+      <stat name="ki:dc" value="8" />
+      <stat name="ki:dc" value="proficiency" />
+      <stat name="ki:dc" value="wisdom:modifier" />
+	  <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_FLURRY_OF_BLOWS" />
+	  <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_PATIENT_DEFENSE" />
+	  <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_STEP_OF_THE_WIND" />
+    </rules>
+  </element>
+	<element name="Schlaghagel" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_FLURRY_OF_BLOWS">
+    <description>
+			<p>Sofort nachdem du die Angriffsaktion in deinem Zug ausgeführt hast, kannst du 1 Ki-Punkt ausgeben, um zwei waffenlose Schläge als Bonusaktion auszuführen.</p>
+		</description>
+		<sheet action="Bonusaktion" usage="1 Ki">
+			<description>Sofort nachdem du die Angriffsaktion in deinem Zug ausgeführt hast, kannst zwei weitere waffenlose Schläge auszuführen.</description>
+		</sheet>
+	</element>
+	<element name="Geduldige Verteidigung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_PATIENT_DEFENSE">
+    <description>
+			<p>Du kannst 1 Ki-Punkt ausgeben, um die Ausweichaktion als Bonusaktion in deinem Zug zu verwenden.</p>
+		</description>
+		<sheet action="Bonusaktion" usage="1 Ki">
+			<description>Du kannst die Ausweichaktion in deinem Zug verwenden.</description>
+		</sheet>
+	</element>
+	<element name="Windschritt" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_STEP_OF_THE_WIND">
+    <description>
+  			<p>Du kannst 1 Ki-Punkt ausgeben, um die Rückzugs- oder Spurtenaktion als Bonusaktion in deinem Zug zu verwenden. Zusätzlich wird deine Sprungweite beziehungsweise -höhe für diesen Zug verdoppelt.</p>
+  		</description>
+  		<sheet action="Bonusaktion" usage="1 Ki">
+  			<description>Du kannst die Rückzugs- oder Spurtenaktion verwenden. Zusätzlich wird deine Sprungweite beziehungsweise -höhe für diesen Zug verdoppelt.</description>
+  		</sheet>
+	</element>
+	<element name="Ungerüstete Bewegung" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT">
+    <description>
+			<p>Beginnend mit der 2. Stufe steigt deine Bewegungsrate um 3 m, solange du weder eine Rüstung noch einen Schild trägst. Dieser Bonus erhöht sich auf bestimmten Stufen als Mönch, so wie es in der Aufstiegstabelle angegeben ist.</p>
+			<p class="indent">Auf der 9. Stufe verbessert sich dieses Merkmal und du erhälst die Fähigkeit, dich in deinem Zug an senkrechten Oberflächen entlang und über Flüssigkeiten zu bewegen. Solange du in Bewegung bleibst, kannst du nicht stürzen oder einsinken.</p>
+		</description>
+		<sheet>
+			<description>Deine Bewegungsrate erhöht sich um {{monk:unarmored movement}} m, solange du weder eine Rüstung noch einen Schild trägst.</description>
+			<description level="9">Deine Bewegungsrate erhöht sich um {{monk:unarmored movement}} m, solange du weder eine Rüstung noch einen Schild trägst. Du erhälst die Fähigkeit, dich an senkrechten Oberflächen entlang und über Flüssigkeiten zu bewegen. Solange du in Bewegung bleibst, kannst du nicht stürzen oder einsinken.</description>
+		</sheet>
+		<rules>
+			<stat name="monk:unarmored movement" value="3" bonus="unarmored movement" level="2" />
+			<stat name="monk:unarmored movement" value="4.50" bonus="unarmored movement" level="6" />
+			<stat name="monk:unarmored movement" value="6" bonus="unarmored movement" level="10" />
+			<stat name="monk:unarmored movement" value="7.50" bonus="unarmored movement" level="14" />
+			<stat name="monk:unarmored movement" value="9" bonus="unarmored movement" level="18" />
+
+			<stat name="innate speed:misc" value="monk:unarmored movement" bonus="unarmored movement" equipped="[armor:none],[shield:none]" requirements="[innate speed:1]" />
+			<stat name="innate speed:climb:misc" value="monk:unarmored movement" bonus="unarmored movement" equipped="[armor:none],[shield:none]" requirements="[innate speed:climb:1]" />
+			<stat name="innate speed:fly:misc" value="monk:unarmored movement" bonus="unarmored movement" equipped="[armor:none],[shield:none]" requirements="[innate speed:fly:1]" />
+			<stat name="innate speed:swim:misc" value="monk:unarmored movement" bonus="unarmored movement" equipped="[armor:none],[shield:none]" requirements="[innate speed:swim:1]" />
+			<stat name="innate speed:burrow:misc" value="monk:unarmored movement" bonus="unarmored movement" equipped="[armor:none],[shield:none]" requirements="[innate speed:burrow:1]" />
+		</rules>
+	</element>
+  <element name="Klostertradition" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_MONASTIC_TRADITION">
+    <description>
+      <p>Sobald du die 3. Stufe erreichst, verschreibst du dich einer Klostertradition: dem Weg der Offenen Hand, dem Weg des Schattens oder dem Weg der Vier Elemente. Deine Wahl verleiht dir auf der 2., 6., 11. und 17. Stufe jeweils ein Merkmal.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Klostertradition" supports="Klostertradition" />
+    </rules>
+  </element>
+  <element name="Geschosse abwehren" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_DEFLECT_MISSILES">
+    <description>
+      <p>Ab der 3. Stufe kannst du deine Reaktion verwenden, um Geschosse abzuwehren oder zurückzuwerfen, wenn du von dem Angriff einer Fernkampfwaffe getroffen wirst. Reduziere in diesem Fall den Schaden des Angriffs um 1W10 + deinen Geschicklichkeitsmodifikator + deine Stufe als Mönch.</p>
+      <p class="indent">Falls der Schaden dadurch auf 0 verringert wird, kannst du das Geschoss fangen, sollte es klein genug sein, um es mit einer Hand zu halten, und du mindestens eine Hand frei hast. Fängst du ein Geschoss auf diese Weise, kannst du 1 Ki-Punkt ausgeben, um einen Fernkampfangriff mit der Waffe oder der Munition auszuführen, die du gerade gefangen hast. Dies ist Teil derselben Reaktion. Du führst diesen Angriff mit dienem Übungsbonus aus, gleichgültig ob du im Umgang mit der Waffe geübt bist oder nicht. Darüber hinaus gilt das Geschoss für den Angriff als Mönchswaffe und besitzt eine Grundreichweite von 6 m und eine Maximalreichweite von 18 m.</p>
+    </description>
+    <sheet action="Reaktion">
+      <description>Du kannst Geschosse abwehren oder zurückwerfen, wenn du von dem Angriff einer Fernkampfwaffe getroffen wirst. Reduziere in diesem Fall den Schaden des Angriffs um 1W10+{{monk:deflect missiles bonus}}.
+        <p class="indent">Falls der Schaden dadurch auf 0 verringert wird, kannst du das Geschoss fangen und 1 Ki-Punkt ausgeben, um einen Fernkampfangriff mit der Waffe oder der Munition auszuführen. Dies ist Teil derselben Reaktion. Du führst diesen Angriff mit dienem Übungsbonus aus, gleichgültig ob du im Umgang mit der Waffe geübt bist oder nicht. Darüber hinaus gilt das Geschoss für den Angriff als Mönchswaffe und besitzt eine Grundreichweite von 6 m und eine Maximalreichweite von 18 m.</p>
+      </description>
+    </sheet>
+    <rules>
+      <stat name="monk:deflect missiles bonus" value="dexterity:modifier" />
+      <stat name="monk:deflect missiles bonus" value="level:moench" />
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Mönch)" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK">
+    <compendium display="false" />
+    <description>
+      <p>Beim Erreichen der 4. Stufe und dann wieder auf der 8., 12., 16. und 19. Stufe kannst du einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Attributswerterhöhung (Mönch 4)" supports="Improvement Option,Moench,4" level="4" />
+      <select type="Class Feature" name="Attributswerterhöhung (Mönch 8)" supports="Improvement Option,Moench,8" level="8" />
+      <select type="Class Feature" name="Attributswerterhöhung (Mönch 12)" supports="Improvement Option,Moench,12" level="12" />
+      <select type="Class Feature" name="Attributswerterhöhung (Mönch 16)" supports="Improvement Option,Moench,16" level="16" />
+      <select type="Class Feature" name="Attributswerterhöhung (Mönch 19)" supports="Improvement Option,Moench,19" level="19" />
+    </rules>
+  </element>
+  <element name="Sturz abfedern" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_SLOW_FALL">
+    <description>
+      <p>Ab der 4. Stufe kannst du deine Reaktion einsetzen, um den Fallschaden durch einen Sturz um deine Stufe als Mönch mal 5 zu reduzieren.</p>
+    </description>
+    <sheet usage="Reaktion">
+      <description>Reduziere den Fallschaden um {{monk:slowfall}} Punkte.</description>
+    </sheet>
+    <rules>
+      <stat name="monk:slowfall" value="level:moench" />
+      <stat name="monk:slowfall" value="level:moench" />
+      <stat name="monk:slowfall" value="level:moench" />
+      <stat name="monk:slowfall" value="level:moench" />
+      <stat name="monk:slowfall" value="level:moench" />
+    </rules>
+  </element>
+  <element name="Zusätzlicher Angriff" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK">
+    <description>
+      <p>Beginnend mit der 5. Stufe kannst du zweimal anstatt einmal angreifen, wenn du eine Angriffsaktion in deinem Zug ausführst.</p>
+    </description>
+    <sheet>
+      <description>Du kannst zweimal anstatt einmal angreifen, wenn du eine Angriffsaktion in deinem Zug ausführst.</description>
+    </sheet>
+	  <rules>
+		  <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+	  </rules>
+  </element>
+  <element name="Betäubender Schlag" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE">
+    <description>
+      <p>Angefangen mit der 5. Stufe bist du in der Lage, den Fluss des Ki im Körper deines Gegners zu stören. Wenn du eine andere Kreatur mit einem Nahkampfangriff triffst, kannst du 1 KiPunkt ausgeben, um einen betäubenden Schlag anzusetzen. Dem Ziel muss ein Konstitutionsrettungswurf gelingen oder es gilt bis zum Ende deines nächsten Zuges als betäubt.</p>
+    </description>
+    <sheet usage="1 Ki">
+      <description>Wenn du eine andere Kreatur mit einem Nahkampfangriff triffst, kannst du einen betäubenden Schlag ansetzen. Dem Ziel muss ein Konstitutionsrettungswurf gelingen oder es gilt bis zum Ende deines nächsten Zuges als betäubt.</description>
+    </sheet>
+  </element>
+  <element name="Ki-Schläge" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI-EMPOWERED_STRIKES">
+    <description>
+      <p>Deine waffenlosen Angriffe zählen ab der 6. Stufe als magisch, wenn es darum geht, Resistenzen und Immunitäten gegen nicht-magische Angriffe und nicht-magischen Schaden zu überwinden.</p>
+    </description>
+    <sheet>
+      <description>Deine waffenlosen Angriffe zählen als magisch, wenn es darum geht, Resistenzen und Immunitäten gegen nicht-magische Angriffe und nicht-magischen Schaden zu überwinden.</description>
+    </sheet>
+  </element>
+  <element name="Entrinnen" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EVASION_MONK">
+    <description>
+      <p>Ab der 7. Stufe kannst du dich dank deiner instinktiven Gewandheit dem Wirkungsbereich bestimmter Effekte entziehen, wie etwa dem Blitzodem eines blauen Drachen oder dem Zauber Feuerball. Bist du einem Effekt ausgesetzt, der einen Geschicklichkeitsrettungswurf erlaubt, um den Schaden zu halbieren, nimmst du bei einem erfolgreichen Rettungswurf gar keinen Schaden und bei einem Misserfolg lediglich die Hälfte des Schadens.</p>
+    </description>
+    <sheet>
+      <description>Bist du einem Effekt ausgesetzt, der einen Geschicklichkeitsrettungswurf erlaubt, um den Schaden zu halbieren, nimmst du bei einem erfolgreichen Rettungswurf gar keinen Schaden und bei einem Misserfolg lediglich die Hälfte des Schadens.</description>
+    </sheet>
+  </element>
+  <element name="Ruhiger Geist" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STILLNESS_OF_MIND">
+    <description>
+      <p>Beginnend mit Stufe 7 kannst du deine Aktion verwenden, um einen auf dich wirkenden Effekt zu beenden, durch den du verängstigt oder bezaubert bist.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Du kannst einen auf dich wirkenden Effekt beenden, durch den du verängstigt oder bezaubert bist.</description>
+    </sheet>
+  </element>
+  <element name="Reinheit des Körpers" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_PURITY_OF_BODY">
+    <description>
+      <p>Auf Stufe 10 lässt dich deine Kunst, den Fluss des Ki in deinem Körper zu beherrschen, immun gegen Gifte und Krankheiten werden.</p>
+    </description>
+    <sheet>
+      <description>Deine Beherrschung des Ki, das durch dich fließt, macht dich immun gegen Gifte und Krankheiten</description>
+    </sheet>
+  </element>
+  <element name="Sprache von Sonne und Mond" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_TONGUE_OF_THE_SUN_AND_MOON">
+    <description>
+      <p>Angefangen auf Stufe 13 lernst du, das Ki in den Gedanken anderer Wesen wahrzunehmen, sodass du jede gesprochene Sprache verstehen kannst. Überdies ist jede Kreatur, die eine Sprache beherrscht, imstande auch dich zu verstehen.</p>
+    </description>
+    <sheet>
+      <description>Du kannst das Ki in den Gedanken anderer Wesen wahrnehmen, sodass du jede gesprochene Sprache verstehen kannst. Überdies ist jede Kreatur, die eine Sprache beherrscht, imstande auch dich zu verstehen.</description>
+    </sheet>
+  </element>
+  <element name="Diamantseele" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_DIAMOND_SOUL">
+    <description>
+      <p>Durch deine Beherrschung des Ki giltst du ab der 14. Stufe in allen Rettungswürfen als geübt.</p>
+      <p class="indent">Zusätzlich kannst du jedes Mal, wenn du einen Rettungswurf ablegst und dabei scheiterst, 1 Ki-Punkt ausgeben, um erneut zu würfeln. Das zweite Ergebnis musst du allerdings anwenden.</p>
+    </description>
+    <sheet>
+      <description>Durch deine Beherrschung des Ki giltst du in allen Rettungswürfen als geübt.
+        Jedes Mal, wenn du einen Rettungswurf ablegst und dabei scheiterst, kannst du 1 Ki-Punkt ausgeben, um erneut zu würfeln. Das zweite Ergebnis musst du allerdings anwenden.
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+    </rules>
+  </element>
+  <element name="Zeitloser Körper" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_TIMELESS_BODY_MONK">
+    <description>
+      <p>Dein Ki schützt dich ab Stufe 15 vor den negativen Auswirkungen des Alterns, zusätzlich kannst du nicht mehr auf magischem Wege gealtert werden. Trotzdem kannst du immer noch aufgrund eines hohen Alters sterben. Darüber hinaus nährt dich dein Ki, sodass du nicht mehr essen und trinken musst.</p>
+    </description>
+    <sheet>
+      <description>Dein Ki ernährt dich, sodass du keine negativen Auswirkungen des Alterns hast und nicht magisch gealtert werden kannst.</description>
+    </sheet>
+  </element>
+  <element name="Geist über Körper" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EMPTY_BODY">
+    <description>
+      <p>Ab der 18. Stufe kannst du als Aktion 4 Ki-Punkte ausgeben, um für 1 Minute unsichtbar zu werden. In dieser Zeit bist du gegen jeglichen Schaden resistent, außer gegen Energieschaden.</p>
+      <p class="indent">Außerdem kannst du 8 Ki-Punkte ausgeben, um den Zauber Astrale Projektion zu wirken, ohne über die dafür benötigten Materialkomponenten verfügen zu müssen. Dabei kannst du allerdings keine anderen Kreaturen mitnehmen.</p>
+    </description>
+    <sheet action="Aktion" usage="4 Ki">
+      <description>Du kannst für 1 Minute unsichtbar werden. In dieser Zeit bist du gegen jeglichen Schaden resistent, außer gegen Energieschaden. Außerdem kannst du 8 Ki-Punkte ausgeben, um den Zauber Astrale Projektion zu wirken, ohne über die dafür benötigten Materialkomponenten verfügen zu müssen. Dabei kannst du allerdings keine anderen Kreaturen mitnehmen.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_ASTRAL_PROJECTION" />
+    </rules>
+  </element>
+  <element name="Perfektes Selbst" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_PERFECT_SELF">
+    <description>
+      <p>Wenn du ab Stufe 20 beim Würfeln der Initiative keine Ki-Punkte mehr besitzen solltest, erhältst du 4 Ki-Punkte zurück.</p>
+    </description>
+    <sheet>
+      <description>Wenn du beim Würfeln der Initiative keine Ki-Punkte mehr besitzen solltest, erhältst du 4 Ki-Punkte zurück.</description>
+    </sheet>
+  </element>
+
+  <element name="Der Weg der Offenen Hand" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_WAY_OF_THE_OPEN_HAND">
+    <supports>Klostertradition</supports>
+    <description>
+      <p>Mönche des Weges der Offenen Hand sind die unangefochtenen Meister der Kampfkünste, sei es bewaffnet oder unbewaffnet. Sie erlernen Techniken, um ihre Gegner zu Fall zu bringen, manipulieren Ki, um ihre Verletzungen zu heilen, und üben sich in fortgeschrittenen Arten der Meditation, die sie vor Schaden bewahren können.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_OPEN_HAND_TECHNIQUE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_WHOLENESS_OF_BODY" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_TRANQUILITY" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_QUIVERING_PALM" />
+    </description>
+		<sheet display="false">
+      <description>Die unangefochtenen Meister der Kampfkünste, sei es bewaffnet oder unbewaffnet.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_OPEN_HAND_TECHNIQUE" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_WHOLENESS_OF_BODY" level="6"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_TRANQUILITY" level="11"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_QUIVERING_PALM" level="17"/>
+    </rules>
+  </element>
+  <element name="Die Technik der Offenen Hand" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_OPEN_HAND_TECHNIQUE">
+    <description>
+      <p>Mit der Wahl dieser Tradition auf Stufe 3 bist du in der Lage, das Ki deines Gegners zu beeinflussen, indem du dir dein eigenes zunutze machst. Jedes Mal, wenn du eine Kreatur mit einem Schlag triffst, der dir durch dein Merkmal Schlaghagel gewährt wurde, kannst du einen der folgenden Effekte wählen:</p>
+      <ul>
+        <li>Dem Ziel muss ein Geschicklichkeitsrettungswurf gelingen oder es gilt als liegend.</li>
+        <li>Dem Ziel muss ein Stärkerettungswurf gelingen oder es wird bis zu 4,50 m von dir weggestoßen.</li>
+        <li>Das Ziel kann bis zum Ende deines nächsten Zuges keine Reaktionen einsetzen.</li>
+      </ul>
+    </description>
+    <sheet usage="Schlaghagel">
+      <description>Jedes Mal, wenn du eine Kreatur mit einem Schlaghagel triffst, kannst du einen der folgenden Effekte wählen: gilt als liegend (Geschicklichkeitsrettungswurf), wird 4,50 m von dir weggestoßen (Stärkerettungswurf) oder kann bis zum Ende deines nächsten Zuges keine Reaktionen einsetzen.</description>
+    </sheet>
+  </element>
+  <element name="Unversehrtheit des Körpers" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_WHOLENESS_OF_BODY">
+    <description>
+      <p>Auf der 6. Stufe erlangst du die Fähigkeit, dich selbst zu heilen. Als Aktion kannst du Trefferpunkte in Höhe des Dreifachen deiner Stufe als Mönch wiederherstellen. Du musst eine lange Rast abschließen, um diese Fähigkeit erneut einsetzen zu können.</p>
+    </description>
+    <sheet action="Aktion" usage="1/Lange Rast">
+      <description>Du heilst {{monk:wholeness of body}} Trefferpunkte.</description>
+    </sheet>
+    <rules>
+      <stat name="monk:wholeness of body" value="level:moench" />
+      <stat name="monk:wholeness of body" value="level:moench" />
+      <stat name="monk:wholeness of body" value="level:moench" />
+    </rules>
+  </element>
+  <element name="Innere Ruhe" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_TRANQUILITY">
+    <description>
+      <p>Von der 11. Stufe an kannst du dich in eine besondere Art der Meditation vertiefen, die dich mit einer Aura des Friedens umgibt. Am Ende einer langen Rast erhältst du die Effekte des Zaubers Heiligtum, die bis zum Anfang der nächsten langen Rast anhalten (der Zauber kann wie gewöhnlich vorzeitig beendet werden).</p>
+    </description>
+    <sheet>
+      <description>Am Ende einer langen Rast erhältst du die Effekte des Zaubers Heiligtum, die bis zum Anfang der nächsten langen Rast anhalten (der Zauber kann wie gewöhnlich vorzeitig beendet werden). Der Rettungswurf ist {{tranquility:dc}}.</description>
+    </sheet>
+    <rules>
+      <stat name="tranquility:dc" value="8" />
+      <stat name="tranquility:dc" value="proficiency" />
+      <stat name="tranquility:dc" value="wisdom:modifier" />
+    </rules>
+  </element>
+  <element name="Vibrierende Handfläche" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAYOFTHEOPENHAND_QUIVERING_PALM">
+    <description>
+      <p>Mit dem Aufstieg in die 17. Stufe erhältst du die Fähigkeit, tödliche Vibrationen im Körper eines Gegners aufzubauen. Wenn du eine Kreatur mit einem waffenlosen Schlag triffst, kannst du 3 Ki-Punkte ausgeben, um die nicht wahrnehmbaren Vibrationen in ihrem Körper beginnen zu lassen. Diese kannst du für eine Dauer an Tagen aufrechterhalten, die deiner Stufe als Mönch entspricht. Die Vibrationen sind so lange harmlos, bis du eine Aktion aufwendest, um sie zu beenden. Um dies zu tun, müssen sich die Zielkreatur und du auf derselben Existenzebene befinden. Führst du die Aktion aus, muss die Kreatur einen Konstitutionsrettungswurf ablegen. Bei einem Misserfolg werden die Trefferpunkte der Kreatur auf 0 reduziert. Ist der Rettungswurf erfolgreich, nimmt das Ziel 10W10 nekrotischen Schaden.</p>
+      <p class="indent">Du kannst immer nur eine Kreatur gleichzeitig mit dieser Fähigkeit beeinflussen und die Vibrationen auch harmlos enden lassen, ohne dafür eine Aktion aufzuwenden.</p>
+    </description>
+    <sheet usage="3 Ki">
+      <description>Wenn du eine Kreatur mit einem waffenlosen Schlag triffst, kannst du nicht wahrnehmbare Vibrationen in ihrem Körper beginnen lassen, welche {{level:moench}} Tage andauern. Die Vibrationen sind so lange harmlos, bis du eine Aktion aufwendest, um sie zu beenden. Um dies zu tun, müssen sich die Zielkreatur und du auf derselben Existenzebene befinden. Führst du die Aktion aus, muss die Kreatur einen Konstitutionsrettungswurf ablegen. Bei einem Misserfolg werden die Trefferpunkte der Kreatur auf 0 reduziert. Ist der Rettungswurf erfolgreich, nimmt das Ziel 10W10 nekrotischen Schaden.</description>
+    </sheet>
+  </element>
+
+  <element name="Weg des Schattens" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_MONK_WAY_OF_SHADOW">
+    <supports>Klostertradition</supports>
+    <description>
+      <p>Mönche des Weges des Schattens gehen einer Tradition nach, die Heimlichkeit und List schätzt. Diese Mönche werden auch Ninjas oder Schattentänzer genannt und dienen als Spione oder Assassinen. Manchmal sind die Mitglieder eines Ninjaklosters aus einer Familie und bilden einen Klan, der Geheimhaltung bezüglich ihrer Aufgabe und ihrer Kunst geschworen hat. Andere Klöster sind eher wie Diebesgilden organisiert, welche ihre Dienste Adeligen, reichen Kaufleuten oder anderen anbieten, die es sich leisten können. Unabhängig von ihren Methoden, verlangen die Oberhäupter dieser Klöster bedingungslosen Gehorsam von ihren Schülern.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_SHADOW_ARTS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_SHADOW_STEP" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_CLOAK_OF_SHADOWS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_OPPORTUNIST" />
+    </description>
+		<sheet display="false">
+      <description>Mönche des Weges des Schattens gehen einer Tradition nach, die Heimlichkeit und List schätzt.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_SHADOW_ARTS" level="3"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_SHADOW_STEP" level="6"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_CLOAK_OF_SHADOWS" level="11"/>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_OPPORTUNIST" level="17"/>
+    </rules>
+  </element>
+  <element name="Schattenkünste" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_SHADOW_ARTS">
+    <description>
+      <p>Mit der Wahl dieser Tradition auf der 3. Stufe kannst du dein Ki nutzen, um die Effekte bestimmter Zaubersprüche nachzuahmen. Als Aktion kannst du 2 Ki-Punkte ausgeben, um Dunkelheit, Spurloses Gehen, Stille oder Dunkelsicht zu wirken, ohne über die benötigten Materialkomponenten verfügen zu müssen. Außerdem erlernst du den Zaubertrick Einfache Illusion, falls du ihn nicht bereits beherrschst.</p>
+    </description>
+    <sheet action="Aktion" usage="2 Ki">
+      <description>Du kannst Dunkelheit, Spurloses Gehen, Stille oder Dunkelsicht wirken, ohne über die benötigten Materialkomponenten verfügen zu müssen. Außerdem erlernst du den Zaubertrick Einfache Illusion, falls du ihn nicht bereits beherrschst.</description>
+    </sheet>
+    <rules>
+    	<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />
+    </rules>
+  </element>
+  <element name="Schattenschritt" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_SHADOW_STEP">
+    <description>
+      <p>Auf Stufe 6 erlangst du die Fähigkeit, in einen Schatten einzutauchen und aus einem anderen hervorzutreten. Befindest du dich in dämmrigem Licht oder in Dunkelheit, kannst du dich als Bonusaktion bis zu 18 m zu einem freien Bereich teleportieren, den du sehen kannst und der ebenfalls in dämmriges Licht oder Dunkelheit getaucht ist. Danach bist du bei deinem ersten Nahkampfangriff im Vorteil, den du vor Ende deines Zuges ausführst.</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Befindest du dich in dämmrigem Licht oder in Dunkelheit, kannst du dich bis zu 18 m zu einem freien Bereich teleportieren, den du sehen kannst und der ebenfalls in dämmriges Licht oder Dunkelheit getaucht ist. Danach bist du bei deinem ersten Nahkampfangriff im Vorteil, den du vor Ende deines Zuges ausführst.</description>
+    </sheet>
+  </element>
+  <element name="Mantel aus Schatten" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_CLOAK_OF_SHADOWS">
+    <description>
+      <p>Mit dem Erreichen der 11. Stufe hast du gelernt, eins mit den Schatten zu werden. Wenn du dich in dämmrigem Licht oder in Dunkelheit befindest, kannst du deine Aktion verwenden, um unsichtbar zu werden. Du bleibst unsichtbar, bis du einen Angriff ausführst, einen Zauber wirkst oder dich in einen Bereich mit hellem Licht bewegst.</p>
+    </description>
+    <sheet action="Aktion">
+      <description>Wenn du dich in dämmrigem Licht oder in Dunkelheit befindest, kannst du unsichtbar werden. Du bleibst unsichtbar, bis du einen Angriff ausführst, einen Zauber wirkst oder dich in einen Bereich mit hellem Licht bewegst.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Opportunist" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_OPPORTUNIST">
+    <description>
+      <p>Ab der 17. Stufe kannst du es ausnutzen, wenn eine Kreatur durch einen Treffer kurzzeitig abgelenkt ist. Immer wenn eine Kreatur innerhalb von 1,50 m von einem Angriff getroffen wird, den nicht du selbst ausgeführt hast, kannst du deine Reaktion aufwenden, um einen Nahkampfangriff auf die getroffene Kreatur auszuführen.</p>
+    </description>
+    <sheet action="Reaktion">
+      <description>Immer wenn eine Kreatur innerhalb von 1,50 m von einem Angriff getroffen wird, den nicht du selbst ausgeführt hast, kannst du einen Nahkampfangriff auf die getroffene Kreatur ausführen.</description>
+    </sheet>
+    <rules />
+  </element>
+
+  <element name="Der Weg der Vier Elemente" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_MONK_WAY_OF_THE_FOUR_ELEMENTS">
+    <supports>Klostertradition</supports>
+    <description>
+      <p>Du folgst einer Klostertradition, die dich lehrt, dir die Kraft der Elemente nutzbar zu machen. Wenn du dein Ki bündelst, kannst du dich mit den rohen Energien der Schöpfung verbinden und die vier Elementen nach deinem Willen formen. Auf diese Weise bist du in der Lage, sie zu einer Erweiterung deines Körpers zu machen.</p>
+      <p class="indent">Manche Anhänger dieser Tradition besitzen eine Vielzahl von Tätowierungen — sich schlängelnde Drachen, aber auch Phönixe und andere mystische Wesen, Fische, Pflanzen, Berge oder sich brechende Wellen —, die ihre Ki-Kräfte und Fähigkeiten repräsentieren.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_THE_FOUR_ELEMENTS_DISCIPLE_OF_THE_ELEMENTS" />
+    </description>
+		<sheet display="false">
+      <description>Du folgst einer Klostertradition, die dich lehrt, dir die Kraft der Elemente nutzbar zu machen.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_THE_FOUR_ELEMENTS_DISCIPLE_OF_THE_ELEMENTS" level="3"/>
+    </rules>
+  </element>
+
+  <element name="Schüler der Elemente" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_THE_FOUR_ELEMENTS_DISCIPLE_OF_THE_ELEMENTS">
+    <description>
+      <p>Mit der Wahl dieser Tradition auf der 3. Stufe lernst du magische Disziplinen, welche die Kräfte der vier Elemente nutzen. Für das Anwenden einer Disziplin musst du jedes Mal Ki-Punkte ausgeben.</p>
+	    <p class="indent">Du kennst die Disziplin der Elementaren Einstimmung und eine andere deiner Wahl aus der Liste der Elementaren Disziplinen weiter unten. Jeweils eine zusätzliche Disziplin lernst du auf den Stufen 6, 11 und 17.</p>
+	    <p class="indent">Auf jeder dieser Stufen darfst du außerdem eine der Disziplinen, die du bereits kennst, durch eine andere ersetzen.</p>
+	    <p class="indent"><strong><em>Elementarzauber wirken:</em></strong> Manche Elementare Disziplinen erlauben es dir, Zauber zu wirken. Für die allgemeinen Regeln zum Zauberwirken siehe Kapitel 10 „Zauber wirken". Wirkst du einen dieser Sprüche, wendest du alle Regeln normal an, nur dass du keine Materialkomponenten benötigst.</p>
+	    <p class="indent">Sobald du die 5. Stufe in dieser Klasse erreicht hast, kannst du zusätzliche Ki-Punkte ausgeben, um den Grad eines gewirkten Elementarzaubers zu erhöhen. Dies setzt voraus, dass der Spruch auf einem höheren Grad eine verbesserte Wirkung hat, etwa wie es bei <i>Brennende Hände</i> der Fall ist. Der Grad des Zaubers erhöht sich um 1 für jeden zusätzlichen Ki-Punkt, den du ausgibst. Bist du beispielsweise ein Mönch der 5. Stufe und wendest Weitreichender Ascheangriff an, um <i>Brennende Hände</i> zu wirken, kannst du 3 Ki-Punkte ausgeben und ihn als Spruch des 2. Grades wirken (die Grundkosten für die Disziplin betragen 2 Punkte + 1 zusätzlicher Punkt für die Erhöhung des Grades um 1).</p>
+	    <p class="indent">Die maximale Anzahl von Ki-Punkten, die du ausgeben kannst, um einen Zauber auf diese Weise zu wirken, wird von deiner Stufe als Mönch bestimmt und ist in der Tabelle „Zauber und Ki-Punkte" angegeben. Die aufgeführte Maximalanzahl von Ki-Punkten entspricht der Summe aus den Grundkosten für die Disziplin und den zusätzlichen Ki-Punkte, um den Grad zu erhöhen.</p>
+	    <h5>ZAUBER UND KI-PUNKTE</h5>
+        <table>
+          <thead>
+            <tr><td>Mönchstufe</td><td>Maximale Ki-Punkte für einen Zauber</td></tr>
+          </thead>
+          <tr> <td>5 bis 8</td> <td><i>3</i></td> </tr>
+          <tr> <td>9 bis 12</td> <td><i>4</i></td> </tr>
+          <tr> <td>13 bis 16</td> <td><i>5</i></td> </tr>
+          <tr> <td>17 bis 20</td> <td><i>6</i></td> </tr>
+        </table>
+    </description>
+    <sheet usage="Ki">
+      <description>Du lernst magische Disziplinen, welche die Kräfte der vier Elemente nutzen.</description>
+      <description level="5">You can spend additional ki points (max 3) to increase the level of an elemental discipline spell that you cast. The spell’s level increases by 1 for each additional ki point you spend.</description>
+      <description level="9">You can spend additional ki points (max 4) to increase the level of an elemental discipline spell that you cast. The spell’s level increases by 1 for each additional ki point you spend.</description>
+      <description level="13">You can spend additional ki points (max 5) to increase the level of an elemental discipline spell that you cast. The spell’s level increases by 1 for each additional ki point you spend.</description>
+      <description level="17">You can spend additional ki points (max 6) to increase the level of an elemental discipline spell that you cast. The spell’s level increases by 1 for each additional ki point you spend.</description>
+    </sheet>
+    <rules>
+    	<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_ELEMENTAL_ATTUNEMENT" />
+    	<select type="Archetype Feature" name="Elementare Disziplin (Stufe 3)" supports="Elementare Disziplinen" level="3" />
+    	<select type="Archetype Feature" name="Elementare Disziplin (Stufe 6)" supports="Elementare Disziplinen" level="6" />
+    	<select type="Archetype Feature" name="Elementare Disziplin (Stufe 11)" supports="Elementare Disziplinen" level="11" />
+    	<select type="Archetype Feature" name="Elementare Disziplin (Stufe 17)" supports="Elementare Disziplinen" level="17" />
+    </rules>
+  </element>
+
+  <!-- Elemental Disciplines -->
+  <element name="Elementare Einstimmung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_ELEMENTAL_ATTUNEMENT">
+    <supports>Elementare Disziplinen</supports>
+    <description>
+      <p>Du kannst deine Aktion aufwenden, um die Kräfte der Natur innerhalb von 9 Metern um dich herum auf geringfügige Weise zu kontrollieren. Wähle einen der folgenden Effekte:</p>
+      <ul>
+        <li>Erschaffe einen harmlosen sensorischen Effekt, der mit Luft, Erde, Feuer oder Wasser in Verbindung steht, wie etwa einen Funkenregen, einen Windhauch, eine leichte Nebelschwade oder eine leichte Geröllbewegung.</li>
+        <li>Entfache oder lösche augenblicklich eine Kerze, eine Fackel oder ein kleines Lagerfeuer.</li>
+        <li>Kühle oder erwärme 1 Pfund nicht lebenden Materials für bis zu 1 Stunde.</li>
+        <li>Bringe Feuer, Wasser, Erde oder Nebel von der Masse eines 30-cm-Würfels dazu, grob eine Form deiner Wahl anzunehmen. Diese bleibt für 1 Minute bestehen.</li>
+      </ul>
+    </description>
+    <sheet action="Aktion">
+      <description>Du kannst die Kräfte der Natur innerhalb von 9 Metern um dich herum auf geringfügige Weise zu kontrollieren.</description>
+    </sheet>
+  </element>
+  <element name="Atem des Winters" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_BREATH_OF_WINTER">
+    <supports>Elementare Disziplinen</supports>
+    <requirements>[level:17]</requirements>
+    <description>
+      <p><em>Voraussetzung: 17. Stufe</em></p>
+      <p>Du kannst 6 Ki-Punkte ausgeben, um <i>Kältekegel</i> zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_CONE_OF_COLD" />
+      </div>
+    </description>
+    <sheet usage="6 Ki">
+      <description>Du kannst <i>Kältekegel</i> wirken.</description>
+    </sheet>
+    <rules>
+      <!-- remove from known spells but allow modded spellcards for reference -->
+      <grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" />
+    </rules>
+  </element>
+  <element name="Ansturm der Orkangeister" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_RUSH_OF_THE_GALE_SPIRITS">
+    <supports>Elementare Disziplinen</supports>
+    <description>
+      <p>Du kannst 2 Ki-Punkte ausgeben, um <i>Windstoß</i> zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_GUST_OF_WIND" />
+      </div>
+    </description>
+    <sheet usage="2 Ki">
+      <description>Du kannst <i>Windstoß</i> wirken.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" />
+    </rules>
+  </element>
+
+  <element name="Faust der Vier Donnerschläge" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_FIST_OF_FOUR_THUNDERS">
+    <supports>Elementare Disziplinen</supports>
+    <description>
+      <p>Du kannst 2 Ki-Punkte ausgeben, um <i>Donnerwoge</i> zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_THUNDERWAVE" />
+      </div>
+    </description>
+    <sheet usage="2 Ki">
+      <description>Du kannst <i>Donnerwoge</i> wirken.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" />
+    </rules>
+  </element>
+  <element name="Faust des Stetigen Windes" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_FIST_OF_UNBROKEN_AIR">
+    <supports>Elementare Disziplinen</supports>
+    <description>
+      <p>Du bist in der Lage, einen Windstoß aus komprimierter Luft zu erschaffen, der wie eine mächtige Faust zuschlägt. Als Aktion kannst du 2 Ki-Punkte ausgeben und eine Kreatur innerhalb von 9 m bestimmen. Diese muss einen Stärkerettungswurf ablegen. Bei einem Misserfolg erleidet sie 3W10 Wuchtschaden + 1W10 Wuchtschaden für jeden weiteren Ki-Punkt, den du ausgibst. Außerdem kannst du die Kreatur bis zu 6 m von dir wegstoßen und sie umwerfen, sodass sie den Zustand liegend erhält. Bei einem erfolgreichen Rettungswurf nimmt die Kreatur nur den halben Schaden und wird weder weggestoßen noch umgeworfen.</p>
+    </description>
+    <sheet action="Aktion" usage="2 Ki">
+      <description>Du erschaffst einen Windstoß aus komprimierter Luft gegen eine Kreatur innerhalb von 9 m. Diese muss einen Stärkerettungswurf ablegen. Bei einem Misserfolg erleidet sie 3W10 Wuchtschaden + 1W10 Wuchtschaden für jeden weiteren Ki-Punkt, den du ausgibst. Außerdem kannst du die Kreatur bis zu 6 m von dir wegstoßen und sie umwerfen, sodass sie den Zustand liegend erhält. Bei einem erfolgreichen Rettungswurf nimmt die Kreatur nur den halben Schaden und wird weder weggestoßen noch umgeworfen.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Flammen des Phönix" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_FLAMES_OF_THE_PHOENIX">
+    <supports>Elementare Disziplinen</supports>
+    <requirements>[level:11]</requirements>
+    <description>
+      <p><em>Voraussetzung: 11. Stufe</em></p>
+      <p>Du kannst 4 Ki-Punkte ausgeben, um <i>Feuerball</i> zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_FIREBALL" />
+      </div>
+    </description>
+    <sheet usage="4 Ki">
+      <description>Du kannst <i>Feuerball</i> wirken.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_FIREBALL" />
+    </rules>
+  </element>
+  <element name="Fluss der Hungrigen Flamme" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_RIVER_OF_HUNGRY_FLAME">
+    <supports>Elementare Disziplinen</supports>
+    <requirements>[level:17]</requirements>
+    <description>
+      <p><em>Voraussetzung: 17. Stufe</em></p>
+      <p>Du kannst 5 Ki-Punkte ausgeben, um <i>Feuerwand</i> zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_WALL_OF_FIRE" />
+      </div>
+    </description>
+    <sheet usage="5 Ki">
+      <description>Du kannst <i>Feuerwand</i> wirken.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" />
+    </rules>
+  </element>
+  <element name="Forme den Fließenden Fluss" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_SHAPE_THE_FLOWING_RIVER">
+    <supports>Elementare Disziplinen</supports>
+    <description>
+      <p>Als Aktion kannst du 1 Ki-Punkt ausgeben und einen Bereich innerhalb von 36 m bestimmen, der mit Wasser oder Eis bedeckt ist und auf keiner Seite größer als 9 m ist. In diesem Gebiet kannst du das Wasser in Eis und umgekehrt verwandeln und dem Eis jede gewünschte Form geben, solange du keine Kreatur darin einsperrst oder verletzt. Du kannst die Oberfläche erhöhen oder absenken, eine Eiswand formen oder einreißen, eine Säule aufschichten oder einen Graben ausheben oder füllen. Die Ausdehnung jedes dieser Effekte kann nicht größer sein als die Hälfte des gesamten Bereichs. Beispielsweise kannst du bei einem 9 x 9 m großen Gebiet eine 4,50 m hohe Säule auftürmen, die Höhe des Bereichs um 4,50 m senken beziehungsweise anheben oder einen Graben von 4,50 m Tiefe ausheben.</p>
+    </description>
+    <sheet action="Aktion" usage="1 Ki">
+      <description>Du kannst einen Bereich innerhalb von 36 m bestimmen, der mit Wasser oder Eis bedeckt ist und auf keiner Seite größer als 9 m ist. In diesem Gebiet kannst du das Wasser in Eis und umgekehrt verwandeln und dem Eis jede gewünschte Form geben, solange du keine Kreatur darin einsperrst oder verletzt.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+  <element name="Giftzähne der Feuerschlange" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_FANGS_OF_THE_FIRE_SNAKE">
+    <supports>Elementare Disziplinen</supports>
+    <description>
+      <p>Wenn du in deinem Zug die Angriffsaktion einsetzt, kannst du 1 Ki-Punkt ausgeben, um deine Fäuste und Füße in lange züngelnde Flammen zu hüllen. Die Reichweite deiner waffenlosen Angriffe erhöht sich für diese Aktion und deinen übrigen Zug um 3 m. Ein Treffer verursacht nun Feuerschaden anstatt Wuchtschaden. Außerdem kannst du, falls der Angriff trifft, 1 zusätzlichen Ki-Punkt ausgeben, um den Feuerschaden um 1W10 zu erhöhen.</p>
+    </description>
+    <sheet usage="1 Ki">
+      <description>Wenn du in deinem Zug die Angriffsaktion einsetzt, kannst du deine Fäuste und Füße in lange züngelnde Flammen hüllen. Die Reichweite deiner waffenlosen Angriffe erhöht sich für diese Aktion und deinen übrigen Zug um 3 m. Ein Treffer verursacht nun Feuerschaden anstatt Wuchtschaden. Außerdem kannst du, falls der Angriff trifft, 1 zusätzlichen Ki-Punkt ausgeben, um den Feuerschaden um 1W10 zu erhöhen.</description>
+    </sheet>
+    <rules />
+  </element>
+  <element name="Gongschlag des Berggipfels" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_GONG_OF_THE_SUMMIT">
+    <supports>Elementare Disziplinen</supports>
+    <requirements>[level:6]</requirements>
+    <description>
+      <p class="flavor">Voraussetzung: 6. Stufe</p>
+      <p>Du kannst 3 Ki-Punkte ausgeben, um <i>Zerbersten</i> zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_SHATTER" />
+      </div>
+    </description>
+    <sheet usage="3 Ki">
+      <description>Du kannst <i>Zerbersten</i> wirken.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_SHATTER" />
+    </rules>
+  </element>
+  <element name="Nebelhaltung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_MIST_STANCE">
+    <supports>Elementare Disziplinen</supports>
+    <requirements>[level:11]</requirements>
+    <description>
+      <p class="flavor">Voraussetzung: 11. Stufe</p>
+      <p>Du kannst 4 Ki-Punkte ausgeben, um <i>Gasförmige Gestalt</i> auf dich selbst zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_GASEOUS_FORM" />
+      </div>
+    </description>
+    <sheet usage="4 Ki">
+      <description>Du kannst <i>Gasförmige Gestalt</i> auf dich selbst wirken.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_GASEOUS_FORM" />
+    </rules>
+  </element>
+  <element name="Schutz des Ewigen Berges" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_ETERNAL_MOUNTAIN_DEFENSE">
+    <supports>Elementare Disziplinen</supports>
+    <requirements>[level:17]</requirements>
+    <description>
+      <p class="flavor">Voraussetzung: 17. Stufe</p>
+      <p>Du kannst 5 Ki-Punkte ausgeben, um <i>Steinhaut</i> auf dich selbst zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_STONESKIN" />
+      </div>
+    </description>
+    <sheet usage="5 Ki">
+      <description>Du kannst <i>Steinhaut</i> auf dich selbst wirken.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_STONESKIN" />
+    </rules>
+  </element>
+  <element name="Umklammerung des Nordwindes" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_CLENCH_OF_THE_NORTH_WIND">
+  	<supports>Elementare Disziplinen</supports>
+  	<requirements>[level:6]</requirements>
+    <description>
+      <p class="flavor">Voraussetzung: 6. Stufe</p>
+      <p>Du kannst 3 Ki-Punkte ausgeben, um <i>Person festhalten</i> zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_HOLD_PERSON" />
+      </div>
+    </description>
+    <sheet usage="3 Ki">
+      <description>Du kannst <i>Person festhalten</i> wirken.</description>
+    </sheet>
+    <rules>
+    	<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" />
+    </rules>
+  </element>
+  <element name="Wasserpeitsche" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_WATER_WHIP">
+    <supports>Elementare Disziplinen</supports>
+    <description>
+      <p>Als Aktion kannst du 2 Ki-Punkte ausgeben, um eine Peitsche aus Wasser zu erschaffen, die eine Kreatur zu dir zerrt oder sie aus dem Gleichgewicht bringt. Bestimme eine Kreatur innerhalb von 9 m, die du sehen kannst. Diese muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Misserfolg erleidet sie 3W10 Wuchtschaden + 1W10 für jeden weiteren Ki-Punkt, den du ausgibst. Zusätzlich kannst du die Kreatur entweder zu Fall bringen (sie erhält den Zustand liegend) oder sie 7,50 m näher zu dir heranziehen. Bei einem erfolgreichen Rettungswurf nimmt die Kreatur nur den halben Schaden und wird weder herangezogen noch zu Fall gebracht.</p>
+    </description>
+    <sheet usage="2 Ki">
+      <description>Du kannst eine Peitsche aus Wasser erschaffen, die eine Kreatur innerhalb von 9 m, die du sehen kannst, zu dir zerrt oder sie aus dem Gleichgewicht bringt.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+  <element name="Weitreichender Ascheangriff" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_SWEEPING_CINDER_STRIKE">
+    <supports>Elementare Disziplinen</supports>
+    <description>
+      <p>Du kannst 2 Ki-Punkte ausgeben, um <i>Brennende Hände</i> zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_BURNING_HANDS" />
+      </div>
+    </description>
+    <sheet usage="2 Ki">
+      <description>Du kannst <i>Brennende Hände</i> wirken.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" />
+    </rules>
+  </element>
+  <element name="Welle der Wallenden Erde" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_WAVE_OF_ROLLING_EARTH">
+    <supports>Elementare Disziplinen</supports>
+    <requirements>[level:17]</requirements>
+    <description>
+      <p class="flavor">Voraussetzung: 17. Stufe</p>
+      <p>Du kannst 6 Ki-Punkte ausgeben, um <i>Steinwand</i> zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_WALL_OF_STONE" />
+      </div>
+    </description>
+    <sheet usage="6 Ki">
+      <description>Du kannst <i>Steinwand</i> wirken.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" />
+    </rules>
+  </element>
+  <element name="Windritt" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ELEMENTAL_DISCIPLINE_RIDE_THE_WIND">
+  	<supports>Elementare Disziplinen</supports>
+  	<requirements>[level:11]</requirements>
+    <description>
+      <p class="flavor">Voraussetzung: 11. Stufe</p>
+      <p>Du kannst 4 Ki-Punkte ausgeben, um <i>Fliegen</i> auf dich selbst zu wirken.</p>
+      <div class="reference">
+        <div element="ID_PHB_SPELL_FLY" />
+      </div>
+    </description>
+    <sheet usage="4 Ki">
+      <description>Du kannst <i>Fliegen</i> auf dich selbst wirken.</description>
+    </sheet>
+    <rules>
+    	<grant type="Spell" id="ID_PHB_SPELL_FLY" />
+    </rules>
+  </element>
+</elements>

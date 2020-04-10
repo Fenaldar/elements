@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>internes</name>
+    <description></description>
+    <author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.0.1">
+      <file name="internes.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/internes.xml" />
+    </update>
+  </info>
+
+  <element name="Dunkelsicht" type="Vision" source="Spielerhandbuch" id="ID_VISION_DARKVISION">
+    <description>
+      <p>Du hast eine überlegene Sicht in dunklen und dämmrigen Lichtverhältnissen. Behandle im Umkreis von 18 m dämmriges Licht wie helles Licht und Dunkelheit wie dämmriges Licht. Allerdings kannst du im Dunkeln keine Farben erkennen, nur Graustufen.</p>
+    </description>
+    <sheet>
+      <description>Behandle im Umkreis von 18 m dämmriges Licht wie helles Licht und Dunkelheit wie dämmriges Licht. Allerdings kannst du im Dunkeln keine Farben erkennen, nur Graustufen.</description>
+    </sheet>
+  </element>
+
+
+  <element name="Attributswerterhöhung" type="Class Feature" source="Spielerhandbuch" id="ID_INTERNAL_TEMPLATE_CLASS_FEATURE_ABILITY_4">
+  	<description>
+  		<p>Du kannst einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+  	</description>
+  	<sheet display="false" />
+  	<rules>
+  		<select type="Ability Score Improvement" name="Attributswerterhöhung (Stufe 4)" supports="Ability Score Improvement&amp;&amp;Class" number="2" />
+  	</rules>
+  </element>
+
+  <!-- Weapon Properties -->
+  <element name="Finesse" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_FINESSE">
+	  <description>
+		  <p>Führst du einen Angriff mit einer Waffe aus, die über diese Eigenschaft verfügt, kannst du wählen, ob du deinen Stärke- oder Geschicklichkeitsmodifikator zu den Angriffs- und Schadenswürfen addieren willst. Du musst den gleichen Modifikator für beide Würfe verwenden.</p>
+	  </description>
+  </element>
+  <element name="Geschosse" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION">
+  	<description>
+  		<p>Du kannst eine Waffe mit der Eigenschaft Geschosse nur dann für einen Fernkampfangriff verwenden, wenn du entsprechende Munition besitzt. Jeder Angriff mit der Waffe verbraucht ein Geschoss. Dieses aus dem Köcher, dem Beutel oder einem anderen Behältnis zu ziehen, ist Teil des Angriffs (du benötigst eine freie Hand, um eine einhändige Waffe zu laden). Am Ende des Kampfes kannst du die Hälfte der verbrauchten Geschosse wieder einsammeln, wenn du für 1 Minute das Schlachtfeld absuchst. Verwendest du eine Waffe mit dieser Eigenschaft für einen Nahkampfangriff, wird sie wie eine improvisierte Waffe behandelt (siehe weiter unten in diesem Abschnitt). Eine Schleuder muss geladen sein, um auf diese Weise Schaden verursachen zu können.</p>
+  	</description>
+  </element>
+  <element name="Laden" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_LOADING">
+  	<description>
+		  <p>Das Laden dieser Waffe benötigt eine gewisse Zeit. Wendest du für einen Angriff eine Aktion, Bonusaktion oder Reaktion auf, kannst du nur ein Geschoss verschießen, unabhängig davon, wie viele Angriffe dir zur Verfügung stehen.</p>
+	  </description>
+  </element>
+  <element name="Leicht" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_LIGHT">
+  	<description>
+  		<p>Eine Waffe mit dieser Eigenschaft ist klein und einfach zu handhaben, was sie ideal für den Kampf mit zwei Waffen macht (die entsprechenden Regeln findest du in Kapitel 9 „Kampf").</p>
+  	</description>
+  </element>
+  <element name="Reichweite" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_RANGE">
+  	<description>
+  		<p>Eine Waffe, mit der man Fernkampfangriffe ausführen kann, weist eine in Klammern gesetzte Angabe zur Reichweite auf. Diese besteht aus zwei Zahlen: Die erste ist die Grundreichweite der Waffe in Metern, die zweite die Maximalreichweite in Metern. Greifst du ein über die Grund-reichweite entferntes Ziel an, bist du bei deinem Angriffswurf im Nachteil. Du kannst kein Ziel angreifen, das sich außerhalb der Maximalreichweite der Waffe befindet.</p>
+  	</description>
+  </element>
+  <element name="Schwer" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_HEAVY">
+  	<description>
+  		<p>Kleine Kreaturen sind bei Angriffswürfen mit schweren Waffen im Nachteil. Masse und Sperrigkeit einer schweren Waffe machen sie zu unhandlich, als dass sie von kleinen Kreaturen effektiv eingesetzt werden können.</p>
+  	</description>
+  </element>
+  <element name="Speziell" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL">
+  	<description>
+  		<p>Eine Waffe mit der Eigenschaft Speziell verfügt über ungewöhnliche Regeln, die ihre Anwendung betreffen und die in der Waffenbeschreibung angegeben werden.</p>
+  	</description>
+  </element>
+  <element name="Vielseitig" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_VERSATILE">
+  	<description>
+  		<p>Diese Waffe kann mit einer oder mit zwei Händen geführt werden. Der Schadenswert in Klammern gibt den Schaden an, der verursacht wird, wenn die Waffe bei einem Angriff mit zwei Händen geführt wird.</p>
+  	</description>
+  </element>
+  <element name="Weitreichend" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_REACH">
+  	<description>
+  		<p>Bei weitreichenden Waffen erhöht sich die normale Angriffsreichweite um zusätzliche 1,50 m (das gilt auch für Gelegenheitsangriffe, siehe Kapitel 9 „Kampf").</p>
+  	</description>
+  </element>
+  <element name="Wurfwaffe" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_THROWN">
+  	<description>
+  		<p>Besitzt eine Waffe die Eigenschaft Wurfwaffe, kannst du mit ihr einen Fernkampfangriff ausführen. Falls es sich um eine Nahkampfwaffe handelt, verwendest du für den Angriffs- und Schadenswurf den gleichen Attributsmo-difikator, den du für einen Nahkampfangriff mit dieser Waffe nutzen würdest. Wirfst du zum Beispiel ein Beil, verwendest du Stärke, wirfst du einen Dolch, kannst du zwischen Stärke und Geschicklichkeit wählen, da der Dolch die Eigenschaft Finesse besitzt.</p>
+  	</description>
+  </element>
+  <element name="Zweihändig" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED">
+  	<description>
+  		<p>Diese Waffe erfordert beide Hände, um mit ihr angreifen zu können.</p>
+  	</description>
+  </element>
+  <element name="Speziell (Lanze)" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_LANCE">
+	<description>
+		<p>Du bist bei deinem Angriffswurf im Nachteil. wenn du die Lanze gegen ein Ziel im Umkreis von 1,50 m oder weniger einsetzt. Außerdem benötigst du beide Hände, um die Lanze effektiv zu führen, wenn du nicht auf einem Reittier sitzt.</p>
+	</description>
+  </element>
+  <element name="Speziell (Netz)" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_NET">
+  	<description>
+  		<p>Eine Kreatur der Größenkategorie groß oder kleiner, die vom Angriff mit einem Netz getroffen wird, gilt als festgesetzt, bis sie sich befreien kann oder befreit wird. Ein Netz hat keinen Einfluss auf körperlose Kreaturen oder solche der Größenkategorie riesig oder größer. Die betroffene Kreatur kann ihre Aktion verwenden, um einen Stärkewurf gegen SG 10 auszuführen. Bei einem erfolgreichen Wurf kann sie sich selbst oder eine andere Kreatur in Reichweite aus dem Netz befreien. Dem Netz 5 Punkte Hiebschaden zuzufügen (RK 10), befreit die Kreatur ebenfalls, ohne sie dabei zu verletzen. Der Zustand festgesetzt ist beendet und das Netz zerstört.</p>
+  		<p class="indent">Wenn du deine Aktion, Bonusaktion oder Reaktion verwendest, um mit einem Netz anzugreifen. kannst du nur diesen einen Angriff ausführen, gleichgültig wie viele Angriffe dir zur Verfügung stehen.</p>
+  	</description>
+  </element>
+  <element name="Improvisiert" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_IMPROVISED">
+  	<description>
+  		<p>Manchmal haben die Charaktere ihre Waffen nicht bei sich und müssen mit dem angreifen, was gerade in der Nähe ist. Als improvisierte Waffe zählt alles, was für einen Angriff in einer oder zwei Händen geführt werden kann, wie etwa ein zerbrochenes Glas, ein Tischbein, eine Bratpfanne, ein Wagenrad oder ein toter Goblin.</p>
+  		<p class="indent">Oft ähneln improvisierte Waffen einer tatsächlichen Waffe und können als solche verwendet werden. Der SL entscheidet, ob ein Charakter seinen Übungsbonus beim Angriff mit einer improvisierten Waffe verwenden darf oder nicht (beispielsweise weil das Tischbein stark einer Keule ähnelt und der Charakter im Umgang mit einfachen Waffen geübt ist).</p>
+  		<p class="indent">Ein Gegenstand, der keine Ähnlichkeit mit einer Waffe besitzt, verursacht 1 W4 Schaden (der SL entscheidet, welcher Art dieser Schaden ist). Wenn der Charakter eine Fernkampfwaffe dazu verwendet. einen Nahkampfangriff ausführen. oder eine Nahkampfwaffe wirft, die nicht die Eigenschaft Wurfwaffe besitzt, verursacht dies ebenfalls 1W4 Schaden. Wird eine improvisierte Waffe geworfen, hat sie eine Grundreichweite von 6 m und eine Maximalreichweite von 18 m.</p>
+  	</description>
+  </element>
+  <element name="Versilbert" type="Weapon Property" source="Internal" id="ID_INTERNAL_WEAPON_PROPERTY_SILVERED">
+  	<description>
+  		<p>Manche Monster, die eine Immunität oder Resistenz gegen nicht-magische Waffen besitzen, sind anfällig für silberne Waffen. Daher investieren vorsichtige Abenteurer in die Versilberung ihrer Klingen oder Pfeile. Du kannst eine einzelne Waffe oder 10 Geschosse für 100 GM mit Silber überziehen lassen. Diese Kosten repräsentieren nicht nur den Preis für das Material an sich, sondern auch für den Prozess des Versilberns. Die sonstige Funktion der Waffe oder der Geschosse bleibt erhalten.</p>
+  	</description>
+  </element>
+
+
+  <!-- Armor Groups -->
+  <element name="Leicht" type="Armor Group" source="Internal" id="ID_INTERNAL_ARMOR_GROUP_LIGHT">
+  	<description>
+      <p>Aus weichen und dünnen Materialien gefertigt, begünstigen leichte Rüstungen agile Abenteurer, da sie Schutz bieten, ohne die Beweglichkeit einzuschränken. Wenn du eine leichte Rüstung trägst, addierst du deinen Geschicklichkeitsmodifikator zu der Basis-Rüstungsklasse deiner Rüstung, um deine Rüstungsklasse zu ermitteln.</p>
+  	</description>
+  </element>
+  <element name="Mittelschwer" type="Armor Group" source="Internal" id="ID_INTERNAL_ARMOR_GROUP_MEDIUM">
+  	<description>
+      <p>Mittelschwere Rüstung bietet mehr Schutz als leichte Rüstung, doch schränkt sie die Beweglichkeit auch mehr ein. Wenn du mittelschwere Rüstung trägst, addierst du deinen Geschicklichkeitsmodifikator auf die Basis-Rüstungsklasse der Rüstung, allerdings nur bis zu einem Maximum von +2, um deine Rüstungsklasse zu bestimmen.</p>
+  	</description>
+  </element>
+  <element name="Schwer" type="Armor Group" source="Internal" id="ID_INTERNAL_ARMOR_GROUP_HEAVY">
+  	<description>
+      <p>Von allen Rüstungsarten bietet schwere Rüstung den besten Schutz. Sie bedeckt den Körper fast völlig und wurde entworfen, um eine ganze Reihe unterschiedlicher Angriffe abzuwehren. Nur geübte Krieger sind in der Lage, trotz des hohen Gewichts und der Sperrigkeit effektiv zu kämpfen.</p>
+  		<p class="indent">Bei schweren Rüstungen darfst du deinen Geschicklichkeitsmodifikator nicht auf deine Rüstungsklasse anrechnen. Allerdings bekommst du auch keine Abzüge, falls dein Geschicklichkeitsmodifikator negativ sein sollte.</p>
+  	</description>
+  </element>
+  <element name="Schild" type="Armor Group" source="Internal" id="ID_INTERNAL_ARMOR_GROUP_SHIELD">
+  	<description>
+      <p>Ein Schild ist aus Holz oder Metall gefertigt und wird in einer Hand getragen. Einen Schild zu führen, erhöht die Rüstungsklasse um 2. Du kannst immer nur von einem Schild gleichzeitig profitieren.</p>
+	  </description>
+  </element>
+
+
+  <!--  Shows as "Resistances Resistenz Feuer" on Sheet-->
+  <element name="Resistenz (Feuer)" type="Condition" source="Internal" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE">
+  	<supports>Resistance</supports>
+  </element>
+
+</elements>

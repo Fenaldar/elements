@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Druide</name>
+    <description>Die Klasse Druide aus dem Spielerhandbuch.</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.2.8.1">
+      <file name="klasse-druide.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/klassen/klasse-druide.xml" />
+    </update>
+  </info>
+
+  <element name="Druide" type="Class" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_DRUID">
+    <description>
+      <p>Mit einem knorrigen Stab aus Eschenholz in der Hand beschwört eine Elfe die Wut eines Sturms herauf und ruft explodierende Blitzschläge herab, um die Fackeln tragenden Orks, die ihren Wald bedrohen, in die Flucht zu schlagen.</p>
+      <p class="indent">Außer Sichtweite auf einem hohen Ast schaut ein Mensch in Leopardengestalt aus dem Dschungel auf die seltsame Erscheinung des Tempels des Elementaren Bösen und behält die Aktivitäten der Kultanhänger wachsam im Auge.</p>
+      <p class="indent">Eine Klinge aus reinem Feuer schwingend, stürmt ein Halbelf auf eine Masse von Skelettkriegern zu, um die unnatürliche Magie auszulöschen, die den fauligen Kreaturen die höhnische Nachahmung von Leben verleiht.</p>
+      <p class="indent">Sei es beim Anrufen elementarer Kräfte oder in Gestalt einer Kreatur der Wildnis - Druiden verkörpern die Widerstandskraft, Wut und Furchtlosigkeit der Natur. Sie beanspruchen keine Herrschaft über diese, sondern sehen sich selbst als Vollstrecker ihres unbeugsamen Willens.</p>
+      <h4>DIE KRAFT DER NATUR</h4>
+      <p>Druiden verehren die Natur als höchstes Gut und erhalten Zauber und andere magische Kräfte entweder von der Macht der Natur selbst oder von einer Naturgottheit. Viele Druiden beschreiten einen Weg mystischer Spiritualität und streben eine transzendente Einheit mit der Natur an, statt eine göttliche Entität anzubeten. Andere dienen Göttern der wilden Natur, der Tiere oder der elementaren Kräfte. Die uralten druidischen Traditionen werden manchmal der Alte Glauben genannt, im Gegensatz zur Verehrung von Göttern in Tempeln und Schreinen.</p>
+      <p class="indent">Druidenzauber orientieren sich an der Natur und den Tieren, der Kraft von Zähnen und Klauen, von Sonne und Mond, von Feuer und Sturm. Druiden erlangen auch die Fähigkeit, die Gestalt von Tieren anzunehmen. Manche vertiefen sich so sehr in diese Praktik, dass sie an einen Punkt gelangen, an dem sie die Tiergestalt ihrer natürlichen Form vorziehen.</p>
+      <h4>DAS GLEICHGEWICHT BEWAHREN</h4>
+      <p>Für Druiden existiert die Natur in einem sensiblen Gleichgewicht. Die vier Elemente, aus denen sich die Welt zusammensetzt - Luft, Erde, Feuer und Wasser -, müssen in einem ausgewogenen Verhältnis zueinander bleiben. Würde ein Element die anderen beherrschen, könnte die Welt der Zerstörung anheim fallen und in eine der Elementarebenen gezogen werden, wo sie in ihre elementaren Bestandteile zerfällt. Daher stellen sich Druiden den Kulten des Elementaren Bösen entgegen sowie anderen, die ein Element unter Ausschluss der übrigen begünstigen.</p>
+      <p class="indent">Druiden kümmern sich um das empfindliche ökologische Gleichgewicht, welches das Leben der Tiere und Pflanzen aufrechterhält. Sie setzen sich dafür ein, dass die Notwendigkeit, mit der Natur in Einklang zu leben, von der Zivilisation erkannt wird. Auch akzeptieren sie die grausame Seite der Natur und hassen alles, was unnatürlich ist, Aberrationen (wie Betrachter und Gedankenschinder) und Untote (wie Zombies und Vampire) eingeschlossen. Von Zeit zu Zeit führen Druiden Angriffe auf solche Kreaturen an, besonders wenn die Monster in das Territorium eines Druiden vordringen.</p>
+      <p class="indent">Man findet Druiden oft in der Nähe heiliger Stätten oder in Gebieten unberührter Natur, deren Schutz sie sich zur Aufgabe gemacht haben. Im Angesicht einer ernstzunehmenden Gefahr jedoch, die das Gleichgewicht der Natur bedroht oder das Land, das sie beschützen, greifen die Druiden aktiv ein und tragen als Abenteurer selbst den Kampf zur Bedrohung.</p>
+      <h4>EINEN DRUIDEN ERSCHAFFEN</h4>
+      <p>Wenn du einen Druiden erschaffst, überlege dir, warum dein Charakter eine derart enge Verbindung zur Natur hat. Vielleicht lebt er in einer Gesellschaft, die noch dem Alten Glauben folgt, oder er wurde von einem Druiden großgezogen, der ihn als ausgesetztes Kind im tiefen Wald fand? Möglicherweise hatte dein Charakter auch eine dramatische Begegnung mit den Geistern der Natur, bei der er etwa einem Riesenadler oder einem Schreckenswolf von Angesicht zu Angesicht gegenüberstand und überlebte. Dein Charakter könnte auch während eines epischen Sturms oder eines Vulkanausbruchs geboren worden sein, was als Zeichen des Schicksals gedeutet wurde.</p>
+      <p class="indent">War dein Druide schon immer ein Abenteurer auf Wanderschaft oder verbrachte er die Zeit davor als Beschützer einer heiligen Quelle oder eines geweihten Hains? Eventuell wurde das Heimatland deines Charakters vom Bösen befallen, und er nahm das Leben als Abenteurer auf, um ein neues Zuhause zu finden oder seinem Dasein einen neuen Sinn zu geben.</p>
+      <h5>SCHNELLE ERSCHAFFUNG</h5>
+      <p>Du kannst einen Druiden schnell erschaffen, indem du diesen Vorschlägen folgst:</p>
+      <p class="indent">Setze deinen höchsten Attributswert auf Weisheit, den zweithöchsten auf Konstitution. Wähle zusätzlich den Hintergrund Einsiedler.</p>
+      <h3>KLASSENMERKMALE</h3>
+      <p>Als Druide erhältst du die folgenden Klassenmerkmale:</p>
+      <h5>TREFFERPUNKTE</h5>
+      <ul class="unstyled">
+				<li><strong>Trefferwürfel:</strong> 1W8 pro Stufe als Druide</li>
+				<li><strong>Trefferpunkte auf Stufe 1:</strong> 8 + dein Konstitutionsmodifikato</li>
+				<li><strong>Trefferpunkte auf höheren Stufen:</strong> 1W8 (oder 5) + dein Konstitutionsmodifikator pro Stufe als Druide über die 1. Stufe hinaus</li>
+			</ul>
+			<h5>ÜBUNG</h5>
+			<ul class="unstyled mb">
+				<li><strong>Rüstungen:</strong> leichte Rüstungen, mittelschwere Rüstungen, Schilde (Druiden tragen keine Rüstungen oder Schilde, die aus Metall sind)</li>
+				<li><strong>Waffen:</strong> Knüppel, Dolche, Wurfpfeile, Wurfspeere, Streitkolben, Kampfstäbe, Krummsäbel, Sicheln, Schleudern und Speere</li>
+				<li><strong>Werkzeuge:</strong> Kräuterkunde-Ausrüstung</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Rettungswürfe:</strong> Intelligenz, Weisheit</li>
+				<li><strong>Fertigkeiten:</strong> zwei nach Wahl: Arkane Kunde, Heilkunde, Mit Tieren umgehen, Motiv erkennen, Naturkunde, Religion, Überlebenskunst oder Wahrnehmung</li>
+			</ul>
+      <h5>AUSRÜSTUNG</h5>
+      <p>Du beginnst mit der folgenden Ausrüstung, zusätzlich zu der, die du durch deinen Hintergrund erhältst:</p>
+      <ul>
+        <li><i>(a)</i> ein Holzschild oder <i>(b)</i> eine beliebige einfache Waffe</li>
+        <li><i>(a)</i> ein Krummsäbel oder <i>(b)</i> eine beliebige einfache Nahkampfwaffe</li>
+        <li>eine Lederrüstung, eine Entdeckerausrüstung und ein druidischer Fokus</li>
+      </ul>
+      <h5 class="caption">DER DRUIDE</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-5">Stufe</td><td class="left">Merkmale</td><td class="col-10">Bekannte Zaubertricks</td><td>1.</td><td>2.</td><td>3.</td><td>4.</td><td>5.</td><td>6.</td><td>7.</td><td>8.</td><td>9.</td></tr>
+        </thead>
+        <tr><td> 1</td><td class="left">Druidisch, Zauberwirken</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 2</td><td class="left">Tiergestalt, Druidenzirkel</td><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 3</td><td class="left">—</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 4</td><td class="left">Verbesserung: Tiergestalt, Attributswerterhöhung</td><td>3</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 5</td><td class="left">—</td><td>3</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 6</td><td class="left">Merkmal: Druidenzirkel</td><td>3</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 7</td><td class="left">—</td><td>3</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 8</td><td class="left">Verbesserung: Tiergestalt, Attributswerterhöhung</td><td>3</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td> 9</td><td class="left">—</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>10</td><td class="left">Merkmal: Druidenzirkel</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>11</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>12</td><td class="left">Attributswerterhöhung</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>13</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>14</td><td class="left">Merkmal: Druidenzirkel</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>15</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>16</td><td class="left">Attributswerterhöhung</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>17</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>18</td><td class="left">Zeitloser Körper, In Tiergestalt zaubern</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>19</td><td class="left">Attributswerterhöhung</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>20</td><td class="left">Erzdruide</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+      </table>
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS" />
+      <div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ARCHDRUID" />
+    </description>
+    <sheet display="false">
+      <description>Ein Priester des Alten Glaubens, ausgestattet mit den Kräften der Natur (Mondlich und Pflanzenwachstum, Feuer und Blitz) und der Tiergestalt annehmen kann.</description>
+    </sheet>
+    <setters>
+      <set name="short">Ein Priester des Alten Glaubens, ausgestattet mit den Kräften der Natur (Mondlich und Pflanzenwachstum, Feuer und Blitz) und der Tiergestalt annehmen kann.</set>
+      <set name="hd">d8</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <select type="Proficiency" name="Geübte Fertigkeit (Druide)" supports="Skill,Druid" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE" level="2"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE" level="2"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" level="4"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY" level="18"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS" level="18"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ARCHDRUID" level="20"/>
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_DRUID">
+      <prerequisite>Wisdom 13</prerequisite>
+      <requirements>[wis:13]</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Druidisch" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC">
+    <description>
+      <p>Du beherrscht Druidisch, die Geheimsprache der Druiden. Du weißt nicht nur, wie man die Sprache spricht, sondern auch wie man versteckte Botschaften hinterlassen kann. Jeder, der des Druidischen mächtig ist, findet diese Botschaften automatisch. Uneingeweihte erkennen sie nur mit einem erfolgreichen Wurf auf Weisheit (Wahrnehmung) gegen SG 15, können aber ohne magische Hilfe den Inhalt nicht entschlüsseln.</p>
+    </description>
+    <sheet>
+      <description>Du beherrscht Druidisch, die Geheimsprache der Druiden.</description>
+    </sheet>
+    <rules>
+      <grant type="Language" id="ID_LANGUAGE_DRUIDIC" />
+    </rules>
+  </element>
+  <element name="Zauberwirken" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID">
+    <description>
+      <p>Indem du dich der göttlichen Essenz der Natur bedienst, kannst du Zauber wirken und diese Essenz nach deinem Willen formen. Für allgemeine Informationen zum Wirken von Zaubern siehe Kapitel 10 „Zauber wirken" und für die Zauberliste des Druiden Kapitel 11 „Zauber".</p>
+      <h5>ZAUBERTRICKS</h5>
+      <p>Auf Stufe 1 kennst du zwei beliebige Zaubertricks aus der Zauberliste des Druiden. Weitere deiner Wahl lernst du auf höheren Stufen, so wie es in der Spalte für bekannte Zaubertricks in der Aufstiegstabelle des Druiden angegeben ist.</p>
+      <h5>VORBEREITEN UND WIRKEN VON ZAUBERN</h5>
+      <p>Du musst Zaubersprüche vorbereiten, um sie wirken zu können. Wähle dazu eine Anzahl von Druidenzaubern, die deiner Stufe als Druide + deinem Weisheitsmodifikator entspricht (mindestens 1), und notiere sie in einer Liste. Du kannst nur Sprüche aussuchen, für deren Grad du auch Zauberplätze besitzt.</p>
+      <p class="indent">Bist du z. B. ein Druide der 3. Stufe, verfügst du über vier Zauberplätze des 1. Grades und zwei des 2. Grades. Bei einem Weisheitswert von 16 kann deine Liste vorbereiteter Zauber sechs beliebige Sprüche (Stufe 3 + Modifikator 3) des I. oder 2. Grades umfassen.</p>
+      <p class="indent">Die Aufstiegstabelle des Druiden gibt an, wie viele Zauberplätze pro Grad dir auf jeder Stufe zur Verfügung stehen. Um einen Spruch aus deiner Liste vorbereiteter Zauber zu wirken, musst du einen Zauberplatz des gleichen oder eines höheren Grades verbrauchen. Alle verbrauchten Zauberplätze stehen dir nach einer langen Rast wieder zur Verfügung. Hast du beispielsweise den Zauber <i>Wunden heilen</i> des 1. Grades vorbereitet, kannst du sowohl einen Zauberplatz des 1. Grades als auch einen des 2. Grades verwenden, um <i>Wunden heilen</i> zu wirken.</p>
+      <p class="indent">Einen Spruch zu wirken, entfernt ihn nicht von deiner Liste der vorbereiteten Zauber. Diese kannst du nach jeder langen Rast ändern. Eine neue Liste vorzubereiten, erfordert mindestens 1 Minute im Gebet oder in Meditation je Zaubergrad pro Spruch.</p>
+      <h5>ATTRIBUT ZUM ZAUBERWIRKEN</h5>
+      <p>Das Attribut, mit dem du deine Druidenzauber wirkst, ist Weisheit, da du deine Magie aus der Hingabe zur Natur und der Einheit mit ihr schöpfst.</p>
+      <p class="indent">Immer wenn sich ein Zauber auf das zum Zauberwirken nötige Attribut bezieht, verwendest du Weisheit. Wird der Schwierigkeitsgrad für einen Rettungswurf gegen deine Druidenzauber bestimmt, ziehst du deinen Weisheitsmodifikator hinzu. Bei Angriffen mit deinen Druidenzaubern findet ebenfalls der Weisheitsmodifikator Anwendung.</p>
+      <p class="center"><b>SG für Rettungswurfe</b> = 8 + dein Übungsbonus + dein Weisheitsmodifikator</p>
+      <p class="center"><b>Modifikator für Zauberangriffe</b> = dein Übungsbonus + dein Weisheitsmodifikator</p>
+      <h5>RITUALE WIRKEN</h5>
+      <p>Du kannst einen Druidenzauber als Ritual wirken, falls der Spruch als solches gekennzeichnet ist und du ihn vorbereitet hast.</p>
+      <h5>ZAUBERFOKUS</h5>
+      <p>Du kannst einen druidischen Fokus (siehe Kapitel 5 „Ausrüstung") als Zauberfokus für deine Druidenzauber verwenden.</p>
+    </description>
+    <sheet>
+      <description>Du kannst Druidenzauber als Rituale wirken. Du kannst {{druid:spellcasting:prepare}} Druidenzauber vorbereiten. Du kannst einen druidischen Fokus als Zauberfokus für deine Druidenzauber verwenden.</description>
+    </sheet>
+    <spellcasting name="Druid" ability="Wisdom" prepare="true">
+      <list known="true">Druid</list>
+    </spellcasting>
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+      <grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+      <stat name="druid:spellcasting:slots:1" value="2" level="1" />
+      <stat name="druid:spellcasting:slots:1" value="1" level="2" />
+      <stat name="druid:spellcasting:slots:1" value="1" level="3" />
+      <stat name="druid:spellcasting:slots:2" value="2" level="3" />
+      <stat name="druid:spellcasting:slots:2" value="1" level="4" />
+      <stat name="druid:spellcasting:slots:3" value="2" level="5" />
+      <stat name="druid:spellcasting:slots:3" value="1" level="6" />
+      <stat name="druid:spellcasting:slots:4" value="1" level="7" />
+      <stat name="druid:spellcasting:slots:4" value="1" level="8" />
+      <stat name="druid:spellcasting:slots:4" value="1" level="9" />
+      <stat name="druid:spellcasting:slots:5" value="1" level="9" />
+      <stat name="druid:spellcasting:slots:5" value="1" level="10" />
+      <stat name="druid:spellcasting:slots:5" value="1" level="18" />
+      <stat name="druid:spellcasting:slots:6" value="1" level="11" />
+      <stat name="druid:spellcasting:slots:6" value="1" level="19" />
+      <stat name="druid:spellcasting:slots:7" value="1" level="13" />
+      <stat name="druid:spellcasting:slots:7" value="1" level="20" />
+      <stat name="druid:spellcasting:slots:8" value="1" level="15" />
+      <stat name="druid:spellcasting:slots:9" value="1" level="17" />
+      <stat name="druid:spellcasting:prepare" value="wisdom:modifier" />
+      <stat name="druid:spellcasting:prepare" value="level:druide" />
+      <select type="Spell" name="Zaubertrick (Druide)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Druid" />
+      <select type="Spell" name="Zaubertrick (Druide)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Druid" />
+      <select type="Spell" name="Zaubertrick (Druide)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Druid" />
+    </rules>
+  </element>
+  <element name="Tiergestalt" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE">
+    <description>
+      <p>Ab der 2. Stufe kannst du deine Aktion nutzen, um auf magische Weise die Gestalt jedes Tieres anzunehmen, das du schon einmal gesehen hast. Du kannst diese Fähigkeit zweimal einsetzen, ohne rasten zu müssen. Nach einer kurzen oder langen Rast erhältst du alle verbrauchten Anwendungen zurück. Deine Stufe als Druide bestimmt die Art der Tiere, in die du dich verwandeln kannst, vergleiche dazu die Tabelle zur Tiergestalt unten. Beispielsweise kannst du dich auf der 2. Stufe in ein Tier mit einem Herausforderungsgrad (HG) von 1/4 oder niedriger verwandeln, das weder eine Flug- noch eine Schwimmbewegungsrate aufweist.</p>
+      <h5>TIERGESTALT</h5>
+      <table>
+        <thead>
+			<tr><td>Stufe</td><td>max. HG</td><td>Einschränkungen</td><td>Beispiel</td></tr>
+		    </thead>
+        <tr><td>2</td> <td>1/4</td> <td>keine Flug- oder Schwimmbewegungsrate</td> <td>Wolf</td></tr>
+        <tr><td>4</td> <td>1/2</td> <td>keine Flugbewegungsrate</td> <td>Krokodil</td></tr>
+        <tr><td>8</td> <td>1</td> <td>-</td> <td>Riesenadler</td></tr>
+      </table>
+      <p class="indent">Du kannst für eine Anzahl an Stunden in Tiergestalt verbleiben, die deiner halben Stufe als Druide entspricht (abgerundet). Anschließend verwandelst du dich in deine normale Gestalt zurück, falls du nicht vorher eine weitere Anwendung der Fähigkeit benutzt. Du kannst auch früher in deine ursprüngliche Form zurückkehren, indem du dafür in deinem Zug eine Bonusaktion aufwendest. Solltest du bewusstlos werden, auf 0 Trefferpunkte sinken oder sterben, verwandelst du dich automatisch zurück.</p>
+      <p class="indent">Für die Zeit, in der du verwandelt bist, gelten folgende Regeln:</p>
+      <ul>
+        <li>Deine Spielwerte werden durch die des Tieres ersetzt. Nur deine Gesinnung, deine Persönlichkeit sowie dein Intelligenz-, Weisheits- und Charismawert bleiben unverändert. Du bist weiterhin in deinen Fertigkeiten und Rettungswürfen geübt und darüber hinaus in denen der Kreatur. Sollte es zu Überschneidungen kommen und die Kreatur einen höheren Übungsbonus aufweisen, benutzt du diesen statt deinem. Besitzt die Kreatur legendäre Aktionen oder Hortaktionen, kannst du diese nicht verwenden.</li>
+        <li>Wenn du dich verwandelst, übernimmst du auch die Trefferpunkte und die Trefferwürfel der Kreatur. Kehrst du in deine normale Form zurück, hast du wieder die gleiche Anzahl Trefferpunkte wie vor der Verwandlung. Solltest du in Tiergestalt auf 0 Trefferpunkte reduziert werden, wird jeglicher überschüssiger Schaden auf deine normale Form übertragen. Erleidest du beispielsweise 10 Schadenspunkte in Tiergestalt und hast nur noch 1 Trefferpunkt übrig, kehrst du in deine normale Form zurück und erleidest 9 Schadenspunkte. Solange der überschüssige Schaden deine Trefferpunkte in deiner normalen Form nicht auf 0 reduziert, giltst du nicht als bewusstlos.</li>
+        <li>Du kannst keine Zauber wirken oder Handlungen ausführen, für die du Hände benötigst, und nicht in menschlicher Sprache sprechen. Diesbezüglich bist du auf die Möglichkeiten deiner Tiergestalt beschränkt. Dich zu verwandeln, stört nicht die Konzentration auf einen Zauber, den du bereits gewirkt hast. Es verhindert auch nicht, dass du Aktionen ausführen kannst, die Teil eines Zaubers sind — wie es etwa bei einem Spruch wie <i>Blitze herbeirufen</i> der Fall ist, wenn du ihn bereits gewirkt hast.</li>
+        <li>Du behältst alle Vorzüge jeglicher Merkmale deiner Klasse, deines Volkes oder aus anderen Quellen und kannst sie anwenden, falls deine neue Gestalt körperlich dazu in der Lage ist. Eine Ausnahme bilden spezielle Sinne wie etwa Dunkelsicht. Diese kannst du nur nutzen, wenn deine neue Form sie ebenfalls besitzt.</li>
+        <li>Du kannst bei der Verwandlung wählen, ob deine Ausrüstung an Ort und Stelle auf den Boden fällt, mit der neuen Gestalt verschmilzt oder von ihr getragen wird. Getragene Ausrüstung kann normal verwendet werden, doch der SL entscheidet, ob sie der neuen Form nutzt, basierend auf der Größe und Gestalt der Kreatur. Gegenstände verändern sich allerdings nicht und passen sich deiner neuen Form nicht an. Jegliche Ausrüstung, die du in deiner neuen Gestalt nicht tragen kannst, muss entweder auf den Boden fallen oder mit ihr verschmelzen. Verschmolzene Ausrüstung hat keine Auswirkung, bis du die Gestalt erneut wechselst.</li>
+      </ul>
+    </description>
+    <sheet action="Aktion" usage="2/Kurze Rast">
+      <description level="2">Du kannst auf magische Weise die Gestalt jedes Tieres anzunehmen, das du schon einmal gesehen hast.
+      Du kannst für {{druid wildshape:hours}} Stunden in der Tiergestalt verweilen. Dann verwandelst du dich zurück, es sei denn du benutzt eine weitere Anwendung diese Merkmales. Du kannst dich früher zurückverwandeln, wenn du eine Bonusaktion aufwendest. Du verwandelst dich automatisch zurück, wenn du bewusstlos wirst, deine LP auf 0 fallen, oder du stirbst.</description>
+      <description level="20" usage="">Du kannst auf magische Weise die Gestalt jedes Tieres anzunehmen, das du schon einmal gesehen hast.
+      Du kannst für {{druid wildshape:hours}} Stunden in der Tiergestalt verweilen. Dann verwandelst du dich zurück, es sei denn du benutzt eine weitere Anwendung diese Merkmales. Du kannst dich früher zurückverwandeln, wenn du eine Bonusaktion aufwendest. Du verwandelst dich automatisch zurück, wenn du bewusstlos wirst, deine LP auf 0 fallen, oder du stirbst.</description>
+    </sheet>
+    <rules>
+      <stat name="druid wildshape:hours" value="level:druide:half" />
+    </rules>
+  </element>
+  <element name="Druidenzirkel" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE">
+    <description>
+      <p>Auch wenn ihre Gruppierung den meisten Außenstehenden unbekannt ist, sind Druiden Teil einer Gesellschaft, die sich über das ganze Land erstreckt und dabei politische Grenzen außer Acht lässt. Alle Druiden gehören dieser druidischen Gesellschaft an, auch wenn einige so isoliert leben, dass sie noch nie ein hochrangiges Mitglied gesehen oder an einer Zusammenkunft teilgenommen haben. Druiden betrachten sich gegenseitig als Brüder und Schwestern. Wie wilde Tiere wetteifern sie manchmal miteinander oder tragen sogar Kämpfe aus. Die druidische Gesellschaft ist in Zirkel aufgeteilt, deren Mitglieder bestimmte Ansichten über die Natur, das Gleichgewicht und die Lebensweise der Druiden teilen.</p>
+      <p class="indent">Mit der 2. Stufe suchst du dir einen Druidenzirkel aus, dem du von nun an angehörst. Dies kann entweder der Zirkel des Landes oder der Zirkel des Mondes sein, beide sind am Ende dieses Abschnitts näher beschrieben. Deine Wahl verleiht dir auf der 2., 6., 10. und 14. Stufe jeweils ein Merkmal.</p>
+    </description>
+		<sheet display="false">
+      <description>Du wählst dir einen Druidenzirkel aus, dem du von nun an angehörst.</description>
+    </sheet>
+    <rules>
+      <select type="Archetype" name="Druidenzirkel" supports="Druid Circle" level="2"/>
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Druide)" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID">
+		<compendium display="false" />
+    <description>
+      <p>Beim Erreichen der 4. Stufe und dann wieder auf der 8., 12., 16. und 19. Stufe kannst du einen Attributswert deiner Wahl um 2 Punkte erhöhen. Du kannst stattdessen auch zwei Attributswerte um jeweils 1 Punkt erhöhen. Kein Attribut darf auf diese Weise über einen Wert von 20 steigen.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Attributswerterhöhung (Druide 4)" supports="Improvement Option,Druide,4" level="4" />
+      <select type="Class Feature" name="Attributswerterhöhung (Druide 8)" supports="Improvement Option,Druide,8" level="8" />
+      <select type="Class Feature" name="Attributswerterhöhung (Druide 12)" supports="Improvement Option,Druide,12" level="12" />
+      <select type="Class Feature" name="Attributswerterhöhung (Druide 16)" supports="Improvement Option,Druide,16" level="16" />
+      <select type="Class Feature" name="Attributswerterhöhung (Druide 19)" supports="Improvement Option,Druide,19" level="19" />
+    </rules>
+  </element>
+  <element name="Zeitloser Körper" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY">
+    <description>
+      <p>Beginnend auf der 18. Stufe lässt dich die wilde Magie, die du handhabst, langsamer altern. Je 10 Jahre, die vergehen, wird dein Körper nur um 1 Jahr älter.</p>
+    </description>
+    <sheet>
+      <description>Die wilde Magie, die du handhabst, lässt dich langsamer altern. Je 10 Jahre, die vergehen, wird dein Körper nur um 1 Jahr älter..</description>
+    </sheet>
+  </element>
+  <element name="In Tiergestalt zaubern" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS">
+    <description>
+      <p>Ab der 18. Stufe kannst du viele deiner Druidenzauber in jeder Gestalt wirken, die du annimmst. Verbale und gestische Komponenten eines Druidenzaubers kannst du in Tiergestalt ausführen, jedoch nicht die Materialkomponenten zur Verfügung stellen.</p>
+    </description>
+    <sheet>
+      <description>Verbale und gestische Komponenten eines Druidenzaubers kannst du in Tiergestalt ausführen.</description>
+    </sheet>
+  </element>
+  <element name="Erzdruide" type="Class Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ARCHDRUID">
+    <description>
+      <p>Auf Stufe 20 kannst du die Tiergestalt unbegrenzt oft annehmen. Außerdem darfst du die verbalen und gestischen Komponenten deiner Druidenzauber ignorieren, genau wie Materialkomponenten, für die keine Kosten angegeben sind und die nicht durch den Zauber verbraucht werden. Du genießt diese Vorzüge sowohl in deiner normalen Form als auch in Tiergestalt.</p>
+    </description>
+    <sheet>
+      <description>Du kannst die Tiergestalt unbegrenzt oft annehmen. Außerdem darfst du die verbalen und gestischen Komponenten deiner Druidenzauber ignorieren, genau wie Materialkomponenten, für die keine Kosten angegeben sind und die nicht durch den Zauber verbraucht werden.</description>
+    </sheet>
+  </element>
+
+  <!-- Circle of the Land Archetype-->
+  <element name="Zirkel des Landes" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_CIRCLEOFTHELAND">
+    <supports>Druid Circle</supports>
+    <description>
+      <p>Der Zirkel des Landes besteht aus Mystikern und Weisen, die uraltes Wissen und Riten durch ihre mündlich überlieferte Tradition erhalten. Diese Druiden treffen sich in heiligen Hainen oder Kreisen aus aufgestellten Steinen, wo sie mystische Geheimnisse der Wildnis miteinander teilen. Die erfahrensten Mitglieder eines Zirkels dienen als Oberpriester von Gemeinschaften, die den Alten Glauben bewahren, und stehen deren Anführern als Berater zur Seite. Als Mitglied dieses Zirkels wird deine Magie von dem Land selbst beeinflusst, in dem du in die mystischen Rituale des Zirkels eingeführt wurdest.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_BONUS_CANTRIP" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURAL_RECOVERY" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_CIRCLE_SPELLS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_LANDS_STRIDE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURES_WARD" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURES_SANCTUARY" />
+    </description>
+		<sheet display="false">
+      <description>Der Zirkel des Landes besteht aus Mystikern und Weisen, die uraltes Wissen und Riten durch ihre mündlich überlieferte Tradition erhalten.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_BONUS_CANTRIP" level="2" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURAL_RECOVERY" level="2" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_CIRCLE_SPELLS" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_LANDS_STRIDE" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURES_WARD" level="10" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURES_SANCTUARY" level="14" />
+    </rules>
+  </element>
+  <element name="Zusätzlicher Zaubertrick" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_BONUS_CANTRIP">
+    <description>
+      <p>Bei der Wahl dieses Zirkels auf der 2. Stufe kannst du dir einen beliebigen Zaubertrick aus der Zauberliste des Druiden aussuchen. Dieser zählt nicht zur maximalen Anzahl deiner bekannten Zaubertricks.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Spell" name="Zusätzlicher Zaubertrick (Druide)" supports="0,Druid" spellcasting="Druid" />
+    </rules>
+  </element>
+  <element name="Natürliche Erholung" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURAL_RECOVERY">
+    <description>
+      <p>Ab Stufe 2 kannst du ein wenig deiner magischen Energie zurückgewinnen, indem du in Meditation verharrst und deinen Geist mit der Natur vereinst. Im Rahmen einer kurzen Rast kannst du dir eine gewisse Anzahl verbrauchter Zauberplätze aussuchen, die du wiedererlangst. Die Zauberplätze dürfen zusammengenommen höchstens eine Gradzahl besitzen, die kleiner oder gleich der Hälfte deiner Stufe als Druide ist (abgerundet). Darüber hinaus darf keiner der Zauberplätze Grad 6 oder höher sein. Diese Fähigkeit kannst du erst nach einer langen Rast erneut einsetzen.</p>
+      <p class="indent">Bist du beispielsweise ein Druide der 4. Stufe, kannst du bis zu zwei Grade an Zauberplätzen wiedererlangen. Du kannst also entweder zwei Zauberplätze des 1. Grades oder einen Zauberplatz des 2. Grades zurückgewinnen.</p>
+    </description>
+    <sheet usage="1/Lange Rast">
+      <description> Im Rahmen einer kurzen Rast kannst du dir eine gewisse Anzahl verbrauchter Zauberplätze aussuchen, die du wiedererlangst. Die Zauberplätze dürfen zusammengenommen höchstens eine Gradzahl von {{druid natuerliche_erholung:spellslots}} besitzen. Darüber hinaus darf keiner der Zauberplätze Grad 6 oder höher sein.</description>
+    </sheet>
+    <rules>
+      <stat name="druid natuerliche_erholung:spellslots" value="level:druide:half" />
+    </rules>
+  </element>
+  <element name="Zauber des Zirkels" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_CIRCLE_SPELLS">
+    <description>
+      <p>Deine mystische Verbindung mit dem Land verleiht dir die Fähigkeit, bestimmte Zaubersprüche zu wirken. Auf den Stufen 3, 5, 7 und 9 erhältst du Zugang zu Zaubern des Zirkels, die im Zusammenhang mit der Region stehen, in der du zum Druiden geweiht wurdest. Wähle eine der folgenden Landschaftsarten und siehe in der Tabelle nach, welche Sprüche damit in Verbindung stehen: Arktisch, Gebirge, Grasland, Küste, Sumpf, Unterreich, Wald oder Wüste.</p>
+      <p class="indent">Sobald du Zugang zu einem Zauber des Zirkels hast, ist dieser immer vorbereitet und zählt nicht zur maximalen Anzahl deiner vorbereiteten Zauber. Sprüche, die nicht in der Zauberliste des Druiden enthalten sind, gelten für dich trotzdem als Druidenzauber.</p>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Zauber des Zirkels" supports="Circle Spells" level="3"/>
+    </rules>
+  </element>
+  <element name="Sicherer Schritt" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_LANDS_STRIDE">
+    <description>
+      <p>Angefangen mit der 6. Stufe kostet es dich keine zusätzliche Bewegung mehr, nicht-magisches schwieriges Gelände zu durchqueren. Du kannst dich auch durch nicht-magische Pflanzen bewegen, ohne von ihnen verlangsamt oder verletzt zu werden, wie es etwa bei Dornen, Stacheln oder ähnlichen Gefahren der Fall wäre.</p>
+      <p class="indent">Darüber hinaus bist du im Vorteil bei Rettungswürfen gegen Pflanzen, die magisch erschaffen oder manipuliert wurden, um deine Bewegung einzuschränken, wie etwa durch den Zauber <i>Verstricken</i>.</p>
+    </description>
+    <sheet>
+      <description>Du kannst dich auch durch nicht-magische Pflanzen bewegen, ohne von ihnen verlangsamt oder verletzt zu werden, wie es etwa bei Dornen, Stacheln oder ähnlichen Gefahren der Fall wäre. Darüber hinaus bist du im Vorteil bei Rettungswürfen gegen Pflanzen, die magisch erschaffen oder manipuliert wurden, um deine Bewegung einzuschränken, wie etwa durch den Zauber <i>Verstricken</i>.</description>
+    </sheet>
+  </element>
+  <element name="Schutz der Natur" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURES_WARD">
+    <description>
+      <p>Mit Erreichen der 10. Stufe kannst du nicht mehr von Feen oder Elementaren bezaubert oder verängstigt werden. Außerdem bist du immun gegen Gifte und Krankheiten.</p>
+    </description>
+    <sheet>
+      <description>Du kannst nicht mehr von Feen oder Elementaren bezaubert oder verängstigt werden. Außerdem bist du immun gegen Gifte und Krankheiten.</description>
+    </sheet>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
+    </rules>
+  </element>
+  <element name="Heiligtum der Natur" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_LAND_NATURES_SANCTUARY">
+    <description>
+      <p>Ab Stufe 14 spüren natürliche Kreaturen deine Verbindung mit dem Land und werden zögern, dich anzugreifen. Sollte ein Tier oder eine Pflanze dich attackieren wollen, muss der Kreatur ein Weisheitsrettungswurf gegen einen SG gelingen, als ob es einem deiner Druidenzauber zu widerstehen versucht. Ist der Rettungswurf ein Misserfolg, muss sich die Kreatur ein anderes Ziel suchen oder verfehlt dich automatisch. Bei einem erfolgreichen Rettungswurf ist die Kreatur für die nächsten 24 Stunden immun gegen diesen Effekt.</p>
+      <p class="indent">Die Kreatur ist sich schon vor ihrem Angriff über diesen Effekt bewusst.</p>
+    </description>
+    <sheet>
+      <descr>Creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours. The creature is aware of this effect before it makes its attack against you.</descr>
+    </sheet>
+  </element>
+
+  <!-- Circle Spells -->
+  <element name="Zirkel der Arktik" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_ARCTIC">
+    <supports>Circle Spells</supports>
+    <description>
+      <p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+      <p class="indent">Sobald du Zugang zu einem Zauber des Zirkels hast, ist dieser immer vorbereitet und zählt nicht zur maximalen Anzahl deiner vorbereiteten Zauber. Sprüche, die nicht in der Zauberliste des Druiden enthalten sind, gelten für dich trotzdem als Druidenzauber.</p>
+      <table>
+        <thead>
+          <tr> <td>Stufe als Druide</td> <td>Zauber des Zirkels</td> </tr>
+        </thead>
+        <tr> <td>3</td> <td><em>Person festhalten, Dornenwuchs</em></td> </tr>
+        <tr> <td>5</td> <td><em>Verlangsamen, Schneesturm</em></td> </tr>
+        <tr> <td>7</td> <td><em>Bewegungsfreiheit, Eissturm</em></td> </tr>
+        <tr> <td>9</td> <td><em>Kältekegel, Einswerden mit der Natur</em></td> </tr>
+      </table>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPIKE_GROWTH" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SLOW" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" level="9" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" level="9" spellcasting="Druid" prepared="true" />
+    </rules>
+  </element>
+  <element name="Zirkel der Küste" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_COAST">
+    <supports>Circle Spells</supports>
+    <description>
+      <p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+      <p class="indent">Sobald du Zugang zu einem Zauber des Zirkels hast, ist dieser immer vorbereitet und zählt nicht zur maximalen Anzahl deiner vorbereiteten Zauber. Sprüche, die nicht in der Zauberliste des Druiden enthalten sind, gelten für dich trotzdem als Druidenzauber.</p>
+      <table>
+        <thead>
+          <tr> <td>Stufe als Druide</td> <td>Zauber des Zirkels</td> </tr>
+        </thead>
+        <tr> <td>3</td> <td><em>Spiegelbilder, Nebelschritt</em></td> </tr>
+        <tr> <td>5</td> <td><em>Wasser atmen, Auf Wasser gehen</em></td> </tr>
+        <tr> <td>7</td> <td><em>Bewegungsfreiheit, Wasser kontrollieren</em></td> </tr>
+        <tr> <td>9</td> <td><em>Ausspähung, Elementar beschwören</em></td> </tr>
+      </table>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WATER_BREATHING" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WATER_WALK" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONTROL_WATER" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONJURE_ELEMENTAL" level="9" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" spellcasting="Druid" prepared="true" />
+    </rules>
+  </element>
+  <element name="Zirkel der Wüste" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_DESERT">
+    <supports>Circle Spells</supports>
+    <description>
+      <p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+      <p class="indent">Sobald du Zugang zu einem Zauber des Zirkels hast, ist dieser immer vorbereitet und zählt nicht zur maximalen Anzahl deiner vorbereiteten Zauber. Sprüche, die nicht in der Zauberliste des Druiden enthalten sind, gelten für dich trotzdem als Druidenzauber.</p>
+      <table>
+        <thead>
+          <tr> <td>Stufe als Druide</td> <td>Zauber des Zirkels</td> </tr>
+        </thead>
+        <tr> <td>3</td> <td><em>Verschwimmen, Stille</em></td> </tr>
+        <tr> <td>5</td> <td><em>Nahrung und Wasser erschaffen, Schutz vor Energie</em></td> </tr>
+        <tr> <td>7</td> <td><em>Dürre, Scheingelände</em></td> </tr>
+        <tr> <td>9</td> <td><em>Insektenplage, Steinwand</em></td> </tr>
+      </table>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_BLUR" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SILENCE" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CREATE_FOOD_AND_WATER" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BLIGHT" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" level="9" spellcasting="Druid" prepared="true" />
+    </rules>
+  </element>
+  <element name="Zirkel des Waldes" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_FOREST">
+    <supports>Circle Spells</supports>
+    <description>
+      <p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+      <p class="indent">Sobald du Zugang zu einem Zauber des Zirkels hast, ist dieser immer vorbereitet und zählt nicht zur maximalen Anzahl deiner vorbereiteten Zauber. Sprüche, die nicht in der Zauberliste des Druiden enthalten sind, gelten für dich trotzdem als Druidenzauber.</p>
+      <table>
+        <thead>
+          <tr> <td>Stufe als Druide</td> <td>Zauber des Zirkels</td> </tr>
+        </thead>
+        <tr> <td>3</td> <td><em>Rindenhaut, Spinnenklettern</em></td> </tr>
+        <tr> <td>5</td> <td><em>Blitze herbeirufen, Pflanzenwachstum</em></td> </tr>
+        <tr> <td>7</td> <td><em>Bewegungsfreiheit, Weissagung</em></td> </tr>
+        <tr> <td>9</td> <td><em>Einswerden mit der Natur, Hölzerner Weg</em></td> </tr>
+      </table>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_BARKSKIN" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPIDER_CLIMB" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CALL_LIGHTNING" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_PLANT_GROWTH" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DIVINATION" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" level="9" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE" level="9" spellcasting="Druid" prepared="true" />
+    </rules>
+  </element>
+  <element name="Zirkel des Graslandes" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_GRASSLAND">
+    <supports>Circle Spells</supports>
+    <description>
+      <p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+      <p class="indent">Sobald du Zugang zu einem Zauber des Zirkels hast, ist dieser immer vorbereitet und zählt nicht zur maximalen Anzahl deiner vorbereiteten Zauber. Sprüche, die nicht in der Zauberliste des Druiden enthalten sind, gelten für dich trotzdem als Druidenzauber.</p>
+      <table>
+        <thead>
+          <tr> <td>Stufe als Druide</td> <td>Zauber des Zirkels</td> </tr>
+        </thead>
+        <tr> <td>3</td> <td><em>Unsichtbarkeit, Spurloses Gehen</em></td> </tr>
+        <tr> <td>5</td> <td><em>Hast, Tageslicht</em></td> </tr>
+        <tr> <td>7</td> <td><em>Bewegungsfreiheit, Weissagung</em></td> </tr>
+        <tr> <td>9</td> <td><em>Insektenplage, Traum</em></td> </tr>
+      </table>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_HASTE" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DIVINATION" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DREAM" level="9" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" />
+    </rules>
+  </element>
+  <element name="Zirkel des Gebirges" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_MOUNTAIN">
+    <supports>Circle Spells</supports>
+    <description>
+      <p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+      <p class="indent">Sobald du Zugang zu einem Zauber des Zirkels hast, ist dieser immer vorbereitet und zählt nicht zur maximalen Anzahl deiner vorbereiteten Zauber. Sprüche, die nicht in der Zauberliste des Druiden enthalten sind, gelten für dich trotzdem als Druidenzauber.</p>
+      <table>
+        <thead>
+          <tr> <td>Stufe als Druide</td> <td>Zauber des Zirkels</td> </tr>
+        </thead>
+        <tr> <td>3</td> <td><em>Spinnenklettern, Dornenwuchs</em></td> </tr>
+        <tr> <td>5</td> <td><em>Blitz, Mit Stein verschmelzen</em></td> </tr>
+        <tr> <td>7</td> <td><em>Steinhaut, Stein formen</em></td> </tr>
+        <tr> <td>9</td> <td><em>Steinwand, Wände passieren</em></td> </tr>
+      </table>
+    </description>
+		<sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_SPIDER_CLIMB" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPIKE_GROWTH" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_MELD_INTO_STONE" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_STONE_SHAPE" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_PASSWALL" level="9" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" level="9" spellcasting="Druid" prepared="true" />
+    </rules>
+  </element>
+  <element name="Zirkel des Sumpfes" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_SWAMP">
+    <supports>Circle Spells</supports>
+    <description>
+      <p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+      <p class="indent">Sobald du Zugang zu einem Zauber des Zirkels hast, ist dieser immer vorbereitet und zählt nicht zur maximalen Anzahl deiner vorbereiteten Zauber. Sprüche, die nicht in der Zauberliste des Druiden enthalten sind, gelten für dich trotzdem als Druidenzauber.</p>
+      <table>
+        <thead>
+          <tr> <td>Stufe als Druide</td> <td>Zauber des Zirkels</td> </tr>
+        </thead>
+        <tr> <td>3</td> <td><em>Dunkelheit, Melfs Säurepfeil</em></td> </tr>
+        <tr> <td>5</td> <td><em>Auf Wasser gehen, Stinkende Wolke</em></td> </tr>
+        <tr> <td>7</td> <td><em>Bewegungsfreiheit, Kreatur aufspüren</em></td> </tr>
+        <tr> <td>9</td> <td><em>Insektenplage, Ausspähung</em></td> </tr>
+      </table>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_MELFS_ACID_ARROW" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WATER_WALK" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_STINKING_CLOUD" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" spellcasting="Druid" prepared="true" />
+    </rules>
+  </element>
+  <element name="Zirkel des Unterreichs" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_UNDERDARK">
+    <supports>Circle Spells</supports>
+    <description>
+      <p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+      <p class="indent">Sobald du Zugang zu einem Zauber des Zirkels hast, ist dieser immer vorbereitet und zählt nicht zur maximalen Anzahl deiner vorbereiteten Zauber. Sprüche, die nicht in der Zauberliste des Druiden enthalten sind, gelten für dich trotzdem als Druidenzauber.</p>
+      <table>
+        <thead>
+          <tr> <td>Stufe als Druide</td> <td>Zauber des Zirkels</td> </tr>
+        </thead>
+        <tr> <td>3</td> <td><em>Spinnenklettern, Spinnennetz</em></td> </tr>
+        <tr> <td>5</td> <td><em>Gasförmige Gestalt, Stinkende Wolke</em></td> </tr>
+        <tr> <td>7</td> <td><em>Mächtige Unsichtbarkeit, Stein formen</em></td> </tr>
+        <tr> <td>9</td> <td><em>Todeswolke, Insektenplage</em></td> </tr>
+      </table>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_SPIDER_CLIMB" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WEB" level="3" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GASEOUS_FORM" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_STINKING_CLOUD" level="5" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GREATER_INVISIBILITY" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_STONE_SHAPE" level="7" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CLOUDKILL" level="9" spellcasting="Druid" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" />
+    </rules>
+  </element>
+
+
+  <!-- Circle of the Moon Archetype-->
+  <element name="Zirkel des Mondes" type="Archetype" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_CIRCLEOFTHEMOON">
+    <supports>Druid Circle</supports>
+    <description>
+      <p>Druiden des Zirkels des Mondes sind entschlossene Beschützer der ungezähmten Natur. Ihr Orden versammelt sich bei Vollmond, um Neuigkeiten und Warnungen auszutauschen. Sie hausen in den dichtesten Teilen der Wildnis, wo sie wochenlang umherwandern können, ohne auf eine andere humanoide Kreatur zu treffen, geschweige denn auf einen anderen Druiden.</p>
+      <p class="indent">Veränderlich wie der Mond, kann ein Druide dieses Zirkels eine Nacht als Großkatze durch den Dschungel streifen, am nächsten Tag als Adler über die Baumkronen segeln und dann wieder in Bärengestalt aus dem Unterholz krachend ein schändliches Monster verjagen. Die Wildheit liegt diesen Druiden im Blut.</p>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_COMBAT_WILD_SHAPE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_CIRCLE_FORMS" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_PRIMAL_STRIKE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_ELEMENTAL_WILD_SHAPE" />
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_THOUSAND_FORMS" />
+    </description>
+		<sheet display="false">
+      <description>Druiden des Zirkels des Mondes sind entschlossene Beschützer der ungezähmten Natur.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_COMBAT_WILD_SHAPE" level="2" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_CIRCLE_FORMS" level="2" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_PRIMAL_STRIKE" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_ELEMENTAL_WILD_SHAPE" level="10" />
+      <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_THOUSAND_FORMS" level="14" />
+    </rules>
+  </element>
+  <element name="Instinktive Tiergestalt" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_COMBAT_WILD_SHAPE">
+    <description>
+      <p>Wählst du auf der 2. Stufe diesen Zirkel, kannst du die Tiergestalt in deinem Zug als Bonusaktion annehmen anstatt als Aktion. Zusätzlich kannst du, während du in Tiergestalt bist, als Bonusaktion einen Zauberplatz aufgeben, um 1W8 Trefferpunkte pro aufgegebenem Grad des Zauberplatzes zu heilen.</p>
+    </description>
+    <sheet action="Bonusaktion">
+      <description>Du kannst die Tiergestalt in deinem Zug als Bonusaktion annehmen anstatt als Aktion. Zusätzlich kannst du, während du in Tiergestalt bist, als Bonusaktion einen Zauberplatz aufgeben, um 1W8 Trefferpunkte pro aufgegebenem Grad des Zauberplatzes zu heilen.</description>
+    </sheet>
+  </element>
+  <element name="Tiergestalten des Zirkels" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_CIRCLE_FORMS">
+    <description>
+      <p>Die Riten deines Zirkels verleihen dir die Fähigkeit, die Gestalt von gefährlicheren Tieren anzunehmen. Ab der 2. Stufe kannst du dich mit Tiergestalt in ein Tier mit einem Herausforderungsgrad von bis zu 1 verwandeln (du ignorierst die entsprechenden Angaben zur Höhe des HG in der Tiergestaittabelle, musst allerdings die Einschränkungen einhalten).</p>
+      <p class="indent">Ab der 6. Stufe kannst du dich in Tiere mit einem maximalen HG entsprechend deiner Druidenstufe geteilt durch 3 verwandeln (abgerundet).</p>
+    </description>
+    <sheet>
+			<description>Du kannst dich mit Tiergestalt in ein Tier mit einem maximalen Herausforderungsgrad von bis zu {{circle forms:cr}} verwandeln.</description>
+		</sheet>
+		<rules>
+			<stat name="circle forms:cr" value="1" bonus="base" />
+			<stat name="circle forms:cr" value="2" level="6" bonus="base" />
+			<stat name="circle forms:cr" value="3" level="9" bonus="base" />
+			<stat name="circle forms:cr" value="4" level="12" bonus="base" />
+			<stat name="circle forms:cr" value="5" level="15" bonus="base" />
+			<stat name="circle forms:cr" value="6" level="18" bonus="base" />
+		</rules>
+  </element>
+  <element name="Urschlag" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_PRIMAL_STRIKE">
+    <description>
+      <p>Von der 6. Stufe an gelten deine Angriffe in Tiergestalt als magisch, wenn es darum geht, Resistenzen oder Immunitäten gegen nicht-magische Angriffe und nicht-magischen Schaden zu überwinden.</p>
+    </description>
+    <sheet>
+      <description >Deine Angriffe in Tiergestalt gelten als magisch.</description>
+    </sheet>
+  </element>
+  <element name="Elementargestalt" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_ELEMENTAL_WILD_SHAPE">
+    <description>
+      <p>Ab Stufe 10 kannst du gleichzeitig zwei Anwendungen deiner Tiergestalt aufwenden, um dich in einen Luft-, Feuer-, Erd- oder Wasserelementar zu verwandeln.</p>
+    </description>
+    <sheet>
+      <description>Du kannst zwei Anwendungen deiner Tiergestalt aufwenden, um dich in einen Luft-, Feuer-, Erd- oder Wasserelementar zu verwandeln.</description>
+    </sheet>
+  </element>
+  <element name="Tausende Gestalten" type="Archetype Feature" source="Spielerhandbuch" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_MOON_THOUSAND_FORMS">
+    <description>
+      <p>Beim Erreichen der 14. Stufe lernst du, deine körperliche Form mit Hilfe der Magie auf tiefgreifendere Weise zu verändern. Du kannst den Zauberspruch <i>Gestalt verändern</i> beliebig oft anwenden und musst auch keine Zauberplätze dafür verbrauchen.</p>
+    </description>
+    <sheet>
+      <description>Du kannst den Zauberspruch <i>Gestalt verändern</i> beliebig oft anwenden.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" spellcasting="Druid" />
+    </rules>
+  </element>
+</elements>

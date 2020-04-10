@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mensch</name>
+		<description></description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.2">
+			<file name="volk-mensch.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-mensch.xml" />
+		</update>
+	</info>
+
+  <element name="Mensch" type="Race" source="Spielerhandbuch" id="ID_RACE_HUMAN">
+    <description>
+      <p class="flavor">In den Chroniken der meisten Welten sind die Menschen das jüngste der verbreiteten Völker. Sie erscheinen spät auf der Bühne der Welt und leben im Vergleich zu Zwergen, Elfen und Drachen nur kurz. Möglicherweise liegt es gerade an dieser Kurzlebigkeit, dass sie danach streben, so viel wie möglich in den ihnen gegebenen Jahren zu erreichen. Vielleicht haben sie auch das Gefühl, dass sie den älteren Völkern etwas beweisen müssen, und bauen daher mächtige Imperien auf der Basis von Eroberung und Handel auf. Was immer sie anspornt, die Menschen sind Erfinder und Pioniere, die treibenden Kräfte dieser Welten.</p>
+      <h4>EIN BREITES SPEKTRUM</h4>
+      <p>Mit ihrem Hang zu Wanderung und Eroberung unterscheiden sich die Menschen körperlich stärker voneinander, als dies bei anderen Völkern der Fall ist. Es gibt keinen typischen Menschen. Der Einzelne kann zwischen 150 cm und 180 cm groß sein und 125-250 Pfund wiegen. Die Hautfarben der Menschen reichen von nahezu Schwarz bis Blassweiß, die Farbe ihres Haars von Schwarz über Kupfer bis Goldblond (sei es lockig, gewellt oder glatt). Männer können eine Gesichtsbehaarung tragen, die spärlich oder dicht sein kann. Viele Menschen haben Einschläge von nichtmenschlichem Blut in sich und weisen Spuren ihrer elfischen, orkischen oder anderen Abstammung auf. Menschen erreichen das Erwachsenenalter mit dem Ende ihres zweiten Jahrzehnts und leben kaum ein Jahrhundert lang.</p>
+			<h4>VIELFALT IN ALLEN DINGEN</h4>
+      <p>Menschen sind das anpassungsfähigste und ambitionierteste unter den verbreiteten Völkern. Sie besitzen stark unterschiedliche Interessen, Moralvorstellungen und Gebräuche in den vielen Ländern, in denen sie sich angesiedelt haben. Wenn sich Menschen einmal niederlassen, bleiben sie auch. Sie erbauen Städte, die über Zeitalter hinweg fortbestehen, und gründen große Königreiche, die viele Jahrhunderte überdauern. Ein Mensch mag zwar eine relativ kurze Lebensspanne besitzen, doch die Nationen oder Kulturen dieses Volkes erhalten bereits Traditionen aufrecht, die ihre Ursprünge in einer Zeit haben, die über die Erinnerung jedes Einzelnen hinausgehen. Meist leben Menschen vollkommen in der Gegenwart, was gut zu einem Leben als Abenteurer passt, doch planen sie auch für die Zukunft und sind bestrebt, ein bleibendes Vermächtnis zu hinterlassen. Einzeln und als Gruppe sind Menschen geschickte Anpassungskünstler, die schnell auf gesellschaftliche und politische Veränderungen reagieren.</p>
+      <h4>LANGLEBIGE INSTITUTIONEN</h4>
+      <p>Wo bei Elfen und Zwergen ein Einzelner die Verantwortung übernimmt, einen besonderen Ort zu bewachen oder ein Geheimnis zu bewahren, erfinden die Menschen geheiligte Befehle und Institutionen für diesen Zweck. Während bei den Zwergen die Klans und bei den Halblingen die Ältesten das uralte Wissen und die Traditionen an die nächste Generation weitergeben, bevorzugen die Menschen Tempel, Regierungsgebäude, Bibliotheken und Gesetzestexte, um ihre Geschichte festzuhalten. Menschen träumen von der Unsterblichkeit und sie erreichen sie, indem sie sicherstellen, dass man sich noch an sie erinnert, wenn sie bereits lange gestorben sind (bis auf die wenigen, die das Unleben oder den Aufstieg zum Göttlichen wählen, um dem Griff des Todes zu entkommen).</p>
+			<p class="indent">Auch wenn es einige Menschen gibt, die Fremden gegenüber misstrauisch sind, gelten ihre Gemeinschaften im Allgemeinen als offen und tolerant. Die Länder der Menschen heißen eine große Anzahl von Nichtmenschen willkommen, verglichen mit dem Anteil Menschen, die in den Gefilden anderer Völker leben.</p>
+      <h4>LEUCHTENDE BEISPIELE DES EHRGEIZES</h4>
+      <p>Menschen, die das Abenteuer suchen, sind die wagemutigsten und ehrgeizigsten Mitglieder eines wagemutigen und ehrgeizigen Volkes. Sie wollen in den Augen ihrer Mitmenschen Ehre erlangen, indem sie Macht, Wohlstand und Ruhm anhäufen. Mehr als andere Völker treten Menschen für eine Sache ein, anstatt für ein Territorium oder eine Gruppe.</p>
+      <h4>NAMEN UND ETHNIEN DER MENSCHEN</h4>
+      <p>Da es unter den Menschen eine größere Vielfalt als bei allen anderen Völkern gibt, haben sie als Gesamtheit keine typischen Namen. Die Eltern mancher Menschen bevorzugen für ihre Kinder Namen aus anderen Sprachen wie dem Elfischen oder Zwergischen (die dann mehr oder weniger richtig ausgesprochen werden), doch die meisten Eltern geben ihren Sprösslingen Namen, die einen Bezug zu der Kultur ihrer Region oder den Traditionen ihrer Vorfahren haben.</p>
+      <p class="indent">Die materielle Kultur und die körperlichen Charakteristika der Menschen können sich stark von Region zu Region unterscheiden. In der Welt der Vergessenen Reiche sind beispielsweise die Kleidung, die Architektur, die Küche, die Musik und die Literatur in den nordwestlichen Ländern der Silbermarken völlig anders als im entfernten Turmish oder Impiltur im Osten, und noch unverwechselbarer im weit abgelegenen Kara-Tur. Die physischen Eigenschaften der Menschen verändern sich in Abhängigkeit von den uralten Wegen der Völkerwanderungen, sodass die Menschen der Silbermarken jede mögliche Kombination von Zügen und Färbungen aufweisen können.</p>
+      <p class="indent">In den Vergessenen Reichen sind neun ethnische Gruppen weit verbreitet, auch wenn es noch ein Dutzend anderer in den abseits gelegenen Gegenden von Faerün gibt. Diese Gruppen und deren typische Namen können als Inspiration genutzt werden, um Namen aus jeder anderen Welt zu erfinden, in der Menschen leben.</p>
+
+			<h6>Calishiten</h6>
+      <p>Kleiner und schmächtiger gebaut als die meisten anderen Menschen, besitzen die Calishiten dunkelbraune Haut, Haare und Augen. Man findet sie hauptsächlich im Südwesten Faerüns.</p>
+      <p><span class="emphasis">Calishitische Namen:</span>(männliche) Aseir, Bardeid, Haseid, Khemed, Mehmen, Sudeiman, Zasheir; (weibliche) Atala, Ceidil, Hama, Jasmal, Meilil, Seipora, Yasheira, Zasheida; (Nachnamen) Basha, Dumein, Jassan, Khalid, Mostana, Pashar, Rein</p>
+
+			<h6>Chondathaner</h6>
+      <p>Chondathaner sind ein schlanker Menschenschlag mit gelbbrauner Haut und dunklem Haar, das beinahe blond oder fast schwarz sein kann. Die meisten sind groß und besitzen grüne oder braune Augen, auch wenn dies nicht auf jeden zutrifft. Menschen chondathanischer Herkunft beherrschen die zentralen Länder von Faerün und diejenigen um die See des Sternenregens.</p>
+      <p><span class="emphasis">Chondathanische Namen:</span>(männliche) Darvin, Dorn, Evendur, Gorstag, Grim, Helm, Malark, Morn, Randal, Stedd; (weibliche) Arveene, Esvele, Jhessail, Kerri, Lureene, Miri, Rowan, Shandri, Tessele; (Nachnamen) Schlenderkopf, Beuchemann, Falbdrache, Gleichholz, Graufeste, Tallstag</p>
+
+      <h6>Damaraner</h6>
+      <p>Die primär im Nordwesten von Faerün angesiedelten Dama-raner sind von mittlerer Größe und Statur. Ihre Haut ist von heller his gelbbrauner Farbe, ihr Haar für gewöhnlich braun oder schwarz. Die Augenfarbe variiert, auch wenn braune Augen am häufigsten sind.</p>
+      <p><span class="emphasis">Damaranische Namen:</span>(männliche) Bor, Fodel, Glar, Grigor, Igan, Ivor, Kosef, Mival, Orel, Pavel, Sergor; (weibliche) Alethra, Kara, Katernin, Mara, Natali, Olma, Tana, Zora; (Nachnamen) Bersk, Chernin, Dotsk, Kulenov, Marsk, Nemetsk, Shemov, Starag</p>
+
+      <h6>Illuskaner</h6>
+      <p>Illuskaner sind ein großes hellhäutiges Volk mit blauen bis hin zu stahlgrauen Augen. Die meisten haben rabenschwarzes Haar, nur diejenigen im äußersten Nordwesten besitzen blondes, rotes oder hellbraunes.</p>
+      <p><span class="emphasis">Illuskanische Namen:</span>(männliche) Ander, Blath, Bran, Frath, Geth, Lander, Luth, Malcer, Stor, Taman, Urth; (weibliche) Arnafrey, Betha, Cefrey, Kethra, Mara, Olga, Silifrey, Westra; (Nachnamen) Blankholz, Helder, Hornrabe, Knappmann, Sturmböe, Flusswind</p>
+
+      <h6>Mulan</h6>
+      <p>Vorherrschend an der östlichen und südöstlichen Küste der Inneren See leben die schlanken, groß gewachsenen und bernsteinhäutigen Mulan. Sie haben braune oder hellbraune Augen und ihre Haarfarbe reicht von Schwarz bis Dunkelbraun, wobei in Ländern, in denen die Mulan regieren, die Adeligen und viele andere ihre Köpfe blank rasiert tragen.</p>
+      <p><span class="emphasis">Mulanische Namen</span>:(männliche) Aoth, Bareris, Ehput-Ki, Kethoth, Mumed, Ramas, So-Kehur, Thazar-De, Urhur; (weibliche) Arizima, Chathi, Nephis, Nulara, Murithi, Sefris, Thola, Umara, Zolis; (Nachnamen) Ankhalab, Anskuld, Fezim, Hahpet, Nathandem, Sepret, Uuthrakt</p>
+
+      <h6>Rashemi</h6>
+      <p>Am häufigsten findet man die Rashemi im Osten der Inneren See und oft gemischt lebend mit den Mulan. Sie neigen zu einem kleinen, stämmigen und muskulösen Körperbau. Für gewöhnlich besitzen sie dunkle Haut, dunkle Augen und dickes schwarzes Haar.</p>
+      <p><span class="emphasis">Rashemi-Namen:</span>:(männliche) Borivik, Faurgar, Jandar, Kanithar, Madislak, Ralmevik, Shaumar, Vladislak; (weibliche) Fyevarra, Hulmarra, Immith, Imzel, Navarra, Shevarra, Tammith, Yuldra; (Nachnamen) Chergoba, Dyernina, Iltazyara, Murnyethara, Stayanoga, Ulmokina</p>
+
+      <h6>Shou</h6>
+      <p>Die Shou sind die zahlreichste und mächtigste ethnische Gruppe in Kara-Tur, das weit im Osten Faerüns liegt. Sie haben gelblich-bronzefarbene Haut, schwarze Haare und dunkle Augen. Die Nachnamen werden für gewöhnlich vor den Vornamen genannt.</p>
+      <p><span class="emphasis">Shou-Namen:</span>(männliche) An, Chen, Chi, Fai, Jiang, Jun, Lian, Long, Meng, On, Shan, Shui, Wen; (weibliche) Bai, Chao, Jia, Lei, Mei, Qiao, Shui, Tai; (Nachnamen) Chien, Huang, Kao, Kung, Lao, Ling, Mei, Pin, Shin, Surn, Tan, Wan</p>
+
+      <h6>Tethyrianer</h6>
+      <p>Weit verteilt über die Schwertküste am westlichen Rand von Faerün siedeln die Tethyrianer. Sie sind ein Volk von mittlerer Größe und ihre dunkle Haut wird heller, je weiter man nach Norden kommt. Haar- und Augenfarben variieren stark, am häufigsten jedoch gibt es braune Haare und blaue Augen. Die Tethyrianer verwenden hauptsächlich chondathanische Namen.</p>
+
+      <h6>Turami</h6>
+      <p>Das an der Südküste der Inneren See beheimatete Volk der Turami ist im Allgemeinen groß und kräftig gebaut. Es besitzt dunkle, mahagonifarbene Haut, lockige Haare und dunkle Augen.</p>
+      <p><span class="emphasis">Turami-Namen:</span>(männliche) Anton, Diero, Marcon, Pieron, Rimardo, Romero, Salazar, Umbero; (weibliche) Balama, Dona, Faila, Jalana, Luisa, Marta, Quara, Selise, Vonda; (Nachnamen) Agosto, Astorio, Calabra, Domine, Falone, Marivaldi, Pisacar, Ramondo</p>
+
+      <h4>MERKMALE DER MENSCHEN</h4>
+      <p>Obwohl es schwierig ist, die Kulturen der Menschen zu verallgemeinern, besitzt dein menschlicher Charakter folgende Merkmale.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Jeder einzelne Attributswert wird um 1 Punkt erhöht.<br />
+        <span class="feature">Alter:</span>Menschen erreichen das Erwachsenenalter mit 16 bis 20 Jahren und leben weniger als ein Jahrhundert.<br />
+        <span class="feature">Gesinnung:</span>Menschen neigen nicht zu einer bestimmten Gesinnung. Man findet die Besten und die Schlimmsten unter ihnen.<br />
+        <span class="feature">Größe:</span>Körperbau und Wuchs der Menschen schwanken stark, sie werden von kaum 150 cm bis weit über 180 cm groß. Unabhängig davon, wo du in dieser Spanne angesiedelt bist, ist deine Größenkategorie mittelgroß.<br />
+        <span class="feature">Bewegungsrate:</span>Deine Grundbewegungsrate beträgt 9 m.<br />
+        <span class="feature">Sprachen:</span>Du kannst sowohl die Gemeinsprache als auch eine andere Sprache deiner Wahl lesen, schreiben und sprechen. Typischerweise lernen Menschen die Sprache der Leute, mit denen sie am meisten zu tun haben, sogar undeutliche Dialekte. Sie streuen beim Reden gern Worte aus anderen Sprachen ein, zum Beispiel orkische Flüche, elfische Ausdrücke für Musik, zwergische Militärbegriffe und dergleichen.<br />
+      </p>
+      <div element="ID_RACE_VARIANT_HUMAN_VARIANT"/>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Ander, Blath, Bran, Frath, Geth, Lander, Luth, Malcer, Stor, Taman, Urth</set>
+      <set name="names" type="female">Amafrey, Betha, Cefrey, Kethra, Mara, Olga, Silifrey, Westra</set>
+      <set name="names" type="surname">Blankholz, Helder, Hornrabe, Knappmann, Sturmböe, Flusswind</set>
+      <set name="names-format">{{name}} {{surname}}</set>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM"/>
+      <grant type="Language" id="ID_LANGUAGE_COMMON"/>
+      <select type="Language" name="Sprache (Mensch)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT"/>
+      <stat name="strength" value="1" requirements="!(ID_RACE_VARIANT_HUMAN_VARIANT||ID_WOTC_WGTE_VARIANT_HUMAN_SENTINEL||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+      <stat name="dexterity" value="1" requirements="!(ID_RACE_VARIANT_HUMAN_VARIANT||ID_WOTC_WGTE_VARIANT_HUMAN_SENTINEL||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+      <stat name="constitution" value="1" requirements="!(ID_RACE_VARIANT_HUMAN_VARIANT||ID_WOTC_WGTE_VARIANT_HUMAN_SENTINEL||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+      <stat name="intelligence" value="1" requirements="!(ID_RACE_VARIANT_HUMAN_VARIANT||ID_WOTC_WGTE_VARIANT_HUMAN_SENTINEL||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+      <stat name="wisdom" value="1" requirements="!(ID_RACE_VARIANT_HUMAN_VARIANT||ID_WOTC_WGTE_VARIANT_HUMAN_SENTINEL||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+      <stat name="charisma" value="1" requirements="!(ID_RACE_VARIANT_HUMAN_VARIANT||ID_WOTC_WGTE_VARIANT_HUMAN_SENTINEL||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+      <select type="Race Variant" name="Human Variant" supports="Human" optional="true" />
+    </rules>
+  </element>
+
+  <element name="Mensch Variante" type="Race Variant" source="Spielerhandbuch" id="ID_RACE_VARIANT_HUMAN_VARIANT">
+    <supports>Human</supports>
+    <requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+    <description>
+      <p>Sollte deine Spielrunde die optionale Talentregel aus Kapitel 6 verwenden, kann dein SL dir erlauben, die folgende Merkmalsvariante zu nutzen. Alle nachfolgenden Merkmale ersetzen die oben beschriebene Attributswerterhöhung der Menschen.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Du darfst zwei verschiedene Attributswerte um jeweils 1 Punkt erhöhen.<br />
+        <span class="feature">Fertigkeiten:</span>Du erhältst Übung in einer Fertigkeit deiner Wahl.<br />
+        <span class="feature">Talent:</span>Du erhältst ein Talent deiner Wahl.<br />
+      </p>
+    </description>
+    <sheet alt="Human" display="false"/>
+    <rules>
+      <select type="Racial Trait" name="Attributswerterhöhung (Mensch Variante)" supports="Human Variant" number="2" />
+      <select type="Proficiency" name="Geübte Fähigkeit (Mensch Variante)" supports="Skill" />
+      <select type="Feat" name="Talent (Mensch Variante)" />
+    </rules>
+  </element>
+
+  <!--Human Variant Ability Score Increase-->
+  <element name="Attributswerterhöhung (Stärke)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACE_VARIANT_HUMAN_VARIANT_STRENGTH">
+		<compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+			<p>Dein Stärkewert wird um 1 Punkt erhöht.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="strength" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Geschicklichkeit)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACE_VARIANT_HUMAN_VARIANT_DEXTERITY">
+    <compendium display="false" />
+	  <supports>Human Variant</supports>
+    <description>
+			<p>Dein Geschicklichkeitswert wird um 1 Punkt erhöht.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="dexterity" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Konstitution)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACE_VARIANT_HUMAN_VARIANT_CONSTITUTION">
+    <compendium display="false" />
+		<supports>Human Variant</supports>
+    <description>
+			<p>Dein Konstitutionswert wird um 1 Punkt erhöht.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="constitution" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Intelligenz)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACE_VARIANT_HUMAN_VARIANT_INTELLIGENCE">
+    <compendium display="false" />
+		<supports>Human Variant</supports>
+    <description>
+			<p>Dein Intelligenzwert wird um 1 Punkt erhöht.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="intelligence" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Weisheit)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACE_VARIANT_HUMAN_VARIANT_WISDOM">
+    <compendium display="false" />
+		<supports>Human Variant</supports>
+    <description>
+			<p>Dein Weisheitswert wird um 1 Punkt erhöht.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="wisdom" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+  <element name="Attributswerterhöhung (Charisma)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACE_VARIANT_HUMAN_VARIANT_CHARISMA">
+    <compendium display="false" />
+		<supports>Human Variant</supports>
+    <description>
+			<p>Dein Charismawert wird um 1 Punkt erhöht.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="charisma" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+</elements>

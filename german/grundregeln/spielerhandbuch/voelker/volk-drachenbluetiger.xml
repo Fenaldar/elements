@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Drachenblütiger</name>
+    <description></description>
+    <author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+    <update version="0.0.1">
+      <file name="volk-drachenbluetiger.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/voelker/volk-drachenbluetiger.xml" />
+    </update>
+  </info>
+
+  <element name="Drachenblütiger" type="Race" source="Spielerhandbuch" id="ID_RACE_DRAGONBORN">
+    <description>
+      <p class="flavor">Von Drachen abstammend, wie ihr Name verrät, wandeln die Drachenblütigen durch die Welt, die mit furchtsamer Verständnislosigkeit auf sie reagiert. Geformt von Drachengöttern oder den Drachen selbst, wurden sie ursprünglich als einzigartiges Volk in Dracheneiern ausgebrütet, das die besten Eigenschaften der Drachen und der Humanoiden vereint. Manche Drachenblütige sind ergebene Diener von wahren Drachen, andere bilden die Reihen von Soldaten in großen Kriegen und wieder andere finden sich umhertreibend wieder, ohne klare Berufung im Leben.</p>
+      <h4>STOLZE VERWANDTE DER DRACHEN</h4>
+      <p>Drachenblütige sehen ganz wie humanoide Drachen auf zwei Beinen aus, nur ohne Schwanz und Flügel. Die ersten Drachenblütigen besaßen Schuppen in lebhaften Schattierungen, die mit der Färbung ihrer Dracheneltern übereinstimmte. Doch Generationen der Vermischung haben ein einheitlicheres Erscheinungsbild geschaffen. Ihre kleinen, feinen Schuppen sind für gewöhnlich bronze- oder messingfarben und weisen manchmal Nuancen von Rot, Rost, Gold oder grünlichem Kupfer auf. Sie sind hoch gewachsen und stark gebaut, wobei sie bis zu 195 cm groß und über 300 Pfund schwer werden können. Ihre Füße sind kräftig, ebenso wie ihre Hände, an denen sich jeweils drei krallenbewehrte Finger und ein ebensolcher Daumen befinden.</p>
+      <p class="indent">In manchen Drachenblütigen ist das Blut einer bestimmten Drachenart besonders stark. Diese besitzen oft Schuppen, deren Tönung näher an die ihrer drakonischen Vorfahren heranreicht und die hellrot sein können, grün, blau oder weiß, glänzend schwarz oder in den Farben von funkelndem metallischem Gold, Silber, Messing, Kupfer oder Bronze.</p>
+      <h4>UNABHÄNGIGE KLANS</h4>
+      <p>Für jeden Drachenblütigen ist der Klan wichtiger als das Leben selbst. Hingabe und Respekt für den Klan stehen bei diesem Volk über allem anderen, sogar über den Göttern. Das Verhalten eines Drachenblutigen spiegelt die Ehre seines Klans wider, und diesem Schande zu bereiten, kann zur Vertreibung und zum Exil führen. Jeder Drachenblütige kennt seine Stellung und seine Pflichten innerhalb des Klans, und die Ehre verlangt die Einhaltung der damit verbundenen Grenzen.</p>
+      <p class="indent">Ein fortwährender Drang zur Selbstverbesserung ist bezeichnend für das gesamte Volk und sichert dessen Unabhängigkeit. Drachenblütige schätzen hohe Kunstfertigkeit und Perfektion in allen Bereichen. Sie verabscheuen es zu scheitern und schwingen sich selbst zu extremen Leistungen auf, ehe sie etwas aufgeben. Die Meisterschaft über eine bestimmte Fertigkeit ist das Lebensziel eines jeden Drachenblutigen. Mitglieder anderer Völker, die eine ähnliche Hingabe an den Tag legen, verdienen sich daher schnell ihren Respekt.</p>
+      <p class="indent">Auch wenn alle Drachenblütigen nach einem unabhängigen Leben trachten, wissen sie, dass sie in manchen Situationen auf Hilfe angewiesen sind. Jedoch ist die beste Quelle solcher Hilfe der Klan, der sich wiederum zuerst an einen anderen Klan der Drachenblütigen wendet, bevor er ein anderes Volk oder gar die Götter um Beistand ersucht.</p>
+      <h4>NAMEN DER DRACHENBLUTIGEN</h4>
+      <p>Drachenblütige haben einen persönlichen Namen, der ihnen bei der Geburt gegeben wird, doch nennen sie als Zeichen der Ehre ihren Klannamen zuerst. Der Jugendname oder Spitzname wird unter guten Freunden als Ausdruck der Zuneigung verwendet und könnte an ein Ereignis erinnern oder auf einem Wesenszug basieren.</p>
+      <p>
+        <span class="emphasis">Männliche Vornamen:</span>Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn<br />
+        <span class="emphasis">Weibliche Vornamen:</span>Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit<br />
+        <span class="emphasis">Jugendnamen:</span>Kletterer, Ohrenkrümmer, Hüpfer, Frommer, Schildbeißer, Eifriger<br />
+        <span class="emphasis">Klannamen:</span>Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit
+      </p>
+      <h4>MERKMALE DER DRACHENBLUTIGEN</h4>
+      <p>Deine drakonische Herkunft manifestiert sich in einer Vielzahl von Merkmalen, die du mit anderen Drachenblütigen teilst.</p>
+      <p>
+        <span class="feature">Attributswerterhöhung:</span>Dein Stärkewert wird um 2 Punkte erhöht, dein Charismawert um 1 Punkt.<br />
+        <span class="feature">Alter:</span>Junge Drachenblütige wachsen schnell heran. Bereits wenige Stunden nach dem Schlüpfen können sie aufrecht gehen, und mit drei Jahren sehen sie aus wie ein menschliches Kind mit zehn. Als Erwachsene gelten sie mit etwa 15. Sie erreichen ein Alter von bis zu 80 Jahren.<br />
+        <span class="feature">Gesinnung:</span>Drachenblütige neigen zu Extremen, wobei sie eine bewusste Entscheidung für eine der beiden Seiten des kosmischen Krieges zwischen Gut und Böse treffen (die von Bahamut und Tiamat verkörpert werden). Die meisten Drachenblütigen sind gut, doch diejenigen, welche auf der Seite von Tiamat stehen, können schreckliche Übeltäter sein.<br />
+        <span class="feature">Größe:</span>Drachenblütige sind mit ihren über 180 cm und etwa 250 Pfund weit größer und schwerer als Menschen. Deine Größenkategorie ist dennoch mittelgroß.<br />
+        <span class="feature">Bewegungsrate:</span>Deine Grundbewegungsrate beträgt 9 m.<br />
+        <span class="feature">Drakonische Abstammung:</span>Deine Vorfahren waren Drachen. Wähle eine Drachenart aus der Tabelle für drakonische Abstammung, die deine Odemwaffe und deine Schadensresistenz festlegt.<br />
+        <span class="feature">Odemwaffe:</span>Du kannst eine Aktion verwenden, um zerstörerische Energie aus deinem Maul zu entfesseln. Deine drakonische Abstammung bestimmt die Größe, die Form und die Schadensart der Odemwaffe. Wenn du diese einsetzt, muss jede Kreatur im Wirkungsbereich einen Rettungswurf ablegen, dessen Art von deiner Odemwaffe abhängt. Der SG für diesen Wurf entspricht 8 + deinem Konstitutionsmodifikator + deinem Übungsbonus. Eine Kreatur erleidet 2W6 Schaden bei einem misslungenen Rettungswurf und die Hälfte bei einem Erfolg. Der Schaden steigt auf 3W6 mit der 6. Stufe, auf 4W6 mit der 11. Stufe und auf 5W6 mit der 16. Stufe. Nachdem du deine Odemwaffe eingesetzt hast, musst du eine kurze oder lange Rast beenden, bevor du sie erneut benutzen kannt.<br />
+        <span class="feature">Schadensresistenz:</span>Du besitzt eine Resistenz gegen jene Schadensart, die mit deiner drakonischen Abstammung in Verbindung steht.<br />
+        <span class="feature">Sprachen:</span>Du kannst sowohl Drakonisch als auch die Gemeinsprache lesen, schreiben und sprechen. Drakonisch gilt als die älteste bekannte Sprache und findet oft beim Studium der Magie Anwendung. Für die meisten anderen Kreaturen klingt sie harsch, da sie zahlreiche harte Konsonanten und Silben enthält.<br />
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</set>
+      <set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
+      <set name="names" type="childhood">Kletterer, Ohrenkrümmer, Hüpfer, Frommer, Schildbeißer, Eifriger</set>
+      <set name="names" type="clan">Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit</set>
+      <set name="names-format">{{name}} {{clan}}</set>
+      <set name="height" modifier="2d8">5'6"</set>
+      <set name="weight" modifier="2d6">175 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strength" value="2"/>
+      <stat name="charisma" value="1"/>
+      <stat name="innate speed" value="9" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BREATH_WEAPON" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE" />
+    </rules>
+  </element>
+  <element name="Drakonische Abstammung" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY">
+    <description>
+      <p>Deine Vorfahren waren Drachen. Wähle eine Drachenart aus der Tabelle für drakonische Abstammung, die deine Odemwaffe und deine Schadensresistenz festlegt.</p>
+      <h5>DRAKONISCHE ABSTAMMUNG</h5>
+      <table>
+        <thead>
+          <tr><td>Drache</td><td>Schadensart</td><td>Odemwaffe</td></tr>
+        </thead>
+        <tr><td>Schwarz</td><td>Säure</td><td>1,50 m x 9 m Linie (GES-RW)</td></tr>
+        <tr><td>Blau</td><td>Blitz</td><td>1,50 m x 9 m Linie (GES-RW)</td></tr>
+        <tr><td>Messing</td><td>Feuer</td><td>1,50 m x 9 m Linie (GES-RW)</td></tr>
+        <tr><td>Bronze</td><td>Blitz</td><td>1,50 m x 9 m Linie (GES-RW)</td></tr>
+        <tr><td>Kupfer</td><td>Säure</td><td>1,50 m x 9 m Linie (GES-RW)</td></tr>
+        <tr><td>Gold</td><td>Feuer</td><td>4,50 m Kegel (GES-RW)</td></tr>
+        <tr><td>Grün</td><td>Gift</td><td>4,50 m Kegel (KON-RW)</td></tr>
+        <tr><td>Rot</td><td>Feuer</td><td>4,50 m Kegel (GES-RW)</td></tr>
+        <tr><td>Silber</td><td>Kälte</td><td>4,50 m Kegel (KON-RW)</td></tr>
+        <tr><td>Weiß</td><td>Kälte</td><td>4,50 m Kegel (KON-RW)</td></tr>
+      </table>
+    </description>
+    <sheet />
+    <rules>
+      <select type="Racial Trait" name="Drakonische Abstammung" supports="Drakonische Abstammung" />
+    </rules>
+  </element>
+  <element name="Odemwaffe" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_BREATH_WEAPON">
+    <supports />
+    <description>
+      <p>Du kannst eine Aktion verwenden, um zerstörerische Energie aus deinem Maul zu entfesseln. Deine drakonische Abstammung bestimmt die Größe, die Form und die Schadensart der Odemwaffe.</p>
+      <p>Wenn du diese einsetzt, muss jede Kreatur im Wirkungsbereich einen Rettungswurf ablegen, dessen Art von deiner Odemwaffe abhängt. Der SG für diesen Wurf entspricht 8 + deinem Konstitutionsmodifikator + deinem Übungsbonus. Eine Kreatur erleidet 2W6 Schaden bei einem misslungenen Rettungswurf und die Hälfte bei einem Erfolg. Der Schaden steigt auf 3W6 mit der 6. Stufe, auf 4W6 mit der 11. Stufe und auf 5W6 mit der 16. Stufe.</p>
+      <p>Nachdem du deine Odemwaffe eingesetzt hast, musst du eine kurze oder lange Rast beenden, bevor du sie erneut benutzen kannt.</p>
+    </description>
+    <sheet action="Aktion" usage="1/Kurze Rast">
+      <description>Entfessle zerstörerische Energie. Deine Odemwaffe verursacht {{breath-weapon:dice count}}W{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} Schaden innerhalb von {{draconic-ancestry:breath}} SG {{breath-weapon:dc}}</description>
+    </sheet>
+    <rules>
+      <stat name="breath-weapon:dc" value="8" />
+      <stat name="breath-weapon:dc" value="constitution:modifier" />
+      <stat name="breath-weapon:dc" value="proficiency" />
+      <stat name="breath-weapon:dice size" value="6" bonus="dice" />
+      <stat name="breath-weapon:dice count" value="2" level="1" />
+      <stat name="breath-weapon:dice count" value="1" level="6" />
+      <stat name="breath-weapon:dice count" value="1" level="11" />
+      <stat name="breath-weapon:dice count" value="1" level="16" />
+    </rules>
+  </element>
+  <element name="Schadensresistenz" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+    <description>
+      <p>Du hast Schadensresistenz, welche von deiner drakonischen Abstammung abhängt.</p>
+    </description>
+    <sheet>
+      <description>Du hast Schadensresistenz {{draconic-ancestry:damage type}}.</description>
+    </sheet>
+    <rules>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER" />
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE" />
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED" />
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN" />
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE" />
+	</rules>
+  </element>
+  <element name="Drakonische Abstammung (Schwarz)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
+    <supports>Drakonische Abstammung</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+    </description>
+    <sheet alt="Schwarz">
+      <description>Deine drakonische Abstammung ist {{draconic-ancestry}}. Deine Schadensart ist {{draconic-ancestry:damage type}}. Deine Odemwaffe ist {{draconic-ancestry:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="draconic-ancestry" value="Schwarz"/>
+      <stat inline="true" name="draconic-ancestry:damage type" value="Säure" />
+      <stat inline="true" name="draconic-ancestry:breath" value="1,50 m x 9 m Linie (GES-RW)" />
+    </rules>
+  </element>
+  <element name="Drakonische Abstammung (Blau)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
+    <supports>Drakonische Abstammung</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+    </description>
+    <sheet alt="Blau">
+      <description>Deine drakonische Abstammung ist {{draconic-ancestry}}. Deine Schadensart ist {{draconic-ancestry:damage type}}. Deine Odemwaffe ist {{draconic-ancestry:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="draconic-ancestry" value="Blau"/>
+      <stat inline="true" name="draconic-ancestry:damage type" value="Blitz" />
+      <stat inline="true" name="draconic-ancestry:breath" value="1,50 m x 9 m Linie (GES-RW)" />
+    </rules>
+  </element>
+  <element name="Drakonische Abstammung (Messing)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
+    <supports>Drakonische Abstammung</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+    </description>
+    <sheet alt="Messing">
+      <description>Deine drakonische Abstammung ist {{draconic-ancestry}}. Deine Schadensart ist {{draconic-ancestry:damage type}}. Deine Odemwaffe ist {{draconic-ancestry:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="draconic-ancestry" value="Messing"/>
+      <stat inline="true" name="draconic-ancestry:damage type" value="Feuer" />
+      <stat inline="true" name="draconic-ancestry:breath" value="1,50 m x 9 m Linie (GES-RW)" />
+    </rules>
+  </element>
+  <element name="Drakonische Abstammung (Bronze)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
+    <supports>Drakonische Abstammung</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+    </description>
+    <sheet alt="Bronze">
+      <description>Deine drakonische Abstammung ist {{draconic-ancestry}}. Deine Schadensart ist {{draconic-ancestry:damage type}}. Deine Odemwaffe ist {{draconic-ancestry:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="draconic-ancestry" value="Bronze"/>
+      <stat inline="true" name="draconic-ancestry:damage type" value="Blitz" />
+      <stat inline="true" name="draconic-ancestry:breath" value="1,50 m x 9 m Linie (GES-RW)" />
+    </rules>
+  </element>
+  <element name="Drakonische Abstammung (Kupfer)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
+    <supports>Drakonische Abstammung</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+    </description>
+    <sheet alt="Kupfer">
+      <description>Deine drakonische Abstammung ist {{draconic-ancestry}}. Deine Schadensart ist {{draconic-ancestry:damage type}}. Deine Odemwaffe ist {{draconic-ancestry:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="draconic-ancestry" value="Kupfer"/>
+      <stat inline="true" name="draconic-ancestry:damage type" value="Säure" />
+      <stat inline="true" name="draconic-ancestry:breath" value="1,50 m x 9 m Linie (GES-RW)" />
+    </rules>
+  </element>
+  <element name="Drakonische Abstammung (Gold)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
+    <supports>Drakonische Abstammung</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+    </description>
+    <sheet alt="Gold">
+      <description>Deine drakonische Abstammung ist {{draconic-ancestry}}. Deine Schadensart ist {{draconic-ancestry:damage type}}. Deine Odemwaffe ist {{draconic-ancestry:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="draconic-ancestry" value="Gold"/>
+      <stat inline="true" name="draconic-ancestry:damage type" value="Feuer" />
+      <stat inline="true" name="draconic-ancestry:breath" value="4,50 m Kegel (GES-RW)" />
+    </rules>
+  </element>
+  <element name="Drakonische Abstammung (Grün)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
+    <supports>Drakonische Abstammung</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+    </description>
+    <sheet alt="Grün">
+      <description>Deine drakonische Abstammung ist {{draconic-ancestry}}. Deine Schadensart ist {{draconic-ancestry:damage type}}. Deine Odemwaffe ist {{draconic-ancestry:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="draconic-ancestry" value="Grün"/>
+      <stat inline="true" name="draconic-ancestry:damage type" value="Gift" />
+      <stat inline="true" name="draconic-ancestry:breath" value="4,50 m Kegel (GES-RW)" />
+    </rules>
+  </element>
+  <element name="Drakonische Abstammung (Rot)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
+    <supports>Drakonische Abstammung</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+    </description>
+    <sheet alt="´Rot">
+      <description>Deine drakonische Abstammung ist {{draconic-ancestry}}. Deine Schadensart ist {{draconic-ancestry:damage type}}. Deine Odemwaffe ist {{draconic-ancestry:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="draconic-ancestry" value="Rot"/>
+      <stat inline="true" name="draconic-ancestry:damage type" value="Feuer" />
+      <stat inline="true" name="draconic-ancestry:breath" value="4,50 m Kegel (GES-RW)" />
+    </rules>
+  </element>
+  <element name="Drakonische Abstammung (Silber)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
+    <supports>Drakonische Abstammung</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+    </description>
+    <sheet alt="Silber">
+      <description>Deine drakonische Abstammung ist {{draconic-ancestry}}. Deine Schadensart ist {{draconic-ancestry:damage type}}. Deine Odemwaffe ist {{draconic-ancestry:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="draconic-ancestry" value="Silber"/>
+      <stat inline="true" name="draconic-ancestry:damage type" value="Kälte" />
+      <stat inline="true" name="draconic-ancestry:breath" value="4,50 m Kegel (GES-RW)" />
+    </rules>
+  </element>
+  <element name="Drakonische Abstammung (Weiß)" type="Racial Trait" source="Spielerhandbuch" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
+    <supports>Drakonische Abstammung</supports>
+    <description>
+      <div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+    </description>
+    <sheet alt="Weiß">
+      <description>Deine drakonische Abstammung ist {{draconic-ancestry}}. Deine Schadensart ist {{draconic-ancestry:damage type}}. Deine Odemwaffe ist {{draconic-ancestry:breath}}.</description>
+    </sheet>
+    <rules>
+      <stat inline="true" name="draconic-ancestry" value="Weiß"/>
+      <stat inline="true" name="draconic-ancestry:damage type" value="Kälte" />
+      <stat inline="true" name="draconic-ancestry:breath" value="4,50 m Kegel (GES-RW)" />
+    </rules>
+  </element>
+</elements>

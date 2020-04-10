@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Tempeldiener</name>
+		<description>Der Hintergrund Tempeldiener aus dem Spielerhandbuch</description>
+		<author url="https://ulisses-spiele.de/dungeons-berarbeitete-auflage-3/">Ulisses Spiele</author>
+		<update version="0.0.5">
+			<file name="hintergrund-tempeldiener.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/grundregeln/spielerhandbuch/hintergruende/hintergrund-tempeldiener.xml" />
+		</update>
+	</info>
+
+	<element name="Tempeldiener" type="Background" source="Spielerhandbuch" id="ID_BACKGROUND_ACOLYTE">
+		<description>
+			<p>Du hast dein Leben im Dienste eines Tempels einer bestimmten Gottheit oder eines Pantheons von Göttern verbracht. Als Mittler zwischen dem Reich des Heiligen und der sterblichen Welt führst du Rituale aus und bringst Opfer dar, um Gläubige mit der Präsenz des Göttlichen zu verbinden. Du bist nicht zwangsläufig ein Kleriker, heilige Rituale abzuhalten ist nicht das Gleiche wie das Fokussieren göttlicher Macht.</p>
+			<p class="indent">Wähle eine Gottheit, ein Pantheon von Göttern oder eine andere fast göttliche Wesenheit aus jenen, die in Anhang B „Götter des Multiversums" aufgeführt sind oder die dein SL dir für die Kampagne vorgibt. Arbeite gemeinsam mit ihm die Art und Weise deines religiösen Dienstes aus. Warst du ein unbedeutender Tempeldiener, der seit seiner frühesten Kindheit von Priestern ausgebildet wurde, um sie bei ihren Ritualen zu unterstützen? Oder warst du ein Hohepriester, der plötzlich den Ruf erhielt, seinem Gott auf andere Art zu dienen? Vielleicht hast du auch einen kleinen Kult außerhalb der eingesessenen Tempelstrukturen angeführt oder sogar eine okkulte Gruppe, die einen teuflischen Meister verehrte, was du jetzt verleugnest.</p>
+			<ul class="unstyled">
+				<li><strong>Geübt in folgenden Fertigkeiten:</strong> Motiv erkennen, Religion</li>
+				<li><strong>Sprachen:</strong> zwei nach Wahl</li>
+				<li><strong>Ausrüstung:</strong> ein heiliges Symbol (ein Geschenk von damals, als du der Priesterschaft beigetreten bist), ein Gebetsbuch oder eine Gebetsmühle, 5 Räucherstäbchen, ein Satz gewöhnlicher Kleidung, eine Robe, eine Börse mit 15 GM</li>
+			</ul>
+			<div element="ID_BACKGROUND_FEATURE_SHELTER_OF_THE_FAITHFUL" />
+			<h5>EMPFOHLENE CHARAKTERISTIKA</h5>
+			<p>Tempeldiener werden durch ihr Leben in einer religiösen Gemeinschaft geprägt. Sowohl ihre Studien der Geschichte und der Lehre ihres Glaubens als auch die Beziehungen innerhalb von Tempeln und Schreinen sowie deren Hierarchie beeinflussen ihre Verhaltensweisen und Moralvorstellungen. Ihr Makel könnte ein verborgener ketzerischer Gedanke sein oder ein geheucheltes Glaubensbekenntnis, ein Ideal oder eine Bindung, die ins Extrem getrieben wurde.</p>
+		</description>
+		<setters>
+			<set name="short">Motiv erkennen, Religion, 2 Sprachen</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+			<select type="Language" name="Sprache (Tempeldiener)" number="2" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_SHELTER_OF_THE_FAITHFUL" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">Ich habe einen bestimmten Helden meines Glaubens zum Vorbild und beziehe mich ständig auf die Taten und Beispiele dieser Person.</item>
+				<item id="2">Ich bin in der Lage, selbst mit dem erbittertsten Feind eine gemeinsame Basis zu finden, mich in ihn einzufühlen. Stetig arbeite ich daran, Frieden zu verbreiten.</item>
+				<item id="3">Ich sehe in jedem Ereignis und jeder Handlung ein Vorzeichen. Die Götter sprechen zu uns, wir müssen nur zuhören.</item>
+				<item id="4">Nichts kann meine optimistische Einstellung erschüttern.</item>
+				<item id="5">In fast jeder Lebenslage zitiere ich (oder verdrehe) heilige Texte und Sprichworte.</item>
+				<item id="6">Ich bin tolerant (oder intolerant) gegenüber anderen Glaubensrichtungen und respektiere (oder verdamme) die Anbetung anderer Götter.</item>
+				<item id="7">Ich war es gewohnt, feine Speisen und Getränke in den gehobenen Kreisen der Priesterschaft zu genießen. Das raue Leben ertrage ich nur schwerlich.</item>
+				<item id="8">Ich habe so viel Zeit im Tempel verbracht, dass ich kaum Erfahrungen im Umgang mit der übrigen Welt besitze.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Tradition. Die uralten Traditionen der Verehrung und der Opfergaben müssen bewahrt und aufrechterhalten werden. (rechtschaffen)</item>
+				<item id="2">Wohltätigkeit. Ich versuche immer, den Bedürftigen zu helfen, gleichgültig was es mich kostet. (gut)</item>
+				<item id="3">Wandel. Wir müssen dazu beitragen, jene Veränderungen zu verwirklichen, die von den Göttern eingeleitet werden. (chaotisch)</item>
+				<item id="4">Macht. Ich hoffe, eines Tages an der Spitze meiner Glaubensgemeinschaft und deren Hierarchie zu stehen. (rechtschaffen)</item>
+				<item id="5">Glaube. Ich vertraue darauf, dass meine Gottheit meine Taten lenkt. Ich glaube, dass alles gut werden wird, wenn ich hart arbeite. (rechtschaffen)</item>
+				<item id="6">Ehrgeiz. Ich strebe danach, mich der Gunst meines Gottes als würdig zu erweisen, und richte mich in meinem Handeln nach dessen Lehren. (jede)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">Ich würde mein Leben geben, um ein antikes Relikt meines Glaubens wiederzubeschaffen, das vor langer Zeit verloren ging.</item>
+				<item id="2">Eines Tages werde ich mich an der korrupten Tempelhierarchie rächen, die mich als Ketzer brandmarkte.</item>
+				<item id="3">Ich verdanke mein Leben einem Priester, der mich aufnahm, nachdem meine Eltern gestorben waren.</item>
+				<item id="4">Jede meiner Handlungen soll dem gemeinen Volk nutzen.</item>
+				<item id="5">Ich würde alles tun, um den Tempel zu beschützen, dem ich gedient habe.</item>
+				<item id="6">Ich trachte danach, einen heiligen Text zu bewahren, den meine Feinde als ketzerisch ansehen und zerstören wollen.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">Ich urteile streng über andere und noch strenger über mich selbst.</item>
+				<item id="2">Ich setze zu großes Vertrauen in die Machthaber innerhalb der Hierarchie meines Tempels.</item>
+				<item id="3">Mein Mitgefühl lässt mich manchmal denen, die sich zum Glauben an meinen Gott bekennen, blind vertrauen.</item>
+				<item id="4">Ich bin in meinem Denken engstirnig und unaufgeschlossen.</item>
+				<item id="5">Fremden gegenüber bin ich äußerst misstrauisch und erwarte nur das Schlimmste von ihnen.</item>
+				<item id="6">Wenn ich mir einmal ein Ziel setze, werde ich davon wie besessen, was mein übriges Leben völlig in den Hintergrund rücken lässt.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Merkmal: Zufluchtsort der Gläubigen" type="Background Feature" source="Spielerhandbuch" id="ID_BACKGROUND_FEATURE_SHELTER_OF_THE_FAITHFUL">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Als Tempeldiener bist du in der Lage, die Zeremonien deiner Gottheit auszuführen, und dir gebührt der Respekt derer, die deinen Glauben teilen. Du und deine Abenteurergefährten können an jedem Tempel, Schrein oder einer anderen Stätte deines Glaubens kostenlose Heilung und Fürsorge erhalten, auch wenn ihr die Komponenten, die für Zauber benötigt werden, selbst bereitstellen müsst. Jene, die deine Religion ausüben, werden dir zu einem einfachen Lebensstil verhelfen (und nur dir), wenn du kein Auskommen haben solltest.</p>
+			<p class="indent">Du könntest außerdem Verbindungen zu einem bestimmten Tempel pflegen, der deiner Gottheit oder deinem Pantheon geweiht ist. Vielleicht unterhältst du dort auch einen Wohnsitz. Dies könnte ein Tempel sein, in dem du einst dientest, falls du dich im Guten getrennt hast, oder ein Tempel, in dem du ein neues Zuhause fandest. Solange du in der Nähe deines Tempels bist, kannst du die Priester rufen, um dich zu unterstützen, gesetzt den Fall, dass die Hilfe, die du erbittest, sie nicht in Gefahr bringt und du in einem guten Verhältnis zu deinem Tempel stehst.</p>
+		</description>
+		<sheet alt="Zufluchtsort der Gläubigen" />
+	</element>
+</elements>
