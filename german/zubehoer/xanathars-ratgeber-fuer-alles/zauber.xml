@@ -12,8 +12,8 @@
     <element name="Abi-Dalzims schreckliches Welken" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ABI_DALZIMS_HORRID_WILTING">
         <supports>Sorcerer, Wizard</supports>
         <description>
-            <p>You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.</p>
-            <p class="indent">Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly.</p>
+            <p>Du entziehst allen Kreaturen in einem Würfel mit 9 m Kanten­länge, zentriert auf einen Punkt deiner Wahl innerhalb der Reichweite, die Feuchtigkeit. Jede Kreatur in diesem Bereich muss einen Konstitutionsrettungswurf durchführen. Konstrukte und Untote sind davon nicht betroffen, und Pflanzen sowie Wasserelementare müssen diesen Rettungswurf mit Nachteil durchführen. Bei einem Fehlschlag erleidet eine Kreatur 12W8 nekrotischen Schaden, die Hälfte davon bei einem Erfolg.</p>
+            <p class="indent">Nicht-magische Pflanzen im Bereich, die keine Kreaturen sind, etwa Bäume und Büsche, verwelken und sterben sofort.</p>
         </description>
         <setters>
             <set name="keywords">necrotic</set>
@@ -33,8 +33,8 @@
     <element name="Aganazzars Versenger" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_AGANAZZARS_SCORCHER">
         <supports>Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
         <description>
-            <p>A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.</p>
-            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>
+            <p>Eine brüllende Stichflamme von 9 m Länge und 1,50 m Breite entspringt in gerader Linie aus dir in eine Richtung deiner Wahl. Jede Kreatur auf dieser Linie muss einen Geschicklichkeitsret­tungswurf durchführen. Bei einem Fehlschlag erleidet eine Kreatur 3W8 Feuerschaden, die Hälfte davon bei einem Erfolg.</p>
+            <p class="indent"><b><i>Aufhöheren Graden:</i></b> Wenn du diesen Zauber mit einem Zau­berplatz des 3. Grades oder höher wirkst, erhöht sich der Scha­den um 1W8 für jeden Zauberplatz-Grad über dem zweiten.</p>
         </description>
         <setters>
             <set name="keywords">fire</set>
@@ -46,12 +46,74 @@
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">true</set>
-            <set name="materialComponent">a red dragon's scale</set>
+            <set name="materialComponent">die Schuppe eines roten Drachen</set>
             <set name="isConcentration">false</set>
             <set name="isRitual">false</set>
         </setters>
     </element>
-
+    <element name="Angst verursachen" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_CAUSE_FEAR">
+        <supports>Warlock, Wizard</supports>
+        <description>
+            <p>Du erweckst die Angst vor der Vergänglichkeit bei einer Kreatur, die du innerhalb der Reichweite sehen kannst. Ein Konstrukt oder ein Untoter ist diesem Effekt gegenüber immun. Das Ziel muss einen erfolgreichen Weisheitsrettungswurf ablegen oder wird bis zum Ende des Zaubers von dir verängstigt. Das verängstigte Ziel kann den Rettungswurf am Ende jedes seiner Züge wie­derholen und den Effekt bei sich selbst mit einem Erfolg beenden.</p>
+            <p class="indent"><b><i>Aufhöheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 2. Grades oder höher wirkst, kannst du für jeden Zauberplatz-Grad über dem ersten eine zusätzliche Krea­tur als Ziel wählen. Die Kreaturen müssen innerhalb von 9 m voneinander sein, wenn du sie als Ziel wählst.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 Aktion</set>
+            <set name="duration">Konzentration, bis zu 1 Minute</set>
+            <set name="range">18 m / 12 Felder</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Ätzkugel" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_VITRIOLIC_SPHERE">
+        <supports>Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
+        <description>
+            <p>Du deutest auf einen Ort innerhalb der Reichweite, und ein glühender Ball aus smaragdgrüner Säure von 30 cm Durch­messer rast dorthin und explodiert in einer Kugel von 6 m Radius. Jede Kreatur in diesem Gebiet muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Fehlschlag erleidet eineKreatur 10W4 Säureschaden und weitere 5W4 Säureschaden am Ende ihres nächsten Zuges. Bei einem Erfolg nimmt die Kreatur nur die Hälfte des ursprünglichen Schadens und keinen weiteren Schaden am Ende ihres nächsten Zuges.</p>
+            <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 5. Grades oder höher wirkst, so wird der ursprüngliche Schaden um 2W4 für jeden Zauberplatz-Grad über dem vierten erhöht.</p>
+        </description>
+        <setters>
+            <set name="keywords">acid</set>
+            <set name="level">4</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 Aktion</set>
+            <set name="duration">Unmittelbar</set>
+            <set name="range">45 m / 30 Felder</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">ein Tropfen Riesenschnecken-Galle</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Ausbrechene Erde" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ERUPTING_EARTH">
+        <supports>Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>Wähle einen Punkt am Boden aus, den du innerhalb der Reich­weite sehen kannst. Eine Fontäne aufgewühlter Erde und Gesteins bricht in einem Würfel von 6 m Kantenlänge hervor, der auf diesen Punkt zentriert ist. Jede Kreatur in diesem Bereich muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Fehlschlag nimmt eine Kreatur 3W12 Wuchtschaden, die Hälfte davon bei einem erfolgreichen Wurf. Zusätzlich wird der Boden in diesem Bereich zu schwierigem Gelände, bis er geräumt wird. Jedes Quadrat mit 1,50 m Kantenlänge des Bereichs erfordert mindestens 1 Minute der Räumung per Hand.</p>
+            <p class="indent"><b><i>Auf höheren Graden: </i></b> Wenn du diesen Zauber mit einem Zauberplatz des 4. Grades oder höher wirkst, erhöht sich der Schaden um 1W12 für jeden Zauberplatz-Grad über dem dritten.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 Aktion</set>
+            <set name="duration">Unmittelbar</set>
+            <set name="range">36 m / 24 Felder</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">ein Stück Obsidian</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 
 
 
@@ -162,27 +224,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Cause Fear" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_CAUSE_FEAR">
-        <supports>Warlock, Wizard</supports>
-        <description>
-            <p>You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
-            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>
-        </description>
-        <setters>
-            <set name="keywords"></set>
-            <set name="level">1</set>
-            <set name="school">Necromancy</set>
-            <set name="time">1 Aktion</set>
-            <set name="duration">Concentration, up to 1 minute</set>
-            <set name="range">60 feet</set>
-            <set name="hasVerbalComponent">true</set>
-            <set name="hasSomaticComponent">false</set>
-            <set name="hasMaterialComponent">false</set>
-            <set name="materialComponent"></set>
-            <set name="isConcentration">true</set>
-            <set name="isRitual">false</set>
-        </setters>
-    </element>
+
     <element name="Ceremony" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_CEREMONY">
         <supports>Cleric, Paladin</supports>
         <description>
@@ -607,27 +649,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Erupting Earth" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ERUPTING_EARTH">
-        <supports>Druid, Sorcerer, Wizard</supports>
-        <description>
-            <p>Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes 3d12 bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared away. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.</p>
-            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d12 for each slot level above 3rd.</p>
-        </description>
-        <setters>
-            <set name="keywords"></set>
-            <set name="level">3</set>
-            <set name="school">Transmutation</set>
-            <set name="time">1 Aktion</set>
-            <set name="duration">Unmittelbar</set>
-            <set name="range">120 feet</set>
-            <set name="hasVerbalComponent">true</set>
-            <set name="hasSomaticComponent">true</set>
-            <set name="hasMaterialComponent">true</set>
-            <set name="materialComponent">a piece of obsidian</set>
-            <set name="isConcentration">false</set>
-            <set name="isRitual">false</set>
-        </setters>
-    </element>
+
     <element name="Far Step" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_FAR_STEP">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -1947,27 +1969,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Vitriolic Sphere" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_VITRIOLIC_SPHERE">
-        <supports>Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
-        <description>
-            <p>You point at a location within range, and a glowing 1-foot ball of emerald acid streaks there and explodes in a 20-foot radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 10d4 acid damage and another 5d4 acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn.</p>
-            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th.</p>
-        </description>
-        <setters>
-            <set name="keywords">acid</set>
-            <set name="level">4</set>
-            <set name="school">Evocation</set>
-            <set name="time">1 Aktion</set>
-            <set name="duration">Unmittelbar</set>
-            <set name="range">150 feet</set>
-            <set name="hasVerbalComponent">true</set>
-            <set name="hasSomaticComponent">true</set>
-            <set name="hasMaterialComponent">true</set>
-            <set name="materialComponent">a drop of giant slug bile</set>
-            <set name="isConcentration">false</set>
-            <set name="isRitual">false</set>
-        </setters>
-    </element>
+
     <element name="Wall of Light" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_WALL_OF_LIGHT">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
