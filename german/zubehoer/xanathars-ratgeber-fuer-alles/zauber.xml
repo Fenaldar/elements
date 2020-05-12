@@ -4,7 +4,7 @@
     <name>Zauber</name>
     <description>Die Zauber aus Xanathars Ratgeber für Alles</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="zauber.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/zubehoer/xanathars-ratgeber-fuer-alles/zauber.xml" />
     </update>
   </info>
@@ -75,7 +75,7 @@
   <element name="Ätzkugel" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_VITRIOLIC_SPHERE">
     <supports>Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
     <description>
-      <p>Du deutest auf einen Ort innerhalb der Reichweite, und ein glühender Ball aus smaragdgrüner Säure von 30 cm Durchmesser rast dorthin und explodiert in einer Kugel von 6 m Radius. Jede Kreatur in diesem Gebiet muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Fehlschlag erleidet eineKreatur 10W4 Säureschaden und weitere 5W4 Säureschaden am Ende ihres nächsten Zuges. Bei einem Erfolg nimmt die Kreatur nur die Hälfte des ursprünglichen Schadens und keinen weiteren Schaden am Ende ihres nächsten Zuges.</p>
+      <p>Du deutest auf einen Ort innerhalb der Reichweite, und ein glühender Ball aus smaragdgrüner Säure von 30 cm Durchmesser rast dorthin und explodiert in einer Kugel von 6 m Radius. Jede Kreatur in diesem Gebiet muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Fehlschlag erleidet eine Kreatur 10W4 Säureschaden und weitere 5W4 Säureschaden am Ende ihres nächsten Zuges. Bei einem Erfolg nimmt die Kreatur nur die Hälfte des ursprünglichen Schadens und keinen weiteren Schaden am Ende ihres nächsten Zuges.</p>
       <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 5. Grades oder höher wirkst, so wird der ursprüngliche Schaden um 2W4 für jeden Zauberplatz-Grad über dem vierten erhöht.</p>
     </description>
     <setters>
