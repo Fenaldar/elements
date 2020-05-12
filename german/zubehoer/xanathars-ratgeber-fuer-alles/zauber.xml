@@ -610,8 +610,8 @@
     <supports>Bard, Sorcerer, Wizard, Artificer</supports>
     <description>
       <p>Wähle einen Bereich nichtmagischer Flammen, die du inner halb der Reichweite sehen kannst und die in einen Würfel mit 1,50 m Kantenlänge passen. Du kannst die Flammen in diesem Bereich löschen, und erzeugst entweder Feuerwerk oder Rauch, wenn du das tust.</p>
-      <p class="indent"><b><i>Feuerwerk:</b></i> Das Ziel explodiert in einem grellen Farbenrausch. Jede Kreatur innerhalb von 3 m des Ziels muss erfolgreich einen Konstitutionsrettungswurf ablegen oder wird bis zum Ende seines nächsten Zuges blind.</p>
-      <p class="indent"><b><i>Rauch:</b></i> Dichter, schwarzer Rauch breitet sich vom Ziel in einem Radius von 6 m aus und bewegt sich auch um Ecken. Das verrauchte Gebiet ist komplett verschleiert. Der Rauch bleibt für 1 Minute oder bis ein starker Wind ihn verweht.</p>
+      <p class="indent"><b><i>Feuerwerk:</i></b> Das Ziel explodiert in einem grellen Farbenrausch. Jede Kreatur innerhalb von 3 m des Ziels muss erfolgreich einen Konstitutionsrettungswurf ablegen oder wird bis zum Ende seines nächsten Zuges blind.</p>
+      <p class="indent"><b><i>Rauch:</i></b> Dichter, schwarzer Rauch breitet sich vom Ziel in einem Radius von 6 m aus und bewegt sich auch um Ecken. Das verrauchte Gebiet ist komplett verschleiert. Der Rauch bleibt für 1 Minute oder bis ein starker Wind ihn verweht.</p>
     </description>
     <setters>
       <set name="keywords">fire</set>
