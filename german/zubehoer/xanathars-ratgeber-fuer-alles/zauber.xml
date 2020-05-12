@@ -347,24 +347,59 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-
-
-
-
-
-
-
-  <element name="Absorb Elements" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ABSORB_ELEMENTS">
+  <element name="Eismesser" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ICE_KNIFE">
+    <supports>Druid, Sorcerer, Wizard</supports>
+    <description>
+      <p>Du erzeugst eine Scherbe aus Eis und schleuderst sie auf eine Kreatur innerhalb der Reichweite. Führe einen Fernkampf-Zauberangriff gegen das Ziel durch. Bei einem Treffer erleidet das Ziel 1W10 Stichschaden. Egal ob Treffer oder nicht, die Scherbe explodiert anschließend. Das Ziel und jede Kreatur innerhalb von 1,50 m von ihr muss erfolgreich einen Geschicklichkeitsrettungswurf ablegen oder 2W6 Kältescha den erleiden.</p>
+      <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 2. Grades oder höher wirkst, erhöht sich der Kälteschaden um 1W6 für jeden Zauberplatz-Grad über dem ersten.</p>
+    </description>
+    <setters>
+      <set name="keywords">cold</set>
+      <set name="level">1</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Unmittelbar</set>
+      <set name="range">18 m / 12 Felder</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">ein Tropfen Wasser oder ein Stück Eis</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Elementarverderben" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ELEMENTAL_BANE">
+    <supports>Druid, Warlock, Wizard, Artificer</supports>
+    <description>
+      <p>Wähle eine Kreatur, die du innerhalb der Reichweite sehen kannst, und wähle eine der folgenden Schadensarten: Säure, Kälte, Feuer, Blitz oder Schall. Das Ziel muss erfolgreich einen Konstitutionsrettungswurf ablegen oder wird für die Wirkungsdauer des Zaubers von ihm betroffen. Wenn das Ziel während eines Zuges zum ersten Mal Schaden der ausgewählten Art erleidet, so erleidet es 2W6 zusätzlichen Schaden dieser Art. Zudem verliert das Ziel jede Resistenz gegen diese Schadensart, bis der Zauber endet.</p>
+      <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 5. Grades oder höher verwendest, kannst du für jeden Zauberplatz-Grad über dem vierten eine zusätzliche Kreatur als Ziel wählen. Die Kreaturen müssen innerhalb von 9 m voneinander sein, wenn du sie als Ziel wählst.</p>
+    </description>
+    <setters>
+      <set name="keywords">acid,cold,fire,lightning,thunder</set>
+      <set name="level">4</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 1 Minute</set>
+      <set name="range">27 m / 18 Felder</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Elemente absorbieren" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ABSORB_ELEMENTS">
     <supports>Druid, Ranger, Sorcerer, Wizard, Fighter (Eldritch Knight), Artificer</supports>
     <description>
-      <p>The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.</p>
-      <p class="indent"><b><i>Auf höheren Graden:</i></b>When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.</p>
+      <p>Der Zauber fängt etwas von der ankommenden Energie ein, verringert ihren Effekt und bewahrt sie für deinen nächsten Nahkampfangriff auf. Du hast Resistenz gegen die auslösende Schadensart bis zum Beginn deines nächsten Zuges. Das erste Mal, dass du in deinem nächsten Zug mit einem Nahkampf angriff triffst, nimmt das Ziel dieses Angriffs zusätzliche 1W6 Schaden des auslösenden Typs. Danach endet der Zauber.</p>
+      <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 2. Grades oder höher wirkst, erhöht sich der zusätzliche Schaden um 1W6 für jeden Zauberplatz-Grad über dem ersten.</p>
     </description>
     <setters>
       <set name="keywords"></set>
       <set name="level">1</set>
       <set name="school">Abjuration</set>
-      <set name="time">1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage</set>
+      <set name="time">1 Reaktion, die du nutzt, wenn du Säure-, Kälte-, Feuer-, Blitz- oder Schallschaden erleidest.</set>
       <set name="duration">1 Runde</set>
       <set name="range">Selbst</set>
       <set name="hasVerbalComponent">false</set>
@@ -375,33 +410,632 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Beast Bond" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_BEAST_BOND">
-    <supports>Druid, Ranger</supports>
+  <element name="Entkräftung" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ENERVATION">
+    <supports>Sorcerer, Warlock, Wizard</supports>
     <description>
-      <p>You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast's Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see.</p>
+      <p>Ein Tentakel aus tintenschwarzer Dunkelheit streckt sich von dir aus und berührt eine Kreatur, die du innerhalb der Reichweite sehen kannst, um Lebenskraft von ihr zu stehlen. Das Ziel muss einen Geschicklichkeitsrettungswurf durchführen. Bei einem Erfolg nimmt das Ziel 2W8 nekrotischen Schaden und der Zauber endet. Bei einem Fehlschlag nimmt das Ziel 4W8 nekrotischen Schaden, und bis zum Ende des Zaubers kannst du deine Aktion in jedem deiner Züge verwenden, um automatisch 4W8 nekrotischen Schaden beim Ziel zu verursachen. Der Zauber endet, wenn du deine Aktion verwendest, um irgendetwas anderes zu tun, wenn das Ziel jemals außer Reichweite des Zaubers gerät oder wenn das Ziel dir gegen über in vollständiger Deckung ist.</p>
+      <p class="indent">Immer wenn der Zauber einem Ziel Schaden zufügt, erhältst du Trefferpunkte in Höhe der Hälfte der Menge des nekrotischen Schadens, welchen das Ziel erleidet.</p>
+      <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 6. Grades oder höher verwendest, erhöht sich der Schaden um 1W8 für jeden Zauberplatz-Grad über dem fünften.</p>
     </description>
     <setters>
-      <set name="keywords">companion</set>
-      <set name="level">1</set>
-      <set name="school">Divination</set>
+      <set name="keywords">necrotic</set>
+      <set name="level">5</set>
+      <set name="school">Necromancy</set>
       <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
-      <set name="range">Berührung</set>
+      <set name="duration">Konzentration, bis zu 1 Minute</set>
+      <set name="range">18 m / 12 Felder</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a bit of fur wrapped in a cloth</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
       <set name="isConcentration">true</set>
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Bones of the Earth" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_BONES_OF_THE_EARTH">
+  <element name="Erdbindung" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_EARTHBIND">
+    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>Wähle eine Kreatur, die du innerhalb der Reichweite sehen kannst. Gelbe Streifen magischer Energie kreisen um die Kreatur. Das Ziel muss einen Stärkerettungswurf ablegen oder erleidet für die Wirkungsdauer des Zaubers eine Verringerung ihrer Flugbewegungsrate (sofern vorhanden) auf 0 m. Eine sich in der Luft befindliche Kreatur, die durch den Zauber betroffen ist, sinkt mit 18 m pro Runde hinab, bis sie den Boden erreicht oder der Zauber endet.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 1 Minute</set>
+      <set name="range">90 m / 60 Felder</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent">V</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Erde formen" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_MOLD_EARTH">
+    <supports>Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)</supports>
+    <description>
+      <p>Du wählst einen Abschnitt Erde oder Gesteins aus, den du innerhalb der Reichweite sehen kannst und der in einen Würfel mit 1,50 m Kantenlänge passt. Du manipulierst ihn auf eine der folgenden Weisen:</p>
+      <ul>
+        <li>Wenn du ein Gebiet lockerer Erde als Ziel wählst, kannst du diese sofort ausheben, am Boden herumbewegen und bis zu 1,50 m entfernt wieder abladen. Diese Bewegung geht nicht mit genug Kraft einher, um Schaden zu verursachen.</li>
+        <li>Du verursachst das Erscheinen von Formen, Farben oder beidem auf der Erde oder dem Gestein. Die Formen bilden Worte, erzeugen Bilder oder formen Muster. Die Veränderungen bleiben für eine Stunde.</li>
+        <li>Wenn die Erde oder das Gestein, das du als Ziel wählst, sich auf dem Boden befinden, so kannst du es zu schwierigem Gelände werden lassen. Alternativ kannst du den Boden zu normalem Gelände werden lassen, wenn es vorher schon schwierig war. Die Veränderung hält 1 Stunde an.</li>
+      </ul>
+      <p class="indent">Wenn du diesen Zauber mehrfach wirkst, kannst du nicht mehr als zwei seiner nicht sofort wirkenden Effekte gleichzeitig aktiviert haben. Du kannst einen solchen Effekt als eine Aktion aufgeben.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Unmittelbar oder 1 Stunde (siehe unten)</set>
+      <set name="range">9 m / 6 Felder</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Erdrütteln" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_EARTH_TREMOR">
+    <supports>Bard, Druid, Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
+    <description>
+      <p>Du verursachst innerhalb der Reichweite ein Rütteln in der Erde. Jede Kreatur mit Ausnahme von dir muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Fehlschlag erleidet die Kreatur 1W6 Wuchtschaden und wird zu Boden geschleudert. Wenn der Untergrund in jenem Bereich lockere Erde oder Gestein ist, so wird er zu schwierigem Gelände, bis er geräumt wird. Jedes Quadrat von 1,50 m Durchmesser erfordert mindestens 1 Minute der Räumung per Hand.</p>
+      <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 2. Grades oder höher verwendest, erhöht sich der Schaden um 1W6 für jeden Zauberplatz-Grad über dem ersten.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Unmittelbar</set>
+      <set name="range">3 m / 2 Felder</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Erfrierung" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_FROSTBITE">
+    <supports>Druid, Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)</supports>
+    <description>
+      <p>Du rufst an einer Kreatur, welche du in der Reichweite sehen kannst, einen betäubenden Frost hervor. Das Ziel muss einen Konstitutionsrettungswurf ablegen. Bei einem Fehlschlag erleidet es 1W6 Kälteschaden und hat Nachteil bei seinem nächsten Waffenangriffswurf, den es vor dem Ende seines nächsten Zuges ablegt.</p>
+      <p class="indent">Der Schaden des Zaubers erhöht sich u m 1W6, wenn du die 5. Stufe (2W6), die 11. Stufe (3W6) u nd die 17. Stufe (4W6) erreichst.</p>
+    </description>
+    <setters>
+      <set name="keywords">cold</set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Unmittelbar</set>
+      <set name="range">18 m / 12 Felder</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Fangschlinge" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_SNARE">
+    <supports>Druid, Ranger, Wizard, Artificer</supports>
+    <description>
+      <p>Wenn du diesen Zauber wirkst nutzt du das Seil, um einen Kreis mit 1,50 m Radius zu schaffen, welcher auf dem Grund oder dem Boden liegt. Bei Abschluss des Wirkens des Zaubers verschwindet das Seil, und der Kreis wird zu einer magischen Falle.</p>
+      <p class="indent">Diese Falle ist beinahe unsichtbar, und es ist ein erfolgreicher Wurf auf Intelligenz (Nachforschungen) gegen deinen Zauberrettungswurf-SC nötig, um sie zu erkennen.</p>
+      <p class="indent">Die Falle löst aus, wenn eine kleine, mittelgroße oder große Kreatur sich auf den Untergrund oder den Boden im Bereich der Falle bewegt. Diese Kreatur muss einen erfolgreichen Geschicklichkeitsrettungswurf ablegen oder wird auf magische Weise in die Luft gehoben, wo sie dann kopfüber 1 m über dem Boden hängt. Die Kreatur ist bis zum Ende des Zaubers festgesetzt.</p>
+      <p class="indent">Eine festgesetzte Kreatur kann am Ende jeder ihrer Züge einen Geschicklichkeitsrettungswurf ablegen, um den Effekt auf sich selbst bei einem Erfolg zu beenden. Alternativ kann die Kreatur oder jemand anderes, der sie erreichen kann, eine Aktion verwenden, um einen Wurf auf Intelligenz (Arkane Kunde) gegen deinen Zauberrettungswurf-SG abzulegen. Bei einem Erfolg endet der festsetzende Effekt.</p>
+      <p class="indent">Nach dem Auslösen der Falle endet der Zauber, wenn keine Kreatur darin gebunden ist.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 Minute</set>
+      <set name="duration">8 Stunden</set>
+      <set name="range">Berührung</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">Seil von 7,5 m Länge, welches vom Zauber verzehrt wird.</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Feindüberschuss" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ENEMIES_ABOUND">
+    <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>Du greifst nach dem Verstand einer Kreatur, die du sehen kannst, und zwingst sie zu einem Intelligenzrettungswurf. Eine Kreatur besteht automatisch, wenn sie immun gegen den Zustand verängstigt ist. Bei einem Fehlschlag verliert die Kreatur die Fähigkeit, zwischen Freund und Feind zu unterscheiden, und erachtet bis zum Ende des Zaubers alle Kreaturen, die sie sehen kann als Feinde. Jedes Mal, wenn die Kreatur Schaden nimmt, kann sie den Rettungswurf wiederholen und den Effekt bei sich selbst mit einem Erfolg beenden.</p>
+      <p class="indent">Immer wenn die betroffene Kreatur eine andere Kreatur als Ziel wählt, muss die Auswahl des Ziels zufällig unter den Kreaturen geschehen, die sie in der Reichweite des Angriffs, des Zaubers oder der anderen Fähigkeit, die sie einsetzt, sehen kann. Wenn ein Feind von der betroffenen Kreatur einen Gele genheitsangriff provoziert, so muss die Kreatur diesen Angriff durchführen, wenn sie dazu in der Lage ist.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 1 Minute</set>
+      <set name="range">36 m / 24 Felder</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Fernschritt" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_FAR_STEP">
+    <supports>Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>Du teleportierst bis zu 18 m in einen nicht besetzen Bereich, den du sehen kannst. In jedem deiner Züge vor dem Ende des Zaubers kannst du eine Bonusaktion verwenden, um auf die gleiche Weise erneut zu teleportieren.</p>
+    </description>
+    <setters>
+      <set name="keywords">teleport</set>
+      <set name="level">5</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 Bonusaktion</set>
+      <set name="duration">Konzentration, bis zu 1 Minute</set>
+      <set name="range">Selbst</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent">V</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Fertigkeitsermächtigung" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_SKILL_EMPOWERMENT">
+    <supports>Bard, Sorcerer, Wizard, Artificer</supports>
+    <description>
+      <p>Deine Magie vertieft das Verständnis einer Kreatur bezüglich ihrer eigenen Talente. Du berührst eine bereitwillige Kreatur und verleihst ihr Expertise in einer Fertigkeit deiner Wahl. Bis zum Ende des Zaubers verdoppelt die Kreatur ihren Übungsbonus für Attributswürfe die sie ablegt und welche die gewählte Fertigkeit verwenden.</p>
+      <p class="indent">Du musst eine Fertigkeit wählen, in welcher das Ziel geübt ist und welche nicht bereits von einem Effekt wie Expertise profitiert, der den Übungsbonus verdoppelt.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 1 Stunde</set>
+      <set name="range">Berührung</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Feuerwerk" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_PYROTECHNICS">
+    <supports>Bard, Sorcerer, Wizard, Artificer</supports>
+    <description>
+      <p>Wähle einen Bereich nichtmagischer Flammen, die du inner halb der Reichweite sehen kannst und die in einen Würfel mit 1,50 m Kantenlänge passen. Du kannst die Flammen in diesem Bereich löschen, und erzeugst entweder Feuerwerk oder Rauch, wenn du das tust.</p>
+      <p class="indent"><b><i>Feuerwerk:</b></i> Das Ziel explodiert in einem grellen Farbenrausch. Jede Kreatur innerhalb von 3 m des Ziels muss erfolgreich einen Konstitutionsrettungswurf ablegen oder wird bis zum Ende seines nächsten Zuges blind.</p>
+      <p class="indent"><b><i>Rauch:</b></i> Dichter, schwarzer Rauch breitet sich vom Ziel in einem Radius von 6 m aus und bewegt sich auch um Ecken. Das verrauchte Gebiet ist komplett verschleiert. Der Rauch bleibt für 1 Minute oder bis ein starker Wind ihn verweht.</p>
+    </description>
+    <setters>
+      <set name="keywords">fire</set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Unmittelbar</set>
+      <set name="range">18 m / 12 Felder</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Flammen kontrollieren" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_CONTROL_FLAMES">
+    <supports>Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)</supports>
+    <description>
+      <p>Du wählst eine nichtmagische Flamme, die du innerhalb der Reichweite sehen kannst und die in einen Würfel mit 1,50 m Kantenlänge passt. Du beeinflusst sie auf eine der folgen den Weisen:</p>
+      <ul>
+        <li>Du dehnst die Flamme unmittelbar um 1,50 m in eine Richtung aus, unter der Voraussetzung, dass am neuen Ort Holz oder anderer Brennstoff vorhanden ist.</li>
+        <li>Du erstickst unmittelbar die Flammen im Würfel.</li>
+        <li>Du verdoppelst oder halbierst den Bereich von hellem und dämmrigem Licht, den das Feuer erzeugt, änderst seine Farbe oder beides. Die Änderung hält eine Stunde an.</li>
+        <li>Du verursachst das Erscheinen einfacher Formen - wie die ungefähre Gestalt einer Kreatur, eines unbelebten Objektes oder eines Ortes - in den Flammen und kannst sie nach Belieben animieren. Die Gestalten verbleiben für 1 Stunde.</li>
+      </ul>
+      <p class="indent">Wenn du diesen Zauber mehrfach wirkst kannst du bis zu drei durch ihn erzeugte, nicht-unmittelbare Effekte gleichzeitig aktiviert haben. Du kannst einen solchen Effekt durch eine Aktion enden lassen.</p>
+    </description>
+    <setters>
+      <set name="keywords">fire</set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Unmittelbar oder 1 Stunde (siehe unten)</set>
+      <set name="range">18 m / 12 Felder</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Flammenpfeile" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_FLAME_ARROWS">
+    <supports>Druid, Ranger, Sorcerer, Wizard, Artificer</supports>
+    <description>
+      <p>Du berührst einen Köcher, der Pfeile oder Bolzen enthält. Wenn ein Ziel von einem Fernkampfangriff getroffen wird, der ein Geschoss verwendet, die aus diesem Köcher entnommen wurde, so nimmt das Ziel 1W6 zusätzlichen Feuerschaden. Die Magie des Zaubers endet bei einem Geschoss, wenn es trifft oder verfehlt. Der Zauber selbst endet, wenn zwölf Geschosse aus dem Köcher entnommen wurden.</p>
+      <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 4. Grades oder höher verwendest, so erhöht sich die Anzahl der Geschosse, die du mit diesem Zauber verändern kannst, um zwei für jeden Zauberplatz-Grad über dem dritten.</p>
+    </description>
+    <setters>
+      <set name="keywords">fire</set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 1 Stunde</set>
+      <set name="range">Berührung</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Flutwelle" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_TIDAL_WAVE">
+    <supports>Druid, Sorcerer, Wizard</supports>
+    <description>
+      <p>Du beschwörst eine Welle aus Wasser, die auf ein Gebiet innerhalb der Reichweite herniederbricht. Das Gebiet kann bis zu 9 m lang sein, bis zu 3 m breit und bis zu 3 m hoch. Jede Kreatur in dem Gebiet muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Fehlschlag erleidet eine Kreatur 4W8 Wuchtschaden und wird zu Boden geschleudert. Bei einem Erfolg erleidet sie nur die Hälfte des Schadens und wird nicht zu Boden geschleudert. Das Wasser verteilt sich dann in alle Richtungen über den Untergrund, löscht ungeschützte Flammen in seinem Bereich und innerhalb von 9 m davon und verschwindet dann.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Unmittelbar</set>
+      <set name="range">36 m / 24 Felder</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">ein Tropfen Wasser</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Gedankendorn" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_MIND_SPIKE">
+    <supports>Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>Du greifst in den Verstand einer Kreatur, die du innerhalb der Reichweite sehen kannst. Das Ziel muss einen Weisheitsrettungswurf ablegen. Bei einem Fehlschlag erleidet es 3W8 psychischen Schaden, die Hälfte davon bei einem Erfolg. Bei einem Fehlschlag kennst du jederzeit den Aufenthaltsort des Ziels, bis der Zauber endet, aber nur während du und das Ziel auf derselben Ebene der Existenz sind. Während du dieses Wissen hast, kann sich das Ziel nicht vor dir verstecken, und wenn es u  sichtbar ist, erhält es dir gegenüber keine Vorteile aus diesem Zustand.</p>
+      <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 3. Grades oder höher wirkst, erhöht sich der Schaden um 1W6 für jeden Zauberplatz-Grad über dem zweiten.</p>
+    </description>
+    <setters>
+      <set name="keywords">psychic</set>
+      <set name="level">2</set>
+      <set name="school">Divination</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 1 Stunde</set>
+      <set name="range">18 m / 12 Felder</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Gefängnis für den Verstand" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_MENTAL_PRISON">
+    <supports>Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>Du versuchst eine Kreatur in einer illusorischen Zelle zu binden, welche nur sie wahrnehmen kann. Eine Kreatur, die du innerhalb der Reichweite sehen kannst, muss einen Intelligenzrettungswurf ablegen. Der Rettungswurf des Ziels gelingt automatisch, wenn es gegen den Zustand bezaubert immun ist. Bei einem erfolgreichen Wurf erleidet das Ziel 5W10 psychischen Schaden und der Zauber endet. Bei einem Fehlschlag erleidet das Ziel 5W10 psychischen Schaden, und du lässt die unmittelbare Umgebung des Ziels als in irgendeiner Weise gefährlich erscheinen. Du könntest verursachen, dass das Ziel wahrnimmt, dass es von Feuer umgeben sei, oder von schwe benden Rasierklingen oder scheußlichen Mäulern, die mit triefenden Zähnen gefüllt sind.</p>
+      <p class="indent">Welche Form die Illusion auch immer annimmt, das Ziel kann nichts hören oder sehen, was sich jenseits davon zuträgt, und ist für die Dauer des Zaubers festgesetzt. Wenn das Ziel aus der Illusion herausbewegt wird, durch sie hindurch einen Nahkampfangriff durchführt oder irgendeinen Teil seines Körpers hindurchstreckt, so erleidet es 10W10 psychischen Schaden und der Zauber endet.</p>
+    </description>
+    <setters>
+      <set name="keywords">psychic</set>
+      <set name="level">6</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 actoin</set>
+      <set name="duration">Konzentration, bis zu 1 Minute</set>
+      <set name="range">18 m / 12 Felder</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Heilige Waffe" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_HOLY_WEAPON">
+    <supports>Cleric, Paladin</supports>
+    <description>
+      <p>Du erfüllst eine Waffe, die du berührst, mit heiliger Macht. Bis der Zauber endet, strahlt die Waffe in einem Radius von 9 m ein helles Licht und in weiteren 9 m ein dämmriges Licht aus. Zusätzlich verursachen Angriffe, die mit der Waffe durchgeführt werden, weitere 2W6 gleißenden Schaden bei einem Treffer. Wenn die Waffe nicht schon magisch ist, so wird sie es für die Dauer des Zaubers.</p>
+      <p class="indent">Als eine Bonusaktion in deinem Zug kannst du den Zauber aufgeben und die Waffe einen Ausbruch gleißenden Lichtes abgeben lassen. Jede Kreatur deiner Wahl, die du innerhalb von 9 m sehen kannst, muss einen Konstitutionsrettungswurf ablegen. Bei einem Fehlschlag erleidet eine Kreatur 4W8 gleißenden Schaden und ist für eine Minute blind. Bei einem erfolgr eichen Wurf nimmt eine Kreatur nur die Hälfte des Schadens und ist nicht blind. Am Ende jeder ihrer Züge kann eine geblendete Kreatur einen Konstitutionsrettungswurf durchführen, um bei einem Erfolg den Effekt bei sich selbst zu beenden.</p>
+    </description>
+    <setters>
+      <set name="keywords">radiant</set>
+      <set name="level">5</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Bonusaktion</set>
+      <set name="duration">Konzentration, bis zu 1 Stunde</set>
+      <set name="range">Berührung</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Heilungsgeist" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_HEALING_SPIRIT">
+    <supports>Druid, Ranger</supports>
+    <description>
+      <p>Du rufst einen Naturgeist herbei, um Verwundete zu versorgen. Der körperlose Geist erscheint in einem Würfel von 1,50 m Kantenlänge in einem Bereich, den du innerhalb der Reichweite sehen kannst. Der Geist erscheint als durchsichtiges Tier oder Feenwesen (deine Wahl).</p>
+      <p class="indent">Bis zum Ende des Zaubers wird der Geist bei einer Kreatur, die ihren Zug im Bereich des Geistes beginnt oder ihn zum ersten Mal in ihrem Zug betritt, 1W6 Trefferpunkte bei dieser Kreatur wiederherstellen (erfordert keine Aktion). Der Geist kann weder Konstrukte noch Untote heilen.</p>
+      <p class="indent">Als Bonusaktion in deinem Zug kannst du den Geist um bis zu 9 m an einen Ort bewegen, den du sehen kannst.</p>
+      <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 3. Grades oder höher wirkst, erhöht sich die Heilung um 1W6 für jeden Grad über dem zweiten.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 Bonusaktion</set>
+      <set name="duration">Konzentration, bis zu 1 Minute</set>
+      <set name="range">18 m / 12 Felder</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Himmelsschreiben" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_SKYWRITE">
+    <supports>Bard, Druid, Wizard, Artificer</supports>
+    <description>
+      <p>Du kannst bis zu zehn Wörter in einem Bereich des Himmels formen, den du sehen kannst. Die Worte erscheinen, als seien sie aus Wolken gemacht, und verbleiben für die Dauer des Zaubers an ihrem Ort. Ein starker Wind kann die Wolken verwehen und den Zauber verfrüht enden lassen.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 1 Stunde</set>
+      <set name="range">Sichtweite</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+  <element name="Homunkulus erschaffen" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_CREATE_HOMUNCULUS">
+    <supports>Wizard</supports>
+    <description>
+      <p>Während du eine komplizierte Zauberformel aufsagst, schneidest du dich selbst mit einem juwelenbesetzten Dolch und erleidest 2W4 Stichschaden, der auf keine Weise verringert werden kann. Dann tröpfelst du dein Blut über die anderen Komponenten des Zaubers und berührst sie. Dies verwandelt sie in ein spezielles Konstrukt, das Homunkulus genannt wird.</p>
+      <p class="indent">Die Werte für den Homunkulus sind im Monsterhandbuch enthalten. Er ist dein treuer Gefährte und stirbt, wenn du stirbst. Immer wenn du eine lange Rast beendest, kannst du bis zur Hälfte deiner Trefferwürfel aufwenden, wenn der Homunkulus sich auf derselben Ebene der Existenz aufhält wie du. Wenn du das tust , dann werfe jeden einzelnen Würfel und rechne jeweils deinen Konstitutionsmodifikator hinzu. Deine maximalen Trefferpunkte werden um das Ergebnis reduziert, und die maximalen Trefferpunkte des Homunkulus sowie seine gegenwärtigen Trefferpunkte werden beide um dieses Ergebnis erhöht. Dieser Prozess kann deine Trefferpunkte nicht auf weniger als 1 reduzieren. Die Veränderung deiner Trefferpunkte und der des Homunkulus endet, wenn du die nächste lange Rast beendest. Die Verringerung deiner Trefferpunkte kann vorher durch kein Mittel entfernt werden, ausgenommen durch den Tod des Homunkulus.</p>
+      <p class="indent">Du kannst zu jedem Zeitpunkt nur einen Homunkulus haben. Wenn du diesen Zauber wirkst, während dein Homunkulus lebt, wird der Zauber versagen.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Stunde</set>
+      <set name="duration">Unmittelbar</set>
+      <set name="range">Berührung</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">Lehm, Asche und Alraunenwurzel, die alle vom Zauber verzehrt werden, und ein mit Juwelen besetzter Dolch von mindestens 1.000 GM Wert</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Hüter der Natur" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_GUARDIAN_OF_NATURE">
+    <supports>Druid, Ranger</supports>
+    <description>
+      <p>Ein Naturgeist erhört deinen Ruf und verwandelt dich in einen mächtigen Beschützer. Die Verwandlung hält an, bis der Zauber endet. Du wählst eine der folgenden Formen aus: Urtümliches Tier oder Großer Baum.</p>
+      <p class="indent"><b><i>Urtümliches Tier:</i></b> Animalisches Fell bedeckt deinen Körper, deine Gesichtszüge werden tierhaft und du erhältst folgende Vorzüge:</p>
+      <ul>
+        <li>Deine Bewegungsrate erhöht sich um 3 m.</li>
+        <li>Du erlangst Dunkelsicht mit 36 m Reichweite.</li>
+        <li>Du legst Angriffswürfe, die auf Stärke basieren, mit Vorteil ab.</li>
+        <li>Deine Nahkampfwaffenangriffe verursachen zusätzlich 1W6 Energieschaden bei einem Treffer.</li>
+      </ul>
+      <p class="indent"><b><i>Großer Baum:</i></b> Deine Haut erscheint borkig, Blätter sprießen aus deinem Haar und du erhältst die folgenden Vorzüge:</p>
+      <ul>
+        <li>Du erlangst 10 temporäre Trefferpunkte.</li>
+        <li>Du legst Konstitutionsrettungswürfe mit Vorteil ab.</li>
+        <li>Du legst Angriffswürfe, die auf Geschicklichkeit und Weisheit basieren, mit Vorteil ab.</li>
+        <li>Während du zu ebener Erde bist, ist der Untergrund in 4,50 m Radius um dich herum schwieriges Gelände für deine Feinde.</li>
+      </ul>
+    </description>
+    <setters>
+      <set name="keywords">force</set>
+      <set name="level">4</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Bonusaktion</set>
+      <set name="duration">Konzentration, bis zu 1 Minute</set>
+      <set name="range">Selbst</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent">V</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Illusorischer Drache" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ILLUSORY_DRAGON">
+    <supports>Wizard</supports>
+    <description>
+      <p>Durch das Ansammeln von Schattenmaterial aus dem Shadowfell erzeugst du einen schattenhaften Drachen (Größenkategorie: riesig) in einem unbesetzten Bereich, den du innerhalb der Reichweite sehen kannst. Die Illusion verbleibt für die Dauer des Zaubers und besetzt ihren Bereich, als ob sie eine Kreatur wäre.</p>
+      <p class="indent">Wenn die Illusion erscheint müssen alle deine Feinde, welche sie sehen können, einen erfolgreichen Weisheitsrettungswurf ablegen oder werden für 1 Minute verängstigt. Wenn eine verängstigte Kreatur ihren Zug an einem Ort beendet, wo sie keine Sichtlinie zur Illusion hat, kann sie den Rettungswurf wiederholen und bei einem Erfolg den Effekt bei sich beenden.</p>
+      <p class="indent">Als eine Bonusaktion während deines Zuges kannst du die Illusion bis zu 18 m weit bewegen. Zu jedem Zeitpunkt während dieser Bewegung kannst du sie veranlassen, von ihrem Bereich aus einen Energiestoß in einem 18 m langen Kegel auszustoßen. Wähle die Schadensart, wenn du den Drachen erzeugst: Säure, Kälte, Feuer, Blitz, nekrotisch oder Gift. Jede Kreatur im Kegel muss einen Intelligenzrettungswurf durchführen und erleidet 7W6 Schaden der gewählten Art bei einem Fehlschlag, die Hälfte davon bei einem Erfolg.</p>
+      <p class="indent">Die Illusion ist auf grund der schattenhaften Substanz, die zu ihrer Erschaffung verwendet wurde, greifbar, aber Angriffe verfehlen sie automatisch, sie hat Erfolg bei allen Rettungswürfen und ist immun gegenüber allem Schaden und allen Zuständen. Eine Kreatur, die ihre Aktion dazu verwendet, den Drachen zu untersuchen, kann mit einem erfolgreichen Wurf auf Intelligenz gegen deinen Zauberrettungswurf-SC feststellen, dass es sich dabei um eine Illusion handelt. Wenn eine Kreatur herausfindet, dass es sich um eine Illusion handelt, kann sie hindurchsehen und hat Vorteil bei Rettungswürfen gegen ihren Atem.</p>
+    </description>
+    <setters>
+      <set name="keywords">acid,cold,fire,lightning,necrotic,poison</set>
+      <set name="level">8</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 1 Minute</set>
+      <set name="range">36 m / 24 Felder</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Infernalisches Herbeirufen" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_INFERNAL_CALLING">
+    <supports>Warlock, Wizard</supports>
+    <description>
+      <p>Durch das Aussprechen einer dunklen Anrufung beschwörst du einen Teufel aus den Neun Höllen. Du wählst die Art des Teufels, welcher einen HG von 6 oder niedriger haben muss, wie zum Beispiel ein Klingenteufel oder ein Bartteufel. Der Teufel erscheint in einem unbesetztem Bereich, den du innerhalb der Reichweite sehen kannst. Der Teufel verschwindet, wenn er auf 0 Trefferpunkte reduziert wird oder wenn der Zauber endet.</p>
+      <p class="indent">Der Teufel ist dir und deinen Gefährten gegenüber unfreundlich. Würfle für den Teufel die Initiative aus, welcher seine eigenen Züge hat. Er ist unter der Kontrolle des Spielleiters und handelt in jedem seiner Züge gemäß seiner Natur. Das kann darin enden, dass er dich angreift, wenn er der Meinung ist, gewinnen zu können, oder er versucht dich dazu zu verführen, eine böse Tat im Austausch für begrenzte Dienste zu vollbringen. Der SL hat die Werte der Kreatur.</p>
+      <p class="indent">In jedem deiner Züge kannst du versuchen, dem Teufel einen wörtlichen Befehl zu geben (erfordert keine Aktion deinerseits). Er wird dem Befehl folgen, wenn das Ergebnis im Einklang mit seinen Begierden steht, und besonders, wenn das Ergebnis dich zum Bösen hinzieht. Andernfalls musst du einen Wurf auf Charisma (Täuschung, Einschüchterung, oder Überzeugen) ablegen. Du erhältst beim Wurf einen Vorteil, wenn du den wahren Namen des Teufels aussprichst.</p>
+      <p class="indent">Wenn dein Wurf scheitert, wird der Teufel für die Wirkungsdauer des Zaubers immun gegenüber deinen verbalen Befehlen. Er kann sie allerdings immer noch ausführen, sofern er das wünscht. Wenn dein Wurf erfolgreich ist, führt der Teufel den Befehl aus - wie zum Beispiel "greife meine Feinde an" oder  "erkunde den nächsten Raum" oder "bringe diese Nachricht zur Königin" - bis er die Aufgabe erfüllt hat. Dann kehrt er zu dir zurück, um zu berichten, dass er die Aufgabe abgeschlossen hat.</p>
+      <p class="indent">Falls deine Konzentration endet, bevor der Zauber seine volle Wirkungsdauer erreicht, wird der Teufel nicht verschwinden, wenn er deinen Befehlen gegenüber immun geworden ist. Stattdessen handelt er, wie auch immer er es wünscht, und verschwindet erst nach weiteren 3W6 Minuten.</p>
+      <p class="indent">Wenn du den Talisman eines bestimmten Teufels besitzt, so kannst ihn herbeirufen, wenn er den angemessenen HG + 1 besitzt. Er befolgt alle Befehle, ohne dass ein Wurf auf Charisma erforderlich wäre.</p>
+      <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber unter Verwendung eines Zauberplatzes der 6. Stufe oder höher verwendest, so erhöht sich der HG um 1 für jeden Zauberplatz-Grad über dem fünften.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 Minute</set>
+      <set name="duration">Konzentration, bis zu 1 Stunde</set>
+      <set name="range">27 m / 18 Felder</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">ein Rubin, der mindestens 999 GM wert ist</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Investitur der Flammen" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_INVESTITURE_OF_FLAME">
+    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>Flammen jagen über deinen Körper und verbreiten für die Dauer des Zaubers ein helles Licht in einem Radius von 9 m und ein dämmriges Licht in weiteren 9 m Radius. Die Flammen schaden dir nicht. Bis der Zauber endet, erlangst du folgende Vorzüge:</p>
+      <ul>
+        <li>Du bist immun gegen Feuerschaden und hast Resistenz gegen Kälteschaden.</li>
+        <li>Jede Kreatur, die sich zum ersten Mal in einem Zug innerhalb von 1,50 m von dir bewegt oder ihren Zug dort beendet, erleidet 1W10 Feuerschaden.</li>
+        <li>Du kannst deine Aktion verwenden, um eine Linie aus Feuer von 4,50 m Länge und 1,50 m Breite zu erzeugen, die sich von dir in eine Richtung deiner Wahl erstreckt. Jede Kreatur in der Linie muss einen Geschicklichkeitsrettungswurf ablegen. Bei einem Fehlschlag erleidet eine Kreatur 4W8 Feuerschaden, die Hälfte davon bei einem Erfolg.</li>
+      </ul>
+    </description>
+    <setters>
+      <set name="keywords">fire</set>
+      <set name="level">6</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
+      <set name="range">Selbst</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Investitur des Eises" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_INVESTITURE_OF_ICE">
+    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>Bis zum Ende des Zaubers ist dein Körper von Raureif bedeckt und du erlangst die folgenden Vorzüge:</p>
+      <ul>
+        <li>Du bist immun gegen Kälteschaden und hast Resistenz gegen Feuerschaden.</li>
+        <li>Du kannst dich über durch Eis oder Schnee verursachtes schwieriges Gelände bewegen, ohne zusätzliche Bewegung aufwenden zu müssen.</li>
+        <li>Der Untergrund in 3 m Radius um dich herum ist vereist und schwieriges Gelände für alle Kreaturen außer dir. Der Radius bewegt sich mit dir.</li>
+        <li>Du kannst deine Aktion verwenden, um einen 4,50 m langen Kegel aus eiskaltem Wind zu erzeugen, welcher sich von deiner ausgestreckten Hand in eine Richtung deiner Wahl erstreckt. Jede Kreatur im Kegel muss einen Konstitutionsrettungswurf ablegen. Bei einem Fehlschlag erleidet die Kreatur 4W6 Kälteschaden, die Hälfte davon bei einem Erfolg. Eine Kreatur, deren Rettungswurf gegen diesen Effekt scheitert, leidet unter einer halbierten Bewegungsrate bis zum Beginn deines nächsten Zuges.</li>
+      </ul>
+    </description>
+    <setters>
+      <set name="keywords">cold,fire</set>
+      <set name="level">6</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
+      <set name="range">Selbst</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Investitur des Gesteins" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_INVESTITURE_OF_STONE">
+    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>Bis zum Ende des Zaubers breiten sich Felsbrocken über deinen Körper aus und du erlangst die folgenden Vorzüge:</p>
+      <ul>
+        <li>Du hast Resistenz gegen Wucht-, Stich- und Hiebschaden durch nichtmagische Attacken.</li>
+        <li>Du kannst deine Aktion verwenden, um ein kleines Erdbeben im Untergrund in 4,50 m Radius von dir zu erzeugen. Andere Kreaturen auf diesem Untergrund müssen einen Geschicklichkeitsrettungswurf bestehen oder werden zu Boden geschleudert.</li>
+        <li>Du kannst dich ohne Abzüge auf deine Bewegungsrate durch schwieriges Gelände bewegen, welches aus Erde oder Gestein besteht. Du kannst dich durch festen Erdboden oder solides Gestein bewegen als sei es Luft, ohne es zu destabilisieren. Du kannst deine Bewegung aber nicht darin beenden. Wenn du das dennoch tust, wirst du in Richtung des nächsten nicht besetzten Raums bewegt, dieser Zauber endet und du bist betäubt bis zum Ende deines nächsten Zuges.</li>
+      </ul>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
+      <set name="range">Selbst</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Investitur des Windes" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_INVESTITURE_OF_WIND">
+    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>Bis zum  Ende des Zaubers wirbelt Wind um dich herum und du hast die folgenden Vorzüge:</p>
+      <ul>
+        <li>Fernkampfwaffenangriffe mit dir als Ziel haben Nachteil beim Angriffswurf.</li>
+        <li>Du erlangst eine Flugbewegungsrate von 18 m. Wenn du fliegst, wenn dieser Zauber endet, fällst du, wenn du es nicht irgendwie verhindern kannst.</li>
+        <li>Du kannst deine Aktion verwenden, um einen Würfel wirbelnden Windes mit 4,50 m Kantenlänge zu erzeugen, mit einem Punkt, den du innerhalb von 18 m sehen kannst, als Zentrum. Jede Kreatur in diesem Bereich muss einen Konstitutionsrettungswurf ablegen. Bei einem Fehlschlag erleidet eine Kreatur 2W10 Wuchtschaden, die Hälfte davon bei einem Erfolg. Kreaturen bis einschließlich Größenkategorie groß werden außerdem bis zu 3 m vom Zentrum des Würfels fortgeschoben.</li>
+      </ul>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
+      <set name="range">Selbst</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Katapult" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_CATAPULT">
+    <supports>Sorcerer, Wizard, Artificer</supports>
+    <description>
+      <p>Wähle ein Objekt in Reichweite, das zwischen 1 und 5 Pfund wiegt und das nicht getragen oder in der Hand gehalten wird. Das Objekt fliegt bis zu 27 m in gerader Linie in eine Richtung deiner Wahl, bevor es auf den Boden fällt. Es stoppt vorher, wenn es auf einer festen Oberfläche einschlägt. Wenn das Objekt eine Kreatur treffen würde, so muss diese Kreatur einen Geschicklichkeitsrettungswurf durchführen. Bei einem Fehlschlag trifft das Objekt das Ziel und beendet seine Bewegung. Wenn das Objekt aufschlägt nehmen das Objekt und das, was es trifft, jeweils 3W8 Wuchtschaden.</p>
+      <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 2. Grades oder höher wirkst, erhöht sich für jeden Zauberplatz-Grad über dem ersten das maximale Gewicht des von dir als Ziel wählbaren Objektes um 5 Pfund und der Schaden um 1W8.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Aktion</set>
+      <set name="duration">Unmittelbar</set>
+      <set name="range">18 m / 12 Felder</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Knochen der Erde" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_BONES_OF_THE_EARTH">
     <supports>Druid</supports>
     <description>
-      <p>You cause up to six pillars of stone to burst from places on the ground that you can see within range. Each pillar is a cylinder that has a diameter of 5 feet and a height of up to 30 feet. The ground where a pillar appears must be wide enough for its diameter, and you can target ground under a creature if that creature is Medium or smaller. Each pillar has AC 5 and 30 hit points. When reduced to 0 hit points, a pillar crumbles into rubble, which creates an area of difficult terrain with a 10-foot radius that lasts until cleared. Each 5-foot-diameter portion of the area requires at least 1 minutes to clear by hand.</p>
-      <p class="indent">If a pillar is created under a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail the save.</p>
-      <p class="indent">If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes 6d6 bludgeoning damage and is restrained, pinched between the pillar and the obstacle. The restrained creature can use an action to make a Strength or Dexterity check (the creature's choice) against the spell's save DC. On a success, the creature is no longer restrained an must either move off the pillar or fall off it.</p>
-      <p class="indent"><b><i>Auf höheren Graden:</i></b>When you cast this spell using a spell slot of 7th level or higher, you can create two additional pillars for each slot level above 6th.</p>
+      <p>Du verursachst das Emporsteigen von bis zu 6 Steinsäulen aus der Erde aus Stellen auf dem Untergrund, die du innerhalb der Reichweite sehen kannst. Jede Säule ist ein Zylinder mit einem Durchmesser von 1,50 m und einer Höhe von bis zu 9 m. Der Untergrund, wo die Säule erscheint, muss breit genug für ihren Durchmesser sein, und du kannst den Untergrund unter einer Kreatur zum Ziel nehmen, wenn die Kreatur von mittlerer oder kleiner Größe ist. Jede Säule hat RK 5 und 30 Trefferpunkte. Wenn sie auf 0 Trefferpunkte reduziert wird, zerfällt die Säule zu Geröll, welches einen Bereich schwierigen Geländes mit einem Radius von 3 m erzeugt, der verbleibt, bis das Geröll geräumt ist. Jede 1,50 m durchmessende Teilfläche des Bereichs erfordert mindestens eine Minute zur Freiräumung per Hand.</p>
+      <p class="indent">Wenn eine Säule unter einer Kreatur erschaffen wurde, muss die Kreatur einen erfolgreichen Geschicklichkeitsrettungswurf ablegen oder wird von der Säule angehoben. Eine Kreatur kann sich entscheiden, den Wurf nicht zu bestehen.</p>
+      <p class="indent">Wenn die Säule durch ein Hindernis, etwa eine Decke, daran gehindert, wird ihre volle Höhe zu erreichen, erleidet eine Kreatur auf der Säule 6W6 Wuchtschaden und ist festgesetzt, eingeklemmt zwischen Säule und Hindernis. Die festgesetzte Kreatur kann einen Wurf auf Stärke oder Geschicklichkeits (Wahl der Kreatur) gegen den Rettungswurf-SG des Zaubers ablegen. Bei einem Erfolg ist die Kreatur nicht länger festgesetzt und muss sich nun von der Säule herunterbewegen oder von ihr herunterfallen.</p>
+      <p class="indent"><b><i>Auf höheren Graden:</i></b> Wenn du diesen Zauber mit einem Zauberplatz des 7. Grades oder höher wirkst, kannst du für jeden Zauberplatz über dem sechsten zwei zusätzliche Säulen erzeugen.</p>
     </description>
     <setters>
       <set name="keywords"></set>
@@ -418,24 +1052,46 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Catapult" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_CATAPULT">
-    <supports>Sorcerer, Wizard, Artificer</supports>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <element name="Beast Bond" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_BEAST_BOND">
+    <supports>Druid, Ranger</supports>
     <description>
-      <p>Choose one object weighing 1 to 5 pounds within range that isn't being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take 3d8 bludgeoning damage.</p>
-      <p class="indent"><b><i>Auf höheren Graden:</i></b>When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by 1d8, for each slot level above 1st.</p>
+      <p>You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast's Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see.</p>
     </description>
     <setters>
-      <set name="keywords"></set>
+      <set name="keywords">companion</set>
       <set name="level">1</set>
-      <set name="school">Transmutation</set>
+      <set name="school">Divination</set>
       <set name="time">1 Aktion</set>
-      <set name="duration">Unmittelbar</set>
-      <set name="range">18 m / 12 Felder</set>
-      <set name="hasVerbalComponent">false</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
+      <set name="range">Berührung</set>
+      <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a bit of fur wrapped in a cloth</set>
+      <set name="isConcentration">true</set>
       <set name="isRitual">false</set>
     </setters>
   </element>
@@ -507,33 +1163,6 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Control Flames" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_CONTROL_FLAMES">
-    <supports>Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)</supports>
-    <description>
-      <p>You choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways:</p>
-      <ul>
-        <li>You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.</li>
-        <li>You instantaneously extinguish the flames within the cube.</li>
-        <li>You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.</li>
-        <li>You cause simple shapes-such as the vague form of a creature, an inanimate object, or a location-to appear within the flames and animate as you like. The shapes last for 1 hour.</li>
-      </ul>
-      <p class="indent">If you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as an action.</p>
-    </description>
-    <setters>
-      <set name="keywords">fire</set>
-      <set name="level">0</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Instantaneous or 1 hour (see below)</set>
-      <set name="range">18 m / 12 Felder</set>
-      <set name="hasVerbalComponent">false</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
   <element name="Control Winds" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_CONTROL_WINDS">
     <supports>Druid, Sorcerer, Wizard</supports>
     <description>
@@ -548,7 +1177,7 @@
       <set name="school">Transmutation</set>
       <set name="time">1 Aktion</set>
       <set name="duration">Konzentration, bis zu 1 Stunde</set>
-      <set name="range">300 feet</set>
+      <set name="range">90 m / 60 Felder</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">true</set>
       <set name="hasMaterialComponent">false</set>
@@ -576,28 +1205,6 @@
       <set name="hasMaterialComponent">false</set>
       <set name="materialComponent"></set>
       <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Create Homunculus" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_CREATE_HOMUNCULUS">
-    <supports>Wizard</supports>
-    <description>
-      <p>While speaking an intricate incantation, you cut yourself with a jewel-encrusted dagger, taking 2d4 piercing damage that can't be reduced in any way. You then drip your blood on the spell's other components and touch them, transforming them into a special construct called a homunculus.</p>
-      <p class="indent">The statistics of the homunculus are in the Monster Manual. It is your faithful companion, and it dies if you die. Whenever you finish a long rest, you can spend up to half your Hit Dice if the homunculus is on the same plane of existence as you. When you do so, roll each die and add your Constitution modifier to it. Your hit point maximum is reduced by the total, and the homunculus's hit point maximum and current hit points are both increased by it. This process can reduce you to no lower than 1 hit point, and the change to your and the homunculus's hit points ends when you finish your next long rest. The reduction to your hit point maximum can't be removed by any means before then, except by the homunculus's death.</p>
-      <p class="indent">You can have only one homunculus at a time. If you cast this spell while your homunculus lives, the spell fails.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">6</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Stunde</set>
-      <set name="duration">Unmittelbar</set>
-      <set name="range">Berührung</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">clay, ash, and mandrake root, all of which the spell consumes, and a jewel-encrusted dagger worth at least 1,000 gp</set>
-      <set name="isConcentration">false</set>
       <set name="isRitual">false</set>
     </setters>
   </element>
@@ -691,209 +1298,6 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Earth Tremor" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_EARTH_TREMOR">
-    <supports>Bard, Druid, Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
-    <description>
-      <p>You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.</p>
-      <p class="indent"><b><i>Auf höheren Graden:</i></b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">1</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Unmittelbar</set>
-      <set name="range">10 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Earthbind" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_EARTHBIND">
-    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
-    <description>
-      <p>Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the spell's duration. An airborne creature affected by this spell descends at 60 feet per round until it reaches the ground or the spell ends.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">2</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Konzentration, bis zu 1 Minute</set>
-      <set name="range">300 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent">V</set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Elemental Bane" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ELEMENTAL_BANE">
-    <supports>Druid, Warlock, Wizard, Artificer</supports>
-    <description>
-      <p>Choose one creature you can see within range, and choose one of the following damage types: acid, cold, fire, lightning, or thunder. The target must succeed on a Constitution saving throw or be affected by the spell for its duration. The first time each turn the affected target takes damage of the chosen type, the target takes an extra 2d6 damage of that type. Moreover, the target loses any resistance to that damage type until the spell ends.</p>
-      <p class="indent"><b><i>Auf höheren Graden:</i></b>When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.</p>
-    </description>
-    <setters>
-      <set name="keywords">acid,cold,fire,lightning,thunder</set>
-      <set name="level">4</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Konzentration, bis zu 1 Minute</set>
-      <set name="range">27 m / 18 Felder</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Enemies Abound" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ENEMIES_ABOUND">
-    <supports>Bard, Sorcerer, Warlock, Wizard</supports>
-    <description>
-      <p>You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being frightened. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.</p>
-      <p class="indent">Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">3</set>
-      <set name="school">Enchantment</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Konzentration, bis zu 1 Minute</set>
-      <set name="range">36 m / 24 Felder</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Enervation" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ENERVATION">
-    <supports>Sorcerer, Warlock, Wizard</supports>
-    <description>
-      <p>A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes 2d8 necrotic damage, and the spell ends. On a failed save, the target takes 4d8 necrotic damage, and until the spell ends, you can use your action on each of your turns to automatically deal 4d8 necrotic damage to the target. The spell ends if you use your action to do anything else, if the target is ever outside the spell's range, or if the target has total cover from you.</p>
-      <p class="indent">Whenever the spell deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes.</p>
-      <p class="indent"><b><i>Auf höheren Graden:</i></b>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>
-    </description>
-    <setters>
-      <set name="keywords">necrotic</set>
-      <set name="level">5</set>
-      <set name="school">Necromancy</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Konzentration, bis zu 1 Minute</set>
-      <set name="range">18 m / 12 Felder</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-
-  <element name="Far Step" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_FAR_STEP">
-    <supports>Sorcerer, Warlock, Wizard</supports>
-    <description>
-      <p>You teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you can use a bonus action to teleport in this way again.</p>
-    </description>
-    <setters>
-      <set name="keywords">teleport</set>
-      <set name="level">5</set>
-      <set name="school">Conjuration</set>
-      <set name="time">1 Bonusaktion</set>
-      <set name="duration">Konzentration, bis zu 1 Minute</set>
-      <set name="range">Selbst</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent">V</set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-
-  <element name="Flame Arrows" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_FLAME_ARROWS">
-    <supports>Druid, Ranger, Sorcerer, Wizard, Artificer</supports>
-    <description>
-      <p>You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell's magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver.</p>
-      <p class="indent"><b><i>Auf höheren Graden:</i></b>When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.</p>
-    </description>
-    <setters>
-      <set name="keywords">fire</set>
-      <set name="level">3</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Konzentration, bis zu 1 Stunde</set>
-      <set name="range">Berührung</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Frostbite" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_FROSTBITE">
-    <supports>Druid, Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)</supports>
-    <description>
-      <p>You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.</p>
-      <p class="indent">The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
-    </description>
-    <setters>
-      <set name="keywords">cold</set>
-      <set name="level">0</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Unmittelbar</set>
-      <set name="range">18 m / 12 Felder</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Guardian of Nature" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_GUARDIAN_OF_NATURE">
-    <supports>Druid, Ranger</supports>
-    <description>
-      <p>A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.</p>
-      <p class="indent"><b><i>Primal Beast. </i></b>Bestial fur covers your body, your facial features become feral, and you gain the following benefits:</p>
-      <ul>
-        <li>Your walking speed increases by 10 feet.</li>
-        <li>You gain darkvision with a range of 120 feet.</li>
-        <li>You make Strength based attack rolls with advantage.</li>
-        <li>Your melee weapon attacks deal an extra 1d6 force damage on a hit.</li>
-      </ul>
-      <p class="indent"><b><i>Great Tree. </i></b>Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:</p>
-      <ul>
-        <li>You gain 10 temporary hit points.</li>
-        <li>You make Constitution saving throws with advantage.</li>
-        <li>You make Dexterity- and Wisdom-based attack rolls with advantage.</li>
-        <li>While you are on the ground, the ground within 15 feet of you is difficult terrain for your enemies.</li>
-      </ul>
-    </description>
-    <setters>
-      <set name="keywords">force</set>
-      <set name="level">4</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Bonusaktion</set>
-      <set name="duration">Konzentration, bis zu 1 Minute</set>
-      <set name="range">Selbst</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent">V</set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
   <element name="Gust" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_GUST">
     <supports>Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)</supports>
     <description>
@@ -919,94 +1323,6 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Healing Spirit" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_HEALING_SPIRIT">
-    <supports>Druid, Ranger</supports>
-    <description>
-      <p>You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).</p>
-      <p class="indent">Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required). The spirit can't heal constructs or undead.</p>
-      <p class="indent">As a bonus action on your turn, you can move the Spirit up to 30 feet to a space you can see.</p>
-      <p class="indent"><b><i>Auf höheren Graden:</i></b>When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d6 for each slot level above 2nd.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">2</set>
-      <set name="school">Conjuration</set>
-      <set name="time">1 Bonusaktion</set>
-      <set name="duration">Konzentration, bis zu 1 Minute</set>
-      <set name="range">18 m / 12 Felder</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Holy Weapon" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_HOLY_WEAPON">
-    <supports>Cleric, Paladin</supports>
-    <description>
-      <p>You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 2d8 radiant damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.</p>
-      <p class="indent">As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of you must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn't blinded. At the end of each of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success.</p>
-    </description>
-    <setters>
-      <set name="keywords">radiant</set>
-      <set name="level">5</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 Bonusaktion</set>
-      <set name="duration">Konzentration, bis zu 1 Stunde</set>
-      <set name="range">Berührung</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Ice Knife" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ICE_KNIFE">
-    <supports>Druid, Sorcerer, Wizard</supports>
-    <description>
-      <p>You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 cold damage.</p>
-      <p class="indent"><b><i>Auf höheren Graden:</i></b>When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.</p>
-    </description>
-    <setters>
-      <set name="keywords">cold</set>
-      <set name="level">1</set>
-      <set name="school">Conjuration</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Unmittelbar</set>
-      <set name="range">18 m / 12 Felder</set>
-      <set name="hasVerbalComponent">false</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a drop of water or piece of ice</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Illusory Dragon" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_ILLUSORY_DRAGON">
-    <supports>Wizard</supports>
-    <description>
-      <p>By gathering threads of shadow material from the Shadowfell, you create a Huge shadowy dragon in an unoccupied space that you can see within range. The illusion lasts for the spell's duration and occupies its space, as if it were a creature.</p>
-      <p class="indent">When the illusion appears, any of your enemies that can see it must succeed on a Wisdom saving throw or become frightened of it for 1 minute. If a frightened creature ends its turn in a location where it doesn't have line of sight to the illusion, it can repeat the saving throw, ending the effect on itself on a success.</p>
-      <p class="indent">As a bonus action on your turn, you can move the illusion up to 60 feet. At any point during its movement, you can cause it to exhale a blast of energy in a 60-foot cone originating from its space. When you create the dragon, choose a damage type: acid, cold, fire, lightning, necrotic, or poison. Each creature in the cone must make an Intelligence saving throw, taking 7d6 damage of the chosen damage type on a failed save, or half as much damage on a successful one.</p>
-      <p class="indent">The illusion is tangible because of the shadow stuff used to create it, but attacks miss it automatically. It succeeds on all saving throws, and it is immune to all damage and conditions. A creature that uses an action to examine the dragon can determine that it is an illusion by succeeding on an Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through it and has advantage on saving throws against its breath.</p>
-    </description>
-    <setters>
-      <set name="keywords">acid,cold,fire,lightning,necrotic,poison</set>
-      <set name="level">8</set>
-      <set name="school">Illusion</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Konzentration, bis zu 1 Minute</set>
-      <set name="range">36 m / 24 Felder</set>
-      <set name="hasVerbalComponent">false</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
   <element name="Immolation" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_IMMOLATION">
     <supports>Sorcerer, Wizard</supports>
     <description>
@@ -1028,133 +1344,6 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Infernal Calling" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_INFERNAL_CALLING">
-    <supports>Warlock, Wizard</supports>
-    <description>
-      <p>Uttering a dark incantation, you summon a devil from the Nine Hells. You choose the devil's type, which must be one of challenge rating 6 or lower, such as a barbed devil or a bearded devil. The devil appears in an unoccupied space that you can see within range. The devil disappears when it drops to 0 hit points or when the spell ends.</p>
-      <p class="indent">The devil is unfriendly toward you and your companions. Roll initiative for the devil, which has its own turns. It is under the Dungeon Master's control and acts according to its nature on each of its turns, which might result in its attacking you if it thinks it can prevail, or trying to tempt you to undertake an evil act in exchange for limited service. The DM has the creature's statistics.</p>
-      <p class="indent">On each of your turns, you can try to issue a verbal command to the devil (no action required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma (Deception, Intimidation, or Persuasion) check contested by its Wisdom (Insight) check. You make the check with advantage if you say the devil's true name. If your check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command such as "attack my enemies," "explore the room ahead," or "bear this message to the queen" until it completes the activity, at which point it returns to you to report having done so.</p>
-      <p class="indent">If your concentration ends before the spell reaches its full duration, the devil doesn't disappear if it has become immune to your verbal commands. Instead, it acts in whatever manner it chooses for 3d6 minutes, and then it disappears.</p>
-      <p class="indent">If you possess an individual devil's talisman, you can summon that devil if it is of the appropriate challenge rating plus 1, and it obeys all your commands, with no Charisma checks required.</p>
-      <p class="indent"><b><i>Auf höheren Graden:</i></b>When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">5</set>
-      <set name="school">Conjuration</set>
-      <set name="time">1 minute</set>
-      <set name="duration">Konzentration, bis zu 1 Stunde</set>
-      <set name="range">27 m / 18 Felder</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a ruby worth at least 999 gp</set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-
-  <element name="Investiture of Flame" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_INVESTITURE_OF_FLAME">
-    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
-    <description>
-      <p>Flames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits:</p>
-      <ul>
-        <li>You are immune to fire damage and have resistance to cold damage.</li>
-        <li>Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes 1d10 fire damage.</li>
-        <li>You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 4d8 fire damage on a failed save, or half as much damage on a successful one.</li>
-      </ul>
-    </description>
-    <setters>
-      <set name="keywords">fire</set>
-      <set name="level">6</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
-      <set name="range">Selbst</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Investiture of Ice" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_INVESTITURE_OF_ICE">
-    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
-    <description>
-      <p>Until the spell ends, ice rimes your body, and you gain the following benefits:</p>
-      <ul>
-        <li>You are immune to cold damage and have resistance to fire damage.</li>
-        <li>You can move across difficult terrain created by ice or snow without spending extra movement.</li>
-        <li>The ground in a 10-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.</li>
-        <li>You can use your action to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.</li>
-      </ul>
-    </description>
-    <setters>
-      <set name="keywords">cold,fire</set>
-      <set name="level">6</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
-      <set name="range">Selbst</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Investiture of Stone" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_INVESTITURE_OF_STONE">
-    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
-    <description>
-      <p>Until the spell ends, bits of rock spread across your body, and you gain the following benefits:</p>
-      <ul>
-        <li>You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.</li>
-        <li>You can use your action to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked prone.</li>
-        <li>You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can't end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are stunned until the end of your next turn.</li>
-      </ul>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">6</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
-      <set name="range">Selbst</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Investiture of Wind" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_INVESTITURE_OF_WIND">
-    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
-    <description>
-      <p>Until the spell ends, wind whirls around you, and you gain the following benefits.</p>
-      <ul>
-        <li>Ranged weapon attacks made against you have disadvantage on the attack roll.</li>
-        <li>You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can somehow prevent it.</li>
-        <li>You can use your action to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 2d10 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube.</li>
-      </ul>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">6</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
-      <set name="range">Selbst</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
   <element name="Invulnerability" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_INVULNERABILITY">
     <supports>Wizard</supports>
     <description>
@@ -1165,7 +1354,7 @@
       <set name="level">9</set>
       <set name="school">Abjuration</set>
       <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
       <set name="range">Selbst</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">true</set>
@@ -1207,7 +1396,7 @@
       <set name="level">8</set>
       <set name="school">Evocation</set>
       <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
       <set name="range">150 feet</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">false</set>
@@ -1316,32 +1505,12 @@
       <set name="level">3</set>
       <set name="school">Evocation</set>
       <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
       <set name="range">Selbst</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">true</set>
       <set name="hasMaterialComponent">true</set>
       <set name="materialComponent">niter, sulfur, and pine tar formed into a bead</set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Mental Prison" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_MENTAL_PRISON">
-    <supports>Sorcerer, Warlock, Wizard</supports>
-    <description>
-      <p>You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being charmed. On a successful save, the target takes 5d10 psychic damage, and the spell ends. On a failed save, the target takes 5d10 psychic damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target can't see or hear anything beyond it and is restrained for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes 10d10 psychic damage, and the spell ends.</p>
-    </description>
-    <setters>
-      <set name="keywords">psychic</set>
-      <set name="level">6</set>
-      <set name="school">Illusion</set>
-      <set name="time">1 actoin</set>
-      <set name="duration">Konzentration, bis zu 1 Minute</set>
-      <set name="range">18 m / 12 Felder</set>
-      <set name="hasVerbalComponent">false</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
       <set name="isConcentration">true</set>
       <set name="isRitual">false</set>
     </setters>
@@ -1368,53 +1537,6 @@
       <set name="hasSomaticComponent">true</set>
       <set name="hasMaterialComponent">true</set>
       <set name="materialComponent">a diamond worth at least 500 gp, which the spell consumes</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Mind Spike" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_MIND_SPIKE">
-    <supports>Sorcerer, Warlock, Wizard</supports>
-    <description>
-      <p>You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking 3d8 psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it's invisible, it gains no benefit from that condition against you.</p>
-      <p class="indent"><b><i>Auf höheren Graden:</i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>
-    </description>
-    <setters>
-      <set name="keywords">psychic</set>
-      <set name="level">2</set>
-      <set name="school">Divination</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Konzentration, bis zu 1 Stunde</set>
-      <set name="range">18 m / 12 Felder</set>
-      <set name="hasVerbalComponent">false</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Mold Earth" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_MOLD_EARTH">
-    <supports>Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)</supports>
-    <description>
-      <p>You choose a portion of dirt or stone that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways.</p>
-      <ul>
-        <li>If you target an area of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn't have enough force to cause damage.</li>
-        <li>You cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. The changes last for 1 hour.</li>
-        <li>If the dirt or stone you target is on the ground, you cause it to become difficult terrain. Alternatively, you can cause the ground to become normal terrain if it is already difficult terrain. This change lasts for 1 hour.</li>
-      </ul>
-      <p class="indent">If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">0</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Instantaneous or 1 hour (see below)</set>
-      <set name="range">9 m / 6 Felder</set>
-      <set name="hasVerbalComponent">false</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
       <set name="isConcentration">false</set>
       <set name="isRitual">false</set>
     </setters>
@@ -1526,28 +1648,6 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
-  <element name="Pyrotechnics" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_PYROTECHNICS">
-    <supports>Bard, Sorcerer, Wizard, Artificer</supports>
-    <description>
-      <p>Choose an area of nonmagical flame that you can see and that can fit within a 5-foot cube within range. You can extinguish the fire in that area, and you create either fireworks or smoke.</p>
-      <p class="indent">Fireworks: The target explodes with a dazzling display of colors. Each creature within 10 feet of the target must succeed on a Constitution saving throw or become blinded until the end of your next turn.</p>
-      <p class="indent">Smoke: Thick black smoke spreads out from the target in a 20-foot radius, moving around corners. The area of the smoke is heavily obscured. The smoke persists for 1 minute or until a strong wind disperses it.</p>
-    </description>
-    <setters>
-      <set name="keywords">fire</set>
-      <set name="level">2</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Unmittelbar</set>
-      <set name="range">18 m / 12 Felder</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
   <element name="Scatter" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_SCATTER">
     <supports>Sorcerer, Warlock, Wizard</supports>
     <description>
@@ -1649,78 +1749,13 @@
       <set name="level">4</set>
       <set name="school">Evocation</set>
       <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
       <set name="range">36 m / 24 Felder</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">true</set>
       <set name="hasMaterialComponent">false</set>
       <set name="materialComponent"></set>
       <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Skill Empowerment" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_SKILL_EMPOWERMENT">
-    <supports>Bard, Sorcerer, Wizard, Artificer</supports>
-    <description>
-      <p>Your magic deepens a creature's understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.</p>
-      <p class="indent">You must choose a skill in which the target is proficient and that isn't already benefiting from an effect, such as Expertise, that doubles its proficiency bonus.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">5</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Konzentration, bis zu 1 Stunde</set>
-      <set name="range">Berührung</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Skywrite" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_SKYWRITE">
-    <supports>Bard, Druid, Wizard, Artificer</supports>
-    <description>
-      <p>You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell's duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">2</set>
-      <set name="school">Transmutation</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Konzentration, bis zu 1 Stunde</set>
-      <set name="range">Sight</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">false</set>
-      <set name="materialComponent"></set>
-      <set name="isConcentration">true</set>
-      <set name="isRitual">true</set>
-    </setters>
-  </element>
-  <element name="Snare" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_SNARE">
-    <supports>Druid, Ranger, Wizard, Artificer</supports>
-    <description>
-      <p>As you cast this spell, you use the rope to create a circle with a 5-foot radius on the ground or the floor. When you finish casting, the rope disappears and the circle becomes a magic trap.</p>
-      <p class="indent">This trap is nearly invisible, requiring a successful Intelligence (Investigation) check against your spell save DC to be discerned.</p>
-      <p class="indent">The trap triggers when a Small, Medium, or Large creature moves onto the ground or the floor in the spell's radius. That creature must succeed on a Dexterity saving throw or be magically hoisted into the air, leaving it hanging upside down 3 feet above the ground or the floor. The creature is restrained there until the spell ends.</p>
-      <p class="indent">A restrained creature can make a Dexterity saving throw at the end of each of its turns, ending the effect on itself on a success. Alternatively, the creature or someone else who can reach it can use an action to make an Intelligence (Arcana) check against your spell save DC. On a success, the restrained effect ends.</p>
-      <p class="indent">After the trap is triggered, the spell ends when no creature is restrained by it.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">1</set>
-      <set name="school">Abjuration</set>
-      <set name="time">1 minute</set>
-      <set name="duration">8 hours</set>
-      <set name="range">Berührung</set>
-      <set name="hasVerbalComponent">false</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">25 feet of rope, which the spell consumes</set>
-      <set name="isConcentration">false</set>
       <set name="isRitual">false</set>
     </setters>
   </element>
@@ -1883,34 +1918,13 @@
       <set name="level">6</set>
       <set name="school">Transmutation</set>
       <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
       <set name="range">Selbst</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">true</set>
       <set name="hasMaterialComponent">true</set>
       <set name="materialComponent">a few hairs from a bull</set>
       <set name="isConcentration">true</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-
-  <element name="Tidal Wave" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_TIDAL_WAVE">
-    <supports>Druid, Sorcerer, Wizard</supports>
-    <description>
-      <p>You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failure, a creature takes 4d8 bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone. The water then spreads out across the ground in all directions, extinguishing unprotected flames within 30 feet of it, and then it vanishes.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">3</set>
-      <set name="school">Conjuration</set>
-      <set name="time">1 Aktion</set>
-      <set name="duration">Unmittelbar</set>
-      <set name="range">36 m / 24 Felder</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">true</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a drop of water</set>
-      <set name="isConcentration">false</set>
       <set name="isRitual">false</set>
     </setters>
   </element>
@@ -1997,7 +2011,7 @@
       <set name="level">5</set>
       <set name="school">Evocation</set>
       <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
       <set name="range">36 m / 24 Felder</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">true</set>
@@ -2017,7 +2031,7 @@
       <set name="level">3</set>
       <set name="school">Evocation</set>
       <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
       <set name="range">27 m / 18 Felder</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">true</set>
@@ -2038,7 +2052,7 @@
       <set name="level">3</set>
       <set name="school">Evocation</set>
       <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
       <set name="range">18 m / 12 Felder</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">true</set>
@@ -2066,7 +2080,7 @@
       <set name="level">2</set>
       <set name="school">Evocation</set>
       <set name="time">1 Aktion</set>
-      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="duration">Konzentration, bis zu 10 Minuten</set>
       <set name="range">Selbst</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">false</set>
@@ -2113,7 +2127,7 @@
       <set name="school">Evocation</set>
       <set name="time">1 Aktion</set>
       <set name="duration">Konzentration, bis zu 1 Minute</set>
-      <set name="range">300 feet</set>
+      <set name="range">90 m / 60 Felder</set>
       <set name="hasVerbalComponent">true</set>
       <set name="hasSomaticComponent">false</set>
       <set name="hasMaterialComponent">true</set>
