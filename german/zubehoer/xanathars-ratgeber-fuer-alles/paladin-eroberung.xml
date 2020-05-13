@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Schwur der Läuterung</name>
+		<description>Der Schwur der Eroberung aus Xanathars Ratgeber für Alles</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathars Ratgeber für alles</author>
+		<update version="0.0.1">
+			<file name="paladin-eroberung.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/zubehoer/xanathars-ratgeber-fuer-alles/paladin-eroberung.xml" />
+		</update>
+	</info>
+  <element name="Schwur der Eroberung" type="Archetype" source="Xanathars Ratgeber für Alles" id="ID_WOTC_XGTE_ARCHETYPE_OATH_OF_CONQUEST">
+    <supports>Heiliger Schwur</supports>
+    <description>
+      <p>Der Schwur der Eroberung ist die Bestimmung jener Paladine, die nach Ruhm im Kampf und der Unterwerfung ihrer Feinde streben. Diesen Paladinen genügt es nicht, einfach nur die Ordnung zu wahren. Sie müssen die Mächte des Chaos restlos vernichten. Manchmal auch Tyrannenritter oder Eisenhändler genannt, sind jene, die diesen Schwur leisten, in strengen Orden organisiert, die den Göttern oder Philosophien des Krieges und der geordneten Macht dienen.</p>
+      <p class="indent">Einige dieser Paladine schließen sich sogar mit den Mächten der Neun Höllen zusammen, weil sie die Herrschaft des Gesetzes höher schätzen als das Geschenk der Gnade. Der Erzteufel Bel, Kriegsherr von Avernus, zählt viele dieser Paladine - Höllenritter genannt - zu seinen ergebensten Dienern. Höllenritter schmücken ihre Rüstungen mit Trophäen, die von gefallenen Feinden stammen, eine finstere Warnung für all jene, die es wagen, sich ihnen und den Geboten ihrer Herren zu widersetzen. Die erbittertsten Gegner dieser Ritter sind oft andere Paladine dieses Schwurs, die der Überzeugung sind, dass die Höllenritter zu weit auf den Pfaden der Dunkelheit gewandelt sind.</p>
+      <h5>LEHREN DER EROBERUNG</h5>
+      <p>Einem Paladin, der diesen Schwur ablegt, werden die Lehren der Eroberung auf den Oberarm eingebrannt.</p>
+      <p class="indent"><strong><em>Die Flamme der Hoffnung ersticken:</em></strong> Es ist nicht genug, einen Feind lediglich im Kampf zu besiegen. Du musst ihm eine so vernichtende Niederlage beibringen, dass der Kampfeswille deines Gegners gebrochen wird. Eine Klinge kann Leben zerstören. Angst kann Imperien zerstören.</p>
+      <p class="indent"><strong><em>Mit eiserner Faust herrschen:</em></strong> Nach der Eroberung darfst du keinen Widerstand dulden. Dein Wort ist Gesetz. Jene, die Folge leisten, werden belohnt. Jene, die sich widersetzen, werden bestraft, als Abschreckung für jene, die ihrem Beispiel folgen würden.</p>
+      <p class="indent"><strong><em>Das Gesetz des Stärkeren:</em></strong> Du wirst herrschen, bis jemand kommt, der stärker ist. Dann musst du mächtiger werden oder du wirst untergehen.</p>
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_OATH_SPELLS" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_CHANNEL_DIVINITY" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_AURA_OF_CONQUEST" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_SCORNFUL_REBUKE" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_INVINCIBLE_CONQUEROR" />
+    </description>
+    <sheet display="false">
+      <description>Der Schwur der Eroberung ruft Paladine auf, die im Kampf Ruhm und die Unterwerfung ihrer Feinde suchen.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_OATH_SPELLS" level="1" />
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_CHANNEL_DIVINITY" level="3" />
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_AURA_OF_CONQUEST" level="7" />
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_SCORNFUL_REBUKE" level="15" />
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_INVINCIBLE_CONQUEROR" level="20" />
+    </rules>
+  </element>
+  <element name="Schwurzauber" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_OATH_SPELLS">
+    <description>
+      <p>Du erhältst Schwurzauber auf bestimmten Paladinstufen, so wie in der Zaubertabelle des Schwurs der Eroberung vermerkt. Siehe das Klassenmerkmal Heiliger Schwur für eine Erklärung, wie Schwurzauber funktionieren.</p>
+      <h5>SCHWURZAUBER DER EROBERUNG</h5>
+      <table>
+        <thead>
+					<tr><td>Paladinstufe</td><td>Zauber</td></tr>
+        </thead>
+        <tr><td>3</td><td><em>Rüstung von Agathys, Befehl</em></td></tr>
+        <tr><td>5</td><td><em>Person festhalten, Waffe des Glaubens</em></td></tr>
+        <tr><td>9</td><td><em>Fluch, Furcht</em></td></tr>
+        <tr><td>13</td><td><em>Tier beherrschen, Steinhaut</em></td></tr>
+        <tr><td>17</td><td><em>Todeswolke, Person beherrschen</em></td></tr>
+      </table>
+    </description>
+    <sheet display="false">
+      <description>Auf den angegebenen Paladinstufen erhältst du die folgenden Schwurzauber.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" level="3" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="3" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SPIRITUAL_WEAPON" level="5" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" level="9" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FEAR" level="9" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DOMINATE_BEAST" level="13" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="13" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CLOUDKILL" level="17" spellcasting="Paladin" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" level="17" spellcasting="Paladin" prepared="true" />
+    </rules>
+  </element>
+  <element name="Göttliche Macht fokussieren" type="Archetype Feature" source="Xanathars Ratgeber für Alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_CHANNEL_DIVINITY">
+    <description>
+      <p>Wenn du auf der 3. Stufe diesen Schwur ablegst, erlernst du die folgenden zwei Wege, Göttliche Macht zu fokussieren.</p>
+      <p class="indent"><strong><em>Präsenz des Eroberers:</em></strong> Du kannst deine Göttliche Macht fokussieren, um eine schreckenserregende Präsenz auszustrahlen. Als eine Aktion zwingst du jede Kreatur deiner Wahl, die du innerhalb von 9 m um dich herum sehen kannst, einen Weisheitsrettungswurf abzulegen. Bei einem gescheiterten Wurf fürchtet sich die Kreatur vor dir und erhält 1 Minute lang den Zustand verängstigt. Die verängstigte Kreatur kann diesen Rettungswurf am Ende jedes ihrer Züge wiederholen und den auf ihr liegenden Effekt bei einem erfolgreichen Wurf beenden.</p>
+      <p class="indent"><strong><em>Geführter Schlag:</em></strong> Du kannst deine Göttliche Macht fokussieren, um einen Schlag mit übernatürlicher Treffsicherheit auszuführen. Wenn du einen Angriffswurf ausführst, kannst du deine Göttliche Macht fokussieren, um einen Bonus von + 10 auf den Wurf zu erhalten. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfes gesehen hast, aber bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</p>
+    </description>
+    <sheet display="false" />
+	<rules>
+		<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_CHANNEL_DIVINITY_CONQUERING_PRESENCE" />
+		<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_CHANNEL_DIVINITY_GUIDED_STRIKE" />
+	</rules>
+  </element>
+  <element name="Göttliche Macht fokussieren: Präsenz des Eroberers" type="Archetype Feature" source="Xanathars Ratgeber für Alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_CHANNEL_DIVINITY_CONQUERING_PRESENCE">
+    <description>
+      <p>Du kannst deine Göttliche Macht fokussieren, um eine schreckenserregende Präsenz auszustrahlen. Als eine Aktion zwingst du jede Kreatur deiner Wahl, die du innerhalb von 9 m um dich herum sehen kannst, einen Weisheitsrettungswurf abzulegen. Bei einem gescheiterten Wurf fürchtet sich die Kreatur vor dir und erhält 1 Minute lang den Zustand verängstigt. Die verängstigte Kreatur kann diesen Rettungswurf am Ende jedes ihrer Züge wiederholen und den auf ihr liegenden Effekt bei einem erfolgreichen Wurf beenden.</p>
+    </description>
+    <sheet alt="Präsenz des Eroberers" action="Aktion" usage="Göttliche Macht fokussieren">
+      <description>Du strahlst eine schreckenserregende Präsenz aus. Jede Kreatur deiner Wahl, die du innerhalb von 9 m um dich herum sehen kannst, einen Weisheitsrettungswurf abzulegen. Bei einem gescheiterten Wurf fürchtet sich die Kreatur vor dir und erhält 1 Minute lang den Zustand verängstigt. Die verängstigte Kreatur kann diesen Rettungswurf am Ende jedes ihrer Züge wiederholen und den auf ihr liegenden Effekt bei einem erfolgreichen Wurf beenden.</description>
+    </sheet>
+  </element>
+  <element name="Göttliche Macht fokussieren: Geführter Schlag" type="Archetype Feature" source="Xanathars Ratgeber für Alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_CHANNEL_DIVINITY_GUIDED_STRIKE">
+    <description>
+      <p>Du kannst deine Göttliche Macht fokussieren, um einen Schlag mit übernatürlicher Treffsicherheit auszuführen. Wenn du einen Angriffswurf ausführst, kannst du deine Göttliche Macht fokussieren, um einen Bonus von + 10 auf den Wurf zu erhalten. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfes gesehen hast, aber bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</p>
+    </description>
+    <sheet alt="Geführter Schlag" usage="Göttliche Macht fokussieren">
+      <description>Wenn du einen Angriffswurf ausführst, kannst du deine Göttliche Macht fokussieren, um einen Bonus von + 10 auf den Wurf zu erhalten. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfes gesehen hast, aber bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</description>
+    </sheet>
+  </element>
+  <element name="Aura der Eroberung" type="Archetype Feature" source="Xanathars Ratgeber für Alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_AURA_OF_CONQUEST">
+    <description>
+      <p>Ab der 7. Stufe umgibt dich stets eine bedrohliche Aura, solange du nicht kampfunfähig bist. Mit dir im Mittelpunkt erstreckt sich die Aura 3 m nach allen Seiten, aber nicht durch vollständige Deckung hindurch.</p>
+      <p class="indent">Wenn eine Kreatur von dir verängstigt ist, wird ihre Bewegungsrate in der Aura auf 0 reduziert, und die Kreatur erleidet psychischen Schaden in Höhe deiner halben Paladinstufe, wenn sie ihren Zug in der Aura beginnt.</p>
+      <p class="indent">Auf der 18. Stufe vergrößert sich die Reichweite der Aura auf 9 m.</p>
+    </description>
+    <sheet>
+      <description>Wenn eine Kreatur innerhalb von {{aura of conquest:aura}} Meter von dir verängstigt ist, wird ihre Bewegungsrate in der Aura auf 0 reduziert, und die Kreatur erleidet {{aura of conquest:damage}} psychischen Schaden, wenn sie ihren Zug in der Aura beginnt.</description>
+    </sheet>
+    <rules>
+      <stat name="aura of conquest:aura" value="3" bonus="aura of the guardian" />
+      <stat name="aura of conquest:aura" value="9" bonus="aura of the guardian" level="18" />
+      <stat name="aura of conquest:damage" value="level:paladin:half" />
+    </rules>
+  </element>
+  <element name="Scharfer Tadel" type="Archetype Feature" source="Xanathars Ratgeber für Alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_SCORNFUL_REBUKE">
+    <description>
+      <p>Beginnend mit der 15. Stufe werden jene, die es wagen, dich anzugreifen, mental für ihre Unverfrorenheit bestraft. Immer, wenn eine Kreatur dich mit einem Angriff trifft, erleidet diese Kreatur psychischen Schaden in Höhe deines Charismamodifikators (mindestens 1), falls du nicht kampfunfähig bist.</p>
+    </description>
+    <sheet>
+      <description>Immer, wenn eine Kreatur dich mit einem Angriff trifft, erleidet diese Kreatur {{scornful rebuke:damage} psychischen Schaden, falls du nicht kampfunfähig bist.</description>
+    </sheet>
+    <rules>
+      <stat name="scornful rebuke:damage" value="charisma:modifier" />
+    </rules>
+  </element>
+  <element name="Unbezwingbarer Eroberer" type="Archetype Feature" source="Xanathars Ratgeber für Alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_INVINCIBLE_CONQUEROR">
+    <description>
+      <p>Auf der 20. Stufe erhältst du die Fähigkeit, dir außerordentliches kriegerisches Können zunutze zu machen. Als eine Aktion kannst du magisch zu einem Avatar der Eroberung werden und erhältst 1 Minute lang die folgenden Vorzüge:</p>
+      <ul>
+        <li>Du erhältst Resistenz gegen jedweden Schaden.</li>
+        <li>Wenn du in deinem Zug die Angriffsaktion ausführst, kannst du als Teil dieser Aktion einen zusätzlichen Angriff ausführen.</li>
+        <li>Deine Angriffe mit Nahkampfwaffen erzielen einen kritischen Treffer bei einem Würfelergebnis von 19 oder 20 auf dem W20.</li>
+      </ul>
+      <p>Nachdem du dieses Merkmal genutzt hast, kannst du es nicht verwenden, bis du eine lange Rast beendet hast.</p>
+    </description>
+    <sheet action="Aktion" usage="Lange Rast">
+      <description>Du wirst für 1 Minute zu einem Avatar der Eroberung und erhältst die folgenden Vorzüge: Resistenz gegen jedweden Schaden, wenn du in deinem Zug die Angriffsaktion ausführst, kannst du als Teil dieser Aktion einen zusätzlichen Angriff ausführen, deine Angriffe mit Nahkampfwaffen erzielen einen kritischen Treffer bei einem Würfelergebnis von 19 oder 20 auf dem W20.</description>
+    </sheet>
+  </element>
+</elements>
