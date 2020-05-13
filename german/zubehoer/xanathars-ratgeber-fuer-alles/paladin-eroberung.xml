@@ -4,7 +4,7 @@
 		<name>Schwur der Läuterung</name>
 		<description>Der Schwur der Eroberung aus Xanathars Ratgeber für Alles</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathars Ratgeber für alles</author>
-		<update version="0.0.1">
+		<update version="0.0.3">
 			<file name="paladin-eroberung.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/zubehoer/xanathars-ratgeber-fuer-alles/paladin-eroberung.xml" />
 		</update>
 	</info>
@@ -35,7 +35,7 @@
       <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_INVINCIBLE_CONQUEROR" level="20" />
     </rules>
   </element>
-  <element name="Schwurzauber" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_OATH_SPELLS">
+  <element name="Schwurzauber" type="Archetype Feature" source="Xanathars Ratgeber für Alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_OATH_SPELLS">
     <description>
       <p>Du erhältst Schwurzauber auf bestimmten Paladinstufen, so wie in der Zaubertabelle des Schwurs der Eroberung vermerkt. Siehe das Klassenmerkmal Heiliger Schwur für eine Erklärung, wie Schwurzauber funktionieren.</p>
       <h5>SCHWURZAUBER DER EROBERUNG</h5>
@@ -70,7 +70,7 @@
     <description>
       <p>Wenn du auf der 3. Stufe diesen Schwur ablegst, erlernst du die folgenden zwei Wege, Göttliche Macht zu fokussieren.</p>
       <p class="indent"><strong><em>Präsenz des Eroberers:</em></strong> Du kannst deine Göttliche Macht fokussieren, um eine schreckenserregende Präsenz auszustrahlen. Als eine Aktion zwingst du jede Kreatur deiner Wahl, die du innerhalb von 9 m um dich herum sehen kannst, einen Weisheitsrettungswurf abzulegen. Bei einem gescheiterten Wurf fürchtet sich die Kreatur vor dir und erhält 1 Minute lang den Zustand verängstigt. Die verängstigte Kreatur kann diesen Rettungswurf am Ende jedes ihrer Züge wiederholen und den auf ihr liegenden Effekt bei einem erfolgreichen Wurf beenden.</p>
-      <p class="indent"><strong><em>Geführter Schlag:</em></strong> Du kannst deine Göttliche Macht fokussieren, um einen Schlag mit übernatürlicher Treffsicherheit auszuführen. Wenn du einen Angriffswurf ausführst, kannst du deine Göttliche Macht fokussieren, um einen Bonus von + 10 auf den Wurf zu erhalten. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfes gesehen hast, aber bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</p>
+      <p class="indent"><strong><em>Geführter Schlag:</em></strong> Du kannst deine Göttliche Macht fokussieren, um einen Schlag mit übernatürlicher Treffsicherheit auszuführen. Wenn du einen Angriffswurf ausführst, kannst du deine Göttliche Macht fokussieren, um einen Bonus von +10 auf den Wurf zu erhalten. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfes gesehen hast, aber bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</p>
     </description>
     <sheet display="false" />
 	<rules>
@@ -88,10 +88,10 @@
   </element>
   <element name="Göttliche Macht fokussieren: Geführter Schlag" type="Archetype Feature" source="Xanathars Ratgeber für Alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_CHANNEL_DIVINITY_GUIDED_STRIKE">
     <description>
-      <p>Du kannst deine Göttliche Macht fokussieren, um einen Schlag mit übernatürlicher Treffsicherheit auszuführen. Wenn du einen Angriffswurf ausführst, kannst du deine Göttliche Macht fokussieren, um einen Bonus von + 10 auf den Wurf zu erhalten. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfes gesehen hast, aber bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</p>
+      <p>Du kannst deine Göttliche Macht fokussieren, um einen Schlag mit übernatürlicher Treffsicherheit auszuführen. Wenn du einen Angriffswurf ausführst, kannst du deine Göttliche Macht fokussieren, um einen Bonus von +10 auf den Wurf zu erhalten. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfes gesehen hast, aber bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</p>
     </description>
     <sheet alt="Geführter Schlag" usage="Göttliche Macht fokussieren">
-      <description>Wenn du einen Angriffswurf ausführst, kannst du deine Göttliche Macht fokussieren, um einen Bonus von + 10 auf den Wurf zu erhalten. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfes gesehen hast, aber bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</description>
+      <description>Wenn du einen Angriffswurf ausführst, kannst du deine Göttliche Macht fokussieren, um einen Bonus von +10 auf den Wurf zu erhalten. Du triffst diese Entscheidung, nachdem du das Ergebnis des Wurfes gesehen hast, aber bevor der SL dir mitteilt, ob der Angriff getroffen oder verfehlt hat.</description>
     </sheet>
   </element>
   <element name="Aura der Eroberung" type="Archetype Feature" source="Xanathars Ratgeber für Alles" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_OATH_OF_CONQUEST_AURA_OF_CONQUEST">
