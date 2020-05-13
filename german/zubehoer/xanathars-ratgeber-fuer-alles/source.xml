@@ -5,7 +5,7 @@
 			<file name="source.xml" url="https://raw.githubusercontent.com/fenaldar/elements/german/german/zubehoer/xanathars-ratgeber-fuer-alles/source.xml" />
 		</update>
 	</info>
-	<element name="Xanathars Ratgeber für alles" type="Source" source="Core" id="ID_WOTC_SOURCE_XANATHARS_GUIDE_TO_EVERYTHING">
+	<element name="Xanathars Ratgeber für Alles" type="Source" source="Core" id="ID_WOTC_SOURCE_XANATHARS_GUIDE_TO_EVERYTHING">
 		<description>
 	   <![CDATA[<p><strong>Schönheit und Arglist liegen im Auge des Betrachters!</strong></p>
 	 	 <p>Der Betrachter Xanathar, der berüchtigtste Verbrecherfürst von Tiefwasser, ist bekannt dafür, Informationen über seine Freunde und Feinde zu horten. Er katalogisiert Wissen über Abenteurer und sinnt darüber nach, wie er sie aufhalten kann. Sein verdrehter Verstand stellt sich sogar vor, letztendlich absolut alles aufzuzeichnen!</p>
