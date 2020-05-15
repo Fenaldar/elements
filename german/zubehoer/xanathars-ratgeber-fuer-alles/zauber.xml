@@ -1542,7 +1542,7 @@
         <set name="isRitual">false</set>
       </setters>
     </element>
-    <element name="Dawn" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_DAWN">
+    <element name="Sonnenaufgang" type="Spell" source="Xanathars Ratgeber für Alles" id="ID_XGTE_SPELL_DAWN">
       <supports>Cleric, Wizard</supports>
       <description>
         <p>Das Licht des Sonnenaufgangs scheint auf einen von dir be­stimmten Ort innerhalb der Reichweite. Bis zum Ende des Zaubers schimmert dort ein 12 m hoher Zylinder aus hellem Licht mit 9 m Radius. Dieses Licht ist Sonnenlicht.</p>
